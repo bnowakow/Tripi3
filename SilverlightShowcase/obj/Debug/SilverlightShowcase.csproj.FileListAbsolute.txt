@@ -14,3 +14,13 @@ C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\Silverl
 C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\Microsoft.Maps.MapControl.Common.xml
 C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\Microsoft.Maps.MapControl.dll
 C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\Microsoft.Maps.MapControl.xml
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\System.Xml.Serialization.dll
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\System.Xml.Serialization.xml
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\de\System.Xml.Serialization.resources.dll
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\es\System.Xml.Serialization.resources.dll
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\fr\System.Xml.Serialization.resources.dll
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\it\System.Xml.Serialization.resources.dll
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\ja\System.Xml.Serialization.resources.dll
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\ko\System.Xml.Serialization.resources.dll
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\zh-Hans\System.Xml.Serialization.resources.dll
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\zh-Hant\System.Xml.Serialization.resources.dll

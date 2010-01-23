@@ -1,6 +1,8 @@
-﻿<xapCache source="C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\SilverlightShowcase.xap" lastWriteTime="2010-01-23 22:06:44">
-  <file source="C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\obj\Debug\SilverlightShowcase.dll" archivePath="SilverlightShowcase.dll" lastWriteTime="2010-01-23 22:06:42" />
+﻿<xapCache source="C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\SilverlightShowcase.xap" lastWriteTime="2010-01-24 00:15:19">
+  <file source="C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\obj\Debug\SilverlightShowcase.dll" archivePath="SilverlightShowcase.dll" lastWriteTime="2010-01-24 00:15:18" />
   <file source="C:\Program Files\Bing Maps Silverlight Control\V1\Libraries\Microsoft.Maps.MapControl.Common.dll" archivePath="Microsoft.Maps.MapControl.Common.dll" lastWriteTime="2009-12-03 16:00:24" />
   <file source="C:\Program Files\Bing Maps Silverlight Control\V1\Libraries\Microsoft.Maps.MapControl.dll" archivePath="Microsoft.Maps.MapControl.dll" lastWriteTime="2009-12-03 16:00:24" />
-  <file source="C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2010-01-23 22:06:44" />
+  <file source="C:\Program Files\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\System.Xml.Serialization.dll" archivePath="System.Xml.Serialization.dll" lastWriteTime="2009-08-17 23:35:44" />
+  <file source="C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\ServiceReferences.ClientConfig" archivePath="ServiceReferences.ClientConfig" lastWriteTime="2010-01-23 23:44:51" />
+  <file source="C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2010-01-24 00:14:41" />
 </xapCache>

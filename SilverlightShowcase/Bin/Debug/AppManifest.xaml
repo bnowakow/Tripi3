@@ -3,5 +3,6 @@
     <AssemblyPart x:Name="SilverlightShowcase" Source="SilverlightShowcase.dll" />
     <AssemblyPart x:Name="Microsoft.Maps.MapControl.Common" Source="Microsoft.Maps.MapControl.Common.dll" />
     <AssemblyPart x:Name="Microsoft.Maps.MapControl" Source="Microsoft.Maps.MapControl.dll" />
+    <AssemblyPart x:Name="System.Xml.Serialization" Source="System.Xml.Serialization.dll" />
   </Deployment.Parts>
 </Deployment>
