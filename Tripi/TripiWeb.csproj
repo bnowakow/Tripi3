@@ -90,8 +90,6 @@
     <Content Include="images\img15.jpg" />
     <Content Include="images\spacer.gif" />
     <Content Include="Silverlight.js" />
-    <Content Include="SilverlightShowcaseTestPage.aspx" />
-    <Content Include="SilverlightShowcaseTestPage.html" />
     <Content Include="style.css" />
     <Content Include="TwoColumnsWithFooter.Master" />
   </ItemGroup>

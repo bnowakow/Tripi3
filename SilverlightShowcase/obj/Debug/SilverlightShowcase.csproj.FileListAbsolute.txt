@@ -10,3 +10,7 @@ C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\Silverl
 C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\obj\Debug\SilverlightShowcase.dll
 C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\obj\Debug\SilverlightShowcase.pdb
 C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\obj\Debug\XapCacheFile.xml
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\Microsoft.Maps.MapControl.Common.dll
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\Microsoft.Maps.MapControl.Common.xml
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\Microsoft.Maps.MapControl.dll
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\Microsoft.Maps.MapControl.xml

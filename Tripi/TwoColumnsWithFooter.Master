@@ -32,13 +32,6 @@ Released   : 20090918
         </asp:ContentPlaceHolder>
     </title>
     <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
-    <style type="text/css">
-        #silverlightControlHost
-        {
-            height: 100px;
-            text-align: center;
-        }
-    </style>
 
     <script type="text/javascript" src="Silverlight.js"></script>
 

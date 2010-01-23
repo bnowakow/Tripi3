@@ -12,7 +12,7 @@
             srebrna strzała like mknie!</p>
         <div class="entry">
             <form id="form2" style="height: 100%">
-            <div id="silverlightControlHost">
+            <div style="height: 300px;">
                 <object data="data:application/x-silverlight-2," type="application/x-silverlight-2"
                     width="100%" height="100%">
                     <param name="source" value="ClientBin/SilverlightShowcase.xap" />

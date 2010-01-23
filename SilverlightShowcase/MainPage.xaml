@@ -2,8 +2,16 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-    mc:Ignorable="d" d:DesignWidth="640" d:DesignHeight="480">
-  <Grid x:Name="LayoutRoot">
-        <Button x:Name="MyButt" Content="Push!" Width="100" Height="50" />
-  </Grid>
+    xmlns:m="clr-namespace:Microsoft.Maps.MapControl;assembly=Microsoft.Maps.MapControl"
+    >
+    <Grid x:Name="LayoutRoot" ShowGridLines="True">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Button x:Name="MyButt" Content="Push!" Width="100" Height="50" Grid.Row="0" />
+        <m:Map CredentialsProvider="AsYbfxsWZOLK1J1xU5a3R9Hp1t79IGbPWCrpP3S4MHETwW2bQS89YQSa8XgkP9aq" Grid.Row="1" />
+
+    </Grid>
 </UserControl>
