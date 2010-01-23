@@ -1,0 +1,142 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="OneColumnWithFooter.master.cs" Inherits="Tripi.OneColumnWithFooter" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+
+Design by Free CSS Templatess
+
+http://www.freecsstemplates.org
+
+Released for free under a Creative Commons Attribution 2.5 License
+
+
+
+Name       : EarthlingTwo  
+
+Description: A two-column, fixed-width design with dark color scheme.
+
+Version    : 1.0
+
+Released   : 20090918
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head" runat="server">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>
+        <asp:ContentPlaceHolder ID="Title" runat="server">
+            Tripi
+        </asp:ContentPlaceHolder>
+    </title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    <style type="text/css" media="screen">
+    #content {
+        width: auto;
+    }
+    </style>
+    <script type="text/javascript" src="Silverlight.js"></script>
+
+    <script type="text/javascript">
+        function onSilverlightError(sender, args) {
+            var appSource = "";
+            if (sender != null && sender != 0) {
+                appSource = sender.getHost().Source;
+            }
+
+            var errorType = args.ErrorType;
+            var iErrorCode = args.ErrorCode;
+
+            if (errorType == "ImageError" || errorType == "MediaError") {
+                return;
+            }
+
+            var errMsg = "Unhandled Error in Silverlight Application " + appSource + "\n";
+
+            errMsg += "Code: " + iErrorCode + "    \n";
+            errMsg += "Category: " + errorType + "       \n";
+            errMsg += "Message: " + args.ErrorMessage + "     \n";
+
+            if (errorType == "ParserError") {
+                errMsg += "File: " + args.xamlFile + "     \n";
+                errMsg += "Line: " + args.lineNumber + "     \n";
+                errMsg += "Position: " + args.charPosition + "     \n";
+            }
+            else if (errorType == "RuntimeError") {
+                if (args.lineNumber != 0) {
+                    errMsg += "Line: " + args.lineNumber + "     \n";
+                    errMsg += "Position: " + args.charPosition + "     \n";
+                }
+                errMsg += "MethodName: " + args.methodName + "     \n";
+            }
+
+            throw new Error(errMsg);
+        }
+    </script>
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div id="logo">
+                <h1>
+                    <a href="#">EarthlingTwo</a></h1>
+                <p>
+                    by <a href="http://www.nodethirtythree.com">nodethirtythree</a> + <a href="http://www.freecsstemplates.org/">
+                        fct</a></p>
+            </div>
+        </div>
+        <!-- end #header -->
+        <div id="menu">
+            <ul>
+                <li class="current_page_item"><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <!-- end #menu -->
+        <div id="page">
+            <div id="content">
+                <asp:ContentPlaceHolder ID="Content" runat="server">
+                </asp:ContentPlaceHolder>
+                <div style="clear: both;">
+                    &nbsp;</div>
+            </div>
+            <!-- end #content -->
+            <div style="clear: both;">
+                &nbsp;</div>
+        </div>
+        <!-- end #page -->
+    </div>
+    <div id="footer-content">
+        <div class="column1">
+            <h2>
+                Volutpat quisque sed et aliquam</h2>
+            <p>
+                <strong>Maecenas ut ante</strong> eu velit laoreet tempor accumsan vitae nibh. Aenean
+                commodo, tortor eu porta convolutpat elementum. Proin fermentum molestie erat eget
+                vehicula. Aenean eget tellus mi. Fusce scelerisque odio quis ante bibendum sollicitudin.
+                Suspendisse potenti. Vivamus quam odio, facilisis at ultrices nec, sollicitudin
+                ac risus. Donec ut odio ipsum, sed tincidunt. <a href="#">Learn more&#8230;</a></p>
+        </div>
+        <div class="column2">
+            <ul class="list">
+                <li><a href="#">Tempor accumsan vitae sed nibh dolore</a></li>
+                <li><a href="#">Aenean commodo, tortor eu porta veroeros</a></li>
+                <li><a href="#">Fermentum molestie erat eget consequat</a></li>
+                <li><a href="#">Donec vestibulum interdum diam etiam</a></li>
+                <li><a href="#">Vehicula aenean eget sed tellus blandit</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer">
+        <p>
+            (c) 2009 Sitename.com. Design by <a href="http://www.nodethirtythree.com">nodethirtythree</a>
+            and <a href="http://www.freecsstemplates.org">Free CSS Templates</a>.</p>
+    </div>
+    <!-- end #footer -->
+</body>
+</html>

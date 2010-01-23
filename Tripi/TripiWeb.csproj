@@ -61,6 +61,13 @@
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="OneColumnWithFooter.Master.cs">
+      <DependentUpon>OneColumnWithFooter.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OneColumnWithFooter.Master.designer.cs">
+      <DependentUpon>OneColumnWithFooter.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoColumnsWithFooter.Master.cs">
       <DependentUpon>TwoColumnsWithFooter.Master</DependentUpon>
@@ -92,6 +99,9 @@
     <Content Include="Silverlight.js" />
     <Content Include="style.css" />
     <Content Include="TwoColumnsWithFooter.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OneColumnWithFooter.Master" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

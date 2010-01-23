@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TwoColumnsWithFooter.Master" AutoEventWireup="true"
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/OneColumnWithFooter.Master" AutoEventWireup="true"
     CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="Server">
@@ -11,24 +11,26 @@
         <p class="meta">
             srebrna strzała like mknie!</p>
         <div class="entry">
-            <form id="form2" style="height: 100%">
-            <div style="height: 300px;">
-                <object data="data:application/x-silverlight-2," type="application/x-silverlight-2"
-                    width="100%" height="100%">
-                    <param name="source" value="ClientBin/SilverlightShowcase.xap" />
-                    <param name="onError" value="onSilverlightError" />
-                    <param name="background" value="white" />
-                    <param name="minRuntimeVersion" value="3.0.40818.0" />
-                    <param name="autoUpgrade" value="true" />
-                    <a href="http://go.microsoft.com/fwlink/?LinkID=149156&v=3.0.40818.0" style="text-decoration: none">
-                        <img src="http://go.microsoft.com/fwlink/?LinkId=108181" alt="Get Microsoft Silverlight"
-                            style="border-style: none" />
-                    </a>
-                </object>
-                <iframe id="_sl_historyFrame" style="visibility: hidden; height: 0px; width: 0px;
-                    border: 0px"></iframe>
+            <div id="Div1">
+                <form id="form2" style="height: 100%">
+                <div style="height: 600px;">
+                    <object data="data:application/x-silverlight-2," type="application/x-silverlight-2"
+                        width="100%" height="100%">
+                        <param name="source" value="ClientBin/SilverlightShowcase.xap" />
+                        <param name="onError" value="onSilverlightError" />
+                        <param name="background" value="white" />
+                        <param name="minRuntimeVersion" value="3.0.40818.0" />
+                        <param name="autoUpgrade" value="true" />
+                        <a href="http://go.microsoft.com/fwlink/?LinkID=149156&v=3.0.40818.0" style="text-decoration: none">
+                            <img src="http://go.microsoft.com/fwlink/?LinkId=108181" alt="Get Microsoft Silverlight"
+                                style="border-style: none" />
+                        </a>
+                    </object>
+                    <iframe id="_sl_historyFrame" style="visibility: hidden; height: 0px; width: 0px;
+                        border: 0px"></iframe>
+                </div>
+                </form>
             </div>
-            </form>
         </div>
     </div>
     <div id="banner">

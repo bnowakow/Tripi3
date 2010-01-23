@@ -11,7 +11,11 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Button x:Name="MyButt" Content="Push!" Width="100" Height="50" Grid.Row="0" />
-        <m:Map CredentialsProvider="AsYbfxsWZOLK1J1xU5a3R9Hp1t79IGbPWCrpP3S4MHETwW2bQS89YQSa8XgkP9aq" Grid.Row="1" />
+        <m:Map CredentialsProvider="AsYbfxsWZOLK1J1xU5a3R9Hp1t79IGbPWCrpP3S4MHETwW2bQS89YQSa8XgkP9aq" Mode="Aerial" Grid.Row="1">
+            <m:MapLayer x:Name="MyLayer">
+                <m:MapPolyline Stroke="Green" StrokeThickness="5" Locations="20,-20 20,20 -20,-20 -20,20" Opacity="0.7" />
+            </m:MapLayer>
+        </m:Map>
 
     </Grid>
 </UserControl>
