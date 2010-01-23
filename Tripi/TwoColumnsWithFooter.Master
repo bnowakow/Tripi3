@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TwoColumnsWithFooter.master.cs" Inherits="Tripi.TwoColumnsWithFooter" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <!--
 
@@ -33,7 +34,8 @@ Released   : 20090918
 <title>EarthlingTwo by Free CSS Templates</title>
 
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
-
+<asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
 </head>
 
 <body>
@@ -77,6 +79,9 @@ Released   : 20090918
 	<div id="page">
 
 		<div id="content">
+		
+		    <asp:ContentPlaceHolder ID="Content" runat="server">        
+        </asp:ContentPlaceHolder>
 
 			<div id="banner"><img src="images/img07.jpg" alt="" /></div>
 
