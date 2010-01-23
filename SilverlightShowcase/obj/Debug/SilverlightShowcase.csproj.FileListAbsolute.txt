@@ -1,0 +1,12 @@
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\SilverlightShowcase.dll
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\SilverlightShowcase.pdb
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\AppManifest.xaml
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\SilverlightShowcase.xap
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\Bin\Debug\TestPage.html
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\obj\Debug\App.g.cs
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\obj\Debug\MainPage.g.cs
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\obj\Debug\SilverlightShowcase.g.resources
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\obj\Debug\SilverlightShowcase.dll
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\obj\Debug\SilverlightShowcase.pdb
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\SilverlightShowcase\obj\Debug\XapCacheFile.xml

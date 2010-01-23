@@ -6,6 +6,28 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="Content" Runat="Server">
+<div class="post">
+				<h2 class="title"><a href="#">Silverlight osadza się tu</a></h2>
+
+				<p class="meta">srebrna strzała like mknie!</p>
+				<div class="entry">
+				
+ <form id="form2" style="height:100%">
+    <div id="silverlightControlHost">
+        <object data="data:application/x-silverlight-2," type="application/x-silverlight-2" width="100%" height="100%">
+		  <param name="source" value="ClientBin/SilverlightShowcase.xap"/>
+		  <param name="onError" value="onSilverlightError" />
+		  <param name="background" value="white" />
+		  <param name="minRuntimeVersion" value="3.0.40818.0" />
+		  <param name="autoUpgrade" value="true" />
+		  <a href="http://go.microsoft.com/fwlink/?LinkID=149156&v=3.0.40818.0" style="text-decoration:none">
+ 			  <img src="http://go.microsoft.com/fwlink/?LinkId=108181" alt="Get Microsoft Silverlight" style="border-style:none"/>
+		  </a>
+	    </object><iframe id="_sl_historyFrame" style="visibility:hidden;height:0px;width:0px;border:0px"></iframe></div>
+    </form>
+    </div>
+    </div>
+	    
     <div id="banner"><img src="images/img07.jpg" alt="" /></div>
 			<div class="post">
 				<h2 class="title"><a href="#">Omgach Lorem ipsum dolor sit amet </a></h2>
