@@ -1,0 +1,10 @@
+Z:\Documents\eti\Imagine Cup\Tripi\Tripi\bin\Tripi.dll
+Z:\Documents\eti\Imagine Cup\Tripi\Tripi\bin\Tripi.pdb
+Z:\Documents\eti\Imagine Cup\Tripi\Tripi\obj\Debug\ResolveAssemblyReference.cache
+Z:\Documents\eti\Imagine Cup\Tripi\Tripi\obj\Debug\Tripi.dll
+Z:\Documents\eti\Imagine Cup\Tripi\Tripi\obj\Debug\Tripi.pdb
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\Tripi\bin\Tripi.dll
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\Tripi\bin\Tripi.pdb
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\Tripi\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\Tripi\obj\Debug\Tripi.dll
+C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\Tripi\obj\Debug\Tripi.pdb
