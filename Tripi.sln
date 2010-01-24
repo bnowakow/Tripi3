@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripiWeb", "Tripi\TripiWeb.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightShowcase", "SilverlightShowcase\SilverlightShowcase.csproj", "{654120A1-463B-476A-850A-C21CA98D9D6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripiMobile", "TripiMobile\TripiMobile.csproj", "{E17EB9F6-C2CE-41C2-B0AB-43B3DE3A3CD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,12 @@ Global
 		{654120A1-463B-476A-850A-C21CA98D9D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{654120A1-463B-476A-850A-C21CA98D9D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{654120A1-463B-476A-850A-C21CA98D9D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17EB9F6-C2CE-41C2-B0AB-43B3DE3A3CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17EB9F6-C2CE-41C2-B0AB-43B3DE3A3CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17EB9F6-C2CE-41C2-B0AB-43B3DE3A3CD5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E17EB9F6-C2CE-41C2-B0AB-43B3DE3A3CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17EB9F6-C2CE-41C2-B0AB-43B3DE3A3CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17EB9F6-C2CE-41C2-B0AB-43B3DE3A3CD5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
