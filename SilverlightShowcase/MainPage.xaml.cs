@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -10,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using System.Xml;
+using Microsoft.Maps.MapControl;
 
 namespace SilverlightShowcase
 {
@@ -21,17 +23,37 @@ namespace SilverlightShowcase
             this.Loaded += new RoutedEventHandler(MainPage_Loaded);
         }
 
-        void MainPage_Loaded(object sender, RoutedEventArgs e)
+        public void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
             SampleWeatherService.GlobalWeatherSoapClient sws = new SampleWeatherService.GlobalWeatherSoapClient();
             sws.GetWeatherCompleted += new EventHandler<SilverlightShowcase.SampleWeatherService.GetWeatherCompletedEventArgs>(sws_GetWeatherCompleted);
             sws.GetWeatherAsync("Gdansk-Rebiechowo", "Poland");
+
+            List<Location> polyline = new List<Location>();
+            polyline.Add(new Location(3.0, 5.0));
+            polyline.Add(new Location(-3.0, 5.0));
+            polyline.Add(new Location(3.0, -5.0));
+            polyline.Add(new Location(-3.0, -5.0));
+            drawPolyline(polyline);
         }
 
-        void sws_GetWeatherCompleted(object sender, SilverlightShowcase.SampleWeatherService.GetWeatherCompletedEventArgs e)
+        private void sws_GetWeatherCompleted(object sender, SilverlightShowcase.SampleWeatherService.GetWeatherCompletedEventArgs e)
         {
             txtName.Text = e.Result.ToString();
-          
+        }
+
+        private void drawPolyline(List<Location> list)
+        {
+            MapPolyline mapPolyline = new MapPolyline();
+            mapPolyline.Stroke = new System.Windows.Media.SolidColorBrush(System.Windows.Media.Colors.White);
+            mapPolyline.StrokeThickness = 5;
+            mapPolyline.Opacity = 0.7;
+            mapPolyline.Locations = new LocationCollection();
+            foreach (Location location in list)
+            {
+                mapPolyline.Locations.Add(location);
+            }
+            Map.Children.Add(mapPolyline);
 
         }
     }

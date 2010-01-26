@@ -11,9 +11,8 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <TextBlock x:Name="txtName"></TextBlock>
-        <m:Map CredentialsProvider="AsYbfxsWZOLK1J1xU5a3R9Hp1t79IGbPWCrpP3S4MHETwW2bQS89YQSa8XgkP9aq" Mode="Aerial" Grid.Row="1">
+        <m:Map x:Name="Map" CredentialsProvider="AsYbfxsWZOLK1J1xU5a3R9Hp1t79IGbPWCrpP3S4MHETwW2bQS89YQSa8XgkP9aq" Mode="Aerial" Grid.Row="1">
             <m:MapLayer x:Name="MyLayer">
-                <m:MapPolyline Stroke="Green" StrokeThickness="5" Locations="20,-20 20,20 -20,-20 -20,20" Opacity="0.7" />
             </m:MapLayer>
         </m:Map>
 
