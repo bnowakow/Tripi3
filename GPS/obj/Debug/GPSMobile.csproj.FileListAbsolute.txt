@@ -1,5 +1,0 @@
-C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\GPS\bin\Debug\GPSMobile.dll
-C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\GPS\bin\Debug\GPSMobile.pdb
-C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\GPS\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\GPS\obj\Debug\GPSMobile.dll
-C:\Documents and Settings\Administrator\Moje dokumenty\Imagine Cup\Tripi\GPS\obj\Debug\GPSMobile.pdb
