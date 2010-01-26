@@ -68,6 +68,12 @@
     <Compile Include="components\ButtonPanel.Designer.cs">
       <DependentUpon>ButtonPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="data\DataBase.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -75,22 +81,25 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MapForm.cs">
+    <Compile Include="GpsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MapForm.Designer.cs">
-      <DependentUpon>MapForm.cs</DependentUpon>
+    <Compile Include="GpsForm.Designer.cs">
+      <DependentUpon>GpsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="components\ButtonPanel.resx">
       <DependentUpon>ButtonPanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MapForm.resx">
-      <DependentUpon>MapForm.cs</DependentUpon>
+    <EmbeddedResource Include="GpsForm.resx">
+      <DependentUpon>GpsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -147,6 +156,12 @@
     <Content Include="data\tripi.sdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GPS\GPSMobile.csproj">
+      <Project>{DB77C1EE-A383-4CD5-A107-1C7C26A9E6B8}</Project>
+      <Name>GPSMobile</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\" />

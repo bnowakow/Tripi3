@@ -33,7 +33,12 @@
             this.mainMenu1 = new System.Windows.Forms.MainMenu();
             this.weatherTitle = new System.Windows.Forms.Label();
             this.weatherDescription = new System.Windows.Forms.Label();
+            this.miBack = new System.Windows.Forms.MenuItem();
             this.SuspendLayout();
+            // 
+            // mainMenu1
+            // 
+            this.mainMenu1.MenuItems.Add(this.miBack);
             // 
             // weatherTitle
             // 
@@ -50,6 +55,11 @@
             this.weatherDescription.Name = "weatherDescription";
             this.weatherDescription.Size = new System.Drawing.Size(188, 140);
             this.weatherDescription.Text = "text";
+            // 
+            // miBack
+            // 
+            this.miBack.Text = "Back";
+            this.miBack.Click += new System.EventHandler(this.BackButtonClick);
             // 
             // WeatherForm
             // 
@@ -71,5 +81,6 @@
 
         private System.Windows.Forms.Label weatherTitle;
         private System.Windows.Forms.Label weatherDescription;
+        private System.Windows.Forms.MenuItem miBack;
     }
 }

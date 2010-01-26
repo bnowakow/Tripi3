@@ -28,39 +28,51 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.mainMenu1 = new System.Windows.Forms.MainMenu();
-            this.exitButton = new System.Windows.Forms.MenuItem();
-            this.mapButton = new System.Windows.Forms.Button();
-            this.weatherButton = new System.Windows.Forms.Button();
+            this.mainMenu = new System.Windows.Forms.MainMenu();
+            this.miExit = new System.Windows.Forms.MenuItem();
+            this.bttnMap = new System.Windows.Forms.Button();
+            this.bttnWeather = new System.Windows.Forms.Button();
+            this.serialPort = new System.IO.Ports.SerialPort(this.components);
+            this.gpsTimer = new System.Windows.Forms.Timer();
+            this.bttnGps = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // mainMenu1
+            // mainMenu
             // 
-            this.mainMenu1.MenuItems.Add(this.exitButton);
+            this.mainMenu.MenuItems.Add(this.miExit);
             // 
-            // exitButton
+            // miExit
             // 
-            this.exitButton.Text = "Exit";
-            this.exitButton.Click += new System.EventHandler(this.ExitApplication);
+            this.miExit.Text = "Exit";
+            this.miExit.Click += new System.EventHandler(this.ExitApplication);
             // 
-            // mapButton
+            // bttnMap
             // 
-            this.mapButton.Location = new System.Drawing.Point(65, 101);
-            this.mapButton.Name = "mapButton";
-            this.mapButton.Size = new System.Drawing.Size(111, 20);
-            this.mapButton.TabIndex = 1;
-            this.mapButton.Text = "View Map";
-            this.mapButton.Click += new System.EventHandler(this.MapButtonClick);
+            this.bttnMap.Location = new System.Drawing.Point(59, 128);
+            this.bttnMap.Name = "bttnMap";
+            this.bttnMap.Size = new System.Drawing.Size(130, 20);
+            this.bttnMap.TabIndex = 1;
+            this.bttnMap.Text = "View Map";
+            this.bttnMap.Click += new System.EventHandler(this.MapButtonClick);
             // 
-            // weatherButton
+            // bttnWeather
             // 
-            this.weatherButton.Location = new System.Drawing.Point(64, 75);
-            this.weatherButton.Name = "weatherButton";
-            this.weatherButton.Size = new System.Drawing.Size(112, 20);
-            this.weatherButton.TabIndex = 2;
-            this.weatherButton.Text = "Check Weather";
-            this.weatherButton.Click += new System.EventHandler(this.WeatherButtonClick);
+            this.bttnWeather.Location = new System.Drawing.Point(58, 76);
+            this.bttnWeather.Name = "bttnWeather";
+            this.bttnWeather.Size = new System.Drawing.Size(131, 20);
+            this.bttnWeather.TabIndex = 2;
+            this.bttnWeather.Text = "Check Weather";
+            this.bttnWeather.Click += new System.EventHandler(this.WeatherButtonClick);
+            // 
+            // bttnGps
+            // 
+            this.bttnGps.Location = new System.Drawing.Point(58, 102);
+            this.bttnGps.Name = "bttnGps";
+            this.bttnGps.Size = new System.Drawing.Size(131, 20);
+            this.bttnGps.TabIndex = 11;
+            this.bttnGps.Text = "Get GPS Positions ";
             // 
             // MainForm
             // 
@@ -69,22 +81,26 @@
             this.AutoScroll = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(240, 268);
-            this.Controls.Add(this.weatherButton);
-            this.Controls.Add(this.mapButton);
-            this.Menu = this.mainMenu1;
+            this.Controls.Add(this.bttnGps);
+            this.Controls.Add(this.bttnWeather);
+            this.Controls.Add(this.bttnMap);
+            this.Menu = this.mainMenu;
             this.Name = "MainForm";
             this.Text = "Tripi";
-            this.Load += new System.EventHandler(this.onFormLoad);
+            this.Load += new System.EventHandler(this.FormLoad);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.MainMenu mainMenu1;
-        private System.Windows.Forms.MenuItem exitButton;
-        private System.Windows.Forms.Button mapButton;
-        private System.Windows.Forms.Button weatherButton;
+        private System.Windows.Forms.MainMenu mainMenu;
+        private System.Windows.Forms.MenuItem miExit;
+        private System.Windows.Forms.Button bttnMap;
+        private System.Windows.Forms.Button bttnWeather;
+        private System.IO.Ports.SerialPort serialPort;
+        private System.Windows.Forms.Timer gpsTimer;
+        private System.Windows.Forms.Button bttnGps;
 
     }
 }

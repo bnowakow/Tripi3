@@ -21,5 +21,11 @@ namespace Tripi
         {
             weatherDescription.Text = WebServiceManager.GetWeather("Warszawa", "Poland");
         }
+
+        private void BackButtonClick(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
+            this.Close();
+        }
     }
 }

@@ -117,8 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="mainMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="mainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <metadata name="serialPort.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>120, 17</value>
+  </metadata>
+  <metadata name="gpsTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>218, 17</value>
   </metadata>
   <metadata name="$this.FormFactorShadowProperty" xml:space="preserve">
     <value>Pocket_PC</value>
@@ -130,7 +136,7 @@
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPAAAAEiCAIAAABItshVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAOzeSURBVHhe7P11fCO5uu8L5997z14zzcw9zUzTPczMjD09
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAOzeSURBVHhe7P11fCO5uu8L5997z14zzcw9zUzTPczMjD09
         zczMEGZmTicNYWZmJsdBJ07ikO0wc9/fI9nuzKy19zn3Pe9d2Z8TZzTVKpVKUklf/eqRSq7SeEE74T80
         4/gW7h9a8f/jQSwc9ysCH8T9x/3YfzyI+8f92BewVTiF/z80Y//jQcwLD2JeRDoP4l7gcZAatvfIz1Mj
         94AS4f7/oaX04CgSvxfDDyE+ovE4lJoi0xhKEEW6H/vi/bgXH8RTGVA8JMhD7lO+L2qSe37KfZSKTvnH

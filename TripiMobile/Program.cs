@@ -13,7 +13,7 @@ namespace Tripi
         [MTAThread]
         static void Main()
         {
-            Application.Run(new MainForm());
+            Application.Run(new LoginForm());
         }
     }
 }

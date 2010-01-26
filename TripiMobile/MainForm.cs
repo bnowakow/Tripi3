@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using Msdn.UIFramework;
+using System.IO;
 
 namespace Tripi
 {
@@ -18,14 +19,9 @@ namespace Tripi
             this.Height = 32;
         }
 
-        private void onFormLoad(object sender, EventArgs e)
+        private void FormLoad(object sender, EventArgs e)
         {
             this.MenuBar.Visible = false;
-
-           // this.TitleBar.Fill = newraz LinearGradient(Color.PowderBlue, Color.Navy);
-            //this.TitleBar.Text = this.Text;
-
-            //weatherLabel.Text = WebServiceManager.GetWeather("Warszawa", "poland");
         }
 
         private void ExitApplication(object sender, EventArgs e)
@@ -35,7 +31,7 @@ namespace Tripi
 
         private void MapButtonClick(object sender, EventArgs e)
         {
-            MapForm map = new MapForm();
+            GpsForm map = new GpsForm();
             map.ShowDialog();
         }
 
