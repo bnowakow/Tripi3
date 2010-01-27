@@ -41,5 +41,11 @@ namespace Tripi
         {
             return true;
         }
+
+        private void FormLoad(object sender, EventArgs e)
+        {
+            this.MenuBar.LeftMenu = "Exit";
+            this.MenuBar.LeftMenuClicked += new EventHandler(ExitApplication);
+        }
     }
 }

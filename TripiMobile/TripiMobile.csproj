@@ -46,10 +46,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
-    <Reference Include="Msdn.UIFramework, Version=1.0.3675.34877, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\Msdn.UIFramework.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.SqlServerCe, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3be235df1c8d2ad3, processorArchitecture=MSIL" />
@@ -156,15 +152,28 @@
     <Content Include="data\tripi.sdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\button_bg.png" />
+    <Content Include="images\button_bg2.png" />
+    <Content Include="images\button_bk.png" />
+    <Content Include="images\clouds.png" />
+    <Content Include="images\clouds1.png" />
+    <Content Include="images\grass.jpg" />
+    <Content Include="images\grass2.png" />
+    <Content Include="images\grass3.png" />
+    <Content Include="images\grass4.png" />
+    <Content Include="images\green_background.png" />
+    <Content Include="images\island.jpg" />
+    <Content Include="images\island.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GPS\GPSMobile.csproj">
       <Project>{DB77C1EE-A383-4CD5-A107-1C7C26A9E6B8}</Project>
       <Name>GPSMobile</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\" />
+    <ProjectReference Include="..\UIFrameworkMobile\Msdn.UIFramework.csproj">
+      <Project>{EF3B7C07-DC66-4092-B3C4-B7EFA1C4C349}</Project>
+      <Name>Msdn.UIFramework</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
   <ProjectExtensions>

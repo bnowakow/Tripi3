@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="mainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <metadata name="serialPort.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>120, 17</value>
   </metadata>
@@ -136,7 +133,7 @@
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPAAAAEiCAIAAABItshVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADr4AAA6+AepCscAAANSUSURBVHhe7P31nyfF1f6Pzz/wfd9xd1ckQEISiBNCDAhE
+        YQUAAAAJcEhZcwAADr0AAA69AUf7kK0AANSUSURBVHhe7P31nyfF1f6Pzz/wfd9xd1ckQEISiBNCDAhE
         IARIQtyJEJKQ4OwuywLr7u7uO+7u7u7utt/nOae6pmd24c7NfH6b4VGPpqZf1d0lV111nXOqeyPu3p//
         /3sy8v89FfU/T0dzJPEneTu+6pmYVy+IJb1mYdxrF8VbhpPk+dUSf77qyajXPB3z6qei/9/jF/7niUj+
         tOO0TOgRPOVVT8XYJf/zxPlXPSlX8aeVl2ufkp9eS5kno+0+/EmB1z4TS3r1UxSOevWTF177VOTrniIj

@@ -6,7 +6,6 @@
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.MainMenu mainMenu;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -29,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.mainMenu = new System.Windows.Forms.MainMenu();
-            this.backButton = new System.Windows.Forms.MenuItem();
             this.labelTitle = new System.Windows.Forms.Label();
             this.labelLongitude = new System.Windows.Forms.Label();
             this.labelLatitude = new System.Windows.Forms.Label();
@@ -40,15 +37,6 @@
             this.labelSpeed = new System.Windows.Forms.Label();
             this.tboxSpeed = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // mainMenu
-            // 
-            this.mainMenu.MenuItems.Add(this.backButton);
-            // 
-            // backButton
-            // 
-            this.backButton.Text = "Back";
-            this.backButton.Click += new System.EventHandler(this.BackButtonClick);
             // 
             // labelTitle
             // 
@@ -123,7 +111,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(240, 268);
+            this.ClientSize = new System.Drawing.Size(240, 294);
             this.Controls.Add(this.labelSpeed);
             this.Controls.Add(this.tboxSpeed);
             this.Controls.Add(this.labelSatellite);
@@ -132,16 +120,15 @@
             this.Controls.Add(this.labelLatitude);
             this.Controls.Add(this.tboxLongitude);
             this.Controls.Add(this.tboxLatitude);
-            this.Menu = this.mainMenu;
             this.Name = "GpsForm";
             this.Text = "Map";
+            this.Load += new System.EventHandler(this.FormLoad);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.MenuItem backButton;
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Label labelLongitude;
         private System.Windows.Forms.Label labelLatitude;

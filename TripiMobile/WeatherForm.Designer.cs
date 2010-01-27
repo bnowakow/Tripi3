@@ -6,7 +6,6 @@
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.MainMenu mainMenu1;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -30,15 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WeatherForm));
-            this.mainMenu1 = new System.Windows.Forms.MainMenu();
             this.weatherTitle = new System.Windows.Forms.Label();
             this.weatherDescription = new System.Windows.Forms.Label();
-            this.miBack = new System.Windows.Forms.MenuItem();
             this.SuspendLayout();
-            // 
-            // mainMenu1
-            // 
-            this.mainMenu1.MenuItems.Add(this.miBack);
             // 
             // weatherTitle
             // 
@@ -56,23 +49,18 @@
             this.weatherDescription.Size = new System.Drawing.Size(188, 140);
             this.weatherDescription.Text = "text";
             // 
-            // miBack
-            // 
-            this.miBack.Text = "Back";
-            this.miBack.Click += new System.EventHandler(this.BackButtonClick);
-            // 
             // WeatherForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(240, 268);
+            this.ClientSize = new System.Drawing.Size(240, 294);
             this.Controls.Add(this.weatherDescription);
             this.Controls.Add(this.weatherTitle);
-            this.Menu = this.mainMenu1;
             this.Name = "WeatherForm";
             this.Text = "Tripi";
+            this.Load += new System.EventHandler(this.FormLoad);
             this.ResumeLayout(false);
 
         }
@@ -81,6 +69,5 @@
 
         private System.Windows.Forms.Label weatherTitle;
         private System.Windows.Forms.Label weatherDescription;
-        private System.Windows.Forms.MenuItem miBack;
     }
 }

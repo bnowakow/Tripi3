@@ -7,10 +7,11 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using GPSMobile;
+using Msdn.UIFramework;
 
 namespace Tripi
 {
-    public partial class GpsForm : Form
+    public partial class GpsForm : UIForm
     {
         private Gps gps = new Gps();
         private const string noSatellitesString = "Satellites are currently not available";
@@ -37,6 +38,12 @@ namespace Tripi
 
         private void GpsLocationChanged(object sender, LocationChangedEventArgs args)
         {
+            if (this.InvokeRequired)
+            {
+                Invoke(new LocationChangedEventHandler(GpsLocationChanged), sender, args);
+                return;
+            }
+
             GpsPosition position = args.Position;
             if (position != null)
             {
@@ -45,6 +52,9 @@ namespace Tripi
 
                 tboxLongitude.Text = position.LongitudeValid ?
                     position.LongitudeInDegreesMinutesSeconds.ToString() : "";
+
+                tboxSpeed.Text = position.SpeedValid ?
+                    position.Speed.ToString() : "";
 
                 if (!position.SatellitesInSolutionValid ||
                     !position.SatellitesInViewValid ||
@@ -64,6 +74,12 @@ namespace Tripi
             CloseGPS();
             this.DialogResult = DialogResult.Cancel;
             this.Close();
+        }
+
+        private void FormLoad(object sender, EventArgs e)
+        {
+            this.MenuBar.LeftMenu = "Back";
+            this.MenuBar.LeftMenuClicked += new EventHandler(BackButtonClick);
         }
     }
 }

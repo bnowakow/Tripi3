@@ -17,15 +17,17 @@ namespace Tripi
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            weatherDescription.Text = WebServiceManager.GetWeather("Warszawa", "Poland");
-        }
-
         private void BackButtonClick(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.Cancel;
             this.Close();
+        }
+
+        private void FormLoad(object sender, EventArgs e)
+        {
+            this.MenuBar.LeftMenu = "Back";
+            this.MenuBar.LeftMenuClicked += new EventHandler(BackButtonClick);
+            weatherDescription.Text = WebServiceManager.GetWeather("Warszawa", "Poland");
         }
     }
 }

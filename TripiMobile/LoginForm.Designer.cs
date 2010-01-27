@@ -30,8 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
-            this.mainMenu = new System.Windows.Forms.MainMenu();
-            this.miExit = new System.Windows.Forms.MenuItem();
             this.tboxLogin = new System.Windows.Forms.TextBox();
             this.tboxPassword = new System.Windows.Forms.TextBox();
             this.labelUser = new System.Windows.Forms.Label();
@@ -41,15 +39,6 @@
             this.labelTitle = new System.Windows.Forms.Label();
             this.bttnOk = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // mainMenu
-            // 
-            this.mainMenu.MenuItems.Add(this.miExit);
-            // 
-            // miExit
-            // 
-            this.miExit.Text = "Exit";
-            this.miExit.Click += new System.EventHandler(this.ExitApplication);
             // 
             // tboxLogin
             // 
@@ -113,24 +102,22 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(240, 268);
+            this.ClientSize = new System.Drawing.Size(240, 294);
             this.Controls.Add(this.bttnOk);
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.labelPassword);
             this.Controls.Add(this.labelUser);
             this.Controls.Add(this.tboxPassword);
             this.Controls.Add(this.tboxLogin);
-            this.Menu = this.mainMenu;
             this.Name = "LoginForm";
             this.Text = "Tripi";
+            this.Load += new System.EventHandler(this.FormLoad);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.MainMenu mainMenu;
-        private System.Windows.Forms.MenuItem miExit;
         private System.Windows.Forms.TextBox tboxLogin;
         private System.Windows.Forms.TextBox tboxPassword;
         private System.Windows.Forms.Label labelUser;
