@@ -329,9 +329,17 @@ namespace SilverlightShowcase.SampleWeatherService {
             }
             
             public string EndGetWeather(System.IAsyncResult result) {
-                object[] _args = new object[0];
-                string _result = ((string)(base.EndInvoke("GetWeather", _args, result)));
-                return _result;
+                try
+                {
+                    object[] _args = new object[0];
+                    string _result = ((string) (base.EndInvoke("GetWeather", _args, result)));
+                    return _result;
+                }
+                catch (System.ServiceModel.CommunicationException exc)
+                {
+                    // 3m1l was here
+                    throw exc;
+                }
             }
             
             public System.IAsyncResult BeginGetCitiesByCountry(string CountryName, System.AsyncCallback callback, object asyncState) {

@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPSMobile", "GPS\GPSMobile.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Msdn.UIFramework", "UIFrameworkMobile\Msdn.UIFramework.csproj", "{EF3B7C07-DC66-4092-B3C4-B7EFA1C4C349}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripiWCFService", "TripiWCFService\TripiWCFService.csproj", "{0DCE4B13-DA8C-471F-9974-3B97466424DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripiWCFPreprodServer", "TripiWCFPreprodServer\TripiWCFPreprodServer.csproj", "{87BE2F60-95C3-445F-9F29-2DA7C1630640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripiWCFClientMockup", "TripiWCFClientMockup\TripiWCFClientMockup.csproj", "{9F283238-9ABD-453D-BE34-745889FB75D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +45,18 @@ Global
 		{EF3B7C07-DC66-4092-B3C4-B7EFA1C4C349}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF3B7C07-DC66-4092-B3C4-B7EFA1C4C349}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF3B7C07-DC66-4092-B3C4-B7EFA1C4C349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DCE4B13-DA8C-471F-9974-3B97466424DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DCE4B13-DA8C-471F-9974-3B97466424DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DCE4B13-DA8C-471F-9974-3B97466424DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DCE4B13-DA8C-471F-9974-3B97466424DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BE2F60-95C3-445F-9F29-2DA7C1630640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BE2F60-95C3-445F-9F29-2DA7C1630640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BE2F60-95C3-445F-9F29-2DA7C1630640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BE2F60-95C3-445F-9F29-2DA7C1630640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F283238-9ABD-453D-BE34-745889FB75D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F283238-9ABD-453D-BE34-745889FB75D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F283238-9ABD-453D-BE34-745889FB75D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F283238-9ABD-453D-BE34-745889FB75D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
