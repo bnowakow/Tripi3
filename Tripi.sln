@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripiWeb", "Tripi\TripiWeb.csproj", "{4D801B50-1771-47A2-90C3-AC8B402DF24D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightShowcase", "SilverlightShowcase\SilverlightShowcase.csproj", "{654120A1-463B-476A-850A-C21CA98D9D6E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D801B50-1771-47A2-90C3-AC8B402DF24D} = {4D801B50-1771-47A2-90C3-AC8B402DF24D}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripiMobile", "TripiMobile\TripiMobile.csproj", "{E17EB9F6-C2CE-41C2-B0AB-43B3DE3A3CD5}"
 EndProject

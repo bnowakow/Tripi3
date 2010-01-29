@@ -83,6 +83,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Service References\TripiSilverlightWCFServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -97,6 +102,13 @@
   <ItemGroup>
     <None Include="Properties\AppManifest.xml" />
     <None Include="Service References\SampleWeatherService\globalweather.wsdl" />
+    <None Include="Service References\TripiSilverlightWCFServiceReference\TripiSilverlightWCFService.disco" />
+    <None Include="Service References\TripiSilverlightWCFServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\TripiSilverlightWCFServiceReference\configuration.svcinfo" />
+    <None Include="Service References\TripiSilverlightWCFServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="ServiceReferences.ClientConfig" />
   </ItemGroup>
   <ItemGroup>
@@ -104,6 +116,7 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\SampleWeatherService\" />
+    <WCFMetadataStorage Include="Service References\TripiSilverlightWCFServiceReference\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\SampleWeatherService\configuration91.svcinfo" />
@@ -112,6 +125,7 @@
     <None Include="Service References\SampleWeatherService\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="Service References\SampleWeatherService\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
@@ -128,6 +142,17 @@
     <None Include="Service References\SampleWeatherService\SilverlightShowcase.SampleWeatherService.GetWeatherResponse1.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\TripiSilverlightWCFServiceReference\SilverlightShowcase.TripiSilverlightWCFServiceReference.PositionNode.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TripiSilverlightWCFServiceReference\SilverlightShowcase.TripiSilverlightWCFServiceReference.Trip.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TripiSilverlightWCFServiceReference\TripiSilverlightWCFService.wsdl" />
+    <None Include="Service References\TripiSilverlightWCFServiceReference\TripiSilverlightWCFService.xsd" />
+    <None Include="Service References\TripiSilverlightWCFServiceReference\TripiSilverlightWCFService1.wsdl" />
+    <None Include="Service References\TripiSilverlightWCFServiceReference\TripiSilverlightWCFService1.xsd" />
+    <None Include="Service References\TripiSilverlightWCFServiceReference\TripiSilverlightWCFService2.xsd" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\v3.0\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

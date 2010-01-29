@@ -7,19 +7,19 @@ using System.Text;
 
 namespace TripiWCF.Service
 {
-    [ServiceContract]
+    //[ServiceContract]
     public interface ITripService
     {
-        [OperationContract]
+        //[OperationContract]
         int CreateNewTrip(string username);
 
-        [OperationContract]
+        //[OperationContract]
         List<Trip> GetTripsForUser(string username);
 
-        [OperationContract]
+        //[OperationContract]
         List<PositionNode> GetPositionNodesForTrip(int tripID);
 
-        [OperationContract]
+        //[OperationContract]
         void AddPositionNode(PositionNode node);
     }
 }
