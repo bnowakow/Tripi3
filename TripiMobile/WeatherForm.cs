@@ -27,7 +27,7 @@ namespace Tripi
         {
             this.MenuBar.LeftMenu = "Back";
             this.MenuBar.LeftMenuClicked += new EventHandler(BackButtonClick);
-            weatherDescription.Text = ServiceManager.GetWeather("Warszawa", "Poland");
+            weatherDescription.Text = "";//ServiceManager.GetWeather("Warszawa", "Poland");
         }
     }
 }

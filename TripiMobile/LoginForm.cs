@@ -30,11 +30,11 @@ namespace Tripi
 
             if (CorrectUserCredentials(login, password))
             {
+                User.Login = login;
                 MainForm form = new MainForm();
                 form.ShowDialog();
                 Close();
             }
-
         }
 
         private bool CorrectUserCredentials(string login, string password)

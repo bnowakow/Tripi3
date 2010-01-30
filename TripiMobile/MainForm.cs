@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using Msdn.UIFramework;
+using Tripi.gps;
 
 namespace Tripi
 {
@@ -27,6 +28,7 @@ namespace Tripi
 
         private void ExitApplication(object sender, EventArgs e)
         {
+            GPSListener.GetInstance.CloseGPS();
             Application.Exit();
         }
 
@@ -38,8 +40,14 @@ namespace Tripi
 
         private void GpsButtonClick(object sender, EventArgs e)
         {
-            GpsForm map = new GpsForm();
-            map.ShowDialog();
+            GpsForm gpsForm = new GpsForm();
+            gpsForm.ShowDialog();
+        }
+
+        private void NewTripButtonClick(object sender, EventArgs e)
+        {
+            TripForm tripForm = new TripForm();
+            tripForm.ShowDialog();
         }
     }
 }

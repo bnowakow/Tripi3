@@ -8,12 +8,12 @@ using System.Text;
 using System.Windows.Forms;
 using GPSMobile;
 using Msdn.UIFramework;
+using Tripi.gps;
 
 namespace Tripi
 {
     public partial class GpsForm : UIForm
     {
-        private Gps gps = new Gps();
         private const string noSatellitesString = "Satellites are currently not available";
 
         public GpsForm()
@@ -24,27 +24,19 @@ namespace Tripi
 
         private void InitializeGPS()
         {
-            gps.Open();
-            gps.LocationChanged += new LocationChangedEventHandler(GpsLocationChanged);
+            GPSListener gpsListener = GPSListener.GetInstance;
+            gpsListener.OnLocationChanged += new Action<GpsPosition>(GpsLocationChanged);
+            gpsListener.OpenGPS();
         }
 
-        private void CloseGPS()
-        {
-            if (gps.Opened)
-            {
-                gps.Close();
-            }
-        }
-
-        private void GpsLocationChanged(object sender, LocationChangedEventArgs args)
+        private void GpsLocationChanged(GpsPosition position)
         {
             if (this.InvokeRequired)
             {
-                Invoke(new LocationChangedEventHandler(GpsLocationChanged), sender, args);
+                Invoke(new Action<GpsPosition>(GpsLocationChanged), position);
                 return;
             }
 
-            GpsPosition position = args.Position;
             if (position != null)
             {
                 tboxLatitude.Text = position.LatitudeValid ?
@@ -67,6 +59,13 @@ namespace Tripi
                     labelSatellite.Text = "";
                 }
             }
+        }
+
+        private void CloseGPS()
+        {
+            GPSListener gpsListener = GPSListener.GetInstance;
+            gpsListener.OnLocationChanged -= new Action<GpsPosition>(GpsLocationChanged);
+            gpsListener.CloseGPS();
         }
 
         private void BackButtonClick(object sender, EventArgs e)

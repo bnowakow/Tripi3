@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using Tripi.wcf;
 
 namespace Tripi
 {
@@ -13,9 +14,7 @@ namespace Tripi
         [MTAThread]
         static void Main()
         {
-            ServiceManager.SendPosition();
-
-         //   Application.Run(new LoginForm());
+            Application.Run(new LoginForm());
         }
     }
 }

@@ -60,7 +60,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CFClientBase.cs" />
+    <Compile Include="TripForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripForm.Designer.cs">
+      <DependentUpon>TripForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gps\GPSListener.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="wcf\CFClientBase.cs" />
     <Compile Include="components\ButtonPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -91,6 +99,9 @@
     <EmbeddedResource Include="components\ButtonPanel.resx">
       <DependentUpon>ButtonPanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TripForm.resx">
+      <DependentUpon>TripForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -112,7 +123,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="TripiSilverlightWCFService.cs" />
+    <Compile Include="wcf\TripiSilverlightWCFService.cs" />
     <Compile Include="WeatherForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,7 +140,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
     </Compile>
-    <Compile Include="ServiceManager.cs" />
+    <Compile Include="wcf\ServiceManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Web References\WeatherService\globalweather.disco" />
@@ -213,9 +224,6 @@
       <Project>{EF3B7C07-DC66-4092-B3C4-B7EFA1C4C349}</Project>
       <Name>Msdn.UIFramework</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="wcf\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
   <ProjectExtensions>
