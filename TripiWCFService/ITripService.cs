@@ -11,6 +11,9 @@ namespace TripiWCF.Service
     public interface ITripService
     {
         [OperationContract]
+        string LoginUser(string username, string password);
+
+        [OperationContract]
         int CreateNewTrip(string username, string tripName);
 
         [OperationContract]

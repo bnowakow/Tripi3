@@ -25,6 +25,12 @@ namespace TripiWCF.Service
         #endregion
 
         #region ITripService implementation
+        public string LoginUser(string username, string password)
+        {
+            if (username == "Aha" || username == "echudzin") return "luz";
+            return "";
+        }
+
         public int CreateNewTrip(string username, string tripName)
         {
             Trip temp = new Trip(username, TripCount, tripName);
