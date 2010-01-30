@@ -18,14 +18,12 @@ namespace Tripi.wcf
         private TripServiceClient service = null;
         private SendScheduler scheduler = null;
         private int currentTripId = NOT_SPECIFIED;
-        private string userName;
 
         //private string remoteAddress = "http://10.211.55.3:8765/main";
         private string remoteAddress = "http://joannar.ds.pg.gda.pl:8765/main";
 
-        public ServiceManager(string name)
+        public ServiceManager()
         {
-            this.userName = name;
             endpoint = new EndpointAddress(remoteAddress);
             service = new TripServiceClient(new BasicHttpBinding(), endpoint);
             scheduler = new SendScheduler();
@@ -39,7 +37,7 @@ namespace Tripi.wcf
 
         public bool RunNewTrip(string tripName)
         {
-            currentTripId = service.CreateNewTrip(userName, tripName);
+            currentTripId = service.CreateNewTrip(User.Login, tripName);
             return RunTrip();
         }
 
@@ -100,7 +98,13 @@ namespace Tripi.wcf
 
         public Trip[] GetUserTrips()
         {
-            return service.GetTripsForUser(userName);
+            return service.GetTripsForUser(User.Login);
+        }
+
+        public bool LoginUser(string name, string password)
+        {
+            string result = service.LoginUser(name, password);
+            return result != String.Empty;
         }
 
         #region PROPERTIES
@@ -123,7 +127,7 @@ namespace Tripi.wcf
             get
             {
                 if (userTrips == null)
-                    userTrips = service.GetTripsForUser(userName);
+                    userTrips = service.GetTripsForUser(User.Login);
                 return userTrips;
             }
         }

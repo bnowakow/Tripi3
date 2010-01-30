@@ -28,7 +28,7 @@ namespace Tripi
 
         private void LoadTripListBox()
         {
-            ServiceManager service = new ServiceManager(User.Login);
+            ServiceManager service = new ServiceManager();
             Trip[] trips = service.GetUserTrips();
             if (trips != null && trips.Length > 0)
             {

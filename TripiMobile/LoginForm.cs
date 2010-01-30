@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using Msdn.UIFramework;
 using System.IO;
+using Tripi.wcf;
 
 namespace Tripi
 {
@@ -33,7 +34,7 @@ namespace Tripi
             string login = tboxLogin.Text;
             string password = tboxPassword.Text;
 
-            if (CorrectUserCredentials(login, password))
+            if (CheckUserCredentials(login, password))
             {
                 User.Login = login;
                 MainForm form = new MainForm();
@@ -42,9 +43,10 @@ namespace Tripi
             }
         }
 
-        private bool CorrectUserCredentials(string login, string password)
+        private bool CheckUserCredentials(string login, string password)
         {
-            return true;
+            ServiceManager service = new ServiceManager();
+            return service.LoginUser(login, password);
         }
 
         private void FormLoad(object sender, EventArgs e)

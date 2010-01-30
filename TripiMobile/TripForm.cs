@@ -24,7 +24,7 @@ namespace Tripi
             this.mode = mode;
             this.trip = trip;
 
-            service = new ServiceManager(User.Login);
+            service = new ServiceManager();
             service.SendFrequencyInSeconds = 10;
         }
 

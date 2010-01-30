@@ -11,7 +11,7 @@ namespace Tripi
         public static String Login
         {
             get { return login; }
-            set { login = "Asia";/*value*/ }
+            set { login = value; }
         }
     }
 }
