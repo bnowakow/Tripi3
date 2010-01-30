@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.buttonCreateAsProphesized = new System.Windows.Forms.Button();
+            this.buttonCreateRandomNode = new System.Windows.Forms.Button();
+            this.buttonGetNodes = new System.Windows.Forms.Button();
+            this.buttonGetTrips = new System.Windows.Forms.Button();
+            this.buttonCreateTrip = new System.Windows.Forms.Button();
+            this.buttonConnect = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.buttonConnect = new System.Windows.Forms.Button();
-            this.buttonCreateTrip = new System.Windows.Forms.Button();
-            this.buttonGetTrips = new System.Windows.Forms.Button();
-            this.buttonGetNodes = new System.Windows.Forms.Button();
-            this.buttonCreateRandomNode = new System.Windows.Forms.Button();
-            this.buttonCreateAsProphesized = new System.Windows.Forms.Button();
-            this.propertyGridTrip = new System.Windows.Forms.PropertyGrid();
-            this.propertyGridPosition = new System.Windows.Forms.PropertyGrid();
             this.listBoxTrips = new System.Windows.Forms.ListBox();
+            this.propertyGridTrip = new System.Windows.Forms.PropertyGrid();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.listBoxPositions = new System.Windows.Forms.ListBox();
+            this.propertyGridPosition = new System.Windows.Forms.PropertyGrid();
             this.groupBox1.SuspendLayout();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -65,6 +65,71 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Opcje";
+            // 
+            // buttonCreateAsProphesized
+            // 
+            this.buttonCreateAsProphesized.Enabled = false;
+            this.buttonCreateAsProphesized.Location = new System.Drawing.Point(277, 60);
+            this.buttonCreateAsProphesized.Name = "buttonCreateAsProphesized";
+            this.buttonCreateAsProphesized.Size = new System.Drawing.Size(203, 34);
+            this.buttonCreateAsProphesized.TabIndex = 5;
+            this.buttonCreateAsProphesized.Text = "Dodaj punkt według zedytowanego";
+            this.buttonCreateAsProphesized.UseVisualStyleBackColor = true;
+            this.buttonCreateAsProphesized.Click += new System.EventHandler(this.buttonCreateAsProphesized_Click);
+            // 
+            // buttonCreateRandomNode
+            // 
+            this.buttonCreateRandomNode.Enabled = false;
+            this.buttonCreateRandomNode.Location = new System.Drawing.Point(277, 19);
+            this.buttonCreateRandomNode.Name = "buttonCreateRandomNode";
+            this.buttonCreateRandomNode.Size = new System.Drawing.Size(203, 34);
+            this.buttonCreateRandomNode.TabIndex = 4;
+            this.buttonCreateRandomNode.Text = "Dodaj losowy punkt do ID";
+            this.buttonCreateRandomNode.UseVisualStyleBackColor = true;
+            this.buttonCreateRandomNode.Click += new System.EventHandler(this.buttonCreateRandomNode_Click);
+            // 
+            // buttonGetNodes
+            // 
+            this.buttonGetNodes.Enabled = false;
+            this.buttonGetNodes.Location = new System.Drawing.Point(119, 59);
+            this.buttonGetNodes.Name = "buttonGetNodes";
+            this.buttonGetNodes.Size = new System.Drawing.Size(152, 34);
+            this.buttonGetNodes.TabIndex = 3;
+            this.buttonGetNodes.Text = "Odczytaj punkty dla ID";
+            this.buttonGetNodes.UseVisualStyleBackColor = true;
+            this.buttonGetNodes.Click += new System.EventHandler(this.buttonGetNodes_Click);
+            // 
+            // buttonGetTrips
+            // 
+            this.buttonGetTrips.Enabled = false;
+            this.buttonGetTrips.Location = new System.Drawing.Point(119, 19);
+            this.buttonGetTrips.Name = "buttonGetTrips";
+            this.buttonGetTrips.Size = new System.Drawing.Size(152, 34);
+            this.buttonGetTrips.TabIndex = 2;
+            this.buttonGetTrips.Text = "Odczytaj wycieczki usera";
+            this.buttonGetTrips.UseVisualStyleBackColor = true;
+            this.buttonGetTrips.Click += new System.EventHandler(this.buttonGetTrips_Click);
+            // 
+            // buttonCreateTrip
+            // 
+            this.buttonCreateTrip.Enabled = false;
+            this.buttonCreateTrip.Location = new System.Drawing.Point(12, 59);
+            this.buttonCreateTrip.Name = "buttonCreateTrip";
+            this.buttonCreateTrip.Size = new System.Drawing.Size(101, 34);
+            this.buttonCreateTrip.TabIndex = 1;
+            this.buttonCreateTrip.Text = "Utwórz wycieczkę";
+            this.buttonCreateTrip.UseVisualStyleBackColor = true;
+            this.buttonCreateTrip.Click += new System.EventHandler(this.buttonCreateTrip_Click);
+            // 
+            // buttonConnect
+            // 
+            this.buttonConnect.Location = new System.Drawing.Point(12, 19);
+            this.buttonConnect.Name = "buttonConnect";
+            this.buttonConnect.Size = new System.Drawing.Size(101, 34);
+            this.buttonConnect.TabIndex = 0;
+            this.buttonConnect.Text = "Połącz";
+            this.buttonConnect.UseVisualStyleBackColor = true;
+            this.buttonConnect.Click += new System.EventHandler(this.buttonConnect_Click);
             // 
             // splitContainer1
             // 
@@ -95,6 +160,26 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Wycieczki";
             // 
+            // listBoxTrips
+            // 
+            this.listBoxTrips.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBoxTrips.FormattingEnabled = true;
+            this.listBoxTrips.Location = new System.Drawing.Point(3, 211);
+            this.listBoxTrips.Name = "listBoxTrips";
+            this.listBoxTrips.Size = new System.Drawing.Size(158, 251);
+            this.listBoxTrips.TabIndex = 1;
+            this.listBoxTrips.SelectedIndexChanged += new System.EventHandler(this.listBoxTrips_SelectedIndexChanged);
+            // 
+            // propertyGridTrip
+            // 
+            this.propertyGridTrip.Dock = System.Windows.Forms.DockStyle.Top;
+            this.propertyGridTrip.Location = new System.Drawing.Point(3, 16);
+            this.propertyGridTrip.Name = "propertyGridTrip";
+            this.propertyGridTrip.PropertySort = System.Windows.Forms.PropertySort.NoSort;
+            this.propertyGridTrip.Size = new System.Drawing.Size(158, 195);
+            this.propertyGridTrip.TabIndex = 0;
+            this.propertyGridTrip.ToolbarVisible = false;
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.listBoxPositions);
@@ -107,80 +192,15 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Pozycje";
             // 
-            // buttonConnect
+            // listBoxPositions
             // 
-            this.buttonConnect.Location = new System.Drawing.Point(12, 19);
-            this.buttonConnect.Name = "buttonConnect";
-            this.buttonConnect.Size = new System.Drawing.Size(101, 34);
-            this.buttonConnect.TabIndex = 0;
-            this.buttonConnect.Text = "Połącz";
-            this.buttonConnect.UseVisualStyleBackColor = true;
-            this.buttonConnect.Click += new System.EventHandler(this.buttonConnect_Click);
-            // 
-            // buttonCreateTrip
-            // 
-            this.buttonCreateTrip.Enabled = false;
-            this.buttonCreateTrip.Location = new System.Drawing.Point(12, 59);
-            this.buttonCreateTrip.Name = "buttonCreateTrip";
-            this.buttonCreateTrip.Size = new System.Drawing.Size(101, 34);
-            this.buttonCreateTrip.TabIndex = 1;
-            this.buttonCreateTrip.Text = "Utwórz wycieczkę";
-            this.buttonCreateTrip.UseVisualStyleBackColor = true;
-            this.buttonCreateTrip.Click += new System.EventHandler(this.buttonCreateTrip_Click);
-            // 
-            // buttonGetTrips
-            // 
-            this.buttonGetTrips.Enabled = false;
-            this.buttonGetTrips.Location = new System.Drawing.Point(119, 19);
-            this.buttonGetTrips.Name = "buttonGetTrips";
-            this.buttonGetTrips.Size = new System.Drawing.Size(152, 34);
-            this.buttonGetTrips.TabIndex = 2;
-            this.buttonGetTrips.Text = "Odczytaj wycieczki usera";
-            this.buttonGetTrips.UseVisualStyleBackColor = true;
-            this.buttonGetTrips.Click += new System.EventHandler(this.buttonGetTrips_Click);
-            // 
-            // buttonGetNodes
-            // 
-            this.buttonGetNodes.Enabled = false;
-            this.buttonGetNodes.Location = new System.Drawing.Point(119, 59);
-            this.buttonGetNodes.Name = "buttonGetNodes";
-            this.buttonGetNodes.Size = new System.Drawing.Size(152, 34);
-            this.buttonGetNodes.TabIndex = 3;
-            this.buttonGetNodes.Text = "Odczytaj punkty dla ID";
-            this.buttonGetNodes.UseVisualStyleBackColor = true;
-            this.buttonGetNodes.Click += new System.EventHandler(this.buttonGetNodes_Click);
-            // 
-            // buttonCreateRandomNode
-            // 
-            this.buttonCreateRandomNode.Enabled = false;
-            this.buttonCreateRandomNode.Location = new System.Drawing.Point(277, 19);
-            this.buttonCreateRandomNode.Name = "buttonCreateRandomNode";
-            this.buttonCreateRandomNode.Size = new System.Drawing.Size(203, 34);
-            this.buttonCreateRandomNode.TabIndex = 4;
-            this.buttonCreateRandomNode.Text = "Dodaj losowy punkt do ID";
-            this.buttonCreateRandomNode.UseVisualStyleBackColor = true;
-            this.buttonCreateRandomNode.Click += new System.EventHandler(this.buttonCreateRandomNode_Click);
-            // 
-            // buttonCreateAsProphesized
-            // 
-            this.buttonCreateAsProphesized.Enabled = false;
-            this.buttonCreateAsProphesized.Location = new System.Drawing.Point(277, 60);
-            this.buttonCreateAsProphesized.Name = "buttonCreateAsProphesized";
-            this.buttonCreateAsProphesized.Size = new System.Drawing.Size(203, 34);
-            this.buttonCreateAsProphesized.TabIndex = 5;
-            this.buttonCreateAsProphesized.Text = "Dodaj punkt według zedytowanego";
-            this.buttonCreateAsProphesized.UseVisualStyleBackColor = true;
-            this.buttonCreateAsProphesized.Click += new System.EventHandler(this.buttonCreateAsProphesized_Click);
-            // 
-            // propertyGridTrip
-            // 
-            this.propertyGridTrip.Dock = System.Windows.Forms.DockStyle.Top;
-            this.propertyGridTrip.Location = new System.Drawing.Point(3, 16);
-            this.propertyGridTrip.Name = "propertyGridTrip";
-            this.propertyGridTrip.PropertySort = System.Windows.Forms.PropertySort.NoSort;
-            this.propertyGridTrip.Size = new System.Drawing.Size(158, 158);
-            this.propertyGridTrip.TabIndex = 0;
-            this.propertyGridTrip.ToolbarVisible = false;
+            this.listBoxPositions.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBoxPositions.FormattingEnabled = true;
+            this.listBoxPositions.Location = new System.Drawing.Point(3, 211);
+            this.listBoxPositions.Name = "listBoxPositions";
+            this.listBoxPositions.Size = new System.Drawing.Size(318, 251);
+            this.listBoxPositions.TabIndex = 1;
+            this.listBoxPositions.SelectedIndexChanged += new System.EventHandler(this.listBoxPositions_SelectedIndexChanged);
             // 
             // propertyGridPosition
             // 
@@ -188,29 +208,9 @@
             this.propertyGridPosition.Location = new System.Drawing.Point(3, 16);
             this.propertyGridPosition.Name = "propertyGridPosition";
             this.propertyGridPosition.PropertySort = System.Windows.Forms.PropertySort.NoSort;
-            this.propertyGridPosition.Size = new System.Drawing.Size(318, 158);
+            this.propertyGridPosition.Size = new System.Drawing.Size(318, 195);
             this.propertyGridPosition.TabIndex = 0;
             this.propertyGridPosition.ToolbarVisible = false;
-            // 
-            // listBoxTrips
-            // 
-            this.listBoxTrips.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBoxTrips.FormattingEnabled = true;
-            this.listBoxTrips.Location = new System.Drawing.Point(3, 174);
-            this.listBoxTrips.Name = "listBoxTrips";
-            this.listBoxTrips.Size = new System.Drawing.Size(158, 277);
-            this.listBoxTrips.TabIndex = 1;
-            this.listBoxTrips.SelectedIndexChanged += new System.EventHandler(this.listBoxTrips_SelectedIndexChanged);
-            // 
-            // listBoxPositions
-            // 
-            this.listBoxPositions.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBoxPositions.FormattingEnabled = true;
-            this.listBoxPositions.Location = new System.Drawing.Point(3, 174);
-            this.listBoxPositions.Name = "listBoxPositions";
-            this.listBoxPositions.Size = new System.Drawing.Size(318, 277);
-            this.listBoxPositions.TabIndex = 1;
-            this.listBoxPositions.SelectedIndexChanged += new System.EventHandler(this.listBoxPositions_SelectedIndexChanged);
             // 
             // FormCRUD
             // 
