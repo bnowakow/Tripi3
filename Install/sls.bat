@@ -1,1 +1,0 @@
-SlSvcUtil.exe tempuri.org.wsdl tempuri.org.xsd TripiWCF.Service.xsd schemas.microsoft.com.2003.10.Serialization.xsd schemas.microsoft.com.Message.xsd /o:TripiServiceClient.cs
