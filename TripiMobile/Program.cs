@@ -13,7 +13,9 @@ namespace Tripi
         [MTAThread]
         static void Main()
         {
-            Application.Run(new LoginForm());
+            ServiceManager.SendPosition();
+
+         //   Application.Run(new LoginForm());
         }
     }
 }

@@ -17,7 +17,6 @@ namespace Tripi
         {
             InitializeComponent();
             this.Height = 32;
-            addButton();
         }
 
         private void FormLoad(object sender, EventArgs e)
@@ -41,18 +40,6 @@ namespace Tripi
         {
             GpsForm map = new GpsForm();
             map.ShowDialog();
-        }
-
-        private void addButton()
-        {
-            ImageElement button = new ImageElement()
-            {
-                Source = @"images\button_bg2.png",
-                Top = 148,
-                Left = 59,
-                AlphaChannel = false,
-            };
-            this.Canvas.AddElement(() => button);
         }
     }
 }
