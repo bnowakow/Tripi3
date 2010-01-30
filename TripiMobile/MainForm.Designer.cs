@@ -49,6 +49,7 @@
             // 
             // bttnWeather
             // 
+            this.bttnWeather.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(220)))), ((int)(((byte)(233)))));
             this.bttnWeather.Location = new System.Drawing.Point(58, 76);
             this.bttnWeather.Name = "bttnWeather";
             this.bttnWeather.Size = new System.Drawing.Size(131, 20);

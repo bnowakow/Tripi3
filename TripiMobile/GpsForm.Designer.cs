@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GpsForm));
             this.labelTitle = new System.Windows.Forms.Label();
             this.labelLongitude = new System.Windows.Forms.Label();
             this.labelLatitude = new System.Windows.Forms.Label();
@@ -111,6 +112,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(240, 294);
             this.Controls.Add(this.labelSpeed);
             this.Controls.Add(this.tboxSpeed);

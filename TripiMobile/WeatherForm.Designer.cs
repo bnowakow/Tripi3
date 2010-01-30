@@ -37,7 +37,7 @@
             // 
             this.weatherTitle.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
             this.weatherTitle.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.weatherTitle.Location = new System.Drawing.Point(87, 67);
+            this.weatherTitle.Location = new System.Drawing.Point(96, 45);
             this.weatherTitle.Name = "weatherTitle";
             this.weatherTitle.Size = new System.Drawing.Size(67, 20);
             this.weatherTitle.Text = "Weather";

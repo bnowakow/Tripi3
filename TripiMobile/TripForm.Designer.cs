@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TripForm));
             this.labelTitle = new System.Windows.Forms.Label();
             this.labelName = new System.Windows.Forms.Label();
             this.tboxName = new System.Windows.Forms.TextBox();
@@ -86,6 +87,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(240, 294);
             this.Controls.Add(this.bttnStop);
             this.Controls.Add(this.bttnStart);

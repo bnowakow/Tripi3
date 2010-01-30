@@ -182,7 +182,6 @@
     </WebReferenceUrl>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="clientaccesspolicy.xml" />
     <Content Include="data\tripi.sdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -196,6 +195,8 @@
     <Content Include="images\grass3.png" />
     <Content Include="images\grass4.png" />
     <Content Include="images\green_background.png" />
+    <Content Include="images\ground.jpg" />
+    <Content Include="images\ground1.png" />
     <Content Include="images\island.jpg" />
     <Content Include="images\island.png" />
     <None Include="Web References\TripiWCFRemote\PositionNode.datasource">
