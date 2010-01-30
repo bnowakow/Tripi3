@@ -33,7 +33,7 @@ namespace TripiWCF.Service
         #region ITripService implementation
         public string LoginUser(string username, string password)
         {
-            if (username == "Aha" || username == "echudzin") return "luz";
+            if (Users.ContainsKey(username) && Users[username] == password) return "luz";
             return "";
         }
 
@@ -118,7 +118,7 @@ namespace TripiWCF.Service
                             <!DOCTYPE cross-domain-policy SYSTEM ""http://www.macromedia.com/xml/dtds/cross-domain-policy.dtd"">
                             <cross-domain-policy>
                                 <allow-access-from domain=""*"" />
-                                <allow-http-request-headers-from-domain=""*"" headers=""SOAPAction"" />
+                                <allow-http-request-headers-from domain=""*"" headers=""SOAPAction"" />
                             </cross-domain-policy>";
             return StringToStream(result);
         }
