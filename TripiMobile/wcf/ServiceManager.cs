@@ -20,8 +20,8 @@ namespace Tripi.wcf
         private int currentTripId = NOT_SPECIFIED;
         private string userName;
 
-        private string remoteAddress = "http://10.211.55.3:8765/main";
-        //private string remoteAddress = "http://joannar.ds.pg.gda.pl:1234/TripiSilverlightWCFService.svc";
+        //private string remoteAddress = "http://10.211.55.3:8765/main";
+        private string remoteAddress = "http://joannar.ds.pg.gda.pl:8765/main";
 
         public ServiceManager(string name)
         {
@@ -33,7 +33,7 @@ namespace Tripi.wcf
 
         public bool RunNewTrip(string tripName)
         {
-            currentTrip = service.CreateNewTrip(userName, tripName);
+            currentTripId = service.CreateNewTrip(userName, tripName);
             tripRunning = true;
 
             GPSListener gpsListener = GPSListener.GetInstance;
@@ -64,6 +64,9 @@ namespace Tripi.wcf
             if (position.LongitudeValid)
                 node.Longitude = position.Longitude;
 
+            node.SpeedSpecified = position.SpeedValid;
+            if (position.SpeedValid)
+                node.Speed = position.Speed;
 
             node.TripIDSpecified = true;
             node.TripID = currentTripId;
