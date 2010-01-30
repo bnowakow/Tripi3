@@ -23,6 +23,11 @@ namespace Tripi
             Application.Exit();
         }
 
+        private void ToogleSIP(object sender, EventArgs e)
+        {
+            inputPanel.Enabled = !inputPanel.Enabled;
+        }
+
         private void LogInClick(object sender, EventArgs e)
         {
             string login = tboxLogin.Text;
@@ -46,6 +51,9 @@ namespace Tripi
         {
             this.MenuBar.LeftMenu = "Exit";
             this.MenuBar.LeftMenuClicked += new EventHandler(ExitApplication);
+
+            this.MenuBar.RightMenu = "SIP";
+            this.MenuBar.RightMenuClicked += new EventHandler(ToogleSIP);
         }
     }
 }

@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="inputPanel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="$this.FormFactorShadowProperty" xml:space="preserve">
     <value>Pocket_PC</value>
   </metadata>
@@ -127,7 +130,7 @@
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPAAAAEiCAIAAABItshVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAC1aSURBVHhe7ZgHtFbVte95CpYYpGOhiCJKO4XeDuccDqBB
+        YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAAC1aSURBVHhe7ZgHtFbVte95CpYYpGOhiCJKO4XeDuccDqBB
         g4qoYI+IlWtijxpj9BpbjPqEePXaXyzXFq+R2GI0UWOLsV4TS4yKIkgvp8E5B33/Of9rzW+D971x381Y
         Y43xxnTscdzf/tae5Tf/c6710a68T/vK3ToM67dt5W5bV/TdqqIvPm5d3rt9Wa8OQ3vjpkNZr61xYU1Z
         762H7ioXPupbcuFFvToM77ddeZ8Og3feqrw37MhiXOV9YHBrfIu/8qRX+/I++BbXNjAyrN82cAdTQ3tt

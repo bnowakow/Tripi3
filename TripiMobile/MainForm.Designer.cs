@@ -35,7 +35,7 @@
             this.serialPort = new System.IO.Ports.SerialPort(this.components);
             this.gpsTimer = new System.Windows.Forms.Timer();
             this.bttnGps = new System.Windows.Forms.Button();
-            this.bttnViewTrips = new System.Windows.Forms.Button();
+            this.bttnContinueTrip = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bttnNewTrip
@@ -63,16 +63,17 @@
             this.bttnGps.Name = "bttnGps";
             this.bttnGps.Size = new System.Drawing.Size(131, 20);
             this.bttnGps.TabIndex = 11;
-            this.bttnGps.Text = "Get GPS Positions ";
+            this.bttnGps.Text = "View GPS Positions ";
             this.bttnGps.Click += new System.EventHandler(this.GpsButtonClick);
             // 
-            // bttnViewTrips
+            // bttnContinueTrip
             // 
-            this.bttnViewTrips.Location = new System.Drawing.Point(58, 154);
-            this.bttnViewTrips.Name = "bttnViewTrips";
-            this.bttnViewTrips.Size = new System.Drawing.Size(130, 20);
-            this.bttnViewTrips.TabIndex = 12;
-            this.bttnViewTrips.Text = "View Trips";
+            this.bttnContinueTrip.Location = new System.Drawing.Point(58, 154);
+            this.bttnContinueTrip.Name = "bttnContinueTrip";
+            this.bttnContinueTrip.Size = new System.Drawing.Size(130, 20);
+            this.bttnContinueTrip.TabIndex = 12;
+            this.bttnContinueTrip.Text = "Continue Trip";
+            this.bttnContinueTrip.Click += new System.EventHandler(this.ContinueTripClick);
             // 
             // MainForm
             // 
@@ -81,7 +82,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(240, 294);
-            this.Controls.Add(this.bttnViewTrips);
+            this.Controls.Add(this.bttnContinueTrip);
             this.Controls.Add(this.bttnGps);
             this.Controls.Add(this.bttnWeather);
             this.Controls.Add(this.bttnNewTrip);
@@ -99,7 +100,7 @@
         private System.IO.Ports.SerialPort serialPort;
         private System.Windows.Forms.Timer gpsTimer;
         private System.Windows.Forms.Button bttnGps;
-        private System.Windows.Forms.Button bttnViewTrips;
+        private System.Windows.Forms.Button bttnContinueTrip;
 
     }
 }

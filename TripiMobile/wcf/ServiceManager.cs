@@ -31,16 +31,26 @@ namespace Tripi.wcf
             scheduler = new SendScheduler();
         }
 
+        public bool ContinueTrip(Trip trip)
+        {
+            currentTripId = trip.ID;
+            return RunTrip();
+        }
+
         public bool RunNewTrip(string tripName)
         {
             currentTripId = service.CreateNewTrip(userName, tripName);
-            tripRunning = true;
+            return RunTrip();
+        }
 
+        private bool RunTrip()
+        {
             GPSListener gpsListener = GPSListener.GetInstance;
             gpsListener.OnLocationChanged += new Action<GpsPosition>(scheduler.ReceivePositionFromGps);
             gpsListener.OpenGPS();
             scheduler.Start(sendFrequency, SendPosition);
-
+            
+            tripRunning = true;
             userTrips = null;
             return true;
         }
@@ -86,6 +96,11 @@ namespace Tripi.wcf
         public PositionNode[] GetPositionNodesForTrip(int tripId)
         {
             return service.GetPositionNodesForTrip(tripId);
+        }
+
+        public Trip[] GetUserTrips()
+        {
+            return service.GetTripsForUser(userName);
         }
 
         #region PROPERTIES

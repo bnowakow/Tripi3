@@ -46,8 +46,14 @@ namespace Tripi
 
         private void NewTripButtonClick(object sender, EventArgs e)
         {
-            TripForm tripForm = new TripForm();
-            tripForm.ShowDialog();
+            NewTripForm newTripForm = new NewTripForm();
+            newTripForm.ShowDialog();
+        }
+
+        private void ContinueTripClick(object sender, EventArgs e)
+        {
+            ContinueTripForm continueTripForm = new ContinueTripForm();
+            continueTripForm.ShowDialog();
         }
     }
 }

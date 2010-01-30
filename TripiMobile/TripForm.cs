@@ -15,10 +15,15 @@ namespace Tripi
     public partial class TripForm : UIForm
     {
         private ServiceManager service = null;
+        private TripMode mode;
+        Trip trip = null;
 
-        public TripForm()
+        public TripForm(TripMode mode, Trip trip)
         {
             InitializeComponent();
+            this.mode = mode;
+            this.trip = trip;
+
             service = new ServiceManager(User.Login);
             service.SendFrequencyInSeconds = 10;
         }
@@ -27,6 +32,7 @@ namespace Tripi
         {
             this.MenuBar.LeftMenu = "Back";
             this.MenuBar.LeftMenuClicked += new EventHandler(BackButtonClick);
+            this.labelTripName.Text = trip.TripName;
         }
 
         private void BackButtonClick(object sender, EventArgs e)
@@ -40,12 +46,20 @@ namespace Tripi
 
         private void StartButtonClick(object sender, EventArgs e)
         {
-            service.RunNewTrip(tboxName.Text);
+            if(TripMode.NEW.Equals(mode))
+                service.RunNewTrip(trip.TripName);
+            else
+                service.ContinueTrip(trip);
         }
 
         private void StopButtonClick(object sender, EventArgs e)
         {
             service.StopTrip();
         }
+    }
+
+    public enum TripMode
+    {
+        NEW, CONTINUE
     }
 }

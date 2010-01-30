@@ -34,10 +34,10 @@
             this.tboxPassword = new System.Windows.Forms.TextBox();
             this.labelUser = new System.Windows.Forms.Label();
             this.labelPassword = new System.Windows.Forms.Label();
-            this.serialPort = new System.IO.Ports.SerialPort(this.components);
             this.gpsTimer = new System.Windows.Forms.Timer();
             this.labelTitle = new System.Windows.Forms.Label();
             this.bttnOk = new System.Windows.Forms.Button();
+            this.inputPanel = new Microsoft.WindowsCE.Forms.InputPanel(this.components);
             this.SuspendLayout();
             // 
             // tboxLogin
@@ -122,10 +122,10 @@
         private System.Windows.Forms.TextBox tboxPassword;
         private System.Windows.Forms.Label labelUser;
         private System.Windows.Forms.Label labelPassword;
-        private System.IO.Ports.SerialPort serialPort;
         private System.Windows.Forms.Timer gpsTimer;
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Button bttnOk;
+        private Microsoft.WindowsCE.Forms.InputPanel inputPanel;
 
     }
 }

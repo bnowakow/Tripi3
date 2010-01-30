@@ -1,6 +1,6 @@
 ﻿namespace Tripi
 {
-    partial class TripForm
+    partial class NewTripForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,72 +28,63 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TripForm));
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewTripForm));
             this.labelTitle = new System.Windows.Forms.Label();
             this.labelName = new System.Windows.Forms.Label();
-            this.bttnStop = new System.Windows.Forms.Button();
-            this.bttnStart = new System.Windows.Forms.Button();
-            this.labelTripName = new System.Windows.Forms.Label();
+            this.tBoxName = new System.Windows.Forms.TextBox();
+            this.bttnOk = new System.Windows.Forms.Button();
+            this.inputPanel = new Microsoft.WindowsCE.Forms.InputPanel(this.components);
             this.SuspendLayout();
             // 
             // labelTitle
             // 
             this.labelTitle.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
             this.labelTitle.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.labelTitle.Location = new System.Drawing.Point(26, 52);
+            this.labelTitle.Location = new System.Drawing.Point(24, 72);
             this.labelTitle.Name = "labelTitle";
             this.labelTitle.Size = new System.Drawing.Size(189, 20);
-            this.labelTitle.Text = "Trip Logger";
+            this.labelTitle.Text = "New Trip";
             this.labelTitle.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // labelName
             // 
             this.labelName.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
             this.labelName.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.labelName.Location = new System.Drawing.Point(13, 85);
+            this.labelName.Location = new System.Drawing.Point(11, 105);
             this.labelName.Name = "labelName";
             this.labelName.Size = new System.Drawing.Size(55, 20);
             this.labelName.Text = "Name:";
             this.labelName.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // bttnStop
+            // tBoxName
             // 
-            this.bttnStop.Location = new System.Drawing.Point(65, 182);
-            this.bttnStop.Name = "bttnStop";
-            this.bttnStop.Size = new System.Drawing.Size(112, 43);
-            this.bttnStop.TabIndex = 17;
-            this.bttnStop.Text = "Stop";
-            this.bttnStop.Click += new System.EventHandler(this.StopButtonClick);
+            this.tBoxName.Location = new System.Drawing.Point(72, 105);
+            this.tBoxName.Name = "tBoxName";
+            this.tBoxName.Size = new System.Drawing.Size(153, 21);
+            this.tBoxName.TabIndex = 20;
             // 
-            // bttnStart
+            // bttnOk
             // 
-            this.bttnStart.Location = new System.Drawing.Point(65, 130);
-            this.bttnStart.Name = "bttnStart";
-            this.bttnStart.Size = new System.Drawing.Size(112, 43);
-            this.bttnStart.TabIndex = 16;
-            this.bttnStart.Text = "Start";
-            this.bttnStart.Click += new System.EventHandler(this.StartButtonClick);
+            this.bttnOk.Location = new System.Drawing.Point(72, 151);
+            this.bttnOk.Name = "bttnOk";
+            this.bttnOk.Size = new System.Drawing.Size(85, 24);
+            this.bttnOk.TabIndex = 21;
+            this.bttnOk.Text = "OK";
+            this.bttnOk.Click += new System.EventHandler(this.OKClick);
             // 
-            // labelTripName
-            // 
-            this.labelTripName.Location = new System.Drawing.Point(74, 85);
-            this.labelTripName.Name = "labelTripName";
-            this.labelTripName.Size = new System.Drawing.Size(153, 20);
-            this.labelTripName.Text = "tripName";
-            // 
-            // TripForm
+            // NewTripForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(240, 294);
-            this.Controls.Add(this.labelTripName);
-            this.Controls.Add(this.bttnStop);
-            this.Controls.Add(this.bttnStart);
+            this.Controls.Add(this.bttnOk);
+            this.Controls.Add(this.tBoxName);
             this.Controls.Add(this.labelTitle);
             this.Controls.Add(this.labelName);
-            this.Name = "TripForm";
+            this.Name = "NewTripForm";
             this.Text = "Tripi";
             this.Load += new System.EventHandler(this.FormLoad);
             this.ResumeLayout(false);
@@ -104,8 +95,8 @@
 
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Label labelName;
-        private System.Windows.Forms.Button bttnStop;
-        private System.Windows.Forms.Button bttnStart;
-        private System.Windows.Forms.Label labelTripName;
+        private System.Windows.Forms.TextBox tBoxName;
+        private System.Windows.Forms.Button bttnOk;
+        private Microsoft.WindowsCE.Forms.InputPanel inputPanel;
     }
 }

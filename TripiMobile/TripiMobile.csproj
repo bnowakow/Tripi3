@@ -45,6 +45,7 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.WindowsCE.Forms" />
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -60,6 +61,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContinueTripForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContinueTripForm.Designer.cs">
+      <DependentUpon>ContinueTripForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewTripForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewTripForm.Designer.cs">
+      <DependentUpon>NewTripForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="TripForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +110,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="components\ButtonPanel.resx">
       <DependentUpon>ButtonPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContinueTripForm.resx">
+      <DependentUpon>ContinueTripForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTripForm.resx">
+      <DependentUpon>NewTripForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TripForm.resx">
       <DependentUpon>TripForm.cs</DependentUpon>
