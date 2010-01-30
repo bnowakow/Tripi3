@@ -25,7 +25,7 @@ namespace SilverlightShowcase
 
         public void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
-            TripiSilverlightWCFService.TripiSilverlightWCFServiceClient tripiSilverlightWCFServiceClient = new SilverlightShowcase.TripiSilverlightWCFService.TripiSilverlightWCFServiceClient();
+            /*TripiSilverlightWCFService.TripiSilverlightWCFServiceClient tripiSilverlightWCFServiceClient = new SilverlightShowcase.TripiSilverlightWCFService.TripiSilverlightWCFServiceClient();
             tripiSilverlightWCFServiceClient.GetPositionNodesForTripCompleted += new EventHandler<SilverlightShowcase.TripiSilverlightWCFService.GetPositionNodesForTripCompletedEventArgs>(tripiSilverlightWCFServiceClient_GetPositionNodesForTripCompleted);
             tripiSilverlightWCFServiceClient.GetPositionNodesForTripAsync(0);
 
@@ -34,13 +34,13 @@ namespace SilverlightShowcase
             polyline.Add(new Location(-3.0, 5.0));
             polyline.Add(new Location(3.0, -5.0));
             polyline.Add(new Location(-3.0, -5.0));
-            drawPolyline(polyline);
+            drawPolyline(polyline);*/
         }
 
-        void tripiSilverlightWCFServiceClient_GetPositionNodesForTripCompleted(object sender, SilverlightShowcase.TripiSilverlightWCFService.GetPositionNodesForTripCompletedEventArgs e)
+        /*void tripiSilverlightWCFServiceClient_GetPositionNodesForTripCompleted(object sender, SilverlightShowcase.TripiSilverlightWCFService.GetPositionNodesForTripCompletedEventArgs e)
         {
             txtName.Text = e.Result.ToString();
-        }
+        }*/
 
         private void drawPolyline(List<Location> list)
         {
