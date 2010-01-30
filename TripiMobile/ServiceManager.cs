@@ -3,7 +3,9 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Text;
 using Tripi.WeatherService;
-using Tripi.TripiWCFRemote;
+using System.Xml.Linq;
+using System.Reflection;
+using System.ServiceModel;
 
 namespace Tripi
 {
@@ -19,12 +21,12 @@ namespace Tripi
 
         public static String SendPosition()
         {
-            TripiSilverlightWCFService service = new TripiSilverlightWCFService();
-            service.Url = "http://joannar.ds.pg.gda.pl:1234/TripiSilverlightWCFService.svc";
-            
-            int tripId;
-            bool tripIdeSpecified;
-            service.CreateNewTrip("Asia", out tripId, out tripIdeSpecified);
+            String remoteAddress = "http://10.211.55.3:1234/TripiSilverlightWCFService.svc";
+            remoteAddress = "http://joannar.ds.pg.gda.pl:1234/TripiSilverlightWCFService.svc";
+            EndpointAddress endpoint = new EndpointAddress(remoteAddress);
+            TripiSilverlightWCFServiceClient service = new TripiSilverlightWCFServiceClient(new BasicHttpBinding(), endpoint);
+
+            int tripId = service.CreateNewTrip("Asia");
 
             PositionNode node = new PositionNode();
             node.Latitude = 10.0;
@@ -36,7 +38,7 @@ namespace Tripi
 
             service.AddPositionNode(node);
 
-            service.GetPositionNodesForTrip(tripId, true);
+            PositionNode[] returnArray = service.GetPositionNodesForTrip(tripId);
 
             return "";
         }

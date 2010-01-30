@@ -25,9 +25,9 @@ namespace SilverlightShowcase
 
         public void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
-            SampleWeatherService.GlobalWeatherSoapClient sws = new SampleWeatherService.GlobalWeatherSoapClient();
-            sws.GetWeatherCompleted += new EventHandler<SilverlightShowcase.SampleWeatherService.GetWeatherCompletedEventArgs>(sws_GetWeatherCompleted);
-            sws.GetWeatherAsync("Gdansk-Rebiechowo", "Poland");
+            TripiSilverlightWCFService.TripiSilverlightWCFServiceClient tripiSilverlightWCFServiceClient = new SilverlightShowcase.TripiSilverlightWCFService.TripiSilverlightWCFServiceClient();
+            tripiSilverlightWCFServiceClient.GetPositionNodesForTripCompleted += new EventHandler<SilverlightShowcase.TripiSilverlightWCFService.GetPositionNodesForTripCompletedEventArgs>(tripiSilverlightWCFServiceClient_GetPositionNodesForTripCompleted);
+            tripiSilverlightWCFServiceClient.GetPositionNodesForTripAsync(0);
 
             List<Location> polyline = new List<Location>();
             polyline.Add(new Location(3.0, 5.0));
@@ -37,7 +37,7 @@ namespace SilverlightShowcase
             drawPolyline(polyline);
         }
 
-        private void sws_GetWeatherCompleted(object sender, SilverlightShowcase.SampleWeatherService.GetWeatherCompletedEventArgs e)
+        void tripiSilverlightWCFServiceClient_GetPositionNodesForTripCompleted(object sender, SilverlightShowcase.TripiSilverlightWCFService.GetPositionNodesForTripCompletedEventArgs e)
         {
             txtName.Text = e.Result.ToString();
         }

@@ -67,6 +67,9 @@
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="OneColumnWithFooter.Master.cs">
       <DependentUpon>OneColumnWithFooter.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -110,6 +113,7 @@
     <Content Include="TwoColumnsWithFooter.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="clientaccesspolicy.xml" />
     <Content Include="OneColumnWithFooter.Master" />
     <Content Include="TripiSilverlightWCFService.svc" />
   </ItemGroup>

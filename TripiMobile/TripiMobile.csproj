@@ -50,6 +50,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.SqlServerCe, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3be235df1c8d2ad3, processorArchitecture=MSIL" />
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -59,6 +60,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CFClientBase.cs" />
     <Compile Include="components\ButtonPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -110,6 +112,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="TripiSilverlightWCFService.cs" />
     <Compile Include="WeatherForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,11 +120,6 @@
       <DependentUpon>WeatherForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Web References\TripiWCFRemote\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.map</DependentUpon>
-    </Compile>
-    <Compile Include="Web References\TripiWCFService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
@@ -134,7 +132,6 @@
     <Compile Include="ServiceManager.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Web References\TripiWCFService\TripiSilverlightWCFService.wsdl" />
     <None Include="Web References\WeatherService\globalweather.disco" />
     <None Include="Web References\WeatherService\globalweather.wsdl" />
     <None Include="Web References\WeatherService\Reference.map">
@@ -146,23 +143,10 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="http://joannar.ds.pg.gda.pl:1234/TripiSilverlightWCFService.svc">
+    <WebReferenceUrl Include="http://10.211.55.3:1234/TripiSilverlightWCFService.svc">
       <UrlBehavior>Static</UrlBehavior>
       <RelPath>Web References\TripiWCFRemote\</RelPath>
-      <UpdateFromURL>http://joannar.ds.pg.gda.pl:1234/TripiSilverlightWCFService.svc</UpdateFromURL>
-      <ServiceLocationURL>
-      </ServiceLocationURL>
-      <CachedDynamicPropName>
-      </CachedDynamicPropName>
-      <CachedAppSettingsObjectName>
-      </CachedAppSettingsObjectName>
-      <CachedSettingsPropName>
-      </CachedSettingsPropName>
-    </WebReferenceUrl>
-    <WebReferenceUrl Include="http://localhost:1094/TripiSilverlightWCFService.svc">
-      <UrlBehavior>Static</UrlBehavior>
-      <RelPath>Web References\TripiWCFService\</RelPath>
-      <UpdateFromURL>http://localhost:1094/TripiSilverlightWCFService.svc</UpdateFromURL>
+      <UpdateFromURL>http://10.211.55.3:1234/TripiSilverlightWCFService.svc</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
@@ -218,21 +202,6 @@
     <None Include="Web References\TripiWCFRemote\TripiSilverlightWCFService0.wsdl" />
     <None Include="Web References\TripiWCFRemote\TripiSilverlightWCFService0.xsd" />
     <None Include="Web References\TripiWCFRemote\TripiSilverlightWCFService1.xsd" />
-    <None Include="Web References\TripiWCFService\PositionNode.datasource">
-      <DependentUpon>Reference.map</DependentUpon>
-    </None>
-    <None Include="Web References\TripiWCFService\Reference.map">
-      <Generator>MSDiscoCodeGenerator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
-    <None Include="Web References\TripiWCFService\Trip.datasource">
-      <DependentUpon>Reference.map</DependentUpon>
-    </None>
-    <None Include="Web References\TripiWCFService\TripiSilverlightWCFService.disco" />
-    <None Include="Web References\TripiWCFService\TripiSilverlightWCFService.xsd" />
-    <None Include="Web References\TripiWCFService\TripiSilverlightWCFService0.wsdl" />
-    <None Include="Web References\TripiWCFService\TripiSilverlightWCFService0.xsd" />
-    <None Include="Web References\TripiWCFService\TripiSilverlightWCFService1.xsd" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GPS\GPSMobile.csproj">

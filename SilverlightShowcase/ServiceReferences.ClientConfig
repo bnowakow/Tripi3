@@ -2,10 +2,6 @@
     <system.serviceModel>
         <bindings>
             <basicHttpBinding>
-                <binding name="GlobalWeatherSoap" maxBufferSize="2147483647"
-                    maxReceivedMessageSize="2147483647">
-                    <security mode="None" />
-                </binding>
                 <binding name="BasicHttpBinding_TripiSilverlightWCFService" maxBufferSize="2147483647"
                     maxReceivedMessageSize="2147483647">
                     <security mode="None" />
@@ -13,12 +9,9 @@
             </basicHttpBinding>
         </bindings>
         <client>
-            <endpoint address="http://www.webservicex.net/globalweather.asmx"
-                binding="basicHttpBinding" bindingConfiguration="GlobalWeatherSoap"
-                contract="SampleWeatherService.GlobalWeatherSoap" name="GlobalWeatherSoap" />
             <endpoint address="http://localhost:1094/TripiSilverlightWCFService.svc"
                 binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_TripiSilverlightWCFService"
-                contract="TripiSilverlightWCFServiceReference.TripiSilverlightWCFService"
+                contract="TripiSilverlightWCFService.TripiSilverlightWCFService"
                 name="BasicHttpBinding_TripiSilverlightWCFService" />
         </client>
     </system.serviceModel>
