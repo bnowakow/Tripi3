@@ -22,7 +22,7 @@ namespace Tripi
         public static String SendPosition()
         {
             String remoteAddress = "http://10.211.55.3:1234/TripiSilverlightWCFService.svc";
-            remoteAddress = "http://joannar.ds.pg.gda.pl:1234/TripiSilverlightWCFService.svc";
+            //remoteAddress = "http://joannar.ds.pg.gda.pl:1234/TripiSilverlightWCFService.svc";
             EndpointAddress endpoint = new EndpointAddress(remoteAddress);
             TripiSilverlightWCFServiceClient service = new TripiSilverlightWCFServiceClient(new BasicHttpBinding(), endpoint);
 

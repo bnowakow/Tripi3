@@ -171,6 +171,7 @@
     </WebReferenceUrl>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="clientaccesspolicy.xml" />
     <Content Include="data\tripi.sdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

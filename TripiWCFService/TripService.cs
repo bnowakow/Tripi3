@@ -23,7 +23,6 @@ namespace TripiWCF.Service
         #endregion
 
         #region ITripService implementation
-        //[OperationContract]
         public int CreateNewTrip(string username)
         {
             Trip temp = new Trip(username, TripCount);
@@ -33,7 +32,6 @@ namespace TripiWCF.Service
             return temp.ID;
         }
        
-        //[OperationContract]
         public List<Trip> GetTripsForUser(string username)
         {
             IEnumerable<Trip> UserTrips = Trips.Where((Trip t) => t.Username == username);
@@ -42,7 +40,6 @@ namespace TripiWCF.Service
             return UserTrips.ToList();
         }
 
-        //[OperationContract]
         public List<PositionNode> GetPositionNodesForTrip(int tripID)
         {
             IEnumerable<PositionNode> TripNodes = Nodes.Where((PositionNode n) => n.TripID == tripID);
@@ -51,7 +48,6 @@ namespace TripiWCF.Service
             return TripNodes.ToList();
         }
 
-        //[OperationContract]
         public void AddPositionNode(PositionNode node)
         {
             Nodes.Add(node);
