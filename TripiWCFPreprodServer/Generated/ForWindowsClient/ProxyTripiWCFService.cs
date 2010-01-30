@@ -180,6 +180,9 @@ namespace TripiWCF.ClientMockup.Proxy
     public interface ITripService
     {
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/LoginUser", ReplyAction="http://tempuri.org/ITripService/LoginUserResponse")]
+        string LoginUser(string username, string password);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/CreateNewTrip", ReplyAction="http://tempuri.org/ITripService/CreateNewTripResponse")]
         int CreateNewTrip(string username, string tripName);
         
@@ -225,6 +228,11 @@ namespace TripiWCF.ClientMockup.Proxy
         public TripServiceClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress)
         {
+        }
+        
+        public string LoginUser(string username, string password)
+        {
+            return base.Channel.LoginUser(username, password);
         }
         
         public int CreateNewTrip(string username, string tripName)
