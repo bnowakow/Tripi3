@@ -4,10 +4,12 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using System.IO;
+using System.ServiceModel.Web;
 
 namespace TripiWCF.Service
 {
-    public class TripService : ITripService
+    public class TripService : ITripService, ICrossDomainPolicyResponder
     {
         #region Private fields
         protected static List<Trip> Trips = new List<Trip>();
@@ -76,6 +78,43 @@ namespace TripiWCF.Service
         #region Events
         public static event Action<int, int> OnDatabaseInsert;
         public static event Action<string> OnDatabaseQuery;
+        #endregion
+
+        #region Making Silverlight suck less
+        public Stream GetSilverlightPolicy()
+        {
+            string result = @"<?xml version=""1.0"" encoding=""utf-8""?>
+                <access-policy>
+                    <cross-domain-access>
+                        <policy>
+                            <allow-from>
+                                <domain uri=""*""/>
+                            </allow-from>
+                            <grant-to>
+                                <resource path=""/"" include-subpaths=""true""/>
+                            </grant-to>
+                        </policy>
+                    </cross-domain-access>
+                </access-policy>";
+            return StringToStream(result);
+
+        }
+
+        public Stream GetFlashPolicy()
+        {
+            string result = @"<?xml version=""1.0""?>
+                            <!DOCTYPE cross-domain-policy SYSTEM ""http://www.macromedia.com/xml/dtds/cross-domain-policy.dtd"">
+                            <cross-domain-policy>
+                                <allow-access-from domain=""*"" />
+                            </cross-domain-policy>";
+            return StringToStream(result);
+        }
+
+        private Stream StringToStream(string result)
+        {
+            WebOperationContext.Current.OutgoingResponse.ContentType = "application/xml";
+            return new MemoryStream(Encoding.UTF8.GetBytes(result));
+        }
         #endregion
     }
 }
