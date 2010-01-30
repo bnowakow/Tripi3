@@ -17,6 +17,7 @@ namespace TripiWCF.Service
         private static Dictionary<string, string> Users = new Dictionary<string, string>()
         {
             {"Aha", "test"},
+            {"Asia", "test"},
             {"Staro", "ble"},
             {"echudzin", "best"}
         };
