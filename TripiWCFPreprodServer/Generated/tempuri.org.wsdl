@@ -5,6 +5,7 @@
       <xsd:import namespace="http://tempuri.org/" />
       <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xsd:import namespace="http://schemas.datacontract.org/2004/07/TripiWCF.Service" />
+      <xsd:import namespace="http://schemas.microsoft.com/Message" />
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="ITripService_CreateNewTrip_InputMessage">
@@ -31,6 +32,18 @@
   <wsdl:message name="ITripService_AddPositionNode_OutputMessage">
     <wsdl:part name="parameters" element="tns:AddPositionNodeResponse" />
   </wsdl:message>
+  <wsdl:message name="ICrossDomainPolicyResponder_GetSilverlightPolicy_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSilverlightPolicy" />
+  </wsdl:message>
+  <wsdl:message name="ICrossDomainPolicyResponder_GetSilverlightPolicy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSilverlightPolicyResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICrossDomainPolicyResponder_GetFlashPolicy_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFlashPolicy" />
+  </wsdl:message>
+  <wsdl:message name="ICrossDomainPolicyResponder_GetFlashPolicy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFlashPolicyResponse" />
+  </wsdl:message>
   <wsdl:portType name="ITripService">
     <wsdl:operation name="CreateNewTrip">
       <wsdl:input wsaw:Action="http://tempuri.org/ITripService/CreateNewTrip" message="tns:ITripService_CreateNewTrip_InputMessage" />
@@ -47,6 +60,16 @@
     <wsdl:operation name="AddPositionNode">
       <wsdl:input wsaw:Action="http://tempuri.org/ITripService/AddPositionNode" message="tns:ITripService_AddPositionNode_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/ITripService/AddPositionNodeResponse" message="tns:ITripService_AddPositionNode_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ICrossDomainPolicyResponder">
+    <wsdl:operation name="GetSilverlightPolicy">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICrossDomainPolicyResponder/GetSilverlightPolicy" message="tns:ICrossDomainPolicyResponder_GetSilverlightPolicy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICrossDomainPolicyResponder/GetSilverlightPolicyResponse" message="tns:ICrossDomainPolicyResponder_GetSilverlightPolicy_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFlashPolicy">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICrossDomainPolicyResponder/GetFlashPolicy" message="tns:ICrossDomainPolicyResponder_GetFlashPolicy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICrossDomainPolicyResponder/GetFlashPolicyResponse" message="tns:ICrossDomainPolicyResponder_GetFlashPolicy_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="DefaultBinding_ITripService" type="tns:ITripService">
@@ -80,6 +103,27 @@
     </wsdl:operation>
     <wsdl:operation name="AddPositionNode">
       <soap:operation soapAction="http://tempuri.org/ITripService/AddPositionNode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DefaultBinding_ICrossDomainPolicyResponder" type="tns:ICrossDomainPolicyResponder">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetSilverlightPolicy">
+      <soap:operation soapAction="http://tempuri.org/ICrossDomainPolicyResponder/GetSilverlightPolicy" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFlashPolicy">
+      <soap:operation soapAction="http://tempuri.org/ICrossDomainPolicyResponder/GetFlashPolicy" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

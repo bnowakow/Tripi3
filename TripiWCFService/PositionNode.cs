@@ -16,6 +16,8 @@ namespace TripiWCF.Service
         [DataMember]
         public double Longitude { get; set; }
         [DataMember]
+        public double Speed { get; set; }
+        [DataMember]
         public int TripID { get; set; }
         [DataMember]
         public DateTime CreationTime { get; set; }

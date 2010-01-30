@@ -15,13 +15,16 @@ namespace TripiWCF.Service
         public int ID { get; set; }
         [DataMember]
         public string Username { get; set; }
+        [DataMember]
+        public string TripName { get; set; }
         #endregion
 
         #region Constructor
-        public Trip(string username, int id)
+        public Trip(string username, int id, string tripName)
         {
             Username = username;
             ID = id;
+            TripName = tripName;
         }
         #endregion
     }

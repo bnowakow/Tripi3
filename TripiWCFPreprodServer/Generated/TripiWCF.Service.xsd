@@ -9,6 +9,7 @@
   <xs:complexType name="Trip">
     <xs:sequence>
       <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="TripName" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
@@ -24,6 +25,7 @@
       <xs:element minOccurs="0" name="CreationTime" type="xs:dateTime" />
       <xs:element minOccurs="0" name="Latitude" type="xs:double" />
       <xs:element minOccurs="0" name="Longitude" type="xs:double" />
+      <xs:element minOccurs="0" name="Speed" type="xs:double" />
       <xs:element minOccurs="0" name="TripID" type="xs:int" />
     </xs:sequence>
   </xs:complexType>

@@ -25,9 +25,9 @@ namespace TripiWCF.Service
         #endregion
 
         #region ITripService implementation
-        public int CreateNewTrip(string username)
+        public int CreateNewTrip(string username, string tripName)
         {
-            Trip temp = new Trip(username, TripCount);
+            Trip temp = new Trip(username, TripCount, tripName);
             Trips.Add(temp);
 
             if (OnDatabaseInsert != null) OnDatabaseInsert(TripCount, PositionNodeCount);

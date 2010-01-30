@@ -23,6 +23,8 @@ namespace TripiWCF.ClientMockup.Proxy
         
         private int IDField;
         
+        private string TripNameField;
+        
         private string UsernameField;
         
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData
@@ -47,6 +49,19 @@ namespace TripiWCF.ClientMockup.Proxy
             set
             {
                 this.IDField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string TripName
+        {
+            get
+            {
+                return this.TripNameField;
+            }
+            set
+            {
+                this.TripNameField = value;
             }
         }
         
@@ -77,6 +92,8 @@ namespace TripiWCF.ClientMockup.Proxy
         private double LatitudeField;
         
         private double LongitudeField;
+        
+        private double SpeedField;
         
         private int TripIDField;
         
@@ -132,6 +149,19 @@ namespace TripiWCF.ClientMockup.Proxy
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public double Speed
+        {
+            get
+            {
+                return this.SpeedField;
+            }
+            set
+            {
+                this.SpeedField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public int TripID
         {
             get
@@ -151,7 +181,7 @@ namespace TripiWCF.ClientMockup.Proxy
     {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/CreateNewTrip", ReplyAction="http://tempuri.org/ITripService/CreateNewTripResponse")]
-        int CreateNewTrip(string username);
+        int CreateNewTrip(string username, string tripName);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/GetTripsForUser", ReplyAction="http://tempuri.org/ITripService/GetTripsForUserResponse")]
         TripiWCF.ClientMockup.Proxy.Trip[] GetTripsForUser(string username);
@@ -197,9 +227,9 @@ namespace TripiWCF.ClientMockup.Proxy
         {
         }
         
-        public int CreateNewTrip(string username)
+        public int CreateNewTrip(string username, string tripName)
         {
-            return base.Channel.CreateNewTrip(username);
+            return base.Channel.CreateNewTrip(username, tripName);
         }
         
         public TripiWCF.ClientMockup.Proxy.Trip[] GetTripsForUser(string username)
@@ -215,6 +245,63 @@ namespace TripiWCF.ClientMockup.Proxy
         public void AddPositionNode(TripiWCF.ClientMockup.Proxy.PositionNode node)
         {
             base.Channel.AddPositionNode(node);
+        }
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder")]
+    public interface ICrossDomainPolicyResponder
+    {
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICrossDomainPolicyResponder/GetSilverlightPolicy", ReplyAction="http://tempuri.org/ICrossDomainPolicyResponder/GetSilverlightPolicyResponse")]
+        System.IO.Stream GetSilverlightPolicy();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICrossDomainPolicyResponder/GetFlashPolicy", ReplyAction="http://tempuri.org/ICrossDomainPolicyResponder/GetFlashPolicyResponse")]
+        System.IO.Stream GetFlashPolicy();
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
+    public interface ICrossDomainPolicyResponderChannel : TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder, System.ServiceModel.IClientChannel
+    {
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
+    public partial class CrossDomainPolicyResponderClient : System.ServiceModel.ClientBase<TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder>, TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder
+    {
+        
+        public CrossDomainPolicyResponderClient()
+        {
+        }
+        
+        public CrossDomainPolicyResponderClient(string endpointConfigurationName) : 
+                base(endpointConfigurationName)
+        {
+        }
+        
+        public CrossDomainPolicyResponderClient(string endpointConfigurationName, string remoteAddress) : 
+                base(endpointConfigurationName, remoteAddress)
+        {
+        }
+        
+        public CrossDomainPolicyResponderClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(endpointConfigurationName, remoteAddress)
+        {
+        }
+        
+        public CrossDomainPolicyResponderClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+                base(binding, remoteAddress)
+        {
+        }
+        
+        public System.IO.Stream GetSilverlightPolicy()
+        {
+            return base.Channel.GetSilverlightPolicy();
+        }
+        
+        public System.IO.Stream GetFlashPolicy()
+        {
+            return base.Channel.GetFlashPolicy();
         }
     }
 }
