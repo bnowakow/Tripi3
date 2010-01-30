@@ -24,6 +24,7 @@ namespace Tripi
         {
             this.MenuBar.LeftMenu = "Exit";
             this.MenuBar.LeftMenuClicked += new EventHandler(ExitApplication);
+            labelUserValue.Text = User.Login;
         }
 
         private void ExitApplication(object sender, EventArgs e)

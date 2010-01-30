@@ -9,11 +9,18 @@ using System.Windows.Forms;
 using Msdn.UIFramework;
 using System.IO;
 using Tripi.wcf;
+using System.Threading;
 
 namespace Tripi
 {
     public partial class LoginForm : UIForm
     {
+        private struct UserCredentials
+        {
+            public string login;
+            public string password;
+        }
+
         public LoginForm()
         {
             InitializeComponent();
@@ -31,22 +38,40 @@ namespace Tripi
 
         private void LogInClick(object sender, EventArgs e)
         {
-            string login = tboxLogin.Text;
-            string password = tboxPassword.Text;
-
-            if (CheckUserCredentials(login, password))
+            UserCredentials credentials = new UserCredentials()
             {
-                User.Login = login;
-                MainForm form = new MainForm();
-                form.ShowDialog();
-                Close();
-            }
+                login = tboxLogin.Text,
+                password = tboxPassword.Text,
+            };
+
+            Thread thread = new Thread(new ThreadStart(delegate {
+                CheckUserCredentials(credentials);
+            }));
+            thread.Start();
         }
 
-        private bool CheckUserCredentials(string login, string password)
+        private void LoginUser()
         {
+            if (InvokeRequired)
+            {
+                Invoke(new Action(LoginUser));
+                return;
+            }
+
+            User.Login = tboxLogin.Text;
+            MainForm form = new MainForm();
+            form.ShowDialog();
+            Close();
+        }
+
+        private void CheckUserCredentials(object param)
+        {
+            UserCredentials credentials = (UserCredentials)param;
             ServiceManager service = new ServiceManager();
-            return service.LoginUser(login, password);
+            if (service.LoginUser(credentials.login, credentials.password))
+            {
+                LoginUser();
+            }
         }
 
         private void FormLoad(object sender, EventArgs e)

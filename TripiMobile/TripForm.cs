@@ -25,7 +25,7 @@ namespace Tripi
             this.trip = trip;
 
             service = new ServiceManager();
-            service.SendFrequencyInSeconds = 10;
+            service.SendFrequencyInSeconds = 3;
         }
 
         private void FormLoad(object sender, EventArgs e)
