@@ -20,6 +20,7 @@ namespace Tripi
         {
             InitializeComponent();
             service = new ServiceManager(User.Login);
+            service.SendFrequencyInSeconds = 10;
         }
 
         private void FormLoad(object sender, EventArgs e)
