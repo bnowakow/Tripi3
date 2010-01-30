@@ -12,8 +12,10 @@ namespace TripiWCF.Service
     [ServiceContract]
     public interface ICrossDomainPolicyResponder
     {
-        [OperationContract, WebGet(UriTemplate = "/clientaccesspolicy.xml")]
+        
+        //[OperationContract, WebGet(UriTemplate = "/clientaccesspolicy.xml")]
         Stream GetSilverlightPolicy();
+        
 
         [OperationContract, WebGet(UriTemplate = "/crossdomain.xml")]
         Stream GetFlashPolicy();

@@ -110,7 +110,6 @@
     <Content Include="TwoColumnsWithFooter.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="clientaccesspolicy.xml" />
     <Content Include="OneColumnWithFooter.Master" />
   </ItemGroup>
   <ItemGroup>
