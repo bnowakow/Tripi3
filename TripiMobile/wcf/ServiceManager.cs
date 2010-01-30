@@ -14,20 +14,20 @@ namespace Tripi.wcf
     class ServiceManager
     { 
         private EndpointAddress endpoint = null;
-        private TripiSilverlightWCFServiceClient service = null;
+        private TripServiceClient service = null;
         private int currentTrip = -1;
         private Trip[] userTrips = null;
         private bool tripRunning = false;
         private string userName;
        
-        //private string remoteAddress = "http://10.211.55.3:1234/TripiSilverlightWCFService.svc";
-        private string remoteAddress = "http://joannar.ds.pg.gda.pl:1234/TripiSilverlightWCFService.svc";
+        private string remoteAddress = "http://10.211.55.3:8765/main";
+        //private string remoteAddress = "http://joannar.ds.pg.gda.pl:1234/TripiSilverlightWCFService.svc";
 
         public ServiceManager(string name)
         {
             this.userName = name;
-            endpoint = new EndpointAddress(remoteAddress);     
-            service = new TripiSilverlightWCFServiceClient(new BasicHttpBinding(), endpoint);
+            endpoint = new EndpointAddress(remoteAddress);
+            service = new TripServiceClient(new BasicHttpBinding(), endpoint);
         }
 
         public Trip[] UserTrips
@@ -47,7 +47,7 @@ namespace Tripi.wcf
 
         public bool RunNewTrip(string tripName)
         {
-            currentTrip = service.CreateNewTrip(userName);
+            currentTrip = service.CreateNewTrip(userName, tripName);
             tripRunning = true;
             GPSListener gpsListener = GPSListener.GetInstance;
             gpsListener.OnLocationChanged += new Action<GpsPosition>(SendPosition);

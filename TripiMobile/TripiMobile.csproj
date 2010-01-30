@@ -68,7 +68,6 @@
     </Compile>
     <Compile Include="gps\GPSListener.cs" />
     <Compile Include="User.cs" />
-    <Compile Include="wcf\CFClientBase.cs" />
     <Compile Include="components\ButtonPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -123,7 +122,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="wcf\TripiSilverlightWCFService.cs" />
+    <Compile Include="wcf\CFClientBase.cs" />
+    <Compile Include="wcf\TripiWCFService.cs" />
     <Compile Include="WeatherForm.cs">
       <SubType>Form</SubType>
     </Compile>
