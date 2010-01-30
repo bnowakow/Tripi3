@@ -12,8 +12,14 @@ namespace TripiWCF.Service
     public class TripService : ITripService, ICrossDomainPolicyResponder
     {
         #region Private fields
-        protected static List<Trip> Trips = new List<Trip>();
-        protected static List<PositionNode> Nodes = new List<PositionNode>();
+        private static List<Trip> Trips = new List<Trip>();
+        private static List<PositionNode> Nodes = new List<PositionNode>();
+        private static Dictionary<string, string> Users = new Dictionary<string, string>()
+        {
+            {"Aha", "test"},
+            {"Staro", "ble"},
+            {"echudzin", "best"}
+        };
         #endregion
 
         #region Constructor
@@ -112,6 +118,7 @@ namespace TripiWCF.Service
                             <!DOCTYPE cross-domain-policy SYSTEM ""http://www.macromedia.com/xml/dtds/cross-domain-policy.dtd"">
                             <cross-domain-policy>
                                 <allow-access-from domain=""*"" />
+                                <allow-http-request-headers-from-domain=""*"" headers=""SOAPAction"" />
                             </cross-domain-policy>";
             return StringToStream(result);
         }
