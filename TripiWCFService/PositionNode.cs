@@ -23,29 +23,34 @@ namespace TripiWCF.Service
         public int TripID { get; set; }
         [DataMember]
         public DateTime CreationTime { get; set; }
+        [DataMember]
+        public string Description { get; set; }
         #endregion
 
         #region Constructor
         public PositionNode(double lat, double lon, int tripID)
-            : this(lat, lon, tripID, 3.14, DateTime.Now)
+            : this(lat, lon, tripID, 3.14, DateTime.Now, null)
         {
         }
 
-        public PositionNode(double lat, double lon, int tripID, double speed, DateTime creationTime)
+        public PositionNode(double lat, double lon, int tripID, double speed, DateTime creationTime, string description)
         {
             Latitude = lat;
             Longitude = lon;
             TripID = tripID;
             Speed = speed;
             CreationTime = creationTime;
+            Description = description;
         }
 
         public PositionNode(XElement element)
-        : this(double.Parse(element.Attribute("latitude").Value),
-        double.Parse(element.Attribute("longitude").Value),
-        int.Parse(element.Attribute("tripid").Value),
-        double.Parse(element.Attribute("speed").Value),
-        DateTime.ParseExact(element.Attribute("time").Value, CultureInfo.CurrentCulture.DateTimeFormat.GetAllDateTimePatterns(), CultureInfo.CurrentCulture, DateTimeStyles.None))
+            : this(double.Parse(element.Attribute("latitude").Value),
+            double.Parse(element.Attribute("longitude").Value),
+            int.Parse(element.Attribute("tripid").Value),
+            double.Parse(element.Attribute("speed").Value),
+            //DateTime.ParseExact(element.Attribute("time").Value, CultureInfo.CurrentCulture.DateTimeFormat.GetAllDateTimePatterns(), CultureInfo.CurrentCulture, DateTimeStyles.None),
+            DateTime.ParseExact(element.Attribute("time").Value, "yyyyMMddHHmmss", CultureInfo.CurrentCulture),
+            element.Attribute("description") != null ? element.Attribute("description").Value : null)
         //DateTime.ParseExact(element.Attribute("time").Value, "yyyy/MM/ddTHH:mm:ss.fffffzzz", CultureInfo.InvariantCulture))
         //DateTime.FromBinary(long.Parse(element.Attribute("time").Value)))
         {
@@ -69,7 +74,8 @@ namespace TripiWCF.Service
             temp.SetAttributeValue("speed", Speed);
             //temp.SetAttributeValue("time", CreationTime);
             //temp.SetAttributeValue("time", CreationTime.ToBinary());
-            temp.SetAttributeValue("time", CreationTime.ToLongTimeString());
+            temp.SetAttributeValue("time", CreationTime.ToString("yyyyMMddHHmmss"));
+            temp.SetAttributeValue("description", Description);
             return temp;
         }
         #endregion

@@ -14,7 +14,7 @@ namespace TripiWCF.Service
         string LoginUser(string username, string password);
 
         [OperationContract]
-        int CreateNewTrip(string username, string tripName);
+        int CreateNewTrip(string username, string tripName, string tripDescription);
 
         [OperationContract]
         List<Trip> GetAllTrips();

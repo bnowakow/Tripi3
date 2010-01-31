@@ -24,6 +24,8 @@ namespace TripiWCF.Service
         
         private int IDField;
         
+        private string TripDescriptionField;
+        
         private string TripNameField;
         
         private string UsernameField;
@@ -38,6 +40,19 @@ namespace TripiWCF.Service
             set
             {
                 this.IDField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string TripDescription
+        {
+            get
+            {
+                return this.TripDescriptionField;
+            }
+            set
+            {
+                this.TripDescriptionField = value;
             }
         }
         
@@ -76,6 +91,8 @@ namespace TripiWCF.Service
         
         private System.DateTime CreationTimeField;
         
+        private string DescriptionField;
+        
         private double LatitudeField;
         
         private double LongitudeField;
@@ -94,6 +111,19 @@ namespace TripiWCF.Service
             set
             {
                 this.CreationTimeField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Description
+        {
+            get
+            {
+                return this.DescriptionField;
+            }
+            set
+            {
+                this.DescriptionField = value;
             }
         }
         
@@ -163,7 +193,7 @@ public interface ITripService
     string EndLoginUser(System.IAsyncResult result);
     
     [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITripService/CreateNewTrip", ReplyAction="http://tempuri.org/ITripService/CreateNewTripResponse")]
-    System.IAsyncResult BeginCreateNewTrip(string username, string tripName, System.AsyncCallback callback, object asyncState);
+    System.IAsyncResult BeginCreateNewTrip(string username, string tripName, string tripDescription, System.AsyncCallback callback, object asyncState);
     
     int EndCreateNewTrip(System.IAsyncResult result);
     
@@ -490,9 +520,9 @@ public partial class TripServiceClient : System.ServiceModel.ClientBase<ITripSer
     }
     
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    System.IAsyncResult ITripService.BeginCreateNewTrip(string username, string tripName, System.AsyncCallback callback, object asyncState)
+    System.IAsyncResult ITripService.BeginCreateNewTrip(string username, string tripName, string tripDescription, System.AsyncCallback callback, object asyncState)
     {
-        return base.Channel.BeginCreateNewTrip(username, tripName, callback, asyncState);
+        return base.Channel.BeginCreateNewTrip(username, tripName, tripDescription, callback, asyncState);
     }
     
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -505,7 +535,8 @@ public partial class TripServiceClient : System.ServiceModel.ClientBase<ITripSer
     {
         string username = ((string)(inValues[0]));
         string tripName = ((string)(inValues[1]));
-        return ((ITripService)(this)).BeginCreateNewTrip(username, tripName, callback, asyncState);
+        string tripDescription = ((string)(inValues[2]));
+        return ((ITripService)(this)).BeginCreateNewTrip(username, tripName, tripDescription, callback, asyncState);
     }
     
     private object[] OnEndCreateNewTrip(System.IAsyncResult result)
@@ -524,12 +555,12 @@ public partial class TripServiceClient : System.ServiceModel.ClientBase<ITripSer
         }
     }
     
-    public void CreateNewTripAsync(string username, string tripName)
+    public void CreateNewTripAsync(string username, string tripName, string tripDescription)
     {
-        this.CreateNewTripAsync(username, tripName, null);
+        this.CreateNewTripAsync(username, tripName, tripDescription, null);
     }
     
-    public void CreateNewTripAsync(string username, string tripName, object userState)
+    public void CreateNewTripAsync(string username, string tripName, string tripDescription, object userState)
     {
         if ((this.onBeginCreateNewTripDelegate == null))
         {
@@ -545,7 +576,8 @@ public partial class TripServiceClient : System.ServiceModel.ClientBase<ITripSer
         }
         base.InvokeAsync(this.onBeginCreateNewTripDelegate, new object[] {
                     username,
-                    tripName}, this.onEndCreateNewTripDelegate, this.onCreateNewTripCompletedDelegate, userState);
+                    tripName,
+                    tripDescription}, this.onEndCreateNewTripDelegate, this.onCreateNewTripCompletedDelegate, userState);
     }
     
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -886,11 +918,12 @@ public partial class TripServiceClient : System.ServiceModel.ClientBase<ITripSer
             return _result;
         }
         
-        public System.IAsyncResult BeginCreateNewTrip(string username, string tripName, System.AsyncCallback callback, object asyncState)
+        public System.IAsyncResult BeginCreateNewTrip(string username, string tripName, string tripDescription, System.AsyncCallback callback, object asyncState)
         {
-            object[] _args = new object[2];
+            object[] _args = new object[3];
             _args[0] = username;
             _args[1] = tripName;
+            _args[2] = tripDescription;
             System.IAsyncResult _result = base.BeginInvoke("CreateNewTrip", _args, callback, asyncState);
             return _result;
         }

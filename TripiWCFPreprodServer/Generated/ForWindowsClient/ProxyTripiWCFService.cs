@@ -23,6 +23,8 @@ namespace TripiWCF.ClientMockup.Proxy
         
         private int IDField;
         
+        private string TripDescriptionField;
+        
         private string TripNameField;
         
         private string UsernameField;
@@ -49,6 +51,19 @@ namespace TripiWCF.ClientMockup.Proxy
             set
             {
                 this.IDField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string TripDescription
+        {
+            get
+            {
+                return this.TripDescriptionField;
+            }
+            set
+            {
+                this.TripDescriptionField = value;
             }
         }
         
@@ -89,6 +104,8 @@ namespace TripiWCF.ClientMockup.Proxy
         
         private System.DateTime CreationTimeField;
         
+        private string DescriptionField;
+        
         private double LatitudeField;
         
         private double LongitudeField;
@@ -119,6 +136,19 @@ namespace TripiWCF.ClientMockup.Proxy
             set
             {
                 this.CreationTimeField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Description
+        {
+            get
+            {
+                return this.DescriptionField;
+            }
+            set
+            {
+                this.DescriptionField = value;
             }
         }
         
@@ -184,7 +214,7 @@ namespace TripiWCF.ClientMockup.Proxy
         string LoginUser(string username, string password);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/CreateNewTrip", ReplyAction="http://tempuri.org/ITripService/CreateNewTripResponse")]
-        int CreateNewTrip(string username, string tripName);
+        int CreateNewTrip(string username, string tripName, string tripDescription);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/GetAllTrips", ReplyAction="http://tempuri.org/ITripService/GetAllTripsResponse")]
         TripiWCF.ClientMockup.Proxy.Trip[] GetAllTrips();
@@ -238,9 +268,9 @@ namespace TripiWCF.ClientMockup.Proxy
             return base.Channel.LoginUser(username, password);
         }
         
-        public int CreateNewTrip(string username, string tripName)
+        public int CreateNewTrip(string username, string tripName, string tripDescription)
         {
-            return base.Channel.CreateNewTrip(username, tripName);
+            return base.Channel.CreateNewTrip(username, tripName, tripDescription);
         }
         
         public TripiWCF.ClientMockup.Proxy.Trip[] GetAllTrips()

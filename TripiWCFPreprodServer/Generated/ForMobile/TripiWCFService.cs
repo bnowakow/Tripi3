@@ -16,7 +16,7 @@ public interface ITripService
     
     string LoginUser(string username, string password);
     
-    int CreateNewTrip(string username, string tripName);
+    int CreateNewTrip(string username, string tripName, string tripDescription);
     
     Trip[] GetAllTrips();
     
@@ -81,14 +81,18 @@ public partial class CreateNewTripRequest
     [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Namespace="http://tempuri.org/", Order=1)]
     public string tripName;
     
+    [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Namespace="http://tempuri.org/", Order=2)]
+    public string tripDescription;
+    
     public CreateNewTripRequest()
     {
     }
     
-    public CreateNewTripRequest(string username, string tripName)
+    public CreateNewTripRequest(string username, string tripName, string tripDescription)
     {
         this.username = username;
         this.tripName = tripName;
+        this.tripDescription = tripDescription;
     }
 }
 
@@ -124,6 +128,8 @@ public partial class Trip
     
     private bool idFieldSpecified;
     
+    private string tripDescriptionField;
+    
     private string tripNameField;
     
     private string usernameField;
@@ -158,6 +164,20 @@ public partial class Trip
     
     /// <remarks/>
     [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
+    public string TripDescription
+    {
+        get
+        {
+            return this.tripDescriptionField;
+        }
+        set
+        {
+            this.tripDescriptionField = value;
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
     public string TripName
     {
         get
@@ -171,7 +191,7 @@ public partial class Trip
     }
     
     /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
+    [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
     public string Username
     {
         get
@@ -197,6 +217,8 @@ public partial class PositionNode
     private System.DateTime creationTimeField;
     
     private bool creationTimeFieldSpecified;
+    
+    private string descriptionField;
     
     private double latitudeField;
     
@@ -243,7 +265,21 @@ public partial class PositionNode
     }
     
     /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+    [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
+    public string Description
+    {
+        get
+        {
+            return this.descriptionField;
+        }
+        set
+        {
+            this.descriptionField = value;
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
     public double Latitude
     {
         get
@@ -271,7 +307,7 @@ public partial class PositionNode
     }
     
     /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+    [System.Xml.Serialization.XmlElementAttribute(Order=3)]
     public double Longitude
     {
         get
@@ -299,7 +335,7 @@ public partial class PositionNode
     }
     
     /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+    [System.Xml.Serialization.XmlElementAttribute(Order=4)]
     public double Speed
     {
         get
@@ -327,7 +363,7 @@ public partial class PositionNode
     }
     
     /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+    [System.Xml.Serialization.XmlElementAttribute(Order=5)]
     public int TripID
     {
         get
@@ -534,9 +570,9 @@ public partial class TripServiceClient : Microsoft.Tools.ServiceModel.CFClientBa
         return retVal;
     }
     
-    public int CreateNewTrip(string username, string tripName)
+    public int CreateNewTrip(string username, string tripName, string tripDescription)
     {
-        CreateNewTripRequest request = new CreateNewTripRequest(username, tripName);
+        CreateNewTripRequest request = new CreateNewTripRequest(username, tripName, tripDescription);
         CreateNewTripResponse response = this.CreateNewTrip(request);
         return response.CreateNewTripResult;
     }

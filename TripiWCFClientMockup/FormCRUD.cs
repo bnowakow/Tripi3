@@ -31,6 +31,7 @@ namespace TripiWCF.ClientMockup
             temp.ID = -1;
             temp.Username = Environment.UserName;
             temp.TripName = Environment.MachineName;
+            temp.TripDescription = Environment.CommandLine + "\r\n" + Environment.CurrentDirectory;
             propertyGridTrip.SelectedObject = temp;
         }
 
@@ -51,7 +52,7 @@ namespace TripiWCF.ClientMockup
         private void buttonCreateTrip_Click(object sender, EventArgs e)
         {
             Proxy.Trip temp = propertyGridTrip.SelectedObject as Proxy.Trip;
-            int newTripID = TripiProxyFoxyJazzyClient.CreateNewTrip(temp.Username, temp.TripName);
+            int newTripID = TripiProxyFoxyJazzyClient.CreateNewTrip(temp.Username, temp.TripName, temp.TripDescription);
             temp.ID = newTripID;
             propertyGridTrip.SelectedObject = temp;
         }

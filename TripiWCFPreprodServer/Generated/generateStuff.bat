@@ -6,8 +6,8 @@ svcutil /namespace:*,TripiWCF.ClientMockup.Proxy tempuri.org.wsdl *.xsd /out:Pro
 move ProxyTripiWCFService.cs .\ForWindowsClient\
 
 rem Generate Windows Mobile proxy
-netcfsvcutil.exe tempuri.org.wsdl tempuri.org.xsd TripiWCF.Service.xsd schemas.microsoft.com.2003.10.Serialization.xsd schemas.microsoft.com.Message.xsd
-move tempuri.org.cs .\ForMobile\
+netcfsvcutil.exe tempuri.org.wsdl tempuri.org.xsd TripiWCF.Service.xsd schemas.microsoft.com.2003.10.Serialization.xsd schemas.microsoft.com.Message.xsd /out:TripiWCFService.cs
+move TripiWCFService.cs .\ForMobile\
 move CFClientBase.cs .\ForMobile\
 
 rem Satisfy Staro's Sexy Silverlight

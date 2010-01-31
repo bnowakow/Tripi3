@@ -75,10 +75,10 @@ namespace TripiWCF.Service
             return "";
         }
 
-        public override int CreateNewTrip(string username, string tripName)
+        public override int CreateNewTrip(string username, string tripName, string tripDescription)
         {
             XElement traps = AssureFileExists(TripsFile, "Trips");
-            Trip temp = new Trip(username, TripCount(traps), tripName);
+            Trip temp = new Trip(username, TripCount(traps), tripName, tripDescription);
             traps.Add(temp.ToXElement());
             traps.Save(TripsFile);
 

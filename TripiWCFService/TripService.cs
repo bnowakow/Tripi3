@@ -14,7 +14,7 @@ namespace TripiWCF.Service
         #region ITripService implementation
         public abstract string LoginUser(string username, string password);
 
-        public abstract int CreateNewTrip(string username, string tripName);
+        public abstract int CreateNewTrip(string username, string tripName, string tripDescription);
 
         public abstract List<Trip> GetTripsForUser(string username);
 

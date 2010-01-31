@@ -46,9 +46,9 @@ namespace TripiWCF.Service
             return Trips;
         }
 
-        public override int CreateNewTrip(string username, string tripName)
+        public override int CreateNewTrip(string username, string tripName, string tripDescription)
         {
-            Trip temp = new Trip(username, TripCount, tripName);
+            Trip temp = new Trip(username, TripCount, tripName, tripDescription);
             Trips.Add(temp);
 
             OnDatabaseInsert(TripCount, PositionNodeCount);

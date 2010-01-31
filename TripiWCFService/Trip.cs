@@ -18,20 +18,24 @@ namespace TripiWCF.Service
         public string Username { get; set; }
         [DataMember]
         public string TripName { get; set; }
+        [DataMember]
+        public string TripDescription { get; set; }
         #endregion
 
         #region Constructor
-        public Trip(string username, int id, string tripName)
+        public Trip(string username, int id, string tripName, string tripDescription)
         {
             Username = username;
             ID = id;
             TripName = tripName;
+            TripDescription = tripDescription;
         }
 
         public Trip(XElement element)
             : this(element.Attribute("username").Value,
             int.Parse(element.Attribute("id").Value),
-            element.Attribute("tripname").Value)
+            element.Attribute("tripname").Value,
+            element.Attribute("tripdesc").Value)
         {
         }
         #endregion
@@ -43,6 +47,7 @@ namespace TripiWCF.Service
             temp.SetAttributeValue("username", Username);
             temp.SetAttributeValue("id", ID);
             temp.SetAttributeValue("tripname", TripName);
+            temp.SetAttributeValue("tripdesc", TripDescription);
             return temp;
         }
         #endregion

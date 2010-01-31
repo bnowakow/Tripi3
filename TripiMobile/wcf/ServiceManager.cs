@@ -37,7 +37,7 @@ namespace Tripi.wcf
 
         public bool RunNewTrip(string tripName)
         {
-            currentTripId = service.CreateNewTrip(User.Login, tripName);
+            currentTripId = service.CreateNewTrip(User.Login, tripName, "description: tygryseque rolez!");
             return RunTrip();
         }
 
