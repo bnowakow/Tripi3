@@ -1,15 +1,27 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/OneColumnWithFooter.Master" AutoEventWireup="true" CodeFile="About.aspx.cs" Inherits="About" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/OneColumnWithFooter.Master" AutoEventWireup="true"
+    CodeFile="About.aspx.cs" Inherits="About" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="Title" Runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="Title" runat="Server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="Content" Runat="Server">
-    <asp:Image ID="ImageGlobe" runat="server" Height="283px" 
-        ImageUrl="~/images/globe.png" Width="312px" ImageAlign="Left" />   
-    <h2 class="title">Autorzy</h2>
-    <div class="entry">
+<asp:Content ID="Content2" ContentPlaceHolderID="Content" runat="Server">
+    <div class="post">
+        <h2 class="title">
+            <a href="#">Authors</a></h2>
+        <p class="meta">
+        </p>
+        <div class="entry">
+            <div id="banner" style="float: left; width: 300px;">
+                <img src="images/globe.png" alt="" style="width: 300px;" />
+            </div>
+            <div style="float: left; padding: 10px;">
+                <strong>
+                    <ul>
+                        <li>Joanna Ruth</li>
+                        <li>Emil Chludziński</li>
+                        <li>Bartosz Nowakowski</li>
+                    </ul>
+                </strong>
+            </div>
+        </div>
     </div>
-    Bartosz Nowakowski
-    Emil Chludziński
-    Joanna Ruth
 </asp:Content>
-

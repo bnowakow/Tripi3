@@ -103,15 +103,33 @@ Released   : 20090918
         <!-- end #header -->
         <div id="menu">
             <ul>
-                <li class="current_page_item"><a href="#">Home</a></li>
-                <li><a href="#">All Trips</a></li>
-                <li><a href="#">My Trips</a></li>
-                <li><a href="About.aspx">About</a></li>
+                <% if (Page.Request.Path.Contains("Default.aspx")) { %>
+                <li class="current_page_item">
+                <% } else { %>
+                <li>
+                <% } %>
+                <a href="Default.aspx">Home</a></li>
+                                
+                <% if (Page.Request.Path.Contains("Trips.aspx"))
+                   { %>
+                <li class="current_page_item">
+                <% } else { %>
+                <li>
+                <% } %>
+                <a href="Trips.aspx">Trips</a></li>
+                
+                <% if (Page.Request.Path.Contains("About.aspx"))
+                   { %>
+                <li class="current_page_item">
+                <% } else { %>
+                <li>
+                <% } %>
+                <a href="About.aspx">About</a></li>
             </ul>
         </div>
         <!-- end #menu -->
         <div id="page">
-            <div id="content">
+            <div id="content" style="width: 100%;">
                 <asp:ContentPlaceHolder ID="Content" runat="server">
                 </asp:ContentPlaceHolder>
                 <div style="clear: both;">
