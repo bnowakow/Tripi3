@@ -42,7 +42,7 @@
             // 
             // bttnNewTrip
             // 
-            this.bttnNewTrip.Location = new System.Drawing.Point(54, 103);
+            this.bttnNewTrip.Location = new System.Drawing.Point(55, 104);
             this.bttnNewTrip.Name = "bttnNewTrip";
             this.bttnNewTrip.Size = new System.Drawing.Size(130, 20);
             this.bttnNewTrip.TabIndex = 1;
@@ -52,7 +52,7 @@
             // bttnWeather
             // 
             this.bttnWeather.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(220)))), ((int)(((byte)(233)))));
-            this.bttnWeather.Location = new System.Drawing.Point(54, 181);
+            this.bttnWeather.Location = new System.Drawing.Point(55, 182);
             this.bttnWeather.Name = "bttnWeather";
             this.bttnWeather.Size = new System.Drawing.Size(131, 20);
             this.bttnWeather.TabIndex = 2;
@@ -61,7 +61,7 @@
             // 
             // bttnGps
             // 
-            this.bttnGps.Location = new System.Drawing.Point(54, 155);
+            this.bttnGps.Location = new System.Drawing.Point(55, 156);
             this.bttnGps.Name = "bttnGps";
             this.bttnGps.Size = new System.Drawing.Size(131, 20);
             this.bttnGps.TabIndex = 11;
@@ -70,7 +70,7 @@
             // 
             // bttnContinueTrip
             // 
-            this.bttnContinueTrip.Location = new System.Drawing.Point(54, 129);
+            this.bttnContinueTrip.Location = new System.Drawing.Point(55, 130);
             this.bttnContinueTrip.Name = "bttnContinueTrip";
             this.bttnContinueTrip.Size = new System.Drawing.Size(130, 20);
             this.bttnContinueTrip.TabIndex = 12;
@@ -81,9 +81,9 @@
             // 
             this.labelUser.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
             this.labelUser.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.labelUser.Location = new System.Drawing.Point(18, 74);
+            this.labelUser.Location = new System.Drawing.Point(39, 75);
             this.labelUser.Name = "labelUser";
-            this.labelUser.Size = new System.Drawing.Size(73, 20);
+            this.labelUser.Size = new System.Drawing.Size(50, 20);
             this.labelUser.Text = "User:";
             this.labelUser.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
@@ -91,9 +91,9 @@
             // 
             this.labelUserValue.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
             this.labelUserValue.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.labelUserValue.Location = new System.Drawing.Point(97, 74);
+            this.labelUserValue.Location = new System.Drawing.Point(95, 75);
             this.labelUserValue.Name = "labelUserValue";
-            this.labelUserValue.Size = new System.Drawing.Size(108, 20);
+            this.labelUserValue.Size = new System.Drawing.Size(101, 20);
             this.labelUserValue.Text = "User";
             // 
             // MainForm
@@ -112,6 +112,7 @@
             this.Name = "MainForm";
             this.Text = "Tripi";
             this.Load += new System.EventHandler(this.FormLoad);
+            this.Closing += new System.ComponentModel.CancelEventHandler(this.OnClosing);
             this.ResumeLayout(false);
 
         }

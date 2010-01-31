@@ -204,9 +204,6 @@
     <Content Include="data\tripi.sdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="images\button_bg.png" />
-    <Content Include="images\button_bg2.png" />
-    <Content Include="images\button_bk.png" />
     <Content Include="images\clouds.png" />
     <Content Include="images\clouds1.png" />
     <Content Include="images\grass.jpg" />

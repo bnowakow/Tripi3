@@ -29,7 +29,6 @@ namespace Tripi
 
         private void ExitApplication(object sender, EventArgs e)
         {
-            GPSListener.GetInstance.CloseGPS();
             Application.Exit();
         }
 
@@ -55,6 +54,11 @@ namespace Tripi
         {
             ContinueTripForm continueTripForm = new ContinueTripForm();
             continueTripForm.ShowDialog();
+        }
+
+        private void OnClosing(object sender, CancelEventArgs e)
+        {
+            GPSListener.GetInstance.CloseGPS();
         }
     }
 }

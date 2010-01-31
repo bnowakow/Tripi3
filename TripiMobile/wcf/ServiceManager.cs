@@ -19,8 +19,8 @@ namespace Tripi.wcf
         private SendScheduler scheduler = null;
         private int currentTripId = NOT_SPECIFIED;
 
-        private string remoteAddress = "http://10.211.55.3:8765/main";
-        //private string remoteAddress = "http://joannar.ds.pg.gda.pl:8765/main";
+        //private string remoteAddress = "http://10.211.55.3:8765/main";
+        private string remoteAddress = "http://joannar.ds.pg.gda.pl:8765/main";
 
         public ServiceManager()
         {

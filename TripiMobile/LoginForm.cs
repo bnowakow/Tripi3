@@ -64,14 +64,27 @@ namespace Tripi
             Close();
         }
 
+        private void LoginFailed()
+        {
+            if (InvokeRequired)
+            {
+                Invoke(new Action(LoginFailed));
+                return;
+            }
+
+            tboxLogin.Text = "";
+            tboxPassword.Text = "";
+            MessageBox.Show("Incorrect login or password", "Cannot login");
+        }
+
         private void CheckUserCredentials(object param)
         {
             UserCredentials credentials = (UserCredentials)param;
             ServiceManager service = new ServiceManager();
             if (service.LoginUser(credentials.login, credentials.password))
-            {
                 LoginUser();
-            }
+            else
+                LoginFailed();
         }
 
         private void FormLoad(object sender, EventArgs e)

@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using GPSMobile;
 using Msdn.UIFramework;
 using Tripi.wcf;
+using System.Threading;
 
 namespace Tripi
 {
@@ -23,24 +24,30 @@ namespace Tripi
         {
             this.MenuBar.LeftMenu = "Back";
             this.MenuBar.LeftMenuClicked += new EventHandler(BackButtonClick);
-            LoadTripListBox();
+            GetTripList();
         }
 
-        private void LoadTripListBox()
+        private void GetTripList()
         {
             ServiceManager service = new ServiceManager();
             Trip[] trips = service.GetUserTrips();
             if (trips != null && trips.Length > 0)
-            {
-                lBoxTrips.DataSource = trips;
-                lBoxTrips.DisplayMember = "TripName";
-                lBoxTrips.ValueMember = "ID";
-            }
+                DisplayTripList(trips);
             else
-            {
-                lBoxTrips.Enabled = false;
-                bttnOk.Enabled = false;
-            }
+                DisableButtons();
+        }
+
+        private void DisplayTripList(Trip[] trips)
+        {
+            lBoxTrips.DataSource = trips;
+            lBoxTrips.DisplayMember = "TripName";
+            lBoxTrips.ValueMember = "ID";
+        }
+
+        private void DisableButtons()
+        {
+            lBoxTrips.Enabled = false;
+            bttnOk.Enabled = false;
         }
 
         private void BackButtonClick(object sender, EventArgs e)
