@@ -17,6 +17,12 @@ namespace TripiWCF.ClientMockup
         public FormCRUD()
         {
             InitializeComponent();
+
+            comboBoxEndpoint.Items.Add("TripiLocalhost");
+            comboBoxEndpoint.Items.Add("TripiAha");
+            comboBoxEndpoint.Items.Add("TripiStaro");
+            comboBoxEndpoint.Items.Add("Tripi3m1l");
+            comboBoxEndpoint.SelectedIndex = 0;
         }
 
         private void FormCRUD_Load(object sender, EventArgs e)
@@ -31,7 +37,9 @@ namespace TripiWCF.ClientMockup
         #region Handling buttons
         private void buttonConnect_Click(object sender, EventArgs e)
         {
-            TripiProxyFoxyJazzyClient = new TripiWCF.ClientMockup.Proxy.TripServiceClient("TripiTestClient");
+            TripiProxyFoxyJazzyClient = new TripiWCF.ClientMockup.Proxy.TripServiceClient(comboBoxEndpoint.SelectedItem as string);
+            //TripiProxyFoxyJazzyClient = new TripiWCF.ClientMockup.Proxy.TripServiceClient("TripiAha");
+            //TripiProxyFoxyJazzyClient = new TripiWCF.ClientMockup.Proxy.TripServiceClient("TripiLocalhost");
 
             buttonCreateAsProphesized.Enabled = true;
             buttonCreateRandomNode.Enabled = true;
