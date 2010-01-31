@@ -22,15 +22,15 @@ namespace TripiWCF.PreprodServer
 
         private void FormMonitor_Load(object sender, EventArgs e)
         {
-            TripiHost = new System.ServiceModel.ServiceHost(typeof(TripiWCF.Service.TripService));
+            TripiHost = new System.ServiceModel.ServiceHost(typeof(TripiWCF.Service.TripServiceVolatile));
             //TripiHost = new System.ServiceModel.ServiceHost(new TripiWCF.Service.TripService());
             TripiHost.Open();
 
             Log("Rozpoczęto hostowanie usługi TripiWCF.");
 
             //TripiWCF.Service.TripService receiver = (TripiWCF.Service.TripService) TripiHost.SingletonInstance;
-            TripiWCF.Service.TripService.OnDatabaseInsert += RefreshLabels;
-            TripiWCF.Service.TripService.OnDatabaseQuery += Log;
+            TripiWCF.Service.TripService.DatabaseInsert += RefreshLabels;
+            TripiWCF.Service.TripService.DatabaseQuery += Log;
 
             Log("Obsługa zdarzeń podłączona.");
         }

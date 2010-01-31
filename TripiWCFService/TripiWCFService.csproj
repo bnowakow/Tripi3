@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TripServiceVolatile.cs" />
+    <Compile Include="TripServiceXml.cs" />
     <Compile Include="ICrossDomainPolicyResponder.cs" />
     <Compile Include="ITripService.cs" />
     <Compile Include="PositionNode.cs" />
