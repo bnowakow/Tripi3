@@ -695,7 +695,7 @@
             "{E4F2F62A-3940-4BF5-A031-F7FA98CAAFFA}:_DA663E149689F3A580E88C9DE770FEF4"
             {
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Msdn.UIFramework, Version=1.0.3682.40602, Culture=neutral"
+            "AssemblyAsmDisplayName" = "8:Msdn.UIFramework, Version=1.0.3683.40509, Culture=neutral"
                 "ScatterAssemblies"
                 {
                     "_DA663E149689F3A580E88C9DE770FEF4"
@@ -751,7 +751,7 @@
             "{E4F2F62A-3940-4BF5-A031-F7FA98CAAFFA}:_F681C03A9BAA2EE7C5B9561A4255BE76"
             {
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:GPSMobile, Version=1.0.3682.40604, Culture=neutral"
+            "AssemblyAsmDisplayName" = "8:GPSMobile, Version=1.0.3683.40508, Culture=neutral"
                 "ScatterAssemblies"
                 {
                     "_F681C03A9BAA2EE7C5B9561A4255BE76"
@@ -831,7 +831,7 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:TripiMobileCab"
-        "Manufacturer" = "8:Default Company Name"
+        "Manufacturer" = "8:Abe's Odyssey"
         "OSVersionMin" = "8:4.0"
         "OSVersionMax" = "8:6.99"
         "NoUninstall" = "11:FALSE"
