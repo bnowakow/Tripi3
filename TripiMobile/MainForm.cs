@@ -32,12 +32,6 @@ namespace Tripi
             Application.Exit();
         }
 
-        private void WeatherButtonClick(object sender, EventArgs e)
-        {
-            WeatherForm weather = new WeatherForm();
-            weather.ShowDialog();
-        }
-
         private void GpsButtonClick(object sender, EventArgs e)
         {
             GpsForm gpsForm = new GpsForm();

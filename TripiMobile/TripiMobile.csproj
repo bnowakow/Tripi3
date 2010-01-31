@@ -134,21 +134,12 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="WeatherForm.resx">
-      <DependentUpon>WeatherForm.cs</DependentUpon>
-    </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="wcf\CFClientBase.cs" />
     <Compile Include="wcf\TripiWCFService.cs" />
-    <Compile Include="WeatherForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="WeatherForm.Designer.cs">
-      <DependentUpon>WeatherForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Web References\TripiWCFRemote\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

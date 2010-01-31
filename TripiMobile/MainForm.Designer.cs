@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.bttnNewTrip = new System.Windows.Forms.Button();
-            this.bttnWeather = new System.Windows.Forms.Button();
             this.serialPort = new System.IO.Ports.SerialPort(this.components);
             this.gpsTimer = new System.Windows.Forms.Timer();
             this.bttnGps = new System.Windows.Forms.Button();
@@ -44,35 +43,25 @@
             // 
             this.bttnNewTrip.Location = new System.Drawing.Point(55, 104);
             this.bttnNewTrip.Name = "bttnNewTrip";
-            this.bttnNewTrip.Size = new System.Drawing.Size(130, 20);
+            this.bttnNewTrip.Size = new System.Drawing.Size(130, 30);
             this.bttnNewTrip.TabIndex = 1;
             this.bttnNewTrip.Text = "Create New Trip";
             this.bttnNewTrip.Click += new System.EventHandler(this.NewTripButtonClick);
             // 
-            // bttnWeather
-            // 
-            this.bttnWeather.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(220)))), ((int)(((byte)(233)))));
-            this.bttnWeather.Location = new System.Drawing.Point(55, 182);
-            this.bttnWeather.Name = "bttnWeather";
-            this.bttnWeather.Size = new System.Drawing.Size(131, 20);
-            this.bttnWeather.TabIndex = 2;
-            this.bttnWeather.Text = "Check Weather";
-            this.bttnWeather.Click += new System.EventHandler(this.WeatherButtonClick);
-            // 
             // bttnGps
             // 
-            this.bttnGps.Location = new System.Drawing.Point(55, 156);
+            this.bttnGps.Location = new System.Drawing.Point(55, 176);
             this.bttnGps.Name = "bttnGps";
-            this.bttnGps.Size = new System.Drawing.Size(131, 20);
+            this.bttnGps.Size = new System.Drawing.Size(130, 30);
             this.bttnGps.TabIndex = 11;
             this.bttnGps.Text = "View GPS Positions ";
             this.bttnGps.Click += new System.EventHandler(this.GpsButtonClick);
             // 
             // bttnContinueTrip
             // 
-            this.bttnContinueTrip.Location = new System.Drawing.Point(55, 130);
+            this.bttnContinueTrip.Location = new System.Drawing.Point(55, 140);
             this.bttnContinueTrip.Name = "bttnContinueTrip";
-            this.bttnContinueTrip.Size = new System.Drawing.Size(130, 20);
+            this.bttnContinueTrip.Size = new System.Drawing.Size(130, 30);
             this.bttnContinueTrip.TabIndex = 12;
             this.bttnContinueTrip.Text = "Continue Trip";
             this.bttnContinueTrip.Click += new System.EventHandler(this.ContinueTripClick);
@@ -107,7 +96,6 @@
             this.Controls.Add(this.labelUser);
             this.Controls.Add(this.bttnContinueTrip);
             this.Controls.Add(this.bttnGps);
-            this.Controls.Add(this.bttnWeather);
             this.Controls.Add(this.bttnNewTrip);
             this.Name = "MainForm";
             this.Text = "Tripi";
@@ -120,7 +108,6 @@
         #endregion
 
         private System.Windows.Forms.Button bttnNewTrip;
-        private System.Windows.Forms.Button bttnWeather;
         private System.IO.Ports.SerialPort serialPort;
         private System.Windows.Forms.Timer gpsTimer;
         private System.Windows.Forms.Button bttnGps;
