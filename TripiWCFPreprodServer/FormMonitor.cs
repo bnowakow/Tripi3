@@ -23,6 +23,7 @@ namespace TripiWCF.PreprodServer
         private void FormMonitor_Load(object sender, EventArgs e)
         {
             TripiHost = new System.ServiceModel.ServiceHost(typeof(TripiWCF.Service.TripServiceVolatile));
+            //TripiHost = new System.ServiceModel.ServiceHost(typeof(TripiWCF.Service.TripServiceXml));
             //TripiHost = new System.ServiceModel.ServiceHost(new TripiWCF.Service.TripService());
             TripiHost.Open();
 

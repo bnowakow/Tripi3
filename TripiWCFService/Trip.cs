@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Runtime.Serialization;
 using System.ServiceModel;
+using System.Xml.Linq;
 
 namespace TripiWCF.Service
 {
@@ -25,6 +26,13 @@ namespace TripiWCF.Service
             Username = username;
             ID = id;
             TripName = tripName;
+        }
+
+        public Trip(XElement element)
+            : this(element.Attribute("username").Value,
+            int.Parse(element.Attribute("id").Value),
+            element.Attribute("tripname").Value)
+        {
         }
         #endregion
     }

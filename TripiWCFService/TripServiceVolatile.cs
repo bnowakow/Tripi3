@@ -39,6 +39,13 @@ namespace TripiWCF.Service
             return "";
         }
 
+        public override List<Trip> GetAllTrips()
+        {
+            OnDatabaseQuery("Query all trips!");
+
+            return Trips;
+        }
+
         public override int CreateNewTrip(string username, string tripName)
         {
             Trip temp = new Trip(username, TripCount, tripName);

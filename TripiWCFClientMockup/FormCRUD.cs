@@ -76,8 +76,8 @@ namespace TripiWCF.ClientMockup
             Proxy.PositionNode noed = new TripiWCF.ClientMockup.Proxy.PositionNode
             {
                 CreationTime = DateTime.Now,
-                Latitude = Tanarri.NextDouble() * 9001,
-                Longitude = Tanarri.NextDouble() * 9001,
+                Latitude = Tanarri.NextDouble() * 90 - 45,
+                Longitude = Tanarri.NextDouble() * 90 - 45,
                 TripID = temp.ID
             };
             TripiProxyFoxyJazzyClient.AddPositionNode(noed);

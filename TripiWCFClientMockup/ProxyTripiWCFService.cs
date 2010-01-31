@@ -77,11 +77,6 @@ namespace TripiWCF.ClientMockup.Proxy
                 this.UsernameField = value;
             }
         }
-        
-        public override string ToString()
-        {
-            return string.Format("{0} : {1} ({2})", ID, TripName, Username);
-        }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -178,11 +173,6 @@ namespace TripiWCF.ClientMockup.Proxy
                 this.TripIDField = value;
             }
         }
-        
-        public override string ToString()
-        {
-            return string.Format("{0}: ({1,6:G};{2,6:G}) ({3} omgs/year) @ {4}", TripID, Latitude, Longitude, Speed, CreationTime.ToLongTimeString());
-        }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
@@ -190,8 +180,14 @@ namespace TripiWCF.ClientMockup.Proxy
     public interface ITripService
     {
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/LoginUser", ReplyAction="http://tempuri.org/ITripService/LoginUserResponse")]
+        string LoginUser(string username, string password);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/CreateNewTrip", ReplyAction="http://tempuri.org/ITripService/CreateNewTripResponse")]
         int CreateNewTrip(string username, string tripName);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/GetAllTrips", ReplyAction="http://tempuri.org/ITripService/GetAllTripsResponse")]
+        TripiWCF.ClientMockup.Proxy.Trip[] GetAllTrips();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/GetTripsForUser", ReplyAction="http://tempuri.org/ITripService/GetTripsForUserResponse")]
         TripiWCF.ClientMockup.Proxy.Trip[] GetTripsForUser(string username);
@@ -237,9 +233,19 @@ namespace TripiWCF.ClientMockup.Proxy
         {
         }
         
+        public string LoginUser(string username, string password)
+        {
+            return base.Channel.LoginUser(username, password);
+        }
+        
         public int CreateNewTrip(string username, string tripName)
         {
             return base.Channel.CreateNewTrip(username, tripName);
+        }
+        
+        public TripiWCF.ClientMockup.Proxy.Trip[] GetAllTrips()
+        {
+            return base.Channel.GetAllTrips();
         }
         
         public TripiWCF.ClientMockup.Proxy.Trip[] GetTripsForUser(string username)
@@ -262,9 +268,6 @@ namespace TripiWCF.ClientMockup.Proxy
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder")]
     public interface ICrossDomainPolicyResponder
     {
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICrossDomainPolicyResponder/GetSilverlightPolicy", ReplyAction="http://tempuri.org/ICrossDomainPolicyResponder/GetSilverlightPolicyResponse")]
-        System.IO.Stream GetSilverlightPolicy();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICrossDomainPolicyResponder/GetFlashPolicy", ReplyAction="http://tempuri.org/ICrossDomainPolicyResponder/GetFlashPolicyResponse")]
         System.IO.Stream GetFlashPolicy();
@@ -302,11 +305,6 @@ namespace TripiWCF.ClientMockup.Proxy
         public CrossDomainPolicyResponderClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress)
         {
-        }
-        
-        public System.IO.Stream GetSilverlightPolicy()
-        {
-            return base.Channel.GetSilverlightPolicy();
         }
         
         public System.IO.Stream GetFlashPolicy()

@@ -18,6 +18,8 @@ namespace TripiWCF.Service
 
         public abstract List<Trip> GetTripsForUser(string username);
 
+        public abstract List<Trip> GetAllTrips();
+
         public abstract List<PositionNode> GetPositionNodesForTrip(int tripID);
 
         public abstract void AddPositionNode(PositionNode node);

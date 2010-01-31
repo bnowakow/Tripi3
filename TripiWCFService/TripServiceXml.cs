@@ -6,14 +6,13 @@ using System.ServiceModel;
 using System.Text;
 using System.IO;
 using System.ServiceModel.Web;
+using System.Xml.Linq;
 
 namespace TripiWCF.Service
 {
     public class TripServiceXml : TripService, ITripService, ICrossDomainPolicyResponder
     {
         #region Private fields
-        private static List<Trip> Trips = new List<Trip>();
-        private static List<PositionNode> Nodes = new List<PositionNode>();
         private static Dictionary<string, string> Users = new Dictionary<string, string>()
         {
             {"Aha", "test"},
@@ -40,31 +39,63 @@ namespace TripiWCF.Service
         public override int CreateNewTrip(string username, string tripName)
         {
             Trip temp = new Trip(username, TripCount, tripName);
-            Trips.Add(temp);
+            //Trips.Add(temp);
 
             OnDatabaseInsert(TripCount, PositionNodeCount);
             return temp.ID;
         }
 
+        public override List<Trip> GetAllTrips()
+        {
+            List<Trip> tripsFound = new List<Trip>();
+
+            try
+            {
+                XElement traps = XElement.Load(@".\UserTrips.xml", LoadOptions.None);
+                foreach (XElement element in traps.Elements()) tripsFound.Add(new Trip(element));
+            }
+            catch (FileNotFoundException)
+            {
+                OnDatabaseQuery("No trips created yet!");
+            }
+
+            OnDatabaseQuery("Query all trips!");
+            return tripsFound;
+        }
+
         public override List<Trip> GetTripsForUser(string username)
         {
-            IEnumerable<Trip> UserTrips = Trips.Where((Trip t) => t.Username == username);
+            List<Trip> tripsFound = new List<Trip>();
+            if (!File.Exists(@".\UserTrips.xml")) File.Create(@".\UserTrips.xml");
+
+            try
+            {
+                XElement traps = XElement.Load(@".\UserTrips.xml", LoadOptions.None);
+                foreach (XElement element in traps.Elements().Where((XElement elem) => elem.Attribute("username").Value == username))
+                {
+                    tripsFound.Add(new Trip(element));
+                }
+            }
+            catch (FileNotFoundException)
+            {
+                OnDatabaseQuery("No trips created yet!");
+            }
 
             OnDatabaseQuery("Query user: " + username);
-            return UserTrips.ToList();
+            return tripsFound;
         }
 
         public override List<PositionNode> GetPositionNodesForTrip(int tripID)
         {
-            IEnumerable<PositionNode> TripNodes = Nodes.Where((PositionNode n) => n.TripID == tripID);
+            //IEnumerable<PositionNode> TripNodes = Nodes.Where((PositionNode n) => n.TripID == tripID);
 
             OnDatabaseQuery("Query trip: " + tripID);
-            return TripNodes.ToList();
+            return null;
         }
 
         public override void AddPositionNode(PositionNode node)
         {
-            Nodes.Add(node);
+            //Nodes.Add(node);
             OnDatabaseInsert(TripCount, PositionNodeCount);
         }
         #endregion
@@ -74,7 +105,8 @@ namespace TripiWCF.Service
         {
             get
             {
-                return Trips.Count;
+                //return Trips.Count;
+                return -1;
             }
         }
 
@@ -82,7 +114,8 @@ namespace TripiWCF.Service
         {
             get
             {
-                return Nodes.Count;
+                //return Nodes.Count;
+                return -1;
             }
         }
         #endregion
