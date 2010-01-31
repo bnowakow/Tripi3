@@ -20,11 +20,50 @@ namespace TripiWCF.Service
             {"Staro", "ble"},
             {"echudzin", "best"}
         };
+
+        private const string DirectoryPrefix = @".\XmlData\";
+
+        private const string TripsFile = DirectoryPrefix + @"UserTrips.xml";
+
+        private static string NodesFile(int tripID)
+        {
+            return DirectoryPrefix + String.Format(@"Trip{0}.xml", tripID);
+        }
         #endregion
 
         #region Constructor
         public TripServiceXml()
         {
+            if (!Directory.Exists(DirectoryPrefix)) Directory.CreateDirectory(DirectoryPrefix);
+        }
+        #endregion
+
+        #region Xml file helpz0rs
+        private static XElement AssureFileExists(string xmlFileName, string rootNodeName)
+        {
+            if (File.Exists(xmlFileName)) return XElement.Load(xmlFileName, LoadOptions.None);
+            else return new XElement(rootNodeName);
+        }
+
+        private IEnumerable<XElement> TryLoadElements(string xmlFileName)
+        {
+            try
+            {
+                return XElement.Load(xmlFileName, LoadOptions.None).Elements();
+            }
+            catch (FileNotFoundException exc)
+            {
+                OnDatabaseQuery("Xml file not created yet: " + exc.FileName);
+            }
+            catch (System.Xml.XmlException exc)
+            {
+                OnDatabaseQuery("Error in xml: " + exc.Message);
+            }
+            catch (DirectoryNotFoundException)
+            {
+                OnDatabaseQuery("Data directory not created yet!");
+            }
+            return new List<XElement>();
         }
         #endregion
 
@@ -38,10 +77,12 @@ namespace TripiWCF.Service
 
         public override int CreateNewTrip(string username, string tripName)
         {
-            Trip temp = new Trip(username, TripCount, tripName);
-            //Trips.Add(temp);
+            XElement traps = AssureFileExists(TripsFile, "Trips");
+            Trip temp = new Trip(username, TripCount(traps), tripName);
+            traps.Add(temp.ToXElement());
+            traps.Save(TripsFile);
 
-            OnDatabaseInsert(TripCount, PositionNodeCount);
+            OnDatabaseInsert(TripCount(traps), -1);
             return temp.ID;
         }
 
@@ -49,74 +90,52 @@ namespace TripiWCF.Service
         {
             List<Trip> tripsFound = new List<Trip>();
 
-            try
-            {
-                XElement traps = XElement.Load(@".\UserTrips.xml", LoadOptions.None);
-                foreach (XElement element in traps.Elements()) tripsFound.Add(new Trip(element));
-            }
-            catch (FileNotFoundException)
-            {
-                OnDatabaseQuery("No trips created yet!");
-            }
-
             OnDatabaseQuery("Query all trips!");
+            foreach (XElement element in TryLoadElements(TripsFile)) tripsFound.Add(new Trip(element));
+            
             return tripsFound;
         }
 
         public override List<Trip> GetTripsForUser(string username)
         {
             List<Trip> tripsFound = new List<Trip>();
-            if (!File.Exists(@".\UserTrips.xml")) File.Create(@".\UserTrips.xml");
-
-            try
-            {
-                XElement traps = XElement.Load(@".\UserTrips.xml", LoadOptions.None);
-                foreach (XElement element in traps.Elements().Where((XElement elem) => elem.Attribute("username").Value == username))
-                {
-                    tripsFound.Add(new Trip(element));
-                }
-            }
-            catch (FileNotFoundException)
-            {
-                OnDatabaseQuery("No trips created yet!");
-            }
 
             OnDatabaseQuery("Query user: " + username);
+            foreach (XElement element in TryLoadElements(TripsFile).Where((XElement elem) => elem.Attribute("username").Value == username)) tripsFound.Add(new Trip(element));
+
             return tripsFound;
         }
 
         public override List<PositionNode> GetPositionNodesForTrip(int tripID)
         {
             //IEnumerable<PositionNode> TripNodes = Nodes.Where((PositionNode n) => n.TripID == tripID);
+            List<PositionNode> nodes = new List<PositionNode>();
 
             OnDatabaseQuery("Query trip: " + tripID);
-            return null;
+            foreach (XElement element in TryLoadElements(NodesFile(tripID))) nodes.Add(new PositionNode(element));
+
+            return nodes;
         }
 
         public override void AddPositionNode(PositionNode node)
         {
-            //Nodes.Add(node);
-            OnDatabaseInsert(TripCount, PositionNodeCount);
+            XElement nodes = AssureFileExists(NodesFile(node.TripID), "Nodes");
+            nodes.Add(node.ToXElement());
+            nodes.Save(NodesFile(node.TripID));
+
+            OnDatabaseInsert(-1, PositionNodeCount(nodes));
         }
         #endregion
 
         #region Counts
-        public int TripCount
+        public int TripCount(XElement tripRoot)
         {
-            get
-            {
-                //return Trips.Count;
-                return -1;
-            }
+            return tripRoot.Elements().Count();
         }
 
-        public int PositionNodeCount
+        public int PositionNodeCount(XElement positionNodeRoot)
         {
-            get
-            {
-                //return Nodes.Count;
-                return -1;
-            }
+            return positionNodeRoot.Elements().Count();
         }
         #endregion
     }

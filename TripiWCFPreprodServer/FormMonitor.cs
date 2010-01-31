@@ -6,24 +6,30 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace TripiWCF.PreprodServer
 {
     public partial class FormMonitor : Form
     {
+        
+
         private System.ServiceModel.ServiceHost TripiHost;
 
         public FormMonitor()
         {
             InitializeComponent();
 
+            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+
             Log("Forma serwera PreProd projektu Tripi utworzona.");
         }
 
         private void FormMonitor_Load(object sender, EventArgs e)
         {
-            TripiHost = new System.ServiceModel.ServiceHost(typeof(TripiWCF.Service.TripServiceVolatile));
-            //TripiHost = new System.ServiceModel.ServiceHost(typeof(TripiWCF.Service.TripServiceXml));
+            //TripiHost = new System.ServiceModel.ServiceHost(typeof(TripiWCF.Service.TripServiceVolatile));
+            TripiHost = new System.ServiceModel.ServiceHost(typeof(TripiWCF.Service.TripServiceXml));
             //TripiHost = new System.ServiceModel.ServiceHost(new TripiWCF.Service.TripService());
             TripiHost.Open();
 

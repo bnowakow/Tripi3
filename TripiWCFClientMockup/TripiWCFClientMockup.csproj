@@ -86,6 +86,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="ProxyTripiWCFService.cs" />
+    <Compile Include="ToStrings.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TripiWCFService\TripiWCFService.csproj">

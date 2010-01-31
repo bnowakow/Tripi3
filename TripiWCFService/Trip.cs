@@ -35,5 +35,16 @@ namespace TripiWCF.Service
         {
         }
         #endregion
+
+        #region To XElement
+        public XElement ToXElement()
+        {
+            XElement temp = new XElement("Trip");
+            temp.SetAttributeValue("username", Username);
+            temp.SetAttributeValue("id", ID);
+            temp.SetAttributeValue("tripname", TripName);
+            return temp;
+        }
+        #endregion
     }
 }
