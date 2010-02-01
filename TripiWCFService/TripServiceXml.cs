@@ -131,28 +131,28 @@ namespace TripiWCF.Service
 
         public override void UpdateTripDescription(int tripID, string tripDescription)
         {
-            Func<XElement, bool> idFunc = node => node.Attribute("id").Equals(tripID.ToString());
+            Func<XElement, bool> idFunc = node => node.Attribute("id").Value.Equals(tripID.ToString());
 
             XElement trips = AssureFileExists(TripsFile, "Trips");
             IEnumerable<XElement> result = trips.Elements().Where(idFunc);
             if (result.Count() > 0)
             {
                 XElement node = result.First();
-                node.Attribute("tripdesc").Value = tripDescription;
+                node.SetAttributeValue("tripdesc", tripDescription);
             }
             trips.Save(TripsFile);
         }
 
         public override void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription)
         {
-            Func<XElement, bool> nodeNumberFunc = node => node.Attribute("number").Equals(nodeNumber.ToString());
+            Func<XElement, bool> nodeNumberFunc = node => node.Attribute("number").Value.Equals(nodeNumber.ToString());
 
             XElement positions = AssureFileExists(NodesFile(tripID), "Nodes");
             IEnumerable<XElement> result = positions.Elements().Where(nodeNumberFunc);
             if (result.Count() > 0)
             {
                 XElement node = result.First();
-                node.Attribute("description").Value = nodeDescription;
+                node.SetAttributeValue("description", nodeDescription);
             }
             positions.Save(NodesFile(tripID));
         }

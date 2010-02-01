@@ -47,6 +47,7 @@ namespace TripiWCF.ClientMockup
             buttonCreateTrip.Enabled = true;
             buttonGetNodes.Enabled = true;
             buttonGetTrips.Enabled = true;
+            buttonUpdateTripDesc.Enabled = true;
         }
 
         private void buttonCreateTrip_Click(object sender, EventArgs e)
@@ -99,6 +100,12 @@ namespace TripiWCF.ClientMockup
         private void listBoxPositions_SelectedIndexChanged(object sender, EventArgs e)
         {
             propertyGridPosition.SelectedObject = listBoxPositions.SelectedItem;
+        }
+
+        private void buttonUpdateTripDesc_Click(object sender, EventArgs e)
+        {
+            Proxy.Trip temp = propertyGridTrip.SelectedObject as Proxy.Trip;
+            TripiProxyFoxyJazzyClient.UpdateTripDescription(temp.ID, temp.TripDescription);
         }
     }
 }

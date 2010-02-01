@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.buttonUpdateTripDesc = new System.Windows.Forms.Button();
+            this.comboBoxEndpoint = new System.Windows.Forms.ComboBox();
             this.buttonCreateAsProphesized = new System.Windows.Forms.Button();
             this.buttonCreateRandomNode = new System.Windows.Forms.Button();
             this.buttonGetNodes = new System.Windows.Forms.Button();
@@ -42,7 +44,6 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.listBoxPositions = new System.Windows.Forms.ListBox();
             this.propertyGridPosition = new System.Windows.Forms.PropertyGrid();
-            this.comboBoxEndpoint = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -53,9 +54,10 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.buttonUpdateTripDesc);
             this.groupBox1.Controls.Add(this.comboBoxEndpoint);
-            this.groupBox1.Controls.Add(this.buttonCreateAsProphesized);
             this.groupBox1.Controls.Add(this.buttonCreateRandomNode);
+            this.groupBox1.Controls.Add(this.buttonCreateAsProphesized);
             this.groupBox1.Controls.Add(this.buttonGetNodes);
             this.groupBox1.Controls.Add(this.buttonGetTrips);
             this.groupBox1.Controls.Add(this.buttonCreateTrip);
@@ -68,59 +70,84 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Opcje";
             // 
+            // buttonUpdateTripDesc
+            // 
+            this.buttonUpdateTripDesc.BackColor = System.Drawing.Color.Chartreuse;
+            this.buttonUpdateTripDesc.Enabled = false;
+            this.buttonUpdateTripDesc.Location = new System.Drawing.Point(528, 14);
+            this.buttonUpdateTripDesc.Name = "buttonUpdateTripDesc";
+            this.buttonUpdateTripDesc.Size = new System.Drawing.Size(152, 34);
+            this.buttonUpdateTripDesc.TabIndex = 7;
+            this.buttonUpdateTripDesc.Text = "Zmień opis wycieczki";
+            this.buttonUpdateTripDesc.UseVisualStyleBackColor = false;
+            this.buttonUpdateTripDesc.Click += new System.EventHandler(this.buttonUpdateTripDesc_Click);
+            // 
+            // comboBoxEndpoint
+            // 
+            this.comboBoxEndpoint.FormattingEnabled = true;
+            this.comboBoxEndpoint.Location = new System.Drawing.Point(12, 22);
+            this.comboBoxEndpoint.Name = "comboBoxEndpoint";
+            this.comboBoxEndpoint.Size = new System.Drawing.Size(151, 21);
+            this.comboBoxEndpoint.TabIndex = 0;
+            // 
             // buttonCreateAsProphesized
             // 
+            this.buttonCreateAsProphesized.BackColor = System.Drawing.Color.HotPink;
             this.buttonCreateAsProphesized.Enabled = false;
-            this.buttonCreateAsProphesized.Location = new System.Drawing.Point(528, 19);
+            this.buttonCreateAsProphesized.Location = new System.Drawing.Point(528, 59);
             this.buttonCreateAsProphesized.Name = "buttonCreateAsProphesized";
-            this.buttonCreateAsProphesized.Size = new System.Drawing.Size(152, 74);
+            this.buttonCreateAsProphesized.Size = new System.Drawing.Size(152, 34);
             this.buttonCreateAsProphesized.TabIndex = 6;
             this.buttonCreateAsProphesized.Text = "Dodaj punkt według zedytowanego";
-            this.buttonCreateAsProphesized.UseVisualStyleBackColor = true;
+            this.buttonCreateAsProphesized.UseVisualStyleBackColor = false;
             this.buttonCreateAsProphesized.Click += new System.EventHandler(this.buttonCreateAsProphesized_Click);
             // 
             // buttonCreateRandomNode
             // 
+            this.buttonCreateRandomNode.BackColor = System.Drawing.Color.HotPink;
             this.buttonCreateRandomNode.Enabled = false;
-            this.buttonCreateRandomNode.Location = new System.Drawing.Point(370, 19);
+            this.buttonCreateRandomNode.Location = new System.Drawing.Point(370, 59);
             this.buttonCreateRandomNode.Name = "buttonCreateRandomNode";
             this.buttonCreateRandomNode.Size = new System.Drawing.Size(152, 34);
             this.buttonCreateRandomNode.TabIndex = 4;
             this.buttonCreateRandomNode.Text = "Dodaj losowy punkt do ID";
-            this.buttonCreateRandomNode.UseVisualStyleBackColor = true;
+            this.buttonCreateRandomNode.UseVisualStyleBackColor = false;
             this.buttonCreateRandomNode.Click += new System.EventHandler(this.buttonCreateRandomNode_Click);
             // 
             // buttonGetNodes
             // 
+            this.buttonGetNodes.BackColor = System.Drawing.Color.HotPink;
             this.buttonGetNodes.Enabled = false;
-            this.buttonGetNodes.Location = new System.Drawing.Point(370, 59);
+            this.buttonGetNodes.Location = new System.Drawing.Point(212, 59);
             this.buttonGetNodes.Name = "buttonGetNodes";
             this.buttonGetNodes.Size = new System.Drawing.Size(152, 34);
             this.buttonGetNodes.TabIndex = 5;
             this.buttonGetNodes.Text = "Odczytaj punkty dla ID";
-            this.buttonGetNodes.UseVisualStyleBackColor = true;
+            this.buttonGetNodes.UseVisualStyleBackColor = false;
             this.buttonGetNodes.Click += new System.EventHandler(this.buttonGetNodes_Click);
             // 
             // buttonGetTrips
             // 
+            this.buttonGetTrips.BackColor = System.Drawing.Color.Chartreuse;
             this.buttonGetTrips.Enabled = false;
-            this.buttonGetTrips.Location = new System.Drawing.Point(212, 60);
+            this.buttonGetTrips.Location = new System.Drawing.Point(212, 14);
             this.buttonGetTrips.Name = "buttonGetTrips";
             this.buttonGetTrips.Size = new System.Drawing.Size(152, 34);
             this.buttonGetTrips.TabIndex = 3;
             this.buttonGetTrips.Text = "Odczytaj wycieczki usera";
-            this.buttonGetTrips.UseVisualStyleBackColor = true;
+            this.buttonGetTrips.UseVisualStyleBackColor = false;
             this.buttonGetTrips.Click += new System.EventHandler(this.buttonGetTrips_Click);
             // 
             // buttonCreateTrip
             // 
+            this.buttonCreateTrip.BackColor = System.Drawing.Color.Chartreuse;
             this.buttonCreateTrip.Enabled = false;
-            this.buttonCreateTrip.Location = new System.Drawing.Point(212, 19);
+            this.buttonCreateTrip.Location = new System.Drawing.Point(370, 14);
             this.buttonCreateTrip.Name = "buttonCreateTrip";
             this.buttonCreateTrip.Size = new System.Drawing.Size(152, 34);
             this.buttonCreateTrip.TabIndex = 2;
             this.buttonCreateTrip.Text = "Utwórz wycieczkę";
-            this.buttonCreateTrip.UseVisualStyleBackColor = true;
+            this.buttonCreateTrip.UseVisualStyleBackColor = false;
             this.buttonCreateTrip.Click += new System.EventHandler(this.buttonCreateTrip_Click);
             // 
             // buttonConnect
@@ -214,14 +241,6 @@
             this.propertyGridPosition.TabIndex = 0;
             this.propertyGridPosition.ToolbarVisible = false;
             // 
-            // comboBoxEndpoint
-            // 
-            this.comboBoxEndpoint.FormattingEnabled = true;
-            this.comboBoxEndpoint.Location = new System.Drawing.Point(12, 27);
-            this.comboBoxEndpoint.Name = "comboBoxEndpoint";
-            this.comboBoxEndpoint.Size = new System.Drawing.Size(151, 21);
-            this.comboBoxEndpoint.TabIndex = 0;
-            // 
             // FormCRUD
             // 
             this.AcceptButton = this.buttonConnect;
@@ -262,6 +281,7 @@
         private System.Windows.Forms.ListBox listBoxTrips;
         private System.Windows.Forms.ListBox listBoxPositions;
         private System.Windows.Forms.ComboBox comboBoxEndpoint;
+        private System.Windows.Forms.Button buttonUpdateTripDesc;
     }
 }
 
