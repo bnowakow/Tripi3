@@ -15,6 +15,7 @@ using Microsoft.Maps.MapControl;
 using System.ServiceModel;
 using System.Collections.ObjectModel;
 using TripiWCF.Service;
+using System.ServiceModel;
 
 namespace SilverlightShowcase
 {
@@ -26,7 +27,8 @@ namespace SilverlightShowcase
         private ObservableCollection<Trip> trips;
         private Trip trip;
         private String username = "";
-        private IDictionary<string, string> parameters = null;
+        private IDictionary<String, String> parameters = null;
+		private IDictionary<String, String> pushpinsDescriptions = new Dictionary<String, String>();
         private bool editing = false;
 
         public MainPage()
@@ -43,7 +45,7 @@ namespace SilverlightShowcase
 
         public void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
-            if (this.parameters.ContainsKey("userName"))
+			if (this.parameters.ContainsKey("userName"))
             {
                 username = this.parameters["userName"];
             }
@@ -62,7 +64,6 @@ namespace SilverlightShowcase
             tripiWcfService = new TripServiceClient(new BasicHttpBinding(), endpoint);
             tripiWcfService.GetPositionNodesForTripCompleted += new EventHandler<GetPositionNodesForTripCompletedEventArgs>(tripiWcfService_GetPositionNodesForTripCompleted);
             tripiWcfService.GetAllTripsCompleted += new EventHandler<GetAllTripsCompletedEventArgs>(tripiWcfService_GetAllTripsCompleted);
-
             tripiWcfService.GetAllTripsAsync();
         }
 
@@ -72,7 +73,7 @@ namespace SilverlightShowcase
             TripDescriptionTextEditor.Visibility = Visibility.Collapsed;
             TripDescriptionText.Visibility = Visibility.Visible;
             DescriptionStack_MouseEnter(null, null);
-            
+
             tripiWcfService.UpdateTripDescriptionCompleted += new EventHandler<System.ComponentModel.AsyncCompletedEventArgs>(tripiWcfService_UpdateTripDescriptionCompleted);
             trip.TripDescription = TripDescriptionTextEditor.Text;
             tripiWcfService.UpdateTripDescriptionAsync(trip.ID, trip.TripDescription);
@@ -100,6 +101,10 @@ namespace SilverlightShowcase
 
         void DescriptionStack_MouseEnter(object sender, MouseEventArgs e)
         {
+            if (trip == null || username == null)
+            {
+                return;
+            }
             if (trip.Username.Equals(username))
             {
                 if (!editing)
@@ -122,7 +127,7 @@ namespace SilverlightShowcase
             trip = (Trip)dg.SelectedItem;
             TripDescriptionText.Text = trip.TripDescription;
             tripiWcfService.GetPositionNodesForTripAsync(trip.ID);
-            
+
 
             editing = false;
             TripDescriptionTextEditor.Visibility = Visibility.Collapsed;
@@ -141,18 +146,17 @@ namespace SilverlightShowcase
 
         void tripiWcfService_GetPositionNodesForTripCompleted(object sender, GetPositionNodesForTripCompletedEventArgs e)
         {
-            List<Location> polyline = new List<Location>();
-            foreach (var point in e.Result)
-            {
-                polyline.Add(new Location(point.Latitude, point.Longitude));
-            }
-            drawPolyline(polyline);
+            PositionNode[] positionArray = (PositionNode[])e.Result;
+            List<PositionNode> positionList = positionArray.ToList();
+            drawPolyline(positionList);
         }
 
 
-        private void drawPolyline(List<Location> list)
+        private void drawPolyline(List<PositionNode> list)
         {
+			Infobox.Visibility = Visibility.Collapsed;
             MapLayer.Children.Clear();
+			PinLayer.Children.Clear();
             if (list.Count == 0)
             {
                 MapStatusText.Text = "Trip does not have any points";
@@ -162,25 +166,103 @@ namespace SilverlightShowcase
             MapStatus.Visibility = Visibility.Collapsed;
 
             MapPolyline mapPolyline = new MapPolyline();
-            mapPolyline.Fill = new SolidColorBrush(Colors.Red);
+            //mapPolyline.Fill = new SolidColorBrush(Colors.Red);
             mapPolyline.Stroke = new SolidColorBrush(Colors.Yellow);
             mapPolyline.StrokeThickness = 8;
             mapPolyline.Opacity = 0.7;
             mapPolyline.Locations = new LocationCollection();
 
 
-            Location center = new Location();
-            foreach (Location location in list)
+            pushpinsDescriptions.Clear();
+			IList<Location> locations = new List<Location>();
+            foreach (PositionNode positionNode in list)
             {
-                center.Latitude += location.Latitude / list.Count;
-                center.Longitude += location.Longitude / list.Count;
+                Location location = new Location(positionNode.Latitude, positionNode.Longitude);
+				locations.Add(location);
                 mapPolyline.Locations.Add(location);
+
+
+                if (positionNode.Description != null && !positionNode.Description.Equals(""))
+                {
+					Pushpin pushpin = new Pushpin();
+                    pushpin.Location = location;
+					pushpin.Name = positionNode.OrdinalNumber.ToString();
+					pushpinsDescriptions.Add(pushpin.Name, positionNode.Description);
+					pushpin.MouseLeftButtonUp += new MouseButtonEventHandler(pushpin_MouseLeftButtonUp);
+                    PinLayer.Children.Add(pushpin);
+                }
             }
             MapLayer.Children.Add(mapPolyline);
 
-            Map.Center = center;
-            Map.ZoomLevel = 12;
+			SetBestMapView(locations, Map, 50);
         }
+
+		void pushpin_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+		{
+			Pushpin pushpin = (Pushpin) sender;
+			InfoboxDescription.Text = pushpinsDescriptions[pushpin.Name];
+			Infobox.Visibility = Visibility.Visible;
+		}
+
+        private void CloseInfobox_Click(object sender, RoutedEventArgs e)
+        {
+            Infobox.Visibility = Visibility.Collapsed;
+        }
+
+		public void SetBestMapView(IList<Location> locations, Map map, int buffer)
+		{
+			Location center = new Location();
+			double zoomLevel = 0;
+
+			double maxLat = -85;
+			double minLat = 85;
+			double maxLon = -180;
+			double minLon = 180;
+
+			//calculate bounding rectangle
+			for (int i = 0; i < locations.Count; i++)
+			{
+				if (locations[i].Latitude > maxLat)
+				{
+					maxLat = locations[i].Latitude;
+				}
+
+				if (locations[i].Latitude < minLat)
+				{
+					minLat = locations[i].Latitude;
+				}
+
+				if (locations[i].Longitude > maxLon)
+				{
+					maxLon = locations[i].Longitude;
+				}
+
+				if (locations[i].Longitude < minLon)
+				{
+					minLon = locations[i].Longitude;
+				}
+			}
+
+			center.Latitude = (maxLat + minLat) / 2;
+			center.Longitude = (maxLon + minLon) / 2;
+
+			double zoom1 = 0, zoom2 = 0;
+
+			//Determine the best zoom level based on the map scale and bounding coordinate information
+			if (maxLon != minLon && maxLat != minLat)
+			{
+				//best zoom level based on map width
+				zoom1 = Math.Log(360.0 / 256.0 * (map.ActualWidth - 2 * buffer) / (maxLon - minLon)) / Math.Log(2);
+				//best zoom level based on map height
+				zoom2 = Math.Log(180.0 / 256.0 * (map.ActualHeight - 2 * buffer) / (maxLat - minLat)) / Math.Log(2);
+			}
+
+			//use the most zoomed out of the two zoom levels
+			zoomLevel = (zoom1 < zoom2) ? zoom1 : zoom2;
+
+			map.Center = center;
+			map.ZoomLevel = zoomLevel;			
+		}
 
         #region drawMaratonSierpniowy
         public void drawMaratonSierpniowy()
@@ -311,7 +393,17 @@ namespace SilverlightShowcase
             tmp.Add(new Location(54.36757100, 18.63280350));
             tmp.Add(new Location(54.36343300, 18.63986310));
             tmp.Add(new Location(54.36318140, 18.64094720));
-            drawPolyline(tmp);
+
+			foreach (Location location in tmp)
+			{
+				PositionNode pn = new PositionNode();
+				pn.Latitude = location.Latitude;
+				pn.Longitude = location.Longitude;
+				pn.TripID = 2;
+				tripiWcfService.AddPositionNodeAsync(pn);
+			}
+			
+			//drawPolyline(tmp);
         }
         #endregion
     }
