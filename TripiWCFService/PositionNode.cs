@@ -30,12 +30,12 @@ namespace TripiWCF.Service
         #endregion
 
         #region Constructor
-        public PositionNode(double lat, double lon, int tripID)
-            : this(lat, lon, tripID, 3.14, DateTime.Now, null)
+        public PositionNode(double lat, double lon, int tripID, double num)
+            : this(lat, lon, tripID, 3.14, DateTime.Now, null, num)
         {
         }
 
-        public PositionNode(double lat, double lon, int tripID, double speed, DateTime creationTime, string description)
+        public PositionNode(double lat, double lon, int tripID, double speed, DateTime creationTime, string description, double number)
         {
             Latitude = lat;
             Longitude = lon;
@@ -43,6 +43,7 @@ namespace TripiWCF.Service
             Speed = speed;
             CreationTime = creationTime;
             Description = description;
+            Number = number;
         }
 
         public PositionNode(XElement element)
@@ -52,7 +53,8 @@ namespace TripiWCF.Service
             double.Parse(element.Attribute("speed").Value),
             //DateTime.ParseExact(element.Attribute("time").Value, CultureInfo.CurrentCulture.DateTimeFormat.GetAllDateTimePatterns(), CultureInfo.CurrentCulture, DateTimeStyles.None),
             DateTime.ParseExact(element.Attribute("time").Value, "yyyyMMddHHmmss", CultureInfo.CurrentCulture),
-            element.Attribute("description") != null ? element.Attribute("description").Value : null)
+            element.Attribute("description") != null ? element.Attribute("description").Value : null,
+            double.Parse(element.Attribute("number").Value))
         //DateTime.ParseExact(element.Attribute("time").Value, "yyyy/MM/ddTHH:mm:ss.fffffzzz", CultureInfo.InvariantCulture))
         //DateTime.FromBinary(long.Parse(element.Attribute("time").Value)))
         {

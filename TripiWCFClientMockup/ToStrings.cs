@@ -17,8 +17,8 @@ namespace TripiWCF.ClientMockup.Proxy
     {
         public override string ToString()
         {
-            return string.Format("{0}: ({1,6:G};{2,6:G}) ({3} omgs/year) @ {4}{5}",
-                TripID, Latitude, Longitude, Speed, CreationTime.ToLongTimeString(), Description != null ?  " (" + Description + ")" : Description);
+            return string.Format("{0}/{1}: ({2:G};{3:G}) ({4} omgs/year) @ {5}{6}",
+                TripID, Number, Latitude, Longitude, Speed, CreationTime.ToLongTimeString(), Description != null ?  " (" + Description + ")" : Description);
         }
     }
 }
