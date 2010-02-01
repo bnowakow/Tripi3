@@ -237,14 +237,14 @@ namespace TripiWCF.ClientMockup.Proxy
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/GetTripsForUser", ReplyAction="http://tempuri.org/ITripService/GetTripsForUserResponse")]
         TripiWCF.ClientMockup.Proxy.Trip[] GetTripsForUser(string username);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/GetPositionNodesForTrip", ReplyAction="http://tempuri.org/ITripService/GetPositionNodesForTripResponse")]
-        TripiWCF.ClientMockup.Proxy.PositionNode[] GetPositionNodesForTrip(int tripID);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/AddPositionNode", ReplyAction="http://tempuri.org/ITripService/AddPositionNodeResponse")]
-        void AddPositionNode(TripiWCF.ClientMockup.Proxy.PositionNode node);
-        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/UpdateTripDescription", ReplyAction="http://tempuri.org/ITripService/UpdateTripDescriptionResponse")]
         void UpdateTripDescription(int tripID, string tripDescription);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/AddPositionNode", ReplyAction="http://tempuri.org/ITripService/AddPositionNodeResponse")]
+        int AddPositionNode(TripiWCF.ClientMockup.Proxy.PositionNode node);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/GetPositionNodesForTrip", ReplyAction="http://tempuri.org/ITripService/GetPositionNodesForTripResponse")]
+        TripiWCF.ClientMockup.Proxy.PositionNode[] GetPositionNodesForTrip(int tripID);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/UpdatePositionNodeDescription", ReplyAction="http://tempuri.org/ITripService/UpdatePositionNodeDescriptionResponse")]
         void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription);
@@ -304,19 +304,19 @@ namespace TripiWCF.ClientMockup.Proxy
             return base.Channel.GetTripsForUser(username);
         }
         
-        public TripiWCF.ClientMockup.Proxy.PositionNode[] GetPositionNodesForTrip(int tripID)
-        {
-            return base.Channel.GetPositionNodesForTrip(tripID);
-        }
-        
-        public void AddPositionNode(TripiWCF.ClientMockup.Proxy.PositionNode node)
-        {
-            base.Channel.AddPositionNode(node);
-        }
-        
         public void UpdateTripDescription(int tripID, string tripDescription)
         {
             base.Channel.UpdateTripDescription(tripID, tripDescription);
+        }
+        
+        public int AddPositionNode(TripiWCF.ClientMockup.Proxy.PositionNode node)
+        {
+            return base.Channel.AddPositionNode(node);
+        }
+        
+        public TripiWCF.ClientMockup.Proxy.PositionNode[] GetPositionNodesForTrip(int tripID)
+        {
+            return base.Channel.GetPositionNodesForTrip(tripID);
         }
         
         public void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription)

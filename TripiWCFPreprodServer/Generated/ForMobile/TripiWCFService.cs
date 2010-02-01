@@ -22,11 +22,11 @@ public interface ITripService
     
     Trip[] GetTripsForUser(string username);
     
-    PositionNode[] GetPositionNodesForTrip(int tripID);
-    
-    void AddPositionNode(PositionNode node);
-    
     void UpdateTripDescription(int tripID, string tripDescription);
+    
+    int AddPositionNode(PositionNode node);
+    
+    PositionNode[] GetPositionNodesForTrip(int tripID);
     
     void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription);
 }
@@ -499,6 +499,78 @@ public partial class GetTripsForUserResponse
 
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
+[System.Xml.Serialization.XmlRootAttribute(ElementName="UpdateTripDescription", Namespace="http://tempuri.org/")]
+public partial class UpdateTripDescriptionRequest
+{
+    
+    [System.Xml.Serialization.XmlElementAttribute(Namespace="http://tempuri.org/", Order=0)]
+    public int tripID;
+    
+    [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Namespace="http://tempuri.org/", Order=1)]
+    public string tripDescription;
+    
+    public UpdateTripDescriptionRequest()
+    {
+    }
+    
+    public UpdateTripDescriptionRequest(int tripID, string tripDescription)
+    {
+        this.tripID = tripID;
+        this.tripDescription = tripDescription;
+    }
+}
+
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
+[System.Xml.Serialization.XmlRootAttribute(ElementName="UpdateTripDescriptionResponse", Namespace="http://tempuri.org/")]
+public partial class UpdateTripDescriptionResponse
+{
+    
+    public UpdateTripDescriptionResponse()
+    {
+    }
+}
+
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
+[System.Xml.Serialization.XmlRootAttribute(ElementName="AddPositionNode", Namespace="http://tempuri.org/")]
+public partial class AddPositionNodeRequest
+{
+    
+    [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Namespace="http://tempuri.org/", Order=0)]
+    public PositionNode node;
+    
+    public AddPositionNodeRequest()
+    {
+    }
+    
+    public AddPositionNodeRequest(PositionNode node)
+    {
+        this.node = node;
+    }
+}
+
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
+[System.Xml.Serialization.XmlRootAttribute(ElementName="AddPositionNodeResponse", Namespace="http://tempuri.org/")]
+public partial class AddPositionNodeResponse
+{
+    
+    [System.Xml.Serialization.XmlElementAttribute(Namespace="http://tempuri.org/", Order=0)]
+    public int AddPositionNodeResult;
+    
+    public AddPositionNodeResponse()
+    {
+    }
+    
+    public AddPositionNodeResponse(int AddPositionNodeResult)
+    {
+        this.AddPositionNodeResult = AddPositionNodeResult;
+    }
+}
+
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
 [System.Xml.Serialization.XmlRootAttribute(ElementName="GetPositionNodesForTrip", Namespace="http://tempuri.org/")]
 public partial class GetPositionNodesForTripRequest
 {
@@ -533,70 +605,6 @@ public partial class GetPositionNodesForTripResponse
     public GetPositionNodesForTripResponse(PositionNode[] GetPositionNodesForTripResult)
     {
         this.GetPositionNodesForTripResult = GetPositionNodesForTripResult;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
-[System.Xml.Serialization.XmlRootAttribute(ElementName="AddPositionNode", Namespace="http://tempuri.org/")]
-public partial class AddPositionNodeRequest
-{
-    
-    [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Namespace="http://tempuri.org/", Order=0)]
-    public PositionNode node;
-    
-    public AddPositionNodeRequest()
-    {
-    }
-    
-    public AddPositionNodeRequest(PositionNode node)
-    {
-        this.node = node;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
-[System.Xml.Serialization.XmlRootAttribute(ElementName="AddPositionNodeResponse", Namespace="http://tempuri.org/")]
-public partial class AddPositionNodeResponse
-{
-    
-    public AddPositionNodeResponse()
-    {
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
-[System.Xml.Serialization.XmlRootAttribute(ElementName="UpdateTripDescription", Namespace="http://tempuri.org/")]
-public partial class UpdateTripDescriptionRequest
-{
-    
-    [System.Xml.Serialization.XmlElementAttribute(Namespace="http://tempuri.org/", Order=0)]
-    public int tripID;
-    
-    [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Namespace="http://tempuri.org/", Order=1)]
-    public string tripDescription;
-    
-    public UpdateTripDescriptionRequest()
-    {
-    }
-    
-    public UpdateTripDescriptionRequest(int tripID, string tripDescription)
-    {
-        this.tripID = tripID;
-        this.tripDescription = tripDescription;
-    }
-}
-
-[System.Diagnostics.DebuggerStepThroughAttribute()]
-[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
-[System.Xml.Serialization.XmlRootAttribute(ElementName="UpdateTripDescriptionResponse", Namespace="http://tempuri.org/")]
-public partial class UpdateTripDescriptionResponse
-{
-    
-    public UpdateTripDescriptionResponse()
-    {
     }
 }
 
@@ -721,6 +729,41 @@ public partial class TripServiceClient : Microsoft.Tools.ServiceModel.CFClientBa
         return response.GetTripsForUserResult;
     }
     
+    private UpdateTripDescriptionResponse UpdateTripDescription(UpdateTripDescriptionRequest request)
+    {
+        CFInvokeInfo info = new CFInvokeInfo();
+        info.Action = "http://tempuri.org/ITripService/UpdateTripDescription";
+        info.RequestIsWrapped = true;
+        info.ReplyAction = "http://tempuri.org/ITripService/UpdateTripDescriptionResponse";
+        info.ResponseIsWrapped = true;
+        UpdateTripDescriptionResponse retVal = base.Invoke<UpdateTripDescriptionRequest, UpdateTripDescriptionResponse>(info, request);
+        return retVal;
+    }
+    
+    public void UpdateTripDescription(int tripID, string tripDescription)
+    {
+        UpdateTripDescriptionRequest request = new UpdateTripDescriptionRequest(tripID, tripDescription);
+        UpdateTripDescriptionResponse response = this.UpdateTripDescription(request);
+    }
+    
+    private AddPositionNodeResponse AddPositionNode(AddPositionNodeRequest request)
+    {
+        CFInvokeInfo info = new CFInvokeInfo();
+        info.Action = "http://tempuri.org/ITripService/AddPositionNode";
+        info.RequestIsWrapped = true;
+        info.ReplyAction = "http://tempuri.org/ITripService/AddPositionNodeResponse";
+        info.ResponseIsWrapped = true;
+        AddPositionNodeResponse retVal = base.Invoke<AddPositionNodeRequest, AddPositionNodeResponse>(info, request);
+        return retVal;
+    }
+    
+    public int AddPositionNode(PositionNode node)
+    {
+        AddPositionNodeRequest request = new AddPositionNodeRequest(node);
+        AddPositionNodeResponse response = this.AddPositionNode(request);
+        return response.AddPositionNodeResult;
+    }
+    
     private GetPositionNodesForTripResponse GetPositionNodesForTrip(GetPositionNodesForTripRequest request)
     {
         CFInvokeInfo info = new CFInvokeInfo();
@@ -737,40 +780,6 @@ public partial class TripServiceClient : Microsoft.Tools.ServiceModel.CFClientBa
         GetPositionNodesForTripRequest request = new GetPositionNodesForTripRequest(tripID);
         GetPositionNodesForTripResponse response = this.GetPositionNodesForTrip(request);
         return response.GetPositionNodesForTripResult;
-    }
-    
-    private AddPositionNodeResponse AddPositionNode(AddPositionNodeRequest request)
-    {
-        CFInvokeInfo info = new CFInvokeInfo();
-        info.Action = "http://tempuri.org/ITripService/AddPositionNode";
-        info.RequestIsWrapped = true;
-        info.ReplyAction = "http://tempuri.org/ITripService/AddPositionNodeResponse";
-        info.ResponseIsWrapped = true;
-        AddPositionNodeResponse retVal = base.Invoke<AddPositionNodeRequest, AddPositionNodeResponse>(info, request);
-        return retVal;
-    }
-    
-    public void AddPositionNode(PositionNode node)
-    {
-        AddPositionNodeRequest request = new AddPositionNodeRequest(node);
-        AddPositionNodeResponse response = this.AddPositionNode(request);
-    }
-    
-    private UpdateTripDescriptionResponse UpdateTripDescription(UpdateTripDescriptionRequest request)
-    {
-        CFInvokeInfo info = new CFInvokeInfo();
-        info.Action = "http://tempuri.org/ITripService/UpdateTripDescription";
-        info.RequestIsWrapped = true;
-        info.ReplyAction = "http://tempuri.org/ITripService/UpdateTripDescriptionResponse";
-        info.ResponseIsWrapped = true;
-        UpdateTripDescriptionResponse retVal = base.Invoke<UpdateTripDescriptionRequest, UpdateTripDescriptionResponse>(info, request);
-        return retVal;
-    }
-    
-    public void UpdateTripDescription(int tripID, string tripDescription)
-    {
-        UpdateTripDescriptionRequest request = new UpdateTripDescriptionRequest(tripID, tripDescription);
-        UpdateTripDescriptionResponse response = this.UpdateTripDescription(request);
     }
     
     private UpdatePositionNodeDescriptionResponse UpdatePositionNodeDescription(UpdatePositionNodeDescriptionRequest request)
@@ -805,12 +814,12 @@ public partial class TripServiceClient : Microsoft.Tools.ServiceModel.CFClientBa
         ApplyProtection("http://tempuri.org/ITripService/GetAllTrips", cpr.IncomingEncryptionParts, true);
         ApplyProtection("http://tempuri.org/ITripService/GetTripsForUser", cpr.IncomingSignatureParts, true);
         ApplyProtection("http://tempuri.org/ITripService/GetTripsForUser", cpr.IncomingEncryptionParts, true);
-        ApplyProtection("http://tempuri.org/ITripService/GetPositionNodesForTrip", cpr.IncomingSignatureParts, true);
-        ApplyProtection("http://tempuri.org/ITripService/GetPositionNodesForTrip", cpr.IncomingEncryptionParts, true);
-        ApplyProtection("http://tempuri.org/ITripService/AddPositionNode", cpr.IncomingSignatureParts, true);
-        ApplyProtection("http://tempuri.org/ITripService/AddPositionNode", cpr.IncomingEncryptionParts, true);
         ApplyProtection("http://tempuri.org/ITripService/UpdateTripDescription", cpr.IncomingSignatureParts, true);
         ApplyProtection("http://tempuri.org/ITripService/UpdateTripDescription", cpr.IncomingEncryptionParts, true);
+        ApplyProtection("http://tempuri.org/ITripService/AddPositionNode", cpr.IncomingSignatureParts, true);
+        ApplyProtection("http://tempuri.org/ITripService/AddPositionNode", cpr.IncomingEncryptionParts, true);
+        ApplyProtection("http://tempuri.org/ITripService/GetPositionNodesForTrip", cpr.IncomingSignatureParts, true);
+        ApplyProtection("http://tempuri.org/ITripService/GetPositionNodesForTrip", cpr.IncomingEncryptionParts, true);
         ApplyProtection("http://tempuri.org/ITripService/UpdatePositionNodeDescription", cpr.IncomingSignatureParts, true);
         ApplyProtection("http://tempuri.org/ITripService/UpdatePositionNodeDescription", cpr.IncomingEncryptionParts, true);
         if ((binding.MessageVersion.Addressing == System.ServiceModel.Channels.AddressingVersion.None))
@@ -828,12 +837,12 @@ public partial class TripServiceClient : Microsoft.Tools.ServiceModel.CFClientBa
             ApplyProtection("http://tempuri.org/ITripService/GetAllTripsResponse", cpr.OutgoingEncryptionParts, true);
             ApplyProtection("http://tempuri.org/ITripService/GetTripsForUserResponse", cpr.OutgoingSignatureParts, true);
             ApplyProtection("http://tempuri.org/ITripService/GetTripsForUserResponse", cpr.OutgoingEncryptionParts, true);
-            ApplyProtection("http://tempuri.org/ITripService/GetPositionNodesForTripResponse", cpr.OutgoingSignatureParts, true);
-            ApplyProtection("http://tempuri.org/ITripService/GetPositionNodesForTripResponse", cpr.OutgoingEncryptionParts, true);
-            ApplyProtection("http://tempuri.org/ITripService/AddPositionNodeResponse", cpr.OutgoingSignatureParts, true);
-            ApplyProtection("http://tempuri.org/ITripService/AddPositionNodeResponse", cpr.OutgoingEncryptionParts, true);
             ApplyProtection("http://tempuri.org/ITripService/UpdateTripDescriptionResponse", cpr.OutgoingSignatureParts, true);
             ApplyProtection("http://tempuri.org/ITripService/UpdateTripDescriptionResponse", cpr.OutgoingEncryptionParts, true);
+            ApplyProtection("http://tempuri.org/ITripService/AddPositionNodeResponse", cpr.OutgoingSignatureParts, true);
+            ApplyProtection("http://tempuri.org/ITripService/AddPositionNodeResponse", cpr.OutgoingEncryptionParts, true);
+            ApplyProtection("http://tempuri.org/ITripService/GetPositionNodesForTripResponse", cpr.OutgoingSignatureParts, true);
+            ApplyProtection("http://tempuri.org/ITripService/GetPositionNodesForTripResponse", cpr.OutgoingEncryptionParts, true);
             ApplyProtection("http://tempuri.org/ITripService/UpdatePositionNodeDescriptionResponse", cpr.OutgoingSignatureParts, true);
             ApplyProtection("http://tempuri.org/ITripService/UpdatePositionNodeDescriptionResponse", cpr.OutgoingEncryptionParts, true);
         }

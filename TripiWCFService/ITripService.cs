@@ -10,9 +10,12 @@ namespace TripiWCF.Service
     [ServiceContract]
     public interface ITripService
     {
+        #region Security, lol
         [OperationContract]
         string LoginUser(string username, string password);
+        #endregion
 
+        #region Trip handling
         [OperationContract]
         int CreateNewTrip(string username, string tripName, string tripDescription);
 
@@ -23,16 +26,18 @@ namespace TripiWCF.Service
         List<Trip> GetTripsForUser(string username);
 
         [OperationContract]
+        void UpdateTripDescription(int tripID, string tripDescription);
+        #endregion
+
+        #region PositionNode handling
+        [OperationContract]
+        int AddPositionNode(PositionNode node);
+
+        [OperationContract]
         List<PositionNode> GetPositionNodesForTrip(int tripID);
 
         [OperationContract]
-        void AddPositionNode(PositionNode node);
-
-        [OperationContract]
-        void UpdateTripDescription(int tripID, string tripDescription);
-
-        [OperationContract]
         void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription);
-
+        #endregion
     }
 }

@@ -22,7 +22,7 @@ namespace TripiWCF.Service
 
         public abstract List<PositionNode> GetPositionNodesForTrip(int tripID);
 
-        public abstract void AddPositionNode(PositionNode node);
+        public abstract int AddPositionNode(PositionNode node);
 
         public abstract void UpdateTripDescription(int tripID, string tripDescription);
 

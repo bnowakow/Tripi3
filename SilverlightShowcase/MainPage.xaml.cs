@@ -15,7 +15,6 @@ using Microsoft.Maps.MapControl;
 using System.ServiceModel;
 using System.Collections.ObjectModel;
 using TripiWCF.Service;
-using System.ServiceModel;
 
 namespace SilverlightShowcase
 {

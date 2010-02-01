@@ -222,20 +222,20 @@ public interface ITripService
     
     TripiWCF.Service.Trip[] EndGetTripsForUser(System.IAsyncResult result);
     
-    [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITripService/GetPositionNodesForTrip", ReplyAction="http://tempuri.org/ITripService/GetPositionNodesForTripResponse")]
-    System.IAsyncResult BeginGetPositionNodesForTrip(int tripID, System.AsyncCallback callback, object asyncState);
-    
-    TripiWCF.Service.PositionNode[] EndGetPositionNodesForTrip(System.IAsyncResult result);
-    
-    [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITripService/AddPositionNode", ReplyAction="http://tempuri.org/ITripService/AddPositionNodeResponse")]
-    System.IAsyncResult BeginAddPositionNode(TripiWCF.Service.PositionNode node, System.AsyncCallback callback, object asyncState);
-    
-    void EndAddPositionNode(System.IAsyncResult result);
-    
     [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITripService/UpdateTripDescription", ReplyAction="http://tempuri.org/ITripService/UpdateTripDescriptionResponse")]
     System.IAsyncResult BeginUpdateTripDescription(int tripID, string tripDescription, System.AsyncCallback callback, object asyncState);
     
     void EndUpdateTripDescription(System.IAsyncResult result);
+    
+    [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITripService/AddPositionNode", ReplyAction="http://tempuri.org/ITripService/AddPositionNodeResponse")]
+    System.IAsyncResult BeginAddPositionNode(TripiWCF.Service.PositionNode node, System.AsyncCallback callback, object asyncState);
+    
+    int EndAddPositionNode(System.IAsyncResult result);
+    
+    [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITripService/GetPositionNodesForTrip", ReplyAction="http://tempuri.org/ITripService/GetPositionNodesForTripResponse")]
+    System.IAsyncResult BeginGetPositionNodesForTrip(int tripID, System.AsyncCallback callback, object asyncState);
+    
+    TripiWCF.Service.PositionNode[] EndGetPositionNodesForTrip(System.IAsyncResult result);
     
     [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITripService/UpdatePositionNodeDescription", ReplyAction="http://tempuri.org/ITripService/UpdatePositionNodeDescriptionResponse")]
     System.IAsyncResult BeginUpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription, System.AsyncCallback callback, object asyncState);
@@ -342,6 +342,29 @@ public partial class GetTripsForUserCompletedEventArgs : System.ComponentModel.A
 
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
+public partial class AddPositionNodeCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs
+{
+    
+    private object[] results;
+    
+    public AddPositionNodeCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+            base(exception, cancelled, userState)
+    {
+        this.results = results;
+    }
+    
+    public int Result
+    {
+        get
+        {
+            base.RaiseExceptionIfNecessary();
+            return ((int)(this.results[0]));
+        }
+    }
+}
+
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
 public partial class GetPositionNodesForTripCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs
 {
     
@@ -392,11 +415,11 @@ public partial class TripServiceClient : System.ServiceModel.ClientBase<ITripSer
     
     private System.Threading.SendOrPostCallback onGetTripsForUserCompletedDelegate;
     
-    private BeginOperationDelegate onBeginGetPositionNodesForTripDelegate;
+    private BeginOperationDelegate onBeginUpdateTripDescriptionDelegate;
     
-    private EndOperationDelegate onEndGetPositionNodesForTripDelegate;
+    private EndOperationDelegate onEndUpdateTripDescriptionDelegate;
     
-    private System.Threading.SendOrPostCallback onGetPositionNodesForTripCompletedDelegate;
+    private System.Threading.SendOrPostCallback onUpdateTripDescriptionCompletedDelegate;
     
     private BeginOperationDelegate onBeginAddPositionNodeDelegate;
     
@@ -404,11 +427,11 @@ public partial class TripServiceClient : System.ServiceModel.ClientBase<ITripSer
     
     private System.Threading.SendOrPostCallback onAddPositionNodeCompletedDelegate;
     
-    private BeginOperationDelegate onBeginUpdateTripDescriptionDelegate;
+    private BeginOperationDelegate onBeginGetPositionNodesForTripDelegate;
     
-    private EndOperationDelegate onEndUpdateTripDescriptionDelegate;
+    private EndOperationDelegate onEndGetPositionNodesForTripDelegate;
     
-    private System.Threading.SendOrPostCallback onUpdateTripDescriptionCompletedDelegate;
+    private System.Threading.SendOrPostCallback onGetPositionNodesForTripCompletedDelegate;
     
     private BeginOperationDelegate onBeginUpdatePositionNodeDescriptionDelegate;
     
@@ -489,11 +512,11 @@ public partial class TripServiceClient : System.ServiceModel.ClientBase<ITripSer
     
     public event System.EventHandler<GetTripsForUserCompletedEventArgs> GetTripsForUserCompleted;
     
-    public event System.EventHandler<GetPositionNodesForTripCompletedEventArgs> GetPositionNodesForTripCompleted;
-    
-    public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> AddPositionNodeCompleted;
-    
     public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> UpdateTripDescriptionCompleted;
+    
+    public event System.EventHandler<AddPositionNodeCompletedEventArgs> AddPositionNodeCompleted;
+    
+    public event System.EventHandler<GetPositionNodesForTripCompletedEventArgs> GetPositionNodesForTripCompleted;
     
     public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> UpdatePositionNodeDescriptionCompleted;
     
@@ -734,119 +757,6 @@ public partial class TripServiceClient : System.ServiceModel.ClientBase<ITripSer
     }
     
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    System.IAsyncResult ITripService.BeginGetPositionNodesForTrip(int tripID, System.AsyncCallback callback, object asyncState)
-    {
-        return base.Channel.BeginGetPositionNodesForTrip(tripID, callback, asyncState);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    TripiWCF.Service.PositionNode[] ITripService.EndGetPositionNodesForTrip(System.IAsyncResult result)
-    {
-        return base.Channel.EndGetPositionNodesForTrip(result);
-    }
-    
-    private System.IAsyncResult OnBeginGetPositionNodesForTrip(object[] inValues, System.AsyncCallback callback, object asyncState)
-    {
-        int tripID = ((int)(inValues[0]));
-        return ((ITripService)(this)).BeginGetPositionNodesForTrip(tripID, callback, asyncState);
-    }
-    
-    private object[] OnEndGetPositionNodesForTrip(System.IAsyncResult result)
-    {
-        TripiWCF.Service.PositionNode[] retVal = ((ITripService)(this)).EndGetPositionNodesForTrip(result);
-        return new object[] {
-                retVal};
-    }
-    
-    private void OnGetPositionNodesForTripCompleted(object state)
-    {
-        if ((this.GetPositionNodesForTripCompleted != null))
-        {
-            InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
-            this.GetPositionNodesForTripCompleted(this, new GetPositionNodesForTripCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
-        }
-    }
-    
-    public void GetPositionNodesForTripAsync(int tripID)
-    {
-        this.GetPositionNodesForTripAsync(tripID, null);
-    }
-    
-    public void GetPositionNodesForTripAsync(int tripID, object userState)
-    {
-        if ((this.onBeginGetPositionNodesForTripDelegate == null))
-        {
-            this.onBeginGetPositionNodesForTripDelegate = new BeginOperationDelegate(this.OnBeginGetPositionNodesForTrip);
-        }
-        if ((this.onEndGetPositionNodesForTripDelegate == null))
-        {
-            this.onEndGetPositionNodesForTripDelegate = new EndOperationDelegate(this.OnEndGetPositionNodesForTrip);
-        }
-        if ((this.onGetPositionNodesForTripCompletedDelegate == null))
-        {
-            this.onGetPositionNodesForTripCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnGetPositionNodesForTripCompleted);
-        }
-        base.InvokeAsync(this.onBeginGetPositionNodesForTripDelegate, new object[] {
-                    tripID}, this.onEndGetPositionNodesForTripDelegate, this.onGetPositionNodesForTripCompletedDelegate, userState);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    System.IAsyncResult ITripService.BeginAddPositionNode(TripiWCF.Service.PositionNode node, System.AsyncCallback callback, object asyncState)
-    {
-        return base.Channel.BeginAddPositionNode(node, callback, asyncState);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    void ITripService.EndAddPositionNode(System.IAsyncResult result)
-    {
-        base.Channel.EndAddPositionNode(result);
-    }
-    
-    private System.IAsyncResult OnBeginAddPositionNode(object[] inValues, System.AsyncCallback callback, object asyncState)
-    {
-        TripiWCF.Service.PositionNode node = ((TripiWCF.Service.PositionNode)(inValues[0]));
-        return ((ITripService)(this)).BeginAddPositionNode(node, callback, asyncState);
-    }
-    
-    private object[] OnEndAddPositionNode(System.IAsyncResult result)
-    {
-        ((ITripService)(this)).EndAddPositionNode(result);
-        return null;
-    }
-    
-    private void OnAddPositionNodeCompleted(object state)
-    {
-        if ((this.AddPositionNodeCompleted != null))
-        {
-            InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
-            this.AddPositionNodeCompleted(this, new System.ComponentModel.AsyncCompletedEventArgs(e.Error, e.Cancelled, e.UserState));
-        }
-    }
-    
-    public void AddPositionNodeAsync(TripiWCF.Service.PositionNode node)
-    {
-        this.AddPositionNodeAsync(node, null);
-    }
-    
-    public void AddPositionNodeAsync(TripiWCF.Service.PositionNode node, object userState)
-    {
-        if ((this.onBeginAddPositionNodeDelegate == null))
-        {
-            this.onBeginAddPositionNodeDelegate = new BeginOperationDelegate(this.OnBeginAddPositionNode);
-        }
-        if ((this.onEndAddPositionNodeDelegate == null))
-        {
-            this.onEndAddPositionNodeDelegate = new EndOperationDelegate(this.OnEndAddPositionNode);
-        }
-        if ((this.onAddPositionNodeCompletedDelegate == null))
-        {
-            this.onAddPositionNodeCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnAddPositionNodeCompleted);
-        }
-        base.InvokeAsync(this.onBeginAddPositionNodeDelegate, new object[] {
-                    node}, this.onEndAddPositionNodeDelegate, this.onAddPositionNodeCompletedDelegate, userState);
-    }
-    
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     System.IAsyncResult ITripService.BeginUpdateTripDescription(int tripID, string tripDescription, System.AsyncCallback callback, object asyncState)
     {
         return base.Channel.BeginUpdateTripDescription(tripID, tripDescription, callback, asyncState);
@@ -902,6 +812,120 @@ public partial class TripServiceClient : System.ServiceModel.ClientBase<ITripSer
         base.InvokeAsync(this.onBeginUpdateTripDescriptionDelegate, new object[] {
                     tripID,
                     tripDescription}, this.onEndUpdateTripDescriptionDelegate, this.onUpdateTripDescriptionCompletedDelegate, userState);
+    }
+    
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    System.IAsyncResult ITripService.BeginAddPositionNode(TripiWCF.Service.PositionNode node, System.AsyncCallback callback, object asyncState)
+    {
+        return base.Channel.BeginAddPositionNode(node, callback, asyncState);
+    }
+    
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    int ITripService.EndAddPositionNode(System.IAsyncResult result)
+    {
+        return base.Channel.EndAddPositionNode(result);
+    }
+    
+    private System.IAsyncResult OnBeginAddPositionNode(object[] inValues, System.AsyncCallback callback, object asyncState)
+    {
+        TripiWCF.Service.PositionNode node = ((TripiWCF.Service.PositionNode)(inValues[0]));
+        return ((ITripService)(this)).BeginAddPositionNode(node, callback, asyncState);
+    }
+    
+    private object[] OnEndAddPositionNode(System.IAsyncResult result)
+    {
+        int retVal = ((ITripService)(this)).EndAddPositionNode(result);
+        return new object[] {
+                retVal};
+    }
+    
+    private void OnAddPositionNodeCompleted(object state)
+    {
+        if ((this.AddPositionNodeCompleted != null))
+        {
+            InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
+            this.AddPositionNodeCompleted(this, new AddPositionNodeCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
+        }
+    }
+    
+    public void AddPositionNodeAsync(TripiWCF.Service.PositionNode node)
+    {
+        this.AddPositionNodeAsync(node, null);
+    }
+    
+    public void AddPositionNodeAsync(TripiWCF.Service.PositionNode node, object userState)
+    {
+        if ((this.onBeginAddPositionNodeDelegate == null))
+        {
+            this.onBeginAddPositionNodeDelegate = new BeginOperationDelegate(this.OnBeginAddPositionNode);
+        }
+        if ((this.onEndAddPositionNodeDelegate == null))
+        {
+            this.onEndAddPositionNodeDelegate = new EndOperationDelegate(this.OnEndAddPositionNode);
+        }
+        if ((this.onAddPositionNodeCompletedDelegate == null))
+        {
+            this.onAddPositionNodeCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnAddPositionNodeCompleted);
+        }
+        base.InvokeAsync(this.onBeginAddPositionNodeDelegate, new object[] {
+                    node}, this.onEndAddPositionNodeDelegate, this.onAddPositionNodeCompletedDelegate, userState);
+    }
+    
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    System.IAsyncResult ITripService.BeginGetPositionNodesForTrip(int tripID, System.AsyncCallback callback, object asyncState)
+    {
+        return base.Channel.BeginGetPositionNodesForTrip(tripID, callback, asyncState);
+    }
+    
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    TripiWCF.Service.PositionNode[] ITripService.EndGetPositionNodesForTrip(System.IAsyncResult result)
+    {
+        return base.Channel.EndGetPositionNodesForTrip(result);
+    }
+    
+    private System.IAsyncResult OnBeginGetPositionNodesForTrip(object[] inValues, System.AsyncCallback callback, object asyncState)
+    {
+        int tripID = ((int)(inValues[0]));
+        return ((ITripService)(this)).BeginGetPositionNodesForTrip(tripID, callback, asyncState);
+    }
+    
+    private object[] OnEndGetPositionNodesForTrip(System.IAsyncResult result)
+    {
+        TripiWCF.Service.PositionNode[] retVal = ((ITripService)(this)).EndGetPositionNodesForTrip(result);
+        return new object[] {
+                retVal};
+    }
+    
+    private void OnGetPositionNodesForTripCompleted(object state)
+    {
+        if ((this.GetPositionNodesForTripCompleted != null))
+        {
+            InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
+            this.GetPositionNodesForTripCompleted(this, new GetPositionNodesForTripCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
+        }
+    }
+    
+    public void GetPositionNodesForTripAsync(int tripID)
+    {
+        this.GetPositionNodesForTripAsync(tripID, null);
+    }
+    
+    public void GetPositionNodesForTripAsync(int tripID, object userState)
+    {
+        if ((this.onBeginGetPositionNodesForTripDelegate == null))
+        {
+            this.onBeginGetPositionNodesForTripDelegate = new BeginOperationDelegate(this.OnBeginGetPositionNodesForTrip);
+        }
+        if ((this.onEndGetPositionNodesForTripDelegate == null))
+        {
+            this.onEndGetPositionNodesForTripDelegate = new EndOperationDelegate(this.OnEndGetPositionNodesForTrip);
+        }
+        if ((this.onGetPositionNodesForTripCompletedDelegate == null))
+        {
+            this.onGetPositionNodesForTripCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnGetPositionNodesForTripCompleted);
+        }
+        base.InvokeAsync(this.onBeginGetPositionNodesForTripDelegate, new object[] {
+                    tripID}, this.onEndGetPositionNodesForTripDelegate, this.onGetPositionNodesForTripCompletedDelegate, userState);
     }
     
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -1123,35 +1147,6 @@ public partial class TripServiceClient : System.ServiceModel.ClientBase<ITripSer
             return _result;
         }
         
-        public System.IAsyncResult BeginGetPositionNodesForTrip(int tripID, System.AsyncCallback callback, object asyncState)
-        {
-            object[] _args = new object[1];
-            _args[0] = tripID;
-            System.IAsyncResult _result = base.BeginInvoke("GetPositionNodesForTrip", _args, callback, asyncState);
-            return _result;
-        }
-        
-        public TripiWCF.Service.PositionNode[] EndGetPositionNodesForTrip(System.IAsyncResult result)
-        {
-            object[] _args = new object[0];
-            TripiWCF.Service.PositionNode[] _result = ((TripiWCF.Service.PositionNode[])(base.EndInvoke("GetPositionNodesForTrip", _args, result)));
-            return _result;
-        }
-        
-        public System.IAsyncResult BeginAddPositionNode(TripiWCF.Service.PositionNode node, System.AsyncCallback callback, object asyncState)
-        {
-            object[] _args = new object[1];
-            _args[0] = node;
-            System.IAsyncResult _result = base.BeginInvoke("AddPositionNode", _args, callback, asyncState);
-            return _result;
-        }
-        
-        public void EndAddPositionNode(System.IAsyncResult result)
-        {
-            object[] _args = new object[0];
-            base.EndInvoke("AddPositionNode", _args, result);
-        }
-        
         public System.IAsyncResult BeginUpdateTripDescription(int tripID, string tripDescription, System.AsyncCallback callback, object asyncState)
         {
             object[] _args = new object[2];
@@ -1165,6 +1160,36 @@ public partial class TripServiceClient : System.ServiceModel.ClientBase<ITripSer
         {
             object[] _args = new object[0];
             base.EndInvoke("UpdateTripDescription", _args, result);
+        }
+        
+        public System.IAsyncResult BeginAddPositionNode(TripiWCF.Service.PositionNode node, System.AsyncCallback callback, object asyncState)
+        {
+            object[] _args = new object[1];
+            _args[0] = node;
+            System.IAsyncResult _result = base.BeginInvoke("AddPositionNode", _args, callback, asyncState);
+            return _result;
+        }
+        
+        public int EndAddPositionNode(System.IAsyncResult result)
+        {
+            object[] _args = new object[0];
+            int _result = ((int)(base.EndInvoke("AddPositionNode", _args, result)));
+            return _result;
+        }
+        
+        public System.IAsyncResult BeginGetPositionNodesForTrip(int tripID, System.AsyncCallback callback, object asyncState)
+        {
+            object[] _args = new object[1];
+            _args[0] = tripID;
+            System.IAsyncResult _result = base.BeginInvoke("GetPositionNodesForTrip", _args, callback, asyncState);
+            return _result;
+        }
+        
+        public TripiWCF.Service.PositionNode[] EndGetPositionNodesForTrip(System.IAsyncResult result)
+        {
+            object[] _args = new object[0];
+            TripiWCF.Service.PositionNode[] _result = ((TripiWCF.Service.PositionNode[])(base.EndInvoke("GetPositionNodesForTrip", _args, result)));
+            return _result;
         }
         
         public System.IAsyncResult BeginUpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription, System.AsyncCallback callback, object asyncState)

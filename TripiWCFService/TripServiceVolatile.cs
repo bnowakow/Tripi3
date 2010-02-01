@@ -71,20 +71,23 @@ namespace TripiWCF.Service
             return TripNodes.ToList();
         }
 
-        public override void AddPositionNode(PositionNode node)
+        public override int AddPositionNode(PositionNode node)
         {
+            node.OrdinalNumber = PositionNodeCount;
             Nodes.Add(node);
             OnDatabaseInsert(TripCount, PositionNodeCount);
+
+            return node.OrdinalNumber;
         }
 
         public override void UpdateTripDescription(int tripID, string tripDescription)
         {
-
+            throw new NotImplementedException();
         }
 
         public override void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription)
         {
-
+            throw new NotImplementedException();
         }
 
         #endregion

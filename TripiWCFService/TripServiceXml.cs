@@ -117,7 +117,7 @@ namespace TripiWCF.Service
             return nodes;
         }
 
-        public override void AddPositionNode(PositionNode node)
+        public override int AddPositionNode(PositionNode node)
         {
             XElement nodes = AssureFileExists(NodesFile(node.TripID), "Nodes");
 
@@ -127,6 +127,8 @@ namespace TripiWCF.Service
             nodes.Save(NodesFile(node.TripID));
 
             OnDatabaseInsert(-1, PositionNodeCount(nodes));
+
+            return node.OrdinalNumber;
         }
 
         public override void UpdateTripDescription(int tripID, string tripDescription)
