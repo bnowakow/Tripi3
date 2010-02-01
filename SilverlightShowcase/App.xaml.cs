@@ -9,12 +9,12 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
+using System.Collections;
 
 namespace SilverlightShowcase
 {
     public partial class App : Application
     {
-
         public App()
         {
             this.Startup += this.Application_Startup;
@@ -26,7 +26,8 @@ namespace SilverlightShowcase
 
         private void Application_Startup(object sender, StartupEventArgs e)
         {
-            this.RootVisual = new MainPage();
+            IDictionary<String, String> parameters = e.InitParams;
+            this.RootVisual = new MainPage(parameters);
         }
 
         private void Application_Exit(object sender, EventArgs e)

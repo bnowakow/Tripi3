@@ -22,7 +22,7 @@ public partial class Login : System.Web.UI.Page
     private bool UserCredentialsValid(string login, string password)
     {
         TripiWCF.ClientMockup.Proxy.TripServiceClient service =
-            new TripiWCF.ClientMockup.Proxy.TripServiceClient("TripiAha");
+            new TripiWCF.ClientMockup.Proxy.TripServiceClient("TripiStaro");
 
         string result = service.LoginUser(login, password);
         return result != string.Empty;

@@ -20,10 +20,13 @@ namespace SilverlightShowcase
 {
     public partial class MainPage : UserControl
     {
-        //private string remoteAddress = "http://10.211.55.3:8765/main";
-        private string remoteAddress = "http://joannar.ds.pg.gda.pl:8765/main";
+        private string remoteAddress = "http://10.211.55.3:8765/main";
+        //private string remoteAddress = "http://joannar.ds.pg.gda.pl:8765/main";
         private TripServiceClient tripiWcfService = null;
         private ObservableCollection<Trip> trips;
+        private Trip trip;
+        private String username = "";
+        private IDictionary<string, string> parameters = null;
 
         public MainPage()
         {
@@ -31,11 +34,24 @@ namespace SilverlightShowcase
             this.Loaded += new RoutedEventHandler(MainPage_Loaded);
         }
 
+        public MainPage(IDictionary<string, string> p) : this()
+        {
+            this.parameters = p;
+        }
+
         public void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
+            if (this.parameters.ContainsKey("userName"))
+            {
+                username = this.parameters["userName"];
+            }
+
             trips = new ObservableCollection<Trip>();
             TripGrid.ItemsSource = trips;
             TripGrid.SelectionChanged += new SelectionChangedEventHandler(TripGrid_SelectionChanged);
+
+            DescriptionStack.MouseEnter += new MouseEventHandler(DescriptionStack_MouseEnter);
+            DescriptionStack.MouseLeave += new MouseEventHandler(DescriptionStack_MouseLeave);
 
             EndpointAddress endpoint = new EndpointAddress(remoteAddress);
             tripiWcfService = new TripServiceClient(new BasicHttpBinding(), endpoint);
@@ -45,10 +61,25 @@ namespace SilverlightShowcase
             tripiWcfService.GetAllTripsAsync();
         }
 
+        void DescriptionStack_MouseLeave(object sender, MouseEventArgs e)
+        {
+            TripDescriptionTextEditButton.Visibility = Visibility.Collapsed;
+        }
+
+        void DescriptionStack_MouseEnter(object sender, MouseEventArgs e)
+        {
+           if (trip.Username.Equals(username))
+            {
+                TripDescriptionTextEditButton.Visibility = Visibility.Visible;
+            }
+        }
+
+
         void TripGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             DataGrid dg = (DataGrid)sender;
-            Trip trip = (Trip)dg.SelectedItem;
+            trip = (Trip)dg.SelectedItem;
+            TripDescriptionText.Text = trip.TripDescription;
             tripiWcfService.GetPositionNodesForTripAsync(trip.ID);
         }
 
