@@ -9,6 +9,9 @@ using System.Windows.Forms;
 using GPSMobile;
 using Msdn.UIFramework;
 using Tripi.wcf;
+using System.Threading;
+
+using TTimer = System.Threading.Timer;
 
 namespace Tripi
 {
@@ -17,6 +20,7 @@ namespace Tripi
         private ServiceManager service = null;
         private TripMode mode;
         Trip trip = null;
+        private int defaultFrequency = 3;
 
         public TripForm(TripMode mode, Trip trip)
         {
@@ -25,7 +29,7 @@ namespace Tripi
             this.trip = trip;
 
             service = new ServiceManager();
-            service.SendFrequencyInSeconds = 3;
+            nudFrequency.Value = defaultFrequency;
         }
 
         private void FormLoad(object sender, EventArgs e)
@@ -33,6 +37,31 @@ namespace Tripi
             this.MenuBar.LeftMenu = "Back";
             this.MenuBar.LeftMenuClicked += new EventHandler(BackButtonClick);
             this.labelTripName.Text = trip.TripName;
+            service.OnLocationSend += new Action(OnLocationSendToService);
+        }
+
+        private void OnLocationSendToService()
+        {
+            if (InvokeRequired)
+            {
+                Invoke(new Action(OnLocationSendToService));
+                return;
+            }
+
+            picBoxSignal.Visible = true;
+            Thread thread = new Thread(new ThreadStart(TimerMethod));
+            thread.Start();
+        }
+
+        private void TimerMethod()
+        {
+            if (InvokeRequired)
+            {
+                Invoke(new Action(TimerMethod));
+                return;
+            }
+            Thread.Sleep(500);
+            picBoxSignal.Visible = false;
         }
 
         private void BackButtonClick(object sender, EventArgs e)
@@ -46,15 +75,38 @@ namespace Tripi
 
         private void StartButtonClick(object sender, EventArgs e)
         {
-            if(TripMode.NEW.Equals(mode))
+            service.SendFrequencyInSeconds = (int)nudFrequency.Value;
+            if (TripMode.NEW.Equals(mode))
                 service.RunNewTrip(trip.TripName);
             else
                 service.ContinueTrip(trip);
+            setButtons(true);
         }
 
         private void StopButtonClick(object sender, EventArgs e)
         {
             service.StopTrip();
+            mode = TripMode.CONTINUE;
+            setButtons(false);
+        }
+
+        private void setButtons(bool start)
+        {
+            bttnStart.Enabled = !start;
+            nudFrequency.Enabled = !start;
+            bttnAddPoint.Visible = start;
+            bttnStop.Enabled = start;
+        }
+
+        private void AddInterestingSpotClick(object sender, EventArgs e)
+        {
+            PointForm pointForm = new PointForm();
+            DialogResult result = pointForm.ShowDialog();
+            string description = pointForm.Description;
+            if (result == DialogResult.OK && description != string.Empty)
+            {
+                service.NextNodeDescription = pointForm.Description;
+            }
         }
     }
 

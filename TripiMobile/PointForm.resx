@@ -117,27 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="picBoxSignal.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        /9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYa
-        HSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgo
-        KCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAUABQDASIAAhEBAxEB/8QA
-        GAABAQEBAQAAAAAAAAAAAAAAAAcGAwj/xAApEAABAwMDAgYDAQAAAAAAAAABAgMEAAUGBxESEzEhUWFx
-        gZFBQlLB/8QAGAEAAwEBAAAAAAAAAAAAAAAABAYHAwX/xAAjEQACAgIBAgcAAAAAAAAAAAABAwACBBEF
-        ITESEyJxgdHw/9oADAMBAAIRAxEAPwDd60aozbLc12LHVpZktpBkyikKKCRuEJB8N9iNz61K7Vqbl1um
-        pkJvUiQAd1NST1EKHlse3xtXXWi2yLdqLdjISrhJWJDSj2UhQ/Hsdx8Vh6X8h7PNPXWpXeI4rCGCvVBb
-        xAEkgHex+9p7RwHKY+X41HujCOktRLbzW+/TcHcb+XiCPQilT7QbH5YwUyHnXI6ZUpbzSR+yOKU8vtJp
-        XZTe1lixEmvJYyEZbFLt6QTr6+JRcvxKz5ZCTHvMUO8CS26k8XGyf5V/nasLY9F8Wjz1PPmfMS0vwakO
-        p4H3CUgn7pSs3LqWVJEO43LevDbWlyAO2iekqzLTbDSGmUJbaQkJShI2CQOwA8qUpRcXu8//2Q==
-</value>
-  </data>
+  <metadata name="inputPanel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="$this.FormFactorShadowProperty" xml:space="preserve">
     <value>Pocket_PC</value>
   </metadata>
   <metadata name="$this.Skin" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPAAAAEiCAIAAABItshVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8

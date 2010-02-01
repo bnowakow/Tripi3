@@ -13,14 +13,17 @@ namespace Tripi.wcf
 {
     class ServiceManager
     {
+        public event Action OnLocationSend = null;
+
         private const int NOT_SPECIFIED = -1;
         private EndpointAddress endpoint = null;
         private TripServiceClient service = null;
         private SendScheduler scheduler = null;
         private int currentTripId = NOT_SPECIFIED;
+        private string nextNodeDescription = ""; 
 
-        private string remoteAddress = "http://10.211.55.3:8765/main";
-        //private string remoteAddress = "http://joannar.ds.pg.gda.pl:8765/main";
+        //private string remoteAddress = "http://10.211.55.3:8765/main";
+        private string remoteAddress = "http://joannar.ds.pg.gda.pl:8765/main";
 
         public ServiceManager()
         {
@@ -76,10 +79,19 @@ namespace Tripi.wcf
             if (position.SpeedValid)
                 node.Speed = position.Speed;
 
+            if (nextNodeDescription != string.Empty)
+            {
+                node.Description = nextNodeDescription;
+                nextNodeDescription = string.Empty;
+            }
+
             node.TripIDSpecified = true;
             node.TripID = currentTripId;
 
             service.AddPositionNode(node);
+
+            if (OnLocationSend != null)
+                OnLocationSend();
         }
 
         public void StopTrip()
@@ -132,6 +144,11 @@ namespace Tripi.wcf
             }
         }
 
+        public string NextNodeDescription
+        {
+            set { nextNodeDescription = value; }
+        }
+
         #endregion
 
         private class SendScheduler : IDisposable
@@ -139,6 +156,7 @@ namespace Tripi.wcf
             private Action<GpsPosition> OnTimeElapsed = null;
             private Timer timer = null;
             private GpsPosition position = null;
+            private bool positionChanged = false;
             private static readonly object padlock = new object();
 
             public SendScheduler() { }
@@ -146,7 +164,7 @@ namespace Tripi.wcf
             public void Start(int frequency, Action<GpsPosition> positionDelegate)
             {
                 this.OnTimeElapsed = positionDelegate;
-                timer = new Timer(new TimerCallback(TimerMethod), null, frequency, frequency);
+                timer = new Timer(new TimerCallback(TimerMethod), null, 0, frequency);
             }
 
             private void TimerMethod(Object stateInfo)
@@ -155,7 +173,11 @@ namespace Tripi.wcf
                 {
                     lock (padlock)
                     {
-                        OnTimeElapsed(this.position);
+                        if (position != null && positionChanged)
+                        {
+                            OnTimeElapsed(this.position);
+                            positionChanged = false;
+                        }
                     }
                 }
             }
@@ -165,6 +187,7 @@ namespace Tripi.wcf
                 lock (padlock)
                 {
                     this.position = position;
+                    positionChanged = true;
                 }
             }
 

@@ -67,6 +67,12 @@
     <Compile Include="ContinueTripForm.Designer.cs">
       <DependentUpon>ContinueTripForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PointForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PointForm.Designer.cs">
+      <DependentUpon>PointForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewTripForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ContinueTripForm.resx">
       <DependentUpon>ContinueTripForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PointForm.resx">
+      <DependentUpon>PointForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewTripForm.resx">
       <DependentUpon>NewTripForm.cs</DependentUpon>
