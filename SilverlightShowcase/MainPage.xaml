@@ -9,7 +9,7 @@
     <Grid x:Name="LayoutRoot" Background="Gray">
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="180" />
+            <RowDefinition Height="280" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
@@ -26,14 +26,28 @@
                 </ScrollViewer>
             </Border>
 
+            <TextBox x:Name="TripDescriptionTextEditor" IsReadOnly="False" TextWrapping="Wrap" Height="100" Visibility="Collapsed"></TextBox>
 
-            <Button x:Name="TripDescriptionTextEditButton" Padding="5" HorizontalAlignment="Right" Visibility="Collapsed" >
-                <TextBlock>Edit</TextBlock>
-            </Button>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button x:Name="TripDescriptionTextSaveButton" Padding="5" Visibility="Collapsed" >
+                    <TextBlock>Save</TextBlock>
+                </Button>
+                <Button x:Name="TripDescriptionTextEditButton" Padding="5" Visibility="Collapsed" >
+                    <TextBlock>Edit</TextBlock>
+                </Button>
+            </StackPanel>
+
         </StackPanel>
 
 
-        <data:DataGrid x:Name="TripGrid" AutoGenerateColumns="True" IsReadOnly="True" Grid.Row="0" Grid.Column="0" Margin="5" />
+        <data:DataGrid x:Name="TripGrid" AutoGenerateColumns="False" IsReadOnly="True" Grid.Row="0" Grid.Column="0" Margin="5">
+            <data:DataGrid.Columns>
+                <data:DataGridTextColumn Header="Id" Binding="{Binding ID}" />
+                <data:DataGridTextColumn Header="Trip name" Binding="{Binding TripName}" />
+                <data:DataGridTextColumn Header="Author" Binding="{Binding Username}" />
+            </data:DataGrid.Columns>
+
+        </data:DataGrid>
         <m:Map x:Name="Map" CredentialsProvider="AsYbfxsWZOLK1J1xU5a3R9Hp1t79IGbPWCrpP3S4MHETwW2bQS89YQSa8XgkP9aq" Margin="5" Grid.Row="1" Grid.ColumnSpan="2">
             <m:Map.Mode>
                 <m:AerialMode Labels="True" FadingLabels="True" />

@@ -27,6 +27,7 @@ namespace SilverlightShowcase
         private Trip trip;
         private String username = "";
         private IDictionary<string, string> parameters = null;
+        private bool editing = false;
 
         public MainPage()
         {
@@ -34,7 +35,8 @@ namespace SilverlightShowcase
             this.Loaded += new RoutedEventHandler(MainPage_Loaded);
         }
 
-        public MainPage(IDictionary<string, string> p) : this()
+        public MainPage(IDictionary<string, string> p)
+            : this()
         {
             this.parameters = p;
         }
@@ -53,6 +55,9 @@ namespace SilverlightShowcase
             DescriptionStack.MouseEnter += new MouseEventHandler(DescriptionStack_MouseEnter);
             DescriptionStack.MouseLeave += new MouseEventHandler(DescriptionStack_MouseLeave);
 
+            TripDescriptionTextEditButton.Click += new RoutedEventHandler(TripDescriptionTextEditButton_Click);
+            TripDescriptionTextSaveButton.Click += new RoutedEventHandler(TripDescriptionTextSaveButton_Click);
+
             EndpointAddress endpoint = new EndpointAddress(remoteAddress);
             tripiWcfService = new TripServiceClient(new BasicHttpBinding(), endpoint);
             tripiWcfService.GetPositionNodesForTripCompleted += new EventHandler<GetPositionNodesForTripCompletedEventArgs>(tripiWcfService_GetPositionNodesForTripCompleted);
@@ -61,16 +66,52 @@ namespace SilverlightShowcase
             tripiWcfService.GetAllTripsAsync();
         }
 
+        void TripDescriptionTextSaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            editing = false;
+            TripDescriptionTextEditor.Visibility = Visibility.Collapsed;
+            TripDescriptionText.Visibility = Visibility.Visible;
+            DescriptionStack_MouseEnter(null, null);
+            
+            tripiWcfService.UpdateTripDescriptionCompleted += new EventHandler<System.ComponentModel.AsyncCompletedEventArgs>(tripiWcfService_UpdateTripDescriptionCompleted);
+            trip.TripDescription = TripDescriptionTextEditor.Text;
+            tripiWcfService.UpdateTripDescriptionAsync(trip.ID, trip.TripDescription);
+        }
+
+        void TripDescriptionTextEditButton_Click(object sender, RoutedEventArgs e)
+        {
+            editing = true;
+            TripDescriptionTextEditor.Text = TripDescriptionText.Text;
+            TripDescriptionTextEditor.Visibility = Visibility.Visible;
+            TripDescriptionText.Visibility = Visibility.Collapsed;
+            DescriptionStack_MouseEnter(null, null);
+        }
+
+        void tripiWcfService_UpdateTripDescriptionCompleted(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
+        {
+            TripDescriptionText.Text = trip.TripDescription;
+        }
+
         void DescriptionStack_MouseLeave(object sender, MouseEventArgs e)
         {
             TripDescriptionTextEditButton.Visibility = Visibility.Collapsed;
+            TripDescriptionTextSaveButton.Visibility = Visibility.Collapsed;
         }
 
         void DescriptionStack_MouseEnter(object sender, MouseEventArgs e)
         {
-           if (trip.Username.Equals(username))
+            if (trip.Username.Equals(username))
             {
-                TripDescriptionTextEditButton.Visibility = Visibility.Visible;
+                if (!editing)
+                {
+                    TripDescriptionTextSaveButton.Visibility = Visibility.Collapsed;
+                    TripDescriptionTextEditButton.Visibility = Visibility.Visible;
+                }
+                else
+                {
+                    TripDescriptionTextSaveButton.Visibility = Visibility.Visible;
+                    TripDescriptionTextEditButton.Visibility = Visibility.Collapsed;
+                }
             }
         }
 
@@ -81,6 +122,12 @@ namespace SilverlightShowcase
             trip = (Trip)dg.SelectedItem;
             TripDescriptionText.Text = trip.TripDescription;
             tripiWcfService.GetPositionNodesForTripAsync(trip.ID);
+            
+
+            editing = false;
+            TripDescriptionTextEditor.Visibility = Visibility.Collapsed;
+            TripDescriptionText.Visibility = Visibility.Visible;
+            DescriptionStack_MouseLeave(null, null);
         }
 
         void tripiWcfService_GetAllTripsCompleted(object sender, GetAllTripsCompletedEventArgs e)
@@ -108,7 +155,7 @@ namespace SilverlightShowcase
             MapLayer.Children.Clear();
             if (list.Count == 0)
             {
-                MapStatusText.Text = "Wycieczka nie posiada punktów";
+                MapStatusText.Text = "Trip does not have any points";
                 MapStatus.Visibility = Visibility.Visible;
                 return;
             }
