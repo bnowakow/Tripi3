@@ -27,5 +27,12 @@ namespace TripiWCF.Service
 
         [OperationContract]
         void AddPositionNode(PositionNode node);
+
+        [OperationContract]
+        void UpdateTripDescription(int tripID, string tripDescription);
+
+        [OperationContract]
+        void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription);
+
     }
 }

@@ -14,6 +14,8 @@ namespace TripiWCF.Service
     {
         #region DataMembers
         [DataMember]
+        public double Number { get; set; }
+        [DataMember]
         public double Latitude { get; set; }
         [DataMember]
         public double Longitude { get; set; }
@@ -68,6 +70,7 @@ namespace TripiWCF.Service
         public XElement ToXElement()
         {
             XElement temp = new XElement("Position");
+            temp.SetAttributeValue("number", Number);
             temp.SetAttributeValue("latitude", Latitude);
             temp.SetAttributeValue("longitude", Longitude);
             temp.SetAttributeValue("tripid", TripID);

@@ -12,8 +12,6 @@ namespace TripiWCF.PreprodServer
 {
     public partial class FormMonitor : Form
     {
-        
-
         private System.ServiceModel.ServiceHost TripiHost;
 
         public FormMonitor()

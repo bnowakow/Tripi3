@@ -95,5 +95,49 @@ namespace TripiWCF.Service
             }
         }
         #endregion
+
+        #region ITripService Members
+
+        string ITripService.LoginUser(string username, string password)
+        {
+            throw new NotImplementedException();
+        }
+
+        int ITripService.CreateNewTrip(string username, string tripName, string tripDescription)
+        {
+            throw new NotImplementedException();
+        }
+
+        List<Trip> ITripService.GetAllTrips()
+        {
+            throw new NotImplementedException();
+        }
+
+        List<Trip> ITripService.GetTripsForUser(string username)
+        {
+            throw new NotImplementedException();
+        }
+
+        List<PositionNode> ITripService.GetPositionNodesForTrip(int tripID)
+        {
+            throw new NotImplementedException();
+        }
+
+        void ITripService.AddPositionNode(PositionNode node)
+        {
+            throw new NotImplementedException();
+        }
+
+        void ITripService.UpdateTripDescription(int tripID, string tripDescription)
+        {
+            throw new NotImplementedException();
+        }
+
+        void ITripService.UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription)
+        {
+            throw new NotImplementedException();
+        }
+
+        #endregion
     }
 }

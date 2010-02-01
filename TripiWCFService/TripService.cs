@@ -23,7 +23,10 @@ namespace TripiWCF.Service
         public abstract List<PositionNode> GetPositionNodesForTrip(int tripID);
 
         public abstract void AddPositionNode(PositionNode node);
-        #endregion
+
+        public abstract void UpdateTripDescription(int tripID, string tripDescription);
+
+        public abstract void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription);
 
         #region Events
         public static event Action<int, int> DatabaseInsert;

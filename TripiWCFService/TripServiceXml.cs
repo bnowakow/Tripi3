@@ -120,11 +120,41 @@ namespace TripiWCF.Service
         public override void AddPositionNode(PositionNode node)
         {
             XElement nodes = AssureFileExists(NodesFile(node.TripID), "Nodes");
+
+            int childNodesCount = nodes.Nodes().Count(childNode => childNode is XElement);
+            node.Number = childNodesCount;
             nodes.Add(node.ToXElement());
             nodes.Save(NodesFile(node.TripID));
 
             OnDatabaseInsert(-1, PositionNodeCount(nodes));
         }
+
+        public override void UpdateTripDescription(int tripID, string tripDescription)
+        {
+            Func<XElement, bool> idFunc = node => node.Attribute("id").Equals(tripID.ToString());
+
+            XElement trips = AssureFileExists(TripsFile, "Trips");
+            IEnumerable<XElement> result = trips.Elements().Where(idFunc);
+            if (result.Count() > 0)
+            {
+                XElement node = result.First();
+                node.Attribute("tripdesc").Value = tripDescription;
+            }     
+        }
+
+        public override void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription)
+        {
+            Func<XElement, bool> nodeNumberFunc = node => node.Attribute("number").Equals(nodeNumber.ToString());
+
+            XElement positions = AssureFileExists(NodesFile(tripID), "Nodes");
+            IEnumerable<XElement> result = positions.Elements().Where(nodeNumberFunc);
+            if (result.Count() > 0)
+            {
+                XElement node = result.First();
+                node.Attribute("description").Value = nodeDescription;
+            }     
+        }
+
         #endregion
 
         #region Counts
