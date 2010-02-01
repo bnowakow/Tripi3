@@ -121,8 +121,8 @@ namespace TripiWCF.Service
         {
             XElement nodes = AssureFileExists(NodesFile(node.TripID), "Nodes");
 
-            int childNodesCount = nodes.Nodes().Count(childNode => childNode is XElement);
-            node.Number = childNodesCount;
+            //int childNodesCount = nodes.Nodes().Count(childNode => childNode is XElement);
+            node.OrdinalNumber = PositionNodeCount(nodes);
             nodes.Add(node.ToXElement());
             nodes.Save(NodesFile(node.TripID));
 
@@ -139,7 +139,8 @@ namespace TripiWCF.Service
             {
                 XElement node = result.First();
                 node.Attribute("tripdesc").Value = tripDescription;
-            }     
+            }
+            trips.Save(TripsFile);
         }
 
         public override void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription)
@@ -152,9 +153,9 @@ namespace TripiWCF.Service
             {
                 XElement node = result.First();
                 node.Attribute("description").Value = nodeDescription;
-            }     
+            }
+            positions.Save(NodesFile(tripID));
         }
-
         #endregion
 
         #region Counts

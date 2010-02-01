@@ -14,7 +14,7 @@ namespace TripiWCF.Service
     {
         #region DataMembers
         [DataMember]
-        public double Number { get; set; }
+        public int OrdinalNumber { get; set; }
         [DataMember]
         public double Latitude { get; set; }
         [DataMember]
@@ -30,12 +30,12 @@ namespace TripiWCF.Service
         #endregion
 
         #region Constructor
-        public PositionNode(double lat, double lon, int tripID, double num)
+        public PositionNode(double lat, double lon, int tripID, int num)
             : this(lat, lon, tripID, 3.14, DateTime.Now, null, num)
         {
         }
 
-        public PositionNode(double lat, double lon, int tripID, double speed, DateTime creationTime, string description, double number)
+        public PositionNode(double lat, double lon, int tripID, double speed, DateTime creationTime, string description, int ordinalNumber)
         {
             Latitude = lat;
             Longitude = lon;
@@ -43,7 +43,7 @@ namespace TripiWCF.Service
             Speed = speed;
             CreationTime = creationTime;
             Description = description;
-            Number = number;
+            OrdinalNumber = ordinalNumber;
         }
 
         public PositionNode(XElement element)
@@ -54,7 +54,7 @@ namespace TripiWCF.Service
             //DateTime.ParseExact(element.Attribute("time").Value, CultureInfo.CurrentCulture.DateTimeFormat.GetAllDateTimePatterns(), CultureInfo.CurrentCulture, DateTimeStyles.None),
             DateTime.ParseExact(element.Attribute("time").Value, "yyyyMMddHHmmss", CultureInfo.CurrentCulture),
             element.Attribute("description") != null ? element.Attribute("description").Value : null,
-            double.Parse(element.Attribute("number").Value))
+            int.Parse(element.Attribute("number").Value))
         //DateTime.ParseExact(element.Attribute("time").Value, "yyyy/MM/ddTHH:mm:ss.fffffzzz", CultureInfo.InvariantCulture))
         //DateTime.FromBinary(long.Parse(element.Attribute("time").Value)))
         {
@@ -72,7 +72,7 @@ namespace TripiWCF.Service
         public XElement ToXElement()
         {
             XElement temp = new XElement("Position");
-            temp.SetAttributeValue("number", Number);
+            temp.SetAttributeValue("number", OrdinalNumber);
             temp.SetAttributeValue("latitude", Latitude);
             temp.SetAttributeValue("longitude", Longitude);
             temp.SetAttributeValue("tripid", TripID);
