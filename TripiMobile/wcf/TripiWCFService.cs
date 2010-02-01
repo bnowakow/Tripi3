@@ -16,7 +16,7 @@ public interface ITripService
     
     string LoginUser(string username, string password);
     
-    int CreateNewTrip(string username, string tripName);
+    int CreateNewTrip(string username, string tripName, string tripDescription);
     
     Trip[] GetAllTrips();
     
@@ -25,6 +25,10 @@ public interface ITripService
     PositionNode[] GetPositionNodesForTrip(int tripID);
     
     void AddPositionNode(PositionNode node);
+    
+    void UpdateTripDescription(int tripID, string tripDescription);
+    
+    void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription);
 }
 
 [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -81,14 +85,18 @@ public partial class CreateNewTripRequest
     [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Namespace="http://tempuri.org/", Order=1)]
     public string tripName;
     
+    [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Namespace="http://tempuri.org/", Order=2)]
+    public string tripDescription;
+    
     public CreateNewTripRequest()
     {
     }
     
-    public CreateNewTripRequest(string username, string tripName)
+    public CreateNewTripRequest(string username, string tripName, string tripDescription)
     {
         this.username = username;
         this.tripName = tripName;
+        this.tripDescription = tripDescription;
     }
 }
 
@@ -124,6 +132,8 @@ public partial class Trip
     
     private bool idFieldSpecified;
     
+    private string tripDescriptionField;
+    
     private string tripNameField;
     
     private string usernameField;
@@ -158,6 +168,20 @@ public partial class Trip
     
     /// <uwagi/>
     [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
+    public string TripDescription
+    {
+        get
+        {
+            return this.tripDescriptionField;
+        }
+        set
+        {
+            this.tripDescriptionField = value;
+        }
+    }
+    
+    /// <uwagi/>
+    [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
     public string TripName
     {
         get
@@ -171,7 +195,7 @@ public partial class Trip
     }
     
     /// <uwagi/>
-    [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
+    [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
     public string Username
     {
         get
@@ -198,6 +222,8 @@ public partial class PositionNode
     
     private bool creationTimeFieldSpecified;
     
+    private string descriptionField;
+    
     private double latitudeField;
     
     private bool latitudeFieldSpecified;
@@ -205,6 +231,10 @@ public partial class PositionNode
     private double longitudeField;
     
     private bool longitudeFieldSpecified;
+    
+    private double numberField;
+    
+    private bool numberFieldSpecified;
     
     private double speedField;
     
@@ -243,7 +273,21 @@ public partial class PositionNode
     }
     
     /// <uwagi/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+    [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
+    public string Description
+    {
+        get
+        {
+            return this.descriptionField;
+        }
+        set
+        {
+            this.descriptionField = value;
+        }
+    }
+    
+    /// <uwagi/>
+    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
     public double Latitude
     {
         get
@@ -271,7 +315,7 @@ public partial class PositionNode
     }
     
     /// <uwagi/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+    [System.Xml.Serialization.XmlElementAttribute(Order=3)]
     public double Longitude
     {
         get
@@ -299,7 +343,35 @@ public partial class PositionNode
     }
     
     /// <uwagi/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+    [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+    public double Number
+    {
+        get
+        {
+            return this.numberField;
+        }
+        set
+        {
+            this.numberField = value;
+        }
+    }
+    
+    /// <uwagi/>
+    [System.Xml.Serialization.XmlIgnoreAttribute()]
+    public bool NumberSpecified
+    {
+        get
+        {
+            return this.numberFieldSpecified;
+        }
+        set
+        {
+            this.numberFieldSpecified = value;
+        }
+    }
+    
+    /// <uwagi/>
+    [System.Xml.Serialization.XmlElementAttribute(Order=5)]
     public double Speed
     {
         get
@@ -327,7 +399,7 @@ public partial class PositionNode
     }
     
     /// <uwagi/>
-    [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+    [System.Xml.Serialization.XmlElementAttribute(Order=6)]
     public int TripID
     {
         get
@@ -496,6 +568,78 @@ public partial class AddPositionNodeResponse
 
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
+[System.Xml.Serialization.XmlRootAttribute(ElementName="UpdateTripDescription", Namespace="http://tempuri.org/")]
+public partial class UpdateTripDescriptionRequest
+{
+    
+    [System.Xml.Serialization.XmlElementAttribute(Namespace="http://tempuri.org/", Order=0)]
+    public int tripID;
+    
+    [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Namespace="http://tempuri.org/", Order=1)]
+    public string tripDescription;
+    
+    public UpdateTripDescriptionRequest()
+    {
+    }
+    
+    public UpdateTripDescriptionRequest(int tripID, string tripDescription)
+    {
+        this.tripID = tripID;
+        this.tripDescription = tripDescription;
+    }
+}
+
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
+[System.Xml.Serialization.XmlRootAttribute(ElementName="UpdateTripDescriptionResponse", Namespace="http://tempuri.org/")]
+public partial class UpdateTripDescriptionResponse
+{
+    
+    public UpdateTripDescriptionResponse()
+    {
+    }
+}
+
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
+[System.Xml.Serialization.XmlRootAttribute(ElementName="UpdatePositionNodeDescription", Namespace="http://tempuri.org/")]
+public partial class UpdatePositionNodeDescriptionRequest
+{
+    
+    [System.Xml.Serialization.XmlElementAttribute(Namespace="http://tempuri.org/", Order=0)]
+    public int tripID;
+    
+    [System.Xml.Serialization.XmlElementAttribute(Namespace="http://tempuri.org/", Order=1)]
+    public int nodeNumber;
+    
+    [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Namespace="http://tempuri.org/", Order=2)]
+    public string nodeDescription;
+    
+    public UpdatePositionNodeDescriptionRequest()
+    {
+    }
+    
+    public UpdatePositionNodeDescriptionRequest(int tripID, int nodeNumber, string nodeDescription)
+    {
+        this.tripID = tripID;
+        this.nodeNumber = nodeNumber;
+        this.nodeDescription = nodeDescription;
+    }
+}
+
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
+[System.Xml.Serialization.XmlRootAttribute(ElementName="UpdatePositionNodeDescriptionResponse", Namespace="http://tempuri.org/")]
+public partial class UpdatePositionNodeDescriptionResponse
+{
+    
+    public UpdatePositionNodeDescriptionResponse()
+    {
+    }
+}
+
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
 public partial class TripServiceClient : Microsoft.Tools.ServiceModel.CFClientBase<ITripService>, ITripService
 {
     
@@ -534,9 +678,9 @@ public partial class TripServiceClient : Microsoft.Tools.ServiceModel.CFClientBa
         return retVal;
     }
     
-    public int CreateNewTrip(string username, string tripName)
+    public int CreateNewTrip(string username, string tripName, string tripDescription)
     {
-        CreateNewTripRequest request = new CreateNewTripRequest(username, tripName);
+        CreateNewTripRequest request = new CreateNewTripRequest(username, tripName, tripDescription);
         CreateNewTripResponse response = this.CreateNewTrip(request);
         return response.CreateNewTripResult;
     }
@@ -612,6 +756,40 @@ public partial class TripServiceClient : Microsoft.Tools.ServiceModel.CFClientBa
         AddPositionNodeResponse response = this.AddPositionNode(request);
     }
     
+    private UpdateTripDescriptionResponse UpdateTripDescription(UpdateTripDescriptionRequest request)
+    {
+        CFInvokeInfo info = new CFInvokeInfo();
+        info.Action = "http://tempuri.org/ITripService/UpdateTripDescription";
+        info.RequestIsWrapped = true;
+        info.ReplyAction = "http://tempuri.org/ITripService/UpdateTripDescriptionResponse";
+        info.ResponseIsWrapped = true;
+        UpdateTripDescriptionResponse retVal = base.Invoke<UpdateTripDescriptionRequest, UpdateTripDescriptionResponse>(info, request);
+        return retVal;
+    }
+    
+    public void UpdateTripDescription(int tripID, string tripDescription)
+    {
+        UpdateTripDescriptionRequest request = new UpdateTripDescriptionRequest(tripID, tripDescription);
+        UpdateTripDescriptionResponse response = this.UpdateTripDescription(request);
+    }
+    
+    private UpdatePositionNodeDescriptionResponse UpdatePositionNodeDescription(UpdatePositionNodeDescriptionRequest request)
+    {
+        CFInvokeInfo info = new CFInvokeInfo();
+        info.Action = "http://tempuri.org/ITripService/UpdatePositionNodeDescription";
+        info.RequestIsWrapped = true;
+        info.ReplyAction = "http://tempuri.org/ITripService/UpdatePositionNodeDescriptionResponse";
+        info.ResponseIsWrapped = true;
+        UpdatePositionNodeDescriptionResponse retVal = base.Invoke<UpdatePositionNodeDescriptionRequest, UpdatePositionNodeDescriptionResponse>(info, request);
+        return retVal;
+    }
+    
+    public void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription)
+    {
+        UpdatePositionNodeDescriptionRequest request = new UpdatePositionNodeDescriptionRequest(tripID, nodeNumber, nodeDescription);
+        UpdatePositionNodeDescriptionResponse response = this.UpdatePositionNodeDescription(request);
+    }
+    
     private void addProtectionRequirements(System.ServiceModel.Channels.Binding binding)
     {
         if ((IsSecureMessageBinding(binding) == false))
@@ -631,6 +809,10 @@ public partial class TripServiceClient : Microsoft.Tools.ServiceModel.CFClientBa
         ApplyProtection("http://tempuri.org/ITripService/GetPositionNodesForTrip", cpr.IncomingEncryptionParts, true);
         ApplyProtection("http://tempuri.org/ITripService/AddPositionNode", cpr.IncomingSignatureParts, true);
         ApplyProtection("http://tempuri.org/ITripService/AddPositionNode", cpr.IncomingEncryptionParts, true);
+        ApplyProtection("http://tempuri.org/ITripService/UpdateTripDescription", cpr.IncomingSignatureParts, true);
+        ApplyProtection("http://tempuri.org/ITripService/UpdateTripDescription", cpr.IncomingEncryptionParts, true);
+        ApplyProtection("http://tempuri.org/ITripService/UpdatePositionNodeDescription", cpr.IncomingSignatureParts, true);
+        ApplyProtection("http://tempuri.org/ITripService/UpdatePositionNodeDescription", cpr.IncomingEncryptionParts, true);
         if ((binding.MessageVersion.Addressing == System.ServiceModel.Channels.AddressingVersion.None))
         {
             ApplyProtection("*", cpr.OutgoingSignatureParts, true);
@@ -650,6 +832,10 @@ public partial class TripServiceClient : Microsoft.Tools.ServiceModel.CFClientBa
             ApplyProtection("http://tempuri.org/ITripService/GetPositionNodesForTripResponse", cpr.OutgoingEncryptionParts, true);
             ApplyProtection("http://tempuri.org/ITripService/AddPositionNodeResponse", cpr.OutgoingSignatureParts, true);
             ApplyProtection("http://tempuri.org/ITripService/AddPositionNodeResponse", cpr.OutgoingEncryptionParts, true);
+            ApplyProtection("http://tempuri.org/ITripService/UpdateTripDescriptionResponse", cpr.OutgoingSignatureParts, true);
+            ApplyProtection("http://tempuri.org/ITripService/UpdateTripDescriptionResponse", cpr.OutgoingEncryptionParts, true);
+            ApplyProtection("http://tempuri.org/ITripService/UpdatePositionNodeDescriptionResponse", cpr.OutgoingSignatureParts, true);
+            ApplyProtection("http://tempuri.org/ITripService/UpdatePositionNodeDescriptionResponse", cpr.OutgoingEncryptionParts, true);
         }
         this.Parameters.Add(cpr);
     }

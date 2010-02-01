@@ -23,6 +23,8 @@ namespace TripiWCF.ClientMockup.Proxy
         
         private int IDField;
         
+        private string TripDescriptionField;
+        
         private string TripNameField;
         
         private string UsernameField;
@@ -49,6 +51,19 @@ namespace TripiWCF.ClientMockup.Proxy
             set
             {
                 this.IDField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string TripDescription
+        {
+            get
+            {
+                return this.TripDescriptionField;
+            }
+            set
+            {
+                this.TripDescriptionField = value;
             }
         }
         
@@ -89,9 +104,13 @@ namespace TripiWCF.ClientMockup.Proxy
         
         private System.DateTime CreationTimeField;
         
+        private string DescriptionField;
+        
         private double LatitudeField;
         
         private double LongitudeField;
+        
+        private double NumberField;
         
         private double SpeedField;
         
@@ -123,6 +142,19 @@ namespace TripiWCF.ClientMockup.Proxy
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Description
+        {
+            get
+            {
+                return this.DescriptionField;
+            }
+            set
+            {
+                this.DescriptionField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public double Latitude
         {
             get
@@ -145,6 +177,19 @@ namespace TripiWCF.ClientMockup.Proxy
             set
             {
                 this.LongitudeField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public double Number
+        {
+            get
+            {
+                return this.NumberField;
+            }
+            set
+            {
+                this.NumberField = value;
             }
         }
         
@@ -184,7 +229,7 @@ namespace TripiWCF.ClientMockup.Proxy
         string LoginUser(string username, string password);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/CreateNewTrip", ReplyAction="http://tempuri.org/ITripService/CreateNewTripResponse")]
-        int CreateNewTrip(string username, string tripName);
+        int CreateNewTrip(string username, string tripName, string tripDescription);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/GetAllTrips", ReplyAction="http://tempuri.org/ITripService/GetAllTripsResponse")]
         TripiWCF.ClientMockup.Proxy.Trip[] GetAllTrips();
@@ -197,6 +242,12 @@ namespace TripiWCF.ClientMockup.Proxy
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/AddPositionNode", ReplyAction="http://tempuri.org/ITripService/AddPositionNodeResponse")]
         void AddPositionNode(TripiWCF.ClientMockup.Proxy.PositionNode node);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/UpdateTripDescription", ReplyAction="http://tempuri.org/ITripService/UpdateTripDescriptionResponse")]
+        void UpdateTripDescription(int tripID, string tripDescription);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/UpdatePositionNodeDescription", ReplyAction="http://tempuri.org/ITripService/UpdatePositionNodeDescriptionResponse")]
+        void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
@@ -238,9 +289,9 @@ namespace TripiWCF.ClientMockup.Proxy
             return base.Channel.LoginUser(username, password);
         }
         
-        public int CreateNewTrip(string username, string tripName)
+        public int CreateNewTrip(string username, string tripName, string tripDescription)
         {
-            return base.Channel.CreateNewTrip(username, tripName);
+            return base.Channel.CreateNewTrip(username, tripName, tripDescription);
         }
         
         public TripiWCF.ClientMockup.Proxy.Trip[] GetAllTrips()
@@ -261,6 +312,16 @@ namespace TripiWCF.ClientMockup.Proxy
         public void AddPositionNode(TripiWCF.ClientMockup.Proxy.PositionNode node)
         {
             base.Channel.AddPositionNode(node);
+        }
+        
+        public void UpdateTripDescription(int tripID, string tripDescription)
+        {
+            base.Channel.UpdateTripDescription(tripID, tripDescription);
+        }
+        
+        public void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription)
+        {
+            base.Channel.UpdatePositionNodeDescription(tripID, nodeNumber, nodeDescription);
         }
     }
     
