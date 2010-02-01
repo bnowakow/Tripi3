@@ -47,7 +47,7 @@ namespace Tripi
                 Invoke(new Action(OnLocationSendToService));
                 return;
             }
-
+            bttnAddPoint.Enabled = true;
             picBoxSignal.Visible = true;
             Thread thread = new Thread(new ThreadStart(TimerMethod));
             thread.Start();
@@ -106,6 +106,7 @@ namespace Tripi
             if (result == DialogResult.OK && description != string.Empty)
             {
                 service.NextNodeDescription = pointForm.Description;
+                bttnAddPoint.Enabled = false;
             }
         }
     }

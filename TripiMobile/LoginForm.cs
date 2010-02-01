@@ -44,10 +44,10 @@ namespace Tripi
                 password = tboxPassword.Text,
             };
 
-            Thread thread = new Thread(new ThreadStart(delegate {
+            //Thread thread = new Thread(new ThreadStart(delegate {
                 CheckUserCredentials(credentials);
-            }));
-            thread.Start();
+            //}));
+            //thread.Start();
         }
 
         private void LoginUser()
@@ -61,7 +61,6 @@ namespace Tripi
             User.Login = tboxLogin.Text;
             MainForm form = new MainForm();
             form.ShowDialog();
-            Close();
         }
 
         private void LoginFailed()

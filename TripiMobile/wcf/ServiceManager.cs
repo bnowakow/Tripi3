@@ -14,7 +14,6 @@ namespace Tripi.wcf
     class ServiceManager
     {
         public event Action OnLocationSend = null;
-
         private const int NOT_SPECIFIED = -1;
         private EndpointAddress endpoint = null;
         private TripServiceClient service = null;
@@ -40,7 +39,7 @@ namespace Tripi.wcf
 
         public bool RunNewTrip(string tripName)
         {
-            currentTripId = service.CreateNewTrip(User.Login, tripName, "description: tygryseque rolez!");
+            currentTripId = service.CreateNewTrip(User.Login, tripName, "Trip started on " + DateTime.Now);
             return RunTrip();
         }
 

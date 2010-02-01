@@ -37,11 +37,12 @@
             this.bttnContinueTrip = new System.Windows.Forms.Button();
             this.labelUser = new System.Windows.Forms.Label();
             this.labelUserValue = new System.Windows.Forms.Label();
+            this.bttnViewTrips = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bttnNewTrip
             // 
-            this.bttnNewTrip.Location = new System.Drawing.Point(55, 104);
+            this.bttnNewTrip.Location = new System.Drawing.Point(55, 99);
             this.bttnNewTrip.Name = "bttnNewTrip";
             this.bttnNewTrip.Size = new System.Drawing.Size(130, 30);
             this.bttnNewTrip.TabIndex = 1;
@@ -50,7 +51,7 @@
             // 
             // bttnGps
             // 
-            this.bttnGps.Location = new System.Drawing.Point(55, 176);
+            this.bttnGps.Location = new System.Drawing.Point(55, 207);
             this.bttnGps.Name = "bttnGps";
             this.bttnGps.Size = new System.Drawing.Size(130, 30);
             this.bttnGps.TabIndex = 11;
@@ -59,7 +60,7 @@
             // 
             // bttnContinueTrip
             // 
-            this.bttnContinueTrip.Location = new System.Drawing.Point(55, 140);
+            this.bttnContinueTrip.Location = new System.Drawing.Point(55, 135);
             this.bttnContinueTrip.Name = "bttnContinueTrip";
             this.bttnContinueTrip.Size = new System.Drawing.Size(130, 30);
             this.bttnContinueTrip.TabIndex = 12;
@@ -70,7 +71,7 @@
             // 
             this.labelUser.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
             this.labelUser.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.labelUser.Location = new System.Drawing.Point(39, 75);
+            this.labelUser.Location = new System.Drawing.Point(39, 72);
             this.labelUser.Name = "labelUser";
             this.labelUser.Size = new System.Drawing.Size(50, 20);
             this.labelUser.Text = "User:";
@@ -80,10 +81,19 @@
             // 
             this.labelUserValue.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
             this.labelUserValue.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.labelUserValue.Location = new System.Drawing.Point(95, 75);
+            this.labelUserValue.Location = new System.Drawing.Point(95, 72);
             this.labelUserValue.Name = "labelUserValue";
             this.labelUserValue.Size = new System.Drawing.Size(101, 20);
             this.labelUserValue.Text = "User";
+            // 
+            // bttnViewTrips
+            // 
+            this.bttnViewTrips.Location = new System.Drawing.Point(55, 171);
+            this.bttnViewTrips.Name = "bttnViewTrips";
+            this.bttnViewTrips.Size = new System.Drawing.Size(130, 30);
+            this.bttnViewTrips.TabIndex = 13;
+            this.bttnViewTrips.Text = "View Trips";
+            this.bttnViewTrips.Click += new System.EventHandler(this.ViewTripsClick);
             // 
             // MainForm
             // 
@@ -92,6 +102,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(240, 294);
+            this.Controls.Add(this.bttnViewTrips);
             this.Controls.Add(this.labelUserValue);
             this.Controls.Add(this.labelUser);
             this.Controls.Add(this.bttnContinueTrip);
@@ -114,6 +125,7 @@
         private System.Windows.Forms.Button bttnContinueTrip;
         private System.Windows.Forms.Label labelUser;
         private System.Windows.Forms.Label labelUserValue;
+        private System.Windows.Forms.Button bttnViewTrips;
 
     }
 }

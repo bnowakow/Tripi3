@@ -50,6 +50,12 @@ namespace Tripi
             continueTripForm.ShowDialog();
         }
 
+        private void ViewTripsClick(object sender, EventArgs e)
+        {
+            TripSpotsForm spotForm = new TripSpotsForm();
+            spotForm.ShowDialog();
+        }
+
         private void OnClosing(object sender, CancelEventArgs e)
         {
             GPSListener.GetInstance.CloseGPS();
