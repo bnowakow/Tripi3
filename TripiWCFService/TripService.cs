@@ -27,6 +27,7 @@ namespace TripiWCF.Service
         public abstract void UpdateTripDescription(int tripID, string tripDescription);
 
         public abstract void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription);
+        #endregion
 
         #region Events
         public static event Action<int, int> DatabaseInsert;
