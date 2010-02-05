@@ -5,7 +5,10 @@ using System.Text;
 
 namespace Tripi
 {
-    class User
+    /// <summary>
+    /// Class representing the current user
+    /// </summary>
+    static class User
     {
         private static string login;
         public static String Login

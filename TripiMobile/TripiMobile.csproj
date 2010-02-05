@@ -67,6 +67,7 @@
     <Compile Include="ContinueTripForm.Designer.cs">
       <DependentUpon>ContinueTripForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MobileConfiguration.cs" />
     <Compile Include="TripSpotsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,12 +94,6 @@
     </Compile>
     <Compile Include="gps\GPSListener.cs" />
     <Compile Include="User.cs" />
-    <Compile Include="components\ButtonPanel.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="components\ButtonPanel.Designer.cs">
-      <DependentUpon>ButtonPanel.cs</DependentUpon>
-    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,9 +115,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="components\ButtonPanel.resx">
-      <DependentUpon>ButtonPanel.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ContinueTripForm.resx">
       <DependentUpon>ContinueTripForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,25 +150,13 @@
     </Compile>
     <Compile Include="wcf\CFClientBase.cs" />
     <Compile Include="wcf\TripiWCFService.cs" />
+    <Compile Include="wcf\Utils.cs" />
     <Compile Include="Web References\TripiWCFRemote\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
     </Compile>
-    <Compile Include="Web References\WeatherService\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.map</DependentUpon>
-    </Compile>
     <Compile Include="wcf\ServiceManager.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Web References\WeatherService\globalweather.disco" />
-    <None Include="Web References\WeatherService\globalweather.wsdl" />
-    <None Include="Web References\WeatherService\Reference.map">
-      <Generator>MSDiscoCodeGenerator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <WebReferences Include="Web References\" />
@@ -186,19 +166,6 @@
       <UrlBehavior>Static</UrlBehavior>
       <RelPath>Web References\TripiWCFRemote\</RelPath>
       <UpdateFromURL>http://10.211.55.3:1234/TripiSilverlightWCFService.svc</UpdateFromURL>
-      <ServiceLocationURL>
-      </ServiceLocationURL>
-      <CachedDynamicPropName>
-      </CachedDynamicPropName>
-      <CachedAppSettingsObjectName>
-      </CachedAppSettingsObjectName>
-      <CachedSettingsPropName>
-      </CachedSettingsPropName>
-    </WebReferenceUrl>
-    <WebReferenceUrl Include="http://www.webservicex.net/globalweather.asmx%3f">
-      <UrlBehavior>Static</UrlBehavior>
-      <RelPath>Web References\WeatherService\</RelPath>
-      <UpdateFromURL>http://www.webservicex.net/globalweather.asmx%3f</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
@@ -219,11 +186,11 @@
     <Content Include="images\grass2.png" />
     <Content Include="images\grass3.png" />
     <Content Include="images\grass4.png" />
-    <Content Include="images\green_background.png" />
     <Content Include="images\ground.jpg" />
     <Content Include="images\ground1.png" />
-    <Content Include="images\island.jpg" />
-    <Content Include="images\island.png" />
+    <Content Include="app.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Web References\TripiWCFRemote\PositionNode.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>

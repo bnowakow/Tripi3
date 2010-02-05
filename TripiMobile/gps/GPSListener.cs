@@ -5,12 +5,24 @@ using System.Text;
 using GPSMobile;
 
 namespace Tripi.gps
-{
+{                            
+    /// <summary>
+    /// Listener class for the location change of the user. Gets the data from the gps.
+    /// The class implements singleton pattern
+    /// </summary>
     public class GPSListener
     {
         private static GPSListener instance = null;
         private static readonly object padlock = new object();
+
+        /// <summary>
+        /// Event fires when user location changes
+        /// </summary>
         public event Action<GpsPosition> OnLocationChanged = null;
+        
+        /// <summary>
+        /// The Gps object from which the location information is received
+        /// </summary>
         private Gps gps = new Gps();
 
         private GPSListener() { }
@@ -26,7 +38,10 @@ namespace Tripi.gps
                 }
             }
         }
-
+    
+        /// <summary>
+        /// Open a GPS connection
+        /// </summary>
         public void OpenGPS()
         {
             if (gps.Opened)
@@ -36,6 +51,9 @@ namespace Tripi.gps
             gps.LocationChanged += new LocationChangedEventHandler(GpsLocationChanged);
         }
 
+        /// <summary>
+        /// Method fired when user location changes
+        /// </summary>
         private void GpsLocationChanged(object sender, LocationChangedEventArgs args)
         {
             GpsPosition position = args.Position;
@@ -45,6 +63,10 @@ namespace Tripi.gps
             }
         }
 
+        /// <summary>
+        /// Close a GPS connection
+        /// The connection is closed only if there are no other object subscribed to the event
+        /// </summary>
         public void CloseGPS()
         {
             if (gps.Opened && OnLocationChanged == null)

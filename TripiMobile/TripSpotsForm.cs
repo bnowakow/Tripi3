@@ -32,7 +32,7 @@ namespace Tripi
         private void GetTripList()
         {
             service = new ServiceManager();
-            Trip[] trips = service.GetUserTrips();
+            Trip[] trips = service.UserTrips;
             if (trips != null && trips.Length > 0)
                 DisplayTripList(trips);
             else

@@ -20,13 +20,14 @@ namespace Tripi
         private ServiceManager service = null;
         private TripMode mode;
         Trip trip = null;
-        private int defaultFrequency = 3;
+        private int defaultFrequency;
 
         public TripForm(TripMode mode, Trip trip)
         {
             InitializeComponent();
             this.mode = mode;
             this.trip = trip;
+            defaultFrequency = MobileConfiguration.DefaultSendFrequency;
 
             service = new ServiceManager();
             nudFrequency.Value = defaultFrequency;
@@ -77,7 +78,10 @@ namespace Tripi
         {
             service.SendFrequencyInSeconds = (int)nudFrequency.Value;
             if (TripMode.NEW.Equals(mode))
-                service.RunNewTrip(trip.TripName);
+            {
+                int tripId = service.RunNewTrip(trip.TripName);
+                trip.ID = tripId;
+            }
             else
                 service.ContinueTrip(trip);
             setButtons(true);
@@ -102,10 +106,12 @@ namespace Tripi
         {
             PointForm pointForm = new PointForm();
             DialogResult result = pointForm.ShowDialog();
+
+            PositionNode lastNode = service.LastPositionNode;
             string description = pointForm.Description;
-            if (result == DialogResult.OK && description != string.Empty)
+            if (result == DialogResult.OK && lastNode != null && description != string.Empty)
             {
-                service.NextNodeDescription = pointForm.Description;
+                service.UpdatePositionNode(lastNode.TripID, lastNode.OrdinalNumber, description); 
                 bttnAddPoint.Enabled = false;
             }
         }
