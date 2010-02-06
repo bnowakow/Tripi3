@@ -31,14 +31,16 @@ namespace TripiWCF.Service
         }
         #endregion
 
-        #region ITripService implementation
+        #region ITripService - security
         public override string LoginUser(string username, string password)
         {
             OnDatabaseQuery("Login attempt: " + username);
             if (Users.ContainsKey(username) && Users[username] == password) return "luz";
             return "";
         }
+        #endregion
 
+        #region ITripService - trips
         public override List<Trip> GetAllTrips()
         {
             OnDatabaseQuery("Query all trips!");
@@ -63,14 +65,13 @@ namespace TripiWCF.Service
             return UserTrips.ToList();
         }
 
-        public override List<PositionNode> GetPositionNodesForTrip(int tripID)
+        public override void UpdateTripDescription(int tripID, string tripDescription)
         {
-            IEnumerable<PositionNode> TripNodes = Nodes.Where((PositionNode n) => n.TripID == tripID);
-
-            OnDatabaseQuery("Query trip: " + tripID);
-            return TripNodes.ToList();
+            throw new NotImplementedException();
         }
+        #endregion
 
+        #region ITripService - nodes
         public override int AddPositionNode(PositionNode node)
         {
             node.OrdinalNumber = PositionNodeCount;
@@ -80,18 +81,19 @@ namespace TripiWCF.Service
             return node.OrdinalNumber;
         }
 
-        public override void UpdateTripDescription(int tripID, string tripDescription)
+        public override List<PositionNode> GetPositionNodesForTrip(int tripID)
         {
-            throw new NotImplementedException();
+            IEnumerable<PositionNode> TripNodes = Nodes.Where((PositionNode n) => n.TripID == tripID);
+
+            OnDatabaseQuery("Query trip: " + tripID);
+            return TripNodes.ToList();
         }
 
         public override void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription)
         {
             throw new NotImplementedException();
         }
-
         #endregion
-
 
         #region Counts
         public int TripCount

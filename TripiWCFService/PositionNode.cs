@@ -9,6 +9,9 @@ using System.Globalization;
 
 namespace TripiWCF.Service
 {
+    /// <summary>
+    /// Data object holding data from GPS (latitude/longitude/speed), ID of parent trip, creation time and optional description (might be null).
+    /// </summary>
     [DataContract]
     public class PositionNode
     {
@@ -30,11 +33,28 @@ namespace TripiWCF.Service
         #endregion
 
         #region Constructor
+        /// <summary>
+        /// Shortened constructor used somewhere in demo code.
+        /// </summary>
+        /// <param name="lat">Latitude.</param>
+        /// <param name="lon">Longitude.</param>
+        /// <param name="tripID">Parent trip ID.</param>
+        /// <param name="num">Ordinal number.</param>
         public PositionNode(double lat, double lon, int tripID, int num)
             : this(lat, lon, tripID, 3.14, DateTime.Now, null, num)
         {
         }
 
+        /// <summary>
+        /// Full constructor, fills all of the fields.
+        /// </summary>
+        /// <param name="lat">Latitude of GPS reading.</param>
+        /// <param name="lon">Longitude of GPS reading.</param>
+        /// <param name="tripID">Parent trip ID.</param>
+        /// <param name="speed">Speed measured by GPS module.</param>
+        /// <param name="creationTime">Time of the GPS reading.</param>
+        /// <param name="description">Short optional description of interesting point.</param>
+        /// <param name="ordinalNumber">Ordinal number of the point (on a trip) - usually provided by TripService.</param>
         public PositionNode(double lat, double lon, int tripID, double speed, DateTime creationTime, string description, int ordinalNumber)
         {
             Latitude = lat;
@@ -46,6 +66,10 @@ namespace TripiWCF.Service
             OrdinalNumber = ordinalNumber;
         }
 
+        /// <summary>
+        /// Constructor parsing an XElement from a serialized database. Doesn't really tolerate any errors in XML.
+        /// </summary>
+        /// <param name="element">XElement which will be torn apart for data.</param>
         public PositionNode(XElement element)
             : this(double.Parse(element.Attribute("latitude").Value),
             double.Parse(element.Attribute("longitude").Value),
@@ -69,6 +93,10 @@ namespace TripiWCF.Service
         #endregion
 
         #region To XElement
+        /// <summary>
+        /// Method which creates an XML element, holding data for XML-backed database.
+        /// </summary>
+        /// <returns>Ready XElement, which can be passed to XElement-munching constructor of PositionNode.</returns>
         public XElement ToXElement()
         {
             XElement temp = new XElement("Position");

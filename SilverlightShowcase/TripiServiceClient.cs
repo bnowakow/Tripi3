@@ -232,6 +232,11 @@ public interface ITripService
     
     int EndAddPositionNode(System.IAsyncResult result);
     
+    [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITripService/AddManyPositionNodes", ReplyAction="http://tempuri.org/ITripService/AddManyPositionNodesResponse")]
+    System.IAsyncResult BeginAddManyPositionNodes(TripiWCF.Service.PositionNode[] nodes, System.AsyncCallback callback, object asyncState);
+    
+    void EndAddManyPositionNodes(System.IAsyncResult result);
+    
     [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITripService/GetPositionNodesForTrip", ReplyAction="http://tempuri.org/ITripService/GetPositionNodesForTripResponse")]
     System.IAsyncResult BeginGetPositionNodesForTrip(int tripID, System.AsyncCallback callback, object asyncState);
     
@@ -427,6 +432,12 @@ public partial class TripServiceClient : System.ServiceModel.ClientBase<ITripSer
     
     private System.Threading.SendOrPostCallback onAddPositionNodeCompletedDelegate;
     
+    private BeginOperationDelegate onBeginAddManyPositionNodesDelegate;
+    
+    private EndOperationDelegate onEndAddManyPositionNodesDelegate;
+    
+    private System.Threading.SendOrPostCallback onAddManyPositionNodesCompletedDelegate;
+    
     private BeginOperationDelegate onBeginGetPositionNodesForTripDelegate;
     
     private EndOperationDelegate onEndGetPositionNodesForTripDelegate;
@@ -515,6 +526,8 @@ public partial class TripServiceClient : System.ServiceModel.ClientBase<ITripSer
     public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> UpdateTripDescriptionCompleted;
     
     public event System.EventHandler<AddPositionNodeCompletedEventArgs> AddPositionNodeCompleted;
+    
+    public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> AddManyPositionNodesCompleted;
     
     public event System.EventHandler<GetPositionNodesForTripCompletedEventArgs> GetPositionNodesForTripCompleted;
     
@@ -872,6 +885,62 @@ public partial class TripServiceClient : System.ServiceModel.ClientBase<ITripSer
     }
     
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    System.IAsyncResult ITripService.BeginAddManyPositionNodes(TripiWCF.Service.PositionNode[] nodes, System.AsyncCallback callback, object asyncState)
+    {
+        return base.Channel.BeginAddManyPositionNodes(nodes, callback, asyncState);
+    }
+    
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    void ITripService.EndAddManyPositionNodes(System.IAsyncResult result)
+    {
+        base.Channel.EndAddManyPositionNodes(result);
+    }
+    
+    private System.IAsyncResult OnBeginAddManyPositionNodes(object[] inValues, System.AsyncCallback callback, object asyncState)
+    {
+        TripiWCF.Service.PositionNode[] nodes = ((TripiWCF.Service.PositionNode[])(inValues[0]));
+        return ((ITripService)(this)).BeginAddManyPositionNodes(nodes, callback, asyncState);
+    }
+    
+    private object[] OnEndAddManyPositionNodes(System.IAsyncResult result)
+    {
+        ((ITripService)(this)).EndAddManyPositionNodes(result);
+        return null;
+    }
+    
+    private void OnAddManyPositionNodesCompleted(object state)
+    {
+        if ((this.AddManyPositionNodesCompleted != null))
+        {
+            InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
+            this.AddManyPositionNodesCompleted(this, new System.ComponentModel.AsyncCompletedEventArgs(e.Error, e.Cancelled, e.UserState));
+        }
+    }
+    
+    public void AddManyPositionNodesAsync(TripiWCF.Service.PositionNode[] nodes)
+    {
+        this.AddManyPositionNodesAsync(nodes, null);
+    }
+    
+    public void AddManyPositionNodesAsync(TripiWCF.Service.PositionNode[] nodes, object userState)
+    {
+        if ((this.onBeginAddManyPositionNodesDelegate == null))
+        {
+            this.onBeginAddManyPositionNodesDelegate = new BeginOperationDelegate(this.OnBeginAddManyPositionNodes);
+        }
+        if ((this.onEndAddManyPositionNodesDelegate == null))
+        {
+            this.onEndAddManyPositionNodesDelegate = new EndOperationDelegate(this.OnEndAddManyPositionNodes);
+        }
+        if ((this.onAddManyPositionNodesCompletedDelegate == null))
+        {
+            this.onAddManyPositionNodesCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnAddManyPositionNodesCompleted);
+        }
+        base.InvokeAsync(this.onBeginAddManyPositionNodesDelegate, new object[] {
+                    nodes}, this.onEndAddManyPositionNodesDelegate, this.onAddManyPositionNodesCompletedDelegate, userState);
+    }
+    
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     System.IAsyncResult ITripService.BeginGetPositionNodesForTrip(int tripID, System.AsyncCallback callback, object asyncState)
     {
         return base.Channel.BeginGetPositionNodesForTrip(tripID, callback, asyncState);
@@ -1175,6 +1244,20 @@ public partial class TripServiceClient : System.ServiceModel.ClientBase<ITripSer
             object[] _args = new object[0];
             int _result = ((int)(base.EndInvoke("AddPositionNode", _args, result)));
             return _result;
+        }
+        
+        public System.IAsyncResult BeginAddManyPositionNodes(TripiWCF.Service.PositionNode[] nodes, System.AsyncCallback callback, object asyncState)
+        {
+            object[] _args = new object[1];
+            _args[0] = nodes;
+            System.IAsyncResult _result = base.BeginInvoke("AddManyPositionNodes", _args, callback, asyncState);
+            return _result;
+        }
+        
+        public void EndAddManyPositionNodes(System.IAsyncResult result)
+        {
+            object[] _args = new object[0];
+            base.EndInvoke("AddManyPositionNodes", _args, result);
         }
         
         public System.IAsyncResult BeginGetPositionNodesForTrip(int tripID, System.AsyncCallback callback, object asyncState)

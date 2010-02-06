@@ -34,6 +34,9 @@ namespace TripiWCF.Service
         int AddPositionNode(PositionNode node);
 
         [OperationContract]
+        void AddManyPositionNodes(IEnumerable<PositionNode> nodes);
+
+        [OperationContract]
         List<PositionNode> GetPositionNodesForTrip(int tripID);
 
         [OperationContract]

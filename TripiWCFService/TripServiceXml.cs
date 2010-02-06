@@ -67,14 +67,16 @@ namespace TripiWCF.Service
         }
         #endregion
 
-        #region ITripService implementation
+        #region ITripService - security
         public override string LoginUser(string username, string password)
         {
             OnDatabaseQuery("Login attempt: " + username);
             if (Users.ContainsKey(username) && Users[username] == password) return "luz";
             return "";
         }
+        #endregion
 
+        #region ITripService - trips
         public override int CreateNewTrip(string username, string tripName, string tripDescription)
         {
             XElement traps = AssureFileExists(TripsFile, "Trips");
@@ -106,31 +108,6 @@ namespace TripiWCF.Service
             return tripsFound;
         }
 
-        public override List<PositionNode> GetPositionNodesForTrip(int tripID)
-        {
-            //IEnumerable<PositionNode> TripNodes = Nodes.Where((PositionNode n) => n.TripID == tripID);
-            List<PositionNode> nodes = new List<PositionNode>();
-
-            OnDatabaseQuery("Query trip: " + tripID);
-            foreach (XElement element in TryLoadElements(NodesFile(tripID))) nodes.Add(new PositionNode(element));
-
-            return nodes;
-        }
-
-        public override int AddPositionNode(PositionNode node)
-        {
-            XElement nodes = AssureFileExists(NodesFile(node.TripID), "Nodes");
-
-            //int childNodesCount = nodes.Nodes().Count(childNode => childNode is XElement);
-            node.OrdinalNumber = PositionNodeCount(nodes);
-            nodes.Add(node.ToXElement());
-            nodes.Save(NodesFile(node.TripID));
-
-            OnDatabaseInsert(-1, PositionNodeCount(nodes));
-
-            return node.OrdinalNumber;
-        }
-
         public override void UpdateTripDescription(int tripID, string tripDescription)
         {
             Func<XElement, bool> idFunc = node => node.Attribute("id").Value.Equals(tripID.ToString());
@@ -143,6 +120,45 @@ namespace TripiWCF.Service
                 node.SetAttributeValue("tripdesc", tripDescription);
             }
             trips.Save(TripsFile);
+        }
+        #endregion
+
+        #region ITripService - nodes
+        public override int AddPositionNode(PositionNode node)
+        {
+            XElement nodes = AssureFileExists(NodesFile(node.TripID), "Nodes");
+
+            node.OrdinalNumber = PositionNodeCount(nodes);
+            nodes.Add(node.ToXElement());
+            nodes.Save(NodesFile(node.TripID));
+
+            OnDatabaseInsert(-1, PositionNodeCount(nodes));
+
+            return node.OrdinalNumber;
+        }
+
+        public override void AddManyPositionNodes(IEnumerable<PositionNode> nodes)
+        {
+            XElement nodeXML = AssureFileExists(NodesFile(nodes.First().TripID), "Nodes");
+
+            foreach (PositionNode node in nodes)
+            {
+                node.OrdinalNumber = PositionNodeCount(nodeXML);
+                nodeXML.Add(node.ToXElement());
+                nodeXML.Save(NodesFile(node.TripID));
+            }
+
+            OnDatabaseInsert(-1, PositionNodeCount(nodeXML));
+        }
+
+        public override List<PositionNode> GetPositionNodesForTrip(int tripID)
+        {
+            List<PositionNode> nodes = new List<PositionNode>();
+
+            OnDatabaseQuery("Query trip: " + tripID);
+            foreach (XElement element in TryLoadElements(NodesFile(tripID))) nodes.Add(new PositionNode(element));
+
+            return nodes;
         }
 
         public override void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription)

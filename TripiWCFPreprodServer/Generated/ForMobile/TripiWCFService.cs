@@ -26,6 +26,8 @@ public interface ITripService
     
     int AddPositionNode(PositionNode node);
     
+    void AddManyPositionNodes(PositionNode[] nodes);
+    
     PositionNode[] GetPositionNodesForTrip(int tripID);
     
     void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription);
@@ -571,6 +573,37 @@ public partial class AddPositionNodeResponse
 
 [System.Diagnostics.DebuggerStepThroughAttribute()]
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
+[System.Xml.Serialization.XmlRootAttribute(ElementName="AddManyPositionNodes", Namespace="http://tempuri.org/")]
+public partial class AddManyPositionNodesRequest
+{
+    
+    [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Namespace="http://tempuri.org/", Order=0)]
+    [System.Xml.Serialization.XmlArrayItemAttribute(Namespace="http://schemas.datacontract.org/2004/07/TripiWCF.Service")]
+    public PositionNode[] nodes;
+    
+    public AddManyPositionNodesRequest()
+    {
+    }
+    
+    public AddManyPositionNodesRequest(PositionNode[] nodes)
+    {
+        this.nodes = nodes;
+    }
+}
+
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
+[System.Xml.Serialization.XmlRootAttribute(ElementName="AddManyPositionNodesResponse", Namespace="http://tempuri.org/")]
+public partial class AddManyPositionNodesResponse
+{
+    
+    public AddManyPositionNodesResponse()
+    {
+    }
+}
+
+[System.Diagnostics.DebuggerStepThroughAttribute()]
+[System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
 [System.Xml.Serialization.XmlRootAttribute(ElementName="GetPositionNodesForTrip", Namespace="http://tempuri.org/")]
 public partial class GetPositionNodesForTripRequest
 {
@@ -764,6 +797,23 @@ public partial class TripServiceClient : Microsoft.Tools.ServiceModel.CFClientBa
         return response.AddPositionNodeResult;
     }
     
+    private AddManyPositionNodesResponse AddManyPositionNodes(AddManyPositionNodesRequest request)
+    {
+        CFInvokeInfo info = new CFInvokeInfo();
+        info.Action = "http://tempuri.org/ITripService/AddManyPositionNodes";
+        info.RequestIsWrapped = true;
+        info.ReplyAction = "http://tempuri.org/ITripService/AddManyPositionNodesResponse";
+        info.ResponseIsWrapped = true;
+        AddManyPositionNodesResponse retVal = base.Invoke<AddManyPositionNodesRequest, AddManyPositionNodesResponse>(info, request);
+        return retVal;
+    }
+    
+    public void AddManyPositionNodes(PositionNode[] nodes)
+    {
+        AddManyPositionNodesRequest request = new AddManyPositionNodesRequest(nodes);
+        AddManyPositionNodesResponse response = this.AddManyPositionNodes(request);
+    }
+    
     private GetPositionNodesForTripResponse GetPositionNodesForTrip(GetPositionNodesForTripRequest request)
     {
         CFInvokeInfo info = new CFInvokeInfo();
@@ -818,6 +868,8 @@ public partial class TripServiceClient : Microsoft.Tools.ServiceModel.CFClientBa
         ApplyProtection("http://tempuri.org/ITripService/UpdateTripDescription", cpr.IncomingEncryptionParts, true);
         ApplyProtection("http://tempuri.org/ITripService/AddPositionNode", cpr.IncomingSignatureParts, true);
         ApplyProtection("http://tempuri.org/ITripService/AddPositionNode", cpr.IncomingEncryptionParts, true);
+        ApplyProtection("http://tempuri.org/ITripService/AddManyPositionNodes", cpr.IncomingSignatureParts, true);
+        ApplyProtection("http://tempuri.org/ITripService/AddManyPositionNodes", cpr.IncomingEncryptionParts, true);
         ApplyProtection("http://tempuri.org/ITripService/GetPositionNodesForTrip", cpr.IncomingSignatureParts, true);
         ApplyProtection("http://tempuri.org/ITripService/GetPositionNodesForTrip", cpr.IncomingEncryptionParts, true);
         ApplyProtection("http://tempuri.org/ITripService/UpdatePositionNodeDescription", cpr.IncomingSignatureParts, true);
@@ -841,6 +893,8 @@ public partial class TripServiceClient : Microsoft.Tools.ServiceModel.CFClientBa
             ApplyProtection("http://tempuri.org/ITripService/UpdateTripDescriptionResponse", cpr.OutgoingEncryptionParts, true);
             ApplyProtection("http://tempuri.org/ITripService/AddPositionNodeResponse", cpr.OutgoingSignatureParts, true);
             ApplyProtection("http://tempuri.org/ITripService/AddPositionNodeResponse", cpr.OutgoingEncryptionParts, true);
+            ApplyProtection("http://tempuri.org/ITripService/AddManyPositionNodesResponse", cpr.OutgoingSignatureParts, true);
+            ApplyProtection("http://tempuri.org/ITripService/AddManyPositionNodesResponse", cpr.OutgoingEncryptionParts, true);
             ApplyProtection("http://tempuri.org/ITripService/GetPositionNodesForTripResponse", cpr.OutgoingSignatureParts, true);
             ApplyProtection("http://tempuri.org/ITripService/GetPositionNodesForTripResponse", cpr.OutgoingEncryptionParts, true);
             ApplyProtection("http://tempuri.org/ITripService/UpdatePositionNodeDescriptionResponse", cpr.OutgoingSignatureParts, true);

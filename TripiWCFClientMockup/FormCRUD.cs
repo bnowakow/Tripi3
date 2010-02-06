@@ -90,6 +90,12 @@ namespace TripiWCF.ClientMockup
             Proxy.PositionNode noed = propertyGridPosition.SelectedObject as Proxy.PositionNode;
             if (noed != null) TripiProxyFoxyJazzyClient.AddPositionNode(noed);
         }
+
+        private void buttonUpdateTripDesc_Click(object sender, EventArgs e)
+        {
+            Proxy.Trip temp = propertyGridTrip.SelectedObject as Proxy.Trip;
+            TripiProxyFoxyJazzyClient.UpdateTripDescription(temp.ID, temp.TripDescription);
+        }
         #endregion
 
         private void listBoxTrips_SelectedIndexChanged(object sender, EventArgs e)
@@ -100,12 +106,6 @@ namespace TripiWCF.ClientMockup
         private void listBoxPositions_SelectedIndexChanged(object sender, EventArgs e)
         {
             propertyGridPosition.SelectedObject = listBoxPositions.SelectedItem;
-        }
-
-        private void buttonUpdateTripDesc_Click(object sender, EventArgs e)
-        {
-            Proxy.Trip temp = propertyGridTrip.SelectedObject as Proxy.Trip;
-            TripiProxyFoxyJazzyClient.UpdateTripDescription(temp.ID, temp.TripDescription);
         }
     }
 }

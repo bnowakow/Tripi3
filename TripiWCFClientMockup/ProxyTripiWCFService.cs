@@ -243,6 +243,9 @@ namespace TripiWCF.ClientMockup.Proxy
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/AddPositionNode", ReplyAction="http://tempuri.org/ITripService/AddPositionNodeResponse")]
         int AddPositionNode(TripiWCF.ClientMockup.Proxy.PositionNode node);
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/AddManyPositionNodes", ReplyAction="http://tempuri.org/ITripService/AddManyPositionNodesResponse")]
+        void AddManyPositionNodes(TripiWCF.ClientMockup.Proxy.PositionNode[] nodes);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITripService/GetPositionNodesForTrip", ReplyAction="http://tempuri.org/ITripService/GetPositionNodesForTripResponse")]
         TripiWCF.ClientMockup.Proxy.PositionNode[] GetPositionNodesForTrip(int tripID);
         
@@ -312,6 +315,11 @@ namespace TripiWCF.ClientMockup.Proxy
         public int AddPositionNode(TripiWCF.ClientMockup.Proxy.PositionNode node)
         {
             return base.Channel.AddPositionNode(node);
+        }
+        
+        public void AddManyPositionNodes(TripiWCF.ClientMockup.Proxy.PositionNode[] nodes)
+        {
+            base.Channel.AddManyPositionNodes(nodes);
         }
         
         public TripiWCF.ClientMockup.Proxy.PositionNode[] GetPositionNodesForTrip(int tripID)

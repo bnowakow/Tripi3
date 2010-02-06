@@ -10,6 +10,9 @@ using System.Threading;
 
 namespace TripiWCF.PreprodServer
 {
+    /// <summary>
+    /// Windows Form which presents basic information about what happens to our self-hosted WCF service.
+    /// </summary>
     public partial class FormMonitor : Form
     {
         private System.ServiceModel.ServiceHost TripiHost;
@@ -18,6 +21,7 @@ namespace TripiWCF.PreprodServer
         {
             InitializeComponent();
 
+            // we change locale to en-US to assure that our parsing and unparsing behaves consistently (dots as decimal separators etc.)
             Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
 
@@ -28,12 +32,11 @@ namespace TripiWCF.PreprodServer
         {
             //TripiHost = new System.ServiceModel.ServiceHost(typeof(TripiWCF.Service.TripServiceVolatile));
             TripiHost = new System.ServiceModel.ServiceHost(typeof(TripiWCF.Service.TripServiceXml));
-            //TripiHost = new System.ServiceModel.ServiceHost(new TripiWCF.Service.TripService());
+
             TripiHost.Open();
 
             Log("Rozpoczęto hostowanie usługi TripiWCF.");
 
-            //TripiWCF.Service.TripService receiver = (TripiWCF.Service.TripService) TripiHost.SingletonInstance;
             TripiWCF.Service.TripService.DatabaseInsert += RefreshLabels;
             TripiWCF.Service.TripService.DatabaseQuery += Log;
 
@@ -47,8 +50,8 @@ namespace TripiWCF.PreprodServer
 
         private void RefreshLabels(int trips, int nodes)
         {
-            labelTrips.Text = "Wycieczki: " + trips;
-            labelNodes.Text = "Pozycje: " + nodes;
+            if (trips >= 0) labelTrips.Text = "Wycieczki: " + trips;
+            if (nodes >= 0) labelNodes.Text = "Pozycje: " + nodes;
         }
 
         private void Log(string msg)

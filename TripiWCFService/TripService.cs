@@ -24,6 +24,11 @@ namespace TripiWCF.Service
 
         public abstract int AddPositionNode(PositionNode node);
 
+        public virtual void AddManyPositionNodes(IEnumerable<PositionNode> nodes)
+        {
+            foreach (PositionNode noed in nodes) AddPositionNode(noed);
+        }
+
         public abstract void UpdateTripDescription(int tripID, string tripDescription);
 
         public abstract void UpdatePositionNodeDescription(int tripID, int nodeNumber, string nodeDescription);
