@@ -1,0 +1,231 @@
+.TH "ITripService" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ITripService \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBITripServiceChannel\fP, \fBITripServiceChannel\fP, \fBITripServiceChannel\fP, \fBITripServiceChannel\fP, \fBTripServiceClient\fP, \fBTripServiceClient\fP, \fBTripServiceClient\fP, \fBTripServiceClient\fP, \fBTripServiceClient\fP, \fBTripServiceClient\fP, TripServiceClient.TripServiceClientChannel, TripServiceClient.TripServiceClientChannel, TripServiceClient.TripServiceClientChannel, and TripServiceClient.TripServiceClientChannel.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "System.IAsyncResult \fBBeginCreateNewTrip\fP (string username, string tripName, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "int \fBEndCreateNewTrip\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginGetTripsForUser\fP (string username, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "\fBTripiWCF.Service.Trip\fP[] \fBEndGetTripsForUser\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginGetPositionNodesForTrip\fP (int tripID, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "\fBTripiWCF.Service.PositionNode\fP[] \fBEndGetPositionNodesForTrip\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginAddPositionNode\fP (\fBTripiWCF.Service.PositionNode\fP node, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "void \fBEndAddPositionNode\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginLoginUser\fP (string username, string password, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "string \fBEndLoginUser\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginCreateNewTrip\fP (string username, string tripName, string tripDescription, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "int \fBEndCreateNewTrip\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginGetAllTrips\fP (System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "\fBTripiWCF.Service.Trip\fP[] \fBEndGetAllTrips\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginGetTripsForUser\fP (string username, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "\fBTripiWCF.Service.Trip\fP[] \fBEndGetTripsForUser\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginUpdateTripDescription\fP (int tripID, string tripDescription, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "void \fBEndUpdateTripDescription\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginAddPositionNode\fP (\fBTripiWCF.Service.PositionNode\fP node, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "int \fBEndAddPositionNode\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginAddManyPositionNodes\fP (\fBTripiWCF.Service.PositionNode\fP[] nodes, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "void \fBEndAddManyPositionNodes\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginGetPositionNodesForTrip\fP (int tripID, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "\fBTripiWCF.Service.PositionNode\fP[] \fBEndGetPositionNodesForTrip\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginUpdatePositionNodeDescription\fP (int tripID, int nodeNumber, string nodeDescription, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "void \fBEndUpdatePositionNodeDescription\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginCreateNewTrip\fP (string username, string tripName, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "int \fBEndCreateNewTrip\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginGetTripsForUser\fP (string username, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "\fBTripiWCF.Service.Trip\fP[] \fBEndGetTripsForUser\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginGetPositionNodesForTrip\fP (int tripID, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "\fBTripiWCF.Service.PositionNode\fP[] \fBEndGetPositionNodesForTrip\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginAddPositionNode\fP (\fBTripiWCF.Service.PositionNode\fP node, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "void \fBEndAddPositionNode\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "string \fBLoginUser\fP (string username, string password)"
+.br
+.ti -1c
+.RI "int \fBCreateNewTrip\fP (string username, string tripName, string tripDescription)"
+.br
+.ti -1c
+.RI "\fBTrip\fP[] \fBGetAllTrips\fP ()"
+.br
+.ti -1c
+.RI "\fBTrip\fP[] \fBGetTripsForUser\fP (string username)"
+.br
+.ti -1c
+.RI "void \fBUpdateTripDescription\fP (int tripID, string tripDescription)"
+.br
+.ti -1c
+.RI "int \fBAddPositionNode\fP (\fBPositionNode\fP node)"
+.br
+.ti -1c
+.RI "void \fBAddManyPositionNodes\fP (\fBPositionNode\fP[] nodes)"
+.br
+.ti -1c
+.RI "\fBPositionNode\fP[] \fBGetPositionNodesForTrip\fP (int tripID)"
+.br
+.ti -1c
+.RI "void \fBUpdatePositionNodeDescription\fP (int tripID, int nodeNumber, string nodeDescription)"
+.br
+.ti -1c
+.RI "string \fBLoginUser\fP (string username, string password)"
+.br
+.ti -1c
+.RI "int \fBCreateNewTrip\fP (string username, string tripName, string tripDescription)"
+.br
+.ti -1c
+.RI "\fBTrip\fP[] \fBGetAllTrips\fP ()"
+.br
+.ti -1c
+.RI "\fBTrip\fP[] \fBGetTripsForUser\fP (string username)"
+.br
+.ti -1c
+.RI "void \fBUpdateTripDescription\fP (int tripID, string tripDescription)"
+.br
+.ti -1c
+.RI "int \fBAddPositionNode\fP (\fBPositionNode\fP node)"
+.br
+.ti -1c
+.RI "void \fBAddManyPositionNodes\fP (\fBPositionNode\fP[] nodes)"
+.br
+.ti -1c
+.RI "\fBPositionNode\fP[] \fBGetPositionNodesForTrip\fP (int tripID)"
+.br
+.ti -1c
+.RI "void \fBUpdatePositionNodeDescription\fP (int tripID, int nodeNumber, string nodeDescription)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginLoginUser\fP (string username, string password, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "string \fBEndLoginUser\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginCreateNewTrip\fP (string username, string tripName, string tripDescription, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "int \fBEndCreateNewTrip\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginGetAllTrips\fP (System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "\fBTripiWCF.Service.Trip\fP[] \fBEndGetAllTrips\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginGetTripsForUser\fP (string username, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "\fBTripiWCF.Service.Trip\fP[] \fBEndGetTripsForUser\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginUpdateTripDescription\fP (int tripID, string tripDescription, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "void \fBEndUpdateTripDescription\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginAddPositionNode\fP (\fBTripiWCF.Service.PositionNode\fP node, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "int \fBEndAddPositionNode\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginAddManyPositionNodes\fP (\fBTripiWCF.Service.PositionNode\fP[] nodes, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "void \fBEndAddManyPositionNodes\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginGetPositionNodesForTrip\fP (int tripID, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "\fBTripiWCF.Service.PositionNode\fP[] \fBEndGetPositionNodesForTrip\fP (System.IAsyncResult result)"
+.br
+.ti -1c
+.RI "System.IAsyncResult \fBBeginUpdatePositionNodeDescription\fP (int tripID, int nodeNumber, string nodeDescription, System.AsyncCallback callback, object asyncState)"
+.br
+.ti -1c
+.RI "void \fBEndUpdatePositionNodeDescription\fP (System.IAsyncResult result)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 157 of file TripiWCFService.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

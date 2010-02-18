@@ -1,0 +1,85 @@
+.TH "GPSMobile::GpsDeviceState" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+GPSMobile::GpsDeviceState \- 
+.PP
+\fBGpsDeviceState\fP holds the state of the gps device and the friendly name if the gps supports them.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBGpsDeviceState\fP (IntPtr pGpsDevice)"
+.br
+.RI "\fIConstructor of \fBGpsDeviceState\fP. It copies values from the native pointer passed in. \fP"
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static int \fBGpsMaxFriendlyName\fP = 64"
+.br
+.ti -1c
+.RI "static int \fBGpsDeviceStructureSize\fP = 216"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "GpsServiceState \fBServiceState\fP\fC [get]\fP"
+.br
+.RI "\fIState of the GPS Intermediate Driver service. \fP"
+.ti -1c
+.RI "GpsServiceState \fBDeviceState\fP\fC [get]\fP"
+.br
+.RI "\fIStatus of the actual GPS device driver. \fP"
+.ti -1c
+.RI "string \fBFriendlyName\fP\fC [get]\fP"
+.br
+.RI "\fIFriendly name of the real GPS device we are currently using. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBGpsDeviceState\fP holds the state of the gps device and the friendly name if the gps supports them. 
+
+
+.PP
+Definition at line 30 of file GpsDeviceState.cs.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "GPSMobile.GpsDeviceState.GpsDeviceState (IntPtr pGpsDevice)"
+.PP
+Constructor of \fBGpsDeviceState\fP. It copies values from the native pointer passed in. \fBParameters:\fP
+.RS 4
+\fIpGpsDevice\fP Native pointer to memory that contains the GPS_DEVICE data
+.RE
+.PP
+
+.PP
+Definition at line 68 of file GpsDeviceState.cs.
+.SH "Property Documentation"
+.PP 
+.SS "GpsServiceState GPSMobile.GpsDeviceState.DeviceState\fC [get]\fP"
+.PP
+Status of the actual GPS device driver. 
+.PP
+Definition at line 49 of file GpsDeviceState.cs.
+.SS "string GPSMobile.GpsDeviceState.FriendlyName\fC [get]\fP"
+.PP
+Friendly name of the real GPS device we are currently using. 
+.PP
+Definition at line 58 of file GpsDeviceState.cs.
+.SS "GpsServiceState GPSMobile.GpsDeviceState.ServiceState\fC [get]\fP"
+.PP
+State of the GPS Intermediate Driver service. 
+.PP
+Definition at line 40 of file GpsDeviceState.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

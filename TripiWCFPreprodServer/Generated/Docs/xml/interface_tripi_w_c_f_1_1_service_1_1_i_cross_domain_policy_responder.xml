@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="interface_tripi_w_c_f_1_1_service_1_1_i_cross_domain_policy_responder" kind="interface" prot="public">
+    <compoundname>TripiWCF::Service::ICrossDomainPolicyResponder</compoundname>
+    <derivedcompoundref refid="class_tripi_w_c_f_1_1_service_1_1_trip_service" prot="public" virt="non-virtual">TripiWCF.Service.TripService</derivedcompoundref>
+    <derivedcompoundref refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile" prot="public" virt="non-virtual">TripiWCF.Service.TripServiceVolatile</derivedcompoundref>
+    <derivedcompoundref refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_xml" prot="public" virt="non-virtual">TripiWCF.Service.TripServiceXml</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_service_1_1_i_cross_domain_policy_responder_1aa4010ea696fa121d40b3aa9dfd4102b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Stream</type>
+        <definition>Stream TripiWCF.Service.ICrossDomainPolicyResponder.GetSilverlightPolicy</definition>
+        <argsstring>()</argsstring>
+        <name>GetSilverlightPolicy</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_1a746729f84fa9a52e530789c7997408f5">GetSilverlightPolicy</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/ICrossDomainPolicyResponder.cs" line="17"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_service_1_1_i_cross_domain_policy_responder_1ac966ff4ebb79635284f4296543f22d10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Stream</type>
+        <definition>Stream TripiWCF.Service.ICrossDomainPolicyResponder.GetFlashPolicy</definition>
+        <argsstring>()</argsstring>
+        <name>GetFlashPolicy</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_1a07ae9a6e7ef2128f9b81b00760cd6883">GetFlashPolicy</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/ICrossDomainPolicyResponder.cs" line="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="237">
+        <label>TripiWCF.Service.TripService</label>
+        <link refid="class_tripi_w_c_f_1_1_service_1_1_trip_service"/>
+        <childnode refid="236" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="236">
+        <label>TripiWCF.Service.ICrossDomainPolicyResponder</label>
+        <link refid="interface_tripi_w_c_f_1_1_service_1_1_i_cross_domain_policy_responder"/>
+      </node>
+      <node id="239">
+        <label>TripiWCF.Service.TripServiceXml</label>
+        <link refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_xml"/>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+        <childnode refid="236" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="238">
+        <label>TripiWCF.Service.TripServiceVolatile</label>
+        <link refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile"/>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+        <childnode refid="236" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/ICrossDomainPolicyResponder.cs" line="14" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/ICrossDomainPolicyResponder.cs" bodystart="13" bodyend="22"/>
+    <listofallmembers>
+      <member refid="interface_tripi_w_c_f_1_1_service_1_1_i_cross_domain_policy_responder_1ac966ff4ebb79635284f4296543f22d10" prot="public" virt="non-virtual"><scope>TripiWCF::Service::ICrossDomainPolicyResponder</scope><name>GetFlashPolicy</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_service_1_1_i_cross_domain_policy_responder_1aa4010ea696fa121d40b3aa9dfd4102b1" prot="public" virt="non-virtual"><scope>TripiWCF::Service::ICrossDomainPolicyResponder</scope><name>GetSilverlightPolicy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

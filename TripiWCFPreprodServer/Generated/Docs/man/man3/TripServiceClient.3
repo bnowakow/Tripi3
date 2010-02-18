@@ -1,0 +1,403 @@
+.TH "TripServiceClient" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TripServiceClient \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBITripService\fP, \fBITripService\fP, \fBITripService\fP, \fBITripService\fP, \fBITripService\fP, and \fBITripService\fP.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBTripServiceClientChannel\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTripServiceClient\fP (string endpointConfigurationName)"
+.br
+.ti -1c
+.RI "\fBTripServiceClient\fP (string endpointConfigurationName, string remoteAddress)"
+.br
+.ti -1c
+.RI "\fBTripServiceClient\fP (string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress)"
+.br
+.ti -1c
+.RI "\fBTripServiceClient\fP (System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress)"
+.br
+.ti -1c
+.RI "void \fBCreateNewTripAsync\fP (string username, string tripName)"
+.br
+.ti -1c
+.RI "void \fBCreateNewTripAsync\fP (string username, string tripName, object userState)"
+.br
+.ti -1c
+.RI "void \fBGetTripsForUserAsync\fP (string username)"
+.br
+.ti -1c
+.RI "void \fBGetTripsForUserAsync\fP (string username, object userState)"
+.br
+.ti -1c
+.RI "void \fBGetPositionNodesForTripAsync\fP (int tripID)"
+.br
+.ti -1c
+.RI "void \fBGetPositionNodesForTripAsync\fP (int tripID, object userState)"
+.br
+.ti -1c
+.RI "void \fBAddPositionNodeAsync\fP (\fBTripiWCF.Service.PositionNode\fP node)"
+.br
+.ti -1c
+.RI "void \fBAddPositionNodeAsync\fP (\fBTripiWCF.Service.PositionNode\fP node, object userState)"
+.br
+.ti -1c
+.RI "void \fBOpenAsync\fP ()"
+.br
+.ti -1c
+.RI "void \fBOpenAsync\fP (object userState)"
+.br
+.ti -1c
+.RI "void \fBCloseAsync\fP ()"
+.br
+.ti -1c
+.RI "void \fBCloseAsync\fP (object userState)"
+.br
+.ti -1c
+.RI "\fBTripServiceClient\fP (string endpointConfigurationName)"
+.br
+.ti -1c
+.RI "\fBTripServiceClient\fP (string endpointConfigurationName, string remoteAddress)"
+.br
+.ti -1c
+.RI "\fBTripServiceClient\fP (string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress)"
+.br
+.ti -1c
+.RI "\fBTripServiceClient\fP (System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress)"
+.br
+.ti -1c
+.RI "void \fBLoginUserAsync\fP (string username, string password)"
+.br
+.ti -1c
+.RI "void \fBLoginUserAsync\fP (string username, string password, object userState)"
+.br
+.ti -1c
+.RI "void \fBCreateNewTripAsync\fP (string username, string tripName, string tripDescription)"
+.br
+.ti -1c
+.RI "void \fBCreateNewTripAsync\fP (string username, string tripName, string tripDescription, object userState)"
+.br
+.ti -1c
+.RI "void \fBGetAllTripsAsync\fP ()"
+.br
+.ti -1c
+.RI "void \fBGetAllTripsAsync\fP (object userState)"
+.br
+.ti -1c
+.RI "void \fBGetTripsForUserAsync\fP (string username)"
+.br
+.ti -1c
+.RI "void \fBGetTripsForUserAsync\fP (string username, object userState)"
+.br
+.ti -1c
+.RI "void \fBUpdateTripDescriptionAsync\fP (int tripID, string tripDescription)"
+.br
+.ti -1c
+.RI "void \fBUpdateTripDescriptionAsync\fP (int tripID, string tripDescription, object userState)"
+.br
+.ti -1c
+.RI "void \fBAddPositionNodeAsync\fP (\fBTripiWCF.Service.PositionNode\fP node)"
+.br
+.ti -1c
+.RI "void \fBAddPositionNodeAsync\fP (\fBTripiWCF.Service.PositionNode\fP node, object userState)"
+.br
+.ti -1c
+.RI "void \fBAddManyPositionNodesAsync\fP (\fBTripiWCF.Service.PositionNode\fP[] nodes)"
+.br
+.ti -1c
+.RI "void \fBAddManyPositionNodesAsync\fP (\fBTripiWCF.Service.PositionNode\fP[] nodes, object userState)"
+.br
+.ti -1c
+.RI "void \fBGetPositionNodesForTripAsync\fP (int tripID)"
+.br
+.ti -1c
+.RI "void \fBGetPositionNodesForTripAsync\fP (int tripID, object userState)"
+.br
+.ti -1c
+.RI "void \fBUpdatePositionNodeDescriptionAsync\fP (int tripID, int nodeNumber, string nodeDescription)"
+.br
+.ti -1c
+.RI "void \fBUpdatePositionNodeDescriptionAsync\fP (int tripID, int nodeNumber, string nodeDescription, object userState)"
+.br
+.ti -1c
+.RI "void \fBOpenAsync\fP ()"
+.br
+.ti -1c
+.RI "void \fBOpenAsync\fP (object userState)"
+.br
+.ti -1c
+.RI "void \fBCloseAsync\fP ()"
+.br
+.ti -1c
+.RI "void \fBCloseAsync\fP (object userState)"
+.br
+.ti -1c
+.RI "\fBTripServiceClient\fP (string endpointConfigurationName)"
+.br
+.ti -1c
+.RI "\fBTripServiceClient\fP (string endpointConfigurationName, string remoteAddress)"
+.br
+.ti -1c
+.RI "\fBTripServiceClient\fP (string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress)"
+.br
+.ti -1c
+.RI "\fBTripServiceClient\fP (System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress)"
+.br
+.ti -1c
+.RI "void \fBCreateNewTripAsync\fP (string username, string tripName)"
+.br
+.ti -1c
+.RI "void \fBCreateNewTripAsync\fP (string username, string tripName, object userState)"
+.br
+.ti -1c
+.RI "void \fBGetTripsForUserAsync\fP (string username)"
+.br
+.ti -1c
+.RI "void \fBGetTripsForUserAsync\fP (string username, object userState)"
+.br
+.ti -1c
+.RI "void \fBGetPositionNodesForTripAsync\fP (int tripID)"
+.br
+.ti -1c
+.RI "void \fBGetPositionNodesForTripAsync\fP (int tripID, object userState)"
+.br
+.ti -1c
+.RI "void \fBAddPositionNodeAsync\fP (\fBTripiWCF.Service.PositionNode\fP node)"
+.br
+.ti -1c
+.RI "void \fBAddPositionNodeAsync\fP (\fBTripiWCF.Service.PositionNode\fP node, object userState)"
+.br
+.ti -1c
+.RI "void \fBOpenAsync\fP ()"
+.br
+.ti -1c
+.RI "void \fBOpenAsync\fP (object userState)"
+.br
+.ti -1c
+.RI "void \fBCloseAsync\fP ()"
+.br
+.ti -1c
+.RI "void \fBCloseAsync\fP (object userState)"
+.br
+.ti -1c
+.RI "\fBTripServiceClient\fP (System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress)"
+.br
+.ti -1c
+.RI "string \fBLoginUser\fP (string username, string password)"
+.br
+.ti -1c
+.RI "int \fBCreateNewTrip\fP (string username, string tripName, string tripDescription)"
+.br
+.ti -1c
+.RI "\fBTrip\fP[] \fBGetAllTrips\fP ()"
+.br
+.ti -1c
+.RI "\fBTrip\fP[] \fBGetTripsForUser\fP (string username)"
+.br
+.ti -1c
+.RI "void \fBUpdateTripDescription\fP (int tripID, string tripDescription)"
+.br
+.ti -1c
+.RI "int \fBAddPositionNode\fP (\fBPositionNode\fP node)"
+.br
+.ti -1c
+.RI "void \fBAddManyPositionNodes\fP (\fBPositionNode\fP[] nodes)"
+.br
+.ti -1c
+.RI "\fBPositionNode\fP[] \fBGetPositionNodesForTrip\fP (int tripID)"
+.br
+.ti -1c
+.RI "void \fBUpdatePositionNodeDescription\fP (int tripID, int nodeNumber, string nodeDescription)"
+.br
+.ti -1c
+.RI "\fBTripServiceClient\fP (System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress)"
+.br
+.ti -1c
+.RI "string \fBLoginUser\fP (string username, string password)"
+.br
+.ti -1c
+.RI "int \fBCreateNewTrip\fP (string username, string tripName, string tripDescription)"
+.br
+.ti -1c
+.RI "\fBTrip\fP[] \fBGetAllTrips\fP ()"
+.br
+.ti -1c
+.RI "\fBTrip\fP[] \fBGetTripsForUser\fP (string username)"
+.br
+.ti -1c
+.RI "void \fBUpdateTripDescription\fP (int tripID, string tripDescription)"
+.br
+.ti -1c
+.RI "int \fBAddPositionNode\fP (\fBPositionNode\fP node)"
+.br
+.ti -1c
+.RI "void \fBAddManyPositionNodes\fP (\fBPositionNode\fP[] nodes)"
+.br
+.ti -1c
+.RI "\fBPositionNode\fP[] \fBGetPositionNodesForTrip\fP (int tripID)"
+.br
+.ti -1c
+.RI "void \fBUpdatePositionNodeDescription\fP (int tripID, int nodeNumber, string nodeDescription)"
+.br
+.ti -1c
+.RI "\fBTripServiceClient\fP (string endpointConfigurationName)"
+.br
+.ti -1c
+.RI "\fBTripServiceClient\fP (string endpointConfigurationName, string remoteAddress)"
+.br
+.ti -1c
+.RI "\fBTripServiceClient\fP (string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress)"
+.br
+.ti -1c
+.RI "\fBTripServiceClient\fP (System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress)"
+.br
+.ti -1c
+.RI "void \fBLoginUserAsync\fP (string username, string password)"
+.br
+.ti -1c
+.RI "void \fBLoginUserAsync\fP (string username, string password, object userState)"
+.br
+.ti -1c
+.RI "void \fBCreateNewTripAsync\fP (string username, string tripName, string tripDescription)"
+.br
+.ti -1c
+.RI "void \fBCreateNewTripAsync\fP (string username, string tripName, string tripDescription, object userState)"
+.br
+.ti -1c
+.RI "void \fBGetAllTripsAsync\fP ()"
+.br
+.ti -1c
+.RI "void \fBGetAllTripsAsync\fP (object userState)"
+.br
+.ti -1c
+.RI "void \fBGetTripsForUserAsync\fP (string username)"
+.br
+.ti -1c
+.RI "void \fBGetTripsForUserAsync\fP (string username, object userState)"
+.br
+.ti -1c
+.RI "void \fBUpdateTripDescriptionAsync\fP (int tripID, string tripDescription)"
+.br
+.ti -1c
+.RI "void \fBUpdateTripDescriptionAsync\fP (int tripID, string tripDescription, object userState)"
+.br
+.ti -1c
+.RI "void \fBAddPositionNodeAsync\fP (\fBTripiWCF.Service.PositionNode\fP node)"
+.br
+.ti -1c
+.RI "void \fBAddPositionNodeAsync\fP (\fBTripiWCF.Service.PositionNode\fP node, object userState)"
+.br
+.ti -1c
+.RI "void \fBAddManyPositionNodesAsync\fP (\fBTripiWCF.Service.PositionNode\fP[] nodes)"
+.br
+.ti -1c
+.RI "void \fBAddManyPositionNodesAsync\fP (\fBTripiWCF.Service.PositionNode\fP[] nodes, object userState)"
+.br
+.ti -1c
+.RI "void \fBGetPositionNodesForTripAsync\fP (int tripID)"
+.br
+.ti -1c
+.RI "void \fBGetPositionNodesForTripAsync\fP (int tripID, object userState)"
+.br
+.ti -1c
+.RI "void \fBUpdatePositionNodeDescriptionAsync\fP (int tripID, int nodeNumber, string nodeDescription)"
+.br
+.ti -1c
+.RI "void \fBUpdatePositionNodeDescriptionAsync\fP (int tripID, int nodeNumber, string nodeDescription, object userState)"
+.br
+.ti -1c
+.RI "void \fBOpenAsync\fP ()"
+.br
+.ti -1c
+.RI "void \fBOpenAsync\fP (object userState)"
+.br
+.ti -1c
+.RI "void \fBCloseAsync\fP ()"
+.br
+.ti -1c
+.RI "void \fBCloseAsync\fP (object userState)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override \fBITripService\fP \fBCreateChannel\fP ()"
+.br
+.ti -1c
+.RI "override \fBITripService\fP \fBCreateChannel\fP ()"
+.br
+.ti -1c
+.RI "override \fBITripService\fP \fBCreateChannel\fP ()"
+.br
+.ti -1c
+.RI "override \fBITripService\fP \fBCreateChannel\fP ()"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "System.Net.CookieContainer \fBCookieContainer\fP\fC [get, set]\fP"
+.br
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "System.EventHandler< \fBCreateNewTripCompletedEventArgs\fP > \fBCreateNewTripCompleted\fP"
+.br
+.ti -1c
+.RI "System.EventHandler< \fBGetTripsForUserCompletedEventArgs\fP > \fBGetTripsForUserCompleted\fP"
+.br
+.ti -1c
+.RI "System.EventHandler< \fBGetPositionNodesForTripCompletedEventArgs\fP > \fBGetPositionNodesForTripCompleted\fP"
+.br
+.ti -1c
+.RI "System.EventHandler< System.ComponentModel.AsyncCompletedEventArgs > \fBAddPositionNodeCompleted\fP"
+.br
+.ti -1c
+.RI "System.EventHandler< System.ComponentModel.AsyncCompletedEventArgs > \fBOpenCompleted\fP"
+.br
+.ti -1c
+.RI "System.EventHandler< System.ComponentModel.AsyncCompletedEventArgs > \fBCloseCompleted\fP"
+.br
+.ti -1c
+.RI "System.EventHandler< \fBLoginUserCompletedEventArgs\fP > \fBLoginUserCompleted\fP"
+.br
+.ti -1c
+.RI "System.EventHandler< \fBGetAllTripsCompletedEventArgs\fP > \fBGetAllTripsCompleted\fP"
+.br
+.ti -1c
+.RI "System.EventHandler< System.ComponentModel.AsyncCompletedEventArgs > \fBUpdateTripDescriptionCompleted\fP"
+.br
+.ti -1c
+.RI "System.EventHandler< \fBAddPositionNodeCompletedEventArgs\fP > \fBAddPositionNodeCompleted\fP"
+.br
+.ti -1c
+.RI "System.EventHandler< System.ComponentModel.AsyncCompletedEventArgs > \fBAddManyPositionNodesCompleted\fP"
+.br
+.ti -1c
+.RI "System.EventHandler< System.ComponentModel.AsyncCompletedEventArgs > \fBUpdatePositionNodeDescriptionCompleted\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 257 of file TripiWCFService.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

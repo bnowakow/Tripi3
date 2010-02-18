@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_trip" kind="class" prot="public">
+    <compoundname>SilverlightShowcase::TripiSilverlightWCFServiceReference::Trip</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_trip_1a91c6ca81537d66931c398eaff8348260" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SilverlightShowcase.TripiSilverlightWCFServiceReference.Trip.IDField</definition>
+        <argsstring></argsstring>
+        <name>IDField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="23" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_trip_1a9e14dc91919a8005ff6c3d9e84a8f0e7" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SilverlightShowcase.TripiSilverlightWCFServiceReference.Trip.UsernameField</definition>
+        <argsstring></argsstring>
+        <name>UsernameField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="25" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_trip_1ae34f63bd3e40339bb0017d982c310767" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SilverlightShowcase.TripiSilverlightWCFServiceReference.Trip.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="38" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_trip_1ac28dd1a44a1670e2be38a5cd9ecdfa8e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SilverlightShowcase.TripiSilverlightWCFServiceReference.Trip.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="51" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_trip_1a043730c02256468b9cd338909e23710c" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>System.ComponentModel.PropertyChangedEventHandler</type>
+        <definition>System.ComponentModel.PropertyChangedEventHandler SilverlightShowcase.TripiSilverlightWCFServiceReference.Trip.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="53" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_trip_1a916b7ce9604594f9477e112b946a13f7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.TripiSilverlightWCFServiceReference.Trip.RaisePropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>RaisePropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="55" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="55" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="21" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="21" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_trip_1ae34f63bd3e40339bb0017d982c310767" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::Trip</scope><name>ID</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_trip_1a91c6ca81537d66931c398eaff8348260" prot="private" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::Trip</scope><name>IDField</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_trip_1a043730c02256468b9cd338909e23710c" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::Trip</scope><name>PropertyChanged</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_trip_1a916b7ce9604594f9477e112b946a13f7" prot="protected" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::Trip</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_trip_1ac28dd1a44a1670e2be38a5cd9ecdfa8e" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::Trip</scope><name>Username</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_trip_1a9e14dc91919a8005ff6c3d9e84a8f0e7" prot="private" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::Trip</scope><name>UsernameField</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

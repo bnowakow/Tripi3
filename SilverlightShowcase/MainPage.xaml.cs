@@ -18,6 +18,10 @@ using TripiWCF.Service;
 
 namespace SilverlightShowcase
 {
+	/// <summary>
+	/// Silverlight Control containing all trips list, chosen trip description and maps showing trip points.
+	/// Control enables to edit trip description, view interesting points and view all trips.
+	/// </summary>
     public partial class MainPage : UserControl
     {
 		/// <summary>

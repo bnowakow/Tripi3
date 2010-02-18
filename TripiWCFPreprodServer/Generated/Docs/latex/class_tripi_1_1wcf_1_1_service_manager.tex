@@ -1,0 +1,199 @@
+\hypertarget{class_tripi_1_1wcf_1_1_service_manager}{
+\section{Tripi.wcf.ServiceManager Class Reference}
+\label{class_tripi_1_1wcf_1_1_service_manager}\index{Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}}
+}
+
+
+Class responsible for sending gps data to the wcf service.  
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries SendScheduler}
+\begin{DoxyCompactList}\small\item\em Class used to receive the gps data and send it further when the timer ticks. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tripi_1_1wcf_1_1_service_manager_add232278af04b6e75666dbccfa6f067c}{ServiceManager} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_tripi_1_1wcf_1_1_service_manager}{ServiceManager} constructor. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_tripi_1_1wcf_1_1_service_manager_a952bc21f58ae1141773be7f75e9d19dd}{ContinueTrip} (\hyperlink{class_trip}{Trip} trip)
+\begin{DoxyCompactList}\small\item\em Continue the trip that has been started before. \item\end{DoxyCompactList}\item 
+int \hyperlink{class_tripi_1_1wcf_1_1_service_manager_aa7a1b427d211e36ec4173a41d7df66e6}{RunNewTrip} (string tripName)
+\begin{DoxyCompactList}\small\item\em Run a new trip. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_tripi_1_1wcf_1_1_service_manager_a0de7350349e729fbef9811a28976b1a3}{StopTrip} ()
+\begin{DoxyCompactList}\small\item\em Stops the current trip and closes the gps connection. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_tripi_1_1wcf_1_1_service_manager_a08f7d328c2d5a4d7906a8d4acb6e197d}{UpdatePositionNode} (int tripId, int nodeNumber, string description)
+\begin{DoxyCompactList}\small\item\em Updates a specified position node description. \item\end{DoxyCompactList}\item 
+\hyperlink{class_position_node}{PositionNode}\mbox{[}$\,$\mbox{]} \hyperlink{class_tripi_1_1wcf_1_1_service_manager_a45d966e10a20b29bb2816e96f9749988}{GetPositionNodesForTrip} (int tripId)
+\begin{DoxyCompactList}\small\item\em Gets the list of position nodes for a specified trip. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_tripi_1_1wcf_1_1_service_manager_a49ddf47f12c142164c1390eb247bbf70}{LoginUser} (string name, string password)
+\begin{DoxyCompactList}\small\item\em Logs user to the service. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_tripi_1_1wcf_1_1_service_manager_ab41e53f9ef7bd367f2b07a21be60b069}{IsTripRunning}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Checks whether the trip is running. \item\end{DoxyCompactList}\item 
+int \hyperlink{class_tripi_1_1wcf_1_1_service_manager_afa562f56d741a45b14d83b6acb1f1c66}{SendFrequencyInSeconds}\hspace{0.3cm}{\ttfamily  \mbox{[}set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Sets the frequency of sending a gsp data to the wcf service. \item\end{DoxyCompactList}\item 
+\hyperlink{class_trip}{Trip}\mbox{[}$\,$\mbox{]} \hyperlink{class_tripi_1_1wcf_1_1_service_manager_aa00ae9a25006f981fedf1fac417798e2}{UserTrips}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the list of user trips. \item\end{DoxyCompactList}\item 
+\hyperlink{class_position_node}{PositionNode} \hyperlink{class_tripi_1_1wcf_1_1_service_manager_a239da270c1ca481e3819a50a13060438}{LastPositionNode}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the last note send to the service. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Action \hyperlink{class_tripi_1_1wcf_1_1_service_manager_a81275d9601585a2a30ccbc7841fad81e}{OnLocationSend} = null
+\begin{DoxyCompactList}\small\item\em Event fires when user location changes. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class responsible for sending gps data to the wcf service. 
+
+Definition at line 17 of file ServiceManager.cs.
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_tripi_1_1wcf_1_1_service_manager_add232278af04b6e75666dbccfa6f067c}{
+\index{Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}!ServiceManager@{ServiceManager}}
+\index{ServiceManager@{ServiceManager}!Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}}
+\subsubsection[{ServiceManager}]{\setlength{\rightskip}{0pt plus 5cm}Tripi.wcf.ServiceManager.ServiceManager ()}}
+\label{class_tripi_1_1wcf_1_1_service_manager_add232278af04b6e75666dbccfa6f067c}
+
+
+\hyperlink{class_tripi_1_1wcf_1_1_service_manager}{ServiceManager} constructor. 
+
+Definition at line 41 of file ServiceManager.cs.
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tripi_1_1wcf_1_1_service_manager_a952bc21f58ae1141773be7f75e9d19dd}{
+\index{Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}!ContinueTrip@{ContinueTrip}}
+\index{ContinueTrip@{ContinueTrip}!Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}}
+\subsubsection[{ContinueTrip}]{\setlength{\rightskip}{0pt plus 5cm}void Tripi.wcf.ServiceManager.ContinueTrip ({\bf Trip} {\em trip})}}
+\label{class_tripi_1_1wcf_1_1_service_manager_a952bc21f58ae1141773be7f75e9d19dd}
+
+
+Continue the trip that has been started before. 
+\begin{DoxyParams}{Parameters}
+\item[{\em trip}]The trip to be continued\end{DoxyParams}
+
+
+Definition at line 52 of file ServiceManager.cs.\hypertarget{class_tripi_1_1wcf_1_1_service_manager_a45d966e10a20b29bb2816e96f9749988}{
+\index{Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}!GetPositionNodesForTrip@{GetPositionNodesForTrip}}
+\index{GetPositionNodesForTrip@{GetPositionNodesForTrip}!Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}}
+\subsubsection[{GetPositionNodesForTrip}]{\setlength{\rightskip}{0pt plus 5cm}{\bf PositionNode} \mbox{[}$\,$\mbox{]} Tripi.wcf.ServiceManager.GetPositionNodesForTrip (int {\em tripId})}}
+\label{class_tripi_1_1wcf_1_1_service_manager_a45d966e10a20b29bb2816e96f9749988}
+
+
+Gets the list of position nodes for a specified trip. 
+\begin{DoxyParams}{Parameters}
+\item[{\em tripId}]The id of the trip\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of position node for the trpi
+\end{DoxyReturn}
+
+
+Definition at line 125 of file ServiceManager.cs.\hypertarget{class_tripi_1_1wcf_1_1_service_manager_a49ddf47f12c142164c1390eb247bbf70}{
+\index{Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}!LoginUser@{LoginUser}}
+\index{LoginUser@{LoginUser}!Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}}
+\subsubsection[{LoginUser}]{\setlength{\rightskip}{0pt plus 5cm}bool Tripi.wcf.ServiceManager.LoginUser (string {\em name}, \/  string {\em password})}}
+\label{class_tripi_1_1wcf_1_1_service_manager_a49ddf47f12c142164c1390eb247bbf70}
+
+
+Logs user to the service. 
+\begin{DoxyParams}{Parameters}
+\item[{\em name}]User's name\item[{\em password}]User's password\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the user credentials are valid
+\end{DoxyReturn}
+
+
+Definition at line 136 of file ServiceManager.cs.\hypertarget{class_tripi_1_1wcf_1_1_service_manager_aa7a1b427d211e36ec4173a41d7df66e6}{
+\index{Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}!RunNewTrip@{RunNewTrip}}
+\index{RunNewTrip@{RunNewTrip}!Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}}
+\subsubsection[{RunNewTrip}]{\setlength{\rightskip}{0pt plus 5cm}int Tripi.wcf.ServiceManager.RunNewTrip (string {\em tripName})}}
+\label{class_tripi_1_1wcf_1_1_service_manager_aa7a1b427d211e36ec4173a41d7df66e6}
+
+
+Run a new trip. 
+\begin{DoxyParams}{Parameters}
+\item[{\em tripName}]The name of the trip\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The id of the new trip
+\end{DoxyReturn}
+
+
+Definition at line 63 of file ServiceManager.cs.\hypertarget{class_tripi_1_1wcf_1_1_service_manager_a0de7350349e729fbef9811a28976b1a3}{
+\index{Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}!StopTrip@{StopTrip}}
+\index{StopTrip@{StopTrip}!Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}}
+\subsubsection[{StopTrip}]{\setlength{\rightskip}{0pt plus 5cm}void Tripi.wcf.ServiceManager.StopTrip ()}}
+\label{class_tripi_1_1wcf_1_1_service_manager_a0de7350349e729fbef9811a28976b1a3}
+
+
+Stops the current trip and closes the gps connection. 
+
+Definition at line 105 of file ServiceManager.cs.\hypertarget{class_tripi_1_1wcf_1_1_service_manager_a08f7d328c2d5a4d7906a8d4acb6e197d}{
+\index{Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}!UpdatePositionNode@{UpdatePositionNode}}
+\index{UpdatePositionNode@{UpdatePositionNode}!Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}}
+\subsubsection[{UpdatePositionNode}]{\setlength{\rightskip}{0pt plus 5cm}void Tripi.wcf.ServiceManager.UpdatePositionNode (int {\em tripId}, \/  int {\em nodeNumber}, \/  string {\em description})}}
+\label{class_tripi_1_1wcf_1_1_service_manager_a08f7d328c2d5a4d7906a8d4acb6e197d}
+
+
+Updates a specified position node description. 
+\begin{DoxyParams}{Parameters}
+\item[{\em node}]\end{DoxyParams}
+
+
+Definition at line 115 of file ServiceManager.cs.
+
+\subsection{Property Documentation}
+\hypertarget{class_tripi_1_1wcf_1_1_service_manager_ab41e53f9ef7bd367f2b07a21be60b069}{
+\index{Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}!IsTripRunning@{IsTripRunning}}
+\index{IsTripRunning@{IsTripRunning}!Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}}
+\subsubsection[{IsTripRunning}]{\setlength{\rightskip}{0pt plus 5cm}bool Tripi.wcf.ServiceManager.IsTripRunning\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_tripi_1_1wcf_1_1_service_manager_ab41e53f9ef7bd367f2b07a21be60b069}
+
+
+Checks whether the trip is running. 
+
+Definition at line 148 of file ServiceManager.cs.\hypertarget{class_tripi_1_1wcf_1_1_service_manager_a239da270c1ca481e3819a50a13060438}{
+\index{Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}!LastPositionNode@{LastPositionNode}}
+\index{LastPositionNode@{LastPositionNode}!Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}}
+\subsubsection[{LastPositionNode}]{\setlength{\rightskip}{0pt plus 5cm}{\bf PositionNode} Tripi.wcf.ServiceManager.LastPositionNode\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_tripi_1_1wcf_1_1_service_manager_a239da270c1ca481e3819a50a13060438}
+
+
+Gets the last note send to the service. 
+
+Definition at line 177 of file ServiceManager.cs.\hypertarget{class_tripi_1_1wcf_1_1_service_manager_afa562f56d741a45b14d83b6acb1f1c66}{
+\index{Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}!SendFrequencyInSeconds@{SendFrequencyInSeconds}}
+\index{SendFrequencyInSeconds@{SendFrequencyInSeconds}!Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}}
+\subsubsection[{SendFrequencyInSeconds}]{\setlength{\rightskip}{0pt plus 5cm}int Tripi.wcf.ServiceManager.SendFrequencyInSeconds\hspace{0.3cm}{\ttfamily  \mbox{[}set\mbox{]}}}}
+\label{class_tripi_1_1wcf_1_1_service_manager_afa562f56d741a45b14d83b6acb1f1c66}
+
+
+Sets the frequency of sending a gsp data to the wcf service. 
+
+Definition at line 156 of file ServiceManager.cs.\hypertarget{class_tripi_1_1wcf_1_1_service_manager_aa00ae9a25006f981fedf1fac417798e2}{
+\index{Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}!UserTrips@{UserTrips}}
+\index{UserTrips@{UserTrips}!Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}}
+\subsubsection[{UserTrips}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Trip} \mbox{[}$\,$\mbox{]} Tripi.wcf.ServiceManager.UserTrips\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_tripi_1_1wcf_1_1_service_manager_aa00ae9a25006f981fedf1fac417798e2}
+
+
+Gets the list of user trips. 
+
+Definition at line 164 of file ServiceManager.cs.
+
+\subsection{Event Documentation}
+\hypertarget{class_tripi_1_1wcf_1_1_service_manager_a81275d9601585a2a30ccbc7841fad81e}{
+\index{Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}!OnLocationSend@{OnLocationSend}}
+\index{OnLocationSend@{OnLocationSend}!Tripi::wcf::ServiceManager@{Tripi::wcf::ServiceManager}}
+\subsubsection[{OnLocationSend}]{\setlength{\rightskip}{0pt plus 5cm}Action Tripi.wcf.ServiceManager.OnLocationSend = null}}
+\label{class_tripi_1_1wcf_1_1_service_manager_a81275d9601585a2a30ccbc7841fad81e}
+
+
+Event fires when user location changes. 
+
+Definition at line 22 of file ServiceManager.cs.
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+TripiMobile/wcf/ServiceManager.cs\end{DoxyCompactItemize}

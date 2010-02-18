@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_weather_response1" kind="class" prot="public">
+    <compoundname>SilverlightShowcase::SampleWeatherService::GetWeatherResponse1</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_weather_response1_1a4fa82a31da7cfd8f3e103888171a713b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SilverlightShowcase.SampleWeatherService.GetWeatherResponse1.string</definition>
+        <argsstring></argsstring>
+        <name>string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" line="835" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" bodystart="835" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_weather_response1_1a1c9bf7c98535f1f091fe0cdf8c925bcb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SilverlightShowcase.SampleWeatherService.GetWeatherResponse1.GetWeatherResponse1</definition>
+        <argsstring>()</argsstring>
+        <name>GetWeatherResponse1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" line="837" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" bodystart="837" bodyend="838"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_weather_response1_1a641ca289ffc23578bbd24b20a6fac406" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SilverlightShowcase.SampleWeatherService.GetWeatherResponse1.GetWeatherResponse1</definition>
+        <argsstring>(string @string)</argsstring>
+        <name>GetWeatherResponse1</name>
+        <param>
+          <type>string @</type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" line="840" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" bodystart="840" bodyend="842"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" line="831" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" bodystart="831" bodyend="843"/>
+    <listofallmembers>
+      <member refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_weather_response1_1a1c9bf7c98535f1f091fe0cdf8c925bcb" prot="public" virt="non-virtual"><scope>SilverlightShowcase::SampleWeatherService::GetWeatherResponse1</scope><name>GetWeatherResponse1</name></member>
+      <member refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_weather_response1_1a641ca289ffc23578bbd24b20a6fac406" prot="public" virt="non-virtual"><scope>SilverlightShowcase::SampleWeatherService::GetWeatherResponse1</scope><name>GetWeatherResponse1</name></member>
+      <member refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_weather_response1_1a4fa82a31da7cfd8f3e103888171a713b" prot="public" virt="non-virtual"><scope>SilverlightShowcase::SampleWeatherService::GetWeatherResponse1</scope><name>string</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

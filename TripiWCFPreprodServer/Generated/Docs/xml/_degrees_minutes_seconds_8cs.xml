@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="_degrees_minutes_seconds_8cs" kind="file">
+    <compoundname>DegreesMinutesSeconds.cs</compoundname>
+    <innerclass refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds" prot="public">GPSMobile::DegreesMinutesSeconds</innerclass>
+    <innernamespace refid="namespace_g_p_s_mobile">GPSMobile</innernamespace>
+    <innernamespace refid="namespace_system">System</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">GPSMobile</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds" kindref="compound">DegreesMinutesSeconds</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isPositive;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a14812fc58ea812f0a28b20447f2e32cc" kindref="member" tooltip="Returns true if the degrees, minutes and seconds refer to a positive value, false...">IsPositive</ref></highlight></codeline>
+<codeline lineno="14" refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a14812fc58ea812f0a28b20447f2e32cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>isPositive;<sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/>degrees;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>uint<sp/><ref refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1ae24ec91d5cae1b7bb197b8a9ce319965" kindref="member" tooltip="The degrees unit of the coordinate.">Degrees</ref></highlight></codeline>
+<codeline lineno="23" refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1ae24ec91d5cae1b7bb197b8a9ce319965" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>degrees;<sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint<sp/>minutes;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>uint<sp/><ref refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a186a923e69d06147fa4682300c47ae71" kindref="member" tooltip="The minutes unit of the coordinate.">Minutes</ref></highlight></codeline>
+<codeline lineno="32" refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a186a923e69d06147fa4682300c47ae71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>minutes;<sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>seconds;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1aba3b082a41209eaffe829426d760bc5a" kindref="member" tooltip="The seconds unit of the coordinate.">Seconds</ref></highlight></codeline>
+<codeline lineno="41" refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1aba3b082a41209eaffe829426d760bc5a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>seconds;<sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a5a0359c380dd9ab77197dde6b75a062c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a5a0359c380dd9ab77197dde6b75a062c" kindref="member" tooltip="Constructs a new instance of DegreesMinutesSeconds converting from decimal degrees...">DegreesMinutesSeconds</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>decimalDegrees)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>isPositive<sp/>=<sp/>(decimalDegrees<sp/>&gt;<sp/>0);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>degrees<sp/>=<sp/>(uint)<sp/>Math.Abs(decimalDegrees);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>doubleMinutes<sp/>=<sp/>(Math.Abs(decimalDegrees)<sp/>-<sp/>Math.Abs((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)degrees))<sp/>*<sp/>60.0;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>minutes<sp/>=<sp/>(uint)<sp/>doubleMinutes;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>seconds<sp/>=<sp/>(doubleMinutes<sp/>-<sp/>(double)minutes)<sp/>*<sp/>60.0;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a0beba9ff11f3b84a2604a3f78ef6da99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a5a0359c380dd9ab77197dde6b75a062c" kindref="member" tooltip="Constructs a new instance of DegreesMinutesSeconds converting from decimal degrees...">DegreesMinutesSeconds</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isPositive,<sp/>uint<sp/>degrees,<sp/>uint<sp/>minutes,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>seconds)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.isPositive<sp/>=<sp/>isPositive;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.degrees<sp/>=<sp/>degrees;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.minutes<sp/>=<sp/>minutes;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.seconds<sp/>=<sp/>seconds;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a114de0a66d178c5af760e29119d1c725" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a114de0a66d178c5af760e29119d1c725" kindref="member" tooltip="Converts the decimal, minutes, seconds coordinate to decimal degrees.">ToDecimalDegrees</ref>()</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>val<sp/>=<sp/>(double)degrees<sp/>+<sp/>((</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)minutes<sp/>/<sp/>60.0)<sp/>+<sp/>((double)seconds<sp/>/<sp/>3600.0);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>val<sp/>=<sp/>isPositive<sp/>?<sp/>val<sp/>:<sp/>val<sp/>*<sp/>-1;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>val;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a164a4704ff73cbeb937d43aded782c99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a164a4704ff73cbeb937d43aded782c99" kindref="member" tooltip="Converts the instance to a string in format: D M&amp;#39; S&quot;.">ToString</ref>()</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>degrees<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;d<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>minutes<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;&apos;<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>seconds<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs"/>
+  </compounddef>
+</doxygen>

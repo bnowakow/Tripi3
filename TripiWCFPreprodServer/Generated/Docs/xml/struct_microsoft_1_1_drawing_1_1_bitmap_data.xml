@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="struct_microsoft_1_1_drawing_1_1_bitmap_data" kind="struct" prot="public">
+    <compoundname>Microsoft::Drawing::BitmapData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_bitmap_data_1a205b08f4b638dc7aa4f2b4bafa71e94c" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.BitmapData.Width</definition>
+        <argsstring></argsstring>
+        <name>Width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="80" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_bitmap_data_1a85a5c70d00b3d809cf1050b93b9e22ca" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.BitmapData.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="81" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_bitmap_data_1a5d641809d55a4b95643c11b2b663e0ab" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Microsoft.Drawing.BitmapData.Stride</definition>
+        <argsstring></argsstring>
+        <name>Stride</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="82" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_bitmap_data_1a406788dc8e68efd7d398512f6f2cb885" prot="public" static="no" mutable="no">
+        <type>PixelFormatID</type>
+        <definition>PixelFormatID Microsoft.Drawing.BitmapData.PixelFormat</definition>
+        <argsstring></argsstring>
+        <name>PixelFormat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="83" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_bitmap_data_1aa266046040a805f305906f5c78debf84" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr Microsoft.Drawing.BitmapData.Scan0</definition>
+        <argsstring></argsstring>
+        <name>Scan0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="84" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_bitmap_data_1a87ad8ae88443621624b2032e2519a21d" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr Microsoft.Drawing.BitmapData.Reserved</definition>
+        <argsstring></argsstring>
+        <name>Reserved</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="85" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="79" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="78" bodyend="86"/>
+    <listofallmembers>
+      <member refid="struct_microsoft_1_1_drawing_1_1_bitmap_data_1a85a5c70d00b3d809cf1050b93b9e22ca" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::BitmapData</scope><name>Height</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_bitmap_data_1a406788dc8e68efd7d398512f6f2cb885" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::BitmapData</scope><name>PixelFormat</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_bitmap_data_1a87ad8ae88443621624b2032e2519a21d" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::BitmapData</scope><name>Reserved</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_bitmap_data_1aa266046040a805f305906f5c78debf84" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::BitmapData</scope><name>Scan0</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_bitmap_data_1a5d641809d55a4b95643c11b2b663e0ab" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::BitmapData</scope><name>Stride</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_bitmap_data_1a205b08f4b638dc7aa4f2b4bafa71e94c" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::BitmapData</scope><name>Width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

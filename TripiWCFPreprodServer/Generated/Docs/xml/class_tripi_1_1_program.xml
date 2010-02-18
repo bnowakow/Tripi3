@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1_program" kind="class" prot="public">
+    <compoundname>Tripi::Program</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_tripi_1_1_program_1a8323c5d6284d963fe0f3c050287d4242" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Tripi.Program.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>The main entry point for the application. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Program.cs" line="16" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Program.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Program.cs" line="10" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Program.cs" bodystart="9" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1_program_1a8323c5d6284d963fe0f3c050287d4242" prot="private" virt="non-virtual"><scope>Tripi::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

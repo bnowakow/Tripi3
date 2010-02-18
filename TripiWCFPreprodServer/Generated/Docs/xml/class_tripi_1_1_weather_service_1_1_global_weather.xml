@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1_weather_service_1_1_global_weather" kind="class" prot="public">
+    <compoundname>Tripi::WeatherService::GlobalWeather</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tripi_1_1_weather_service_1_1_global_weather_1ab9f4fc6882bb1e6ec3dbd323daf8f9c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Tripi.WeatherService.GlobalWeather.GlobalWeather</definition>
+        <argsstring>()</argsstring>
+        <name>GlobalWeather</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WeatherService/Reference.cs" line="30" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WeatherService/Reference.cs" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_weather_service_1_1_global_weather_1a0f3f73e8902d82aacc3caf3166254865" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Tripi.WeatherService.GlobalWeather.GetWeather</definition>
+        <argsstring>(string CityName, string CountryName)</argsstring>
+        <name>GetWeather</name>
+        <param>
+          <type>string</type>
+          <declname>CityName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>CountryName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WeatherService/Reference.cs" line="36" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WeatherService/Reference.cs" bodystart="36" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_weather_service_1_1_global_weather_1a27ee4b99cb4c2b1c808be9c3633f3906" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult Tripi.WeatherService.GlobalWeather.BeginGetWeather</definition>
+        <argsstring>(string CityName, string CountryName, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetWeather</name>
+        <param>
+          <type>string</type>
+          <declname>CityName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>CountryName</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WeatherService/Reference.cs" line="44" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WeatherService/Reference.cs" bodystart="44" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_weather_service_1_1_global_weather_1afbe73d92c5ba43fa7c0bf127f20a1d65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Tripi.WeatherService.GlobalWeather.EndGetWeather</definition>
+        <argsstring>(System.IAsyncResult asyncResult)</argsstring>
+        <name>EndGetWeather</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>asyncResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WeatherService/Reference.cs" line="51" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WeatherService/Reference.cs" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_weather_service_1_1_global_weather_1a8ef68a20a6cbf71d394d55093090a9ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Tripi.WeatherService.GlobalWeather.GetCitiesByCountry</definition>
+        <argsstring>(string CountryName)</argsstring>
+        <name>GetCitiesByCountry</name>
+        <param>
+          <type>string</type>
+          <declname>CountryName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WeatherService/Reference.cs" line="58" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WeatherService/Reference.cs" bodystart="58" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_weather_service_1_1_global_weather_1ab175bc07e71a2835f30113c9b0e92bd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult Tripi.WeatherService.GlobalWeather.BeginGetCitiesByCountry</definition>
+        <argsstring>(string CountryName, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetCitiesByCountry</name>
+        <param>
+          <type>string</type>
+          <declname>CountryName</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WeatherService/Reference.cs" line="65" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WeatherService/Reference.cs" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_weather_service_1_1_global_weather_1acebafb06f2cab88e592b9f6e09f25cc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Tripi.WeatherService.GlobalWeather.EndGetCitiesByCountry</definition>
+        <argsstring>(System.IAsyncResult asyncResult)</argsstring>
+        <name>EndGetCitiesByCountry</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>asyncResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WeatherService/Reference.cs" line="71" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WeatherService/Reference.cs" bodystart="71" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WeatherService/Reference.cs" line="27" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WeatherService/Reference.cs" bodystart="27" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1_weather_service_1_1_global_weather_1ab175bc07e71a2835f30113c9b0e92bd8" prot="public" virt="non-virtual"><scope>Tripi::WeatherService::GlobalWeather</scope><name>BeginGetCitiesByCountry</name></member>
+      <member refid="class_tripi_1_1_weather_service_1_1_global_weather_1a27ee4b99cb4c2b1c808be9c3633f3906" prot="public" virt="non-virtual"><scope>Tripi::WeatherService::GlobalWeather</scope><name>BeginGetWeather</name></member>
+      <member refid="class_tripi_1_1_weather_service_1_1_global_weather_1acebafb06f2cab88e592b9f6e09f25cc5" prot="public" virt="non-virtual"><scope>Tripi::WeatherService::GlobalWeather</scope><name>EndGetCitiesByCountry</name></member>
+      <member refid="class_tripi_1_1_weather_service_1_1_global_weather_1afbe73d92c5ba43fa7c0bf127f20a1d65" prot="public" virt="non-virtual"><scope>Tripi::WeatherService::GlobalWeather</scope><name>EndGetWeather</name></member>
+      <member refid="class_tripi_1_1_weather_service_1_1_global_weather_1a8ef68a20a6cbf71d394d55093090a9ad" prot="public" virt="non-virtual"><scope>Tripi::WeatherService::GlobalWeather</scope><name>GetCitiesByCountry</name></member>
+      <member refid="class_tripi_1_1_weather_service_1_1_global_weather_1a0f3f73e8902d82aacc3caf3166254865" prot="public" virt="non-virtual"><scope>Tripi::WeatherService::GlobalWeather</scope><name>GetWeather</name></member>
+      <member refid="class_tripi_1_1_weather_service_1_1_global_weather_1ab9f4fc6882bb1e6ec3dbd323daf8f9c0" prot="public" virt="non-virtual"><scope>Tripi::WeatherService::GlobalWeather</scope><name>GlobalWeather</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,70 @@
+\hypertarget{class_tripi_1_1gps_1_1_g_p_s_listener}{
+\section{Tripi.gps.GPSListener Class Reference}
+\label{class_tripi_1_1gps_1_1_g_p_s_listener}\index{Tripi::gps::GPSListener@{Tripi::gps::GPSListener}}
+}
+
+
+Listener class for the location change of the user. Gets the data from the gps. The class implements singleton pattern.  
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_tripi_1_1gps_1_1_g_p_s_listener_a4ff986081e6623190ae285cd80ca162e}{OpenGPS} ()
+\begin{DoxyCompactList}\small\item\em Open a GPS connection. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_tripi_1_1gps_1_1_g_p_s_listener_a311460b7b647b6dc41bea72902554e78}{CloseGPS} ()
+\begin{DoxyCompactList}\small\item\em Close a GPS connection The connection is closed only if there are no other object subscribed to the event. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_tripi_1_1gps_1_1_g_p_s_listener_adb5e00692fc27631912f2da7c6957740}{
+static \hyperlink{class_tripi_1_1gps_1_1_g_p_s_listener}{GPSListener} {\bfseries GetInstance}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}
+\label{class_tripi_1_1gps_1_1_g_p_s_listener_adb5e00692fc27631912f2da7c6957740}
+
+\end{DoxyCompactItemize}
+\subsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Action$<$ \hyperlink{class_g_p_s_mobile_1_1_gps_position}{GpsPosition} $>$ \hyperlink{class_tripi_1_1gps_1_1_g_p_s_listener_ad18f501e60df1dad6c880c9638463139}{OnLocationChanged} = null
+\begin{DoxyCompactList}\small\item\em Event fires when user location changes. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Listener class for the location change of the user. Gets the data from the gps. The class implements singleton pattern. 
+
+Definition at line 13 of file GPSListener.cs.
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tripi_1_1gps_1_1_g_p_s_listener_a311460b7b647b6dc41bea72902554e78}{
+\index{Tripi::gps::GPSListener@{Tripi::gps::GPSListener}!CloseGPS@{CloseGPS}}
+\index{CloseGPS@{CloseGPS}!Tripi::gps::GPSListener@{Tripi::gps::GPSListener}}
+\subsubsection[{CloseGPS}]{\setlength{\rightskip}{0pt plus 5cm}void Tripi.gps.GPSListener.CloseGPS ()}}
+\label{class_tripi_1_1gps_1_1_g_p_s_listener_a311460b7b647b6dc41bea72902554e78}
+
+
+Close a GPS connection The connection is closed only if there are no other object subscribed to the event. 
+
+Definition at line 70 of file GPSListener.cs.\hypertarget{class_tripi_1_1gps_1_1_g_p_s_listener_a4ff986081e6623190ae285cd80ca162e}{
+\index{Tripi::gps::GPSListener@{Tripi::gps::GPSListener}!OpenGPS@{OpenGPS}}
+\index{OpenGPS@{OpenGPS}!Tripi::gps::GPSListener@{Tripi::gps::GPSListener}}
+\subsubsection[{OpenGPS}]{\setlength{\rightskip}{0pt plus 5cm}void Tripi.gps.GPSListener.OpenGPS ()}}
+\label{class_tripi_1_1gps_1_1_g_p_s_listener_a4ff986081e6623190ae285cd80ca162e}
+
+
+Open a GPS connection. 
+
+Definition at line 45 of file GPSListener.cs.
+
+\subsection{Event Documentation}
+\hypertarget{class_tripi_1_1gps_1_1_g_p_s_listener_ad18f501e60df1dad6c880c9638463139}{
+\index{Tripi::gps::GPSListener@{Tripi::gps::GPSListener}!OnLocationChanged@{OnLocationChanged}}
+\index{OnLocationChanged@{OnLocationChanged}!Tripi::gps::GPSListener@{Tripi::gps::GPSListener}}
+\subsubsection[{OnLocationChanged}]{\setlength{\rightskip}{0pt plus 5cm}Action$<${\bf GpsPosition}$>$ Tripi.gps.GPSListener.OnLocationChanged = null}}
+\label{class_tripi_1_1gps_1_1_g_p_s_listener_ad18f501e60df1dad6c880c9638463139}
+
+
+Event fires when user location changes. 
+
+Definition at line 21 of file GPSListener.cs.
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+TripiMobile/gps/GPSListener.cs\end{DoxyCompactItemize}

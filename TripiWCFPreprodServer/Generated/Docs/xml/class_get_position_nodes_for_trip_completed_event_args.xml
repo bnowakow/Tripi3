@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_get_position_nodes_for_trip_completed_event_args" kind="class" prot="public">
+    <compoundname>GetPositionNodesForTripCompletedEventArgs</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_get_position_nodes_for_trip_completed_event_args_1a08a2bc6b10284873ed7bf39de032ea2f" prot="private" static="no" mutable="no">
+        <type>object[]</type>
+        <definition>object [] GetPositionNodesForTripCompletedEventArgs.results</definition>
+        <argsstring></argsstring>
+        <name>results</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="237" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_get_position_nodes_for_trip_completed_event_args_1a6991d249b98ad61c5845890450a73497" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_position_node" kindref="compound">TripiWCF.Service.PositionNode</ref>[]</type>
+        <definition>TripiWCF.Service.PositionNode [] GetPositionNodesForTripCompletedEventArgs.Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="252" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_get_position_nodes_for_trip_completed_event_args_1a6663a262d1a296906a4ea6faba6bb10b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetPositionNodesForTripCompletedEventArgs.GetPositionNodesForTripCompletedEventArgs</definition>
+        <argsstring>(object[] results, System.Exception exception, bool cancelled, object userState)</argsstring>
+        <name>GetPositionNodesForTripCompletedEventArgs</name>
+        <param>
+          <type>object[]</type>
+          <declname>results</declname>
+        </param>
+        <param>
+          <type>System.Exception</type>
+          <declname>exception</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cancelled</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>userState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="241" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="239" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_position_nodes_for_trip_completed_event_args_1a6663a262d1a296906a4ea6faba6bb10b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetPositionNodesForTripCompletedEventArgs.GetPositionNodesForTripCompletedEventArgs</definition>
+        <argsstring>(object[] results, System.Exception exception, bool cancelled, object userState)</argsstring>
+        <name>GetPositionNodesForTripCompletedEventArgs</name>
+        <param>
+          <type>object[]</type>
+          <declname>results</declname>
+        </param>
+        <param>
+          <type>System.Exception</type>
+          <declname>exception</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cancelled</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>userState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="380" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="378" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_position_nodes_for_trip_completed_event_args_1a6663a262d1a296906a4ea6faba6bb10b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetPositionNodesForTripCompletedEventArgs.GetPositionNodesForTripCompletedEventArgs</definition>
+        <argsstring>(object[] results, System.Exception exception, bool cancelled, object userState)</argsstring>
+        <name>GetPositionNodesForTripCompletedEventArgs</name>
+        <param>
+          <type>object[]</type>
+          <declname>results</declname>
+        </param>
+        <param>
+          <type>System.Exception</type>
+          <declname>exception</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cancelled</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>userState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" line="241" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" bodystart="239" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_position_nodes_for_trip_completed_event_args_1a6663a262d1a296906a4ea6faba6bb10b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetPositionNodesForTripCompletedEventArgs.GetPositionNodesForTripCompletedEventArgs</definition>
+        <argsstring>(object[] results, System.Exception exception, bool cancelled, object userState)</argsstring>
+        <name>GetPositionNodesForTripCompletedEventArgs</name>
+        <param>
+          <type>object[]</type>
+          <declname>results</declname>
+        </param>
+        <param>
+          <type>System.Exception</type>
+          <declname>exception</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cancelled</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>userState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="380" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="378" bodyend="382"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="235" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="234" bodyend="253"/>
+    <listofallmembers>
+      <member refid="class_get_position_nodes_for_trip_completed_event_args_1a6663a262d1a296906a4ea6faba6bb10b" prot="public" virt="non-virtual"><scope>GetPositionNodesForTripCompletedEventArgs</scope><name>GetPositionNodesForTripCompletedEventArgs</name></member>
+      <member refid="class_get_position_nodes_for_trip_completed_event_args_1a6663a262d1a296906a4ea6faba6bb10b" prot="public" virt="non-virtual"><scope>GetPositionNodesForTripCompletedEventArgs</scope><name>GetPositionNodesForTripCompletedEventArgs</name></member>
+      <member refid="class_get_position_nodes_for_trip_completed_event_args_1a6663a262d1a296906a4ea6faba6bb10b" prot="public" virt="non-virtual"><scope>GetPositionNodesForTripCompletedEventArgs</scope><name>GetPositionNodesForTripCompletedEventArgs</name></member>
+      <member refid="class_get_position_nodes_for_trip_completed_event_args_1a6663a262d1a296906a4ea6faba6bb10b" prot="public" virt="non-virtual"><scope>GetPositionNodesForTripCompletedEventArgs</scope><name>GetPositionNodesForTripCompletedEventArgs</name></member>
+      <member refid="class_get_position_nodes_for_trip_completed_event_args_1a6991d249b98ad61c5845890450a73497" prot="public" virt="non-virtual"><scope>GetPositionNodesForTripCompletedEventArgs</scope><name>Result</name></member>
+      <member refid="class_get_position_nodes_for_trip_completed_event_args_1a08a2bc6b10284873ed7bf39de032ea2f" prot="private" virt="non-virtual"><scope>GetPositionNodesForTripCompletedEventArgs</scope><name>results</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_msdn_1_1_u_i_framework_1_1_text_block" kind="class" prot="public">
+    <compoundname>Msdn::UIFramework::TextBlock</compoundname>
+    <basecompoundref refid="class_msdn_1_1_u_i_framework_1_1_u_i_element" prot="public" virt="non-virtual">Msdn.UIFramework.UIElement</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_text_block_1af6618ad3179fa5f7fcc553232dbe0aba" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Msdn.UIFramework.TextBlock.fontFamily</definition>
+        <argsstring></argsstring>
+        <name>fontFamily</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="17" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_text_block_1a665b74ac3564af20a2549536ff8424db" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Msdn.UIFramework.TextBlock.fontSize</definition>
+        <argsstring></argsstring>
+        <name>fontSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="18" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_text_block_1a55013d4f352a010d0a0d317e9cb24be9" prot="private" static="no" mutable="no">
+        <type>FontStyle</type>
+        <definition>FontStyle Msdn.UIFramework.TextBlock.fontStyle</definition>
+        <argsstring></argsstring>
+        <name>fontStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="19" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_text_block_1a35aa29b245bc2c911d82935c542f5a64" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color Msdn.UIFramework.TextBlock.foreground</definition>
+        <argsstring></argsstring>
+        <name>foreground</name>
+        <reimplements refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1af139a7588734fc21c0c7601c88e89da0">foreground</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="20" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_text_block_1aa7a48550d5afc886dba751501b4659f9" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color Msdn.UIFramework.TextBlock.background</definition>
+        <argsstring></argsstring>
+        <name>background</name>
+        <reimplements refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a2b9e6c764ada300209aef3da72087b43">background</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="21" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_text_block_1aef27c5ccdea5145b75f95dc2b84fc8a8" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Msdn.UIFramework.TextBlock.text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="22" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_text_block_1a07fb7e1db201e33bb61df545debc1a87" prot="private" static="no" mutable="no">
+        <type>TextAlignment</type>
+        <definition>TextAlignment Msdn.UIFramework.TextBlock.alignment</definition>
+        <argsstring></argsstring>
+        <name>alignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="23" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_text_block_1adb2a2ffb3dfb4a01a54f7addc4740f4f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Msdn.UIFramework.TextBlock.Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="105" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_text_block_1a5520820cecde723516e9adca2b0b59e4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>TextAlignment</type>
+        <definition>TextAlignment Msdn.UIFramework.TextBlock.TextAlignment</definition>
+        <argsstring></argsstring>
+        <name>TextAlignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="117" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_text_block_1aab3e41200ea7b98069303dfa3809fa9a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Msdn.UIFramework.TextBlock.FontFamily</definition>
+        <argsstring></argsstring>
+        <name>FontFamily</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="130" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_text_block_1ab9a9c2c05a925b2d63351a46f0201af5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float Msdn.UIFramework.TextBlock.FontSize</definition>
+        <argsstring></argsstring>
+        <name>FontSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="143" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_text_block_1a21736e4bda24c1b5176882e5526be29a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>FontStyle</type>
+        <definition>FontStyle Msdn.UIFramework.TextBlock.FontStyle</definition>
+        <argsstring></argsstring>
+        <name>FontStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="155" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_text_block_1a5241cd03468d8cb060887b91c7394c2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Msdn.UIFramework.TextBlock.TextBlock</definition>
+        <argsstring>()</argsstring>
+        <name>TextBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="26" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="25" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_text_block_1a52a670b89c27c1e53ad58feb2fe2d205" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Msdn.UIFramework.TextBlock.TextBlock</definition>
+        <argsstring>(string text)</argsstring>
+        <name>TextBlock</name>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="40" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="38" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_text_block_1a64a6a9fdda4cfe9c5781d1c54ce3da84" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Msdn.UIFramework.TextBlock.OnRender</definition>
+        <argsstring>(Graphics drawingContext)</argsstring>
+        <name>OnRender</name>
+        <reimplements refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a20b2245806231553935896fe7731812b">OnRender</reimplements>
+        <param>
+          <type>Graphics</type>
+          <declname>graphics</declname>
+        </param>
+        <briefdescription>
+<para>Render method to implement by inheritors. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>graphics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Graphics object.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="45" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="44" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_text_block_1acea7950eb3a19ce5faa03447d5bbb744" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Point</type>
+        <definition>Point Msdn.UIFramework.TextBlock.GetLocationFromContentAlignment</definition>
+        <argsstring>(TextAlignment alignment, Size sizeContent)</argsstring>
+        <name>GetLocationFromContentAlignment</name>
+        <param>
+          <type>TextAlignment</type>
+          <declname>alignment</declname>
+        </param>
+        <param>
+          <type>Size</type>
+          <declname>sizeContent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="70" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="69" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="421">
+        <label>Msdn.UIFramework.UIElement</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_u_i_element"/>
+      </node>
+      <node id="420">
+        <label>Msdn.UIFramework.TextBlock</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_text_block"/>
+        <childnode refid="421" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="423">
+        <label>Msdn.UIFramework.UIElement</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_u_i_element"/>
+        <childnode refid="423" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="422">
+        <label>Msdn.UIFramework.TextBlock</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_text_block"/>
+        <childnode refid="423" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="16" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="15" bodyend="158"/>
+    <listofallmembers>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_text_block_1a07fb7e1db201e33bb61df545debc1a87" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>alignment</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a8ef46619afd3ef259460861a22adf6eb" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>Background</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_text_block_1aa7a48550d5afc886dba751501b4659f9" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>background</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a53b56cb482be2252bec3ab914e1d0d7f" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>Click</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_text_block_1af6618ad3179fa5f7fcc553232dbe0aba" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>fontFamily</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_text_block_1aab3e41200ea7b98069303dfa3809fa9a" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>FontFamily</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_text_block_1a665b74ac3564af20a2549536ff8424db" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>fontSize</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_text_block_1ab9a9c2c05a925b2d63351a46f0201af5" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>FontSize</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_text_block_1a21736e4bda24c1b5176882e5526be29a" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>FontStyle</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_text_block_1a55013d4f352a010d0a0d317e9cb24be9" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>fontStyle</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_text_block_1a35aa29b245bc2c911d82935c542f5a64" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>foreground</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a9cca59a2a3dfe0fce6b59c07c54c3abf" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>Foreground</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_text_block_1acea7950eb3a19ce5faa03447d5bbb744" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>GetLocationFromContentAlignment</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a408a4900a1d1e523cb4f742502a8c4f2" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>Height</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a914cb26535a1963efd0d5b33067b6b2e" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>height</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a246fc87022f64df87fe39b0d5d10e396" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>HitTest</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1aed78bf64a01d385d569e0c84850daba3" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>Invalidate</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a806c59f7c745af32f7e1e96b1f3f79a3" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>left</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ae59ab94eb8a2607e60533b83d5ec45b2" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>Left</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a7a322ef5474009250eeb7a7723a2fb9d" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>MouseDown</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a86e3dbddfbbc980c087ad0f8f612d62f" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>MouseMove</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a62dd135f9a076e73ab56d2891f0394fb" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>MouseUp</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a7133d551d78792b4598a4389095d6735" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>Name</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a0a4208f34ecd23b1742a9d77cd2e0fa6" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>OnClick</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a55ccc0b5c7e9dd6bd3370efd8b5dae5b" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>OnInvalidate</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ab855501c2fefb0341c6b88b1a15c29e5" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>OnInvalidate</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a2762b95709af1aaf8a1b2d4364caf735" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>OnMouseDown</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a14689b1210f33374e6236054bc2d4701" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>OnMouseMove</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ac510e6d510f57dd8f0ef9621b769c43c" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>OnMouseUp</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_text_block_1a64a6a9fdda4cfe9c5781d1c54ce3da84" prot="protected" virt="virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>OnRender</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a16d35f873e4d66ff2dc12ea2c119e59b" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>Opacity</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a848ad4f50ea4adbdd6772b58dc602fd8" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>Parent</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a35c4be2135cb7006bf6b8fbcdef98d66" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>Rectangle</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a5a13a9db26f3f4b0ec8dfa11b539df0e" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>Render</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_text_block_1adb2a2ffb3dfb4a01a54f7addc4740f4f" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>Text</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_text_block_1aef27c5ccdea5145b75f95dc2b84fc8a8" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>text</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_text_block_1a5520820cecde723516e9adca2b0b59e4" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>TextAlignment</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_text_block_1a5241cd03468d8cb060887b91c7394c2d" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>TextBlock</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_text_block_1a52a670b89c27c1e53ad58feb2fe2d205" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>TextBlock</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a92178ef5ce195b44180135041eda7e41" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>top</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a9f9aea5ff48945252459d274e9748e4a" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>Top</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a811f6d91833f15fc5af21d0dffacdb70" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>UIElement</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ab3e8a7dfa7b5583c7060c67270462c3b" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>Visible</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a300c1ddd3679217e9b59494dd4ff73cd" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>width</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a5f936204905b26716555b25941b511f9" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::TextBlock</scope><name>Width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

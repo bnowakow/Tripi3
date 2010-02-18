@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_g_p_s_mobile_1_1_utils" kind="class" prot="public">
+    <compoundname>GPSMobile::Utils</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_utils_1a664922464f670a3f82a97a1c6b7524e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GPSMobile.Utils.Utils</definition>
+        <argsstring>()</argsstring>
+        <name>Utils</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/Utils.cs" line="11" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/Utils.cs" bodystart="10" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_utils_1ad06c70e751bed4a355e24d89fb00e120" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr GPSMobile.Utils.LocalAlloc</definition>
+        <argsstring>(int byteCount)</argsstring>
+        <name>LocalAlloc</name>
+        <param>
+          <type>int</type>
+          <declname>byteCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/Utils.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/Utils.cs" bodystart="14" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_utils_1a8c4ab018a2f255e4671f1252726d1866" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GPSMobile.Utils.LocalFree</definition>
+        <argsstring>(IntPtr hMem)</argsstring>
+        <name>LocalFree</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>hMem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/Utils.cs" line="26" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/Utils.cs" bodystart="25" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Summary description for <ref refid="class_g_p_s_mobile_1_1_utils" kindref="compound">Utils</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/Utils.cs" line="9" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/Utils.cs" bodystart="8" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_g_p_s_mobile_1_1_utils_1ad06c70e751bed4a355e24d89fb00e120" prot="public" virt="non-virtual"><scope>GPSMobile::Utils</scope><name>LocalAlloc</name></member>
+      <member refid="class_g_p_s_mobile_1_1_utils_1a8c4ab018a2f255e4671f1252726d1866" prot="public" virt="non-virtual"><scope>GPSMobile::Utils</scope><name>LocalFree</name></member>
+      <member refid="class_g_p_s_mobile_1_1_utils_1a664922464f670a3f82a97a1c6b7524e5" prot="public" virt="non-virtual"><scope>GPSMobile::Utils</scope><name>Utils</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

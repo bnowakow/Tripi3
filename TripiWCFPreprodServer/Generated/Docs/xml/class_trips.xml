@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_trips" kind="class" prot="public">
+    <compoundname>Trips</compoundname>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_trips_1a1cbd5d209954c5fec10dd6382fd329e0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Trips.Page_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Page_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/Trips.aspx.cs" line="11" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/Trips.aspx.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/Trips.aspx.cs" line="9" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/Trips.aspx.cs" bodystart="8" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_trips_1a1cbd5d209954c5fec10dd6382fd329e0" prot="protected" virt="non-virtual"><scope>Trips</scope><name>Page_Load</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

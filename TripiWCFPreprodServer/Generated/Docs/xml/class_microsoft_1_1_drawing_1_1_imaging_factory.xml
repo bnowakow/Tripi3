@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_microsoft_1_1_drawing_1_1_imaging_factory" kind="class" prot="public">
+    <compoundname>Microsoft::Drawing::ImagingFactory</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_microsoft_1_1_drawing_1_1_imaging_factory_1afe3004ff8aa80fe4dca9bfe83c4e2072" prot="private" static="yes" mutable="no">
+        <type><ref refid="interface_microsoft_1_1_drawing_1_1_i_imaging_factory" kindref="compound">IImagingFactory</ref></type>
+        <definition>IImagingFactory Microsoft.Drawing.ImagingFactory.factory</definition>
+        <argsstring></argsstring>
+        <name>factory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_imaging_factory_1a625794ee0c023f8cefa86cc6abb8d69f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interface_microsoft_1_1_drawing_1_1_i_imaging_factory" kindref="compound">IImagingFactory</ref></type>
+        <definition>static IImagingFactory Microsoft.Drawing.ImagingFactory.GetImaging</definition>
+        <argsstring>()</argsstring>
+        <name>GetImaging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="18" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="17" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="271">
+        <label>Microsoft.Drawing.IImagingFactory</label>
+        <link refid="interface_microsoft_1_1_drawing_1_1_i_imaging_factory"/>
+      </node>
+      <node id="270">
+        <label>Microsoft.Drawing.ImagingFactory</label>
+        <childnode refid="271" relation="usage">
+          <edgelabel>factory</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="14" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="13" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_microsoft_1_1_drawing_1_1_imaging_factory_1afe3004ff8aa80fe4dca9bfe83c4e2072" prot="private" virt="non-virtual"><scope>Microsoft::Drawing::ImagingFactory</scope><name>factory</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_imaging_factory_1a625794ee0c023f8cefa86cc6abb8d69f" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::ImagingFactory</scope><name>GetImaging</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

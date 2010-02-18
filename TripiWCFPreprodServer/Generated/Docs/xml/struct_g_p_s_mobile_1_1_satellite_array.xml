@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="struct_g_p_s_mobile_1_1_satellite_array" kind="struct" prot="public">
+    <compoundname>GPSMobile::SatelliteArray</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_g_p_s_mobile_1_1_satellite_array_1a6d9b0c954df46d3478c3a014295ade3f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.SatelliteArray.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="24" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_p_s_mobile_1_1_satellite_array_1a5cde85685ec9ed6f719b8bc6aef68825" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.SatelliteArray.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="24" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_p_s_mobile_1_1_satellite_array_1a8d9a5a5f34ba7e68d13229cd1abf3161" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.SatelliteArray.c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="24" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_p_s_mobile_1_1_satellite_array_1ad5f85990652fe7e4e30397ed4b771d13" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.SatelliteArray.d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="24" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_p_s_mobile_1_1_satellite_array_1a02fdc9acafeb90c0ad579b5250fa96a0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.SatelliteArray.e</definition>
+        <argsstring></argsstring>
+        <name>e</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="24" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_p_s_mobile_1_1_satellite_array_1a45f767bf59869179fb9d19b63cf3a7d5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.SatelliteArray.f</definition>
+        <argsstring></argsstring>
+        <name>f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="24" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_p_s_mobile_1_1_satellite_array_1adbdecc584cfec8c663b81000d4a3df30" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.SatelliteArray.g</definition>
+        <argsstring></argsstring>
+        <name>g</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="24" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_p_s_mobile_1_1_satellite_array_1abf2e6b985e5d6b2caba4d715d9070bc3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.SatelliteArray.h</definition>
+        <argsstring></argsstring>
+        <name>h</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="24" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_p_s_mobile_1_1_satellite_array_1aad410a87467633a400ac6864dafc9c44" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.SatelliteArray.i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="24" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_p_s_mobile_1_1_satellite_array_1a84d7ef86dded1467558e8fe1558b592c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.SatelliteArray.j</definition>
+        <argsstring></argsstring>
+        <name>j</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="24" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_p_s_mobile_1_1_satellite_array_1a215e179e7a20ac13b74b4d7f616d45cb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.SatelliteArray.k</definition>
+        <argsstring></argsstring>
+        <name>k</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="24" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_p_s_mobile_1_1_satellite_array_1a3d547750c6d5c0735342dcfae32d035a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.SatelliteArray.l</definition>
+        <argsstring></argsstring>
+        <name>l</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="24" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_g_p_s_mobile_1_1_satellite_array_1a59a9366eb3fbe63e760f832ebb3ee203" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int GPSMobile.SatelliteArray.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="29" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_g_p_s_mobile_1_1_satellite_array_1aef10f93c6bfc6fc95ef4074bca1fe32c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int GPSMobile.SatelliteArray.this[int value]</definition>
+        <argsstring>[int value]</argsstring>
+        <name>this</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="49" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="23" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="22" bodyend="50"/>
+    <listofallmembers>
+      <member refid="struct_g_p_s_mobile_1_1_satellite_array_1a6d9b0c954df46d3478c3a014295ade3f" prot="public" virt="non-virtual"><scope>GPSMobile::SatelliteArray</scope><name>a</name></member>
+      <member refid="struct_g_p_s_mobile_1_1_satellite_array_1a5cde85685ec9ed6f719b8bc6aef68825" prot="public" virt="non-virtual"><scope>GPSMobile::SatelliteArray</scope><name>b</name></member>
+      <member refid="struct_g_p_s_mobile_1_1_satellite_array_1a8d9a5a5f34ba7e68d13229cd1abf3161" prot="public" virt="non-virtual"><scope>GPSMobile::SatelliteArray</scope><name>c</name></member>
+      <member refid="struct_g_p_s_mobile_1_1_satellite_array_1a59a9366eb3fbe63e760f832ebb3ee203" prot="public" virt="non-virtual"><scope>GPSMobile::SatelliteArray</scope><name>Count</name></member>
+      <member refid="struct_g_p_s_mobile_1_1_satellite_array_1ad5f85990652fe7e4e30397ed4b771d13" prot="public" virt="non-virtual"><scope>GPSMobile::SatelliteArray</scope><name>d</name></member>
+      <member refid="struct_g_p_s_mobile_1_1_satellite_array_1a02fdc9acafeb90c0ad579b5250fa96a0" prot="public" virt="non-virtual"><scope>GPSMobile::SatelliteArray</scope><name>e</name></member>
+      <member refid="struct_g_p_s_mobile_1_1_satellite_array_1a45f767bf59869179fb9d19b63cf3a7d5" prot="public" virt="non-virtual"><scope>GPSMobile::SatelliteArray</scope><name>f</name></member>
+      <member refid="struct_g_p_s_mobile_1_1_satellite_array_1adbdecc584cfec8c663b81000d4a3df30" prot="public" virt="non-virtual"><scope>GPSMobile::SatelliteArray</scope><name>g</name></member>
+      <member refid="struct_g_p_s_mobile_1_1_satellite_array_1abf2e6b985e5d6b2caba4d715d9070bc3" prot="public" virt="non-virtual"><scope>GPSMobile::SatelliteArray</scope><name>h</name></member>
+      <member refid="struct_g_p_s_mobile_1_1_satellite_array_1aad410a87467633a400ac6864dafc9c44" prot="public" virt="non-virtual"><scope>GPSMobile::SatelliteArray</scope><name>i</name></member>
+      <member refid="struct_g_p_s_mobile_1_1_satellite_array_1a84d7ef86dded1467558e8fe1558b592c" prot="public" virt="non-virtual"><scope>GPSMobile::SatelliteArray</scope><name>j</name></member>
+      <member refid="struct_g_p_s_mobile_1_1_satellite_array_1a215e179e7a20ac13b74b4d7f616d45cb" prot="public" virt="non-virtual"><scope>GPSMobile::SatelliteArray</scope><name>k</name></member>
+      <member refid="struct_g_p_s_mobile_1_1_satellite_array_1a3d547750c6d5c0735342dcfae32d035a" prot="public" virt="non-virtual"><scope>GPSMobile::SatelliteArray</scope><name>l</name></member>
+      <member refid="struct_g_p_s_mobile_1_1_satellite_array_1aef10f93c6bfc6fc95ef4074bca1fe32c" prot="public" virt="non-virtual"><scope>GPSMobile::SatelliteArray</scope><name>this</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

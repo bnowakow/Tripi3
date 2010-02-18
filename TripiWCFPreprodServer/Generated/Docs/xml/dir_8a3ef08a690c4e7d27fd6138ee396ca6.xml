@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="dir_8a3ef08a690c4e7d27fd6138ee396ca6" kind="dir">
+    <compoundname>TripiWCFService/</compoundname>
+    <innerdir refid="dir_8dffdd8aabb654c0d4d812181058324c">TripiWCFService/Properties/</innerdir>
+    <innerfile refid="_i_cross_domain_policy_responder_8cs">ICrossDomainPolicyResponder.cs</innerfile>
+    <innerfile refid="_i_trip_service_8cs">ITripService.cs</innerfile>
+    <innerfile refid="_position_node_8cs">PositionNode.cs</innerfile>
+    <innerfile refid="_trip_8cs">Trip.cs</innerfile>
+    <innerfile refid="_trip_service_8cs">TripService.cs</innerfile>
+    <innerfile refid="_trip_service_volatile_8cs">TripServiceVolatile.cs</innerfile>
+    <innerfile refid="_trip_service_xml_8cs">TripServiceXml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/"/>
+  </compounddef>
+</doxygen>

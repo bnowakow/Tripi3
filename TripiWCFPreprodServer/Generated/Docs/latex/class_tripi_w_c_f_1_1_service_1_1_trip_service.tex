@@ -1,0 +1,104 @@
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service}{
+\section{TripiWCF.Service.TripService Class Reference}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service}\index{TripiWCF::Service::TripService@{TripiWCF::Service::TripService}}
+}
+Inheritance diagram for TripiWCF.Service.TripService::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.80936cm]{class_tripi_w_c_f_1_1_service_1_1_trip_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_a7c3eb9904b7470d8c4e0c30e40c2e5df}{
+abstract string {\bfseries LoginUser} (string username, string password)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_a7c3eb9904b7470d8c4e0c30e40c2e5df}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_abe14b17b96b898b11055fe36e6baa8a8}{
+abstract int {\bfseries CreateNewTrip} (string username, string tripName, string tripDescription)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_abe14b17b96b898b11055fe36e6baa8a8}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_a549b76b215bf4315e34c843282ceb34e}{
+abstract List$<$ \hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip}{Trip} $>$ {\bfseries GetTripsForUser} (string username)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_a549b76b215bf4315e34c843282ceb34e}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_ae0923d3a21274fcb0d745e11c6cdac58}{
+abstract List$<$ \hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip}{Trip} $>$ {\bfseries GetAllTrips} ()}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_ae0923d3a21274fcb0d745e11c6cdac58}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_a6f83e8b557bf92513706d0804fe3f695}{
+abstract List$<$ \hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{PositionNode} $>$ {\bfseries GetPositionNodesForTrip} (int tripID)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_a6f83e8b557bf92513706d0804fe3f695}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_a9a6ada24dc3934203ecc97d16e5d94cf}{
+abstract int {\bfseries AddPositionNode} (\hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{PositionNode} node)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_a9a6ada24dc3934203ecc97d16e5d94cf}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_af7fd2655125dfe5873758ca91098c7da}{
+virtual void {\bfseries AddManyPositionNodes} (IEnumerable$<$ \hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{PositionNode} $>$ nodes)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_af7fd2655125dfe5873758ca91098c7da}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_a81b3091acfc87b1b53c717134df0e45f}{
+abstract void {\bfseries UpdateTripDescription} (int tripID, string tripDescription)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_a81b3091acfc87b1b53c717134df0e45f}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_a05c27415efabd39a9a3a41ab8a333fa7}{
+abstract void {\bfseries UpdatePositionNodeDescription} (int tripID, int nodeNumber, string nodeDescription)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_a05c27415efabd39a9a3a41ab8a333fa7}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_a746729f84fa9a52e530789c7997408f5}{
+Stream {\bfseries GetSilverlightPolicy} ()}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_a746729f84fa9a52e530789c7997408f5}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_a07ae9a6e7ef2128f9b81b00760cd6883}{
+Stream {\bfseries GetFlashPolicy} ()}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_a07ae9a6e7ef2128f9b81b00760cd6883}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_a518d3c488db62624722c4c94f27394f4}{
+virtual void {\bfseries OnDatabaseInsert} (int tripCount, int positionNodeCount)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_a518d3c488db62624722c4c94f27394f4}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_ac6c9da0776d2f882f8a834f69dc378e8}{
+virtual void {\bfseries OnDatabaseQuery} (string queryInfo)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_ac6c9da0776d2f882f8a834f69dc378e8}
+
+\end{DoxyCompactItemize}
+\subsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_afdebab617e6e7caaf118bcfb7ce3d7a1}{
+static Action$<$ int, int $>$ {\bfseries DatabaseInsert}}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_afdebab617e6e7caaf118bcfb7ce3d7a1}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_aa0bc7b737cf91139934f7e69ba01164a}{
+static Action$<$ string $>$ {\bfseries DatabaseQuery}}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_aa0bc7b737cf91139934f7e69ba01164a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 12 of file TripService.cs.
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+TripiWCFService/TripService.cs\end{DoxyCompactItemize}
