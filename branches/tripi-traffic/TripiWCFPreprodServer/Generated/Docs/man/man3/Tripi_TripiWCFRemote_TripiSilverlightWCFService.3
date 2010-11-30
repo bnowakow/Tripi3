@@ -1,0 +1,76 @@
+.TH "Tripi::TripiWCFRemote::TripiSilverlightWCFService" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Tripi::TripiWCFRemote::TripiSilverlightWCFService \- 
+.PP
+ 
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTripiSilverlightWCFService\fP ()"
+.br
+.RI "\fI\fP"
+.ti -1c
+.RI "void \fBCreateNewTrip\fP ([System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string username, out int CreateNewTripResult,[System.Xml.Serialization.XmlIgnoreAttribute()] out bool CreateNewTripResultSpecified)"
+.br
+.RI "\fI\fP"
+.ti -1c
+.RI "System.IAsyncResult \fBBeginCreateNewTrip\fP (string username, System.AsyncCallback callback, object asyncState)"
+.br
+.RI "\fI\fP"
+.ti -1c
+.RI "void \fBEndCreateNewTrip\fP (System.IAsyncResult asyncResult, out int CreateNewTripResult, out bool CreateNewTripResultSpecified)"
+.br
+.RI "\fI\fP"
+.ti -1c
+.RI "\fBTrip\fP[] \fBGetTripsForUser\fP ([System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string username)"
+.br
+.RI "\fI\fP"
+.ti -1c
+.RI "System.IAsyncResult \fBBeginGetTripsForUser\fP (string username, System.AsyncCallback callback, object asyncState)"
+.br
+.RI "\fI\fP"
+.ti -1c
+.RI "\fBTrip\fP[] \fBEndGetTripsForUser\fP (System.IAsyncResult asyncResult)"
+.br
+.RI "\fI\fP"
+.ti -1c
+.RI "\fBPositionNode\fP[] \fBGetPositionNodesForTrip\fP (int tripID,[System.Xml.Serialization.XmlIgnoreAttribute()] bool tripIDSpecified)"
+.br
+.RI "\fI\fP"
+.ti -1c
+.RI "System.IAsyncResult \fBBeginGetPositionNodesForTrip\fP (int tripID, bool tripIDSpecified, System.AsyncCallback callback, object asyncState)"
+.br
+.RI "\fI\fP"
+.ti -1c
+.RI "\fBPositionNode\fP[] \fBEndGetPositionNodesForTrip\fP (System.IAsyncResult asyncResult)"
+.br
+.RI "\fI\fP"
+.ti -1c
+.RI "void \fBAddPositionNode\fP ([System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] \fBPositionNode\fP node)"
+.br
+.RI "\fI\fP"
+.ti -1c
+.RI "System.IAsyncResult \fBBeginAddPositionNode\fP (\fBPositionNode\fP node, System.AsyncCallback callback, object asyncState)"
+.br
+.RI "\fI\fP"
+.ti -1c
+.RI "void \fBEndAddPositionNode\fP (System.IAsyncResult asyncResult)"
+.br
+.RI "\fI\fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.PP
+Definition at line 27 of file Reference.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

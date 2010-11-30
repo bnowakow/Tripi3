@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_cities_by_country_request1" kind="class" prot="public">
+    <compoundname>SilverlightShowcase::SampleWeatherService::GetCitiesByCountryRequest1</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_cities_by_country_request1_1aad3858a91deb20b995fd9735ab0c9491" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SilverlightShowcase.SampleWeatherService.GetCitiesByCountryRequest1.CountryName</definition>
+        <argsstring></argsstring>
+        <name>CountryName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" line="851" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" bodystart="851" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_cities_by_country_request1_1a13997e3d850eff063281a669714d5c41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SilverlightShowcase.SampleWeatherService.GetCitiesByCountryRequest1.GetCitiesByCountryRequest1</definition>
+        <argsstring>()</argsstring>
+        <name>GetCitiesByCountryRequest1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" line="853" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" bodystart="853" bodyend="854"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_cities_by_country_request1_1a11133463890662d83f2d5d90c0f232fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SilverlightShowcase.SampleWeatherService.GetCitiesByCountryRequest1.GetCitiesByCountryRequest1</definition>
+        <argsstring>(string CountryName)</argsstring>
+        <name>GetCitiesByCountryRequest1</name>
+        <param>
+          <type>string</type>
+          <declname>CountryName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" line="856" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" bodystart="856" bodyend="858"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" line="848" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" bodystart="848" bodyend="859"/>
+    <listofallmembers>
+      <member refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_cities_by_country_request1_1aad3858a91deb20b995fd9735ab0c9491" prot="public" virt="non-virtual"><scope>SilverlightShowcase::SampleWeatherService::GetCitiesByCountryRequest1</scope><name>CountryName</name></member>
+      <member refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_cities_by_country_request1_1a13997e3d850eff063281a669714d5c41" prot="public" virt="non-virtual"><scope>SilverlightShowcase::SampleWeatherService::GetCitiesByCountryRequest1</scope><name>GetCitiesByCountryRequest1</name></member>
+      <member refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_cities_by_country_request1_1a11133463890662d83f2d5d90c0f232fa" prot="public" virt="non-virtual"><scope>SilverlightShowcase::SampleWeatherService::GetCitiesByCountryRequest1</scope><name>GetCitiesByCountryRequest1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

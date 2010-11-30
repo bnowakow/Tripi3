@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightShowcase", "SilverlightShowcase\SilverlightShowcase.csproj", "{654120A1-463B-476A-850A-C21CA98D9D6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripiMobile", "TripiMobile\TripiMobile.csproj", "{E17EB9F6-C2CE-41C2-B0AB-43B3DE3A3CD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPSMobile", "GPS\GPSMobile.csproj", "{DB77C1EE-A383-4CD5-A107-1C7C26A9E6B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Msdn.UIFramework", "UIFrameworkMobile\Msdn.UIFramework.csproj", "{EF3B7C07-DC66-4092-B3C4-B7EFA1C4C349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripiWCFService", "TripiWCFService\TripiWCFService.csproj", "{0DCE4B13-DA8C-471F-9974-3B97466424DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripiWCFPreprodServer", "TripiWCFPreprodServer\TripiWCFPreprodServer.csproj", "{87BE2F60-95C3-445F-9F29-2DA7C1630640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripiWCFClientMockup", "TripiWCFClientMockup\TripiWCFClientMockup.csproj", "{9F283238-9ABD-453D-BE34-745889FB75D1}"
+EndProject
+Project("{B900F1C2-3D47-4FEC-85B3-04AAF18C3634}") = "TripiMobileCab", "TripiMobileCab\TripiMobileCab.vddproj", "{E4D79A0B-5A10-4900-ADF3-107D82EA1BC6}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tripi", "Tripi\", "{6D72C5CC-08BC-4338-A6B8-317FD62D4095}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/Tripi"
+		Debug.AspNetCompiler.PhysicalPath = "Tripi\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Tripi\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Tripi"
+		Release.AspNetCompiler.PhysicalPath = "Tripi\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Tripi\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50333"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{654120A1-463B-476A-850A-C21CA98D9D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654120A1-463B-476A-850A-C21CA98D9D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654120A1-463B-476A-850A-C21CA98D9D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654120A1-463B-476A-850A-C21CA98D9D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17EB9F6-C2CE-41C2-B0AB-43B3DE3A3CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17EB9F6-C2CE-41C2-B0AB-43B3DE3A3CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17EB9F6-C2CE-41C2-B0AB-43B3DE3A3CD5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E17EB9F6-C2CE-41C2-B0AB-43B3DE3A3CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17EB9F6-C2CE-41C2-B0AB-43B3DE3A3CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17EB9F6-C2CE-41C2-B0AB-43B3DE3A3CD5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DB77C1EE-A383-4CD5-A107-1C7C26A9E6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB77C1EE-A383-4CD5-A107-1C7C26A9E6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB77C1EE-A383-4CD5-A107-1C7C26A9E6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB77C1EE-A383-4CD5-A107-1C7C26A9E6B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3B7C07-DC66-4092-B3C4-B7EFA1C4C349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3B7C07-DC66-4092-B3C4-B7EFA1C4C349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3B7C07-DC66-4092-B3C4-B7EFA1C4C349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3B7C07-DC66-4092-B3C4-B7EFA1C4C349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DCE4B13-DA8C-471F-9974-3B97466424DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DCE4B13-DA8C-471F-9974-3B97466424DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DCE4B13-DA8C-471F-9974-3B97466424DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DCE4B13-DA8C-471F-9974-3B97466424DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BE2F60-95C3-445F-9F29-2DA7C1630640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BE2F60-95C3-445F-9F29-2DA7C1630640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BE2F60-95C3-445F-9F29-2DA7C1630640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BE2F60-95C3-445F-9F29-2DA7C1630640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F283238-9ABD-453D-BE34-745889FB75D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F283238-9ABD-453D-BE34-745889FB75D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F283238-9ABD-453D-BE34-745889FB75D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F283238-9ABD-453D-BE34-745889FB75D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D79A0B-5A10-4900-ADF3-107D82EA1BC6}.Debug|Any CPU.ActiveCfg = Debug
+		{E4D79A0B-5A10-4900-ADF3-107D82EA1BC6}.Release|Any CPU.ActiveCfg = Release
+		{6D72C5CC-08BC-4338-A6B8-317FD62D4095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D72C5CC-08BC-4338-A6B8-317FD62D4095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D72C5CC-08BC-4338-A6B8-317FD62D4095}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D72C5CC-08BC-4338-A6B8-317FD62D4095}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

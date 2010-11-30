@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e9cb589e-be8c-4565-88d6-c7b5df1ac351" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1094/TripiSilverlightWCFService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TripiSilverlightWCFService.wsdl" MetadataType="Wsdl" ID="64dde913-3942-4d53-8a97-1870b446e013" SourceId="1" SourceUrl="http://localhost:1094/TripiSilverlightWCFService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="TripiSilverlightWCFService.disco" MetadataType="Disco" ID="c05e589e-dac4-40a4-9e3d-50f06b9a8e20" SourceId="1" SourceUrl="http://localhost:1094/TripiSilverlightWCFService.svc?disco" />
+    <MetadataFile FileName="TripiSilverlightWCFService1.wsdl" MetadataType="Wsdl" ID="4ed43b61-40c0-476b-8a7a-dbc80efd6590" SourceId="1" SourceUrl="http://localhost:1094/TripiSilverlightWCFService.svc?wsdl" />
+    <MetadataFile FileName="TripiSilverlightWCFService.xsd" MetadataType="Schema" ID="8e61ae36-d8f0-462b-a6fb-6340b320b1b9" SourceId="1" SourceUrl="http://localhost:1094/TripiSilverlightWCFService.svc?xsd=xsd2" />
+    <MetadataFile FileName="TripiSilverlightWCFService1.xsd" MetadataType="Schema" ID="89a8b056-fb40-472a-a293-d29e6b8b51a3" SourceId="1" SourceUrl="http://localhost:1094/TripiSilverlightWCFService.svc?xsd=xsd1" />
+    <MetadataFile FileName="TripiSilverlightWCFService2.xsd" MetadataType="Schema" ID="42e0729d-fcac-406b-a784-11b1df19339c" SourceId="1" SourceUrl="http://localhost:1094/TripiSilverlightWCFService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

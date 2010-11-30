@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap_client_1_1_global_weather_soap_client_channel" kind="class" prot="private">
+    <compoundname>SilverlightShowcase::SampleWeatherService::GlobalWeatherSoapClient::GlobalWeatherSoapClientChannel</compoundname>
+    <basecompoundref refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap" prot="public" virt="non-virtual">SilverlightShowcase.SampleWeatherService.GlobalWeatherSoap</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap_client_1_1_global_weather_soap_client_channel_1aae34853d935145677919e52ba463d1f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SilverlightShowcase.SampleWeatherService.GlobalWeatherSoapClient.GlobalWeatherSoapClientChannel.GlobalWeatherSoapClientChannel</definition>
+        <argsstring>(System.ServiceModel.ClientBase&lt; SilverlightShowcase.SampleWeatherService.GlobalWeatherSoap &gt; client)</argsstring>
+        <name>GlobalWeatherSoapClientChannel</name>
+        <param>
+          <type>System.ServiceModel.ClientBase&lt; <ref refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap" kindref="compound">SilverlightShowcase.SampleWeatherService.GlobalWeatherSoap</ref> &gt;</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" line="320" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" bodystart="319" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap_client_1_1_global_weather_soap_client_channel_1a947d3b390f4be1d3438f97b1a58dd327" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult SilverlightShowcase.SampleWeatherService.GlobalWeatherSoapClient.GlobalWeatherSoapClientChannel.BeginGetWeather</definition>
+        <argsstring>(string CityName, string CountryName, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetWeather</name>
+        <param>
+          <type>string</type>
+          <declname>CityName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>CountryName</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" line="323" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" bodystart="323" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap_client_1_1_global_weather_soap_client_channel_1a14d482d4ccff18fcba3bad874ff0ac3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SilverlightShowcase.SampleWeatherService.GlobalWeatherSoapClient.GlobalWeatherSoapClientChannel.EndGetWeather</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetWeather</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" line="331" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" bodystart="331" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap_client_1_1_global_weather_soap_client_channel_1ab3a984e8ef2a0010402896337e2e75a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult SilverlightShowcase.SampleWeatherService.GlobalWeatherSoapClient.GlobalWeatherSoapClientChannel.BeginGetCitiesByCountry</definition>
+        <argsstring>(string CountryName, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetCitiesByCountry</name>
+        <param>
+          <type>string</type>
+          <declname>CountryName</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" line="345" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" bodystart="345" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap_client_1_1_global_weather_soap_client_channel_1ad883e6bdde7980145d5dd6a199c80439" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SilverlightShowcase.SampleWeatherService.GlobalWeatherSoapClient.GlobalWeatherSoapClientChannel.EndGetCitiesByCountry</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetCitiesByCountry</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" line="352" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" bodystart="352" bodyend="356"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="209">
+        <label>SilverlightShowcase.SampleWeatherService.GlobalWeatherSoap</label>
+        <link refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap"/>
+      </node>
+      <node id="208">
+        <label>SilverlightShowcase.SampleWeatherService.GlobalWeatherSoapClient.GlobalWeatherSoapClientChannel</label>
+        <childnode refid="209" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="211">
+        <label>SilverlightShowcase.SampleWeatherService.GlobalWeatherSoap</label>
+        <link refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap"/>
+      </node>
+      <node id="210">
+        <label>SilverlightShowcase.SampleWeatherService.GlobalWeatherSoapClient.GlobalWeatherSoapClientChannel</label>
+        <childnode refid="211" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" line="317" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" bodystart="317" bodyend="357"/>
+    <listofallmembers>
+      <member refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap_client_1_1_global_weather_soap_client_channel_1ab3a984e8ef2a0010402896337e2e75a1" prot="public" virt="non-virtual"><scope>SilverlightShowcase::SampleWeatherService::GlobalWeatherSoapClient::GlobalWeatherSoapClientChannel</scope><name>BeginGetCitiesByCountry</name></member>
+      <member refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap_client_1_1_global_weather_soap_client_channel_1a947d3b390f4be1d3438f97b1a58dd327" prot="public" virt="non-virtual"><scope>SilverlightShowcase::SampleWeatherService::GlobalWeatherSoapClient::GlobalWeatherSoapClientChannel</scope><name>BeginGetWeather</name></member>
+      <member refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap_client_1_1_global_weather_soap_client_channel_1ad883e6bdde7980145d5dd6a199c80439" prot="public" virt="non-virtual"><scope>SilverlightShowcase::SampleWeatherService::GlobalWeatherSoapClient::GlobalWeatherSoapClientChannel</scope><name>EndGetCitiesByCountry</name></member>
+      <member refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap_client_1_1_global_weather_soap_client_channel_1a14d482d4ccff18fcba3bad874ff0ac3c" prot="public" virt="non-virtual"><scope>SilverlightShowcase::SampleWeatherService::GlobalWeatherSoapClient::GlobalWeatherSoapClientChannel</scope><name>EndGetWeather</name></member>
+      <member refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap_client_1_1_global_weather_soap_client_channel_1aae34853d935145677919e52ba463d1f8" prot="public" virt="non-virtual"><scope>SilverlightShowcase::SampleWeatherService::GlobalWeatherSoapClient::GlobalWeatherSoapClientChannel</scope><name>GlobalWeatherSoapClientChannel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1_user" kind="class" prot="public">
+    <compoundname>Tripi::User</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_tripi_1_1_user_1a15017aefffdf4f974cac0c990aac5251" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Tripi.User.login</definition>
+        <argsstring></argsstring>
+        <name>login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/User.cs" line="13" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/User.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tripi_1_1_user_1a6a407b81281856ca664b807185a19641" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>String</type>
+        <definition>String Tripi.User.Login</definition>
+        <argsstring></argsstring>
+        <name>Login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/User.cs" line="18" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/User.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class representing the current user. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/User.cs" line="12" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/User.cs" bodystart="11" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1_user_1a15017aefffdf4f974cac0c990aac5251" prot="private" virt="non-virtual"><scope>Tripi::User</scope><name>login</name></member>
+      <member refid="class_tripi_1_1_user_1a6a407b81281856ca664b807185a19641" prot="public" virt="non-virtual"><scope>Tripi::User</scope><name>Login</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

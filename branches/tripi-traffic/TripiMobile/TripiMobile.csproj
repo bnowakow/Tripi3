@@ -1,0 +1,236 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E17EB9F6-C2CE-41C2-B0AB-43B3DE3A3CD5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tripi</RootNamespace>
+    <AssemblyName>Tripi</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>b2c48bd2-963d-4549-9169-1fa021dce484</PlatformID>
+    <OSVersion>5.2</OSVersion>
+    <DeployDirSuffix>Tripi</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows Mobile 6 Professional SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsCE.Forms" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3be235df1c8d2ad3, processorArchitecture=MSIL" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ContinueTripForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContinueTripForm.Designer.cs">
+      <DependentUpon>ContinueTripForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MobileConfiguration.cs" />
+    <Compile Include="TripSpotsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripSpotsForm.Designer.cs">
+      <DependentUpon>TripSpotsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PointForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PointForm.Designer.cs">
+      <DependentUpon>PointForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewTripForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewTripForm.Designer.cs">
+      <DependentUpon>NewTripForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TripForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TripForm.Designer.cs">
+      <DependentUpon>TripForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gps\GPSListener.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="data\DataBase.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GpsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GpsForm.Designer.cs">
+      <DependentUpon>GpsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ContinueTripForm.resx">
+      <DependentUpon>ContinueTripForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripSpotsForm.resx">
+      <DependentUpon>TripSpotsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PointForm.resx">
+      <DependentUpon>PointForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTripForm.resx">
+      <DependentUpon>NewTripForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TripForm.resx">
+      <DependentUpon>TripForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GpsForm.resx">
+      <DependentUpon>GpsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="wcf\CFClientBase.cs" />
+    <Compile Include="wcf\TripiWCFService.cs" />
+    <Compile Include="wcf\Utils.cs" />
+    <Compile Include="Web References\TripiWCFRemote\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="wcf\ServiceManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://10.211.55.3:1234/TripiSilverlightWCFService.svc">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\TripiWCFRemote\</RelPath>
+      <UpdateFromURL>http://10.211.55.3:1234/TripiSilverlightWCFService.svc</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\tripi.sdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\clouds.png" />
+    <Content Include="images\clouds1.png" />
+    <Content Include="images\grass.jpg" />
+    <Content Include="images\grass2.png" />
+    <Content Include="images\grass3.png" />
+    <Content Include="images\grass4.png" />
+    <Content Include="images\ground.jpg" />
+    <Content Include="images\ground1.png" />
+    <Content Include="app.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Web References\TripiWCFRemote\PositionNode.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TripiWCFRemote\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\TripiWCFRemote\Trip.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\TripiWCFRemote\TripiSilverlightWCFService.disco" />
+    <None Include="Web References\TripiWCFRemote\TripiSilverlightWCFService.wsdl" />
+    <None Include="Web References\TripiWCFRemote\TripiSilverlightWCFService.xsd" />
+    <None Include="Web References\TripiWCFRemote\TripiSilverlightWCFService0.wsdl" />
+    <None Include="Web References\TripiWCFRemote\TripiSilverlightWCFService0.xsd" />
+    <None Include="Web References\TripiWCFRemote\TripiSilverlightWCFService1.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GPS\GPSMobile.csproj">
+      <Project>{DB77C1EE-A383-4CD5-A107-1C7C26A9E6B8}</Project>
+      <Name>GPSMobile</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UIFrameworkMobile\Msdn.UIFramework.csproj">
+      <Project>{EF3B7C07-DC66-4092-B3C4-B7EFA1C4C349}</Project>
+      <Name>Msdn.UIFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

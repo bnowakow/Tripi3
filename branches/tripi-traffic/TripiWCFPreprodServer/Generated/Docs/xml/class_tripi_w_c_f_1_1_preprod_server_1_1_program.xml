@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_w_c_f_1_1_preprod_server_1_1_program" kind="class" prot="public">
+    <compoundname>TripiWCF::PreprodServer::Program</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_preprod_server_1_1_program_1a368be4fa33c890746b070467394066c2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void TripiWCF.PreprodServer.Program.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>The main entry point for the application. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Program.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Program.cs" bodystart="14" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Program.cs" line="9" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Program.cs" bodystart="8" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_tripi_w_c_f_1_1_preprod_server_1_1_program_1a368be4fa33c890746b070467394066c2" prot="private" virt="non-virtual"><scope>TripiWCF::PreprodServer::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

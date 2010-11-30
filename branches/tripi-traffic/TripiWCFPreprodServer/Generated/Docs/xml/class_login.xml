@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_login" kind="class" prot="public">
+    <compoundname>Login</compoundname>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_login_1a127860753dc4a7304cc5278d7b39af1d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Login.Page_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Page_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/Login.aspx.cs" line="11" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/Login.aspx.cs" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_login_1aca223b96d333691c4197e0e0a64338a2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Login.AutenticateUser</definition>
+        <argsstring>(object sender, AuthenticateEventArgs e)</argsstring>
+        <name>AutenticateUser</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>AuthenticateEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/Login.aspx.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/Login.aspx.cs" bodystart="14" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_login_1ae2c9e29630e8914f132b93ddf99462f0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Login.UserCredentialsValid</definition>
+        <argsstring>(string login, string password)</argsstring>
+        <name>UserCredentialsValid</name>
+        <param>
+          <type>string</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/Login.aspx.cs" line="23" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/Login.aspx.cs" bodystart="22" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/Login.aspx.cs" line="9" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/Login.aspx.cs" bodystart="8" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_login_1aca223b96d333691c4197e0e0a64338a2" prot="protected" virt="non-virtual"><scope>Login</scope><name>AutenticateUser</name></member>
+      <member refid="class_login_1a127860753dc4a7304cc5278d7b39af1d" prot="protected" virt="non-virtual"><scope>Login</scope><name>Page_Load</name></member>
+      <member refid="class_login_1ae2c9e29630e8914f132b93ddf99462f0" prot="private" virt="non-virtual"><scope>Login</scope><name>UserCredentialsValid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

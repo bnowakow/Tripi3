@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_msdn_1_1_u_i_framework_1_1_linear_gradient" kind="class" prot="public">
+    <compoundname>Msdn::UIFramework::LinearGradient</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_linear_gradient_1a3cd9cbb54a02297f36d1fbe228ed63be" prot="private" static="no" mutable="no">
+        <type>List&lt; Color &gt;</type>
+        <definition>List&lt;Color&gt; Msdn.UIFramework.LinearGradient.colors</definition>
+        <argsstring></argsstring>
+        <name>colors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/LinearGradient.cs" line="17" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/LinearGradient.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_linear_gradient_1a42930c41776bdde409bd18e56812c756" prot="private" static="no" mutable="no">
+        <type>LinearGradientMode</type>
+        <definition>LinearGradientMode Msdn.UIFramework.LinearGradient.mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/LinearGradient.cs" line="18" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/LinearGradient.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_linear_gradient_1ae5a7f469a0817b45d9716aed324913c7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; Color &gt;</type>
+        <definition>List&lt;Color&gt; Msdn.UIFramework.LinearGradient.LinearColors</definition>
+        <argsstring></argsstring>
+        <name>LinearColors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/LinearGradient.cs" line="44" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/LinearGradient.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_linear_gradient_1a8f9c9749144b296c9ffec46dd16b7d1e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>LinearGradientMode</type>
+        <definition>LinearGradientMode Msdn.UIFramework.LinearGradient.GradientMode</definition>
+        <argsstring></argsstring>
+        <name>GradientMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/LinearGradient.cs" line="57" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/LinearGradient.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_linear_gradient_1a7fff2fbbd3b6b4f1a93054924ede93dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Msdn.UIFramework.LinearGradient.LinearGradient</definition>
+        <argsstring>()</argsstring>
+        <name>LinearGradient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/LinearGradient.cs" line="21" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/LinearGradient.cs" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_linear_gradient_1a5e61ccf82d979d6b2cc850b38fedae77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Msdn.UIFramework.LinearGradient.LinearGradient</definition>
+        <argsstring>(Color color1, Color color2)</argsstring>
+        <name>LinearGradient</name>
+        <param>
+          <type>Color</type>
+          <declname>color1</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/LinearGradient.cs" line="27" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/LinearGradient.cs" bodystart="26" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/LinearGradient.cs" line="16" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/LinearGradient.cs" bodystart="15" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_linear_gradient_1a3cd9cbb54a02297f36d1fbe228ed63be" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::LinearGradient</scope><name>colors</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_linear_gradient_1a8f9c9749144b296c9ffec46dd16b7d1e" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::LinearGradient</scope><name>GradientMode</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_linear_gradient_1ae5a7f469a0817b45d9716aed324913c7" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::LinearGradient</scope><name>LinearColors</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_linear_gradient_1a7fff2fbbd3b6b4f1a93054924ede93dc" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::LinearGradient</scope><name>LinearGradient</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_linear_gradient_1a5e61ccf82d979d6b2cc850b38fedae77" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::LinearGradient</scope><name>LinearGradient</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_linear_gradient_1a42930c41776bdde409bd18e56812c756" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::LinearGradient</scope><name>mode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

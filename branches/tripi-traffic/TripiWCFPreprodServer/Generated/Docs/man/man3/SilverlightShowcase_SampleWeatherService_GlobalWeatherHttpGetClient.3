@@ -1,0 +1,94 @@
+.TH "SilverlightShowcase::SampleWeatherService::GlobalWeatherHttpGetClient" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SilverlightShowcase::SampleWeatherService::GlobalWeatherHttpGetClient \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBSilverlightShowcase::SampleWeatherService::GlobalWeatherHttpGet\fP.
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBGlobalWeatherHttpGetClientChannel\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBGlobalWeatherHttpGetClient\fP (string endpointConfigurationName)"
+.br
+.ti -1c
+.RI "\fBGlobalWeatherHttpGetClient\fP (string endpointConfigurationName, string remoteAddress)"
+.br
+.ti -1c
+.RI "\fBGlobalWeatherHttpGetClient\fP (string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress)"
+.br
+.ti -1c
+.RI "\fBGlobalWeatherHttpGetClient\fP (System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress)"
+.br
+.ti -1c
+.RI "void \fBGetWeatherAsync\fP (string CityName, string CountryName)"
+.br
+.ti -1c
+.RI "void \fBGetWeatherAsync\fP (string CityName, string CountryName, object userState)"
+.br
+.ti -1c
+.RI "void \fBGetCitiesByCountryAsync\fP (string CountryName)"
+.br
+.ti -1c
+.RI "void \fBGetCitiesByCountryAsync\fP (string CountryName, object userState)"
+.br
+.ti -1c
+.RI "void \fBOpenAsync\fP ()"
+.br
+.ti -1c
+.RI "void \fBOpenAsync\fP (object userState)"
+.br
+.ti -1c
+.RI "void \fBCloseAsync\fP ()"
+.br
+.ti -1c
+.RI "void \fBCloseAsync\fP (object userState)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override \fBSilverlightShowcase.SampleWeatherService.GlobalWeatherHttpGet\fP \fBCreateChannel\fP ()"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "System.Net.CookieContainer \fBCookieContainer\fP\fC [get, set]\fP"
+.br
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "System.EventHandler< \fBGetWeatherCompletedEventArgs1\fP > \fBGetWeatherCompleted\fP"
+.br
+.ti -1c
+.RI "System.EventHandler< \fBGetCitiesByCountryCompletedEventArgs1\fP > \fBGetCitiesByCountryCompleted\fP"
+.br
+.ti -1c
+.RI "System.EventHandler< System.ComponentModel.AsyncCompletedEventArgs > \fBOpenCompleted\fP"
+.br
+.ti -1c
+.RI "System.EventHandler< System.ComponentModel.AsyncCompletedEventArgs > \fBCloseCompleted\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 491 of file Reference.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

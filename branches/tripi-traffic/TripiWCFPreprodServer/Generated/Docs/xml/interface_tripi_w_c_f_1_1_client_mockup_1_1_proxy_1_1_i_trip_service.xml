@@ -1,0 +1,741 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service" kind="interface" prot="public">
+    <compoundname>TripiWCF::ClientMockup::Proxy::ITripService</compoundname>
+    <derivedcompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_channel" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ITripServiceChannel</derivedcompoundref>
+    <derivedcompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_channel" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ITripServiceChannel</derivedcompoundref>
+    <derivedcompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_channel" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ITripServiceChannel</derivedcompoundref>
+    <derivedcompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_channel" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ITripServiceChannel</derivedcompoundref>
+    <derivedcompoundref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.TripServiceClient</derivedcompoundref>
+    <derivedcompoundref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.TripServiceClient</derivedcompoundref>
+    <derivedcompoundref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.TripServiceClient</derivedcompoundref>
+    <derivedcompoundref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.TripServiceClient</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a446a7cca0e65b64914da8a5abb56ea9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string TripiWCF.ClientMockup.Proxy.ITripService.LoginUser</definition>
+        <argsstring>(string username, string password)</argsstring>
+        <name>LoginUser</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1afd416794b12fa01d8d233c26a9b062eb">LoginUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1afd416794b12fa01d8d233c26a9b062eb">LoginUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1afd416794b12fa01d8d233c26a9b062eb">LoginUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1afd416794b12fa01d8d233c26a9b062eb">LoginUser</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="184"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a5f64f3357b29ee25e2ff400bd1953efb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TripiWCF.ClientMockup.Proxy.ITripService.CreateNewTrip</definition>
+        <argsstring>(string username, string tripName)</argsstring>
+        <name>CreateNewTrip</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a7400abf4fb78d74521ed353b7ba0c357">CreateNewTrip</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a7400abf4fb78d74521ed353b7ba0c357">CreateNewTrip</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="187"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1abc1b1dc6819d30392eaf1652393fba56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip" kindref="compound">TripiWCF.ClientMockup.Proxy.Trip</ref>[]</type>
+        <definition>TripiWCF.ClientMockup.Proxy.Trip [] TripiWCF.ClientMockup.Proxy.ITripService.GetAllTrips</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllTrips</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8fc3a2887086d08bb0fd3e3e5542e1b5">GetAllTrips</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8fc3a2887086d08bb0fd3e3e5542e1b5">GetAllTrips</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8fc3a2887086d08bb0fd3e3e5542e1b5">GetAllTrips</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8fc3a2887086d08bb0fd3e3e5542e1b5">GetAllTrips</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="190"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a73334ca5ba2410491360b8c8f32d720f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip" kindref="compound">TripiWCF.ClientMockup.Proxy.Trip</ref>[]</type>
+        <definition>TripiWCF.ClientMockup.Proxy.Trip [] TripiWCF.ClientMockup.Proxy.ITripService.GetTripsForUser</definition>
+        <argsstring>(string username)</argsstring>
+        <name>GetTripsForUser</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ac2c5cadb252d32d9aec397692f72b262">GetTripsForUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ac2c5cadb252d32d9aec397692f72b262">GetTripsForUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ac2c5cadb252d32d9aec397692f72b262">GetTripsForUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ac2c5cadb252d32d9aec397692f72b262">GetTripsForUser</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="193"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a94f0b89ebce82a430cac8e5867fe8406" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node" kindref="compound">TripiWCF.ClientMockup.Proxy.PositionNode</ref>[]</type>
+        <definition>TripiWCF.ClientMockup.Proxy.PositionNode [] TripiWCF.ClientMockup.Proxy.ITripService.GetPositionNodesForTrip</definition>
+        <argsstring>(int tripID)</argsstring>
+        <name>GetPositionNodesForTrip</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a0568d2d0f9aabc3ffd752b7bb7be3a16">GetPositionNodesForTrip</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a0568d2d0f9aabc3ffd752b7bb7be3a16">GetPositionNodesForTrip</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a0568d2d0f9aabc3ffd752b7bb7be3a16">GetPositionNodesForTrip</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a0568d2d0f9aabc3ffd752b7bb7be3a16">GetPositionNodesForTrip</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="196"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a27741eac5f6c01d6f17f053b27bd2224" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.Proxy.ITripService.AddPositionNode</definition>
+        <argsstring>(TripiWCF.ClientMockup.Proxy.PositionNode node)</argsstring>
+        <name>AddPositionNode</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1af6873befaa689a31d12d13b851ed2ad1">AddPositionNode</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1af6873befaa689a31d12d13b851ed2ad1">AddPositionNode</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8bd55e05ff2a32330f4a48d69357da15">AddPositionNode</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8bd55e05ff2a32330f4a48d69357da15">AddPositionNode</reimplementedby>
+        <param>
+          <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node" kindref="compound">TripiWCF.ClientMockup.Proxy.PositionNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="199"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a446a7cca0e65b64914da8a5abb56ea9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string TripiWCF.ClientMockup.Proxy.ITripService.LoginUser</definition>
+        <argsstring>(string username, string password)</argsstring>
+        <name>LoginUser</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1afd416794b12fa01d8d233c26a9b062eb">LoginUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1afd416794b12fa01d8d233c26a9b062eb">LoginUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1afd416794b12fa01d8d233c26a9b062eb">LoginUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1afd416794b12fa01d8d233c26a9b062eb">LoginUser</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" line="184"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a5f64f3357b29ee25e2ff400bd1953efb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TripiWCF.ClientMockup.Proxy.ITripService.CreateNewTrip</definition>
+        <argsstring>(string username, string tripName)</argsstring>
+        <name>CreateNewTrip</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a7400abf4fb78d74521ed353b7ba0c357">CreateNewTrip</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a7400abf4fb78d74521ed353b7ba0c357">CreateNewTrip</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" line="187"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1abc1b1dc6819d30392eaf1652393fba56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip" kindref="compound">TripiWCF.ClientMockup.Proxy.Trip</ref>[]</type>
+        <definition>TripiWCF.ClientMockup.Proxy.Trip [] TripiWCF.ClientMockup.Proxy.ITripService.GetAllTrips</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllTrips</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8fc3a2887086d08bb0fd3e3e5542e1b5">GetAllTrips</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8fc3a2887086d08bb0fd3e3e5542e1b5">GetAllTrips</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8fc3a2887086d08bb0fd3e3e5542e1b5">GetAllTrips</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8fc3a2887086d08bb0fd3e3e5542e1b5">GetAllTrips</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" line="190"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a73334ca5ba2410491360b8c8f32d720f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip" kindref="compound">TripiWCF.ClientMockup.Proxy.Trip</ref>[]</type>
+        <definition>TripiWCF.ClientMockup.Proxy.Trip [] TripiWCF.ClientMockup.Proxy.ITripService.GetTripsForUser</definition>
+        <argsstring>(string username)</argsstring>
+        <name>GetTripsForUser</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ac2c5cadb252d32d9aec397692f72b262">GetTripsForUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ac2c5cadb252d32d9aec397692f72b262">GetTripsForUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ac2c5cadb252d32d9aec397692f72b262">GetTripsForUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ac2c5cadb252d32d9aec397692f72b262">GetTripsForUser</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" line="193"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a94f0b89ebce82a430cac8e5867fe8406" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node" kindref="compound">TripiWCF.ClientMockup.Proxy.PositionNode</ref>[]</type>
+        <definition>TripiWCF.ClientMockup.Proxy.PositionNode [] TripiWCF.ClientMockup.Proxy.ITripService.GetPositionNodesForTrip</definition>
+        <argsstring>(int tripID)</argsstring>
+        <name>GetPositionNodesForTrip</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a0568d2d0f9aabc3ffd752b7bb7be3a16">GetPositionNodesForTrip</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a0568d2d0f9aabc3ffd752b7bb7be3a16">GetPositionNodesForTrip</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a0568d2d0f9aabc3ffd752b7bb7be3a16">GetPositionNodesForTrip</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a0568d2d0f9aabc3ffd752b7bb7be3a16">GetPositionNodesForTrip</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" line="196"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a27741eac5f6c01d6f17f053b27bd2224" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.Proxy.ITripService.AddPositionNode</definition>
+        <argsstring>(TripiWCF.ClientMockup.Proxy.PositionNode node)</argsstring>
+        <name>AddPositionNode</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1af6873befaa689a31d12d13b851ed2ad1">AddPositionNode</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1af6873befaa689a31d12d13b851ed2ad1">AddPositionNode</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8bd55e05ff2a32330f4a48d69357da15">AddPositionNode</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8bd55e05ff2a32330f4a48d69357da15">AddPositionNode</reimplementedby>
+        <param>
+          <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node" kindref="compound">TripiWCF.ClientMockup.Proxy.PositionNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" line="199"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a446a7cca0e65b64914da8a5abb56ea9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string TripiWCF.ClientMockup.Proxy.ITripService.LoginUser</definition>
+        <argsstring>(string username, string password)</argsstring>
+        <name>LoginUser</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1afd416794b12fa01d8d233c26a9b062eb">LoginUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1afd416794b12fa01d8d233c26a9b062eb">LoginUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1afd416794b12fa01d8d233c26a9b062eb">LoginUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1afd416794b12fa01d8d233c26a9b062eb">LoginUser</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="229"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a992b00d8b51e0509d90ae9dfac7f47d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TripiWCF.ClientMockup.Proxy.ITripService.CreateNewTrip</definition>
+        <argsstring>(string username, string tripName, string tripDescription)</argsstring>
+        <name>CreateNewTrip</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a11e3f0911f647ae3f60e3c00dc99abe2">CreateNewTrip</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a11e3f0911f647ae3f60e3c00dc99abe2">CreateNewTrip</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="232"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1abc1b1dc6819d30392eaf1652393fba56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip" kindref="compound">TripiWCF.ClientMockup.Proxy.Trip</ref>[]</type>
+        <definition>TripiWCF.ClientMockup.Proxy.Trip [] TripiWCF.ClientMockup.Proxy.ITripService.GetAllTrips</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllTrips</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8fc3a2887086d08bb0fd3e3e5542e1b5">GetAllTrips</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8fc3a2887086d08bb0fd3e3e5542e1b5">GetAllTrips</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8fc3a2887086d08bb0fd3e3e5542e1b5">GetAllTrips</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8fc3a2887086d08bb0fd3e3e5542e1b5">GetAllTrips</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="235"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a73334ca5ba2410491360b8c8f32d720f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip" kindref="compound">TripiWCF.ClientMockup.Proxy.Trip</ref>[]</type>
+        <definition>TripiWCF.ClientMockup.Proxy.Trip [] TripiWCF.ClientMockup.Proxy.ITripService.GetTripsForUser</definition>
+        <argsstring>(string username)</argsstring>
+        <name>GetTripsForUser</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ac2c5cadb252d32d9aec397692f72b262">GetTripsForUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ac2c5cadb252d32d9aec397692f72b262">GetTripsForUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ac2c5cadb252d32d9aec397692f72b262">GetTripsForUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ac2c5cadb252d32d9aec397692f72b262">GetTripsForUser</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="238"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a71592985f09be23741615f2e81b2cc7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.Proxy.ITripService.UpdateTripDescription</definition>
+        <argsstring>(int tripID, string tripDescription)</argsstring>
+        <name>UpdateTripDescription</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ab0890f9da88a0b83499b0f18b9993abd">UpdateTripDescription</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ab0890f9da88a0b83499b0f18b9993abd">UpdateTripDescription</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="241"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a7a16e71dc67db34b9436119c7203b407" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TripiWCF.ClientMockup.Proxy.ITripService.AddPositionNode</definition>
+        <argsstring>(TripiWCF.ClientMockup.Proxy.PositionNode node)</argsstring>
+        <name>AddPositionNode</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1af6873befaa689a31d12d13b851ed2ad1">AddPositionNode</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1af6873befaa689a31d12d13b851ed2ad1">AddPositionNode</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8bd55e05ff2a32330f4a48d69357da15">AddPositionNode</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8bd55e05ff2a32330f4a48d69357da15">AddPositionNode</reimplementedby>
+        <param>
+          <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node" kindref="compound">TripiWCF.ClientMockup.Proxy.PositionNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="244"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1ae49d01ed708a902da84ea3f2709dd171" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.Proxy.ITripService.AddManyPositionNodes</definition>
+        <argsstring>(TripiWCF.ClientMockup.Proxy.PositionNode[] nodes)</argsstring>
+        <name>AddManyPositionNodes</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ae4e1deb0bd4735dbe9bd467ad8654638">AddManyPositionNodes</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ae4e1deb0bd4735dbe9bd467ad8654638">AddManyPositionNodes</reimplementedby>
+        <param>
+          <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node" kindref="compound">TripiWCF.ClientMockup.Proxy.PositionNode</ref>[]</type>
+          <declname>nodes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="247"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a94f0b89ebce82a430cac8e5867fe8406" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node" kindref="compound">TripiWCF.ClientMockup.Proxy.PositionNode</ref>[]</type>
+        <definition>TripiWCF.ClientMockup.Proxy.PositionNode [] TripiWCF.ClientMockup.Proxy.ITripService.GetPositionNodesForTrip</definition>
+        <argsstring>(int tripID)</argsstring>
+        <name>GetPositionNodesForTrip</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a0568d2d0f9aabc3ffd752b7bb7be3a16">GetPositionNodesForTrip</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a0568d2d0f9aabc3ffd752b7bb7be3a16">GetPositionNodesForTrip</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a0568d2d0f9aabc3ffd752b7bb7be3a16">GetPositionNodesForTrip</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a0568d2d0f9aabc3ffd752b7bb7be3a16">GetPositionNodesForTrip</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="250"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1ad7182a47d94448db54ba552032d9c0d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.Proxy.ITripService.UpdatePositionNodeDescription</definition>
+        <argsstring>(int tripID, int nodeNumber, string nodeDescription)</argsstring>
+        <name>UpdatePositionNodeDescription</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a4825d8b420f6ddcab725bb2de094771f">UpdatePositionNodeDescription</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a4825d8b420f6ddcab725bb2de094771f">UpdatePositionNodeDescription</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodeNumber</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nodeDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="253"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a446a7cca0e65b64914da8a5abb56ea9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string TripiWCF.ClientMockup.Proxy.ITripService.LoginUser</definition>
+        <argsstring>(string username, string password)</argsstring>
+        <name>LoginUser</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1afd416794b12fa01d8d233c26a9b062eb">LoginUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1afd416794b12fa01d8d233c26a9b062eb">LoginUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1afd416794b12fa01d8d233c26a9b062eb">LoginUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1afd416794b12fa01d8d233c26a9b062eb">LoginUser</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" line="229"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a992b00d8b51e0509d90ae9dfac7f47d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TripiWCF.ClientMockup.Proxy.ITripService.CreateNewTrip</definition>
+        <argsstring>(string username, string tripName, string tripDescription)</argsstring>
+        <name>CreateNewTrip</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a11e3f0911f647ae3f60e3c00dc99abe2">CreateNewTrip</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a11e3f0911f647ae3f60e3c00dc99abe2">CreateNewTrip</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" line="232"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1abc1b1dc6819d30392eaf1652393fba56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip" kindref="compound">TripiWCF.ClientMockup.Proxy.Trip</ref>[]</type>
+        <definition>TripiWCF.ClientMockup.Proxy.Trip [] TripiWCF.ClientMockup.Proxy.ITripService.GetAllTrips</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllTrips</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8fc3a2887086d08bb0fd3e3e5542e1b5">GetAllTrips</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8fc3a2887086d08bb0fd3e3e5542e1b5">GetAllTrips</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8fc3a2887086d08bb0fd3e3e5542e1b5">GetAllTrips</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8fc3a2887086d08bb0fd3e3e5542e1b5">GetAllTrips</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" line="235"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a73334ca5ba2410491360b8c8f32d720f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip" kindref="compound">TripiWCF.ClientMockup.Proxy.Trip</ref>[]</type>
+        <definition>TripiWCF.ClientMockup.Proxy.Trip [] TripiWCF.ClientMockup.Proxy.ITripService.GetTripsForUser</definition>
+        <argsstring>(string username)</argsstring>
+        <name>GetTripsForUser</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ac2c5cadb252d32d9aec397692f72b262">GetTripsForUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ac2c5cadb252d32d9aec397692f72b262">GetTripsForUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ac2c5cadb252d32d9aec397692f72b262">GetTripsForUser</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ac2c5cadb252d32d9aec397692f72b262">GetTripsForUser</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" line="238"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a71592985f09be23741615f2e81b2cc7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.Proxy.ITripService.UpdateTripDescription</definition>
+        <argsstring>(int tripID, string tripDescription)</argsstring>
+        <name>UpdateTripDescription</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ab0890f9da88a0b83499b0f18b9993abd">UpdateTripDescription</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ab0890f9da88a0b83499b0f18b9993abd">UpdateTripDescription</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" line="241"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a7a16e71dc67db34b9436119c7203b407" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int TripiWCF.ClientMockup.Proxy.ITripService.AddPositionNode</definition>
+        <argsstring>(TripiWCF.ClientMockup.Proxy.PositionNode node)</argsstring>
+        <name>AddPositionNode</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1af6873befaa689a31d12d13b851ed2ad1">AddPositionNode</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1af6873befaa689a31d12d13b851ed2ad1">AddPositionNode</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8bd55e05ff2a32330f4a48d69357da15">AddPositionNode</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a8bd55e05ff2a32330f4a48d69357da15">AddPositionNode</reimplementedby>
+        <param>
+          <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node" kindref="compound">TripiWCF.ClientMockup.Proxy.PositionNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" line="244"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1ae49d01ed708a902da84ea3f2709dd171" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.Proxy.ITripService.AddManyPositionNodes</definition>
+        <argsstring>(TripiWCF.ClientMockup.Proxy.PositionNode[] nodes)</argsstring>
+        <name>AddManyPositionNodes</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ae4e1deb0bd4735dbe9bd467ad8654638">AddManyPositionNodes</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1ae4e1deb0bd4735dbe9bd467ad8654638">AddManyPositionNodes</reimplementedby>
+        <param>
+          <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node" kindref="compound">TripiWCF.ClientMockup.Proxy.PositionNode</ref>[]</type>
+          <declname>nodes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" line="247"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a94f0b89ebce82a430cac8e5867fe8406" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node" kindref="compound">TripiWCF.ClientMockup.Proxy.PositionNode</ref>[]</type>
+        <definition>TripiWCF.ClientMockup.Proxy.PositionNode [] TripiWCF.ClientMockup.Proxy.ITripService.GetPositionNodesForTrip</definition>
+        <argsstring>(int tripID)</argsstring>
+        <name>GetPositionNodesForTrip</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a0568d2d0f9aabc3ffd752b7bb7be3a16">GetPositionNodesForTrip</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a0568d2d0f9aabc3ffd752b7bb7be3a16">GetPositionNodesForTrip</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a0568d2d0f9aabc3ffd752b7bb7be3a16">GetPositionNodesForTrip</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a0568d2d0f9aabc3ffd752b7bb7be3a16">GetPositionNodesForTrip</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" line="250"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1ad7182a47d94448db54ba552032d9c0d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.Proxy.ITripService.UpdatePositionNodeDescription</definition>
+        <argsstring>(int tripID, int nodeNumber, string nodeDescription)</argsstring>
+        <name>UpdatePositionNodeDescription</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a4825d8b420f6ddcab725bb2de094771f">UpdatePositionNodeDescription</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client_1a4825d8b420f6ddcab725bb2de094771f">UpdatePositionNodeDescription</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodeNumber</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nodeDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" line="253"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="274">
+        <label>TripiWCF.ClientMockup.Proxy.TripServiceClient</label>
+        <link refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="273">
+        <label>TripiWCF.ClientMockup.Proxy.ITripServiceChannel</label>
+        <link refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_channel"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="272">
+        <label>TripiWCF.ClientMockup.Proxy.ITripService</label>
+        <link refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="181" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="180" bodyend="200"/>
+    <listofallmembers>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1ae49d01ed708a902da84ea3f2709dd171" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>AddManyPositionNodes</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1ae49d01ed708a902da84ea3f2709dd171" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>AddManyPositionNodes</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a27741eac5f6c01d6f17f053b27bd2224" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>AddPositionNode</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a27741eac5f6c01d6f17f053b27bd2224" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>AddPositionNode</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a7a16e71dc67db34b9436119c7203b407" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>AddPositionNode</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a7a16e71dc67db34b9436119c7203b407" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>AddPositionNode</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a5f64f3357b29ee25e2ff400bd1953efb" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>CreateNewTrip</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a5f64f3357b29ee25e2ff400bd1953efb" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>CreateNewTrip</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a992b00d8b51e0509d90ae9dfac7f47d4" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>CreateNewTrip</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a992b00d8b51e0509d90ae9dfac7f47d4" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>CreateNewTrip</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1abc1b1dc6819d30392eaf1652393fba56" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>GetAllTrips</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1abc1b1dc6819d30392eaf1652393fba56" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>GetAllTrips</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1abc1b1dc6819d30392eaf1652393fba56" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>GetAllTrips</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1abc1b1dc6819d30392eaf1652393fba56" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>GetAllTrips</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a94f0b89ebce82a430cac8e5867fe8406" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>GetPositionNodesForTrip</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a94f0b89ebce82a430cac8e5867fe8406" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>GetPositionNodesForTrip</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a94f0b89ebce82a430cac8e5867fe8406" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>GetPositionNodesForTrip</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a94f0b89ebce82a430cac8e5867fe8406" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>GetPositionNodesForTrip</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a73334ca5ba2410491360b8c8f32d720f" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>GetTripsForUser</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a73334ca5ba2410491360b8c8f32d720f" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>GetTripsForUser</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a73334ca5ba2410491360b8c8f32d720f" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>GetTripsForUser</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a73334ca5ba2410491360b8c8f32d720f" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>GetTripsForUser</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a446a7cca0e65b64914da8a5abb56ea9b" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>LoginUser</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a446a7cca0e65b64914da8a5abb56ea9b" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>LoginUser</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a446a7cca0e65b64914da8a5abb56ea9b" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>LoginUser</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a446a7cca0e65b64914da8a5abb56ea9b" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>LoginUser</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1ad7182a47d94448db54ba552032d9c0d7" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>UpdatePositionNodeDescription</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1ad7182a47d94448db54ba552032d9c0d7" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>UpdatePositionNodeDescription</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a71592985f09be23741615f2e81b2cc7c" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>UpdateTripDescription</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a71592985f09be23741615f2e81b2cc7c" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripService</scope><name>UpdateTripDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

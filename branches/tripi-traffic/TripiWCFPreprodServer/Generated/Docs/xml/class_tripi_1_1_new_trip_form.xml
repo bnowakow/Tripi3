@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1_new_trip_form" kind="class" prot="public">
+    <compoundname>Tripi::NewTripForm</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tripi_1_1_new_trip_form_1a65d6eb741a5b4494b1d63fc37e390c0a" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer Tripi.NewTripForm.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer> null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.Designer.cs" line="8" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_new_trip_form_1ab0183ae380e187fe8320394621deaba5" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Tripi.NewTripForm.labelTitle</definition>
+        <argsstring></argsstring>
+        <name>labelTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.Designer.cs" line="96" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.Designer.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_new_trip_form_1a76389f2b1f3c7b1e6d0dd551fd58fd57" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Tripi.NewTripForm.labelName</definition>
+        <argsstring></argsstring>
+        <name>labelName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.Designer.cs" line="97" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.Designer.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_new_trip_form_1a955f79595a9ce60411629c4ebd7dab3d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox Tripi.NewTripForm.tBoxName</definition>
+        <argsstring></argsstring>
+        <name>tBoxName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.Designer.cs" line="98" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.Designer.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_new_trip_form_1aebc2084ab1bd96e06320c580e786a1db" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button Tripi.NewTripForm.bttnOk</definition>
+        <argsstring></argsstring>
+        <name>bttnOk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.Designer.cs" line="99" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.Designer.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_new_trip_form_1acb416c12c9cb27038f77f756bfb81dcb" prot="private" static="no" mutable="no">
+        <type>Microsoft.WindowsCE.Forms.InputPanel</type>
+        <definition>Microsoft.WindowsCE.Forms.InputPanel Tripi.NewTripForm.inputPanel</definition>
+        <argsstring></argsstring>
+        <name>inputPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.Designer.cs" line="100" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.Designer.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tripi_1_1_new_trip_form_1a068e749dcc07bfcf015bc965c486cd84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Tripi.NewTripForm.NewTripForm</definition>
+        <argsstring>()</argsstring>
+        <name>NewTripForm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.cs" line="18" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tripi_1_1_new_trip_form_1ae65acddc849905ee1f0969f0bbe087c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.NewTripForm.FormLoad</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>FormLoad</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.cs" line="23" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.cs" bodystart="22" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_new_trip_form_1a126fb5f35e3bd9e59a75a8e679f8b8a7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.NewTripForm.BackButtonClick</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackButtonClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.cs" line="32" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.cs" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_new_trip_form_1ac8a6626fb1ee04edac18e2529ce31bba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.NewTripForm.OKClick</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>OKClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.cs" line="38" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.cs" bodystart="37" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_new_trip_form_1a1ad529a6358ab171d1fafaf25aaa6fd6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.NewTripForm.ToogleSIP</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>ToogleSIP</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.cs" line="46" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_new_trip_form_1aba892a61582d6de03875302f0f0f2153" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.NewTripForm.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.Designer.cs" line="30" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.Designer.cs" bodystart="29" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_tripi_1_1_new_trip_form_1a7bb087e0a05c070796b1183b515c3ab8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Tripi.NewTripForm.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.Designer.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="346">
+        <label>Tripi.NewTripForm</label>
+        <link refid="class_tripi_1_1_new_trip_form"/>
+        <childnode refid="347" relation="usage">
+          <edgelabel>inputPanel</edgelabel>
+        </childnode>
+        <childnode refid="348" relation="usage">
+          <edgelabel>labelName</edgelabel>
+          <edgelabel>bttnOk</edgelabel>
+          <edgelabel>tBoxName</edgelabel>
+          <edgelabel>components</edgelabel>
+          <edgelabel>labelTitle</edgelabel>
+        </childnode>
+      </node>
+      <node id="348">
+        <label>System</label>
+      </node>
+      <node id="347">
+        <label>Forms</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.cs" line="16" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/NewTripForm.cs" bodystart="15" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1_new_trip_form_1a126fb5f35e3bd9e59a75a8e679f8b8a7" prot="private" virt="non-virtual"><scope>Tripi::NewTripForm</scope><name>BackButtonClick</name></member>
+      <member refid="class_tripi_1_1_new_trip_form_1aebc2084ab1bd96e06320c580e786a1db" prot="private" virt="non-virtual"><scope>Tripi::NewTripForm</scope><name>bttnOk</name></member>
+      <member refid="class_tripi_1_1_new_trip_form_1a65d6eb741a5b4494b1d63fc37e390c0a" prot="private" virt="non-virtual"><scope>Tripi::NewTripForm</scope><name>components</name></member>
+      <member refid="class_tripi_1_1_new_trip_form_1a7bb087e0a05c070796b1183b515c3ab8" prot="protected" virt="non-virtual"><scope>Tripi::NewTripForm</scope><name>Dispose</name></member>
+      <member refid="class_tripi_1_1_new_trip_form_1ae65acddc849905ee1f0969f0bbe087c9" prot="private" virt="non-virtual"><scope>Tripi::NewTripForm</scope><name>FormLoad</name></member>
+      <member refid="class_tripi_1_1_new_trip_form_1aba892a61582d6de03875302f0f0f2153" prot="private" virt="non-virtual"><scope>Tripi::NewTripForm</scope><name>InitializeComponent</name></member>
+      <member refid="class_tripi_1_1_new_trip_form_1acb416c12c9cb27038f77f756bfb81dcb" prot="private" virt="non-virtual"><scope>Tripi::NewTripForm</scope><name>inputPanel</name></member>
+      <member refid="class_tripi_1_1_new_trip_form_1a76389f2b1f3c7b1e6d0dd551fd58fd57" prot="private" virt="non-virtual"><scope>Tripi::NewTripForm</scope><name>labelName</name></member>
+      <member refid="class_tripi_1_1_new_trip_form_1ab0183ae380e187fe8320394621deaba5" prot="private" virt="non-virtual"><scope>Tripi::NewTripForm</scope><name>labelTitle</name></member>
+      <member refid="class_tripi_1_1_new_trip_form_1a068e749dcc07bfcf015bc965c486cd84" prot="public" virt="non-virtual"><scope>Tripi::NewTripForm</scope><name>NewTripForm</name></member>
+      <member refid="class_tripi_1_1_new_trip_form_1ac8a6626fb1ee04edac18e2529ce31bba" prot="private" virt="non-virtual"><scope>Tripi::NewTripForm</scope><name>OKClick</name></member>
+      <member refid="class_tripi_1_1_new_trip_form_1a955f79595a9ce60411629c4ebd7dab3d" prot="private" virt="non-virtual"><scope>Tripi::NewTripForm</scope><name>tBoxName</name></member>
+      <member refid="class_tripi_1_1_new_trip_form_1a1ad529a6358ab171d1fafaf25aaa6fd6" prot="private" virt="non-virtual"><scope>Tripi::NewTripForm</scope><name>ToogleSIP</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

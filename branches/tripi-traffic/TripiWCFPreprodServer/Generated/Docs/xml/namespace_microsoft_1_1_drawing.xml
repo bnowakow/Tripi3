@@ -1,0 +1,531 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="namespace_microsoft_1_1_drawing" kind="namespace">
+    <compoundname>Microsoft::Drawing</compoundname>
+    <innerclass refid="class_microsoft_1_1_drawing_1_1_gradient_fill" prot="public">Microsoft::Drawing::GradientFill</innerclass>
+    <innerclass refid="class_microsoft_1_1_drawing_1_1_graphics_extension" prot="public">Microsoft::Drawing::GraphicsExtension</innerclass>
+    <innerclass refid="class_microsoft_1_1_drawing_1_1_imaging_factory" prot="public">Microsoft::Drawing::ImagingFactory</innerclass>
+    <innerclass refid="struct_microsoft_1_1_drawing_1_1_bitmap_data" prot="public">Microsoft::Drawing::BitmapData</innerclass>
+    <innerclass refid="struct_microsoft_1_1_drawing_1_1_image_info" prot="public">Microsoft::Drawing::ImageInfo</innerclass>
+    <innerclass refid="interface_microsoft_1_1_drawing_1_1_i_imaging_factory" prot="public">Microsoft::Drawing::IImagingFactory</innerclass>
+    <innerclass refid="interface_microsoft_1_1_drawing_1_1_i_image" prot="public">Microsoft::Drawing::IImage</innerclass>
+    <innerclass refid="interface_microsoft_1_1_drawing_1_1_i_bitmap_image" prot="public">Microsoft::Drawing::IBitmapImage</innerclass>
+    <innerclass refid="struct_microsoft_1_1_drawing_1_1_blend_function" prot="public">Microsoft::Drawing::BlendFunction</innerclass>
+    <innerclass refid="class_microsoft_1_1_drawing_1_1_platform_a_p_is" prot="public">Microsoft::Drawing::PlatformAPIs</innerclass>
+    <innerclass refid="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x" prot="public">Microsoft::Drawing::TRIVERTEX</innerclass>
+    <innerclass refid="struct_microsoft_1_1_drawing_1_1_g_r_a_d_i_e_n_t___r_e_c_t" prot="public">Microsoft::Drawing::GRADIENT_RECT</innerclass>
+    <innerclass refid="class_microsoft_1_1_drawing_1_1_win32_helper" prot="public">Microsoft::Drawing::Win32Helper</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_microsoft_1_1_drawing_1a254a6a9fe2083b18cc42b136cc1c9eed" prot="public" static="no">
+        <name>FillDirection</name>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a254a6a9fe2083b18cc42b136cc1c9eed" prot="public">
+          <name>LeftToRight</name>
+          <initializer> Win32Helper.GRADIENT_FILL_RECT_H</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a254a6a9fe2083b18cc42b136cc1c9eed" prot="public">
+          <name>TopToBottom</name>
+          <initializer> Win32Helper.GRADIENT_FILL_RECT_V</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Gradientfill.cs" line="70" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Gradientfill.cs" bodystart="69" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public" static="no">
+        <name>PixelFormatID</name>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormatIndexed</name>
+          <initializer> 0x00010000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormatGDI</name>
+          <initializer> 0x00020000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormatAlpha</name>
+          <initializer> 0x00040000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormatPAlpha</name>
+          <initializer> 0x00080000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormatExtended</name>
+          <initializer> 0x00100000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormatCanonical</name>
+          <initializer> 0x00200000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormatUndefined</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormatDontCare</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormat1bppIndexed</name>
+          <initializer> (1 | (1 &lt;&lt; 8) | PixelFormatIndexed | PixelFormatGDI)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormat4bppIndexed</name>
+          <initializer> (2 | (4 &lt;&lt; 8) | PixelFormatIndexed | PixelFormatGDI)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormat8bppIndexed</name>
+          <initializer> (3 | (8 &lt;&lt; 8) | PixelFormatIndexed | PixelFormatGDI)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormat16bppRGB555</name>
+          <initializer> (5 | (16 &lt;&lt; 8) | PixelFormatGDI)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormat16bppRGB565</name>
+          <initializer> (6 | (16 &lt;&lt; 8) | PixelFormatGDI)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormat16bppARGB1555</name>
+          <initializer> (7 | (16 &lt;&lt; 8) | PixelFormatAlpha | PixelFormatGDI)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormat24bppRGB</name>
+          <initializer> (8 | (24 &lt;&lt; 8) | PixelFormatGDI)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormat32bppRGB</name>
+          <initializer> (9 | (32 &lt;&lt; 8) | PixelFormatGDI)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormat32bppARGB</name>
+          <initializer> (10 | (32 &lt;&lt; 8) | PixelFormatAlpha | PixelFormatGDI | PixelFormatCanonical)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormat32bppPARGB</name>
+          <initializer> (11 | (32 &lt;&lt; 8) | PixelFormatAlpha | PixelFormatPAlpha | PixelFormatGDI)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormat48bppRGB</name>
+          <initializer> (12 | (48 &lt;&lt; 8) | PixelFormatExtended)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormat64bppARGB</name>
+          <initializer> (13 | (64 &lt;&lt; 8) | PixelFormatAlpha | PixelFormatCanonical | PixelFormatExtended)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormat64bppPARGB</name>
+          <initializer> (14 | (64 &lt;&lt; 8) | PixelFormatAlpha | PixelFormatPAlpha | PixelFormatExtended)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a042246a36bf574fddf592000faa457ac" prot="public">
+          <name>PixelFormatMax</name>
+          <initializer> 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="31" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="30" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_microsoft_1_1_drawing_1a431c64657b4d61a026a8f977435e622b" prot="public" static="no">
+        <name>BufferDisposalFlag</name>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a431c64657b4d61a026a8f977435e622b" prot="public">
+          <name>BufferDisposalFlagNone</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a431c64657b4d61a026a8f977435e622b" prot="public">
+          <name>BufferDisposalFlagGlobalFree</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a431c64657b4d61a026a8f977435e622b" prot="public">
+          <name>BufferDisposalFlagCoTaskMemFree</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a431c64657b4d61a026a8f977435e622b" prot="public">
+          <name>BufferDisposalFlagUnmapView</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="60" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="59" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_microsoft_1_1_drawing_1a4bda408d3b9f19c1ddc87db7a18e839e" prot="public" static="no">
+        <name>InterpolationHint</name>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a4bda408d3b9f19c1ddc87db7a18e839e" prot="public">
+          <name>InterpolationHintDefault</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a4bda408d3b9f19c1ddc87db7a18e839e" prot="public">
+          <name>InterpolationHintNearestNeighbor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a4bda408d3b9f19c1ddc87db7a18e839e" prot="public">
+          <name>InterpolationHintBilinear</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a4bda408d3b9f19c1ddc87db7a18e839e" prot="public">
+          <name>InterpolationHintAveraging</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a4bda408d3b9f19c1ddc87db7a18e839e" prot="public">
+          <name>InterpolationHintBicubic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="69" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="68" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_microsoft_1_1_drawing_1a3d61686b08acbe30ad68d785942c0821" prot="public" static="no">
+        <name>BlendOperation</name>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a3d61686b08acbe30ad68d785942c0821" prot="public">
+          <name>AC_SRC_OVER</name>
+          <initializer> 0x00</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" line="27" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_microsoft_1_1_drawing_1a88661b3c7d0fb74c35101e0cdbd0d516" prot="public" static="no">
+        <name>BlendFlags</name>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a88661b3c7d0fb74c35101e0cdbd0d516" prot="public">
+          <name>Zero</name>
+          <initializer> 0x00</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" line="32" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_microsoft_1_1_drawing_1aee0ddfd8dd7749035a127d77caebdddf" prot="public" static="no">
+        <name>SourceConstantAlpha</name>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1aee0ddfd8dd7749035a127d77caebdddf" prot="public">
+          <name>Transparent</name>
+          <initializer> 0x00</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1aee0ddfd8dd7749035a127d77caebdddf" prot="public">
+          <name>Opaque</name>
+          <initializer> 0xFF</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" line="37" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_microsoft_1_1_drawing_1ac51da034d24f46ec47d06c3116f21295" prot="public" static="no">
+        <name>AlphaFormat</name>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1ac51da034d24f46ec47d06c3116f21295" prot="public">
+          <name>AC_SRC_ALPHA</name>
+          <initializer> 0x01</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" line="43" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_microsoft_1_1_drawing_1a867a3ac54dc9f650dc13fb7200d9b466" prot="public" static="no">
+        <name>TernaryRasterOperations</name>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a867a3ac54dc9f650dc13fb7200d9b466" prot="public">
+          <name>SRCCOPY</name>
+          <initializer> 0x00CC0020</initializer>
+          <briefdescription>
+<para>dest = source </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a867a3ac54dc9f650dc13fb7200d9b466" prot="public">
+          <name>SRCPAINT</name>
+          <initializer> 0x00EE0086</initializer>
+          <briefdescription>
+<para>dest = source OR dest </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a867a3ac54dc9f650dc13fb7200d9b466" prot="public">
+          <name>SRCAND</name>
+          <initializer> 0x008800C6</initializer>
+          <briefdescription>
+<para>dest = source AND dest </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a867a3ac54dc9f650dc13fb7200d9b466" prot="public">
+          <name>SRCINVERT</name>
+          <initializer> 0x00660046</initializer>
+          <briefdescription>
+<para>dest = source XOR dest </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a867a3ac54dc9f650dc13fb7200d9b466" prot="public">
+          <name>SRCERASE</name>
+          <initializer> 0x00440328</initializer>
+          <briefdescription>
+<para>dest = source AND (NOT dest) </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a867a3ac54dc9f650dc13fb7200d9b466" prot="public">
+          <name>NOTSRCCOPY</name>
+          <initializer> 0x00330008</initializer>
+          <briefdescription>
+<para>dest = (NOT source) </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a867a3ac54dc9f650dc13fb7200d9b466" prot="public">
+          <name>NOTSRCERASE</name>
+          <initializer> 0x001100A6</initializer>
+          <briefdescription>
+<para>dest = (NOT src) AND (NOT dest) </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a867a3ac54dc9f650dc13fb7200d9b466" prot="public">
+          <name>MERGECOPY</name>
+          <initializer> 0x00C000CA</initializer>
+          <briefdescription>
+<para>dest = (source AND pattern) </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a867a3ac54dc9f650dc13fb7200d9b466" prot="public">
+          <name>MERGEPAINT</name>
+          <initializer> 0x00BB0226</initializer>
+          <briefdescription>
+<para>dest = (NOT source) OR dest </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a867a3ac54dc9f650dc13fb7200d9b466" prot="public">
+          <name>PATCOPY</name>
+          <initializer> 0x00F00021</initializer>
+          <briefdescription>
+<para>dest = pattern </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a867a3ac54dc9f650dc13fb7200d9b466" prot="public">
+          <name>PATPAINT</name>
+          <initializer> 0x00FB0A09</initializer>
+          <briefdescription>
+<para>dest = DPSnoo </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a867a3ac54dc9f650dc13fb7200d9b466" prot="public">
+          <name>PATINVERT</name>
+          <initializer> 0x005A0049</initializer>
+          <briefdescription>
+<para>dest = pattern XOR dest </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a867a3ac54dc9f650dc13fb7200d9b466" prot="public">
+          <name>DSTINVERT</name>
+          <initializer> 0x00550009</initializer>
+          <briefdescription>
+<para>dest = (NOT dest) </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a867a3ac54dc9f650dc13fb7200d9b466" prot="public">
+          <name>BLACKNESS</name>
+          <initializer> 0x00000042</initializer>
+          <briefdescription>
+<para>dest = BLACK </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_microsoft_1_1_drawing_1a867a3ac54dc9f650dc13fb7200d9b466" prot="public">
+          <name>WHITENESS</name>
+          <initializer> 0x00FF0062</initializer>
+          <briefdescription>
+<para>dest = WHITE </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" line="48" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" bodystart="47" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Gradientfill.cs" line="15"/>
+  </compounddef>
+</doxygen>

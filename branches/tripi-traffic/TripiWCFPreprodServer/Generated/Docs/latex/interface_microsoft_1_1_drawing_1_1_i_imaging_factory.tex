@@ -1,0 +1,82 @@
+\hypertarget{interface_microsoft_1_1_drawing_1_1_i_imaging_factory}{
+\section{Microsoft.Drawing.IImagingFactory Interface Reference}
+\label{interface_microsoft_1_1_drawing_1_1_i_imaging_factory}\index{Microsoft::Drawing::IImagingFactory@{Microsoft::Drawing::IImagingFactory}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_a698c740d6bb8cbfe69549fff6163b468}{
+uint {\bfseries CreateImageFromStream} ()}
+\label{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_a698c740d6bb8cbfe69549fff6163b468}
+
+\item 
+\hypertarget{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_a57ac6ef8e863cd8508af1bb312f05217}{
+uint {\bfseries CreateImageFromFile} (string filename, out \hyperlink{interface_microsoft_1_1_drawing_1_1_i_image}{IImage} image)}
+\label{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_a57ac6ef8e863cd8508af1bb312f05217}
+
+\item 
+\hypertarget{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_a62a0aa3b343f7cbd6c8f2661c6fc6e74}{
+uint {\bfseries CreateImageFromBuffer} (\mbox{[}MarshalAs(UnmanagedType.LPArray)\mbox{]} byte\mbox{[}$\,$\mbox{]} buffer, uint size, BufferDisposalFlag disposalFlag, out \hyperlink{interface_microsoft_1_1_drawing_1_1_i_image}{IImage} image)}
+\label{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_a62a0aa3b343f7cbd6c8f2661c6fc6e74}
+
+\item 
+\hypertarget{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_ae761bb7c59448fbc9550ba7514acf9d3}{
+uint {\bfseries CreateNewBitmap} (uint width, uint height, PixelFormatID pixelFormat, out \hyperlink{interface_microsoft_1_1_drawing_1_1_i_bitmap_image}{IBitmapImage} bitmap)}
+\label{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_ae761bb7c59448fbc9550ba7514acf9d3}
+
+\item 
+\hypertarget{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_aa2589d1ffef2ebf6e5afd7dff785985a}{
+uint {\bfseries CreateBitmapFromImage} (\hyperlink{interface_microsoft_1_1_drawing_1_1_i_image}{IImage} image, uint width, uint height, PixelFormatID pixelFormat, InterpolationHint hints, out \hyperlink{interface_microsoft_1_1_drawing_1_1_i_bitmap_image}{IBitmapImage} bitmap)}
+\label{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_aa2589d1ffef2ebf6e5afd7dff785985a}
+
+\item 
+\hypertarget{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_ac0db9a39776f8fc0fef0c5e1419d5c9a}{
+uint {\bfseries CreateBitmapFromBuffer} ()}
+\label{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_ac0db9a39776f8fc0fef0c5e1419d5c9a}
+
+\item 
+\hypertarget{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_a940943445fa70828258115bdb5cc569c}{
+uint {\bfseries CreateImageDecoder} ()}
+\label{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_a940943445fa70828258115bdb5cc569c}
+
+\item 
+\hypertarget{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_ad3a31e0aa04046aab0c697bacd910fb5}{
+uint {\bfseries CreateImageEncoderToStream} ()}
+\label{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_ad3a31e0aa04046aab0c697bacd910fb5}
+
+\item 
+\hypertarget{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_a651503c7cbc6ddbbcc0b9b83c3c1c9e2}{
+uint {\bfseries CreateImageEncoderToFile} ()}
+\label{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_a651503c7cbc6ddbbcc0b9b83c3c1c9e2}
+
+\item 
+\hypertarget{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_a72ddaa3c7e580b850d9ab1832e99ac29}{
+uint {\bfseries GetInstalledDecoders} ()}
+\label{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_a72ddaa3c7e580b850d9ab1832e99ac29}
+
+\item 
+\hypertarget{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_a7083978f98510dd6b18a98b716e5bb0e}{
+uint {\bfseries GetInstalledEncoders} ()}
+\label{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_a7083978f98510dd6b18a98b716e5bb0e}
+
+\item 
+\hypertarget{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_a59a589d3c7afa529d840fc1cc3ba9c71}{
+uint {\bfseries InstallImageCodec} ()}
+\label{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_a59a589d3c7afa529d840fc1cc3ba9c71}
+
+\item 
+\hypertarget{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_acce030a35eac4814a149547013efe4f3}{
+uint {\bfseries UninstallImageCodec} ()}
+\label{interface_microsoft_1_1_drawing_1_1_i_imaging_factory_acce030a35eac4814a149547013efe4f3}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 108 of file IImagingFactory.cs.
+
+The documentation for this interface was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+UIFrameworkMobile/PlatformAPI/IImagingFactory.cs\end{DoxyCompactItemize}

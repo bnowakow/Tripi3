@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="dir_a818977307d4dbe0c44b871f2ecf716a" kind="dir">
+    <compoundname>SilverlightShowcase/</compoundname>
+    <innerdir refid="dir_7ef85cfcfa0ea46da661473a1fe54d2c">SilverlightShowcase/obj/</innerdir>
+    <innerdir refid="dir_9e4900fb5c41011ba7b471f3af187b83">SilverlightShowcase/Properties/</innerdir>
+    <innerdir refid="dir_cda381318fd23625a2a0236cbdc44e1f">SilverlightShowcase/Service References/</innerdir>
+    <innerfile refid="_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="_main_page_8xaml_8cs">MainPage.xaml.cs</innerfile>
+    <innerfile refid="_silverlight_showcase_2_tripi_service_client_8cs">TripiServiceClient.cs</innerfile>
+    <innerfile refid="_silverlight_showcase_2_tripi_w_c_f_service_8cs">TripiWCFService.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/"/>
+  </compounddef>
+</doxygen>

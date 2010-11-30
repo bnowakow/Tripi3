@@ -1,0 +1,95 @@
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip}{
+\section{TripiWCF.Service.Trip Class Reference}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip}\index{TripiWCF::Service::Trip@{TripiWCF::Service::Trip}}
+}
+
+
+Data object, which holds information about trip: who created it, short description and ID, which relates to PositionNodes.  
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip_a2fe85e5fde97ea9a387bad11ca5dd324}{Trip} (string username, int id, string tripName, string tripDescription)
+\begin{DoxyCompactList}\small\item\em Standard constructor, filling all fields of \hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip}{Trip}. \item\end{DoxyCompactList}\item 
+\hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip_a1d281550721fa997491ad341387850c5}{Trip} (XElement element)
+\begin{DoxyCompactList}\small\item\em Constructor taking an XElement from XML file, will throw exceptions on missing on unparse'able attributes. \item\end{DoxyCompactList}\item 
+XElement \hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip_af533edf814444221051ce081d025f989}{ToXElement} ()
+\begin{DoxyCompactList}\small\item\em Method which creates an XML element, holding data for XML-\/backed database. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_abe6972fc612a3749b72c1c12661cc8ad}{
+int {\bfseries ID}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_abe6972fc612a3749b72c1c12661cc8ad}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_ab3178ccd1a3906add6132cd72668c11e}{
+string {\bfseries TripName}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_ab3178ccd1a3906add6132cd72668c11e}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_adb6f9c38b858cf4101e9325f08bbd4ec}{
+string {\bfseries Username}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_adb6f9c38b858cf4101e9325f08bbd4ec}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_aa475109330f8c1f06f1b923fdeb792d8}{
+string {\bfseries TripDescription}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_aa475109330f8c1f06f1b923fdeb792d8}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Data object, which holds information about trip: who created it, short description and ID, which relates to PositionNodes. 
+
+Definition at line 22 of file TripiWCFService.cs.
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_a2fe85e5fde97ea9a387bad11ca5dd324}{
+\index{TripiWCF::Service::Trip@{TripiWCF::Service::Trip}!Trip@{Trip}}
+\index{Trip@{Trip}!TripiWCF::Service::Trip@{TripiWCF::Service::Trip}}
+\subsubsection[{Trip}]{\setlength{\rightskip}{0pt plus 5cm}TripiWCF.Service.Trip.Trip (string {\em username}, \/  int {\em id}, \/  string {\em tripName}, \/  string {\em tripDescription})}}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_a2fe85e5fde97ea9a387bad11ca5dd324}
+
+
+Standard constructor, filling all fields of \hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip}{Trip}. 
+\begin{DoxyParams}{Parameters}
+\item[{\em username}]User who created trip.\item[{\em id}]\hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip}{Trip} ID -\/ something similar to primary key here...\item[{\em tripName}]User-\/given trip name.\item[{\em tripDescription}]Short description of the trip.\end{DoxyParams}
+
+
+Definition at line 36 of file Trip.cs.\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_a1d281550721fa997491ad341387850c5}{
+\index{TripiWCF::Service::Trip@{TripiWCF::Service::Trip}!Trip@{Trip}}
+\index{Trip@{Trip}!TripiWCF::Service::Trip@{TripiWCF::Service::Trip}}
+\subsubsection[{Trip}]{\setlength{\rightskip}{0pt plus 5cm}TripiWCF.Service.Trip.Trip (XElement {\em element})}}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_a1d281550721fa997491ad341387850c5}
+
+
+Constructor taking an XElement from XML file, will throw exceptions on missing on unparse'able attributes. 
+\begin{DoxyParams}{Parameters}
+\item[{\em element}]XElement to parse.\end{DoxyParams}
+
+
+Definition at line 48 of file Trip.cs.
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_af533edf814444221051ce081d025f989}{
+\index{TripiWCF::Service::Trip@{TripiWCF::Service::Trip}!ToXElement@{ToXElement}}
+\index{ToXElement@{ToXElement}!TripiWCF::Service::Trip@{TripiWCF::Service::Trip}}
+\subsubsection[{ToXElement}]{\setlength{\rightskip}{0pt plus 5cm}XElement TripiWCF.Service.Trip.ToXElement ()}}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_af533edf814444221051ce081d025f989}
+
+
+Method which creates an XML element, holding data for XML-\/backed database. \begin{DoxyReturn}{Returns}
+Ready XElement, which can be passed to XElement-\/munching constructor of \hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip}{Trip}.
+\end{DoxyReturn}
+
+
+Definition at line 62 of file Trip.cs.
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+Install/TripiWCFService.cs\item 
+SilverlightShowcase/TripiServiceClient.cs\item 
+SilverlightShowcase/TripiWCFService.cs\item 
+TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs\item 
+TripiWCFService/Trip.cs\end{DoxyCompactItemize}

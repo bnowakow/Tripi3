@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1_service_manager" kind="class" prot="public">
+    <compoundname>Tripi::ServiceManager</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_tripi_1_1_service_manager_1ac4bd1ca0e3d7bd83993c74f3672d52e5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String Tripi.ServiceManager.GetWeather</definition>
+        <argsstring>(String city, String country)</argsstring>
+        <name>GetWeather</name>
+        <param>
+          <type>String</type>
+          <declname>city</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>country</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/ServiceManager.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/ServiceManager.cs" bodystart="14" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_service_manager_1aa9932510b6b38d6da158e4380444594b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String Tripi.ServiceManager.SendPosition</definition>
+        <argsstring>()</argsstring>
+        <name>SendPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/ServiceManager.cs" line="23" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/ServiceManager.cs" bodystart="22" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/ServiceManager.cs" line="13" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/ServiceManager.cs" bodystart="12" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1_service_manager_1ac4bd1ca0e3d7bd83993c74f3672d52e5" prot="public" virt="non-virtual"><scope>Tripi::ServiceManager</scope><name>GetWeather</name></member>
+      <member refid="class_tripi_1_1_service_manager_1aa9932510b6b38d6da158e4380444594b" prot="public" virt="non-virtual"><scope>Tripi::ServiceManager</scope><name>SendPosition</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="dir_75a65fa1ad34fa4ab019c3044bb8711f" kind="dir">
+    <compoundname>TripiWCFPreprodServer/Generated/</compoundname>
+    <innerdir refid="dir_f007c2c61f306ad6f0c675fa80df3b43">TripiWCFPreprodServer/Generated/ForMobile/</innerdir>
+    <innerdir refid="dir_98faddd1d1deee0bab64b83413a3c42f">TripiWCFPreprodServer/Generated/ForSilverlite/</innerdir>
+    <innerdir refid="dir_0d54e957d014585c1d3fb9d98785ad22">TripiWCFPreprodServer/Generated/ForWindowsClient/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node" kind="class" prot="public">
+    <compoundname>Tripi::TripiWCFRemote::PositionNode</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1aa2a940dab70829edd8ffbaf1ac1c2cf1" prot="private" static="no" mutable="no">
+        <type>System.DateTime</type>
+        <definition>System.DateTime Tripi.TripiWCFRemote.PositionNode.creationTimeField</definition>
+        <argsstring></argsstring>
+        <name>creationTimeField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="173" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1a27eab052c829d5f76650066378b7b86c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Tripi.TripiWCFRemote.PositionNode.creationTimeFieldSpecified</definition>
+        <argsstring></argsstring>
+        <name>creationTimeFieldSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="175" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1ad9aba334f5a78b89b70bc1fb0099165d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Tripi.TripiWCFRemote.PositionNode.latitudeField</definition>
+        <argsstring></argsstring>
+        <name>latitudeField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="177" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1a8026dd064e1ed02a40360ec80475d0c3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Tripi.TripiWCFRemote.PositionNode.latitudeFieldSpecified</definition>
+        <argsstring></argsstring>
+        <name>latitudeFieldSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="179" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1a3912873cb0fff9b8fdbdab2fd7b9124b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Tripi.TripiWCFRemote.PositionNode.longitudeField</definition>
+        <argsstring></argsstring>
+        <name>longitudeField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="181" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1ac56e87b8352598de382c5916c7ff8f1a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Tripi.TripiWCFRemote.PositionNode.longitudeFieldSpecified</definition>
+        <argsstring></argsstring>
+        <name>longitudeFieldSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="183" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1aac40aa5aa2823c4ced6ab714a3731afb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Tripi.TripiWCFRemote.PositionNode.tripIDField</definition>
+        <argsstring></argsstring>
+        <name>tripIDField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="185" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1aeb571a267cd274491fbc7cbc8b520674" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Tripi.TripiWCFRemote.PositionNode.tripIDFieldSpecified</definition>
+        <argsstring></argsstring>
+        <name>tripIDFieldSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="187" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1a37d9802945560a595bc585dab9bb1a7f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System.DateTime Tripi.TripiWCFRemote.PositionNode.CreationTime</definition>
+        <argsstring></argsstring>
+        <name>CreationTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="197" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1aba0a6e9935e0b6767f96284ead02c1fc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Tripi.TripiWCFRemote.PositionNode.CreationTimeSpecified</definition>
+        <argsstring></argsstring>
+        <name>CreationTimeSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="208" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1aa2d43ec4445af2e3e6918a9ae6b5acab" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Tripi.TripiWCFRemote.PositionNode.Latitude</definition>
+        <argsstring></argsstring>
+        <name>Latitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="218" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1a6111f8f6b688f23e06f1e50c2d9afc39" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Tripi.TripiWCFRemote.PositionNode.LatitudeSpecified</definition>
+        <argsstring></argsstring>
+        <name>LatitudeSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="229" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1ab6011225db1fb1ad3c221d24edfe2903" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Tripi.TripiWCFRemote.PositionNode.Longitude</definition>
+        <argsstring></argsstring>
+        <name>Longitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="239" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1afb2f4ab10589b0827af457a91443f69e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Tripi.TripiWCFRemote.PositionNode.LongitudeSpecified</definition>
+        <argsstring></argsstring>
+        <name>LongitudeSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="250" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1a5727c023ffcde6f1d81326e3ab49bfe8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Tripi.TripiWCFRemote.PositionNode.TripID</definition>
+        <argsstring></argsstring>
+        <name>TripID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="260" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1a6bd4c6a4e6d50b2b4e78ad7acbee056a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Tripi.TripiWCFRemote.PositionNode.TripIDSpecified</definition>
+        <argsstring></argsstring>
+        <name>TripIDSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="271" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="361">
+        <label>Tripi.TripiWCFRemote.PositionNode</label>
+        <link refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node"/>
+        <childnode refid="362" relation="usage">
+          <edgelabel>creationTimeField</edgelabel>
+        </childnode>
+      </node>
+      <node id="362">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="171" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="171" bodyend="272"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1a37d9802945560a595bc585dab9bb1a7f" prot="public" virt="non-virtual"><scope>Tripi::TripiWCFRemote::PositionNode</scope><name>CreationTime</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1aa2a940dab70829edd8ffbaf1ac1c2cf1" prot="private" virt="non-virtual"><scope>Tripi::TripiWCFRemote::PositionNode</scope><name>creationTimeField</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1a27eab052c829d5f76650066378b7b86c" prot="private" virt="non-virtual"><scope>Tripi::TripiWCFRemote::PositionNode</scope><name>creationTimeFieldSpecified</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1aba0a6e9935e0b6767f96284ead02c1fc" prot="public" virt="non-virtual"><scope>Tripi::TripiWCFRemote::PositionNode</scope><name>CreationTimeSpecified</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1aa2d43ec4445af2e3e6918a9ae6b5acab" prot="public" virt="non-virtual"><scope>Tripi::TripiWCFRemote::PositionNode</scope><name>Latitude</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1ad9aba334f5a78b89b70bc1fb0099165d" prot="private" virt="non-virtual"><scope>Tripi::TripiWCFRemote::PositionNode</scope><name>latitudeField</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1a8026dd064e1ed02a40360ec80475d0c3" prot="private" virt="non-virtual"><scope>Tripi::TripiWCFRemote::PositionNode</scope><name>latitudeFieldSpecified</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1a6111f8f6b688f23e06f1e50c2d9afc39" prot="public" virt="non-virtual"><scope>Tripi::TripiWCFRemote::PositionNode</scope><name>LatitudeSpecified</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1ab6011225db1fb1ad3c221d24edfe2903" prot="public" virt="non-virtual"><scope>Tripi::TripiWCFRemote::PositionNode</scope><name>Longitude</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1a3912873cb0fff9b8fdbdab2fd7b9124b" prot="private" virt="non-virtual"><scope>Tripi::TripiWCFRemote::PositionNode</scope><name>longitudeField</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1ac56e87b8352598de382c5916c7ff8f1a" prot="private" virt="non-virtual"><scope>Tripi::TripiWCFRemote::PositionNode</scope><name>longitudeFieldSpecified</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1afb2f4ab10589b0827af457a91443f69e" prot="public" virt="non-virtual"><scope>Tripi::TripiWCFRemote::PositionNode</scope><name>LongitudeSpecified</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1a5727c023ffcde6f1d81326e3ab49bfe8" prot="public" virt="non-virtual"><scope>Tripi::TripiWCFRemote::PositionNode</scope><name>TripID</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1aac40aa5aa2823c4ced6ab714a3731afb" prot="private" virt="non-virtual"><scope>Tripi::TripiWCFRemote::PositionNode</scope><name>tripIDField</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1aeb571a267cd274491fbc7cbc8b520674" prot="private" virt="non-virtual"><scope>Tripi::TripiWCFRemote::PositionNode</scope><name>tripIDFieldSpecified</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node_1a6bd4c6a4e6d50b2b4e78ad7acbee056a" prot="public" virt="non-virtual"><scope>Tripi::TripiWCFRemote::PositionNode</scope><name>TripIDSpecified</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

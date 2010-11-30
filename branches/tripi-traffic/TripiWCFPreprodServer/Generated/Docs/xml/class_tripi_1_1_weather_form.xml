@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1_weather_form" kind="class" prot="public">
+    <compoundname>Tripi::WeatherForm</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tripi_1_1_weather_form_1a5625ce35237963169dccc8549e2c29fb" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer Tripi.WeatherForm.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer> null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.Designer.cs" line="8" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_weather_form_1aac1161f02945695ab6894c942b64d5cb" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Tripi.WeatherForm.weatherTitle</definition>
+        <argsstring></argsstring>
+        <name>weatherTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.Designer.cs" line="70" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.Designer.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_weather_form_1a37295c24d58ef930393413c30c2616eb" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Tripi.WeatherForm.weatherDescription</definition>
+        <argsstring></argsstring>
+        <name>weatherDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.Designer.cs" line="71" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.Designer.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tripi_1_1_weather_form_1a99b7b15e0625cf1dac0fd04083f7c8c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Tripi.WeatherForm.WeatherForm</definition>
+        <argsstring>()</argsstring>
+        <name>WeatherForm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.cs" line="16" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tripi_1_1_weather_form_1a7a8510f8df144113ecf489b751cee9f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.WeatherForm.BackButtonClick</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackButtonClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.cs" line="21" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.cs" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_weather_form_1ad9940b68bc0afaa1bcb79810259a8c84" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.WeatherForm.FormLoad</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>FormLoad</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.cs" line="27" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.cs" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_weather_form_1a34e5516daa7bb14ed6a2ca440a071b0e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.WeatherForm.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.Designer.cs" line="30" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.Designer.cs" bodystart="29" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_tripi_1_1_weather_form_1a70d4351bfc8cf0aefd8246db04a83825" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Tripi.WeatherForm.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.Designer.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="556">
+        <label>System</label>
+      </node>
+      <node id="555">
+        <label>Tripi.WeatherForm</label>
+        <link refid="class_tripi_1_1_weather_form"/>
+        <childnode refid="556" relation="usage">
+          <edgelabel>weatherTitle</edgelabel>
+          <edgelabel>components</edgelabel>
+          <edgelabel>weatherDescription</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.cs" line="14" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/WeatherForm.cs" bodystart="13" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1_weather_form_1a7a8510f8df144113ecf489b751cee9f2" prot="private" virt="non-virtual"><scope>Tripi::WeatherForm</scope><name>BackButtonClick</name></member>
+      <member refid="class_tripi_1_1_weather_form_1a5625ce35237963169dccc8549e2c29fb" prot="private" virt="non-virtual"><scope>Tripi::WeatherForm</scope><name>components</name></member>
+      <member refid="class_tripi_1_1_weather_form_1a70d4351bfc8cf0aefd8246db04a83825" prot="protected" virt="non-virtual"><scope>Tripi::WeatherForm</scope><name>Dispose</name></member>
+      <member refid="class_tripi_1_1_weather_form_1ad9940b68bc0afaa1bcb79810259a8c84" prot="private" virt="non-virtual"><scope>Tripi::WeatherForm</scope><name>FormLoad</name></member>
+      <member refid="class_tripi_1_1_weather_form_1a34e5516daa7bb14ed6a2ca440a071b0e" prot="private" virt="non-virtual"><scope>Tripi::WeatherForm</scope><name>InitializeComponent</name></member>
+      <member refid="class_tripi_1_1_weather_form_1a37295c24d58ef930393413c30c2616eb" prot="private" virt="non-virtual"><scope>Tripi::WeatherForm</scope><name>weatherDescription</name></member>
+      <member refid="class_tripi_1_1_weather_form_1a99b7b15e0625cf1dac0fd04083f7c8c9" prot="public" virt="non-virtual"><scope>Tripi::WeatherForm</scope><name>WeatherForm</name></member>
+      <member refid="class_tripi_1_1_weather_form_1aac1161f02945695ab6894c942b64d5cb" prot="private" virt="non-virtual"><scope>Tripi::WeatherForm</scope><name>weatherTitle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

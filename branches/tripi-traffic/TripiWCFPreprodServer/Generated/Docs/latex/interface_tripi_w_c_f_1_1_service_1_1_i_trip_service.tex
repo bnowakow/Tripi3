@@ -1,0 +1,68 @@
+\hypertarget{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service}{
+\section{TripiWCF.Service.ITripService Interface Reference}
+\label{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service}\index{TripiWCF::Service::ITripService@{TripiWCF::Service::ITripService}}
+}
+Inheritance diagram for TripiWCF.Service.ITripService::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.80258cm]{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_ad23ee6719b3640fd1c990cd9f32acfbe}{
+string {\bfseries LoginUser} (string username, string password)}
+\label{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_ad23ee6719b3640fd1c990cd9f32acfbe}
+
+\item 
+\hypertarget{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_a10edfa62941be7cbb3ccc1421df39b09}{
+int {\bfseries CreateNewTrip} (string username, string tripName, string tripDescription)}
+\label{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_a10edfa62941be7cbb3ccc1421df39b09}
+
+\item 
+\hypertarget{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_aa439088421f449f59f727144f01efce0}{
+List$<$ \hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip}{Trip} $>$ {\bfseries GetAllTrips} ()}
+\label{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_aa439088421f449f59f727144f01efce0}
+
+\item 
+\hypertarget{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_a375a6a0f21f41ddd27c83c0c03a79123}{
+List$<$ \hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip}{Trip} $>$ {\bfseries GetTripsForUser} (string username)}
+\label{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_a375a6a0f21f41ddd27c83c0c03a79123}
+
+\item 
+\hypertarget{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_a0fdff13a8d29246186a265dfe6ce9495}{
+void {\bfseries UpdateTripDescription} (int tripID, string tripDescription)}
+\label{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_a0fdff13a8d29246186a265dfe6ce9495}
+
+\item 
+\hypertarget{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_a76e4011633f1beef608e26242b35ef8a}{
+int {\bfseries AddPositionNode} (\hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{PositionNode} node)}
+\label{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_a76e4011633f1beef608e26242b35ef8a}
+
+\item 
+\hypertarget{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_aa0fc9b8a507d2844fde7e51a120e4a6e}{
+void {\bfseries AddManyPositionNodes} (IEnumerable$<$ \hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{PositionNode} $>$ nodes)}
+\label{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_aa0fc9b8a507d2844fde7e51a120e4a6e}
+
+\item 
+\hypertarget{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_a907409f375103b8de821cdfeea47fb02}{
+List$<$ \hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{PositionNode} $>$ {\bfseries GetPositionNodesForTrip} (int tripID)}
+\label{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_a907409f375103b8de821cdfeea47fb02}
+
+\item 
+\hypertarget{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_a84f87626d1d68286d551af0965839f2c}{
+void {\bfseries UpdatePositionNodeDescription} (int tripID, int nodeNumber, string nodeDescription)}
+\label{interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_a84f87626d1d68286d551af0965839f2c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 11 of file ITripService.cs.
+
+The documentation for this interface was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+TripiWCFService/ITripService.cs\end{DoxyCompactItemize}

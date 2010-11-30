@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="namespace_microsoft_1_1_tools" kind="namespace">
+    <compoundname>Microsoft::Tools</compoundname>
+    <innernamespace refid="namespace_microsoft_1_1_tools_1_1_service_model">Microsoft::Tools::ServiceModel</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1"/>
+  </compounddef>
+</doxygen>
