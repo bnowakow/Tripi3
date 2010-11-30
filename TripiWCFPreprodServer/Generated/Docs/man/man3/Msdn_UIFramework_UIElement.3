@@ -1,0 +1,166 @@
+.TH "Msdn::UIFramework::UIElement" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Msdn::UIFramework::UIElement \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBMsdn.UIFramework.Border\fP, \fBMsdn.UIFramework.Canvas\fP, \fBMsdn.UIFramework.ImageElement\fP, \fBMsdn.UIFramework.ListElement\fP, \fBMsdn.UIFramework.MenuBar\fP, \fBMsdn.UIFramework.TextBlock\fP, and \fBMsdn.UIFramework.TitleBar\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "bool \fBHitTest\fP (Point point)"
+.br
+.RI "\fIDetects a hit test. \fP"
+.ti -1c
+.RI "void \fBRender\fP (Graphics graphics)"
+.br
+.RI "\fIRenders the \fBUIElement\fP. \fP"
+.ti -1c
+.RI "void \fBOnInvalidate\fP (\fBUIElement\fP element)"
+.br
+.ti -1c
+.RI "void \fBOnInvalidate\fP ()"
+.br
+.ti -1c
+.RI "void \fBOnClick\fP (EventArgs e)"
+.br
+.ti -1c
+.RI "void \fBOnMouseDown\fP (MouseEventArgs e)"
+.br
+.ti -1c
+.RI "void \fBOnMouseUp\fP (MouseEventArgs e)"
+.br
+.ti -1c
+.RI "void \fBOnMouseMove\fP (MouseEventArgs e)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBOnRender\fP (Graphics graphics)"
+.br
+.RI "\fIRender method to implement by inheritors. \fP"
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBheight\fP"
+.br
+.ti -1c
+.RI "int \fBwidth\fP"
+.br
+.ti -1c
+.RI "int \fBleft\fP"
+.br
+.ti -1c
+.RI "int \fBtop\fP"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "int \fBLeft\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "int \fBTop\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "Rectangle \fBRectangle\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "int \fBHeight\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "\fBUIElement\fP \fBParent\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "int \fBWidth\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "string \fBName\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "byte \fBOpacity\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "bool \fBVisible\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "Color \fBForeground\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "Color \fBBackground\fP\fC [get, set]\fP"
+.br
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "MouseEventHandler \fBMouseMove\fP"
+.br
+.ti -1c
+.RI "MouseEventHandler \fBMouseDown\fP"
+.br
+.ti -1c
+.RI "MouseEventHandler \fBMouseUp\fP"
+.br
+.ti -1c
+.RI "EventHandler \fBClick\fP"
+.br
+.ti -1c
+.RI "EventHandler \fBInvalidate\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 16 of file UIElement.cs.
+.SH "Member Function Documentation"
+.PP 
+.SS "bool Msdn.UIFramework.UIElement.HitTest (Point point)"
+.PP
+Detects a hit test. \fBParameters:\fP
+.RS 4
+\fIpoint\fP a point to detect
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+True: if the \fBUIElement\fP was hit.
+.RE
+.PP
+
+.PP
+Definition at line 67 of file UIElement.cs.
+.SS "virtual void Msdn.UIFramework.UIElement.OnRender (Graphics graphics)\fC [protected, virtual]\fP"
+.PP
+Render method to implement by inheritors. \fBParameters:\fP
+.RS 4
+\fIgraphics\fP Graphics object.
+.RE
+.PP
+
+.PP
+Reimplemented in \fBMsdn.UIFramework.Border\fP, \fBMsdn.UIFramework.Canvas\fP, \fBMsdn.UIFramework.ImageElement\fP, \fBMsdn.UIFramework.ListElement\fP, \fBMsdn.UIFramework.TextBlock\fP, and \fBMsdn.UIFramework.TitleBar\fP.
+.PP
+Definition at line 85 of file UIElement.cs.
+.SS "void Msdn.UIFramework.UIElement.Render (Graphics graphics)"
+.PP
+Renders the \fBUIElement\fP. \fBParameters:\fP
+.RS 4
+\fIgraphics\fP Graphics object.
+.RE
+.PP
+
+.PP
+Definition at line 76 of file UIElement.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

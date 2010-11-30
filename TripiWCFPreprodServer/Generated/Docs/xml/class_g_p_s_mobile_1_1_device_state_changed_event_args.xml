@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_g_p_s_mobile_1_1_device_state_changed_event_args" kind="class" prot="public">
+    <compoundname>GPSMobile::DeviceStateChangedEventArgs</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_device_state_changed_event_args_1a968ff2111d16cb1036db641703948cb5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_g_p_s_mobile_1_1_gps_device_state" kindref="compound">GpsDeviceState</ref></type>
+        <definition>GpsDeviceState GPSMobile.DeviceStateChangedEventArgs.DeviceState</definition>
+        <argsstring></argsstring>
+        <name>DeviceState</name>
+        <briefdescription>
+<para>Gets the new device state when the GPS reports a new device state. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DeviceStateChangedEventArgs.cs" line="40" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DeviceStateChangedEventArgs.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_device_state_changed_event_args_1a2f3702d5b8e8f96d3b5fc52d50733a16" prot="private" static="no" mutable="no">
+        <type><ref refid="class_g_p_s_mobile_1_1_gps_device_state" kindref="compound">GpsDeviceState</ref></type>
+        <definition>GpsDeviceState GPSMobile.DeviceStateChangedEventArgs.deviceState</definition>
+        <argsstring></argsstring>
+        <name>deviceState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DeviceStateChangedEventArgs.cs" line="42" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DeviceStateChangedEventArgs.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_device_state_changed_event_args_1a4e2716f3879213e538b76481ab20ec2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GPSMobile.DeviceStateChangedEventArgs.DeviceStateChangedEventArgs</definition>
+        <argsstring>(GpsDeviceState deviceState)</argsstring>
+        <name>DeviceStateChangedEventArgs</name>
+        <param>
+          <type><ref refid="class_g_p_s_mobile_1_1_gps_device_state" kindref="compound">GpsDeviceState</ref></type>
+          <declname>deviceState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DeviceStateChangedEventArgs.cs" line="27" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DeviceStateChangedEventArgs.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Event args used for DeviceStateChanged event. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="81">
+        <label>GPSMobile.DeviceStateChangedEventArgs</label>
+        <link refid="class_g_p_s_mobile_1_1_device_state_changed_event_args"/>
+        <childnode refid="82" relation="usage">
+          <edgelabel>deviceState</edgelabel>
+        </childnode>
+      </node>
+      <node id="82">
+        <label>GPSMobile.GpsDeviceState</label>
+        <link refid="class_g_p_s_mobile_1_1_gps_device_state"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DeviceStateChangedEventArgs.cs" line="25" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DeviceStateChangedEventArgs.cs" bodystart="24" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_g_p_s_mobile_1_1_device_state_changed_event_args_1a968ff2111d16cb1036db641703948cb5" prot="public" virt="non-virtual"><scope>GPSMobile::DeviceStateChangedEventArgs</scope><name>DeviceState</name></member>
+      <member refid="class_g_p_s_mobile_1_1_device_state_changed_event_args_1a2f3702d5b8e8f96d3b5fc52d50733a16" prot="private" virt="non-virtual"><scope>GPSMobile::DeviceStateChangedEventArgs</scope><name>deviceState</name></member>
+      <member refid="class_g_p_s_mobile_1_1_device_state_changed_event_args_1a4e2716f3879213e538b76481ab20ec2e" prot="public" virt="non-virtual"><scope>GPSMobile::DeviceStateChangedEventArgs</scope><name>DeviceStateChangedEventArgs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

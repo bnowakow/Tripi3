@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_get_trips_for_user_completed_event_args" kind="class" prot="public">
+    <compoundname>SilverlightShowcase::TripiSilverlightWCFServiceReference::GetTripsForUserCompletedEventArgs</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_get_trips_for_user_completed_event_args_1aba3a85700383ad67ceb0beb7e3a94ead" prot="private" static="no" mutable="no">
+        <type>object[]</type>
+        <definition>object [] SilverlightShowcase.TripiSilverlightWCFServiceReference.GetTripsForUserCompletedEventArgs.results</definition>
+        <argsstring></argsstring>
+        <name>results</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="190" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_get_trips_for_user_completed_event_args_1ab243498831b4029fbf0f93b337ff9e10" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>System.Collections.ObjectModel.ObservableCollection&lt; <ref refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_trip" kindref="compound">SilverlightShowcase.TripiSilverlightWCFServiceReference.Trip</ref> &gt;</type>
+        <definition>System.Collections.ObjectModel.ObservableCollection&lt;SilverlightShowcase.TripiSilverlightWCFServiceReference.Trip&gt; SilverlightShowcase.TripiSilverlightWCFServiceReference.GetTripsForUserCompletedEventArgs.Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="202" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_get_trips_for_user_completed_event_args_1abd799ac6e9cb2731692621059b0d0aaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SilverlightShowcase.TripiSilverlightWCFServiceReference.GetTripsForUserCompletedEventArgs.GetTripsForUserCompletedEventArgs</definition>
+        <argsstring>(object[] results, System.Exception exception, bool cancelled, object userState)</argsstring>
+        <name>GetTripsForUserCompletedEventArgs</name>
+        <param>
+          <type>object[]</type>
+          <declname>results</declname>
+        </param>
+        <param>
+          <type>System.Exception</type>
+          <declname>exception</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cancelled</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>userState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="193" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="192" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="188" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="188" bodyend="203"/>
+    <listofallmembers>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_get_trips_for_user_completed_event_args_1abd799ac6e9cb2731692621059b0d0aaa" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::GetTripsForUserCompletedEventArgs</scope><name>GetTripsForUserCompletedEventArgs</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_get_trips_for_user_completed_event_args_1ab243498831b4029fbf0f93b337ff9e10" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::GetTripsForUserCompletedEventArgs</scope><name>Result</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_get_trips_for_user_completed_event_args_1aba3a85700383ad67ceb0beb7e3a94ead" prot="private" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::GetTripsForUserCompletedEventArgs</scope><name>results</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

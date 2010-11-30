@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_update_position_node_description_response" kind="class" prot="public">
+    <compoundname>UpdatePositionNodeDescriptionResponse</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_update_position_node_description_response_1a24980e85044a877c6703d45881964ad8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UpdatePositionNodeDescriptionResponse.UpdatePositionNodeDescriptionResponse</definition>
+        <argsstring>()</argsstring>
+        <name>UpdatePositionNodeDescriptionResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="678" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="677" bodyend="679"/>
+      </memberdef>
+      <memberdef kind="function" id="class_update_position_node_description_response_1a24980e85044a877c6703d45881964ad8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UpdatePositionNodeDescriptionResponse.UpdatePositionNodeDescriptionResponse</definition>
+        <argsstring>()</argsstring>
+        <name>UpdatePositionNodeDescriptionResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="678" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="677" bodyend="679"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="675" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="674" bodyend="680"/>
+    <listofallmembers>
+      <member refid="class_update_position_node_description_response_1a24980e85044a877c6703d45881964ad8" prot="public" virt="non-virtual"><scope>UpdatePositionNodeDescriptionResponse</scope><name>UpdatePositionNodeDescriptionResponse</name></member>
+      <member refid="class_update_position_node_description_response_1a24980e85044a877c6703d45881964ad8" prot="public" virt="non-virtual"><scope>UpdatePositionNodeDescriptionResponse</scope><name>UpdatePositionNodeDescriptionResponse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

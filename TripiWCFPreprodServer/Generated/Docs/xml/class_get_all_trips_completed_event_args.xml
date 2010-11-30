@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_get_all_trips_completed_event_args" kind="class" prot="public">
+    <compoundname>GetAllTripsCompletedEventArgs</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_get_all_trips_completed_event_args_1a18836a3d3aae1116b53bc5b4ef839e5b" prot="private" static="no" mutable="no">
+        <type>object[]</type>
+        <definition>object [] GetAllTripsCompletedEventArgs.results</definition>
+        <argsstring></argsstring>
+        <name>results</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="307" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_get_all_trips_completed_event_args_1ac6909c066bc841dc28893188c6732eb8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_trip" kindref="compound">TripiWCF.Service.Trip</ref>[]</type>
+        <definition>TripiWCF.Service.Trip [] GetAllTripsCompletedEventArgs.Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="322" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="316" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_get_all_trips_completed_event_args_1a82112890cb7ec62bb724b2ec977e566d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetAllTripsCompletedEventArgs.GetAllTripsCompletedEventArgs</definition>
+        <argsstring>(object[] results, System.Exception exception, bool cancelled, object userState)</argsstring>
+        <name>GetAllTripsCompletedEventArgs</name>
+        <param>
+          <type>object[]</type>
+          <declname>results</declname>
+        </param>
+        <param>
+          <type>System.Exception</type>
+          <declname>exception</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cancelled</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>userState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="311" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="309" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_all_trips_completed_event_args_1a82112890cb7ec62bb724b2ec977e566d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetAllTripsCompletedEventArgs.GetAllTripsCompletedEventArgs</definition>
+        <argsstring>(object[] results, System.Exception exception, bool cancelled, object userState)</argsstring>
+        <name>GetAllTripsCompletedEventArgs</name>
+        <param>
+          <type>object[]</type>
+          <declname>results</declname>
+        </param>
+        <param>
+          <type>System.Exception</type>
+          <declname>exception</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cancelled</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>userState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="311" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="309" bodyend="313"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="305" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="304" bodyend="323"/>
+    <listofallmembers>
+      <member refid="class_get_all_trips_completed_event_args_1a82112890cb7ec62bb724b2ec977e566d" prot="public" virt="non-virtual"><scope>GetAllTripsCompletedEventArgs</scope><name>GetAllTripsCompletedEventArgs</name></member>
+      <member refid="class_get_all_trips_completed_event_args_1a82112890cb7ec62bb724b2ec977e566d" prot="public" virt="non-virtual"><scope>GetAllTripsCompletedEventArgs</scope><name>GetAllTripsCompletedEventArgs</name></member>
+      <member refid="class_get_all_trips_completed_event_args_1ac6909c066bc841dc28893188c6732eb8" prot="public" virt="non-virtual"><scope>GetAllTripsCompletedEventArgs</scope><name>Result</name></member>
+      <member refid="class_get_all_trips_completed_event_args_1a18836a3d3aae1116b53bc5b4ef839e5b" prot="private" virt="non-virtual"><scope>GetAllTripsCompletedEventArgs</scope><name>results</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

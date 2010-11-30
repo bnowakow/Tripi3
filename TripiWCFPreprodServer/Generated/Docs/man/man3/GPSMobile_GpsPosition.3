@@ -1,0 +1,307 @@
+.TH "GPSMobile::GpsPosition" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+GPSMobile::GpsPosition \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBSatellite\fP[] \fBGetSatellitesInSolution\fP ()"
+.br
+.RI "\fISatellites used in the solution. \fP"
+.ti -1c
+.RI "\fBSatellite\fP[] \fBGetSatellitesInView\fP ()"
+.br
+.RI "\fISatellites in view. \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "DateTime \fBTime\fP\fC [get]\fP"
+.br
+.RI "\fIUTC according to GPS clock. \fP"
+.ti -1c
+.RI "bool \fBTimeValid\fP\fC [get]\fP"
+.br
+.RI "\fITrue if the Time property is valid, false if invalid. \fP"
+.ti -1c
+.RI "bool \fBSatellitesInSolutionValid\fP\fC [get]\fP"
+.br
+.RI "\fITrue if the SatellitesInSolution property is valid, false if invalid. \fP"
+.ti -1c
+.RI "bool \fBSatellitesInViewValid\fP\fC [get]\fP"
+.br
+.RI "\fITrue if the SatellitesInView property is valid, false if invalid. \fP"
+.ti -1c
+.RI "int \fBSatelliteCount\fP\fC [get]\fP"
+.br
+.RI "\fINumber of satellites used in solution. \fP"
+.ti -1c
+.RI "bool \fBSatelliteCountValid\fP\fC [get]\fP"
+.br
+.RI "\fITrue if the SatelliteCount property is valid, false if invalid. \fP"
+.ti -1c
+.RI "int \fBSatellitesInViewCount\fP\fC [get]\fP"
+.br
+.RI "\fINumber of satellites in view. \fP"
+.ti -1c
+.RI "bool \fBSatellitesInViewCountValid\fP\fC [get]\fP"
+.br
+.RI "\fITrue if the SatellitesInViewCount property is valid, false if invalid. \fP"
+.ti -1c
+.RI "float \fBSpeed\fP\fC [get]\fP"
+.br
+.RI "\fISpeed in knots. \fP"
+.ti -1c
+.RI "bool \fBSpeedValid\fP\fC [get]\fP"
+.br
+.RI "\fITrue if the Speed property is valid, false if invalid. \fP"
+.ti -1c
+.RI "float \fBEllipsoidAltitude\fP\fC [get]\fP"
+.br
+.RI "\fIAltitude with regards to ellipsoid, in meters. \fP"
+.ti -1c
+.RI "bool \fBEllipsoidAltitudeValid\fP\fC [get]\fP"
+.br
+.RI "\fITrue if the EllipsoidAltitude property is valid, false if invalid. \fP"
+.ti -1c
+.RI "float \fBSeaLevelAltitude\fP\fC [get]\fP"
+.br
+.RI "\fIAltitute with regards to sea level, in meters. \fP"
+.ti -1c
+.RI "bool \fBSeaLevelAltitudeValid\fP\fC [get]\fP"
+.br
+.RI "\fITrue if the SeaLevelAltitude property is valid, false if invalid. \fP"
+.ti -1c
+.RI "double \fBLatitude\fP\fC [get]\fP"
+.br
+.RI "\fILatitude in decimal degrees. North is positive. \fP"
+.ti -1c
+.RI "\fBDegreesMinutesSeconds\fP \fBLatitudeInDegreesMinutesSeconds\fP\fC [get]\fP"
+.br
+.RI "\fILatitude in degrees, minutes, seconds. North is positive. \fP"
+.ti -1c
+.RI "bool \fBLatitudeValid\fP\fC [get]\fP"
+.br
+.RI "\fITrue if the Latitude property is valid, false if invalid. \fP"
+.ti -1c
+.RI "double \fBLongitude\fP\fC [get]\fP"
+.br
+.RI "\fILongitude in decimal degrees. East is positive. \fP"
+.ti -1c
+.RI "\fBDegreesMinutesSeconds\fP \fBLongitudeInDegreesMinutesSeconds\fP\fC [get]\fP"
+.br
+.RI "\fILongitude in degrees, minutes, seconds. East is positive. \fP"
+.ti -1c
+.RI "bool \fBLongitudeValid\fP\fC [get]\fP"
+.br
+.RI "\fITrue if the Longitude property is valid, false if invalid. \fP"
+.ti -1c
+.RI "float \fBHeading\fP\fC [get]\fP"
+.br
+.RI "\fIDegrees heading (course made good). True North=0. \fP"
+.ti -1c
+.RI "bool \fBHeadingValid\fP\fC [get]\fP"
+.br
+.RI "\fITrue if the Heading property is valid, false if invalid. \fP"
+.ti -1c
+.RI "float \fBPositionDilutionOfPrecision\fP\fC [get]\fP"
+.br
+.RI "\fIPosition Dilution Of Precision. \fP"
+.ti -1c
+.RI "bool \fBPositionDilutionOfPrecisionValid\fP\fC [get]\fP"
+.br
+.RI "\fITrue if the PositionDilutionOfPrecision property is valid, false if invalid. \fP"
+.ti -1c
+.RI "float \fBHorizontalDilutionOfPrecision\fP\fC [get]\fP"
+.br
+.RI "\fIHorizontal Dilution Of Precision. \fP"
+.ti -1c
+.RI "bool \fBHorizontalDilutionOfPrecisionValid\fP\fC [get]\fP"
+.br
+.RI "\fITrue if the HorizontalDilutionOfPrecision property is valid, false if invalid. \fP"
+.ti -1c
+.RI "float \fBVerticalDilutionOfPrecision\fP\fC [get]\fP"
+.br
+.RI "\fIVertical Dilution Of Precision. \fP"
+.ti -1c
+.RI "bool \fBVerticalDilutionOfPrecisionValid\fP\fC [get]\fP"
+.br
+.RI "\fITrue if the VerticalDilutionOfPrecision property is valid, false if invalid. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 154 of file GpsPosition.cs.
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBSatellite\fP [] GPSMobile.GpsPosition.GetSatellitesInSolution ()"
+.PP
+Satellites used in the solution. \fBReturns:\fP
+.RS 4
+Array of Satellites
+.RE
+.PP
+
+.PP
+Definition at line 256 of file GpsPosition.cs.
+.SS "\fBSatellite\fP [] GPSMobile.GpsPosition.GetSatellitesInView ()"
+.PP
+Satellites in view. \fBReturns:\fP
+.RS 4
+Array of Satellites
+.RE
+.PP
+
+.PP
+Definition at line 289 of file GpsPosition.cs.
+.SH "Property Documentation"
+.PP 
+.SS "float GPSMobile.GpsPosition.EllipsoidAltitude\fC [get]\fP"
+.PP
+Altitude with regards to ellipsoid, in meters. 
+.PP
+Definition at line 365 of file GpsPosition.cs.
+.SS "bool GPSMobile.GpsPosition.EllipsoidAltitudeValid\fC [get]\fP"
+.PP
+True if the EllipsoidAltitude property is valid, false if invalid. 
+.PP
+Definition at line 372 of file GpsPosition.cs.
+.SS "float GPSMobile.GpsPosition.Heading\fC [get]\fP"
+.PP
+Degrees heading (course made good). True North=0. 
+.PP
+Definition at line 441 of file GpsPosition.cs.
+.SS "bool GPSMobile.GpsPosition.HeadingValid\fC [get]\fP"
+.PP
+True if the Heading property is valid, false if invalid. 
+.PP
+Definition at line 448 of file GpsPosition.cs.
+.SS "float GPSMobile.GpsPosition.HorizontalDilutionOfPrecision\fC [get]\fP"
+.PP
+Horizontal Dilution Of Precision. 
+.PP
+Definition at line 471 of file GpsPosition.cs.
+.SS "bool GPSMobile.GpsPosition.HorizontalDilutionOfPrecisionValid\fC [get]\fP"
+.PP
+True if the HorizontalDilutionOfPrecision property is valid, false if invalid. 
+.PP
+Definition at line 478 of file GpsPosition.cs.
+.SS "double GPSMobile.GpsPosition.Latitude\fC [get]\fP"
+.PP
+Latitude in decimal degrees. North is positive. 
+.PP
+Definition at line 395 of file GpsPosition.cs.
+.SS "\fBDegreesMinutesSeconds\fP GPSMobile.GpsPosition.LatitudeInDegreesMinutesSeconds\fC [get]\fP"
+.PP
+Latitude in degrees, minutes, seconds. North is positive. 
+.PP
+Definition at line 402 of file GpsPosition.cs.
+.SS "bool GPSMobile.GpsPosition.LatitudeValid\fC [get]\fP"
+.PP
+True if the Latitude property is valid, false if invalid. 
+.PP
+Definition at line 410 of file GpsPosition.cs.
+.SS "double GPSMobile.GpsPosition.Longitude\fC [get]\fP"
+.PP
+Longitude in decimal degrees. East is positive. 
+.PP
+Definition at line 418 of file GpsPosition.cs.
+.SS "\fBDegreesMinutesSeconds\fP GPSMobile.GpsPosition.LongitudeInDegreesMinutesSeconds\fC [get]\fP"
+.PP
+Longitude in degrees, minutes, seconds. East is positive. 
+.PP
+Definition at line 426 of file GpsPosition.cs.
+.SS "bool GPSMobile.GpsPosition.LongitudeValid\fC [get]\fP"
+.PP
+True if the Longitude property is valid, false if invalid. 
+.PP
+Definition at line 433 of file GpsPosition.cs.
+.SS "float GPSMobile.GpsPosition.PositionDilutionOfPrecision\fC [get]\fP"
+.PP
+Position Dilution Of Precision. 
+.PP
+Definition at line 456 of file GpsPosition.cs.
+.SS "bool GPSMobile.GpsPosition.PositionDilutionOfPrecisionValid\fC [get]\fP"
+.PP
+True if the PositionDilutionOfPrecision property is valid, false if invalid. 
+.PP
+Definition at line 463 of file GpsPosition.cs.
+.SS "int GPSMobile.GpsPosition.SatelliteCount\fC [get]\fP"
+.PP
+Number of satellites used in solution. 
+.PP
+Definition at line 320 of file GpsPosition.cs.
+.SS "bool GPSMobile.GpsPosition.SatelliteCountValid\fC [get]\fP"
+.PP
+True if the SatelliteCount property is valid, false if invalid. 
+.PP
+Definition at line 327 of file GpsPosition.cs.
+.SS "bool GPSMobile.GpsPosition.SatellitesInSolutionValid\fC [get]\fP"
+.PP
+True if the SatellitesInSolution property is valid, false if invalid. 
+.PP
+Definition at line 279 of file GpsPosition.cs.
+.SS "int GPSMobile.GpsPosition.SatellitesInViewCount\fC [get]\fP"
+.PP
+Number of satellites in view. 
+.PP
+Definition at line 335 of file GpsPosition.cs.
+.SS "bool GPSMobile.GpsPosition.SatellitesInViewCountValid\fC [get]\fP"
+.PP
+True if the SatellitesInViewCount property is valid, false if invalid. 
+.PP
+Definition at line 342 of file GpsPosition.cs.
+.SS "bool GPSMobile.GpsPosition.SatellitesInViewValid\fC [get]\fP"
+.PP
+True if the SatellitesInView property is valid, false if invalid. 
+.PP
+Definition at line 311 of file GpsPosition.cs.
+.SS "float GPSMobile.GpsPosition.SeaLevelAltitude\fC [get]\fP"
+.PP
+Altitute with regards to sea level, in meters. 
+.PP
+Definition at line 380 of file GpsPosition.cs.
+.SS "bool GPSMobile.GpsPosition.SeaLevelAltitudeValid\fC [get]\fP"
+.PP
+True if the SeaLevelAltitude property is valid, false if invalid. 
+.PP
+Definition at line 387 of file GpsPosition.cs.
+.SS "float GPSMobile.GpsPosition.Speed\fC [get]\fP"
+.PP
+Speed in knots. 
+.PP
+Definition at line 350 of file GpsPosition.cs.
+.SS "bool GPSMobile.GpsPosition.SpeedValid\fC [get]\fP"
+.PP
+True if the Speed property is valid, false if invalid. 
+.PP
+Definition at line 357 of file GpsPosition.cs.
+.SS "DateTime GPSMobile.GpsPosition.Time\fC [get]\fP"
+.PP
+UTC according to GPS clock. 
+.PP
+Definition at line 235 of file GpsPosition.cs.
+.SS "bool GPSMobile.GpsPosition.TimeValid\fC [get]\fP"
+.PP
+True if the Time property is valid, false if invalid. 
+.PP
+Definition at line 247 of file GpsPosition.cs.
+.SS "float GPSMobile.GpsPosition.VerticalDilutionOfPrecision\fC [get]\fP"
+.PP
+Vertical Dilution Of Precision. 
+.PP
+Definition at line 486 of file GpsPosition.cs.
+.SS "bool GPSMobile.GpsPosition.VerticalDilutionOfPrecisionValid\fC [get]\fP"
+.PP
+True if the VerticalDilutionOfPrecision property is valid, false if invalid. 
+.PP
+Definition at line 493 of file GpsPosition.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

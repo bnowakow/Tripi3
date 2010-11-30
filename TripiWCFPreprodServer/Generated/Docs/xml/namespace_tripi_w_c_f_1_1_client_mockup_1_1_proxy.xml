@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="namespace_tripi_w_c_f_1_1_client_mockup_1_1_proxy" kind="namespace">
+    <compoundname>TripiWCF::ClientMockup::Proxy</compoundname>
+    <innerclass refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip" prot="public">TripiWCF::ClientMockup::Proxy::Trip</innerclass>
+    <innerclass refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node" prot="public">TripiWCF::ClientMockup::Proxy::PositionNode</innerclass>
+    <innerclass refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service" prot="public">TripiWCF::ClientMockup::Proxy::ITripService</innerclass>
+    <innerclass refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_channel" prot="public">TripiWCF::ClientMockup::Proxy::ITripServiceChannel</innerclass>
+    <innerclass refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client" prot="public">TripiWCF::ClientMockup::Proxy::TripServiceClient</innerclass>
+    <innerclass refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder" prot="public">TripiWCF::ClientMockup::Proxy::ICrossDomainPolicyResponder</innerclass>
+    <innerclass refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_channel" prot="public">TripiWCF::ClientMockup::Proxy::ICrossDomainPolicyResponderChannel</innerclass>
+    <innerclass refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client" prot="public">TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="12"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel" kind="class" prot="private">
+    <compoundname>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</compoundname>
+    <basecompoundref refid="interface_i_cross_domain_policy_responder" prot="public" virt="non-virtual">ICrossDomainPolicyResponder</basecompoundref>
+    <basecompoundref refid="interface_i_cross_domain_policy_responder" prot="public" virt="non-virtual">ICrossDomainPolicyResponder</basecompoundref>
+    <basecompoundref refid="interface_i_cross_domain_policy_responder" prot="public" virt="non-virtual">ICrossDomainPolicyResponder</basecompoundref>
+    <basecompoundref refid="interface_i_cross_domain_policy_responder" prot="public" virt="non-virtual">ICrossDomainPolicyResponder</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a17f96d9edaf2e9cc7610986bc23e685d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel.CrossDomainPolicyResponderClientChannel</definition>
+        <argsstring>(System.ServiceModel.ClientBase&lt; ICrossDomainPolicyResponder &gt; client)</argsstring>
+        <name>CrossDomainPolicyResponderClientChannel</name>
+        <param>
+          <type>System.ServiceModel.ClientBase&lt; <ref refid="interface_i_cross_domain_policy_responder" kindref="compound">ICrossDomainPolicyResponder</ref> &gt;</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="1110" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="1108" bodyend="1111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1aa8864390ec0020e36012586a119eb513" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel.BeginGetSilverlightPolicy</definition>
+        <argsstring>(System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetSilverlightPolicy</name>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="1114" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="1113" bodyend="1118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1ac780717450551f1b5c139904825b3220" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte [] CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel.EndGetSilverlightPolicy</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetSilverlightPolicy</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="1121" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="1120" bodyend="1125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a4e3b1cc234fec300c8c773029f3bbe70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel.BeginGetFlashPolicy</definition>
+        <argsstring>(System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetFlashPolicy</name>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="1128" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="1127" bodyend="1132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a4768b49e691bfefd9d88e8b02d67d43d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte [] CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel.EndGetFlashPolicy</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetFlashPolicy</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="1135" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="1134" bodyend="1139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a17f96d9edaf2e9cc7610986bc23e685d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel.CrossDomainPolicyResponderClientChannel</definition>
+        <argsstring>(System.ServiceModel.ClientBase&lt; ICrossDomainPolicyResponder &gt; client)</argsstring>
+        <name>CrossDomainPolicyResponderClientChannel</name>
+        <param>
+          <type>System.ServiceModel.ClientBase&lt; <ref refid="interface_i_cross_domain_policy_responder" kindref="compound">ICrossDomainPolicyResponder</ref> &gt;</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1566" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1564" bodyend="1567"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a4e3b1cc234fec300c8c773029f3bbe70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel.BeginGetFlashPolicy</definition>
+        <argsstring>(System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetFlashPolicy</name>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1570" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1569" bodyend="1574"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a4768b49e691bfefd9d88e8b02d67d43d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte [] CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel.EndGetFlashPolicy</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetFlashPolicy</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1577" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1576" bodyend="1581"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a17f96d9edaf2e9cc7610986bc23e685d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel.CrossDomainPolicyResponderClientChannel</definition>
+        <argsstring>(System.ServiceModel.ClientBase&lt; ICrossDomainPolicyResponder &gt; client)</argsstring>
+        <name>CrossDomainPolicyResponderClientChannel</name>
+        <param>
+          <type>System.ServiceModel.ClientBase&lt; <ref refid="interface_i_cross_domain_policy_responder" kindref="compound">ICrossDomainPolicyResponder</ref> &gt;</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" line="1110" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" bodystart="1108" bodyend="1111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1aa8864390ec0020e36012586a119eb513" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel.BeginGetSilverlightPolicy</definition>
+        <argsstring>(System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetSilverlightPolicy</name>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" line="1114" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" bodystart="1113" bodyend="1118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1ac780717450551f1b5c139904825b3220" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte [] CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel.EndGetSilverlightPolicy</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetSilverlightPolicy</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" line="1121" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" bodystart="1120" bodyend="1125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a4e3b1cc234fec300c8c773029f3bbe70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel.BeginGetFlashPolicy</definition>
+        <argsstring>(System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetFlashPolicy</name>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" line="1128" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" bodystart="1127" bodyend="1132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a4768b49e691bfefd9d88e8b02d67d43d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte [] CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel.EndGetFlashPolicy</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetFlashPolicy</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" line="1135" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" bodystart="1134" bodyend="1139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a17f96d9edaf2e9cc7610986bc23e685d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel.CrossDomainPolicyResponderClientChannel</definition>
+        <argsstring>(System.ServiceModel.ClientBase&lt; ICrossDomainPolicyResponder &gt; client)</argsstring>
+        <name>CrossDomainPolicyResponderClientChannel</name>
+        <param>
+          <type>System.ServiceModel.ClientBase&lt; <ref refid="interface_i_cross_domain_policy_responder" kindref="compound">ICrossDomainPolicyResponder</ref> &gt;</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1566" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1564" bodyend="1567"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a4e3b1cc234fec300c8c773029f3bbe70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel.BeginGetFlashPolicy</definition>
+        <argsstring>(System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetFlashPolicy</name>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1570" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1569" bodyend="1574"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a4768b49e691bfefd9d88e8b02d67d43d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte [] CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel.EndGetFlashPolicy</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetFlashPolicy</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1577" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1576" bodyend="1581"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="72">
+        <label>CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel</label>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>ICrossDomainPolicyResponder</label>
+        <link refid="interface_i_cross_domain_policy_responder"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="74">
+        <label>CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClientChannel</label>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>ICrossDomainPolicyResponder</label>
+        <link refid="interface_i_cross_domain_policy_responder"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="1106" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="1105" bodyend="1140"/>
+    <listofallmembers>
+      <member refid="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a4e3b1cc234fec300c8c773029f3bbe70" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>BeginGetFlashPolicy</name></member>
+      <member refid="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a4e3b1cc234fec300c8c773029f3bbe70" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>BeginGetFlashPolicy</name></member>
+      <member refid="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a4e3b1cc234fec300c8c773029f3bbe70" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>BeginGetFlashPolicy</name></member>
+      <member refid="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a4e3b1cc234fec300c8c773029f3bbe70" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>BeginGetFlashPolicy</name></member>
+      <member refid="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1aa8864390ec0020e36012586a119eb513" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>BeginGetSilverlightPolicy</name></member>
+      <member refid="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1aa8864390ec0020e36012586a119eb513" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>BeginGetSilverlightPolicy</name></member>
+      <member refid="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a17f96d9edaf2e9cc7610986bc23e685d" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>CrossDomainPolicyResponderClientChannel</name></member>
+      <member refid="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a17f96d9edaf2e9cc7610986bc23e685d" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>CrossDomainPolicyResponderClientChannel</name></member>
+      <member refid="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a17f96d9edaf2e9cc7610986bc23e685d" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>CrossDomainPolicyResponderClientChannel</name></member>
+      <member refid="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a17f96d9edaf2e9cc7610986bc23e685d" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>CrossDomainPolicyResponderClientChannel</name></member>
+      <member refid="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a4768b49e691bfefd9d88e8b02d67d43d" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>EndGetFlashPolicy</name></member>
+      <member refid="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a4768b49e691bfefd9d88e8b02d67d43d" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>EndGetFlashPolicy</name></member>
+      <member refid="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a4768b49e691bfefd9d88e8b02d67d43d" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>EndGetFlashPolicy</name></member>
+      <member refid="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1a4768b49e691bfefd9d88e8b02d67d43d" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>EndGetFlashPolicy</name></member>
+      <member refid="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1ac780717450551f1b5c139904825b3220" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>EndGetSilverlightPolicy</name></member>
+      <member refid="class_cross_domain_policy_responder_client_1_1_cross_domain_policy_responder_client_channel_1ac780717450551f1b5c139904825b3220" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>EndGetSilverlightPolicy</name></member>
+      <member refid="interface_i_cross_domain_policy_responder_1a5e70f8cd1ae8c4d6793bf86c42a61794" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>GetFlashPolicy</name></member>
+      <member refid="interface_i_cross_domain_policy_responder_1a5e70f8cd1ae8c4d6793bf86c42a61794" prot="public" virt="non-virtual"><scope>CrossDomainPolicyResponderClient::CrossDomainPolicyResponderClientChannel</scope><name>GetFlashPolicy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

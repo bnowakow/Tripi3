@@ -1,0 +1,200 @@
+.TH "Tripi::wcf::ServiceManager" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Tripi::wcf::ServiceManager \- 
+.PP
+Class responsible for sending gps data to the wcf service.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBSendScheduler\fP"
+.br
+.RI "\fIClass used to receive the gps data and send it further when the timer ticks. \fP"
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBServiceManager\fP ()"
+.br
+.RI "\fI\fBServiceManager\fP constructor. \fP"
+.ti -1c
+.RI "void \fBContinueTrip\fP (\fBTrip\fP trip)"
+.br
+.RI "\fIContinue the trip that has been started before. \fP"
+.ti -1c
+.RI "int \fBRunNewTrip\fP (string tripName)"
+.br
+.RI "\fIRun a new trip. \fP"
+.ti -1c
+.RI "void \fBStopTrip\fP ()"
+.br
+.RI "\fIStops the current trip and closes the gps connection. \fP"
+.ti -1c
+.RI "void \fBUpdatePositionNode\fP (int tripId, int nodeNumber, string description)"
+.br
+.RI "\fIUpdates a specified position node description. \fP"
+.ti -1c
+.RI "\fBPositionNode\fP[] \fBGetPositionNodesForTrip\fP (int tripId)"
+.br
+.RI "\fIGets the list of position nodes for a specified trip. \fP"
+.ti -1c
+.RI "bool \fBLoginUser\fP (string name, string password)"
+.br
+.RI "\fILogs user to the service. \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "bool \fBIsTripRunning\fP\fC [get]\fP"
+.br
+.RI "\fIChecks whether the trip is running. \fP"
+.ti -1c
+.RI "int \fBSendFrequencyInSeconds\fP\fC [set]\fP"
+.br
+.RI "\fISets the frequency of sending a gsp data to the wcf service. \fP"
+.ti -1c
+.RI "\fBTrip\fP[] \fBUserTrips\fP\fC [get]\fP"
+.br
+.RI "\fIGets the list of user trips. \fP"
+.ti -1c
+.RI "\fBPositionNode\fP \fBLastPositionNode\fP\fC [get]\fP"
+.br
+.RI "\fIGets the last note send to the service. \fP"
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "Action \fBOnLocationSend\fP = null"
+.br
+.RI "\fIEvent fires when user location changes. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Class responsible for sending gps data to the wcf service. 
+
+
+.PP
+Definition at line 17 of file ServiceManager.cs.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Tripi.wcf.ServiceManager.ServiceManager ()"
+.PP
+\fBServiceManager\fP constructor. 
+.PP
+Definition at line 41 of file ServiceManager.cs.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Tripi.wcf.ServiceManager.ContinueTrip (\fBTrip\fP trip)"
+.PP
+Continue the trip that has been started before. \fBParameters:\fP
+.RS 4
+\fItrip\fP The trip to be continued
+.RE
+.PP
+
+.PP
+Definition at line 52 of file ServiceManager.cs.
+.SS "\fBPositionNode\fP [] Tripi.wcf.ServiceManager.GetPositionNodesForTrip (int tripId)"
+.PP
+Gets the list of position nodes for a specified trip. \fBParameters:\fP
+.RS 4
+\fItripId\fP The id of the trip
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+List of position node for the trpi
+.RE
+.PP
+
+.PP
+Definition at line 125 of file ServiceManager.cs.
+.SS "bool Tripi.wcf.ServiceManager.LoginUser (string name, string password)"
+.PP
+Logs user to the service. \fBParameters:\fP
+.RS 4
+\fIname\fP User's name
+.br
+\fIpassword\fP User's password
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+True if the user credentials are valid
+.RE
+.PP
+
+.PP
+Definition at line 136 of file ServiceManager.cs.
+.SS "int Tripi.wcf.ServiceManager.RunNewTrip (string tripName)"
+.PP
+Run a new trip. \fBParameters:\fP
+.RS 4
+\fItripName\fP The name of the trip
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The id of the new trip
+.RE
+.PP
+
+.PP
+Definition at line 63 of file ServiceManager.cs.
+.SS "void Tripi.wcf.ServiceManager.StopTrip ()"
+.PP
+Stops the current trip and closes the gps connection. 
+.PP
+Definition at line 105 of file ServiceManager.cs.
+.SS "void Tripi.wcf.ServiceManager.UpdatePositionNode (int tripId, int nodeNumber, string description)"
+.PP
+Updates a specified position node description. \fBParameters:\fP
+.RS 4
+\fInode\fP 
+.RE
+.PP
+
+.PP
+Definition at line 115 of file ServiceManager.cs.
+.SH "Property Documentation"
+.PP 
+.SS "bool Tripi.wcf.ServiceManager.IsTripRunning\fC [get]\fP"
+.PP
+Checks whether the trip is running. 
+.PP
+Definition at line 148 of file ServiceManager.cs.
+.SS "\fBPositionNode\fP Tripi.wcf.ServiceManager.LastPositionNode\fC [get]\fP"
+.PP
+Gets the last note send to the service. 
+.PP
+Definition at line 177 of file ServiceManager.cs.
+.SS "int Tripi.wcf.ServiceManager.SendFrequencyInSeconds\fC [set]\fP"
+.PP
+Sets the frequency of sending a gsp data to the wcf service. 
+.PP
+Definition at line 156 of file ServiceManager.cs.
+.SS "\fBTrip\fP [] Tripi.wcf.ServiceManager.UserTrips\fC [get]\fP"
+.PP
+Gets the list of user trips. 
+.PP
+Definition at line 164 of file ServiceManager.cs.
+.SH "Event Documentation"
+.PP 
+.SS "Action Tripi.wcf.ServiceManager.OnLocationSend = null"
+.PP
+Event fires when user location changes. 
+.PP
+Definition at line 22 of file ServiceManager.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

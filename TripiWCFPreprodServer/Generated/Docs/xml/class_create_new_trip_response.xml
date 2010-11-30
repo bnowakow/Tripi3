@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_create_new_trip_response" kind="class" prot="public">
+    <compoundname>CreateNewTripResponse</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_create_new_trip_response_1af30cb1c0c113c74a2ec9ae3abc4d0d5d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CreateNewTripResponse::CreateNewTripResult</definition>
+        <argsstring></argsstring>
+        <name>CreateNewTripResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="112" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_create_new_trip_response_1a33bbd6febcb806c1f319977c9f49fa2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CreateNewTripResponse.CreateNewTripResponse</definition>
+        <argsstring>()</argsstring>
+        <name>CreateNewTripResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="115" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="114" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_create_new_trip_response_1ace87eddf2541a07b121b353edf5cafc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CreateNewTripResponse.CreateNewTripResponse</definition>
+        <argsstring>(int CreateNewTripResult)</argsstring>
+        <name>CreateNewTripResponse</name>
+        <param>
+          <type>int</type>
+          <declname>CreateNewTripResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="119" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_create_new_trip_response_1a33bbd6febcb806c1f319977c9f49fa2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CreateNewTripResponse.CreateNewTripResponse</definition>
+        <argsstring>()</argsstring>
+        <name>CreateNewTripResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="115" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="114" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_create_new_trip_response_1ace87eddf2541a07b121b353edf5cafc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CreateNewTripResponse.CreateNewTripResponse</definition>
+        <argsstring>(int CreateNewTripResult)</argsstring>
+        <name>CreateNewTripResponse</name>
+        <param>
+          <type>int</type>
+          <declname>CreateNewTripResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="119" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="118" bodyend="121"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="109" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="108" bodyend="122"/>
+    <listofallmembers>
+      <member refid="class_create_new_trip_response_1a33bbd6febcb806c1f319977c9f49fa2e" prot="public" virt="non-virtual"><scope>CreateNewTripResponse</scope><name>CreateNewTripResponse</name></member>
+      <member refid="class_create_new_trip_response_1ace87eddf2541a07b121b353edf5cafc3" prot="public" virt="non-virtual"><scope>CreateNewTripResponse</scope><name>CreateNewTripResponse</name></member>
+      <member refid="class_create_new_trip_response_1a33bbd6febcb806c1f319977c9f49fa2e" prot="public" virt="non-virtual"><scope>CreateNewTripResponse</scope><name>CreateNewTripResponse</name></member>
+      <member refid="class_create_new_trip_response_1ace87eddf2541a07b121b353edf5cafc3" prot="public" virt="non-virtual"><scope>CreateNewTripResponse</scope><name>CreateNewTripResponse</name></member>
+      <member refid="class_create_new_trip_response_1af30cb1c0c113c74a2ec9ae3abc4d0d5d" prot="public" virt="non-virtual"><scope>CreateNewTripResponse</scope><name>CreateNewTripResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

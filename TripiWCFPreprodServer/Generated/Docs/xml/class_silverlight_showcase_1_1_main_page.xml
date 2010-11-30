@@ -1,0 +1,983 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_silverlight_showcase_1_1_main_page" kind="class" prot="public">
+    <compoundname>SilverlightShowcase::MainPage</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1ab3a90c307d24f4f4e447e0a9650796a3" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SilverlightShowcase.MainPage.remoteAddress</definition>
+        <argsstring></argsstring>
+        <name>remoteAddress</name>
+        <initializer> &quot;http://10.211.55.3:8765/main&quot;</initializer>
+        <briefdescription>
+<para>Address for WCF tripi endpoint with server listening. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="26" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1adc1d57a2a6b9d5f6cb8fb44762d28c49" prot="private" static="no" mutable="no">
+        <type><ref refid="class_trip_service_client" kindref="compound">TripServiceClient</ref></type>
+        <definition>TripServiceClient SilverlightShowcase.MainPage.tripiWcfService</definition>
+        <argsstring></argsstring>
+        <name>tripiWcfService</name>
+        <initializer> null</initializer>
+        <briefdescription>
+<para>Silverlight WCF proxy. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="32" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1a4ac2e8e5a00cee5bc263fe349501d283" prot="private" static="no" mutable="no">
+        <type>ObservableCollection&lt; <ref refid="class_tripi_w_c_f_1_1_service_1_1_trip" kindref="compound">Trip</ref> &gt;</type>
+        <definition>ObservableCollection&lt;Trip&gt; SilverlightShowcase.MainPage.trips</definition>
+        <argsstring></argsstring>
+        <name>trips</name>
+        <briefdescription>
+<para>All trips loaded from server which are displayed in grid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="37" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1ab1b8a6569f7ce0f107f3c56a083b0da5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_trip" kindref="compound">Trip</ref></type>
+        <definition>Trip SilverlightShowcase.MainPage.trip</definition>
+        <argsstring></argsstring>
+        <name>trip</name>
+        <briefdescription>
+<para>Currently selected trip which is displayed on map. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="42" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1a5b03b5b70e7042b20d4942c9243fae7b" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String SilverlightShowcase.MainPage.username</definition>
+        <argsstring></argsstring>
+        <name>username</name>
+        <initializer> &quot;&quot;</initializer>
+        <briefdescription>
+<para>Logged user username given by asp in param tag. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="47" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1a38d879b153249bebd8a55d71a7669116" prot="private" static="no" mutable="no">
+        <type>IDictionary&lt; String, String &gt;</type>
+        <definition>IDictionary&lt;String, String&gt; SilverlightShowcase.MainPage.parameters</definition>
+        <argsstring></argsstring>
+        <name>parameters</name>
+        <initializer> null</initializer>
+        <briefdescription>
+<para>Parameters from asp given by tag. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="52" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1a3158d316c89c556de84c49a92840c4f9" prot="private" static="no" mutable="no">
+        <type>IDictionary&lt; String, String &gt;</type>
+        <definition>IDictionary&lt;String, String&gt; SilverlightShowcase.MainPage.pushpinsDescriptions</definition>
+        <argsstring></argsstring>
+        <name>pushpinsDescriptions</name>
+        <initializer> new Dictionary&lt;String, String&gt;()</initializer>
+        <briefdescription>
+<para>Descriptions of all interesting points represented by pinpoints on map. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="57" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1ac671ff423f604f45c5e4b24cecdb9ae7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SilverlightShowcase.MainPage.descriptionEditing</definition>
+        <argsstring></argsstring>
+        <name>descriptionEditing</name>
+        <initializer> false</initializer>
+        <briefdescription>
+<para>Is description viewed or edited. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="62" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1a26e133b0b8eb6c360eb65ad86937d4fb" prot="private" static="no" mutable="no">
+        <type>internal System.Windows.Controls.Grid</type>
+        <definition>internal System.Windows.Controls.Grid SilverlightShowcase.MainPage.LayoutRoot</definition>
+        <argsstring></argsstring>
+        <name>LayoutRoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="39" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1a3ae57a6c163fbc98d96b79613563d519" prot="private" static="no" mutable="no">
+        <type>internal System.Windows.Controls.StackPanel</type>
+        <definition>internal System.Windows.Controls.StackPanel SilverlightShowcase.MainPage.DescriptionStack</definition>
+        <argsstring></argsstring>
+        <name>DescriptionStack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="41" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1a37a2b1dc85fa8bd7151bc4d1b3f89ad8" prot="private" static="no" mutable="no">
+        <type>internal System.Windows.Controls.Border</type>
+        <definition>internal System.Windows.Controls.Border SilverlightShowcase.MainPage.TripDescription</definition>
+        <argsstring></argsstring>
+        <name>TripDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="43" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1a91403fd7e79e0f194eba931626c1ec6f" prot="private" static="no" mutable="no">
+        <type>internal System.Windows.Controls.ScrollViewer</type>
+        <definition>internal System.Windows.Controls.ScrollViewer SilverlightShowcase.MainPage.textScrollView</definition>
+        <argsstring></argsstring>
+        <name>textScrollView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="45" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1acf787b9ca6f0a0c5d369d58f3c10e0ea" prot="private" static="no" mutable="no">
+        <type>internal System.Windows.Controls.TextBlock</type>
+        <definition>internal System.Windows.Controls.TextBlock SilverlightShowcase.MainPage.TripDescriptionText</definition>
+        <argsstring></argsstring>
+        <name>TripDescriptionText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="47" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1aeed9a58830a566a057b8201256d2e3ce" prot="private" static="no" mutable="no">
+        <type>internal System.Windows.Controls.TextBox</type>
+        <definition>internal System.Windows.Controls.TextBox SilverlightShowcase.MainPage.TripDescriptionTextEditor</definition>
+        <argsstring></argsstring>
+        <name>TripDescriptionTextEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="49" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1a64c92f8343037329899dc1cfdf37b380" prot="private" static="no" mutable="no">
+        <type>internal System.Windows.Controls.Button</type>
+        <definition>internal System.Windows.Controls.Button SilverlightShowcase.MainPage.TripDescriptionTextSaveButton</definition>
+        <argsstring></argsstring>
+        <name>TripDescriptionTextSaveButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="51" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1aee37c16d60de2ac8f4dbc163d63f21c5" prot="private" static="no" mutable="no">
+        <type>internal System.Windows.Controls.Button</type>
+        <definition>internal System.Windows.Controls.Button SilverlightShowcase.MainPage.TripDescriptionTextEditButton</definition>
+        <argsstring></argsstring>
+        <name>TripDescriptionTextEditButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="53" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1a25be95805e78f78c99319c003c0b7440" prot="private" static="no" mutable="no">
+        <type>internal System.Windows.Controls.DataGrid</type>
+        <definition>internal System.Windows.Controls.DataGrid SilverlightShowcase.MainPage.TripGrid</definition>
+        <argsstring></argsstring>
+        <name>TripGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="55" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1ae17496120e9c5306c6596e067f60631d" prot="private" static="no" mutable="no">
+        <type>internal Microsoft.Maps.MapControl.Map</type>
+        <definition>internal Microsoft.Maps.MapControl.Map SilverlightShowcase.MainPage.Map</definition>
+        <argsstring></argsstring>
+        <name>Map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="57" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1a463ae52d82879a7b9afc1164dfadffcf" prot="private" static="no" mutable="no">
+        <type>internal System.Windows.Controls.Border</type>
+        <definition>internal System.Windows.Controls.Border SilverlightShowcase.MainPage.Infobox</definition>
+        <argsstring></argsstring>
+        <name>Infobox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="59" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1a1762054958e6f762e50cdeec67f29be6" prot="private" static="no" mutable="no">
+        <type>internal System.Windows.Controls.TextBlock</type>
+        <definition>internal System.Windows.Controls.TextBlock SilverlightShowcase.MainPage.InfoboxDescription</definition>
+        <argsstring></argsstring>
+        <name>InfoboxDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="61" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1af440938aa4493630329474e76b7a1bb3" prot="private" static="no" mutable="no">
+        <type>internal Microsoft.Maps.MapControl.MapLayer</type>
+        <definition>internal Microsoft.Maps.MapControl.MapLayer SilverlightShowcase.MainPage.PinLayer</definition>
+        <argsstring></argsstring>
+        <name>PinLayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="63" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1a953b53b252f8e731cdd0ee657973a23d" prot="private" static="no" mutable="no">
+        <type>internal Microsoft.Maps.MapControl.MapLayer</type>
+        <definition>internal Microsoft.Maps.MapControl.MapLayer SilverlightShowcase.MainPage.MapLayer</definition>
+        <argsstring></argsstring>
+        <name>MapLayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="65" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1a047b634ddb020ea6963fba053a3dd763" prot="private" static="no" mutable="no">
+        <type>internal System.Windows.Controls.Border</type>
+        <definition>internal System.Windows.Controls.Border SilverlightShowcase.MainPage.MapStatus</definition>
+        <argsstring></argsstring>
+        <name>MapStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="67" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1ae6ce65515b929855afd31d7dfbecfe20" prot="private" static="no" mutable="no">
+        <type>internal System.Windows.Controls.TextBlock</type>
+        <definition>internal System.Windows.Controls.TextBlock SilverlightShowcase.MainPage.MapStatusText</definition>
+        <argsstring></argsstring>
+        <name>MapStatusText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="69" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_main_page_1a9166ccef76a36c1ffb1bebd4a6ae17e8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SilverlightShowcase.MainPage._contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="71" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_main_page_1ae486855fab7ff00cac02bd91c6a9d46f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SilverlightShowcase.MainPage.MainPage</definition>
+        <argsstring>()</argsstring>
+        <name>MainPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="65" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="64" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_main_page_1ac85c02c58943a5ae1721a68ee44c7855" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SilverlightShowcase.MainPage.MainPage</definition>
+        <argsstring>(IDictionary&lt; string, string &gt; p)</argsstring>
+        <name>MainPage</name>
+        <param>
+          <type>IDictionary&lt; string, string &gt;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>Additional constructor used when passing parameters from asp tag. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="76" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="74" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_main_page_1a025641a94db81065183c64971ebda1fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.MainPage.MainPage_Loaded</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>MainPage_Loaded</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Prepares SilverlightShowcase. Connects to WCF, assign event handler methods. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="86" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="85" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_main_page_1a1a144be96215e9b7c44e305dd49af656" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.MainPage.SetBestMapView</definition>
+        <argsstring>(IList&lt; Location &gt; locations, Map map, int buffer)</argsstring>
+        <name>SetBestMapView</name>
+        <param>
+          <type>IList&lt; Location &gt;</type>
+          <declname>locations</declname>
+        </param>
+        <param>
+          <type>Map</type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+<para>Adjusts map zoom level and map center to show all defined points at the same time preserving constant margin around them. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>locations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of points which should be visible at the same time</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>map</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Map which will be customized</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buffer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Margin in pixels around points</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="324" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="323" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_main_page_1a92670f2bc7dcc80b9e95d52cdcdae7df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.MainPage.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" line="77" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/MainPage.g.cs" bodystart="77" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_main_page_1aababab643ee19f83e9f5bcec7ca2fe60" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.MainPage.TripDescriptionTextSaveButton_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>TripDescriptionTextSaveButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Saves modyfied trip description after edit, toggles description TextBlock (edit and view) and Buttons (edit, save) visibility. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="118" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="117" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_main_page_1a3ca084367e4eaecb3d60303d3a383199" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.MainPage.TripDescriptionTextEditButton_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>TripDescriptionTextEditButton_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Displays TextBlock to edit trip description, toggles description TextBlock (edit and view) and Buttons (edit, save) visibility. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="135" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="134" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_main_page_1aba0b4c110fa56a6f13bb7282660314a3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.MainPage.tripiWcfService_UpdateTripDescriptionCompleted</definition>
+        <argsstring>(object sender, System.ComponentModel.AsyncCompletedEventArgs e)</argsstring>
+        <name>tripiWcfService_UpdateTripDescriptionCompleted</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.ComponentModel.AsyncCompletedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Callback from WCF function after description update is finished on server. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="149" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="148" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_main_page_1a911420c38bdc4afca07f376631a0c4bd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.MainPage.DescriptionStack_MouseLeave</definition>
+        <argsstring>(object sender, MouseEventArgs e)</argsstring>
+        <name>DescriptionStack_MouseLeave</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Toggles description Buttons (edit, save) visibility. Hides Buttons when mouse isn&apos;t focused on description TextBlock. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="160" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="159" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_main_page_1aa914f3cf326e9c8fa0c4d76ed9262d79" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.MainPage.DescriptionStack_MouseEnter</definition>
+        <argsstring>(object sender, MouseEventArgs e)</argsstring>
+        <name>DescriptionStack_MouseEnter</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Toggles description Buttons (edit, save) visibility when mouse is focused on description TextBlock. Displays Buttons only if trip owner equals to logged user. Depending on description state (view or edit) toggles Buttons visibility. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="173" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="172" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_main_page_1a2b06eb79d789223df8069d3e287f648c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.MainPage.TripGrid_SelectionChanged</definition>
+        <argsstring>(object sender, SelectionChangedEventArgs e)</argsstring>
+        <name>TripGrid_SelectionChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SelectionChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Event hander method for changed trip by changing selection in grid. Toggles description TextBlock (edit and view) and Buttons (edit, save) visibility. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="203" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="202" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_main_page_1a28e0fe9ee5fbd11fe8f7090364a73b97" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.MainPage.tripiWcfService_GetAllTripsCompleted</definition>
+        <argsstring>(object sender, GetAllTripsCompletedEventArgs e)</argsstring>
+        <name>tripiWcfService_GetAllTripsCompleted</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_get_all_trips_completed_event_args" kindref="compound">GetAllTripsCompletedEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Callback from WCF function after all trips are downloaded from server. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="222" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="221" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_main_page_1a91498d112fc9aac23d9346ae7ec417e4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.MainPage.tripiWcfService_GetPositionNodesForTripCompleted</definition>
+        <argsstring>(object sender, GetPositionNodesForTripCompletedEventArgs e)</argsstring>
+        <name>tripiWcfService_GetPositionNodesForTripCompleted</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_get_position_nodes_for_trip_completed_event_args" kindref="compound">GetPositionNodesForTripCompletedEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Callback from WCF function after all points from tip are downloaded from server. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="236" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="235" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_main_page_1a5d886cd3a67fa5d47061d03b98211504" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.MainPage.drawPolyline</definition>
+        <argsstring>(List&lt; PositionNode &gt; list)</argsstring>
+        <name>drawPolyline</name>
+        <param>
+          <type>List&lt; <ref refid="class_tripi_w_c_f_1_1_service_1_1_position_node" kindref="compound">PositionNode</ref> &gt;</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+<para>Draws polyline on map from given point list. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of points which will be drawed on map as a polyline</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="247" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="246" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_main_page_1a82f0cc0a4a8b48e651501c2e260533ee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.MainPage.pushpin_MouseLeftButtonUp</definition>
+        <argsstring>(object sender, MouseButtonEventArgs e)</argsstring>
+        <name>pushpin_MouseLeftButtonUp</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseButtonEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Views TextBlock containing Interesting point description after its pushpin was clicked. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="301" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="300" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_main_page_1a9ce682a184cb1b09b62f078070f8d864" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.MainPage.CloseInfobox_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>CloseInfobox_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Hides TextBlock containing Interesting point description after its close sign was clicked. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sender</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="313" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="312" bodyend="315"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="336">
+        <label>ITripService</label>
+        <link refid="interface_i_trip_service"/>
+      </node>
+      <node id="335">
+        <label>TripServiceClient</label>
+        <link refid="class_trip_service_client"/>
+        <childnode refid="336" relation="public-inheritance">
+        </childnode>
+        <childnode refid="336" relation="public-inheritance">
+        </childnode>
+        <childnode refid="336" relation="public-inheritance">
+        </childnode>
+        <childnode refid="336" relation="public-inheritance">
+        </childnode>
+        <childnode refid="336" relation="public-inheritance">
+        </childnode>
+        <childnode refid="336" relation="public-inheritance">
+        </childnode>
+        <childnode refid="337" relation="usage">
+          <edgelabel>onAddPositionNodeCompletedDelegate</edgelabel>
+          <edgelabel>onUpdateTripDescriptionCompletedDelegate</edgelabel>
+          <edgelabel>onOpenCompletedDelegate</edgelabel>
+          <edgelabel>onGetAllTripsCompletedDelegate</edgelabel>
+          <edgelabel>onCloseCompletedDelegate</edgelabel>
+          <edgelabel>onGetTripsForUserCompletedDelegate</edgelabel>
+          <edgelabel>onAddManyPositionNodesCompletedDelegate</edgelabel>
+          <edgelabel>onLoginUserCompletedDelegate</edgelabel>
+          <edgelabel>onCreateNewTripCompletedDelegate</edgelabel>
+          <edgelabel>onUpdatePositionNodeDescriptionCompletedDelegate</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="337">
+        <label>System</label>
+      </node>
+      <node id="334">
+        <label>Trip</label>
+        <link refid="class_trip"/>
+      </node>
+      <node id="333">
+        <label>MapControl</label>
+      </node>
+      <node id="332">
+        <label>SilverlightShowcase.MainPage</label>
+        <link refid="class_silverlight_showcase_1_1_main_page"/>
+        <childnode refid="333" relation="usage">
+          <edgelabel>Map</edgelabel>
+          <edgelabel>PinLayer</edgelabel>
+          <edgelabel>MapLayer</edgelabel>
+        </childnode>
+        <childnode refid="334" relation="usage">
+          <edgelabel>trip</edgelabel>
+        </childnode>
+        <childnode refid="335" relation="usage">
+          <edgelabel>tripiWcfService</edgelabel>
+        </childnode>
+        <childnode refid="337" relation="usage">
+          <edgelabel>Infobox</edgelabel>
+          <edgelabel>TripDescriptionTextEditor</edgelabel>
+          <edgelabel>TripDescription</edgelabel>
+          <edgelabel>TripDescriptionTextEditButton</edgelabel>
+          <edgelabel>LayoutRoot</edgelabel>
+          <edgelabel>MapStatusText</edgelabel>
+          <edgelabel>TripDescriptionTextSaveButton</edgelabel>
+          <edgelabel>DescriptionStack</edgelabel>
+          <edgelabel>InfoboxDescription</edgelabel>
+          <edgelabel>textScrollView</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" line="22" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/MainPage.xaml.cs" bodystart="21" bodyend="377"/>
+    <listofallmembers>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a9166ccef76a36c1ffb1bebd4a6ae17e8" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>_contentLoaded</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a9ce682a184cb1b09b62f078070f8d864" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>CloseInfobox_Click</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1ac671ff423f604f45c5e4b24cecdb9ae7" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>descriptionEditing</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a3ae57a6c163fbc98d96b79613563d519" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>DescriptionStack</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1aa914f3cf326e9c8fa0c4d76ed9262d79" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>DescriptionStack_MouseEnter</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a911420c38bdc4afca07f376631a0c4bd" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>DescriptionStack_MouseLeave</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a5d886cd3a67fa5d47061d03b98211504" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>drawPolyline</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a463ae52d82879a7b9afc1164dfadffcf" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>Infobox</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a1762054958e6f762e50cdeec67f29be6" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>InfoboxDescription</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a92670f2bc7dcc80b9e95d52cdcdae7df" prot="public" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>InitializeComponent</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a26e133b0b8eb6c360eb65ad86937d4fb" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>LayoutRoot</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1ae486855fab7ff00cac02bd91c6a9d46f" prot="public" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>MainPage</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1ac85c02c58943a5ae1721a68ee44c7855" prot="public" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>MainPage</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a025641a94db81065183c64971ebda1fa" prot="public" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>MainPage_Loaded</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1ae17496120e9c5306c6596e067f60631d" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>Map</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a953b53b252f8e731cdd0ee657973a23d" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>MapLayer</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a047b634ddb020ea6963fba053a3dd763" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>MapStatus</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1ae6ce65515b929855afd31d7dfbecfe20" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>MapStatusText</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a38d879b153249bebd8a55d71a7669116" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>parameters</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1af440938aa4493630329474e76b7a1bb3" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>PinLayer</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a82f0cc0a4a8b48e651501c2e260533ee" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>pushpin_MouseLeftButtonUp</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a3158d316c89c556de84c49a92840c4f9" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>pushpinsDescriptions</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1ab3a90c307d24f4f4e447e0a9650796a3" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>remoteAddress</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a1a144be96215e9b7c44e305dd49af656" prot="public" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>SetBestMapView</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a91403fd7e79e0f194eba931626c1ec6f" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>textScrollView</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1ab1b8a6569f7ce0f107f3c56a083b0da5" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>trip</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a37a2b1dc85fa8bd7151bc4d1b3f89ad8" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>TripDescription</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1acf787b9ca6f0a0c5d369d58f3c10e0ea" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>TripDescriptionText</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1aee37c16d60de2ac8f4dbc163d63f21c5" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>TripDescriptionTextEditButton</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a3ca084367e4eaecb3d60303d3a383199" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>TripDescriptionTextEditButton_Click</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1aeed9a58830a566a057b8201256d2e3ce" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>TripDescriptionTextEditor</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a64c92f8343037329899dc1cfdf37b380" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>TripDescriptionTextSaveButton</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1aababab643ee19f83e9f5bcec7ca2fe60" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>TripDescriptionTextSaveButton_Click</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a25be95805e78f78c99319c003c0b7440" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>TripGrid</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a2b06eb79d789223df8069d3e287f648c" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>TripGrid_SelectionChanged</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1adc1d57a2a6b9d5f6cb8fb44762d28c49" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>tripiWcfService</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a28e0fe9ee5fbd11fe8f7090364a73b97" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>tripiWcfService_GetAllTripsCompleted</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a91498d112fc9aac23d9346ae7ec417e4" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>tripiWcfService_GetPositionNodesForTripCompleted</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1aba0b4c110fa56a6f13bb7282660314a3" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>tripiWcfService_UpdateTripDescriptionCompleted</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a4ac2e8e5a00cee5bc263fe349501d283" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>trips</name></member>
+      <member refid="class_silverlight_showcase_1_1_main_page_1a5b03b5b70e7042b20d4942c9243fae7b" prot="private" virt="non-virtual"><scope>SilverlightShowcase::MainPage</scope><name>username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

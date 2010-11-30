@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_g_p_s_mobile_1_1_gps_device_state" kind="class" prot="public">
+    <compoundname>GPSMobile::GpsDeviceState</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_device_state_1ae10b69b262399d1ebf476a8ebee50068" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.GpsDeviceState.GpsMaxFriendlyName</definition>
+        <argsstring></argsstring>
+        <name>GpsMaxFriendlyName</name>
+        <initializer> 64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" line="32" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_device_state_1abea27e3c34b8bcd4be600c6c542f3736" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.GpsDeviceState.GpsDeviceStructureSize</definition>
+        <argsstring></argsstring>
+        <name>GpsDeviceStructureSize</name>
+        <initializer> 216</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" line="33" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_device_state_1a069995afe034981a6e5dc941d1b3051b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.GpsDeviceState.serviceState</definition>
+        <argsstring></argsstring>
+        <name>serviceState</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" line="35" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_device_state_1a2392a817f15882881e41382ff55a25b7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.GpsDeviceState.deviceState</definition>
+        <argsstring></argsstring>
+        <name>deviceState</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" line="44" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_device_state_1a83dfc1781f8b2362b434cfe78bd131a5" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GPSMobile.GpsDeviceState.friendlyName</definition>
+        <argsstring></argsstring>
+        <name>friendlyName</name>
+        <initializer> &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" line="53" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_device_state_1aa6ae395d7f3d97e5ec218882aa673ef6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>GpsServiceState</type>
+        <definition>GpsServiceState GPSMobile.GpsDeviceState.ServiceState</definition>
+        <argsstring></argsstring>
+        <name>ServiceState</name>
+        <briefdescription>
+<para>State of the GPS Intermediate Driver service. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" line="42" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_device_state_1a95d80e824e8df9444a76608d6767c4da" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>GpsServiceState</type>
+        <definition>GpsServiceState GPSMobile.GpsDeviceState.DeviceState</definition>
+        <argsstring></argsstring>
+        <name>DeviceState</name>
+        <briefdescription>
+<para>Status of the actual GPS device driver. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" line="51" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_device_state_1a8e4ee60285e5ae875c3999aa56ef3510" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string GPSMobile.GpsDeviceState.FriendlyName</definition>
+        <argsstring></argsstring>
+        <name>FriendlyName</name>
+        <briefdescription>
+<para>Friendly name of the real GPS device we are currently using. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" line="60" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_device_state_1a83d5d8cc7c5e9370d5a3ebf2a940f7bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GPSMobile.GpsDeviceState.GpsDeviceState</definition>
+        <argsstring>(IntPtr pGpsDevice)</argsstring>
+        <name>GpsDeviceState</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>pGpsDevice</declname>
+        </param>
+        <briefdescription>
+<para>Constructor of <ref refid="class_g_p_s_mobile_1_1_gps_device_state" kindref="compound">GpsDeviceState</ref>. It copies values from the native pointer passed in. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pGpsDevice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Native pointer to memory that contains the GPS_DEVICE data</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" line="69" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" bodystart="68" bodyend="85"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_g_p_s_mobile_1_1_gps_device_state" kindref="compound">GpsDeviceState</ref> holds the state of the gps device and the friendly name if the gps supports them. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" line="31" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" bodystart="30" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_g_p_s_mobile_1_1_gps_device_state_1a2392a817f15882881e41382ff55a25b7" prot="private" virt="non-virtual"><scope>GPSMobile::GpsDeviceState</scope><name>deviceState</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_device_state_1a95d80e824e8df9444a76608d6767c4da" prot="public" virt="non-virtual"><scope>GPSMobile::GpsDeviceState</scope><name>DeviceState</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_device_state_1a8e4ee60285e5ae875c3999aa56ef3510" prot="public" virt="non-virtual"><scope>GPSMobile::GpsDeviceState</scope><name>FriendlyName</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_device_state_1a83dfc1781f8b2362b434cfe78bd131a5" prot="private" virt="non-virtual"><scope>GPSMobile::GpsDeviceState</scope><name>friendlyName</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_device_state_1a83d5d8cc7c5e9370d5a3ebf2a940f7bf" prot="public" virt="non-virtual"><scope>GPSMobile::GpsDeviceState</scope><name>GpsDeviceState</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_device_state_1abea27e3c34b8bcd4be600c6c542f3736" prot="public" virt="non-virtual"><scope>GPSMobile::GpsDeviceState</scope><name>GpsDeviceStructureSize</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_device_state_1ae10b69b262399d1ebf476a8ebee50068" prot="public" virt="non-virtual"><scope>GPSMobile::GpsDeviceState</scope><name>GpsMaxFriendlyName</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_device_state_1a069995afe034981a6e5dc941d1b3051b" prot="private" virt="non-virtual"><scope>GPSMobile::GpsDeviceState</scope><name>serviceState</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_device_state_1aa6ae395d7f3d97e5ec218882aa673ef6" prot="public" virt="non-virtual"><scope>GPSMobile::GpsDeviceState</scope><name>ServiceState</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

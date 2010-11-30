@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1components_1_1_button_panel" kind="class" prot="public">
+    <compoundname>Tripi::components::ButtonPanel</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tripi_1_1components_1_1_button_panel_1a5c63aa5a33dfa6c2926de247894d1ff0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override String</type>
+        <definition>override String Tripi.components.ButtonPanel.Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.cs" line="23" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tripi_1_1components_1_1_button_panel_1aa607f50d0eeb81d5e37bb62b3e659e81" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer Tripi.components.ButtonPanel.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer> null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.Designer.cs" line="8" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1components_1_1_button_panel_1a0acc42c5c0586a73a500faf5f486572b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Tripi.components.ButtonPanel.textLabel</definition>
+        <argsstring></argsstring>
+        <name>textLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.Designer.cs" line="63" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.Designer.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tripi_1_1components_1_1_button_panel_1a87cfd8efcd74833fc30bbe1a6c79ea3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Tripi.components.ButtonPanel.ButtonPanel</definition>
+        <argsstring>()</argsstring>
+        <name>ButtonPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tripi_1_1components_1_1_button_panel_1ad76751fe9914744bbd1ccedb0679b8c2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.components.ButtonPanel.OnGotFocus</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>OnGotFocus</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.cs" line="26" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1components_1_1_button_panel_1a0391f438f4fa5a746632f3186a6ad3b4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.components.ButtonPanel.OnLostFocus</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>OnLostFocus</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.cs" line="31" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1components_1_1_button_panel_1a122abf56a851f51611af08c0f57938fb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.components.ButtonPanel.OnMouseDown</definition>
+        <argsstring>(object sender, MouseEventArgs e)</argsstring>
+        <name>OnMouseDown</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.cs" line="36" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1components_1_1_button_panel_1a5c26b537736a5403c7ba9b58c100a8ca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.components.ButtonPanel.OnMouseUp</definition>
+        <argsstring>(object sender, MouseEventArgs e)</argsstring>
+        <name>OnMouseUp</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.cs" line="41" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1components_1_1_button_panel_1ad98e79b6efeb678dcc35dc29210c7d2b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.components.ButtonPanel.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.Designer.cs" line="30" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.Designer.cs" bodystart="29" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_tripi_1_1components_1_1_button_panel_1aea732fe4e23630ae2ee30977aae445ea" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Tripi.components.ButtonPanel.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.Designer.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="31">
+        <label>System</label>
+      </node>
+      <node id="30">
+        <label>Tripi.components.ButtonPanel</label>
+        <link refid="class_tripi_1_1components_1_1_button_panel"/>
+        <childnode refid="31" relation="usage">
+          <edgelabel>components</edgelabel>
+          <edgelabel>textLabel</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.cs" line="13" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/components/ButtonPanel.cs" bodystart="12" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1components_1_1_button_panel_1a87cfd8efcd74833fc30bbe1a6c79ea3a" prot="public" virt="non-virtual"><scope>Tripi::components::ButtonPanel</scope><name>ButtonPanel</name></member>
+      <member refid="class_tripi_1_1components_1_1_button_panel_1aa607f50d0eeb81d5e37bb62b3e659e81" prot="private" virt="non-virtual"><scope>Tripi::components::ButtonPanel</scope><name>components</name></member>
+      <member refid="class_tripi_1_1components_1_1_button_panel_1aea732fe4e23630ae2ee30977aae445ea" prot="protected" virt="non-virtual"><scope>Tripi::components::ButtonPanel</scope><name>Dispose</name></member>
+      <member refid="class_tripi_1_1components_1_1_button_panel_1ad98e79b6efeb678dcc35dc29210c7d2b" prot="private" virt="non-virtual"><scope>Tripi::components::ButtonPanel</scope><name>InitializeComponent</name></member>
+      <member refid="class_tripi_1_1components_1_1_button_panel_1ad76751fe9914744bbd1ccedb0679b8c2" prot="private" virt="non-virtual"><scope>Tripi::components::ButtonPanel</scope><name>OnGotFocus</name></member>
+      <member refid="class_tripi_1_1components_1_1_button_panel_1a0391f438f4fa5a746632f3186a6ad3b4" prot="private" virt="non-virtual"><scope>Tripi::components::ButtonPanel</scope><name>OnLostFocus</name></member>
+      <member refid="class_tripi_1_1components_1_1_button_panel_1a122abf56a851f51611af08c0f57938fb" prot="private" virt="non-virtual"><scope>Tripi::components::ButtonPanel</scope><name>OnMouseDown</name></member>
+      <member refid="class_tripi_1_1components_1_1_button_panel_1a5c26b537736a5403c7ba9b58c100a8ca" prot="private" virt="non-virtual"><scope>Tripi::components::ButtonPanel</scope><name>OnMouseUp</name></member>
+      <member refid="class_tripi_1_1components_1_1_button_panel_1a5c63aa5a33dfa6c2926de247894d1ff0" prot="public" virt="non-virtual"><scope>Tripi::components::ButtonPanel</scope><name>Text</name></member>
+      <member refid="class_tripi_1_1components_1_1_button_panel_1a0acc42c5c0586a73a500faf5f486572b" prot="private" virt="non-virtual"><scope>Tripi::components::ButtonPanel</scope><name>textLabel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

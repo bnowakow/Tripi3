@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client" kind="class" prot="public">
+    <compoundname>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</compoundname>
+    <basecompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder</basecompoundref>
+    <basecompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder</basecompoundref>
+    <basecompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder</basecompoundref>
+    <basecompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a5b9a086b9f324a978e566156343ccb49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>()</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="287" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="286" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a1c3e714c69ed57a59bdb3b75795580af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>(string endpointConfigurationName)</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="292" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="290" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a2ff9ef3fbb572c6ed3b4f1fd0c9647f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>(string endpointConfigurationName, string remoteAddress)</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="297" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="295" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a8c20d5420735a3405736fc8f579a6f59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress)</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <param>
+          <type>System.ServiceModel.EndpointAddress</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="302" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="300" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a25830c515ea9a9a917bdbfb0f93fe948" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress)</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <param>
+          <type>System.ServiceModel.Channels.Binding</type>
+          <declname>binding</declname>
+        </param>
+        <param>
+          <type>System.ServiceModel.EndpointAddress</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="307" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="305" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IO.Stream</type>
+        <definition>System.IO.Stream TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.GetFlashPolicy</definition>
+        <argsstring>()</argsstring>
+        <name>GetFlashPolicy</name>
+        <reimplements refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_1a1412f9531b7ccfe925d28915757b66df">GetFlashPolicy</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="311" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="310" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a5b9a086b9f324a978e566156343ccb49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>()</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" line="287" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" bodystart="286" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a1c3e714c69ed57a59bdb3b75795580af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>(string endpointConfigurationName)</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" line="292" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" bodystart="290" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a2ff9ef3fbb572c6ed3b4f1fd0c9647f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>(string endpointConfigurationName, string remoteAddress)</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" line="297" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" bodystart="295" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a8c20d5420735a3405736fc8f579a6f59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress)</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <param>
+          <type>System.ServiceModel.EndpointAddress</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" line="302" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" bodystart="300" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a25830c515ea9a9a917bdbfb0f93fe948" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress)</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <param>
+          <type>System.ServiceModel.Channels.Binding</type>
+          <declname>binding</declname>
+        </param>
+        <param>
+          <type>System.ServiceModel.EndpointAddress</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" line="307" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" bodystart="305" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IO.Stream</type>
+        <definition>System.IO.Stream TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.GetFlashPolicy</definition>
+        <argsstring>()</argsstring>
+        <name>GetFlashPolicy</name>
+        <reimplements refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_1a1412f9531b7ccfe925d28915757b66df">GetFlashPolicy</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" line="311" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" bodystart="310" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a5b9a086b9f324a978e566156343ccb49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>()</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="356" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" bodystart="355" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a1c3e714c69ed57a59bdb3b75795580af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>(string endpointConfigurationName)</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="361" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" bodystart="359" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a2ff9ef3fbb572c6ed3b4f1fd0c9647f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>(string endpointConfigurationName, string remoteAddress)</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="366" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" bodystart="364" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a8c20d5420735a3405736fc8f579a6f59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress)</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <param>
+          <type>System.ServiceModel.EndpointAddress</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="371" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" bodystart="369" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a25830c515ea9a9a917bdbfb0f93fe948" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress)</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <param>
+          <type>System.ServiceModel.Channels.Binding</type>
+          <declname>binding</declname>
+        </param>
+        <param>
+          <type>System.ServiceModel.EndpointAddress</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="376" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" bodystart="374" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IO.Stream</type>
+        <definition>System.IO.Stream TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.GetFlashPolicy</definition>
+        <argsstring>()</argsstring>
+        <name>GetFlashPolicy</name>
+        <reimplements refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_1a1412f9531b7ccfe925d28915757b66df">GetFlashPolicy</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="380" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" bodystart="379" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a5b9a086b9f324a978e566156343ccb49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>()</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" line="356" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" bodystart="355" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a1c3e714c69ed57a59bdb3b75795580af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>(string endpointConfigurationName)</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" line="361" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" bodystart="359" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a2ff9ef3fbb572c6ed3b4f1fd0c9647f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>(string endpointConfigurationName, string remoteAddress)</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" line="366" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" bodystart="364" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a8c20d5420735a3405736fc8f579a6f59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress)</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <param>
+          <type>System.ServiceModel.EndpointAddress</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" line="371" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" bodystart="369" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a25830c515ea9a9a917bdbfb0f93fe948" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.CrossDomainPolicyResponderClient</definition>
+        <argsstring>(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress)</argsstring>
+        <name>CrossDomainPolicyResponderClient</name>
+        <param>
+          <type>System.ServiceModel.Channels.Binding</type>
+          <declname>binding</declname>
+        </param>
+        <param>
+          <type>System.ServiceModel.EndpointAddress</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" line="376" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" bodystart="374" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IO.Stream</type>
+        <definition>System.IO.Stream TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient.GetFlashPolicy</definition>
+        <argsstring>()</argsstring>
+        <name>GetFlashPolicy</name>
+        <reimplements refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_1a1412f9531b7ccfe925d28915757b66df">GetFlashPolicy</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" line="380" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" bodystart="379" bodyend="382"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="63">
+        <label>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient</label>
+        <link refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client"/>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder</label>
+        <link refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="65">
+        <label>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient</label>
+        <link refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder</label>
+        <link refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="284" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="283" bodyend="314"/>
+    <listofallmembers>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a5b9a086b9f324a978e566156343ccb49" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a1c3e714c69ed57a59bdb3b75795580af" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a2ff9ef3fbb572c6ed3b4f1fd0c9647f6" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a8c20d5420735a3405736fc8f579a6f59" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a25830c515ea9a9a917bdbfb0f93fe948" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a5b9a086b9f324a978e566156343ccb49" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a1c3e714c69ed57a59bdb3b75795580af" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a2ff9ef3fbb572c6ed3b4f1fd0c9647f6" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a8c20d5420735a3405736fc8f579a6f59" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a25830c515ea9a9a917bdbfb0f93fe948" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a5b9a086b9f324a978e566156343ccb49" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a1c3e714c69ed57a59bdb3b75795580af" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a2ff9ef3fbb572c6ed3b4f1fd0c9647f6" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a8c20d5420735a3405736fc8f579a6f59" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a25830c515ea9a9a917bdbfb0f93fe948" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a5b9a086b9f324a978e566156343ccb49" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a1c3e714c69ed57a59bdb3b75795580af" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a2ff9ef3fbb572c6ed3b4f1fd0c9647f6" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a8c20d5420735a3405736fc8f579a6f59" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a25830c515ea9a9a917bdbfb0f93fe948" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>CrossDomainPolicyResponderClient</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>GetFlashPolicy</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>GetFlashPolicy</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>GetFlashPolicy</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::CrossDomainPolicyResponderClient</scope><name>GetFlashPolicy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,126 @@
+.TH "GPSMobile::Gps" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+GPSMobile::Gps \- 
+.PP
+Summary description for GPS.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBOpen\fP ()"
+.br
+.RI "\fIOpens the GPS device and prepares to receive data from it. \fP"
+.ti -1c
+.RI "void \fBClose\fP ()"
+.br
+.RI "\fICloses the gps device. \fP"
+.ti -1c
+.RI "\fBGpsPosition\fP \fBGetPosition\fP ()"
+.br
+.RI "\fIGet the position reported by the GPS receiver. \fP"
+.ti -1c
+.RI "\fBGpsPosition\fP \fBGetPosition\fP (TimeSpan maxAge)"
+.br
+.RI "\fIGet the position reported by the GPS receiver that is no older than the maxAge passed in. \fP"
+.ti -1c
+.RI "\fBGpsDeviceState\fP \fBGetDeviceState\fP ()"
+.br
+.RI "\fIQueries the device state. \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "LocationChangedEventHandler \fBLocationChanged\fP"
+.br
+.RI "\fIEvent that is raised when the GPS locaction data changes. \fP"
+.ti -1c
+.RI "DeviceStateChangedEventHandler \fBDeviceStateChanged\fP"
+.br
+.RI "\fIEvent that is raised when the GPS device state changes. \fP"
+.ti -1c
+.RI "bool \fBOpened\fP\fC [get]\fP"
+.br
+.RI "\fITrue: The GPS device has been opened. False: It has not been opened. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Summary description for GPS. 
+
+
+.PP
+Definition at line 27 of file GPS.cs.
+.SH "Member Function Documentation"
+.PP 
+.SS "void GPSMobile.Gps.Close ()"
+.PP
+Closes the gps device. 
+.PP
+Definition at line 133 of file GPS.cs.
+.SS "\fBGpsDeviceState\fP GPSMobile.Gps.GetDeviceState ()"
+.PP
+Queries the device state. \fBReturns:\fP
+.RS 4
+Device state information
+.RE
+.PP
+
+.PP
+Definition at line 234 of file GPS.cs.
+.SS "\fBGpsPosition\fP GPSMobile.Gps.GetPosition (TimeSpan maxAge)"
+.PP
+Get the position reported by the GPS receiver that is no older than the maxAge passed in. \fBParameters:\fP
+.RS 4
+\fImaxAge\fP Max age of the gps position data that you want back. If there is no data within the required age, null is returned. if maxAge == TimeSpan.Zero, then the age of the data is ignored
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBGpsPosition\fP class with all the position details
+.RE
+.PP
+
+.PP
+Definition at line 189 of file GPS.cs.
+.SS "\fBGpsPosition\fP GPSMobile.Gps.GetPosition ()"
+.PP
+Get the position reported by the GPS receiver. \fBReturns:\fP
+.RS 4
+\fBGpsPosition\fP class with all the position details
+.RE
+.PP
+
+.PP
+Definition at line 175 of file GPS.cs.
+.SS "void GPSMobile.Gps.Open ()"
+.PP
+Opens the GPS device and prepares to receive data from it. 
+.PP
+Definition at line 110 of file GPS.cs.
+.SH "Property Documentation"
+.PP 
+.SS "DeviceStateChangedEventHandler GPSMobile.Gps.DeviceStateChanged\fC [add, remove]\fP"
+.PP
+Event that is raised when the GPS device state changes. 
+.PP
+Definition at line 75 of file GPS.cs.
+.SS "LocationChangedEventHandler GPSMobile.Gps.LocationChanged\fC [add, remove]\fP"
+.PP
+Event that is raised when the GPS locaction data changes. 
+.PP
+Definition at line 54 of file GPS.cs.
+.SS "bool GPSMobile.Gps.Opened\fC [get]\fP"
+.PP
+True: The GPS device has been opened. False: It has not been opened. 
+.PP
+Definition at line 93 of file GPS.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

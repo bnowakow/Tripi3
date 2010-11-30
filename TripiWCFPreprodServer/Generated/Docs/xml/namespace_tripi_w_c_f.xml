@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="namespace_tripi_w_c_f" kind="namespace">
+    <compoundname>TripiWCF</compoundname>
+    <innernamespace refid="namespace_tripi_w_c_f_1_1_client_mockup">TripiWCF::ClientMockup</innernamespace>
+    <innernamespace refid="namespace_tripi_w_c_f_1_1_preprod_server">TripiWCF::PreprodServer</innernamespace>
+    <innernamespace refid="namespace_tripi_w_c_f_1_1_service">TripiWCF::Service</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1"/>
+  </compounddef>
+</doxygen>

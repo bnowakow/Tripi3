@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="dir_6003df999949321f3effd0c69a2a3afc" kind="dir">
+    <compoundname>TripiMobile/wcf/</compoundname>
+    <innerfile refid="_tripi_mobile_2wcf_2_c_f_client_base_8cs">CFClientBase.cs</innerfile>
+    <innerfile refid="wcf_2_service_manager_8cs">ServiceManager.cs</innerfile>
+    <innerfile refid="_tripi_mobile_2wcf_2_tripi_w_c_f_service_8cs">TripiWCFService.cs</innerfile>
+    <innerfile refid="_tripi_mobile_2wcf_2_utils_8cs">Utils.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/"/>
+  </compounddef>
+</doxygen>

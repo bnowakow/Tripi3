@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_fault_exception" kind="class" prot="public">
+    <compoundname>Microsoft::Tools::ServiceModel::CFFaultException</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_fault_exception_1a044e76c79668f729d7e742708e776b4c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Microsoft::Tools::ServiceModel.CFFaultException::_faultMessage</definition>
+        <argsstring></argsstring>
+        <name>_faultMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="570" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="570" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_fault_exception_1a09b80c200a3a30312266a908f586b62b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Microsoft::Tools::ServiceModel.CFFaultException::FaultMessage</definition>
+        <argsstring></argsstring>
+        <name>FaultMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="583" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="578" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_fault_exception_1a219df45b9cb68f27537730d71f05e844" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Microsoft.Tools.ServiceModel.CFFaultException.CFFaultException</definition>
+        <argsstring>(string faultMessage)</argsstring>
+        <name>CFFaultException</name>
+        <param>
+          <type>string</type>
+          <declname>faultMessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="573" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="572" bodyend="575"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_fault_exception_1a219df45b9cb68f27537730d71f05e844" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Microsoft.Tools.ServiceModel.CFFaultException.CFFaultException</definition>
+        <argsstring>(string faultMessage)</argsstring>
+        <name>CFFaultException</name>
+        <param>
+          <type>string</type>
+          <declname>faultMessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="573" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="572" bodyend="575"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="568" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="567" bodyend="584"/>
+    <listofallmembers>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_fault_exception_1a044e76c79668f729d7e742708e776b4c" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFFaultException</scope><name>_faultMessage</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_fault_exception_1a219df45b9cb68f27537730d71f05e844" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFFaultException</scope><name>CFFaultException</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_fault_exception_1a219df45b9cb68f27537730d71f05e844" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFFaultException</scope><name>CFFaultException</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_fault_exception_1a09b80c200a3a30312266a908f586b62b" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFFaultException</scope><name>FaultMessage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

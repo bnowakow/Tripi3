@@ -1,0 +1,100 @@
+.TH "Microsoft::Tools::ServiceModel::CFClientBase< TChannel >" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Microsoft::Tools::ServiceModel::CFClientBase< TChannel > \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBCFContractSerializer\fP"
+.br
+.ti -1c
+.RI "struct \fBCFContractSerializerInfo\fP"
+.br
+.ti -1c
+.RI "class \fBCFInvokeInfo\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCFClientBase\fP (System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress)"
+.br
+.ti -1c
+.RI "\fBCFClientBase\fP (System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBClose\fP ()"
+.br
+.ti -1c
+.RI "TRESPONSE \fBInvoke< TREQUEST, TRESPONSE >\fP (CFInvokeInfo info, TREQUEST request)"
+.br
+.ti -1c
+.RI "void \fBInvoke< TREQUEST >\fP (CFInvokeInfo info, TREQUEST request)"
+.br
+.ti -1c
+.RI "virtual System.Runtime.Serialization.XmlObjectSerializer \fBGetContractSerializer\fP (CFContractSerializerInfo info)"
+.br
+.ti -1c
+.RI "void \fBClose\fP ()"
+.br
+.ti -1c
+.RI "TRESPONSE \fBInvoke< TREQUEST, TRESPONSE >\fP (CFInvokeInfo info, TREQUEST request)"
+.br
+.ti -1c
+.RI "void \fBInvoke< TREQUEST >\fP (CFInvokeInfo info, TREQUEST request)"
+.br
+.ti -1c
+.RI "virtual System.Runtime.Serialization.XmlObjectSerializer \fBGetContractSerializer\fP (CFContractSerializerInfo info)"
+.br
+.in -1c
+.SS "Static Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBApplyProtection\fP (string action, System.ServiceModel.Security.ScopedMessagePartSpecification parts, bool protection)"
+.br
+.ti -1c
+.RI "static bool \fBIsSecureMessageBinding\fP (System.ServiceModel.Channels.Binding binding)"
+.br
+.ti -1c
+.RI "static void \fBApplyProtection\fP (string action, System.ServiceModel.Security.ScopedMessagePartSpecification parts, bool protection)"
+.br
+.ti -1c
+.RI "static bool \fBIsSecureMessageBinding\fP (System.ServiceModel.Channels.Binding binding)"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "System.ServiceModel.Description.ClientCredentials \fBClientCredentials\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "System.ServiceModel.Channels.BindingParameterCollection \fBParameters\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+
+.SS "template<TChannel> class Microsoft::Tools::ServiceModel::CFClientBase< TChannel >"
+
+.PP
+\fBType Constraints\fP
+.TP
+\fITChannel\fP : \fIclass\fP
+.PP
+Definition at line 17 of file CFClientBase.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

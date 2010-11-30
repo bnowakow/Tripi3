@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_create_new_trip_request" kind="class" prot="public">
+    <compoundname>CreateNewTripRequest</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_create_new_trip_request_1aacd4c0ee9510b7f99b9edb8ea473efdc" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CreateNewTripRequest::username</definition>
+        <argsstring></argsstring>
+        <name>username</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="85" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_create_new_trip_request_1ad8453bf35def1953797bb18be44c6415" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CreateNewTripRequest::tripName</definition>
+        <argsstring></argsstring>
+        <name>tripName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="88" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_create_new_trip_request_1ac46c2ab9daafc6f713a37b36ec70a8cd" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CreateNewTripRequest::tripDescription</definition>
+        <argsstring></argsstring>
+        <name>tripDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="91" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_create_new_trip_request_1a3b6065a6be47fb94c644164a78b96ba5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CreateNewTripRequest.CreateNewTripRequest</definition>
+        <argsstring>()</argsstring>
+        <name>CreateNewTripRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="94" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="93" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_create_new_trip_request_1a9c08c71f4f864ed3b4d86ed3ddf9083a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CreateNewTripRequest.CreateNewTripRequest</definition>
+        <argsstring>(string username, string tripName, string tripDescription)</argsstring>
+        <name>CreateNewTripRequest</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="98" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="97" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_create_new_trip_request_1a3b6065a6be47fb94c644164a78b96ba5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CreateNewTripRequest.CreateNewTripRequest</definition>
+        <argsstring>()</argsstring>
+        <name>CreateNewTripRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="94" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="93" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_create_new_trip_request_1a9c08c71f4f864ed3b4d86ed3ddf9083a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CreateNewTripRequest.CreateNewTripRequest</definition>
+        <argsstring>(string username, string tripName, string tripDescription)</argsstring>
+        <name>CreateNewTripRequest</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="98" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="97" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="82" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="81" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_create_new_trip_request_1a3b6065a6be47fb94c644164a78b96ba5" prot="public" virt="non-virtual"><scope>CreateNewTripRequest</scope><name>CreateNewTripRequest</name></member>
+      <member refid="class_create_new_trip_request_1a9c08c71f4f864ed3b4d86ed3ddf9083a" prot="public" virt="non-virtual"><scope>CreateNewTripRequest</scope><name>CreateNewTripRequest</name></member>
+      <member refid="class_create_new_trip_request_1a3b6065a6be47fb94c644164a78b96ba5" prot="public" virt="non-virtual"><scope>CreateNewTripRequest</scope><name>CreateNewTripRequest</name></member>
+      <member refid="class_create_new_trip_request_1a9c08c71f4f864ed3b4d86ed3ddf9083a" prot="public" virt="non-virtual"><scope>CreateNewTripRequest</scope><name>CreateNewTripRequest</name></member>
+      <member refid="class_create_new_trip_request_1ac46c2ab9daafc6f713a37b36ec70a8cd" prot="public" virt="non-virtual"><scope>CreateNewTripRequest</scope><name>tripDescription</name></member>
+      <member refid="class_create_new_trip_request_1ad8453bf35def1953797bb18be44c6415" prot="public" virt="non-virtual"><scope>CreateNewTripRequest</scope><name>tripName</name></member>
+      <member refid="class_create_new_trip_request_1aacd4c0ee9510b7f99b9edb8ea473efdc" prot="public" virt="non-virtual"><scope>CreateNewTripRequest</scope><name>username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="dir_b81387b0d1d83670749aaf0892112676" kind="dir">
+    <compoundname>UIFrameworkMobile/</compoundname>
+    <innerdir refid="dir_e5eb32c11de10881dfca1b8b582313d0">UIFrameworkMobile/PlatformAPI/</innerdir>
+    <innerdir refid="dir_3ec9d400a5a4ad3065a4b8916b780e67">UIFrameworkMobile/Properties/</innerdir>
+    <innerfile refid="_border_8cs">Border.cs</innerfile>
+    <innerfile refid="_canvas_8cs">Canvas.cs</innerfile>
+    <innerfile refid="_image_element_8cs">ImageElement.cs</innerfile>
+    <innerfile refid="_linear_gradient_8cs">LinearGradient.cs</innerfile>
+    <innerfile refid="_list_element_8cs">ListElement.cs</innerfile>
+    <innerfile refid="_list_item_8cs">ListItem.cs</innerfile>
+    <innerfile refid="_menu_bar_8cs">MenuBar.cs</innerfile>
+    <innerfile refid="_text_block_8cs">TextBlock.cs</innerfile>
+    <innerfile refid="_title_bar_8cs">TitleBar.cs</innerfile>
+    <innerfile refid="_u_i_element_8cs">UIElement.cs</innerfile>
+    <innerfile refid="_u_i_form_8cs">UIForm.cs</innerfile>
+    <innerfile refid="_visual_collection_8cs">VisualCollection.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/"/>
+  </compounddef>
+</doxygen>
