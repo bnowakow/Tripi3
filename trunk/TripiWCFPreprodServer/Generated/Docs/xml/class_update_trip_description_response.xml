@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_update_trip_description_response" kind="class" prot="public">
+    <compoundname>UpdateTripDescriptionResponse</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_update_trip_description_response_1a052ab6dbfe595f17d4966b021ba85a22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UpdateTripDescriptionResponse.UpdateTripDescriptionResponse</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateTripDescriptionResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="532" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="531" bodyend="533"/>
+      </memberdef>
+      <memberdef kind="function" id="class_update_trip_description_response_1a052ab6dbfe595f17d4966b021ba85a22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UpdateTripDescriptionResponse.UpdateTripDescriptionResponse</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateTripDescriptionResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="532" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="531" bodyend="533"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="529" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="528" bodyend="534"/>
+    <listofallmembers>
+      <member refid="class_update_trip_description_response_1a052ab6dbfe595f17d4966b021ba85a22" prot="public" virt="non-virtual"><scope>UpdateTripDescriptionResponse</scope><name>UpdateTripDescriptionResponse</name></member>
+      <member refid="class_update_trip_description_response_1a052ab6dbfe595f17d4966b021ba85a22" prot="public" virt="non-virtual"><scope>UpdateTripDescriptionResponse</scope><name>UpdateTripDescriptionResponse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

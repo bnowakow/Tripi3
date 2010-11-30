@@ -1,0 +1,129 @@
+\hypertarget{class_g_p_s_mobile_1_1_degrees_minutes_seconds}{
+\section{GPSMobile.DegreesMinutesSeconds Class Reference}
+\label{class_g_p_s_mobile_1_1_degrees_minutes_seconds}\index{GPSMobile::DegreesMinutesSeconds@{GPSMobile::DegreesMinutesSeconds}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a5a0359c380dd9ab77197dde6b75a062c}{DegreesMinutesSeconds} (double decimalDegrees)
+\begin{DoxyCompactList}\small\item\em Constructs a new instance of \hyperlink{class_g_p_s_mobile_1_1_degrees_minutes_seconds}{DegreesMinutesSeconds} converting from decimal degrees. \item\end{DoxyCompactList}\item 
+\hyperlink{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a0beba9ff11f3b84a2604a3f78ef6da99}{DegreesMinutesSeconds} (bool isPositive, uint degrees, uint minutes, double seconds)
+\begin{DoxyCompactList}\small\item\em Constructs a new instance of \hyperlink{class_g_p_s_mobile_1_1_degrees_minutes_seconds}{DegreesMinutesSeconds}. \item\end{DoxyCompactList}\item 
+double \hyperlink{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a114de0a66d178c5af760e29119d1c725}{ToDecimalDegrees} ()
+\begin{DoxyCompactList}\small\item\em Converts the decimal, minutes, seconds coordinate to decimal degrees. \item\end{DoxyCompactList}\item 
+override string \hyperlink{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a164a4704ff73cbeb937d43aded782c99}{ToString} ()
+\begin{DoxyCompactList}\small\item\em Converts the instance to a string in format: D M' S". \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a14812fc58ea812f0a28b20447f2e32cc}{IsPositive}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Returns true if the degrees, minutes and seconds refer to a positive value, false otherwise. \item\end{DoxyCompactList}\item 
+uint \hyperlink{class_g_p_s_mobile_1_1_degrees_minutes_seconds_ae24ec91d5cae1b7bb197b8a9ce319965}{Degrees}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The degrees unit of the coordinate. \item\end{DoxyCompactList}\item 
+uint \hyperlink{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a186a923e69d06147fa4682300c47ae71}{Minutes}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The minutes unit of the coordinate. \item\end{DoxyCompactList}\item 
+double \hyperlink{class_g_p_s_mobile_1_1_degrees_minutes_seconds_aba3b082a41209eaffe829426d760bc5a}{Seconds}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The seconds unit of the coordinate. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 5 of file DegreesMinutesSeconds.cs.
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a5a0359c380dd9ab77197dde6b75a062c}{
+\index{GPSMobile::DegreesMinutesSeconds@{GPSMobile::DegreesMinutesSeconds}!DegreesMinutesSeconds@{DegreesMinutesSeconds}}
+\index{DegreesMinutesSeconds@{DegreesMinutesSeconds}!GPSMobile::DegreesMinutesSeconds@{GPSMobile::DegreesMinutesSeconds}}
+\subsubsection[{DegreesMinutesSeconds}]{\setlength{\rightskip}{0pt plus 5cm}GPSMobile.DegreesMinutesSeconds.DegreesMinutesSeconds (double {\em decimalDegrees})}}
+\label{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a5a0359c380dd9ab77197dde6b75a062c}
+
+
+Constructs a new instance of \hyperlink{class_g_p_s_mobile_1_1_degrees_minutes_seconds}{DegreesMinutesSeconds} converting from decimal degrees. 
+\begin{DoxyParams}{Parameters}
+\item[{\em decimalDegrees}]Initial value as decimal degrees\end{DoxyParams}
+
+
+Definition at line 50 of file DegreesMinutesSeconds.cs.\hypertarget{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a0beba9ff11f3b84a2604a3f78ef6da99}{
+\index{GPSMobile::DegreesMinutesSeconds@{GPSMobile::DegreesMinutesSeconds}!DegreesMinutesSeconds@{DegreesMinutesSeconds}}
+\index{DegreesMinutesSeconds@{DegreesMinutesSeconds}!GPSMobile::DegreesMinutesSeconds@{GPSMobile::DegreesMinutesSeconds}}
+\subsubsection[{DegreesMinutesSeconds}]{\setlength{\rightskip}{0pt plus 5cm}GPSMobile.DegreesMinutesSeconds.DegreesMinutesSeconds (bool {\em isPositive}, \/  uint {\em degrees}, \/  uint {\em minutes}, \/  double {\em seconds})}}
+\label{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a0beba9ff11f3b84a2604a3f78ef6da99}
+
+
+Constructs a new instance of \hyperlink{class_g_p_s_mobile_1_1_degrees_minutes_seconds}{DegreesMinutesSeconds}. 
+\begin{DoxyParams}{Parameters}
+\item[{\em isPositive}]True if the coordinates are positive coordinate, false if they are negative coordinates.\item[{\em degrees}]Degrees unit of the coordinate\item[{\em minutes}]Minutes unit of the coordinate\item[{\em seconds}]Seconds unit of the coordinate. This should be a positive value.\end{DoxyParams}
+
+
+Definition at line 70 of file DegreesMinutesSeconds.cs.
+
+\subsection{Member Function Documentation}
+\hypertarget{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a114de0a66d178c5af760e29119d1c725}{
+\index{GPSMobile::DegreesMinutesSeconds@{GPSMobile::DegreesMinutesSeconds}!ToDecimalDegrees@{ToDecimalDegrees}}
+\index{ToDecimalDegrees@{ToDecimalDegrees}!GPSMobile::DegreesMinutesSeconds@{GPSMobile::DegreesMinutesSeconds}}
+\subsubsection[{ToDecimalDegrees}]{\setlength{\rightskip}{0pt plus 5cm}double GPSMobile.DegreesMinutesSeconds.ToDecimalDegrees ()}}
+\label{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a114de0a66d178c5af760e29119d1c725}
+
+
+Converts the decimal, minutes, seconds coordinate to decimal degrees. \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 83 of file DegreesMinutesSeconds.cs.\hypertarget{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a164a4704ff73cbeb937d43aded782c99}{
+\index{GPSMobile::DegreesMinutesSeconds@{GPSMobile::DegreesMinutesSeconds}!ToString@{ToString}}
+\index{ToString@{ToString}!GPSMobile::DegreesMinutesSeconds@{GPSMobile::DegreesMinutesSeconds}}
+\subsubsection[{ToString}]{\setlength{\rightskip}{0pt plus 5cm}override string GPSMobile.DegreesMinutesSeconds.ToString ()}}
+\label{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a164a4704ff73cbeb937d43aded782c99}
+
+
+Converts the instance to a string in format: D M' S". \begin{DoxyReturn}{Returns}
+string representation of degrees, minutes, seconds
+\end{DoxyReturn}
+
+
+Definition at line 94 of file DegreesMinutesSeconds.cs.
+
+\subsection{Property Documentation}
+\hypertarget{class_g_p_s_mobile_1_1_degrees_minutes_seconds_ae24ec91d5cae1b7bb197b8a9ce319965}{
+\index{GPSMobile::DegreesMinutesSeconds@{GPSMobile::DegreesMinutesSeconds}!Degrees@{Degrees}}
+\index{Degrees@{Degrees}!GPSMobile::DegreesMinutesSeconds@{GPSMobile::DegreesMinutesSeconds}}
+\subsubsection[{Degrees}]{\setlength{\rightskip}{0pt plus 5cm}uint GPSMobile.DegreesMinutesSeconds.Degrees\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_degrees_minutes_seconds_ae24ec91d5cae1b7bb197b8a9ce319965}
+
+
+The degrees unit of the coordinate. 
+
+Definition at line 23 of file DegreesMinutesSeconds.cs.\hypertarget{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a14812fc58ea812f0a28b20447f2e32cc}{
+\index{GPSMobile::DegreesMinutesSeconds@{GPSMobile::DegreesMinutesSeconds}!IsPositive@{IsPositive}}
+\index{IsPositive@{IsPositive}!GPSMobile::DegreesMinutesSeconds@{GPSMobile::DegreesMinutesSeconds}}
+\subsubsection[{IsPositive}]{\setlength{\rightskip}{0pt plus 5cm}bool GPSMobile.DegreesMinutesSeconds.IsPositive\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a14812fc58ea812f0a28b20447f2e32cc}
+
+
+Returns true if the degrees, minutes and seconds refer to a positive value, false otherwise. 
+
+Definition at line 14 of file DegreesMinutesSeconds.cs.\hypertarget{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a186a923e69d06147fa4682300c47ae71}{
+\index{GPSMobile::DegreesMinutesSeconds@{GPSMobile::DegreesMinutesSeconds}!Minutes@{Minutes}}
+\index{Minutes@{Minutes}!GPSMobile::DegreesMinutesSeconds@{GPSMobile::DegreesMinutesSeconds}}
+\subsubsection[{Minutes}]{\setlength{\rightskip}{0pt plus 5cm}uint GPSMobile.DegreesMinutesSeconds.Minutes\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_degrees_minutes_seconds_a186a923e69d06147fa4682300c47ae71}
+
+
+The minutes unit of the coordinate. 
+
+Definition at line 32 of file DegreesMinutesSeconds.cs.\hypertarget{class_g_p_s_mobile_1_1_degrees_minutes_seconds_aba3b082a41209eaffe829426d760bc5a}{
+\index{GPSMobile::DegreesMinutesSeconds@{GPSMobile::DegreesMinutesSeconds}!Seconds@{Seconds}}
+\index{Seconds@{Seconds}!GPSMobile::DegreesMinutesSeconds@{GPSMobile::DegreesMinutesSeconds}}
+\subsubsection[{Seconds}]{\setlength{\rightskip}{0pt plus 5cm}double GPSMobile.DegreesMinutesSeconds.Seconds\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_degrees_minutes_seconds_aba3b082a41209eaffe829426d760bc5a}
+
+
+The seconds unit of the coordinate. 
+
+Definition at line 41 of file DegreesMinutesSeconds.cs.
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+GPS/DegreesMinutesSeconds.cs\end{DoxyCompactItemize}

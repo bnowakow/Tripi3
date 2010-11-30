@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="namespace_tripi_w_c_f_1_1_service" kind="namespace">
+    <compoundname>TripiWCF::Service</compoundname>
+    <innerclass refid="class_tripi_w_c_f_1_1_service_1_1_trip" prot="public">TripiWCF::Service::Trip</innerclass>
+    <innerclass refid="class_tripi_w_c_f_1_1_service_1_1_position_node" prot="public">TripiWCF::Service::PositionNode</innerclass>
+    <innerclass refid="interface_tripi_w_c_f_1_1_service_1_1_i_cross_domain_policy_responder" prot="public">TripiWCF::Service::ICrossDomainPolicyResponder</innerclass>
+    <innerclass refid="interface_tripi_w_c_f_1_1_service_1_1_i_trip_service" prot="public">TripiWCF::Service::ITripService</innerclass>
+    <innerclass refid="class_tripi_w_c_f_1_1_service_1_1_trip_service" prot="public">TripiWCF::Service::TripService</innerclass>
+    <innerclass refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile" prot="public">TripiWCF::Service::TripServiceVolatile</innerclass>
+    <innerclass refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_xml" prot="public">TripiWCF::Service::TripServiceXml</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="15"/>
+  </compounddef>
+</doxygen>

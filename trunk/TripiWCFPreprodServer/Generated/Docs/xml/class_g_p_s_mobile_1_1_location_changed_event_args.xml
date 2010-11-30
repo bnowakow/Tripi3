@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_g_p_s_mobile_1_1_location_changed_event_args" kind="class" prot="public">
+    <compoundname>GPSMobile::LocationChangedEventArgs</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_location_changed_event_args_1af8f0873f2d88ac2838080e44315ce790" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_g_p_s_mobile_1_1_gps_position" kindref="compound">GpsPosition</ref></type>
+        <definition>GpsPosition GPSMobile.LocationChangedEventArgs.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+<para>Gets the new position when the GPS reports a new position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/LocationChangedEventArgs.cs" line="24" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/LocationChangedEventArgs.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_location_changed_event_args_1a08c115cef4115ec431b83e22b293216a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_g_p_s_mobile_1_1_gps_position" kindref="compound">GpsPosition</ref></type>
+        <definition>GpsPosition GPSMobile.LocationChangedEventArgs.position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/LocationChangedEventArgs.cs" line="26" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/LocationChangedEventArgs.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_location_changed_event_args_1a344999840c45d222af31a193bfa68ab9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GPSMobile.LocationChangedEventArgs.LocationChangedEventArgs</definition>
+        <argsstring>(GpsPosition position)</argsstring>
+        <name>LocationChangedEventArgs</name>
+        <param>
+          <type><ref refid="class_g_p_s_mobile_1_1_gps_position" kindref="compound">GpsPosition</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/LocationChangedEventArgs.cs" line="11" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/LocationChangedEventArgs.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Event args used for LocationChanged events. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="314">
+        <label>GPSMobile.SystemTime</label>
+        <link refid="struct_g_p_s_mobile_1_1_system_time"/>
+      </node>
+      <node id="315">
+        <label>GPSMobile.SatelliteArray</label>
+        <link refid="struct_g_p_s_mobile_1_1_satellite_array"/>
+      </node>
+      <node id="313">
+        <label>GPSMobile.GpsPosition</label>
+        <link refid="class_g_p_s_mobile_1_1_gps_position"/>
+        <childnode refid="314" relation="usage">
+          <edgelabel>stUTCTime</edgelabel>
+        </childnode>
+        <childnode refid="315" relation="usage">
+          <edgelabel>rgdwSatellitesInViewElevation</edgelabel>
+          <edgelabel>rgdwSatellitesInViewAzimuth</edgelabel>
+          <edgelabel>rgdwSatellitesInViewSignalToNoiseRatio</edgelabel>
+          <edgelabel>rgdwSatellitesInViewPRNs</edgelabel>
+          <edgelabel>rgdwSatellitesUsedPRNs</edgelabel>
+        </childnode>
+      </node>
+      <node id="312">
+        <label>GPSMobile.LocationChangedEventArgs</label>
+        <link refid="class_g_p_s_mobile_1_1_location_changed_event_args"/>
+        <childnode refid="313" relation="usage">
+          <edgelabel>position</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/LocationChangedEventArgs.cs" line="9" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/LocationChangedEventArgs.cs" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_g_p_s_mobile_1_1_location_changed_event_args_1a344999840c45d222af31a193bfa68ab9" prot="public" virt="non-virtual"><scope>GPSMobile::LocationChangedEventArgs</scope><name>LocationChangedEventArgs</name></member>
+      <member refid="class_g_p_s_mobile_1_1_location_changed_event_args_1af8f0873f2d88ac2838080e44315ce790" prot="public" virt="non-virtual"><scope>GPSMobile::LocationChangedEventArgs</scope><name>Position</name></member>
+      <member refid="class_g_p_s_mobile_1_1_location_changed_event_args_1a08c115cef4115ec431b83e22b293216a" prot="private" virt="non-virtual"><scope>GPSMobile::LocationChangedEventArgs</scope><name>position</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

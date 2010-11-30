@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1_wather_deeptraining_1_1_weather" kind="class" prot="public">
+    <compoundname>Tripi::WatherDeeptraining::Weather</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tripi_1_1_wather_deeptraining_1_1_weather_1a2e38e899b41c8d2e4863b44f15c73803" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Tripi.WatherDeeptraining.Weather.Weather</definition>
+        <argsstring>()</argsstring>
+        <name>Weather</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WatherDeeptraining/Reference.cs" line="30" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WatherDeeptraining/Reference.cs" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_wather_deeptraining_1_1_weather_1a7e8b8dc8b2b48065c2684e127f87f803" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Tripi.WatherDeeptraining.Weather.GetWeather</definition>
+        <argsstring>(string City)</argsstring>
+        <name>GetWeather</name>
+        <param>
+          <type>string</type>
+          <declname>City</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WatherDeeptraining/Reference.cs" line="36" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WatherDeeptraining/Reference.cs" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_wather_deeptraining_1_1_weather_1a4fb22d607e930c896a664fae1097478d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult Tripi.WatherDeeptraining.Weather.BeginGetWeather</definition>
+        <argsstring>(string City, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetWeather</name>
+        <param>
+          <type>string</type>
+          <declname>City</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WatherDeeptraining/Reference.cs" line="43" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WatherDeeptraining/Reference.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_wather_deeptraining_1_1_weather_1ad41ef5416b0ad7f26131ce7c827ba325" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Tripi.WatherDeeptraining.Weather.EndGetWeather</definition>
+        <argsstring>(System.IAsyncResult asyncResult)</argsstring>
+        <name>EndGetWeather</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>asyncResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WatherDeeptraining/Reference.cs" line="49" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WatherDeeptraining/Reference.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WatherDeeptraining/Reference.cs" line="27" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/WatherDeeptraining/Reference.cs" bodystart="27" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1_wather_deeptraining_1_1_weather_1a4fb22d607e930c896a664fae1097478d" prot="public" virt="non-virtual"><scope>Tripi::WatherDeeptraining::Weather</scope><name>BeginGetWeather</name></member>
+      <member refid="class_tripi_1_1_wather_deeptraining_1_1_weather_1ad41ef5416b0ad7f26131ce7c827ba325" prot="public" virt="non-virtual"><scope>Tripi::WatherDeeptraining::Weather</scope><name>EndGetWeather</name></member>
+      <member refid="class_tripi_1_1_wather_deeptraining_1_1_weather_1a7e8b8dc8b2b48065c2684e127f87f803" prot="public" virt="non-virtual"><scope>Tripi::WatherDeeptraining::Weather</scope><name>GetWeather</name></member>
+      <member refid="class_tripi_1_1_wather_deeptraining_1_1_weather_1a2e38e899b41c8d2e4863b44f15c73803" prot="public" virt="non-virtual"><scope>Tripi::WatherDeeptraining::Weather</scope><name>Weather</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

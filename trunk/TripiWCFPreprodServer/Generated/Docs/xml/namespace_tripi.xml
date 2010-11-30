@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="namespace_tripi" kind="namespace">
+    <compoundname>Tripi</compoundname>
+    <innerclass refid="class_tripi_1_1_continue_trip_form" prot="public">Tripi::ContinueTripForm</innerclass>
+    <innerclass refid="class_tripi_1_1_gps_form" prot="public">Tripi::GpsForm</innerclass>
+    <innerclass refid="class_tripi_1_1_login_form" prot="public">Tripi::LoginForm</innerclass>
+    <innerclass refid="class_tripi_1_1_main_form" prot="public">Tripi::MainForm</innerclass>
+    <innerclass refid="class_tripi_1_1_mobile_configuration" prot="public">Tripi::MobileConfiguration</innerclass>
+    <innerclass refid="class_tripi_1_1_new_trip_form" prot="public">Tripi::NewTripForm</innerclass>
+    <innerclass refid="class_tripi_1_1_point_form" prot="public">Tripi::PointForm</innerclass>
+    <innerclass refid="class_tripi_1_1_program" prot="public">Tripi::Program</innerclass>
+    <innerclass refid="class_tripi_1_1_service_manager" prot="public">Tripi::ServiceManager</innerclass>
+    <innerclass refid="class_tripi_1_1_trip_form" prot="public">Tripi::TripForm</innerclass>
+    <innerclass refid="class_tripi_1_1_trip_spots_form" prot="public">Tripi::TripSpotsForm</innerclass>
+    <innerclass refid="class_tripi_1_1_user" prot="public">Tripi::User</innerclass>
+    <innerclass refid="class_tripi_1_1_weather_form" prot="public">Tripi::WeatherForm</innerclass>
+    <innernamespace refid="namespace_tripi_1_1components">Tripi::components</innernamespace>
+    <innernamespace refid="namespace_tripi_1_1data">Tripi::data</innernamespace>
+    <innernamespace refid="namespace_tripi_1_1gps">Tripi::gps</innernamespace>
+    <innernamespace refid="namespace_tripi_1_1_properties">Tripi::Properties</innernamespace>
+    <innernamespace refid="namespace_tripi_1_1_tripi_w_c_f_remote">Tripi::TripiWCFRemote</innernamespace>
+    <innernamespace refid="namespace_tripi_1_1_tripi_w_c_f_service">Tripi::TripiWCFService</innernamespace>
+    <innernamespace refid="namespace_tripi_1_1_wather_deeptraining">Tripi::WatherDeeptraining</innernamespace>
+    <innernamespace refid="namespace_tripi_1_1wcf">Tripi::wcf</innernamespace>
+    <innernamespace refid="namespace_tripi_1_1_weather_service">Tripi::WeatherService</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_tripi_1a4578eebc197118f74e38ec001dabbd28" prot="public" static="no">
+        <name>TripMode</name>
+        <enumvalue id="namespace_tripi_1a4578eebc197118f74e38ec001dabbd28" prot="public">
+          <name>NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_tripi_1a4578eebc197118f74e38ec001dabbd28" prot="public">
+          <name>CONTINUE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/TripForm.cs" line="121" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/TripForm.cs" bodystart="120" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1"/>
+  </compounddef>
+</doxygen>

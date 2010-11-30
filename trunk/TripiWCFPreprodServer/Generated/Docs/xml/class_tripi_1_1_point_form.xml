@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1_point_form" kind="class" prot="public">
+    <compoundname>Tripi::PointForm</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tripi_1_1_point_form_1a87977ed9e3ae0ac221fe54bc38db85e9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Tripi.PointForm.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.cs" line="51" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tripi_1_1_point_form_1af39988fe452e1e30ddfdb20b851ceb35" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer Tripi.PointForm.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer> null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.Designer.cs" line="8" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_point_form_1aa4355123faf6100edca21de77db0ba3e" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Tripi.PointForm.labelTitle</definition>
+        <argsstring></argsstring>
+        <name>labelTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.Designer.cs" line="96" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.Designer.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_point_form_1aaff874209d59f7eddbd533f7c96896b4" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Tripi.PointForm.labelDescription</definition>
+        <argsstring></argsstring>
+        <name>labelDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.Designer.cs" line="97" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.Designer.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_point_form_1a63f91421ec80ed212c7de18de0034892" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button Tripi.PointForm.bttnOk</definition>
+        <argsstring></argsstring>
+        <name>bttnOk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.Designer.cs" line="98" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.Designer.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_point_form_1af7ea289c66ff0f9a54829ee537e51857" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox Tripi.PointForm.tBoxDescription</definition>
+        <argsstring></argsstring>
+        <name>tBoxDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.Designer.cs" line="99" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.Designer.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_point_form_1a5b049eaa445326e6854008209aafb864" prot="private" static="no" mutable="no">
+        <type>Microsoft.WindowsCE.Forms.InputPanel</type>
+        <definition>Microsoft.WindowsCE.Forms.InputPanel Tripi.PointForm.inputPanel</definition>
+        <argsstring></argsstring>
+        <name>inputPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.Designer.cs" line="100" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.Designer.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tripi_1_1_point_form_1a2b94acea44beb7ecab0ffcc196b78df2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Tripi.PointForm.PointForm</definition>
+        <argsstring>()</argsstring>
+        <name>PointForm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.cs" line="18" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tripi_1_1_point_form_1ad92ae04db64e27faaa001119e0ee8460" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.PointForm.SaveClick</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>SaveClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.cs" line="23" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.cs" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_point_form_1adc818019de591c010a39f3eac777816e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.PointForm.BackClick</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.cs" line="29" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_point_form_1a249fa214a978ec9e9794f6651dc6f132" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.PointForm.FormLoad</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>FormLoad</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.cs" line="35" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.cs" bodystart="34" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_point_form_1a22660c552beed7317d40db0bdd6b9d67" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.PointForm.ToogleSIP</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>ToogleSIP</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.cs" line="44" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_point_form_1ae213a5e1e8ed6d609e58973f1bcfccf6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.PointForm.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.Designer.cs" line="30" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.Designer.cs" bodystart="29" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_tripi_1_1_point_form_1a9eacd79aef7c86ded2a59850e97edf76" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Tripi.PointForm.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.Designer.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="354">
+        <label>Tripi.PointForm</label>
+        <link refid="class_tripi_1_1_point_form"/>
+        <childnode refid="355" relation="usage">
+          <edgelabel>inputPanel</edgelabel>
+        </childnode>
+        <childnode refid="356" relation="usage">
+          <edgelabel>labelDescription</edgelabel>
+          <edgelabel>tBoxDescription</edgelabel>
+          <edgelabel>bttnOk</edgelabel>
+          <edgelabel>components</edgelabel>
+          <edgelabel>labelTitle</edgelabel>
+        </childnode>
+      </node>
+      <node id="356">
+        <label>System</label>
+      </node>
+      <node id="355">
+        <label>Forms</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.cs" line="16" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/PointForm.cs" bodystart="15" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1_point_form_1adc818019de591c010a39f3eac777816e" prot="private" virt="non-virtual"><scope>Tripi::PointForm</scope><name>BackClick</name></member>
+      <member refid="class_tripi_1_1_point_form_1a63f91421ec80ed212c7de18de0034892" prot="private" virt="non-virtual"><scope>Tripi::PointForm</scope><name>bttnOk</name></member>
+      <member refid="class_tripi_1_1_point_form_1af39988fe452e1e30ddfdb20b851ceb35" prot="private" virt="non-virtual"><scope>Tripi::PointForm</scope><name>components</name></member>
+      <member refid="class_tripi_1_1_point_form_1a87977ed9e3ae0ac221fe54bc38db85e9" prot="public" virt="non-virtual"><scope>Tripi::PointForm</scope><name>Description</name></member>
+      <member refid="class_tripi_1_1_point_form_1a9eacd79aef7c86ded2a59850e97edf76" prot="protected" virt="non-virtual"><scope>Tripi::PointForm</scope><name>Dispose</name></member>
+      <member refid="class_tripi_1_1_point_form_1a249fa214a978ec9e9794f6651dc6f132" prot="private" virt="non-virtual"><scope>Tripi::PointForm</scope><name>FormLoad</name></member>
+      <member refid="class_tripi_1_1_point_form_1ae213a5e1e8ed6d609e58973f1bcfccf6" prot="private" virt="non-virtual"><scope>Tripi::PointForm</scope><name>InitializeComponent</name></member>
+      <member refid="class_tripi_1_1_point_form_1a5b049eaa445326e6854008209aafb864" prot="private" virt="non-virtual"><scope>Tripi::PointForm</scope><name>inputPanel</name></member>
+      <member refid="class_tripi_1_1_point_form_1aaff874209d59f7eddbd533f7c96896b4" prot="private" virt="non-virtual"><scope>Tripi::PointForm</scope><name>labelDescription</name></member>
+      <member refid="class_tripi_1_1_point_form_1aa4355123faf6100edca21de77db0ba3e" prot="private" virt="non-virtual"><scope>Tripi::PointForm</scope><name>labelTitle</name></member>
+      <member refid="class_tripi_1_1_point_form_1a2b94acea44beb7ecab0ffcc196b78df2" prot="public" virt="non-virtual"><scope>Tripi::PointForm</scope><name>PointForm</name></member>
+      <member refid="class_tripi_1_1_point_form_1ad92ae04db64e27faaa001119e0ee8460" prot="private" virt="non-virtual"><scope>Tripi::PointForm</scope><name>SaveClick</name></member>
+      <member refid="class_tripi_1_1_point_form_1af7ea289c66ff0f9a54829ee537e51857" prot="private" virt="non-virtual"><scope>Tripi::PointForm</scope><name>tBoxDescription</name></member>
+      <member refid="class_tripi_1_1_point_form_1a22660c552beed7317d40db0bdd6b9d67" prot="private" virt="non-virtual"><scope>Tripi::PointForm</scope><name>ToogleSIP</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

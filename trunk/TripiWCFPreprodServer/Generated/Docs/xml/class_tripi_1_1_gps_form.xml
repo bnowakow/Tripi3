@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1_gps_form" kind="class" prot="public">
+    <compoundname>Tripi::GpsForm</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tripi_1_1_gps_form_1a81ab5452fb99263025694a1b3cecd76c" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Tripi.GpsForm.noSatellitesString</definition>
+        <argsstring></argsstring>
+        <name>noSatellitesString</name>
+        <initializer> &quot;Satellites are currently not available&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.cs" line="17" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_gps_form_1a4047b0c77d99dc2a4893daf89ab1cf1e" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer Tripi.GpsForm.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer> null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" line="8" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_gps_form_1aea8924ed6b0eaab36dff6070a714c03b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Tripi.GpsForm.labelTitle</definition>
+        <argsstring></argsstring>
+        <name>labelTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" line="134" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_gps_form_1a407c33391c9290ca337dd326dc4f8798" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Tripi.GpsForm.labelLongitude</definition>
+        <argsstring></argsstring>
+        <name>labelLongitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" line="135" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_gps_form_1ad8a93f52fc687d1ff47a0ff1df2a9115" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Tripi.GpsForm.labelLatitude</definition>
+        <argsstring></argsstring>
+        <name>labelLatitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" line="136" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_gps_form_1a34eccf193c3a3788b868cb2e51559620" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox Tripi.GpsForm.tboxLongitude</definition>
+        <argsstring></argsstring>
+        <name>tboxLongitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" line="137" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_gps_form_1a7205d381b757f2ef78308888fef0e8a2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox Tripi.GpsForm.tboxLatitude</definition>
+        <argsstring></argsstring>
+        <name>tboxLatitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" line="138" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_gps_form_1a7dda2bbe2804135b78a236e3ab769fc0" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Tripi.GpsForm.labelSatellite</definition>
+        <argsstring></argsstring>
+        <name>labelSatellite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" line="139" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_gps_form_1a576596d25a30983122dd5d111f4aed4e" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Tripi.GpsForm.labelSpeed</definition>
+        <argsstring></argsstring>
+        <name>labelSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" line="140" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_gps_form_1a0a55c392b5058671a09124ce1c74e575" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox Tripi.GpsForm.tboxSpeed</definition>
+        <argsstring></argsstring>
+        <name>tboxSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" line="141" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tripi_1_1_gps_form_1ad494351a0fed3ddc4a43e8b02ccd8e2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Tripi.GpsForm.GpsForm</definition>
+        <argsstring>()</argsstring>
+        <name>GpsForm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.cs" line="20" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.cs" bodystart="19" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tripi_1_1_gps_form_1a14fca145ef0cf1d4edd07adbb881d112" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.GpsForm.InitializeGPS</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeGPS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.cs" line="26" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.cs" bodystart="25" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_gps_form_1a58bf9589459c87d43de25c0d4054a11d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.GpsForm.GpsLocationChanged</definition>
+        <argsstring>(GpsPosition position)</argsstring>
+        <name>GpsLocationChanged</name>
+        <param>
+          <type><ref refid="class_g_p_s_mobile_1_1_gps_position" kindref="compound">GpsPosition</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.cs" line="33" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.cs" bodystart="32" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_gps_form_1a43acf9e9b5fec741f4ccb620b718c31e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.GpsForm.CloseGPS</definition>
+        <argsstring>()</argsstring>
+        <name>CloseGPS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.cs" line="65" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.cs" bodystart="64" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_gps_form_1a08965a4a2525340e64076746b24d9ee1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.GpsForm.BackButtonClick</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>BackButtonClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.cs" line="72" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.cs" bodystart="71" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_gps_form_1abb045785dab4687229f061b98f7ae65d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.GpsForm.FormLoad</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>FormLoad</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.cs" line="79" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.cs" bodystart="78" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_gps_form_1a746122498560de4e7ad56fb6fe2f1397" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.GpsForm.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" line="30" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" bodystart="29" bodyend="130"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_tripi_1_1_gps_form_1ab36ff51300fdbed86f459fc4381432a3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Tripi.GpsForm.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="218">
+        <label>Tripi.GpsForm</label>
+        <link refid="class_tripi_1_1_gps_form"/>
+        <childnode refid="219" relation="usage">
+          <edgelabel>tboxSpeed</edgelabel>
+          <edgelabel>labelSatellite</edgelabel>
+          <edgelabel>components</edgelabel>
+          <edgelabel>tboxLatitude</edgelabel>
+          <edgelabel>tboxLongitude</edgelabel>
+          <edgelabel>labelLatitude</edgelabel>
+          <edgelabel>labelLongitude</edgelabel>
+          <edgelabel>labelTitle</edgelabel>
+          <edgelabel>labelSpeed</edgelabel>
+        </childnode>
+      </node>
+      <node id="219">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.cs" line="16" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/GpsForm.cs" bodystart="15" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1_gps_form_1a08965a4a2525340e64076746b24d9ee1" prot="private" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>BackButtonClick</name></member>
+      <member refid="class_tripi_1_1_gps_form_1a43acf9e9b5fec741f4ccb620b718c31e" prot="private" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>CloseGPS</name></member>
+      <member refid="class_tripi_1_1_gps_form_1a4047b0c77d99dc2a4893daf89ab1cf1e" prot="private" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>components</name></member>
+      <member refid="class_tripi_1_1_gps_form_1ab36ff51300fdbed86f459fc4381432a3" prot="protected" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>Dispose</name></member>
+      <member refid="class_tripi_1_1_gps_form_1abb045785dab4687229f061b98f7ae65d" prot="private" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>FormLoad</name></member>
+      <member refid="class_tripi_1_1_gps_form_1ad494351a0fed3ddc4a43e8b02ccd8e2f" prot="public" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>GpsForm</name></member>
+      <member refid="class_tripi_1_1_gps_form_1a58bf9589459c87d43de25c0d4054a11d" prot="private" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>GpsLocationChanged</name></member>
+      <member refid="class_tripi_1_1_gps_form_1a746122498560de4e7ad56fb6fe2f1397" prot="private" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>InitializeComponent</name></member>
+      <member refid="class_tripi_1_1_gps_form_1a14fca145ef0cf1d4edd07adbb881d112" prot="private" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>InitializeGPS</name></member>
+      <member refid="class_tripi_1_1_gps_form_1ad8a93f52fc687d1ff47a0ff1df2a9115" prot="private" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>labelLatitude</name></member>
+      <member refid="class_tripi_1_1_gps_form_1a407c33391c9290ca337dd326dc4f8798" prot="private" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>labelLongitude</name></member>
+      <member refid="class_tripi_1_1_gps_form_1a7dda2bbe2804135b78a236e3ab769fc0" prot="private" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>labelSatellite</name></member>
+      <member refid="class_tripi_1_1_gps_form_1a576596d25a30983122dd5d111f4aed4e" prot="private" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>labelSpeed</name></member>
+      <member refid="class_tripi_1_1_gps_form_1aea8924ed6b0eaab36dff6070a714c03b" prot="private" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>labelTitle</name></member>
+      <member refid="class_tripi_1_1_gps_form_1a81ab5452fb99263025694a1b3cecd76c" prot="private" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>noSatellitesString</name></member>
+      <member refid="class_tripi_1_1_gps_form_1a7205d381b757f2ef78308888fef0e8a2" prot="private" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>tboxLatitude</name></member>
+      <member refid="class_tripi_1_1_gps_form_1a34eccf193c3a3788b868cb2e51559620" prot="private" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>tboxLongitude</name></member>
+      <member refid="class_tripi_1_1_gps_form_1a0a55c392b5058671a09124ce1c74e575" prot="private" virt="non-virtual"><scope>Tripi::GpsForm</scope><name>tboxSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

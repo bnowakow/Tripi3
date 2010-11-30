@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="interface_microsoft_1_1_drawing_1_1_i_image" kind="interface" prot="public">
+    <compoundname>Microsoft::Drawing::IImage</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_image_1a451c3fc9b3cd8df281637043c85a66d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImage.GetPhysicalDimension</definition>
+        <argsstring>(out Size size)</argsstring>
+        <name>GetPhysicalDimension</name>
+        <param>
+          <type>out Size</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="131"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_image_1ac5b1ff8cd89402d563dc219bcaa842c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImage.GetImageInfo</definition>
+        <argsstring>(out ImageInfo info)</argsstring>
+        <name>GetImageInfo</name>
+        <param>
+          <type>out <ref refid="struct_microsoft_1_1_drawing_1_1_image_info" kindref="compound">ImageInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="132"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_image_1acdc3fe9b8894a5c1829db39d4b939181" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImage.SetImageFlags</definition>
+        <argsstring>(uint flags)</argsstring>
+        <name>SetImageFlags</name>
+        <param>
+          <type>uint</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="133"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_image_1ada3fa0d511e6203f5a28d68429f9eeee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImage.Draw</definition>
+        <argsstring>(IntPtr hdc, ref Rectangle dstRect, IntPtr NULL)</argsstring>
+        <name>Draw</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>hdc</declname>
+        </param>
+        <param>
+          <type>ref Rectangle</type>
+          <declname>dstRect</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>NULL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="134"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_image_1ada9ade7d65947ffe1b745ddd59db266b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImage.PushIntoSink</definition>
+        <argsstring>()</argsstring>
+        <name>PushIntoSink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="135"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_image_1aa8f7a8519c46bac502a12854859ccd4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImage.GetThumbnail</definition>
+        <argsstring>(uint thumbWidth, uint thumbHeight, out IImage thumbImage)</argsstring>
+        <name>GetThumbnail</name>
+        <param>
+          <type>uint</type>
+          <declname>thumbWidth</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>thumbHeight</declname>
+        </param>
+        <param>
+          <type>out <ref refid="interface_microsoft_1_1_drawing_1_1_i_image" kindref="compound">IImage</ref></type>
+          <declname>thumbImage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="136"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="130" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="129" bodyend="137"/>
+    <listofallmembers>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_image_1ada3fa0d511e6203f5a28d68429f9eeee" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImage</scope><name>Draw</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_image_1ac5b1ff8cd89402d563dc219bcaa842c9" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImage</scope><name>GetImageInfo</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_image_1a451c3fc9b3cd8df281637043c85a66d6" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImage</scope><name>GetPhysicalDimension</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_image_1aa8f7a8519c46bac502a12854859ccd4b" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImage</scope><name>GetThumbnail</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_image_1ada9ade7d65947ffe1b745ddd59db266b" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImage</scope><name>PushIntoSink</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_image_1acdc3fe9b8894a5c1829db39d4b939181" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImage</scope><name>SetImageFlags</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

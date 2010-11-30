@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler" kind="class" prot="private">
+    <compoundname>Tripi::wcf::ServiceManager::SendScheduler</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1a8b49c7b4eb710102c867e0922cebce4c" prot="private" static="no" mutable="no">
+        <type>Action&lt; <ref refid="class_g_p_s_mobile_1_1_gps_position" kindref="compound">GpsPosition</ref> &gt;</type>
+        <definition>Action&lt;GpsPosition&gt; Tripi.wcf.ServiceManager.SendScheduler.OnTimeElapsed</definition>
+        <argsstring></argsstring>
+        <name>OnTimeElapsed</name>
+        <initializer> null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" line="188" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1aca045e8ac91960e763f0bd7d8e922afe" prot="private" static="no" mutable="no">
+        <type>Timer</type>
+        <definition>Timer Tripi.wcf.ServiceManager.SendScheduler.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <initializer> null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" line="189" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1abb5b92192190c6ad33e06906b0847796" prot="private" static="no" mutable="no">
+        <type><ref refid="class_g_p_s_mobile_1_1_gps_position" kindref="compound">GpsPosition</ref></type>
+        <definition>GpsPosition Tripi.wcf.ServiceManager.SendScheduler.currentPosition</definition>
+        <argsstring></argsstring>
+        <name>currentPosition</name>
+        <initializer> null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" line="190" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1a3d8ed5f648854ff2a719934a294482cb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Tripi.wcf.ServiceManager.SendScheduler.positionChanged</definition>
+        <argsstring></argsstring>
+        <name>positionChanged</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" line="191" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1a3fd67cf1a9fc0b137c8243475cd0d0a3" prot="private" static="yes" mutable="no">
+        <type>readonly object</type>
+        <definition>readonly object Tripi.wcf.ServiceManager.SendScheduler.padlock</definition>
+        <argsstring></argsstring>
+        <name>padlock</name>
+        <initializer> new object()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" line="192" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1ad2a7b7b7c7e0a6c468999464421ee98f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Tripi.wcf.ServiceManager.SendScheduler.SendScheduler</definition>
+        <argsstring>()</argsstring>
+        <name>SendScheduler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" line="194" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" bodystart="194" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1af383b3798e3fdff90516746f3aadeb37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.wcf.ServiceManager.SendScheduler.Start</definition>
+        <argsstring>(int frequency, Action&lt; GpsPosition &gt; positionDelegate)</argsstring>
+        <name>Start</name>
+        <param>
+          <type>int</type>
+          <declname>frequency</declname>
+        </param>
+        <param>
+          <type>Action&lt; <ref refid="class_g_p_s_mobile_1_1_gps_position" kindref="compound">GpsPosition</ref> &gt;</type>
+          <declname>positionDelegate</declname>
+        </param>
+        <briefdescription>
+<para>Establishes the gps connection and start the timer. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frequency</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>positionDelegate</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" line="202" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" bodystart="201" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1a756c816b5a5f20e3e91ef500ce46cb0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.wcf.ServiceManager.SendScheduler.ReceivePositionFromGps</definition>
+        <argsstring>(GpsPosition position)</argsstring>
+        <name>ReceivePositionFromGps</name>
+        <param>
+          <type><ref refid="class_g_p_s_mobile_1_1_gps_position" kindref="compound">GpsPosition</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+<para>Receives the data from gps. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>position</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" line="236" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" bodystart="235" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1a3e06721c0ea3107667c86d7b650cedd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.wcf.ServiceManager.SendScheduler.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+<para>Disposes the timer and closes the gps connection. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" line="250" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" bodystart="249" bodyend="256"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1aa4539ee7afcea0915eff56ab46f698fd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.wcf.ServiceManager.SendScheduler.TimerMethod</definition>
+        <argsstring>(Object stateInfo)</argsstring>
+        <name>TimerMethod</name>
+        <param>
+          <type>Object</type>
+          <declname>stateInfo</declname>
+        </param>
+        <briefdescription>
+<para>Method fired by the timer, sends the gps data further if it has changed. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stateInfo</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" line="217" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" bodystart="216" bodyend="229"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class used to receive the gps data and send it further when the timer ticks. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="395">
+        <label>Tripi.wcf.ServiceManager.SendScheduler</label>
+        <childnode refid="396" relation="usage">
+          <edgelabel>currentPosition</edgelabel>
+        </childnode>
+        <childnode refid="399" relation="usage">
+          <edgelabel>timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="397">
+        <label>GPSMobile.SystemTime</label>
+        <link refid="struct_g_p_s_mobile_1_1_system_time"/>
+      </node>
+      <node id="398">
+        <label>GPSMobile.SatelliteArray</label>
+        <link refid="struct_g_p_s_mobile_1_1_satellite_array"/>
+      </node>
+      <node id="399">
+        <label>Timer</label>
+      </node>
+      <node id="396">
+        <label>GPSMobile.GpsPosition</label>
+        <link refid="class_g_p_s_mobile_1_1_gps_position"/>
+        <childnode refid="397" relation="usage">
+          <edgelabel>stUTCTime</edgelabel>
+        </childnode>
+        <childnode refid="398" relation="usage">
+          <edgelabel>rgdwSatellitesInViewElevation</edgelabel>
+          <edgelabel>rgdwSatellitesInViewAzimuth</edgelabel>
+          <edgelabel>rgdwSatellitesInViewSignalToNoiseRatio</edgelabel>
+          <edgelabel>rgdwSatellitesInViewPRNs</edgelabel>
+          <edgelabel>rgdwSatellitesUsedPRNs</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" line="187" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/ServiceManager.cs" bodystart="186" bodyend="259"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1abb5b92192190c6ad33e06906b0847796" prot="private" virt="non-virtual"><scope>Tripi::wcf::ServiceManager::SendScheduler</scope><name>currentPosition</name></member>
+      <member refid="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1a3e06721c0ea3107667c86d7b650cedd1" prot="public" virt="non-virtual"><scope>Tripi::wcf::ServiceManager::SendScheduler</scope><name>Dispose</name></member>
+      <member refid="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1a8b49c7b4eb710102c867e0922cebce4c" prot="private" virt="non-virtual"><scope>Tripi::wcf::ServiceManager::SendScheduler</scope><name>OnTimeElapsed</name></member>
+      <member refid="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1a3fd67cf1a9fc0b137c8243475cd0d0a3" prot="private" virt="non-virtual"><scope>Tripi::wcf::ServiceManager::SendScheduler</scope><name>padlock</name></member>
+      <member refid="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1a3d8ed5f648854ff2a719934a294482cb" prot="private" virt="non-virtual"><scope>Tripi::wcf::ServiceManager::SendScheduler</scope><name>positionChanged</name></member>
+      <member refid="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1a756c816b5a5f20e3e91ef500ce46cb0b" prot="public" virt="non-virtual"><scope>Tripi::wcf::ServiceManager::SendScheduler</scope><name>ReceivePositionFromGps</name></member>
+      <member refid="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1ad2a7b7b7c7e0a6c468999464421ee98f" prot="public" virt="non-virtual"><scope>Tripi::wcf::ServiceManager::SendScheduler</scope><name>SendScheduler</name></member>
+      <member refid="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1af383b3798e3fdff90516746f3aadeb37" prot="public" virt="non-virtual"><scope>Tripi::wcf::ServiceManager::SendScheduler</scope><name>Start</name></member>
+      <member refid="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1aca045e8ac91960e763f0bd7d8e922afe" prot="private" virt="non-virtual"><scope>Tripi::wcf::ServiceManager::SendScheduler</scope><name>timer</name></member>
+      <member refid="class_tripi_1_1wcf_1_1_service_manager_1_1_send_scheduler_1aa4539ee7afcea0915eff56ab46f698fd" prot="private" virt="non-virtual"><scope>Tripi::wcf::ServiceManager::SendScheduler</scope><name>TimerMethod</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

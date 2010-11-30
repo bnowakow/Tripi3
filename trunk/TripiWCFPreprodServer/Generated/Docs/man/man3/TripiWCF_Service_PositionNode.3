@@ -1,0 +1,132 @@
+.TH "TripiWCF::Service::PositionNode" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TripiWCF::Service::PositionNode \- 
+.PP
+Data object holding data from GPS (latitude/longitude/speed), ID of parent trip, creation time and optional description (might be null).  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPositionNode\fP (double lat, double lon, int tripID, int num)"
+.br
+.RI "\fIShortened constructor used somewhere in demo code. \fP"
+.ti -1c
+.RI "\fBPositionNode\fP (double lat, double lon, int tripID, double speed, DateTime creationTime, string description, int ordinalNumber)"
+.br
+.RI "\fIFull constructor, fills all of the fields. \fP"
+.ti -1c
+.RI "\fBPositionNode\fP (XElement element)"
+.br
+.RI "\fIConstructor parsing an XElement from a serialized database. Doesn't really tolerate any errors in XML. \fP"
+.ti -1c
+.RI "XElement \fBToXElement\fP ()"
+.br
+.RI "\fIMethod which creates an XML element, holding data for XML-backed database. \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "System.DateTime \fBCreationTime\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "double \fBLatitude\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "double \fBLongitude\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "double \fBSpeed\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "int \fBTripID\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "string \fBDescription\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "int \fBOrdinalNumber\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "DateTime \fBCreationTime\fP\fC [get, set]\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Data object holding data from GPS (latitude/longitude/speed), ID of parent trip, creation time and optional description (might be null). 
+
+
+.PP
+Definition at line 74 of file TripiWCFService.cs.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "TripiWCF.Service.PositionNode.PositionNode (double lat, double lon, int tripID, int num)"
+.PP
+Shortened constructor used somewhere in demo code. \fBParameters:\fP
+.RS 4
+\fIlat\fP Latitude.
+.br
+\fIlon\fP Longitude.
+.br
+\fItripID\fP Parent trip ID.
+.br
+\fInum\fP Ordinal number.
+.RE
+.PP
+
+.PP
+Definition at line 43 of file PositionNode.cs.
+.SS "TripiWCF.Service.PositionNode.PositionNode (double lat, double lon, int tripID, double speed, DateTime creationTime, string description, int ordinalNumber)"
+.PP
+Full constructor, fills all of the fields. \fBParameters:\fP
+.RS 4
+\fIlat\fP Latitude of GPS reading.
+.br
+\fIlon\fP Longitude of GPS reading.
+.br
+\fItripID\fP Parent trip ID.
+.br
+\fIspeed\fP Speed measured by GPS module.
+.br
+\fIcreationTime\fP Time of the GPS reading.
+.br
+\fIdescription\fP Short optional description of interesting point.
+.br
+\fIordinalNumber\fP Ordinal number of the point (on a trip) - usually provided by \fBTripService\fP.
+.RE
+.PP
+
+.PP
+Definition at line 58 of file PositionNode.cs.
+.SS "TripiWCF.Service.PositionNode.PositionNode (XElement element)"
+.PP
+Constructor parsing an XElement from a serialized database. Doesn't really tolerate any errors in XML. \fBParameters:\fP
+.RS 4
+\fIelement\fP XElement which will be torn apart for data.
+.RE
+.PP
+
+.PP
+Definition at line 73 of file PositionNode.cs.
+.SH "Member Function Documentation"
+.PP 
+.SS "XElement TripiWCF.Service.PositionNode.ToXElement ()"
+.PP
+Method which creates an XML element, holding data for XML-backed database. \fBReturns:\fP
+.RS 4
+Ready XElement, which can be passed to XElement-munching constructor of \fBPositionNode\fP.
+.RE
+.PP
+
+.PP
+Definition at line 100 of file PositionNode.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

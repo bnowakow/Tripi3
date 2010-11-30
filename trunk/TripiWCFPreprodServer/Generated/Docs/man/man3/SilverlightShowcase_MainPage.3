@@ -1,0 +1,80 @@
+.TH "SilverlightShowcase::MainPage" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SilverlightShowcase::MainPage \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBMainPage\fP (IDictionary< string, string > p)"
+.br
+.RI "\fIAdditional constructor used when passing parameters from asp tag. \fP"
+.ti -1c
+.RI "void \fBMainPage_Loaded\fP (object sender, RoutedEventArgs e)"
+.br
+.RI "\fIPrepares SilverlightShowcase. Connects to WCF, assign event handler methods. \fP"
+.ti -1c
+.RI "void \fBSetBestMapView\fP (IList< Location > locations, Map map, int buffer)"
+.br
+.RI "\fIAdjusts map zoom level and map center to show all defined points at the same time preserving constant margin around them. \fP"
+.ti -1c
+.RI "void \fBInitializeComponent\fP ()"
+.br
+.RI "\fIInitializeComponent. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 21 of file MainPage.xaml.cs.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "SilverlightShowcase.MainPage.MainPage (IDictionary< string, string > p)"
+.PP
+Additional constructor used when passing parameters from asp tag. \fBParameters:\fP
+.RS 4
+\fIp\fP 
+.RE
+.PP
+
+.PP
+Definition at line 74 of file MainPage.xaml.cs.
+.SH "Member Function Documentation"
+.PP 
+.SS "void SilverlightShowcase.MainPage.InitializeComponent ()"
+.PP
+InitializeComponent. 
+.PP
+Definition at line 77 of file MainPage.g.cs.
+.SS "void SilverlightShowcase.MainPage.MainPage_Loaded (object sender, RoutedEventArgs e)"
+.PP
+Prepares SilverlightShowcase. Connects to WCF, assign event handler methods. \fBParameters:\fP
+.RS 4
+\fIsender\fP 
+.br
+\fIe\fP 
+.RE
+.PP
+
+.PP
+Definition at line 85 of file MainPage.xaml.cs.
+.SS "void SilverlightShowcase.MainPage.SetBestMapView (IList< Location > locations, Map map, int buffer)"
+.PP
+Adjusts map zoom level and map center to show all defined points at the same time preserving constant margin around them. \fBParameters:\fP
+.RS 4
+\fIlocations\fP List of points which should be visible at the same time
+.br
+\fImap\fP Map which will be customized
+.br
+\fIbuffer\fP Margin in pixels around points
+.RE
+.PP
+
+.PP
+Definition at line 323 of file MainPage.xaml.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_microsoft_1_1_drawing_1_1_platform_a_p_is" kind="class" prot="public">
+    <compoundname>Microsoft::Drawing::PlatformAPIs</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_platform_a_p_is_1a2bce406fd2eb409368dc70325341c5f4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Int32</type>
+        <definition>static Int32 Microsoft.Drawing.PlatformAPIs.AlphaBlend</definition>
+        <argsstring>(IntPtr hdcDest, Int32 xDest, Int32 yDest, Int32 cxDest, Int32 cyDest, IntPtr hdcSrc, Int32 xSrc, Int32 ySrc, Int32 cxSrc, Int32 cySrc, BlendFunction blendFunction)</argsstring>
+        <name>AlphaBlend</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>hdcDest</declname>
+        </param>
+        <param>
+          <type>Int32</type>
+          <declname>xDest</declname>
+        </param>
+        <param>
+          <type>Int32</type>
+          <declname>yDest</declname>
+        </param>
+        <param>
+          <type>Int32</type>
+          <declname>cxDest</declname>
+        </param>
+        <param>
+          <type>Int32</type>
+          <declname>cyDest</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>hdcSrc</declname>
+        </param>
+        <param>
+          <type>Int32</type>
+          <declname>xSrc</declname>
+        </param>
+        <param>
+          <type>Int32</type>
+          <declname>ySrc</declname>
+        </param>
+        <param>
+          <type>Int32</type>
+          <declname>cxSrc</declname>
+        </param>
+        <param>
+          <type>Int32</type>
+          <declname>cySrc</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_microsoft_1_1_drawing_1_1_blend_function" kindref="compound">BlendFunction</ref></type>
+          <declname>blendFunction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" line="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_platform_a_p_is_1a001e476d0ba61c6896e3adb443fa8498" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.Drawing.PlatformAPIs.DrawAlpha</definition>
+        <argsstring>(Graphics gx, Bitmap image, byte transp, int x, int y)</argsstring>
+        <name>DrawAlpha</name>
+        <param>
+          <type>Graphics</type>
+          <declname>gx</declname>
+        </param>
+        <param>
+          <type>Bitmap</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>transp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" line="91" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" bodystart="90" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_platform_a_p_is_1ab0152792ace3bc85ed59ed1d6a7cf965" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Microsoft.Drawing.PlatformAPIs.BitBlt</definition>
+        <argsstring>(IntPtr hObject, int nXDest, int nYDest, int nWidth, int nHeight, IntPtr hObjSource, int nXSrc, int nYSrc, TernaryRasterOperations dwRop)</argsstring>
+        <name>BitBlt</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>hObject</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nXDest</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nYDest</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nHeight</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>hObjSource</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nXSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nYSrc</declname>
+        </param>
+        <param>
+          <type>TernaryRasterOperations</type>
+          <declname>dwRop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" line="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" line="82" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" bodystart="81" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_microsoft_1_1_drawing_1_1_platform_a_p_is_1a2bce406fd2eb409368dc70325341c5f4" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::PlatformAPIs</scope><name>AlphaBlend</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_platform_a_p_is_1ab0152792ace3bc85ed59ed1d6a7cf965" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::PlatformAPIs</scope><name>BitBlt</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_platform_a_p_is_1a001e476d0ba61c6896e3adb443fa8498" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::PlatformAPIs</scope><name>DrawAlpha</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

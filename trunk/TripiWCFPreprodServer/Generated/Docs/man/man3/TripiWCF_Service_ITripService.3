@@ -1,0 +1,48 @@
+.TH "TripiWCF::Service::ITripService" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TripiWCF::Service::ITripService \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBTripiWCF.Service.TripService\fP, \fBTripiWCF.Service.TripServiceVolatile\fP, and \fBTripiWCF.Service.TripServiceXml\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "string \fBLoginUser\fP (string username, string password)"
+.br
+.ti -1c
+.RI "int \fBCreateNewTrip\fP (string username, string tripName, string tripDescription)"
+.br
+.ti -1c
+.RI "List< \fBTrip\fP > \fBGetAllTrips\fP ()"
+.br
+.ti -1c
+.RI "List< \fBTrip\fP > \fBGetTripsForUser\fP (string username)"
+.br
+.ti -1c
+.RI "void \fBUpdateTripDescription\fP (int tripID, string tripDescription)"
+.br
+.ti -1c
+.RI "int \fBAddPositionNode\fP (\fBPositionNode\fP node)"
+.br
+.ti -1c
+.RI "void \fBAddManyPositionNodes\fP (IEnumerable< \fBPositionNode\fP > nodes)"
+.br
+.ti -1c
+.RI "List< \fBPositionNode\fP > \fBGetPositionNodesForTrip\fP (int tripID)"
+.br
+.ti -1c
+.RI "void \fBUpdatePositionNodeDescription\fP (int tripID, int nodeNumber, string nodeDescription)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 11 of file ITripService.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

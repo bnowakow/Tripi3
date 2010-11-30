@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="namespace_tripi_w_c_f_1_1_client_mockup" kind="namespace">
+    <compoundname>TripiWCF::ClientMockup</compoundname>
+    <innerclass refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d" prot="public">TripiWCF::ClientMockup::FormCRUD</innerclass>
+    <innerclass refid="class_tripi_w_c_f_1_1_client_mockup_1_1_program" prot="public">TripiWCF::ClientMockup::Program</innerclass>
+    <innernamespace refid="namespace_tripi_w_c_f_1_1_client_mockup_1_1_properties">TripiWCF::ClientMockup::Properties</innernamespace>
+    <innernamespace refid="namespace_tripi_w_c_f_1_1_client_mockup_1_1_proxy">TripiWCF::ClientMockup::Proxy</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1"/>
+  </compounddef>
+</doxygen>

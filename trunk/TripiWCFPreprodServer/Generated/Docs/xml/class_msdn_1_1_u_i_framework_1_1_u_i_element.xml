@@ -1,0 +1,684 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_msdn_1_1_u_i_framework_1_1_u_i_element" kind="class" prot="public">
+    <compoundname>Msdn::UIFramework::UIElement</compoundname>
+    <derivedcompoundref refid="class_msdn_1_1_u_i_framework_1_1_border" prot="public" virt="non-virtual">Msdn.UIFramework.Border</derivedcompoundref>
+    <derivedcompoundref refid="class_msdn_1_1_u_i_framework_1_1_canvas" prot="public" virt="non-virtual">Msdn.UIFramework.Canvas</derivedcompoundref>
+    <derivedcompoundref refid="class_msdn_1_1_u_i_framework_1_1_image_element" prot="public" virt="non-virtual">Msdn.UIFramework.ImageElement</derivedcompoundref>
+    <derivedcompoundref refid="class_msdn_1_1_u_i_framework_1_1_list_element" prot="public" virt="non-virtual">Msdn.UIFramework.ListElement</derivedcompoundref>
+    <derivedcompoundref refid="class_msdn_1_1_u_i_framework_1_1_menu_bar" prot="public" virt="non-virtual">Msdn.UIFramework.MenuBar</derivedcompoundref>
+    <derivedcompoundref refid="class_msdn_1_1_u_i_framework_1_1_text_block" prot="public" virt="non-virtual">Msdn.UIFramework.TextBlock</derivedcompoundref>
+    <derivedcompoundref refid="class_msdn_1_1_u_i_framework_1_1_title_bar" prot="public" virt="non-virtual">Msdn.UIFramework.TitleBar</derivedcompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a86e3dbddfbbc980c087ad0f8f612d62f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>MouseEventHandler</type>
+        <definition>MouseEventHandler Msdn.UIFramework.UIElement.MouseMove</definition>
+        <argsstring></argsstring>
+        <name>MouseMove</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="20" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a7a322ef5474009250eeb7a7723a2fb9d" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>MouseEventHandler</type>
+        <definition>MouseEventHandler Msdn.UIFramework.UIElement.MouseDown</definition>
+        <argsstring></argsstring>
+        <name>MouseDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="21" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a62dd135f9a076e73ab56d2891f0394fb" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>MouseEventHandler</type>
+        <definition>MouseEventHandler Msdn.UIFramework.UIElement.MouseUp</definition>
+        <argsstring></argsstring>
+        <name>MouseUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="22" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a53b56cb482be2252bec3ab914e1d0d7f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Msdn.UIFramework.UIElement.Click</definition>
+        <argsstring></argsstring>
+        <name>Click</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="23" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1aed78bf64a01d385d569e0c84850daba3" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Msdn.UIFramework.UIElement.Invalidate</definition>
+        <argsstring></argsstring>
+        <name>Invalidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="24" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a856766e49e65e6572adc4fed63df44b6" prot="private" static="yes" mutable="no">
+        <type>internal string</type>
+        <definition>internal string Msdn.UIFramework.UIElement.ApplicationPath</definition>
+        <argsstring></argsstring>
+        <name>ApplicationPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="26" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1aafb7ef52cdd8331c5851630f6203ee78" prot="private" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Msdn.UIFramework.UIElement.opacity</definition>
+        <argsstring></argsstring>
+        <name>opacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="32" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1aa0cac6bfce9f1b36418f371c7f221d93" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Msdn.UIFramework.UIElement.visible</definition>
+        <argsstring></argsstring>
+        <name>visible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="33" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ab6c9520e02199df9b33bcf33b1853742" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Msdn.UIFramework.UIElement.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="34" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1af139a7588734fc21c0c7601c88e89da0" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color Msdn.UIFramework.UIElement.foreground</definition>
+        <argsstring></argsstring>
+        <name>foreground</name>
+        <reimplementedby refid="class_msdn_1_1_u_i_framework_1_1_text_block_1a35aa29b245bc2c911d82935c542f5a64">foreground</reimplementedby>
+        <reimplementedby refid="class_msdn_1_1_u_i_framework_1_1_border_1ae8c7bfb462dee85906c3ddeab468bed9">foreground</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="41" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a2b9e6c764ada300209aef3da72087b43" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color Msdn.UIFramework.UIElement.background</definition>
+        <argsstring></argsstring>
+        <name>background</name>
+        <reimplementedby refid="class_msdn_1_1_u_i_framework_1_1_text_block_1aa7a48550d5afc886dba751501b4659f9">background</reimplementedby>
+        <reimplementedby refid="class_msdn_1_1_u_i_framework_1_1_border_1ab27b312673b426585f991923ca564663">background</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="42" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a52742e171bcc57c2eec3e3f4c8c8de2e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_msdn_1_1_u_i_framework_1_1_u_i_element" kindref="compound">UIElement</ref></type>
+        <definition>UIElement Msdn.UIFramework.UIElement.parent</definition>
+        <argsstring></argsstring>
+        <name>parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="44" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a914cb26535a1963efd0d5b33067b6b2e" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Msdn.UIFramework.UIElement.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="36" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a300c1ddd3679217e9b59494dd4ff73cd" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Msdn.UIFramework.UIElement.width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="37" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a806c59f7c745af32f7e1e96b1f3f79a3" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Msdn.UIFramework.UIElement.left</definition>
+        <argsstring></argsstring>
+        <name>left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="38" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a92178ef5ce195b44180135041eda7e41" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Msdn.UIFramework.UIElement.top</definition>
+        <argsstring></argsstring>
+        <name>top</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="39" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ae59ab94eb8a2607e60533b83d5ec45b2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Msdn.UIFramework.UIElement.Left</definition>
+        <argsstring></argsstring>
+        <name>Left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="152" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a9f9aea5ff48945252459d274e9748e4a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Msdn.UIFramework.UIElement.Top</definition>
+        <argsstring></argsstring>
+        <name>Top</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="164" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a35c4be2135cb7006bf6b8fbcdef98d66" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Rectangle</type>
+        <definition>Rectangle Msdn.UIFramework.UIElement.Rectangle</definition>
+        <argsstring></argsstring>
+        <name>Rectangle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="172" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a408a4900a1d1e523cb4f742502a8c4f2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Msdn.UIFramework.UIElement.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <reimplementedby refid="class_msdn_1_1_u_i_framework_1_1_image_element_1ac5aec171c0ebf0627a2b665b1b407cd3">Height</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="184" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a848ad4f50ea4adbdd6772b58dc602fd8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_msdn_1_1_u_i_framework_1_1_u_i_element" kindref="compound">UIElement</ref></type>
+        <definition>UIElement Msdn.UIFramework.UIElement.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="196" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a5f936204905b26716555b25941b511f9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Msdn.UIFramework.UIElement.Width</definition>
+        <argsstring></argsstring>
+        <name>Width</name>
+        <reimplementedby refid="class_msdn_1_1_u_i_framework_1_1_image_element_1ae90e0c80165c9d02a9d5adb767861afb">Width</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="208" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a7133d551d78792b4598a4389095d6735" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Msdn.UIFramework.UIElement.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="220" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a16d35f873e4d66ff2dc12ea2c119e59b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Msdn.UIFramework.UIElement.Opacity</definition>
+        <argsstring></argsstring>
+        <name>Opacity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="232" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ab3e8a7dfa7b5583c7060c67270462c3b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Msdn.UIFramework.UIElement.Visible</definition>
+        <argsstring></argsstring>
+        <name>Visible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="244" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a9cca59a2a3dfe0fce6b59c07c54c3abf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Color</type>
+        <definition>Color Msdn.UIFramework.UIElement.Foreground</definition>
+        <argsstring></argsstring>
+        <name>Foreground</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="260" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a8ef46619afd3ef259460861a22adf6eb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Color</type>
+        <definition>Color Msdn.UIFramework.UIElement.Background</definition>
+        <argsstring></argsstring>
+        <name>Background</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="276" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a811f6d91833f15fc5af21d0dffacdb70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Msdn.UIFramework.UIElement.UIElement</definition>
+        <argsstring>()</argsstring>
+        <name>UIElement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="51" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="50" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a246fc87022f64df87fe39b0d5d10e396" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Msdn.UIFramework.UIElement.HitTest</definition>
+        <argsstring>(Point point)</argsstring>
+        <name>HitTest</name>
+        <param>
+          <type>Point</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+<para>Detects a hit test. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a point to detect</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True: if the <ref refid="class_msdn_1_1_u_i_framework_1_1_u_i_element" kindref="compound">UIElement</ref> was hit.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="68" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a5a13a9db26f3f4b0ec8dfa11b539df0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Msdn.UIFramework.UIElement.Render</definition>
+        <argsstring>(Graphics graphics)</argsstring>
+        <name>Render</name>
+        <param>
+          <type>Graphics</type>
+          <declname>graphics</declname>
+        </param>
+        <briefdescription>
+<para>Renders the <ref refid="class_msdn_1_1_u_i_framework_1_1_u_i_element" kindref="compound">UIElement</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>graphics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Graphics object.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="77" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a55ccc0b5c7e9dd6bd3370efd8b5dae5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Msdn.UIFramework.UIElement.OnInvalidate</definition>
+        <argsstring>(UIElement element)</argsstring>
+        <name>OnInvalidate</name>
+        <param>
+          <type><ref refid="class_msdn_1_1_u_i_framework_1_1_u_i_element" kindref="compound">UIElement</ref></type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="91" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="90" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ab855501c2fefb0341c6b88b1a15c29e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Msdn.UIFramework.UIElement.OnInvalidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnInvalidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="99" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="98" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a0a4208f34ecd23b1742a9d77cd2e0fa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Msdn.UIFramework.UIElement.OnClick</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnClick</name>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="107" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="106" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a2762b95709af1aaf8a1b2d4364caf735" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Msdn.UIFramework.UIElement.OnMouseDown</definition>
+        <argsstring>(MouseEventArgs e)</argsstring>
+        <name>OnMouseDown</name>
+        <param>
+          <type>MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="115" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="114" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ac510e6d510f57dd8f0ef9621b769c43c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Msdn.UIFramework.UIElement.OnMouseUp</definition>
+        <argsstring>(MouseEventArgs e)</argsstring>
+        <name>OnMouseUp</name>
+        <param>
+          <type>MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="123" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="122" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a14689b1210f33374e6236054bc2d4701" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Msdn.UIFramework.UIElement.OnMouseMove</definition>
+        <argsstring>(MouseEventArgs e)</argsstring>
+        <name>OnMouseMove</name>
+        <param>
+          <type>MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="131" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="130" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a20b2245806231553935896fe7731812b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Msdn.UIFramework.UIElement.OnRender</definition>
+        <argsstring>(Graphics graphics)</argsstring>
+        <name>OnRender</name>
+        <reimplementedby refid="class_msdn_1_1_u_i_framework_1_1_title_bar_1a55b0b153ab7d2b085e6731e3f6aaa55e">OnRender</reimplementedby>
+        <reimplementedby refid="class_msdn_1_1_u_i_framework_1_1_text_block_1a64a6a9fdda4cfe9c5781d1c54ce3da84">OnRender</reimplementedby>
+        <reimplementedby refid="class_msdn_1_1_u_i_framework_1_1_list_element_1ac0b1519bbc015086de494e64b0238b5e">OnRender</reimplementedby>
+        <reimplementedby refid="class_msdn_1_1_u_i_framework_1_1_image_element_1acf50352e5c1e7d09d308d32362fda263">OnRender</reimplementedby>
+        <reimplementedby refid="class_msdn_1_1_u_i_framework_1_1_canvas_1af1a17712fcb11abb9200f7780aa66136">OnRender</reimplementedby>
+        <reimplementedby refid="class_msdn_1_1_u_i_framework_1_1_border_1a69a519c3ec33e09fc09de0e6100414fe">OnRender</reimplementedby>
+        <param>
+          <type>Graphics</type>
+          <declname>graphics</declname>
+        </param>
+        <briefdescription>
+<para>Render method to implement by inheritors. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>graphics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Graphics object.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="86" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="85" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="516">
+        <label>Msdn.UIFramework.Canvas</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_canvas"/>
+        <childnode refid="514" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="522">
+        <label>Msdn.UIFramework.TitleBar</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_title_bar"/>
+        <childnode refid="514" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="517">
+        <label>Msdn.UIFramework.ListItem</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_list_item"/>
+        <childnode refid="516" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="514">
+        <label>Msdn.UIFramework.UIElement</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_u_i_element"/>
+      </node>
+      <node id="520">
+        <label>Msdn.UIFramework.MenuBar</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_menu_bar"/>
+        <childnode refid="514" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="521">
+        <label>Msdn.UIFramework.TextBlock</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_text_block"/>
+        <childnode refid="514" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="519">
+        <label>Msdn.UIFramework.ListElement</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_list_element"/>
+        <childnode refid="514" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="518">
+        <label>Msdn.UIFramework.ImageElement</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_image_element"/>
+        <childnode refid="514" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="515">
+        <label>Msdn.UIFramework.Border</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_border"/>
+        <childnode refid="514" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="523">
+        <label>Msdn.UIFramework.UIElement</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_u_i_element"/>
+        <childnode refid="523" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" line="17" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIElement.cs" bodystart="16" bodyend="280"/>
+    <listofallmembers>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a856766e49e65e6572adc4fed63df44b6" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>ApplicationPath</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a2b9e6c764ada300209aef3da72087b43" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>background</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a8ef46619afd3ef259460861a22adf6eb" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>Background</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a53b56cb482be2252bec3ab914e1d0d7f" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>Click</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a9cca59a2a3dfe0fce6b59c07c54c3abf" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>Foreground</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1af139a7588734fc21c0c7601c88e89da0" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>foreground</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a914cb26535a1963efd0d5b33067b6b2e" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>height</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a408a4900a1d1e523cb4f742502a8c4f2" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>Height</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a246fc87022f64df87fe39b0d5d10e396" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>HitTest</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1aed78bf64a01d385d569e0c84850daba3" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>Invalidate</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ae59ab94eb8a2607e60533b83d5ec45b2" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>Left</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a806c59f7c745af32f7e1e96b1f3f79a3" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>left</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a7a322ef5474009250eeb7a7723a2fb9d" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>MouseDown</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a86e3dbddfbbc980c087ad0f8f612d62f" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>MouseMove</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a62dd135f9a076e73ab56d2891f0394fb" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>MouseUp</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ab6c9520e02199df9b33bcf33b1853742" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>name</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a7133d551d78792b4598a4389095d6735" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>Name</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a0a4208f34ecd23b1742a9d77cd2e0fa6" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>OnClick</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a55ccc0b5c7e9dd6bd3370efd8b5dae5b" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>OnInvalidate</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ab855501c2fefb0341c6b88b1a15c29e5" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>OnInvalidate</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a2762b95709af1aaf8a1b2d4364caf735" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>OnMouseDown</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a14689b1210f33374e6236054bc2d4701" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>OnMouseMove</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ac510e6d510f57dd8f0ef9621b769c43c" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>OnMouseUp</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a20b2245806231553935896fe7731812b" prot="protected" virt="virtual"><scope>Msdn::UIFramework::UIElement</scope><name>OnRender</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a16d35f873e4d66ff2dc12ea2c119e59b" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>Opacity</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1aafb7ef52cdd8331c5851630f6203ee78" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>opacity</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a848ad4f50ea4adbdd6772b58dc602fd8" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>Parent</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a52742e171bcc57c2eec3e3f4c8c8de2e" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>parent</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a35c4be2135cb7006bf6b8fbcdef98d66" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>Rectangle</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a5a13a9db26f3f4b0ec8dfa11b539df0e" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>Render</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a9f9aea5ff48945252459d274e9748e4a" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>Top</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a92178ef5ce195b44180135041eda7e41" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>top</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a811f6d91833f15fc5af21d0dffacdb70" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>UIElement</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1aa0cac6bfce9f1b36418f371c7f221d93" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>visible</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ab3e8a7dfa7b5583c7060c67270462c3b" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>Visible</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a5f936204905b26716555b25941b511f9" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>Width</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a300c1ddd3679217e9b59494dd4ff73cd" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::UIElement</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

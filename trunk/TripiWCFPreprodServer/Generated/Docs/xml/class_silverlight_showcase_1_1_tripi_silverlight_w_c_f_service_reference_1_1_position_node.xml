@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node" kind="class" prot="public">
+    <compoundname>SilverlightShowcase::TripiSilverlightWCFServiceReference::PositionNode</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1ab4fdc1d4c1fe4c2b0683ae095994e289" prot="private" static="no" mutable="no">
+        <type>System.DateTime</type>
+        <definition>System.DateTime SilverlightShowcase.TripiSilverlightWCFServiceReference.PositionNode.CreationTimeField</definition>
+        <argsstring></argsstring>
+        <name>CreationTimeField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="68" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1a8855834bc19513226e9716c58a99951b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SilverlightShowcase.TripiSilverlightWCFServiceReference.PositionNode.LatitudeField</definition>
+        <argsstring></argsstring>
+        <name>LatitudeField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="70" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1ad80e665ad10b2c70ebc34fded52fbe3b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SilverlightShowcase.TripiSilverlightWCFServiceReference.PositionNode.LongitudeField</definition>
+        <argsstring></argsstring>
+        <name>LongitudeField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="72" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1ab4351ca4bae586f11436c81add62b5e1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SilverlightShowcase.TripiSilverlightWCFServiceReference.PositionNode.TripIDField</definition>
+        <argsstring></argsstring>
+        <name>TripIDField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="74" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1ad9ab4f30b041b98e17ed64bb3e86e452" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System.DateTime SilverlightShowcase.TripiSilverlightWCFServiceReference.PositionNode.CreationTime</definition>
+        <argsstring></argsstring>
+        <name>CreationTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="87" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1ac0dde4ffe739e084e272baf0824e82fa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double SilverlightShowcase.TripiSilverlightWCFServiceReference.PositionNode.Latitude</definition>
+        <argsstring></argsstring>
+        <name>Latitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="100" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1a25d305bb93b947b4bf2fc3faf91c8c5f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double SilverlightShowcase.TripiSilverlightWCFServiceReference.PositionNode.Longitude</definition>
+        <argsstring></argsstring>
+        <name>Longitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="113" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1a14f668cd903a0b4f81160be398131557" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int SilverlightShowcase.TripiSilverlightWCFServiceReference.PositionNode.TripID</definition>
+        <argsstring></argsstring>
+        <name>TripID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="126" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1af09f3a082acb47503961da0e784ca840" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>System.ComponentModel.PropertyChangedEventHandler</type>
+        <definition>System.ComponentModel.PropertyChangedEventHandler SilverlightShowcase.TripiSilverlightWCFServiceReference.PositionNode.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="128" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1a6f62803e2bd683fd5f2b474c1ce5adae" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.TripiSilverlightWCFServiceReference.PositionNode.RaisePropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>RaisePropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="130" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="130" bodyend="135"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="370">
+        <label>SilverlightShowcase.TripiSilverlightWCFServiceReference.PositionNode</label>
+        <link refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node"/>
+        <childnode refid="371" relation="usage">
+          <edgelabel>CreationTimeField</edgelabel>
+        </childnode>
+      </node>
+      <node id="371">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="66" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="66" bodyend="136"/>
+    <listofallmembers>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1ad9ab4f30b041b98e17ed64bb3e86e452" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::PositionNode</scope><name>CreationTime</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1ab4fdc1d4c1fe4c2b0683ae095994e289" prot="private" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::PositionNode</scope><name>CreationTimeField</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1ac0dde4ffe739e084e272baf0824e82fa" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::PositionNode</scope><name>Latitude</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1a8855834bc19513226e9716c58a99951b" prot="private" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::PositionNode</scope><name>LatitudeField</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1a25d305bb93b947b4bf2fc3faf91c8c5f" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::PositionNode</scope><name>Longitude</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1ad80e665ad10b2c70ebc34fded52fbe3b" prot="private" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::PositionNode</scope><name>LongitudeField</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1af09f3a082acb47503961da0e784ca840" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::PositionNode</scope><name>PropertyChanged</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1a6f62803e2bd683fd5f2b474c1ce5adae" prot="protected" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::PositionNode</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1a14f668cd903a0b4f81160be398131557" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::PositionNode</scope><name>TripID</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node_1ab4351ca4bae586f11436c81add62b5e1" prot="private" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::PositionNode</scope><name>TripIDField</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

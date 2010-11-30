@@ -1,0 +1,362 @@
+\hypertarget{class_g_p_s_mobile_1_1_gps_position}{
+\section{GPSMobile.GpsPosition Class Reference}
+\label{class_g_p_s_mobile_1_1_gps_position}\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_g_p_s_mobile_1_1_satellite}{Satellite}\mbox{[}$\,$\mbox{]} \hyperlink{class_g_p_s_mobile_1_1_gps_position_a5dbc8646aecb0273e8d0a95046497591}{GetSatellitesInSolution} ()
+\begin{DoxyCompactList}\small\item\em Satellites used in the solution. \item\end{DoxyCompactList}\item 
+\hyperlink{class_g_p_s_mobile_1_1_satellite}{Satellite}\mbox{[}$\,$\mbox{]} \hyperlink{class_g_p_s_mobile_1_1_gps_position_a68e3bfcd6b812463ec2f035ca4e5a32b}{GetSatellitesInView} ()
+\begin{DoxyCompactList}\small\item\em Satellites in view. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+DateTime \hyperlink{class_g_p_s_mobile_1_1_gps_position_a53833ea1f1e4c4ad1c6946c26277a817}{Time}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em UTC according to GPS clock. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_g_p_s_mobile_1_1_gps_position_a54c9d8150b16e5b0020f137532c63210}{TimeValid}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em True if the Time property is valid, false if invalid. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_g_p_s_mobile_1_1_gps_position_aba3bb10f98a06a82ac9504e01f9aa4c5}{SatellitesInSolutionValid}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em True if the SatellitesInSolution property is valid, false if invalid. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_g_p_s_mobile_1_1_gps_position_a6b4baeb146168192eb13fbbad8a1bdf7}{SatellitesInViewValid}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em True if the SatellitesInView property is valid, false if invalid. \item\end{DoxyCompactList}\item 
+int \hyperlink{class_g_p_s_mobile_1_1_gps_position_a2b6d5feb969ab18a4a739250c62ffe25}{SatelliteCount}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Number of satellites used in solution. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_g_p_s_mobile_1_1_gps_position_af911c9eb00e8dab5c549e53748d3389a}{SatelliteCountValid}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em True if the SatelliteCount property is valid, false if invalid. \item\end{DoxyCompactList}\item 
+int \hyperlink{class_g_p_s_mobile_1_1_gps_position_af125dc9f8b26690269c08483d1b7ffb0}{SatellitesInViewCount}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Number of satellites in view. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_g_p_s_mobile_1_1_gps_position_a3a358ef10fea4c956bc5db879a18e89d}{SatellitesInViewCountValid}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em True if the SatellitesInViewCount property is valid, false if invalid. \item\end{DoxyCompactList}\item 
+float \hyperlink{class_g_p_s_mobile_1_1_gps_position_aa6394677dc38656297fc26de38da88ee}{Speed}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Speed in knots. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_g_p_s_mobile_1_1_gps_position_a2f8d5434c3526194ee0c1ebd42481f2b}{SpeedValid}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em True if the Speed property is valid, false if invalid. \item\end{DoxyCompactList}\item 
+float \hyperlink{class_g_p_s_mobile_1_1_gps_position_ad91c88bac71cc38c4a69a3e554abe6e4}{EllipsoidAltitude}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Altitude with regards to ellipsoid, in meters. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_g_p_s_mobile_1_1_gps_position_aed0b8f9f01766832588f42446cef6208}{EllipsoidAltitudeValid}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em True if the EllipsoidAltitude property is valid, false if invalid. \item\end{DoxyCompactList}\item 
+float \hyperlink{class_g_p_s_mobile_1_1_gps_position_a132616cda8bc6677dc7cdc22bf4a0c79}{SeaLevelAltitude}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Altitute with regards to sea level, in meters. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_g_p_s_mobile_1_1_gps_position_aae4f11b97d318dd8d6a67dba91eabb5e}{SeaLevelAltitudeValid}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em True if the SeaLevelAltitude property is valid, false if invalid. \item\end{DoxyCompactList}\item 
+double \hyperlink{class_g_p_s_mobile_1_1_gps_position_a165e63838ebfe0e712c142f7a757dad6}{Latitude}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Latitude in decimal degrees. North is positive. \item\end{DoxyCompactList}\item 
+\hyperlink{class_g_p_s_mobile_1_1_degrees_minutes_seconds}{DegreesMinutesSeconds} \hyperlink{class_g_p_s_mobile_1_1_gps_position_abb8229583c518e399546f791d221666d}{LatitudeInDegreesMinutesSeconds}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Latitude in degrees, minutes, seconds. North is positive. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_g_p_s_mobile_1_1_gps_position_ab3d2aa57c9507dffc5c8a03b78fe34e0}{LatitudeValid}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em True if the Latitude property is valid, false if invalid. \item\end{DoxyCompactList}\item 
+double \hyperlink{class_g_p_s_mobile_1_1_gps_position_add38fa11bc9116c7b1fa2e071b967002}{Longitude}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Longitude in decimal degrees. East is positive. \item\end{DoxyCompactList}\item 
+\hyperlink{class_g_p_s_mobile_1_1_degrees_minutes_seconds}{DegreesMinutesSeconds} \hyperlink{class_g_p_s_mobile_1_1_gps_position_a04b891a6cc52d96894fb41e03b166b81}{LongitudeInDegreesMinutesSeconds}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Longitude in degrees, minutes, seconds. East is positive. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_g_p_s_mobile_1_1_gps_position_ab6fb3a2e2b2a92c7c10de450ae1a76db}{LongitudeValid}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em True if the Longitude property is valid, false if invalid. \item\end{DoxyCompactList}\item 
+float \hyperlink{class_g_p_s_mobile_1_1_gps_position_a457add962c7a355c6f72121e274df54b}{Heading}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Degrees heading (course made good). True North=0. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_g_p_s_mobile_1_1_gps_position_ad0c9ecaf766940f752cb27d2e39218c3}{HeadingValid}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em True if the Heading property is valid, false if invalid. \item\end{DoxyCompactList}\item 
+float \hyperlink{class_g_p_s_mobile_1_1_gps_position_ae0acddfcb9ca7605363317986c086d69}{PositionDilutionOfPrecision}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Position Dilution Of Precision. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_g_p_s_mobile_1_1_gps_position_a2d422682471604af4f9839e06b705c1a}{PositionDilutionOfPrecisionValid}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em True if the PositionDilutionOfPrecision property is valid, false if invalid. \item\end{DoxyCompactList}\item 
+float \hyperlink{class_g_p_s_mobile_1_1_gps_position_aaff94d337cfdd281fc058b4bc050b437}{HorizontalDilutionOfPrecision}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Horizontal Dilution Of Precision. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_g_p_s_mobile_1_1_gps_position_a2cf9490e66f5369dc17f9f7f885e9f3d}{HorizontalDilutionOfPrecisionValid}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em True if the HorizontalDilutionOfPrecision property is valid, false if invalid. \item\end{DoxyCompactList}\item 
+float \hyperlink{class_g_p_s_mobile_1_1_gps_position_a5ec365b867e36ff34e3f4f9018f729a3}{VerticalDilutionOfPrecision}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Vertical Dilution Of Precision. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_g_p_s_mobile_1_1_gps_position_a78a856cdd3a6a5438ba96e95f52bf2b8}{VerticalDilutionOfPrecisionValid}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em True if the VerticalDilutionOfPrecision property is valid, false if invalid. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 154 of file GpsPosition.cs.
+
+\subsection{Member Function Documentation}
+\hypertarget{class_g_p_s_mobile_1_1_gps_position_a5dbc8646aecb0273e8d0a95046497591}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!GetSatellitesInSolution@{GetSatellitesInSolution}}
+\index{GetSatellitesInSolution@{GetSatellitesInSolution}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{GetSatellitesInSolution}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Satellite} \mbox{[}$\,$\mbox{]} GPSMobile.GpsPosition.GetSatellitesInSolution ()}}
+\label{class_g_p_s_mobile_1_1_gps_position_a5dbc8646aecb0273e8d0a95046497591}
+
+
+Satellites used in the solution. \begin{DoxyReturn}{Returns}
+Array of Satellites
+\end{DoxyReturn}
+
+
+Definition at line 256 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_a68e3bfcd6b812463ec2f035ca4e5a32b}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!GetSatellitesInView@{GetSatellitesInView}}
+\index{GetSatellitesInView@{GetSatellitesInView}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{GetSatellitesInView}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Satellite} \mbox{[}$\,$\mbox{]} GPSMobile.GpsPosition.GetSatellitesInView ()}}
+\label{class_g_p_s_mobile_1_1_gps_position_a68e3bfcd6b812463ec2f035ca4e5a32b}
+
+
+Satellites in view. \begin{DoxyReturn}{Returns}
+Array of Satellites
+\end{DoxyReturn}
+
+
+Definition at line 289 of file GpsPosition.cs.
+
+\subsection{Property Documentation}
+\hypertarget{class_g_p_s_mobile_1_1_gps_position_ad91c88bac71cc38c4a69a3e554abe6e4}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!EllipsoidAltitude@{EllipsoidAltitude}}
+\index{EllipsoidAltitude@{EllipsoidAltitude}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{EllipsoidAltitude}]{\setlength{\rightskip}{0pt plus 5cm}float GPSMobile.GpsPosition.EllipsoidAltitude\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_ad91c88bac71cc38c4a69a3e554abe6e4}
+
+
+Altitude with regards to ellipsoid, in meters. 
+
+Definition at line 365 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_aed0b8f9f01766832588f42446cef6208}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!EllipsoidAltitudeValid@{EllipsoidAltitudeValid}}
+\index{EllipsoidAltitudeValid@{EllipsoidAltitudeValid}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{EllipsoidAltitudeValid}]{\setlength{\rightskip}{0pt plus 5cm}bool GPSMobile.GpsPosition.EllipsoidAltitudeValid\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_aed0b8f9f01766832588f42446cef6208}
+
+
+True if the EllipsoidAltitude property is valid, false if invalid. 
+
+Definition at line 372 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_a457add962c7a355c6f72121e274df54b}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!Heading@{Heading}}
+\index{Heading@{Heading}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{Heading}]{\setlength{\rightskip}{0pt plus 5cm}float GPSMobile.GpsPosition.Heading\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_a457add962c7a355c6f72121e274df54b}
+
+
+Degrees heading (course made good). True North=0. 
+
+Definition at line 441 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_ad0c9ecaf766940f752cb27d2e39218c3}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!HeadingValid@{HeadingValid}}
+\index{HeadingValid@{HeadingValid}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{HeadingValid}]{\setlength{\rightskip}{0pt plus 5cm}bool GPSMobile.GpsPosition.HeadingValid\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_ad0c9ecaf766940f752cb27d2e39218c3}
+
+
+True if the Heading property is valid, false if invalid. 
+
+Definition at line 448 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_aaff94d337cfdd281fc058b4bc050b437}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!HorizontalDilutionOfPrecision@{HorizontalDilutionOfPrecision}}
+\index{HorizontalDilutionOfPrecision@{HorizontalDilutionOfPrecision}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{HorizontalDilutionOfPrecision}]{\setlength{\rightskip}{0pt plus 5cm}float GPSMobile.GpsPosition.HorizontalDilutionOfPrecision\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_aaff94d337cfdd281fc058b4bc050b437}
+
+
+Horizontal Dilution Of Precision. 
+
+Definition at line 471 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_a2cf9490e66f5369dc17f9f7f885e9f3d}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!HorizontalDilutionOfPrecisionValid@{HorizontalDilutionOfPrecisionValid}}
+\index{HorizontalDilutionOfPrecisionValid@{HorizontalDilutionOfPrecisionValid}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{HorizontalDilutionOfPrecisionValid}]{\setlength{\rightskip}{0pt plus 5cm}bool GPSMobile.GpsPosition.HorizontalDilutionOfPrecisionValid\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_a2cf9490e66f5369dc17f9f7f885e9f3d}
+
+
+True if the HorizontalDilutionOfPrecision property is valid, false if invalid. 
+
+Definition at line 478 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_a165e63838ebfe0e712c142f7a757dad6}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!Latitude@{Latitude}}
+\index{Latitude@{Latitude}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{Latitude}]{\setlength{\rightskip}{0pt plus 5cm}double GPSMobile.GpsPosition.Latitude\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_a165e63838ebfe0e712c142f7a757dad6}
+
+
+Latitude in decimal degrees. North is positive. 
+
+Definition at line 395 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_abb8229583c518e399546f791d221666d}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!LatitudeInDegreesMinutesSeconds@{LatitudeInDegreesMinutesSeconds}}
+\index{LatitudeInDegreesMinutesSeconds@{LatitudeInDegreesMinutesSeconds}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{LatitudeInDegreesMinutesSeconds}]{\setlength{\rightskip}{0pt plus 5cm}{\bf DegreesMinutesSeconds} GPSMobile.GpsPosition.LatitudeInDegreesMinutesSeconds\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_abb8229583c518e399546f791d221666d}
+
+
+Latitude in degrees, minutes, seconds. North is positive. 
+
+Definition at line 402 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_ab3d2aa57c9507dffc5c8a03b78fe34e0}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!LatitudeValid@{LatitudeValid}}
+\index{LatitudeValid@{LatitudeValid}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{LatitudeValid}]{\setlength{\rightskip}{0pt plus 5cm}bool GPSMobile.GpsPosition.LatitudeValid\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_ab3d2aa57c9507dffc5c8a03b78fe34e0}
+
+
+True if the Latitude property is valid, false if invalid. 
+
+Definition at line 410 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_add38fa11bc9116c7b1fa2e071b967002}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!Longitude@{Longitude}}
+\index{Longitude@{Longitude}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{Longitude}]{\setlength{\rightskip}{0pt plus 5cm}double GPSMobile.GpsPosition.Longitude\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_add38fa11bc9116c7b1fa2e071b967002}
+
+
+Longitude in decimal degrees. East is positive. 
+
+Definition at line 418 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_a04b891a6cc52d96894fb41e03b166b81}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!LongitudeInDegreesMinutesSeconds@{LongitudeInDegreesMinutesSeconds}}
+\index{LongitudeInDegreesMinutesSeconds@{LongitudeInDegreesMinutesSeconds}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{LongitudeInDegreesMinutesSeconds}]{\setlength{\rightskip}{0pt plus 5cm}{\bf DegreesMinutesSeconds} GPSMobile.GpsPosition.LongitudeInDegreesMinutesSeconds\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_a04b891a6cc52d96894fb41e03b166b81}
+
+
+Longitude in degrees, minutes, seconds. East is positive. 
+
+Definition at line 426 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_ab6fb3a2e2b2a92c7c10de450ae1a76db}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!LongitudeValid@{LongitudeValid}}
+\index{LongitudeValid@{LongitudeValid}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{LongitudeValid}]{\setlength{\rightskip}{0pt plus 5cm}bool GPSMobile.GpsPosition.LongitudeValid\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_ab6fb3a2e2b2a92c7c10de450ae1a76db}
+
+
+True if the Longitude property is valid, false if invalid. 
+
+Definition at line 433 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_ae0acddfcb9ca7605363317986c086d69}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!PositionDilutionOfPrecision@{PositionDilutionOfPrecision}}
+\index{PositionDilutionOfPrecision@{PositionDilutionOfPrecision}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{PositionDilutionOfPrecision}]{\setlength{\rightskip}{0pt plus 5cm}float GPSMobile.GpsPosition.PositionDilutionOfPrecision\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_ae0acddfcb9ca7605363317986c086d69}
+
+
+Position Dilution Of Precision. 
+
+Definition at line 456 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_a2d422682471604af4f9839e06b705c1a}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!PositionDilutionOfPrecisionValid@{PositionDilutionOfPrecisionValid}}
+\index{PositionDilutionOfPrecisionValid@{PositionDilutionOfPrecisionValid}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{PositionDilutionOfPrecisionValid}]{\setlength{\rightskip}{0pt plus 5cm}bool GPSMobile.GpsPosition.PositionDilutionOfPrecisionValid\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_a2d422682471604af4f9839e06b705c1a}
+
+
+True if the PositionDilutionOfPrecision property is valid, false if invalid. 
+
+Definition at line 463 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_a2b6d5feb969ab18a4a739250c62ffe25}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!SatelliteCount@{SatelliteCount}}
+\index{SatelliteCount@{SatelliteCount}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{SatelliteCount}]{\setlength{\rightskip}{0pt plus 5cm}int GPSMobile.GpsPosition.SatelliteCount\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_a2b6d5feb969ab18a4a739250c62ffe25}
+
+
+Number of satellites used in solution. 
+
+Definition at line 320 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_af911c9eb00e8dab5c549e53748d3389a}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!SatelliteCountValid@{SatelliteCountValid}}
+\index{SatelliteCountValid@{SatelliteCountValid}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{SatelliteCountValid}]{\setlength{\rightskip}{0pt plus 5cm}bool GPSMobile.GpsPosition.SatelliteCountValid\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_af911c9eb00e8dab5c549e53748d3389a}
+
+
+True if the SatelliteCount property is valid, false if invalid. 
+
+Definition at line 327 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_aba3bb10f98a06a82ac9504e01f9aa4c5}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!SatellitesInSolutionValid@{SatellitesInSolutionValid}}
+\index{SatellitesInSolutionValid@{SatellitesInSolutionValid}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{SatellitesInSolutionValid}]{\setlength{\rightskip}{0pt plus 5cm}bool GPSMobile.GpsPosition.SatellitesInSolutionValid\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_aba3bb10f98a06a82ac9504e01f9aa4c5}
+
+
+True if the SatellitesInSolution property is valid, false if invalid. 
+
+Definition at line 279 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_af125dc9f8b26690269c08483d1b7ffb0}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!SatellitesInViewCount@{SatellitesInViewCount}}
+\index{SatellitesInViewCount@{SatellitesInViewCount}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{SatellitesInViewCount}]{\setlength{\rightskip}{0pt plus 5cm}int GPSMobile.GpsPosition.SatellitesInViewCount\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_af125dc9f8b26690269c08483d1b7ffb0}
+
+
+Number of satellites in view. 
+
+Definition at line 335 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_a3a358ef10fea4c956bc5db879a18e89d}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!SatellitesInViewCountValid@{SatellitesInViewCountValid}}
+\index{SatellitesInViewCountValid@{SatellitesInViewCountValid}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{SatellitesInViewCountValid}]{\setlength{\rightskip}{0pt plus 5cm}bool GPSMobile.GpsPosition.SatellitesInViewCountValid\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_a3a358ef10fea4c956bc5db879a18e89d}
+
+
+True if the SatellitesInViewCount property is valid, false if invalid. 
+
+Definition at line 342 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_a6b4baeb146168192eb13fbbad8a1bdf7}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!SatellitesInViewValid@{SatellitesInViewValid}}
+\index{SatellitesInViewValid@{SatellitesInViewValid}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{SatellitesInViewValid}]{\setlength{\rightskip}{0pt plus 5cm}bool GPSMobile.GpsPosition.SatellitesInViewValid\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_a6b4baeb146168192eb13fbbad8a1bdf7}
+
+
+True if the SatellitesInView property is valid, false if invalid. 
+
+Definition at line 311 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_a132616cda8bc6677dc7cdc22bf4a0c79}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!SeaLevelAltitude@{SeaLevelAltitude}}
+\index{SeaLevelAltitude@{SeaLevelAltitude}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{SeaLevelAltitude}]{\setlength{\rightskip}{0pt plus 5cm}float GPSMobile.GpsPosition.SeaLevelAltitude\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_a132616cda8bc6677dc7cdc22bf4a0c79}
+
+
+Altitute with regards to sea level, in meters. 
+
+Definition at line 380 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_aae4f11b97d318dd8d6a67dba91eabb5e}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!SeaLevelAltitudeValid@{SeaLevelAltitudeValid}}
+\index{SeaLevelAltitudeValid@{SeaLevelAltitudeValid}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{SeaLevelAltitudeValid}]{\setlength{\rightskip}{0pt plus 5cm}bool GPSMobile.GpsPosition.SeaLevelAltitudeValid\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_aae4f11b97d318dd8d6a67dba91eabb5e}
+
+
+True if the SeaLevelAltitude property is valid, false if invalid. 
+
+Definition at line 387 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_aa6394677dc38656297fc26de38da88ee}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!Speed@{Speed}}
+\index{Speed@{Speed}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{Speed}]{\setlength{\rightskip}{0pt plus 5cm}float GPSMobile.GpsPosition.Speed\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_aa6394677dc38656297fc26de38da88ee}
+
+
+Speed in knots. 
+
+Definition at line 350 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_a2f8d5434c3526194ee0c1ebd42481f2b}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!SpeedValid@{SpeedValid}}
+\index{SpeedValid@{SpeedValid}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{SpeedValid}]{\setlength{\rightskip}{0pt plus 5cm}bool GPSMobile.GpsPosition.SpeedValid\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_a2f8d5434c3526194ee0c1ebd42481f2b}
+
+
+True if the Speed property is valid, false if invalid. 
+
+Definition at line 357 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_a53833ea1f1e4c4ad1c6946c26277a817}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!Time@{Time}}
+\index{Time@{Time}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{Time}]{\setlength{\rightskip}{0pt plus 5cm}DateTime GPSMobile.GpsPosition.Time\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_a53833ea1f1e4c4ad1c6946c26277a817}
+
+
+UTC according to GPS clock. 
+
+Definition at line 235 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_a54c9d8150b16e5b0020f137532c63210}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!TimeValid@{TimeValid}}
+\index{TimeValid@{TimeValid}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{TimeValid}]{\setlength{\rightskip}{0pt plus 5cm}bool GPSMobile.GpsPosition.TimeValid\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_a54c9d8150b16e5b0020f137532c63210}
+
+
+True if the Time property is valid, false if invalid. 
+
+Definition at line 247 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_a5ec365b867e36ff34e3f4f9018f729a3}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!VerticalDilutionOfPrecision@{VerticalDilutionOfPrecision}}
+\index{VerticalDilutionOfPrecision@{VerticalDilutionOfPrecision}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{VerticalDilutionOfPrecision}]{\setlength{\rightskip}{0pt plus 5cm}float GPSMobile.GpsPosition.VerticalDilutionOfPrecision\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_a5ec365b867e36ff34e3f4f9018f729a3}
+
+
+Vertical Dilution Of Precision. 
+
+Definition at line 486 of file GpsPosition.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_position_a78a856cdd3a6a5438ba96e95f52bf2b8}{
+\index{GPSMobile::GpsPosition@{GPSMobile::GpsPosition}!VerticalDilutionOfPrecisionValid@{VerticalDilutionOfPrecisionValid}}
+\index{VerticalDilutionOfPrecisionValid@{VerticalDilutionOfPrecisionValid}!GPSMobile::GpsPosition@{GPSMobile::GpsPosition}}
+\subsubsection[{VerticalDilutionOfPrecisionValid}]{\setlength{\rightskip}{0pt plus 5cm}bool GPSMobile.GpsPosition.VerticalDilutionOfPrecisionValid\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_position_a78a856cdd3a6a5438ba96e95f52bf2b8}
+
+
+True if the VerticalDilutionOfPrecision property is valid, false if invalid. 
+
+Definition at line 493 of file GpsPosition.cs.
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+GPS/GpsPosition.cs\end{DoxyCompactItemize}

@@ -1,0 +1,78 @@
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml}{
+\section{TripiWCF.Service.TripServiceXml Class Reference}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml}\index{TripiWCF::Service::TripServiceXml@{TripiWCF::Service::TripServiceXml}}
+}
+Inheritance diagram for TripiWCF.Service.TripServiceXml::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.40468cm]{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a9ddf6e2d6e0f01aac8ff774b0acd2cf4}{
+override string {\bfseries LoginUser} (string username, string password)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a9ddf6e2d6e0f01aac8ff774b0acd2cf4}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a91e5871bbf09de872df92a747cf9d784}{
+override int {\bfseries CreateNewTrip} (string username, string tripName, string tripDescription)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a91e5871bbf09de872df92a747cf9d784}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a5c43d3882e9ccf203bfe81e9df32b24e}{
+override List$<$ \hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip}{Trip} $>$ {\bfseries GetAllTrips} ()}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a5c43d3882e9ccf203bfe81e9df32b24e}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a4f2eaff3c0493f62e73fad955f49c0da}{
+override List$<$ \hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip}{Trip} $>$ {\bfseries GetTripsForUser} (string username)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a4f2eaff3c0493f62e73fad955f49c0da}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_af47d308e4ec90adf657abb5da72f4c54}{
+override void {\bfseries UpdateTripDescription} (int tripID, string tripDescription)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_af47d308e4ec90adf657abb5da72f4c54}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a9e7a51bab40f486016ff3c8af80169d1}{
+override int {\bfseries AddPositionNode} (\hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{PositionNode} node)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a9e7a51bab40f486016ff3c8af80169d1}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a91b1fa1c2a90ceb9dee50bd16afadc25}{
+override void {\bfseries AddManyPositionNodes} (IEnumerable$<$ \hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{PositionNode} $>$ nodes)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a91b1fa1c2a90ceb9dee50bd16afadc25}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a994a5112e313ad9bb7c9769634bbc7dd}{
+override List$<$ \hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{PositionNode} $>$ {\bfseries GetPositionNodesForTrip} (int tripID)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a994a5112e313ad9bb7c9769634bbc7dd}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a6f84d50e2e82315ccf10b0ac9309e1a0}{
+override void {\bfseries UpdatePositionNodeDescription} (int tripID, int nodeNumber, string nodeDescription)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a6f84d50e2e82315ccf10b0ac9309e1a0}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a65813ff3d23b8cb398eecb0d2f8a8d48}{
+int {\bfseries TripCount} (XElement tripRoot)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a65813ff3d23b8cb398eecb0d2f8a8d48}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a441563fbd0ce03738c422f3b71dcde9a}{
+int {\bfseries PositionNodeCount} (XElement positionNodeRoot)}
+\label{class_tripi_w_c_f_1_1_service_1_1_trip_service_xml_a441563fbd0ce03738c422f3b71dcde9a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 13 of file TripServiceXml.cs.
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+TripiWCFService/TripServiceXml.cs\end{DoxyCompactItemize}

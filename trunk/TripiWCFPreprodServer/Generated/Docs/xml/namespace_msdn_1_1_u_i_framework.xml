@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="namespace_msdn_1_1_u_i_framework" kind="namespace">
+    <compoundname>Msdn::UIFramework</compoundname>
+    <innerclass refid="class_msdn_1_1_u_i_framework_1_1_border" prot="public">Msdn::UIFramework::Border</innerclass>
+    <innerclass refid="class_msdn_1_1_u_i_framework_1_1_canvas" prot="public">Msdn::UIFramework::Canvas</innerclass>
+    <innerclass refid="class_msdn_1_1_u_i_framework_1_1_image_element" prot="public">Msdn::UIFramework::ImageElement</innerclass>
+    <innerclass refid="class_msdn_1_1_u_i_framework_1_1_linear_gradient" prot="public">Msdn::UIFramework::LinearGradient</innerclass>
+    <innerclass refid="class_msdn_1_1_u_i_framework_1_1_list_element" prot="public">Msdn::UIFramework::ListElement</innerclass>
+    <innerclass refid="class_msdn_1_1_u_i_framework_1_1_list_item" prot="public">Msdn::UIFramework::ListItem</innerclass>
+    <innerclass refid="class_msdn_1_1_u_i_framework_1_1_menu_bar" prot="public">Msdn::UIFramework::MenuBar</innerclass>
+    <innerclass refid="class_msdn_1_1_u_i_framework_1_1_text_block" prot="public">Msdn::UIFramework::TextBlock</innerclass>
+    <innerclass refid="class_msdn_1_1_u_i_framework_1_1_title_bar" prot="public">Msdn::UIFramework::TitleBar</innerclass>
+    <innerclass refid="class_msdn_1_1_u_i_framework_1_1_u_i_element" prot="public">Msdn::UIFramework::UIElement</innerclass>
+    <innerclass refid="class_msdn_1_1_u_i_framework_1_1_u_i_form" prot="public">Msdn::UIFramework::UIForm</innerclass>
+    <innerclass refid="class_msdn_1_1_u_i_framework_1_1_visual_collection" prot="public">Msdn::UIFramework::VisualCollection</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_msdn_1_1_u_i_framework_1a0be972312be53f3e09979f0380d2e518" prot="public" static="no">
+        <name>LinearGradientMode</name>
+        <enumvalue id="namespace_msdn_1_1_u_i_framework_1a0be972312be53f3e09979f0380d2e518" prot="public">
+          <name>Horizontal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_msdn_1_1_u_i_framework_1a0be972312be53f3e09979f0380d2e518" prot="public">
+          <name>Vertical</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/LinearGradient.cs" line="62" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/LinearGradient.cs" bodystart="61" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_msdn_1_1_u_i_framework_1aed1933e4203f8d4b7156b3f4df408eda" prot="public" static="no">
+        <name>TextAlignment</name>
+        <enumvalue id="namespace_msdn_1_1_u_i_framework_1aed1933e4203f8d4b7156b3f4df408eda" prot="public">
+          <name>Left</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_msdn_1_1_u_i_framework_1aed1933e4203f8d4b7156b3f4df408eda" prot="public">
+          <name>Right</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_msdn_1_1_u_i_framework_1aed1933e4203f8d4b7156b3f4df408eda" prot="public">
+          <name>Center</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_msdn_1_1_u_i_framework_1aed1933e4203f8d4b7156b3f4df408eda" prot="public">
+          <name>Justify</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="163" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="162" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_msdn_1_1_u_i_framework_1a0fbc7734d5a920c1b5e5f4802e4d77fc" prot="public" static="no">
+        <name>TextWrapping</name>
+        <enumvalue id="namespace_msdn_1_1_u_i_framework_1a0fbc7734d5a920c1b5e5f4802e4d77fc" prot="public">
+          <name>WrapWithOverflow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_msdn_1_1_u_i_framework_1a0fbc7734d5a920c1b5e5f4802e4d77fc" prot="public">
+          <name>NoWrap</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_msdn_1_1_u_i_framework_1a0fbc7734d5a920c1b5e5f4802e4d77fc" prot="public">
+          <name>Wrap</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" line="171" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/TextBlock.cs" bodystart="170" bodyend="175"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Border.cs" line="16"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_get_flash_policy_request" kind="class" prot="public">
+    <compoundname>GetFlashPolicyRequest</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_get_flash_policy_request_1a5c584e30ef4141755253b92340ae4497" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetFlashPolicyRequest.GetFlashPolicyRequest</definition>
+        <argsstring>()</argsstring>
+        <name>GetFlashPolicyRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="921" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="920" bodyend="922"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_flash_policy_request_1a5c584e30ef4141755253b92340ae4497" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetFlashPolicyRequest.GetFlashPolicyRequest</definition>
+        <argsstring>()</argsstring>
+        <name>GetFlashPolicyRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="921" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="920" bodyend="922"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="918" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="917" bodyend="923"/>
+    <listofallmembers>
+      <member refid="class_get_flash_policy_request_1a5c584e30ef4141755253b92340ae4497" prot="public" virt="non-virtual"><scope>GetFlashPolicyRequest</scope><name>GetFlashPolicyRequest</name></member>
+      <member refid="class_get_flash_policy_request_1a5c584e30ef4141755253b92340ae4497" prot="public" virt="non-virtual"><scope>GetFlashPolicyRequest</scope><name>GetFlashPolicyRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,94 @@
+.TH "TripiWCF::Service::Trip" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TripiWCF::Service::Trip \- 
+.PP
+Data object, which holds information about trip: who created it, short description and ID, which relates to PositionNodes.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTrip\fP (string username, int id, string tripName, string tripDescription)"
+.br
+.RI "\fIStandard constructor, filling all fields of \fBTrip\fP. \fP"
+.ti -1c
+.RI "\fBTrip\fP (XElement element)"
+.br
+.RI "\fIConstructor taking an XElement from XML file, will throw exceptions on missing on unparse'able attributes. \fP"
+.ti -1c
+.RI "XElement \fBToXElement\fP ()"
+.br
+.RI "\fIMethod which creates an XML element, holding data for XML-backed database. \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "int \fBID\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "string \fBTripName\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "string \fBUsername\fP\fC [get, set]\fP"
+.br
+.ti -1c
+.RI "string \fBTripDescription\fP\fC [get, set]\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Data object, which holds information about trip: who created it, short description and ID, which relates to PositionNodes. 
+
+
+.PP
+Definition at line 22 of file TripiWCFService.cs.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "TripiWCF.Service.Trip.Trip (string username, int id, string tripName, string tripDescription)"
+.PP
+Standard constructor, filling all fields of \fBTrip\fP. \fBParameters:\fP
+.RS 4
+\fIusername\fP User who created trip.
+.br
+\fIid\fP \fBTrip\fP ID - something similar to primary key here...
+.br
+\fItripName\fP User-given trip name.
+.br
+\fItripDescription\fP Short description of the trip.
+.RE
+.PP
+
+.PP
+Definition at line 36 of file Trip.cs.
+.SS "TripiWCF.Service.Trip.Trip (XElement element)"
+.PP
+Constructor taking an XElement from XML file, will throw exceptions on missing on unparse'able attributes. \fBParameters:\fP
+.RS 4
+\fIelement\fP XElement to parse.
+.RE
+.PP
+
+.PP
+Definition at line 48 of file Trip.cs.
+.SH "Member Function Documentation"
+.PP 
+.SS "XElement TripiWCF.Service.Trip.ToXElement ()"
+.PP
+Method which creates an XML element, holding data for XML-backed database. \fBReturns:\fP
+.RS 4
+Ready XElement, which can be passed to XElement-munching constructor of \fBTrip\fP.
+.RE
+.PP
+
+.PP
+Definition at line 62 of file Trip.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

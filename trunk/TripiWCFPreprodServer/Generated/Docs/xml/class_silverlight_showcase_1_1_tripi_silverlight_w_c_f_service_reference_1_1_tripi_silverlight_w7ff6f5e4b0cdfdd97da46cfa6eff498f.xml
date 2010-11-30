@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f" kind="class" prot="private">
+    <compoundname>SilverlightShowcase::TripiSilverlightWCFServiceReference::TripiSilverlightWCFServiceClient::TripiSilverlightWCFServiceClientChannel</compoundname>
+    <basecompoundref refid="interface_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w_c_f_service" prot="public" virt="non-virtual">SilverlightShowcase.TripiSilverlightWCFServiceReference.TripiSilverlightWCFService</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1a4b8577c33a2640dd8b685a4e1a3af531" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SilverlightShowcase.TripiSilverlightWCFServiceReference.TripiSilverlightWCFServiceClient.TripiSilverlightWCFServiceClientChannel.TripiSilverlightWCFServiceClientChannel</definition>
+        <argsstring>(System.ServiceModel.ClientBase&lt; SilverlightShowcase.TripiSilverlightWCFServiceReference.TripiSilverlightWCFService &gt; client)</argsstring>
+        <name>TripiSilverlightWCFServiceClientChannel</name>
+        <param>
+          <type>System.ServiceModel.ClientBase&lt; <ref refid="interface_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w_c_f_service" kindref="compound">SilverlightShowcase.TripiSilverlightWCFServiceReference.TripiSilverlightWCFService</ref> &gt;</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="573" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="572" bodyend="574"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1adcc39cbdb9e78ad8e5b3e1da87981503" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult SilverlightShowcase.TripiSilverlightWCFServiceReference.TripiSilverlightWCFServiceClient.TripiSilverlightWCFServiceClientChannel.BeginCreateNewTrip</definition>
+        <argsstring>(string username, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginCreateNewTrip</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="576" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="576" bodyend="581"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1acd27e9430fd27ce6c35d37d2cc245c6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SilverlightShowcase.TripiSilverlightWCFServiceReference.TripiSilverlightWCFServiceClient.TripiSilverlightWCFServiceClientChannel.EndCreateNewTrip</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndCreateNewTrip</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="583" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="583" bodyend="587"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1a051ebe191b145f588cc428e3d5bfd3e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult SilverlightShowcase.TripiSilverlightWCFServiceReference.TripiSilverlightWCFServiceClient.TripiSilverlightWCFServiceClientChannel.BeginGetTripsForUser</definition>
+        <argsstring>(string username, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetTripsForUser</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="589" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="589" bodyend="594"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1a1f8abd10a156b36ac58698ad19b63429" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.ObjectModel.ObservableCollection&lt; <ref refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_trip" kindref="compound">SilverlightShowcase.TripiSilverlightWCFServiceReference.Trip</ref> &gt;</type>
+        <definition>System.Collections.ObjectModel.ObservableCollection&lt;SilverlightShowcase.TripiSilverlightWCFServiceReference.Trip&gt; SilverlightShowcase.TripiSilverlightWCFServiceReference.TripiSilverlightWCFServiceClient.TripiSilverlightWCFServiceClientChannel.EndGetTripsForUser</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetTripsForUser</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="596" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="596" bodyend="600"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1a9126169a05e354656affe5edaf329766" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult SilverlightShowcase.TripiSilverlightWCFServiceReference.TripiSilverlightWCFServiceClient.TripiSilverlightWCFServiceClientChannel.BeginGetPositionNodesForTrip</definition>
+        <argsstring>(int tripID, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetPositionNodesForTrip</name>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="602" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="602" bodyend="607"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1a381fc59f0209b8c8f5f3d9ab64bdc378" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Collections.ObjectModel.ObservableCollection&lt; <ref refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node" kindref="compound">SilverlightShowcase.TripiSilverlightWCFServiceReference.PositionNode</ref> &gt;</type>
+        <definition>System.Collections.ObjectModel.ObservableCollection&lt;SilverlightShowcase.TripiSilverlightWCFServiceReference.PositionNode&gt; SilverlightShowcase.TripiSilverlightWCFServiceReference.TripiSilverlightWCFServiceClient.TripiSilverlightWCFServiceClientChannel.EndGetPositionNodesForTrip</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetPositionNodesForTrip</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="609" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="609" bodyend="613"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1ac933f3e270a2a7c3f6427cf289fcb213" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult SilverlightShowcase.TripiSilverlightWCFServiceReference.TripiSilverlightWCFServiceClient.TripiSilverlightWCFServiceClientChannel.BeginAddPositionNode</definition>
+        <argsstring>(SilverlightShowcase.TripiSilverlightWCFServiceReference.PositionNode node, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginAddPositionNode</name>
+        <param>
+          <type><ref refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node" kindref="compound">SilverlightShowcase.TripiSilverlightWCFServiceReference.PositionNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="615" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="615" bodyend="620"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1a5c5a1397946bd5ef5b37611749acc028" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.TripiSilverlightWCFServiceReference.TripiSilverlightWCFServiceClient.TripiSilverlightWCFServiceClientChannel.EndAddPositionNode</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndAddPositionNode</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="622" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="622" bodyend="625"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="466">
+        <label>SilverlightShowcase.TripiSilverlightWCFServiceReference.TripiSilverlightWCFService</label>
+        <link refid="interface_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w_c_f_service"/>
+      </node>
+      <node id="465">
+        <label>SilverlightShowcase.TripiSilverlightWCFServiceReference.TripiSilverlightWCFServiceClient.TripiSilverlightWCFServiceClientChannel</label>
+        <childnode refid="466" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="468">
+        <label>SilverlightShowcase.TripiSilverlightWCFServiceReference.TripiSilverlightWCFService</label>
+        <link refid="interface_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w_c_f_service"/>
+      </node>
+      <node id="467">
+        <label>SilverlightShowcase.TripiSilverlightWCFServiceReference.TripiSilverlightWCFServiceClient.TripiSilverlightWCFServiceClientChannel</label>
+        <childnode refid="468" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="570" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" bodystart="570" bodyend="626"/>
+    <listofallmembers>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1ac933f3e270a2a7c3f6427cf289fcb213" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::TripiSilverlightWCFServiceClient::TripiSilverlightWCFServiceClientChannel</scope><name>BeginAddPositionNode</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1adcc39cbdb9e78ad8e5b3e1da87981503" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::TripiSilverlightWCFServiceClient::TripiSilverlightWCFServiceClientChannel</scope><name>BeginCreateNewTrip</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1a9126169a05e354656affe5edaf329766" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::TripiSilverlightWCFServiceClient::TripiSilverlightWCFServiceClientChannel</scope><name>BeginGetPositionNodesForTrip</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1a051ebe191b145f588cc428e3d5bfd3e0" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::TripiSilverlightWCFServiceClient::TripiSilverlightWCFServiceClientChannel</scope><name>BeginGetTripsForUser</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1a5c5a1397946bd5ef5b37611749acc028" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::TripiSilverlightWCFServiceClient::TripiSilverlightWCFServiceClientChannel</scope><name>EndAddPositionNode</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1acd27e9430fd27ce6c35d37d2cc245c6c" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::TripiSilverlightWCFServiceClient::TripiSilverlightWCFServiceClientChannel</scope><name>EndCreateNewTrip</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1a381fc59f0209b8c8f5f3d9ab64bdc378" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::TripiSilverlightWCFServiceClient::TripiSilverlightWCFServiceClientChannel</scope><name>EndGetPositionNodesForTrip</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1a1f8abd10a156b36ac58698ad19b63429" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::TripiSilverlightWCFServiceClient::TripiSilverlightWCFServiceClientChannel</scope><name>EndGetTripsForUser</name></member>
+      <member refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w7ff6f5e4b0cdfdd97da46cfa6eff498f_1a4b8577c33a2640dd8b685a4e1a3af531" prot="public" virt="non-virtual"><scope>SilverlightShowcase::TripiSilverlightWCFServiceReference::TripiSilverlightWCFServiceClient::TripiSilverlightWCFServiceClientChannel</scope><name>TripiSilverlightWCFServiceClientChannel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

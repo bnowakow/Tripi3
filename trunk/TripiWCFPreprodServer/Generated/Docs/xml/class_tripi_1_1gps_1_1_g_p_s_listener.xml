@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1gps_1_1_g_p_s_listener" kind="class" prot="public">
+    <compoundname>Tripi::gps::GPSListener</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_tripi_1_1gps_1_1_g_p_s_listener_1ab8dab67c00275b34597ac9907a20be3b" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_tripi_1_1gps_1_1_g_p_s_listener" kindref="compound">GPSListener</ref></type>
+        <definition>GPSListener Tripi.gps.GPSListener.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <initializer> null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1gps_1_1_g_p_s_listener_1ad187f087e865cbe0c7d6cfcbb1c2c3ef" prot="private" static="yes" mutable="no">
+        <type>readonly object</type>
+        <definition>readonly object Tripi.gps.GPSListener.padlock</definition>
+        <argsstring></argsstring>
+        <name>padlock</name>
+        <initializer> new object()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" line="16" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_tripi_1_1gps_1_1_g_p_s_listener_1ad18f501e60df1dad6c880c9638463139" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="class_g_p_s_mobile_1_1_gps_position" kindref="compound">GpsPosition</ref> &gt;</type>
+        <definition>Action&lt;GpsPosition&gt; Tripi.gps.GPSListener.OnLocationChanged</definition>
+        <argsstring></argsstring>
+        <name>OnLocationChanged</name>
+        <initializer> null</initializer>
+        <briefdescription>
+<para>Event fires when user location changes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" line="21" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tripi_1_1gps_1_1_g_p_s_listener_1a554550b50b31527ee96cfe332549f9e8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_g_p_s_mobile_1_1_gps" kindref="compound">Gps</ref></type>
+        <definition>Gps Tripi.gps.GPSListener.gps</definition>
+        <argsstring></argsstring>
+        <name>gps</name>
+        <initializer> new <ref refid="class_g_p_s_mobile_1_1_gps" kindref="compound">Gps</ref>()</initializer>
+        <briefdescription>
+<para>The Gps object from which the location information is received. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" line="26" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tripi_1_1gps_1_1_g_p_s_listener_1adb5e00692fc27631912f2da7c6957740" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_tripi_1_1gps_1_1_g_p_s_listener" kindref="compound">GPSListener</ref></type>
+        <definition>GPSListener Tripi.gps.GPSListener.GetInstance</definition>
+        <argsstring></argsstring>
+        <name>GetInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" line="40" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tripi_1_1gps_1_1_g_p_s_listener_1ad40e537947c6ed7ea6f5767029a8eefb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Tripi.gps.GPSListener.GPSListener</definition>
+        <argsstring>()</argsstring>
+        <name>GPSListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" line="28" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1gps_1_1_g_p_s_listener_1a81d27e5782e34305037ad99764ec48f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.gps.GPSListener.GpsLocationChanged</definition>
+        <argsstring>(object sender, LocationChangedEventArgs args)</argsstring>
+        <name>GpsLocationChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_g_p_s_mobile_1_1_location_changed_event_args" kindref="compound">LocationChangedEventArgs</ref></type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Method fired when user location changes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" line="58" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" bodystart="57" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tripi_1_1gps_1_1_g_p_s_listener_1a4ff986081e6623190ae285cd80ca162e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.gps.GPSListener.OpenGPS</definition>
+        <argsstring>()</argsstring>
+        <name>OpenGPS</name>
+        <briefdescription>
+<para>Open a GPS connection. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" line="46" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" bodystart="45" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1gps_1_1_g_p_s_listener_1a311460b7b647b6dc41bea72902554e78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.gps.GPSListener.CloseGPS</definition>
+        <argsstring>()</argsstring>
+        <name>CloseGPS</name>
+        <briefdescription>
+<para>Close a GPS connection The connection is closed only if there are no other object subscribed to the event. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" line="71" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" bodystart="70" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Listener class for the location change of the user. Gets the data from the gps. The class implements singleton pattern. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="222">
+        <label>GPSMobile.Gps</label>
+        <link refid="class_g_p_s_mobile_1_1_gps"/>
+        <childnode refid="223" relation="usage">
+          <edgelabel>gpsEventThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="223">
+        <label>System</label>
+      </node>
+      <node id="221">
+        <label>Tripi.gps.GPSListener</label>
+        <link refid="class_tripi_1_1gps_1_1_g_p_s_listener"/>
+        <childnode refid="221" relation="usage">
+          <edgelabel>instance</edgelabel>
+        </childnode>
+        <childnode refid="222" relation="usage">
+          <edgelabel>gps</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" line="14" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/gps/GPSListener.cs" bodystart="13" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1gps_1_1_g_p_s_listener_1a311460b7b647b6dc41bea72902554e78" prot="public" virt="non-virtual"><scope>Tripi::gps::GPSListener</scope><name>CloseGPS</name></member>
+      <member refid="class_tripi_1_1gps_1_1_g_p_s_listener_1adb5e00692fc27631912f2da7c6957740" prot="public" virt="non-virtual"><scope>Tripi::gps::GPSListener</scope><name>GetInstance</name></member>
+      <member refid="class_tripi_1_1gps_1_1_g_p_s_listener_1a554550b50b31527ee96cfe332549f9e8" prot="private" virt="non-virtual"><scope>Tripi::gps::GPSListener</scope><name>gps</name></member>
+      <member refid="class_tripi_1_1gps_1_1_g_p_s_listener_1ad40e537947c6ed7ea6f5767029a8eefb" prot="private" virt="non-virtual"><scope>Tripi::gps::GPSListener</scope><name>GPSListener</name></member>
+      <member refid="class_tripi_1_1gps_1_1_g_p_s_listener_1a81d27e5782e34305037ad99764ec48f2" prot="private" virt="non-virtual"><scope>Tripi::gps::GPSListener</scope><name>GpsLocationChanged</name></member>
+      <member refid="class_tripi_1_1gps_1_1_g_p_s_listener_1ab8dab67c00275b34597ac9907a20be3b" prot="private" virt="non-virtual"><scope>Tripi::gps::GPSListener</scope><name>instance</name></member>
+      <member refid="class_tripi_1_1gps_1_1_g_p_s_listener_1ad18f501e60df1dad6c880c9638463139" prot="public" virt="non-virtual"><scope>Tripi::gps::GPSListener</scope><name>OnLocationChanged</name></member>
+      <member refid="class_tripi_1_1gps_1_1_g_p_s_listener_1a4ff986081e6623190ae285cd80ca162e" prot="public" virt="non-virtual"><scope>Tripi::gps::GPSListener</scope><name>OpenGPS</name></member>
+      <member refid="class_tripi_1_1gps_1_1_g_p_s_listener_1ad187f087e865cbe0c7d6cfcbb1c2c3ef" prot="private" virt="non-virtual"><scope>Tripi::gps::GPSListener</scope><name>padlock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
