@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_w_c_f_1_1_service_1_1_position_node" kind="class" prot="public">
+    <compoundname>TripiWCF::Service::PositionNode</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1acbac67ee1ac24f1652dd125f9a0b02ec" prot="private" static="no" mutable="no">
+        <type>System.DateTime</type>
+        <definition>System DateTime PositionNode::CreationTimeField</definition>
+        <argsstring></argsstring>
+        <name>CreationTimeField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="77" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1a4bc8d2555861092d47e4c564bd35c57e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double PositionNode::LatitudeField</definition>
+        <argsstring></argsstring>
+        <name>LatitudeField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="79" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1abc98a09e69be9a44b20ed6654d01b736" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double PositionNode::LongitudeField</definition>
+        <argsstring></argsstring>
+        <name>LongitudeField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="81" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1a4d9459878ba5a752346eeb41c7a151ac" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double PositionNode::SpeedField</definition>
+        <argsstring></argsstring>
+        <name>SpeedField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="83" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1ad6ddbe35bb52845fb49017322af2efc0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PositionNode::TripIDField</definition>
+        <argsstring></argsstring>
+        <name>TripIDField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="85" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1a678569752196937ffc49934fbe466085" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PositionNode::DescriptionField</definition>
+        <argsstring></argsstring>
+        <name>DescriptionField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="94" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1af67c625c552642ab1963a051a8c41768" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PositionNode::OrdinalNumberField</definition>
+        <argsstring></argsstring>
+        <name>OrdinalNumberField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="100" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1a25e70b5ac7e1562bee46c550b655aca3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System DateTime PositionNode::CreationTime</definition>
+        <argsstring></argsstring>
+        <name>CreationTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="98" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1a9ba611f655423cc8bc154842217cf51f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double PositionNode::Latitude</definition>
+        <argsstring></argsstring>
+        <name>Latitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="111" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1adbdb2873251e38496507f5ff1fdd02ef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double PositionNode::Longitude</definition>
+        <argsstring></argsstring>
+        <name>Longitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="124" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1aca550e2dfc8a18a7af3e96dd0c1658e8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double PositionNode::Speed</definition>
+        <argsstring></argsstring>
+        <name>Speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="137" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1ae9f32fe5838c27dfa2facb0cf250af28" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int PositionNode::TripID</definition>
+        <argsstring></argsstring>
+        <name>TripID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="150" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1a2de15e5b9d17882dc0c57a73a3e19a03" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string PositionNode::Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="130" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1a76bd3433903f76dd48067a1733857c4d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int PositionNode::OrdinalNumber</definition>
+        <argsstring></argsstring>
+        <name>OrdinalNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="169" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1a191e67c7a5bfa2cec148977b3f167599" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime TripiWCF.Service.PositionNode.CreationTime</definition>
+        <argsstring></argsstring>
+        <name>CreationTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/PositionNode.cs" line="30" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/PositionNode.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1a64485324d09216250cfeed79c7987ce7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.Service.PositionNode.PositionNode</definition>
+        <argsstring>(double lat, double lon, int tripID, int num)</argsstring>
+        <name>PositionNode</name>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+<para>Shortened constructor used somewhere in demo code. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Latitude.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lon</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Longitude.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tripID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parent trip ID.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ordinal number.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/PositionNode.cs" line="45" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/PositionNode.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1a43c0c1c461f8f70565c95da1d3681fcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.Service.PositionNode.PositionNode</definition>
+        <argsstring>(double lat, double lon, int tripID, double speed, DateTime creationTime, string description, int ordinalNumber)</argsstring>
+        <name>PositionNode</name>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>creationTime</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ordinalNumber</declname>
+        </param>
+        <briefdescription>
+<para>Full constructor, fills all of the fields. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Latitude of GPS reading.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lon</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Longitude of GPS reading.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tripID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parent trip ID.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Speed measured by GPS module.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>creationTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Time of the GPS reading.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>description</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Short optional description of interesting point.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ordinalNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ordinal number of the point (on a trip) - usually provided by <ref refid="class_tripi_w_c_f_1_1_service_1_1_trip_service" kindref="compound">TripService</ref>.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/PositionNode.cs" line="59" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/PositionNode.cs" bodystart="58" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1ab862d46452e5a7bafc91b045891a9a47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.Service.PositionNode.PositionNode</definition>
+        <argsstring>(XElement element)</argsstring>
+        <name>PositionNode</name>
+        <param>
+          <type>XElement</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+<para>Constructor parsing an XElement from a serialized database. Doesn&apos;t really tolerate any errors in XML. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>XElement which will be torn apart for data.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/PositionNode.cs" line="84" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/PositionNode.cs" bodystart="73" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_service_1_1_position_node_1a229145b100cc00adfc119f4b254eb8e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XElement</type>
+        <definition>XElement TripiWCF.Service.PositionNode.ToXElement</definition>
+        <argsstring>()</argsstring>
+        <name>ToXElement</name>
+        <briefdescription>
+<para>Method which creates an XML element, holding data for XML-backed database. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Ready XElement, which can be passed to XElement-munching constructor of <ref refid="class_tripi_w_c_f_1_1_service_1_1_position_node" kindref="compound">PositionNode</ref>.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/PositionNode.cs" line="101" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/PositionNode.cs" bodystart="100" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Data object holding data from GPS (latitude/longitude/speed), ID of parent trip, creation time and optional description (might be null). </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="373">
+        <label>TripiWCF.Service.PositionNode</label>
+        <link refid="class_tripi_w_c_f_1_1_service_1_1_position_node"/>
+        <childnode refid="374" relation="usage">
+          <edgelabel>CreationTimeField</edgelabel>
+        </childnode>
+      </node>
+      <node id="374">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="75" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="74" bodyend="151"/>
+    <listofallmembers>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1a25e70b5ac7e1562bee46c550b655aca3" prot="public" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>CreationTime</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1a191e67c7a5bfa2cec148977b3f167599" prot="public" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>CreationTime</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1acbac67ee1ac24f1652dd125f9a0b02ec" prot="private" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>CreationTimeField</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1a2de15e5b9d17882dc0c57a73a3e19a03" prot="public" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>Description</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1a678569752196937ffc49934fbe466085" prot="private" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>DescriptionField</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1a9ba611f655423cc8bc154842217cf51f" prot="public" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>Latitude</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1a4bc8d2555861092d47e4c564bd35c57e" prot="private" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>LatitudeField</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1adbdb2873251e38496507f5ff1fdd02ef" prot="public" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>Longitude</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1abc98a09e69be9a44b20ed6654d01b736" prot="private" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>LongitudeField</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1a76bd3433903f76dd48067a1733857c4d" prot="public" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>OrdinalNumber</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1af67c625c552642ab1963a051a8c41768" prot="private" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>OrdinalNumberField</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1a64485324d09216250cfeed79c7987ce7" prot="public" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>PositionNode</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1a43c0c1c461f8f70565c95da1d3681fcc" prot="public" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>PositionNode</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1ab862d46452e5a7bafc91b045891a9a47" prot="public" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>PositionNode</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1aca550e2dfc8a18a7af3e96dd0c1658e8" prot="public" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>Speed</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1a4d9459878ba5a752346eeb41c7a151ac" prot="private" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>SpeedField</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1a229145b100cc00adfc119f4b254eb8e7" prot="public" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>ToXElement</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1ae9f32fe5838c27dfa2facb0cf250af28" prot="public" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>TripID</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_position_node_1ad6ddbe35bb52845fb49017322af2efc0" prot="private" virt="non-virtual"><scope>TripiWCF::Service::PositionNode</scope><name>TripIDField</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

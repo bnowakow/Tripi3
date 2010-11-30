@@ -1,0 +1,55 @@
+.TH "TripiWCF::Service::TripServiceVolatile" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+TripiWCF::Service::TripServiceVolatile \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBTripiWCF::Service::TripService\fP, \fBTripiWCF::Service::ITripService\fP, and \fBTripiWCF::Service::ICrossDomainPolicyResponder\fP.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "override string \fBLoginUser\fP (string username, string password)"
+.br
+.ti -1c
+.RI "override List< \fBTrip\fP > \fBGetAllTrips\fP ()"
+.br
+.ti -1c
+.RI "override int \fBCreateNewTrip\fP (string username, string tripName, string tripDescription)"
+.br
+.ti -1c
+.RI "override List< \fBTrip\fP > \fBGetTripsForUser\fP (string username)"
+.br
+.ti -1c
+.RI "override void \fBUpdateTripDescription\fP (int tripID, string tripDescription)"
+.br
+.ti -1c
+.RI "override int \fBAddPositionNode\fP (\fBPositionNode\fP node)"
+.br
+.ti -1c
+.RI "override List< \fBPositionNode\fP > \fBGetPositionNodesForTrip\fP (int tripID)"
+.br
+.ti -1c
+.RI "override void \fBUpdatePositionNodeDescription\fP (int tripID, int nodeNumber, string nodeDescription)"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "int \fBTripCount\fP\fC [get]\fP"
+.br
+.ti -1c
+.RI "int \fBPositionNodeCount\fP\fC [get]\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 12 of file TripServiceVolatile.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

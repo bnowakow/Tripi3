@@ -1,0 +1,129 @@
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_position_node}{
+\section{TripiWCF.Service.PositionNode Class Reference}
+\label{class_tripi_w_c_f_1_1_service_1_1_position_node}\index{TripiWCF::Service::PositionNode@{TripiWCF::Service::PositionNode}}
+}
+
+
+Data object holding data from GPS (latitude/longitude/speed), ID of parent trip, creation time and optional description (might be null).  
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node_a64485324d09216250cfeed79c7987ce7}{PositionNode} (double lat, double lon, int tripID, int num)
+\begin{DoxyCompactList}\small\item\em Shortened constructor used somewhere in demo code. \item\end{DoxyCompactList}\item 
+\hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node_a43c0c1c461f8f70565c95da1d3681fcc}{PositionNode} (double lat, double lon, int tripID, double speed, DateTime creationTime, string description, int ordinalNumber)
+\begin{DoxyCompactList}\small\item\em Full constructor, fills all of the fields. \item\end{DoxyCompactList}\item 
+\hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node_ab862d46452e5a7bafc91b045891a9a47}{PositionNode} (XElement element)
+\begin{DoxyCompactList}\small\item\em Constructor parsing an XElement from a serialized database. Doesn't really tolerate any errors in XML. \item\end{DoxyCompactList}\item 
+XElement \hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node_a229145b100cc00adfc119f4b254eb8e7}{ToXElement} ()
+\begin{DoxyCompactList}\small\item\em Method which creates an XML element, holding data for XML-\/backed database. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_position_node_a25e70b5ac7e1562bee46c550b655aca3}{
+System.DateTime {\bfseries CreationTime}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}}
+\label{class_tripi_w_c_f_1_1_service_1_1_position_node_a25e70b5ac7e1562bee46c550b655aca3}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_position_node_a9ba611f655423cc8bc154842217cf51f}{
+double {\bfseries Latitude}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}}
+\label{class_tripi_w_c_f_1_1_service_1_1_position_node_a9ba611f655423cc8bc154842217cf51f}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_position_node_adbdb2873251e38496507f5ff1fdd02ef}{
+double {\bfseries Longitude}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}}
+\label{class_tripi_w_c_f_1_1_service_1_1_position_node_adbdb2873251e38496507f5ff1fdd02ef}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_position_node_aca550e2dfc8a18a7af3e96dd0c1658e8}{
+double {\bfseries Speed}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}}
+\label{class_tripi_w_c_f_1_1_service_1_1_position_node_aca550e2dfc8a18a7af3e96dd0c1658e8}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_position_node_ae9f32fe5838c27dfa2facb0cf250af28}{
+int {\bfseries TripID}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}}
+\label{class_tripi_w_c_f_1_1_service_1_1_position_node_ae9f32fe5838c27dfa2facb0cf250af28}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_position_node_a2de15e5b9d17882dc0c57a73a3e19a03}{
+string {\bfseries Description}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}}
+\label{class_tripi_w_c_f_1_1_service_1_1_position_node_a2de15e5b9d17882dc0c57a73a3e19a03}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_position_node_a76bd3433903f76dd48067a1733857c4d}{
+int {\bfseries OrdinalNumber}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}}
+\label{class_tripi_w_c_f_1_1_service_1_1_position_node_a76bd3433903f76dd48067a1733857c4d}
+
+\item 
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_position_node_a191e67c7a5bfa2cec148977b3f167599}{
+DateTime {\bfseries CreationTime}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}}
+\label{class_tripi_w_c_f_1_1_service_1_1_position_node_a191e67c7a5bfa2cec148977b3f167599}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Data object holding data from GPS (latitude/longitude/speed), ID of parent trip, creation time and optional description (might be null). 
+
+Definition at line 74 of file TripiWCFService.cs.
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_position_node_a64485324d09216250cfeed79c7987ce7}{
+\index{TripiWCF::Service::PositionNode@{TripiWCF::Service::PositionNode}!PositionNode@{PositionNode}}
+\index{PositionNode@{PositionNode}!TripiWCF::Service::PositionNode@{TripiWCF::Service::PositionNode}}
+\subsubsection[{PositionNode}]{\setlength{\rightskip}{0pt plus 5cm}TripiWCF.Service.PositionNode.PositionNode (double {\em lat}, \/  double {\em lon}, \/  int {\em tripID}, \/  int {\em num})}}
+\label{class_tripi_w_c_f_1_1_service_1_1_position_node_a64485324d09216250cfeed79c7987ce7}
+
+
+Shortened constructor used somewhere in demo code. 
+\begin{DoxyParams}{Parameters}
+\item[{\em lat}]Latitude.\item[{\em lon}]Longitude.\item[{\em tripID}]Parent trip ID.\item[{\em num}]Ordinal number.\end{DoxyParams}
+
+
+Definition at line 43 of file PositionNode.cs.\hypertarget{class_tripi_w_c_f_1_1_service_1_1_position_node_a43c0c1c461f8f70565c95da1d3681fcc}{
+\index{TripiWCF::Service::PositionNode@{TripiWCF::Service::PositionNode}!PositionNode@{PositionNode}}
+\index{PositionNode@{PositionNode}!TripiWCF::Service::PositionNode@{TripiWCF::Service::PositionNode}}
+\subsubsection[{PositionNode}]{\setlength{\rightskip}{0pt plus 5cm}TripiWCF.Service.PositionNode.PositionNode (double {\em lat}, \/  double {\em lon}, \/  int {\em tripID}, \/  double {\em speed}, \/  DateTime {\em creationTime}, \/  string {\em description}, \/  int {\em ordinalNumber})}}
+\label{class_tripi_w_c_f_1_1_service_1_1_position_node_a43c0c1c461f8f70565c95da1d3681fcc}
+
+
+Full constructor, fills all of the fields. 
+\begin{DoxyParams}{Parameters}
+\item[{\em lat}]Latitude of GPS reading.\item[{\em lon}]Longitude of GPS reading.\item[{\em tripID}]Parent trip ID.\item[{\em speed}]Speed measured by GPS module.\item[{\em creationTime}]Time of the GPS reading.\item[{\em description}]Short optional description of interesting point.\item[{\em ordinalNumber}]Ordinal number of the point (on a trip) -\/ usually provided by \hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip_service}{TripService}.\end{DoxyParams}
+
+
+Definition at line 58 of file PositionNode.cs.\hypertarget{class_tripi_w_c_f_1_1_service_1_1_position_node_ab862d46452e5a7bafc91b045891a9a47}{
+\index{TripiWCF::Service::PositionNode@{TripiWCF::Service::PositionNode}!PositionNode@{PositionNode}}
+\index{PositionNode@{PositionNode}!TripiWCF::Service::PositionNode@{TripiWCF::Service::PositionNode}}
+\subsubsection[{PositionNode}]{\setlength{\rightskip}{0pt plus 5cm}TripiWCF.Service.PositionNode.PositionNode (XElement {\em element})}}
+\label{class_tripi_w_c_f_1_1_service_1_1_position_node_ab862d46452e5a7bafc91b045891a9a47}
+
+
+Constructor parsing an XElement from a serialized database. Doesn't really tolerate any errors in XML. 
+\begin{DoxyParams}{Parameters}
+\item[{\em element}]XElement which will be torn apart for data.\end{DoxyParams}
+
+
+Definition at line 73 of file PositionNode.cs.
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tripi_w_c_f_1_1_service_1_1_position_node_a229145b100cc00adfc119f4b254eb8e7}{
+\index{TripiWCF::Service::PositionNode@{TripiWCF::Service::PositionNode}!ToXElement@{ToXElement}}
+\index{ToXElement@{ToXElement}!TripiWCF::Service::PositionNode@{TripiWCF::Service::PositionNode}}
+\subsubsection[{ToXElement}]{\setlength{\rightskip}{0pt plus 5cm}XElement TripiWCF.Service.PositionNode.ToXElement ()}}
+\label{class_tripi_w_c_f_1_1_service_1_1_position_node_a229145b100cc00adfc119f4b254eb8e7}
+
+
+Method which creates an XML element, holding data for XML-\/backed database. \begin{DoxyReturn}{Returns}
+Ready XElement, which can be passed to XElement-\/munching constructor of \hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{PositionNode}.
+\end{DoxyReturn}
+
+
+Definition at line 100 of file PositionNode.cs.
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+Install/TripiWCFService.cs\item 
+SilverlightShowcase/TripiServiceClient.cs\item 
+SilverlightShowcase/TripiWCFService.cs\item 
+TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs\item 
+TripiWCFService/PositionNode.cs\end{DoxyCompactItemize}

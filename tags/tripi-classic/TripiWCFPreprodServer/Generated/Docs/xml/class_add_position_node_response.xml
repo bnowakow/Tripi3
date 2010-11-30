@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_add_position_node_response" kind="class" prot="public">
+    <compoundname>AddPositionNodeResponse</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_add_position_node_response_1a1e1c56df6d822d30ad42bf4404047d5d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AddPositionNodeResponse::AddPositionNodeResult</definition>
+        <argsstring></argsstring>
+        <name>AddPositionNodeResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="562" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="562" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_add_position_node_response_1afa18d22e92b4796a705d22ba44d34225" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AddPositionNodeResponse.AddPositionNodeResponse</definition>
+        <argsstring>()</argsstring>
+        <name>AddPositionNodeResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="565" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="564" bodyend="566"/>
+      </memberdef>
+      <memberdef kind="function" id="class_add_position_node_response_1aa352a7517b183dd071492846781925a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AddPositionNodeResponse.AddPositionNodeResponse</definition>
+        <argsstring>(int AddPositionNodeResult)</argsstring>
+        <name>AddPositionNodeResponse</name>
+        <param>
+          <type>int</type>
+          <declname>AddPositionNodeResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="569" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="568" bodyend="571"/>
+      </memberdef>
+      <memberdef kind="function" id="class_add_position_node_response_1afa18d22e92b4796a705d22ba44d34225" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AddPositionNodeResponse.AddPositionNodeResponse</definition>
+        <argsstring>()</argsstring>
+        <name>AddPositionNodeResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="565" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="564" bodyend="566"/>
+      </memberdef>
+      <memberdef kind="function" id="class_add_position_node_response_1aa352a7517b183dd071492846781925a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AddPositionNodeResponse.AddPositionNodeResponse</definition>
+        <argsstring>(int AddPositionNodeResult)</argsstring>
+        <name>AddPositionNodeResponse</name>
+        <param>
+          <type>int</type>
+          <declname>AddPositionNodeResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="569" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="568" bodyend="571"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="559" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="558" bodyend="572"/>
+    <listofallmembers>
+      <member refid="class_add_position_node_response_1afa18d22e92b4796a705d22ba44d34225" prot="public" virt="non-virtual"><scope>AddPositionNodeResponse</scope><name>AddPositionNodeResponse</name></member>
+      <member refid="class_add_position_node_response_1aa352a7517b183dd071492846781925a0" prot="public" virt="non-virtual"><scope>AddPositionNodeResponse</scope><name>AddPositionNodeResponse</name></member>
+      <member refid="class_add_position_node_response_1afa18d22e92b4796a705d22ba44d34225" prot="public" virt="non-virtual"><scope>AddPositionNodeResponse</scope><name>AddPositionNodeResponse</name></member>
+      <member refid="class_add_position_node_response_1aa352a7517b183dd071492846781925a0" prot="public" virt="non-virtual"><scope>AddPositionNodeResponse</scope><name>AddPositionNodeResponse</name></member>
+      <member refid="class_add_position_node_response_1a1e1c56df6d822d30ad42bf4404047d5d" prot="public" virt="non-virtual"><scope>AddPositionNodeResponse</scope><name>AddPositionNodeResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

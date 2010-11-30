@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_msdn_1_1_u_i_framework_1_1_canvas" kind="class" prot="public">
+    <compoundname>Msdn::UIFramework::Canvas</compoundname>
+    <basecompoundref refid="class_msdn_1_1_u_i_framework_1_1_u_i_element" prot="public" virt="non-virtual">Msdn.UIFramework.UIElement</basecompoundref>
+    <derivedcompoundref refid="class_msdn_1_1_u_i_framework_1_1_list_item" prot="public" virt="non-virtual">Msdn.UIFramework.ListItem</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_canvas_1aad9d199459631d83fb079bb5b22874b8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_msdn_1_1_u_i_framework_1_1_visual_collection" kindref="compound">VisualCollection</ref></type>
+        <definition>VisualCollection Msdn.UIFramework.Canvas.children</definition>
+        <argsstring></argsstring>
+        <name>children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Canvas.cs" line="19" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Canvas.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_canvas_1a4a7d399f2e397e6cb6da95d5f28c32fa" prot="private" static="no" mutable="no">
+        <type>Control</type>
+        <definition>Control Msdn.UIFramework.Canvas.host</definition>
+        <argsstring></argsstring>
+        <name>host</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Canvas.cs" line="20" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Canvas.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_canvas_1a563fb8b87d3081047437510af5d6d86a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_msdn_1_1_u_i_framework_1_1_visual_collection" kindref="compound">VisualCollection</ref></type>
+        <definition>VisualCollection Msdn.UIFramework.Canvas.Children</definition>
+        <argsstring></argsstring>
+        <name>Children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Canvas.cs" line="85" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Canvas.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_canvas_1a85957756dd5aa350a9312f72ab92699a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Msdn.UIFramework.Canvas.Canvas</definition>
+        <argsstring>()</argsstring>
+        <name>Canvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Canvas.cs" line="23" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Canvas.cs" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_canvas_1af0248a03dc3f6c78bde09c5db92129ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Msdn.UIFramework.Canvas.Canvas</definition>
+        <argsstring>(Control host)</argsstring>
+        <name>Canvas</name>
+        <param>
+          <type>Control</type>
+          <declname>host</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Canvas.cs" line="30" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Canvas.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_canvas_1aebd4fe659f571a8d016b3d473706d218" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T Msdn.UIFramework.Canvas.AddElement&lt; T &gt;</definition>
+        <argsstring>(Func&lt; T &gt; buildFunc)</argsstring>
+        <name>AddElement&lt; T &gt;</name>
+        <param>
+          <type>Func&lt; T &gt;</type>
+          <declname>buildFunc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Canvas.cs" line="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_canvas_1a589c2fc9819634c7c7bcf08426f2f81d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal void</type>
+        <definition>internal void Msdn.UIFramework.Canvas.InvalidateChild</definition>
+        <argsstring>(UIElement element)</argsstring>
+        <name>InvalidateChild</name>
+        <param>
+          <type><ref refid="class_msdn_1_1_u_i_framework_1_1_u_i_element" kindref="compound">UIElement</ref></type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Canvas.cs" line="45" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Canvas.cs" bodystart="44" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_canvas_1af1a17712fcb11abb9200f7780aa66136" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Msdn.UIFramework.Canvas.OnRender</definition>
+        <argsstring>(Graphics graphics)</argsstring>
+        <name>OnRender</name>
+        <reimplements refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a20b2245806231553935896fe7731812b">OnRender</reimplements>
+        <param>
+          <type>Graphics</type>
+          <declname>graphics</declname>
+        </param>
+        <briefdescription>
+<para>Render method to implement by inheritors. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>graphics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Graphics object.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Canvas.cs" line="53" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Canvas.cs" bodystart="52" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="32">
+        <label>Msdn.UIFramework.Canvas</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_canvas"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>Msdn.UIFramework.ListItem</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_list_item"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>Msdn.UIFramework.UIElement</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_u_i_element"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="35">
+        <label>Msdn.UIFramework.Canvas</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_canvas"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+        <childnode refid="37" relation="usage">
+          <edgelabel>children</edgelabel>
+        </childnode>
+      </node>
+      <node id="36">
+        <label>Msdn.UIFramework.UIElement</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_u_i_element"/>
+        <childnode refid="36" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="37">
+        <label>Msdn.UIFramework.VisualCollection</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_visual_collection"/>
+        <childnode refid="35" relation="usage">
+          <edgelabel>canvas</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Canvas.cs" line="18" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/Canvas.cs" bodystart="17" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_canvas_1aebd4fe659f571a8d016b3d473706d218" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>AddElement&lt; T &gt;</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a8ef46619afd3ef259460861a22adf6eb" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>Background</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_canvas_1a85957756dd5aa350a9312f72ab92699a" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>Canvas</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_canvas_1af0248a03dc3f6c78bde09c5db92129ca" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>Canvas</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_canvas_1aad9d199459631d83fb079bb5b22874b8" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>children</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_canvas_1a563fb8b87d3081047437510af5d6d86a" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>Children</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a53b56cb482be2252bec3ab914e1d0d7f" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>Click</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a9cca59a2a3dfe0fce6b59c07c54c3abf" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>Foreground</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a914cb26535a1963efd0d5b33067b6b2e" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>height</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a408a4900a1d1e523cb4f742502a8c4f2" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>Height</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a246fc87022f64df87fe39b0d5d10e396" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>HitTest</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_canvas_1a4a7d399f2e397e6cb6da95d5f28c32fa" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>host</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1aed78bf64a01d385d569e0c84850daba3" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>Invalidate</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_canvas_1a589c2fc9819634c7c7bcf08426f2f81d" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>InvalidateChild</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a806c59f7c745af32f7e1e96b1f3f79a3" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>left</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ae59ab94eb8a2607e60533b83d5ec45b2" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>Left</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a7a322ef5474009250eeb7a7723a2fb9d" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>MouseDown</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a86e3dbddfbbc980c087ad0f8f612d62f" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>MouseMove</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a62dd135f9a076e73ab56d2891f0394fb" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>MouseUp</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a7133d551d78792b4598a4389095d6735" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>Name</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a0a4208f34ecd23b1742a9d77cd2e0fa6" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>OnClick</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a55ccc0b5c7e9dd6bd3370efd8b5dae5b" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>OnInvalidate</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ab855501c2fefb0341c6b88b1a15c29e5" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>OnInvalidate</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a2762b95709af1aaf8a1b2d4364caf735" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>OnMouseDown</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a14689b1210f33374e6236054bc2d4701" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>OnMouseMove</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ac510e6d510f57dd8f0ef9621b769c43c" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>OnMouseUp</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_canvas_1af1a17712fcb11abb9200f7780aa66136" prot="protected" virt="virtual"><scope>Msdn::UIFramework::Canvas</scope><name>OnRender</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a16d35f873e4d66ff2dc12ea2c119e59b" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>Opacity</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a848ad4f50ea4adbdd6772b58dc602fd8" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>Parent</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a35c4be2135cb7006bf6b8fbcdef98d66" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>Rectangle</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a5a13a9db26f3f4b0ec8dfa11b539df0e" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>Render</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a92178ef5ce195b44180135041eda7e41" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>top</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a9f9aea5ff48945252459d274e9748e4a" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>Top</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a811f6d91833f15fc5af21d0dffacdb70" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>UIElement</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1ab3e8a7dfa7b5583c7060c67270462c3b" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>Visible</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a5f936204905b26716555b25941b511f9" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>Width</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_element_1a300c1ddd3679217e9b59494dd4ff73cd" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::Canvas</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

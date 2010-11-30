@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1_mobile_configuration" kind="class" prot="public">
+    <compoundname>Tripi::MobileConfiguration</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_tripi_1_1_mobile_configuration_1aac798a91aac8c8422bdc7a2eaa65eb27" prot="public" static="yes" mutable="no">
+        <type>NameValueCollection</type>
+        <definition>NameValueCollection Tripi.MobileConfiguration.Settings</definition>
+        <argsstring></argsstring>
+        <name>Settings</name>
+        <briefdescription>
+<para>Collection of key-value pairs from app.config file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/MobileConfiguration.cs" line="20" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/MobileConfiguration.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tripi_1_1_mobile_configuration_1a5f34eb9835f1e92715cdbde58f92723f" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Tripi.MobileConfiguration.WCFAddress</definition>
+        <argsstring></argsstring>
+        <name>WCFAddress</name>
+        <briefdescription>
+<para>Gets the address of the wcf service. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/MobileConfiguration.cs" line="55" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/MobileConfiguration.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_1_1_mobile_configuration_1ae045dff577aece300fbf3191d354d1af" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Tripi.MobileConfiguration.DefaultSendFrequency</definition>
+        <argsstring></argsstring>
+        <name>DefaultSendFrequency</name>
+        <briefdescription>
+<para>Gets the default send frequency. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/MobileConfiguration.cs" line="73" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/MobileConfiguration.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_tripi_1_1_mobile_configuration_1a38cf4f6eead9d3781275877505a9246f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Tripi.MobileConfiguration.MobileConfiguration</definition>
+        <argsstring>()</argsstring>
+        <name>MobileConfiguration</name>
+        <briefdescription>
+<para>Loads the mobile configuration. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/MobileConfiguration.cs" line="26" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/MobileConfiguration.cs" bodystart="25" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class used for retriving values of keys in app.config file. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/MobileConfiguration.cs" line="16" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/MobileConfiguration.cs" bodystart="15" bodyend="74"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1_mobile_configuration_1ae045dff577aece300fbf3191d354d1af" prot="public" virt="non-virtual"><scope>Tripi::MobileConfiguration</scope><name>DefaultSendFrequency</name></member>
+      <member refid="class_tripi_1_1_mobile_configuration_1a38cf4f6eead9d3781275877505a9246f" prot="private" virt="non-virtual"><scope>Tripi::MobileConfiguration</scope><name>MobileConfiguration</name></member>
+      <member refid="class_tripi_1_1_mobile_configuration_1aac798a91aac8c8422bdc7a2eaa65eb27" prot="public" virt="non-virtual"><scope>Tripi::MobileConfiguration</scope><name>Settings</name></member>
+      <member refid="class_tripi_1_1_mobile_configuration_1a5f34eb9835f1e92715cdbde58f92723f" prot="public" virt="non-virtual"><scope>Tripi::MobileConfiguration</scope><name>WCFAddress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_g_p_s_mobile_1_1_win32" kind="class" prot="public">
+    <compoundname>GPSMobile::Win32</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_win32_1a8c602d56f7a0f9ba8d1534455e8a396c" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int GPSMobile.Win32.LMEM_ZEROINIT</definition>
+        <argsstring></argsstring>
+        <name>LMEM_ZEROINIT</name>
+        <initializer> 0x40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/Utils.cs" line="37" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/Utils.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_win32_1abd657d9fd333e33f9b272725cf40fbe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr GPSMobile.Win32.LocalAlloc</definition>
+        <argsstring>(int flags, int byteCount)</argsstring>
+        <name>LocalAlloc</name>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>byteCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/Utils.cs" line="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_win32_1a23001bb69ffac36773b8dd2fe3a0c9e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr GPSMobile.Win32.LocalFree</definition>
+        <argsstring>(IntPtr hMem)</argsstring>
+        <name>LocalFree</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>hMem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/Utils.cs" line="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/Utils.cs" line="36" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/Utils.cs" bodystart="35" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_g_p_s_mobile_1_1_win32_1a8c602d56f7a0f9ba8d1534455e8a396c" prot="public" virt="non-virtual"><scope>GPSMobile::Win32</scope><name>LMEM_ZEROINIT</name></member>
+      <member refid="class_g_p_s_mobile_1_1_win32_1abd657d9fd333e33f9b272725cf40fbe7" prot="public" virt="non-virtual"><scope>GPSMobile::Win32</scope><name>LocalAlloc</name></member>
+      <member refid="class_g_p_s_mobile_1_1_win32_1a23001bb69ffac36773b8dd2fe3a0c9e9" prot="public" virt="non-virtual"><scope>GPSMobile::Win32</scope><name>LocalFree</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

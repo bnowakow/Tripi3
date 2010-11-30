@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_microsoft_1_1_drawing_1_1_gradient_fill" kind="class" prot="public">
+    <compoundname>Microsoft::Drawing::GradientFill</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_gradient_fill_1a50d83aa2143ad0a0d49434c100732079" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Microsoft.Drawing.GradientFill.Fill</definition>
+        <argsstring>(Graphics gr, Rectangle rc, Color startColor, Color endColor, FillDirection fillDir)</argsstring>
+        <name>Fill</name>
+        <param>
+          <type>Graphics</type>
+          <declname>gr</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>rc</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>startColor</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>endColor</declname>
+        </param>
+        <param>
+          <type>FillDirection</type>
+          <declname>fillDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Gradientfill.cs" line="33" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Gradientfill.cs" bodystart="28" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Gradientfill.cs" line="17" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Gradientfill.cs" bodystart="16" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_microsoft_1_1_drawing_1_1_gradient_fill_1a50d83aa2143ad0a0d49434c100732079" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::GradientFill</scope><name>Fill</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

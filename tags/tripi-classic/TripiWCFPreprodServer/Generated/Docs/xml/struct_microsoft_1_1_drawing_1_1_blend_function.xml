@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="struct_microsoft_1_1_drawing_1_1_blend_function" kind="struct" prot="public">
+    <compoundname>Microsoft::Drawing::BlendFunction</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_blend_function_1a4bd4034affae6ca024eb5e94c68c2900" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Microsoft.Drawing.BlendFunction.BlendOp</definition>
+        <argsstring></argsstring>
+        <name>BlendOp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" line="20" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_blend_function_1a77cc940fe977b83250d0591ebcb3bfd6" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Microsoft.Drawing.BlendFunction.BlendFlags</definition>
+        <argsstring></argsstring>
+        <name>BlendFlags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" line="21" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_blend_function_1a3ce13f05f65b2a9d49716552325a3220" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Microsoft.Drawing.BlendFunction.SourceConstantAlpha</definition>
+        <argsstring></argsstring>
+        <name>SourceConstantAlpha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" line="22" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_blend_function_1a0702cd99614f0173e465b31fced6584a" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Microsoft.Drawing.BlendFunction.AlphaFormat</definition>
+        <argsstring></argsstring>
+        <name>AlphaFormat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" line="23" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" line="19" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/PlatformAPIs.cs" bodystart="18" bodyend="24"/>
+    <listofallmembers>
+      <member refid="struct_microsoft_1_1_drawing_1_1_blend_function_1a0702cd99614f0173e465b31fced6584a" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::BlendFunction</scope><name>AlphaFormat</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_blend_function_1a77cc940fe977b83250d0591ebcb3bfd6" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::BlendFunction</scope><name>BlendFlags</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_blend_function_1a4bd4034affae6ca024eb5e94c68c2900" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::BlendFunction</scope><name>BlendOp</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_blend_function_1a3ce13f05f65b2a9d49716552325a3220" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::BlendFunction</scope><name>SourceConstantAlpha</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

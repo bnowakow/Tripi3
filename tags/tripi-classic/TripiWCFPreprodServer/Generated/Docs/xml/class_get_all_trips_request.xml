@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_get_all_trips_request" kind="class" prot="public">
+    <compoundname>GetAllTripsRequest</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_get_all_trips_request_1ad40915c0719ce0ef9f5e8c9d6e39d321" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetAllTripsRequest.GetAllTripsRequest</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllTripsRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="439" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="438" bodyend="440"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_all_trips_request_1ad40915c0719ce0ef9f5e8c9d6e39d321" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetAllTripsRequest.GetAllTripsRequest</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllTripsRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="439" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="438" bodyend="440"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="436" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="435" bodyend="441"/>
+    <listofallmembers>
+      <member refid="class_get_all_trips_request_1ad40915c0719ce0ef9f5e8c9d6e39d321" prot="public" virt="non-virtual"><scope>GetAllTripsRequest</scope><name>GetAllTripsRequest</name></member>
+      <member refid="class_get_all_trips_request_1ad40915c0719ce0ef9f5e8c9d6e39d321" prot="public" virt="non-virtual"><scope>GetAllTripsRequest</scope><name>GetAllTripsRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

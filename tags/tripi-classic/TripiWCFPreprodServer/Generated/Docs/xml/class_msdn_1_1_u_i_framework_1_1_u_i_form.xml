@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_msdn_1_1_u_i_framework_1_1_u_i_form" kind="class" prot="public">
+    <compoundname>Msdn::UIFramework::UIForm</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a99ad5bc6d2418cb8c32817d450e394e6" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image Msdn.UIFramework.UIForm.backgroundImage</definition>
+        <argsstring></argsstring>
+        <name>backgroundImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="18" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a056780ee60e5d20b29a6c644bf24673f" prot="private" static="no" mutable="no">
+        <type>Bitmap</type>
+        <definition>Bitmap Msdn.UIFramework.UIForm.offBitmap</definition>
+        <argsstring></argsstring>
+        <name>offBitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="19" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a50b930aeb0dc9450c80b8750eddc98ca" prot="private" static="no" mutable="no">
+        <type>Graphics</type>
+        <definition>Graphics Msdn.UIFramework.UIForm.offGx</definition>
+        <argsstring></argsstring>
+        <name>offGx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="20" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a40a3c3409dd581d704bb517abb8d24f1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_msdn_1_1_u_i_framework_1_1_title_bar" kindref="compound">TitleBar</ref></type>
+        <definition>TitleBar Msdn.UIFramework.UIForm.titleBar</definition>
+        <argsstring></argsstring>
+        <name>titleBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="21" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a4c73be97b0497c5898d33cf50b8e1878" prot="private" static="no" mutable="no">
+        <type><ref refid="class_msdn_1_1_u_i_framework_1_1_menu_bar" kindref="compound">MenuBar</ref></type>
+        <definition>MenuBar Msdn.UIFramework.UIForm.menuBar</definition>
+        <argsstring></argsstring>
+        <name>menuBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="22" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1abfee545cb621cde4a66c7c4f9a443b58" prot="private" static="no" mutable="no">
+        <type><ref refid="class_msdn_1_1_u_i_framework_1_1_canvas" kindref="compound">Canvas</ref></type>
+        <definition>Canvas Msdn.UIFramework.UIForm.canvas</definition>
+        <argsstring></argsstring>
+        <name>canvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="24" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a4e296866d840e77b9b59e6a7576743e3" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Msdn.UIFramework.UIForm.applicationPath</definition>
+        <argsstring></argsstring>
+        <name>applicationPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="23" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a135684b1c6b62b6a5eb4e79f5de97f27" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_msdn_1_1_u_i_framework_1_1_canvas" kindref="compound">Canvas</ref></type>
+        <definition>Canvas Msdn.UIFramework.UIForm.Canvas</definition>
+        <argsstring></argsstring>
+        <name>Canvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="45" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1ae5a4c217c38b1a3cd95a586f1beee953" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>internal string</type>
+        <definition>internal string Msdn.UIFramework.UIForm.ApplicationPath</definition>
+        <argsstring></argsstring>
+        <name>ApplicationPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="59" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a639265a0a28da65ec32403228bfd8d5c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_msdn_1_1_u_i_framework_1_1_title_bar" kindref="compound">TitleBar</ref></type>
+        <definition>TitleBar Msdn.UIFramework.UIForm.TitleBar</definition>
+        <argsstring></argsstring>
+        <name>TitleBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="67" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a0db379f4fb292bda86c16d1deeb6de18" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_msdn_1_1_u_i_framework_1_1_menu_bar" kindref="compound">MenuBar</ref></type>
+        <definition>MenuBar Msdn.UIFramework.UIForm.MenuBar</definition>
+        <argsstring></argsstring>
+        <name>MenuBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="75" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a23d608c572bd7186832528762abe543b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Image</type>
+        <definition>Image Msdn.UIFramework.UIForm.BackgroundImage</definition>
+        <argsstring></argsstring>
+        <name>BackgroundImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="89" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a682b766c5208feba057e219f186550ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Msdn.UIFramework.UIForm.UIForm</definition>
+        <argsstring>()</argsstring>
+        <name>UIForm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="27" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="26" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1ab0eed1711c3c52621d499b28496022ef" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Msdn.UIFramework.UIForm.OnPaint</definition>
+        <argsstring>(PaintEventArgs e)</argsstring>
+        <name>OnPaint</name>
+        <param>
+          <type>PaintEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="92" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="91" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a49063376e71aa9fff8b5f6c7da7df9bd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Msdn.UIFramework.UIForm.OnPaintBackground</definition>
+        <argsstring>(PaintEventArgs e)</argsstring>
+        <name>OnPaintBackground</name>
+        <param>
+          <type>PaintEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="112" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a9a477a9daa2daee5972ed9c0cb425dce" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Msdn.UIFramework.UIForm.OnResize</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnResize</name>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="117" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="116" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a4d4d71ec876154e06e90251367a09ed4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Msdn.UIFramework.UIForm.OnClick</definition>
+        <argsstring>(EventArgs e)</argsstring>
+        <name>OnClick</name>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="138" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="137" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a5021c1faba4ca3b67993f247f1ac346c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Msdn.UIFramework.UIForm.OnMouseDown</definition>
+        <argsstring>(MouseEventArgs e)</argsstring>
+        <name>OnMouseDown</name>
+        <param>
+          <type>MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="149" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="148" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_u_i_form_1abf9cd818fa5c00927681aa135e9dae1c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Msdn.UIFramework.UIForm.OnMouseUp</definition>
+        <argsstring>(MouseEventArgs e)</argsstring>
+        <name>OnMouseUp</name>
+        <param>
+          <type>MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="160" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="159" bodyend="168"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="528">
+        <label>Msdn.UIFramework.LinearGradient</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_linear_gradient"/>
+      </node>
+      <node id="530">
+        <label>Msdn.UIFramework.Canvas</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_canvas"/>
+        <childnode refid="527" relation="public-inheritance">
+        </childnode>
+        <childnode refid="531" relation="usage">
+          <edgelabel>children</edgelabel>
+        </childnode>
+      </node>
+      <node id="529">
+        <label>Msdn.UIFramework.TitleBar</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_title_bar"/>
+        <childnode refid="527" relation="public-inheritance">
+        </childnode>
+        <childnode refid="528" relation="usage">
+          <edgelabel>fillBrush</edgelabel>
+        </childnode>
+      </node>
+      <node id="525">
+        <label>Msdn.UIFramework.UIForm</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_u_i_form"/>
+        <childnode refid="526" relation="usage">
+          <edgelabel>menuBar</edgelabel>
+        </childnode>
+        <childnode refid="529" relation="usage">
+          <edgelabel>titleBar</edgelabel>
+        </childnode>
+        <childnode refid="530" relation="usage">
+          <edgelabel>canvas</edgelabel>
+        </childnode>
+      </node>
+      <node id="527">
+        <label>Msdn.UIFramework.UIElement</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_u_i_element"/>
+        <childnode refid="527" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="526">
+        <label>Msdn.UIFramework.MenuBar</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_menu_bar"/>
+        <childnode refid="527" relation="public-inheritance">
+        </childnode>
+        <childnode refid="528" relation="usage">
+          <edgelabel>fillBrush</edgelabel>
+        </childnode>
+      </node>
+      <node id="531">
+        <label>Msdn.UIFramework.VisualCollection</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_visual_collection"/>
+        <childnode refid="530" relation="usage">
+          <edgelabel>canvas</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" line="17" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/UIForm.cs" bodystart="16" bodyend="169"/>
+    <listofallmembers>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a4e296866d840e77b9b59e6a7576743e3" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>applicationPath</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1ae5a4c217c38b1a3cd95a586f1beee953" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>ApplicationPath</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a99ad5bc6d2418cb8c32817d450e394e6" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>backgroundImage</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a23d608c572bd7186832528762abe543b" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>BackgroundImage</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a135684b1c6b62b6a5eb4e79f5de97f27" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>Canvas</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1abfee545cb621cde4a66c7c4f9a443b58" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>canvas</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a4c73be97b0497c5898d33cf50b8e1878" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>menuBar</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a0db379f4fb292bda86c16d1deeb6de18" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>MenuBar</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a056780ee60e5d20b29a6c644bf24673f" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>offBitmap</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a50b930aeb0dc9450c80b8750eddc98ca" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>offGx</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a4d4d71ec876154e06e90251367a09ed4" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>OnClick</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a5021c1faba4ca3b67993f247f1ac346c" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>OnMouseDown</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1abf9cd818fa5c00927681aa135e9dae1c" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>OnMouseUp</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1ab0eed1711c3c52621d499b28496022ef" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>OnPaint</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a49063376e71aa9fff8b5f6c7da7df9bd" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>OnPaintBackground</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a9a477a9daa2daee5972ed9c0cb425dce" prot="protected" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>OnResize</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a639265a0a28da65ec32403228bfd8d5c" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>TitleBar</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a40a3c3409dd581d704bb517abb8d24f1" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>titleBar</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_u_i_form_1a682b766c5208feba057e219f186550ed" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::UIForm</scope><name>UIForm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,547 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_g_p_s_mobile_1_1_gps" kind="class" prot="public">
+    <compoundname>GPSMobile::Gps</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_1adbea32a6618cdee3de732948a83a3213" prot="private" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr GPSMobile.Gps.gpsHandle</definition>
+        <argsstring></argsstring>
+        <name>gpsHandle</name>
+        <initializer> IntPtr.Zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="30" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_1a1810960c6780e39a45aaf8bfb1b9802a" prot="private" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr GPSMobile.Gps.newLocationHandle</definition>
+        <argsstring></argsstring>
+        <name>newLocationHandle</name>
+        <initializer> IntPtr.Zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="34" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_1a9ede1e8ad23d22d3548424e0335f094e" prot="private" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr GPSMobile.Gps.deviceStateChangedHandle</definition>
+        <argsstring></argsstring>
+        <name>deviceStateChangedHandle</name>
+        <initializer> IntPtr.Zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="38" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_1a8e42c37477ad5bbcd44e2b731f9f3e93" prot="private" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr GPSMobile.Gps.stopHandle</definition>
+        <argsstring></argsstring>
+        <name>stopHandle</name>
+        <initializer> IntPtr.Zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="42" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_1a645e297b71ac98e2673283c7fce52710" prot="private" static="no" mutable="no">
+        <type>System.Threading.Thread</type>
+        <definition>System.Threading.Thread GPSMobile.Gps.gpsEventThread</definition>
+        <argsstring></argsstring>
+        <name>gpsEventThread</name>
+        <initializer> null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="45" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_1a681b33d1063a110bbc9d76044bcb66f0" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int GPSMobile.Gps.waitFailed</definition>
+        <argsstring></argsstring>
+        <name>waitFailed</name>
+        <initializer> -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="351" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_1aab6e7528f2000f9edd8f9e456dbd6649" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int GPSMobile.Gps.eventSet</definition>
+        <argsstring></argsstring>
+        <name>eventSet</name>
+        <initializer> 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="355" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_g_p_s_mobile_1_1_gps_1a07137a7f838add0752caa14d9900df25" prot="private" static="no" add="no" remove="no" raise="no">
+        <type>LocationChangedEventHandler</type>
+        <definition>LocationChangedEventHandler GPSMobile.Gps.locationChanged</definition>
+        <argsstring></argsstring>
+        <name>locationChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="48" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_g_p_s_mobile_1_1_gps_1a099192cc8e333e4635e5793b45d463e9" prot="private" static="no" add="no" remove="no" raise="no">
+        <type>DeviceStateChangedEventHandler</type>
+        <definition>DeviceStateChangedEventHandler GPSMobile.Gps.deviceStateChanged</definition>
+        <argsstring></argsstring>
+        <name>deviceStateChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="69" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_1a47e124eef5d1e94dc800878a046540ae" prot="public" static="no" readable="no" writable="no" gettable="no" settable="no">
+        <type>LocationChangedEventHandler</type>
+        <definition>LocationChangedEventHandler GPSMobile.Gps.LocationChanged</definition>
+        <argsstring></argsstring>
+        <name>LocationChanged</name>
+        <briefdescription>
+<para>Event that is raised when the GPS locaction data changes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="66" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_1a23f86fff99fbb1192ccab1cc17c3354c" prot="public" static="no" readable="no" writable="no" gettable="no" settable="no">
+        <type>DeviceStateChangedEventHandler</type>
+        <definition>DeviceStateChangedEventHandler GPSMobile.Gps.DeviceStateChanged</definition>
+        <argsstring></argsstring>
+        <name>DeviceStateChanged</name>
+        <briefdescription>
+<para>Event that is raised when the GPS device state changes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="87" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_1a3d0d76091c29c1caaa322f8fa90945c0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool GPSMobile.Gps.Opened</definition>
+        <argsstring></argsstring>
+        <name>Opened</name>
+        <briefdescription>
+<para>True: The GPS device has been opened. False: It has not been opened. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="95" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_1a92c5ebc87da8d8d03194620300219493" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GPSMobile.Gps.Gps</definition>
+        <argsstring>()</argsstring>
+        <name>Gps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="98" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="97" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_1aa8cd40ebf0327a9735912a27113621f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GPSMobile.Gps.Open</definition>
+        <argsstring>()</argsstring>
+        <name>Open</name>
+        <briefdescription>
+<para>Opens the GPS device and prepares to receive data from it. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="111" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="110" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_1a5de6d1f72d12b75a4407d200edba2259" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GPSMobile.Gps.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+<para>Closes the gps device. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="134" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="133" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_1a649e743e090756fd725666cfc3daf4fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_g_p_s_mobile_1_1_gps_position" kindref="compound">GpsPosition</ref></type>
+        <definition>GpsPosition GPSMobile.Gps.GetPosition</definition>
+        <argsstring>()</argsstring>
+        <name>GetPosition</name>
+        <briefdescription>
+<para>Get the position reported by the GPS receiver. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="class_g_p_s_mobile_1_1_gps_position" kindref="compound">GpsPosition</ref> class with all the position details</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="176" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="175" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_1ac984add12f07f111aa65d115251d9f89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_g_p_s_mobile_1_1_gps_position" kindref="compound">GpsPosition</ref></type>
+        <definition>GpsPosition GPSMobile.Gps.GetPosition</definition>
+        <argsstring>(TimeSpan maxAge)</argsstring>
+        <name>GetPosition</name>
+        <param>
+          <type>TimeSpan</type>
+          <declname>maxAge</declname>
+        </param>
+        <briefdescription>
+<para>Get the position reported by the GPS receiver that is no older than the maxAge passed in. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxAge</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Max age of the gps position data that you want back. If there is no data within the required age, null is returned. if maxAge == TimeSpan.Zero, then the age of the data is ignored</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_g_p_s_mobile_1_1_gps_position" kindref="compound">GpsPosition</ref> class with all the position details</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="190" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="189" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_1aeff3c031b36f7322c81050480351f667" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_g_p_s_mobile_1_1_gps_device_state" kindref="compound">GpsDeviceState</ref></type>
+        <definition>GpsDeviceState GPSMobile.Gps.GetDeviceState</definition>
+        <argsstring>()</argsstring>
+        <name>GetDeviceState</name>
+        <briefdescription>
+<para>Queries the device state. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Device state information</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="235" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="234" bodyend="259"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_1a793ba8171f2a24ca00fd91f93a83d5cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GPSMobile.Gps.~Gps</definition>
+        <argsstring>()</argsstring>
+        <name>~Gps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="102" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="101" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_1a539b9b4c4fda488148f8626f30bccf84" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GPSMobile.Gps.CreateGpsEventThread</definition>
+        <argsstring>()</argsstring>
+        <name>CreateGpsEventThread</name>
+        <briefdescription>
+<para>Creates our event thread that will receive native events. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="265" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="264" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_1a277ef0829a97655ddca05bb373736c4a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GPSMobile.Gps.WaitForGpsEvents</definition>
+        <argsstring>()</argsstring>
+        <name>WaitForGpsEvents</name>
+        <briefdescription>
+<para>Method used to listen for native events from the GPS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="280" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="279" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_1a6f4664b3a3143fd86ce0ce99540ca806" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr GPSMobile.Gps.GPSOpenDevice</definition>
+        <argsstring>(IntPtr hNewLocationData, IntPtr hDeviceStateChange, string szDeviceName, int dwFlags)</argsstring>
+        <name>GPSOpenDevice</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>hNewLocationData</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>hDeviceStateChange</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>szDeviceName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dwFlags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="332"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_1a1299f5f7e213c4b8df3f12d3641cc3ec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int GPSMobile.Gps.GPSCloseDevice</definition>
+        <argsstring>(IntPtr hGPSDevice)</argsstring>
+        <name>GPSCloseDevice</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>hGPSDevice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="335"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_1a0b437328f11dc63e5913b14c35be809c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int GPSMobile.Gps.GPSGetPosition</definition>
+        <argsstring>(IntPtr hGPSDevice, IntPtr pGPSPosition, int dwMaximumAge, int dwFlags)</argsstring>
+        <name>GPSGetPosition</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>hGPSDevice</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>pGPSPosition</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dwMaximumAge</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dwFlags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="338"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_1afd02606160bde84ac31ab353805173cf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int GPSMobile.Gps.GPSGetDeviceState</definition>
+        <argsstring>(IntPtr pGPSDevice)</argsstring>
+        <name>GPSGetDeviceState</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>pGPSDevice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="341"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_1af83baf06d18c06cd9cc5b1ed308b1ce2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr GPSMobile.Gps.CreateEvent</definition>
+        <argsstring>(IntPtr lpEventAttributes, int bManualReset, int bInitialState, StringBuilder lpName)</argsstring>
+        <name>CreateEvent</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>lpEventAttributes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bManualReset</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bInitialState</declname>
+        </param>
+        <param>
+          <type>StringBuilder</type>
+          <declname>lpName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="346"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_1a4eaf155e0a79c6e56f501fea938512e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int GPSMobile.Gps.CloseHandle</definition>
+        <argsstring>(IntPtr hObject)</argsstring>
+        <name>CloseHandle</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>hObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="349"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_1ab85a1e4378d4f7c928f7b809736eaff8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int GPSMobile.Gps.WaitForMultipleObjects</definition>
+        <argsstring>(int nCount, IntPtr lpHandles, int fWaitAll, int dwMilliseconds)</argsstring>
+        <name>WaitForMultipleObjects</name>
+        <param>
+          <type>int</type>
+          <declname>nCount</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>lpHandles</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fWaitAll</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dwMilliseconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="353"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_1add56f74dcab332fb68bdb49c774f4777" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int GPSMobile.Gps.EventModify</definition>
+        <argsstring>(IntPtr hHandle, int dwFunc)</argsstring>
+        <name>EventModify</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>hHandle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dwFunc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="357"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Summary description for GPS. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="213">
+        <label>GPSMobile.Gps</label>
+        <link refid="class_g_p_s_mobile_1_1_gps"/>
+        <childnode refid="214" relation="usage">
+          <edgelabel>gpsEventThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="214">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="28" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" bodystart="27" bodyend="361"/>
+    <listofallmembers>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a5de6d1f72d12b75a4407d200edba2259" prot="public" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>Close</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a4eaf155e0a79c6e56f501fea938512e4" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>CloseHandle</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1af83baf06d18c06cd9cc5b1ed308b1ce2" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>CreateEvent</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a539b9b4c4fda488148f8626f30bccf84" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>CreateGpsEventThread</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a099192cc8e333e4635e5793b45d463e9" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>deviceStateChanged</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a23f86fff99fbb1192ccab1cc17c3354c" prot="public" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>DeviceStateChanged</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a9ede1e8ad23d22d3548424e0335f094e" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>deviceStateChangedHandle</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1add56f74dcab332fb68bdb49c774f4777" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>EventModify</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1aab6e7528f2000f9edd8f9e456dbd6649" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>eventSet</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1aeff3c031b36f7322c81050480351f667" prot="public" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>GetDeviceState</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a649e743e090756fd725666cfc3daf4fa" prot="public" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>GetPosition</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1ac984add12f07f111aa65d115251d9f89" prot="public" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>GetPosition</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a92c5ebc87da8d8d03194620300219493" prot="public" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>Gps</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a1299f5f7e213c4b8df3f12d3641cc3ec" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>GPSCloseDevice</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a645e297b71ac98e2673283c7fce52710" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>gpsEventThread</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1afd02606160bde84ac31ab353805173cf" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>GPSGetDeviceState</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a0b437328f11dc63e5913b14c35be809c" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>GPSGetPosition</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1adbea32a6618cdee3de732948a83a3213" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>gpsHandle</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a6f4664b3a3143fd86ce0ce99540ca806" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>GPSOpenDevice</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a07137a7f838add0752caa14d9900df25" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>locationChanged</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a47e124eef5d1e94dc800878a046540ae" prot="public" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>LocationChanged</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a1810960c6780e39a45aaf8bfb1b9802a" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>newLocationHandle</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1aa8cd40ebf0327a9735912a27113621f2" prot="public" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>Open</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a3d0d76091c29c1caaa322f8fa90945c0" prot="public" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>Opened</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a8e42c37477ad5bbcd44e2b731f9f3e93" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>stopHandle</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a681b33d1063a110bbc9d76044bcb66f0" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>waitFailed</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a277ef0829a97655ddca05bb373736c4a" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>WaitForGpsEvents</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1ab85a1e4378d4f7c928f7b809736eaff8" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>WaitForMultipleObjects</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_1a793ba8171f2a24ca00fd91f93a83d5cb" prot="private" virt="non-virtual"><scope>GPSMobile::Gps</scope><name>~Gps</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

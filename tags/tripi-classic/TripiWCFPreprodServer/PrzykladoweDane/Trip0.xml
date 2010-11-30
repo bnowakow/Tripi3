@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Nodes>
+  <Position number="0" latitude="47.63362" longitude="-122.18645666666669" tripid="0" speed="0.081611000001430511" time="20041029191935" />
+  <Position number="1" latitude="47.633621666666677" longitude="-122.18645666666669" tripid="0" speed="0.089741997420787811" time="20041029191936" />
+  <Position number="2" latitude="47.633621666666677" longitude="-122.18645166666666" tripid="0" speed="0.10329599678516388" time="20041029191938" />
+  <Position number="3" latitude="47.633623333333325" longitude="-122.18644666666667" tripid="0" speed="0.085352003574371338" time="20041029191941" />
+  <Position number="4" latitude="47.633628333333341" longitude="-122.18644666666667" tripid="0" speed="0.06686999648809433" time="20041029191943" />
+  <Position number="5" latitude="47.633628333333341" longitude="-122.18644666666667" tripid="0" speed="0.06686999648809433" time="20041029191943" />
+  <Position number="6" latitude="47.633628333333341" longitude="-122.18644666666667" tripid="0" speed="0.06686999648809433" time="20041029191943" />
+  <Position number="7" latitude="47.633628333333341" longitude="-122.18644666666667" tripid="0" speed="0.074780002236366272" time="20041029191944" />
+  <Position number="8" latitude="47.633626666666665" longitude="-122.18645166666666" tripid="0" speed="0.088042996823787689" time="20041029191953" />
+  <Position number="9" latitude="47.633628333333341" longitude="-122.18645666666669" tripid="0" speed="0.099752001464366913" time="20041029191957" description="Zamek" />
+  <Position number="10" latitude="47.633626666666665" longitude="-122.18645833333333" tripid="0" speed="0.080604001879692078" time="20041029192001" />
+  <Position number="11" latitude="47.633623333333325" longitude="-122.18645666666669" tripid="0" speed="0.10991600155830383" time="20041029192005" />
+  <Position number="12" latitude="47.63362" longitude="-122.18644833333336" tripid="0" speed="0.097368001937866211" time="20041029192010" description="Jezioro" />
+</Nodes>

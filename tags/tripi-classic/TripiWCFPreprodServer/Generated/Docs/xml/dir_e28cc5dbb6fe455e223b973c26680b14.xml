@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="dir_e28cc5dbb6fe455e223b973c26680b14" kind="dir">
+    <compoundname>TripiMobile/Web References/</compoundname>
+    <innerdir refid="dir_ad6551e17ecaeeab7ce6a860b644db21">TripiMobile/Web References/TripiSilverlightWCFServiceReference/</innerdir>
+    <innerdir refid="dir_46eae1495647c2d33d64108dc0d64106">TripiMobile/Web References/TripiWCFRemote/</innerdir>
+    <innerdir refid="dir_7f8d9fa8b647908f03358632ca9630f3">TripiMobile/Web References/WatherDeeptraining/</innerdir>
+    <innerdir refid="dir_53b843b609370524f91c51bac2cb8bff">TripiMobile/Web References/WeatherService/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/"/>
+  </compounddef>
+</doxygen>

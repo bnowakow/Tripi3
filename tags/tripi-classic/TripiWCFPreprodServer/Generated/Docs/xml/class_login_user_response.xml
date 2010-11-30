@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_login_user_response" kind="class" prot="public">
+    <compoundname>LoginUserResponse</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_login_user_response_1aa97806ae4a33983c58c38aaf0220f310" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string LoginUserResponse::LoginUserResult</definition>
+        <argsstring></argsstring>
+        <name>LoginUserResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="66" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_login_user_response_1ac6af83ba5eb31371c2a9d3917c8e42f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LoginUserResponse.LoginUserResponse</definition>
+        <argsstring>()</argsstring>
+        <name>LoginUserResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="69" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_login_user_response_1a1698188028a7514f4992d28099a1a6f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LoginUserResponse.LoginUserResponse</definition>
+        <argsstring>(string LoginUserResult)</argsstring>
+        <name>LoginUserResponse</name>
+        <param>
+          <type>string</type>
+          <declname>LoginUserResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="73" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_login_user_response_1ac6af83ba5eb31371c2a9d3917c8e42f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LoginUserResponse.LoginUserResponse</definition>
+        <argsstring>()</argsstring>
+        <name>LoginUserResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="69" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="68" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_login_user_response_1a1698188028a7514f4992d28099a1a6f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LoginUserResponse.LoginUserResponse</definition>
+        <argsstring>(string LoginUserResult)</argsstring>
+        <name>LoginUserResponse</name>
+        <param>
+          <type>string</type>
+          <declname>LoginUserResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="73" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="72" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="63" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="62" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_login_user_response_1ac6af83ba5eb31371c2a9d3917c8e42f4" prot="public" virt="non-virtual"><scope>LoginUserResponse</scope><name>LoginUserResponse</name></member>
+      <member refid="class_login_user_response_1a1698188028a7514f4992d28099a1a6f7" prot="public" virt="non-virtual"><scope>LoginUserResponse</scope><name>LoginUserResponse</name></member>
+      <member refid="class_login_user_response_1ac6af83ba5eb31371c2a9d3917c8e42f4" prot="public" virt="non-virtual"><scope>LoginUserResponse</scope><name>LoginUserResponse</name></member>
+      <member refid="class_login_user_response_1a1698188028a7514f4992d28099a1a6f7" prot="public" virt="non-virtual"><scope>LoginUserResponse</scope><name>LoginUserResponse</name></member>
+      <member refid="class_login_user_response_1aa97806ae4a33983c58c38aaf0220f310" prot="public" virt="non-virtual"><scope>LoginUserResponse</scope><name>LoginUserResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

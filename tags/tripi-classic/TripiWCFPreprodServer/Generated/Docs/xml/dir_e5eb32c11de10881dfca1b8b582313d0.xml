@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="dir_e5eb32c11de10881dfca1b8b582313d0" kind="dir">
+    <compoundname>UIFrameworkMobile/PlatformAPI/</compoundname>
+    <innerfile refid="_gradientfill_8cs">Gradientfill.cs</innerfile>
+    <innerfile refid="_graphics_extension_8cs">GraphicsExtension.cs</innerfile>
+    <innerfile refid="_i_imaging_factory_8cs">IImagingFactory.cs</innerfile>
+    <innerfile refid="_platform_a_p_is_8cs">PlatformAPIs.cs</innerfile>
+    <innerfile refid="_win32_helper_8cs">Win32Helper.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/"/>
+  </compounddef>
+</doxygen>

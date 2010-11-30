@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info" kind="class" prot="protected">
+    <compoundname>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFInvokeInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a43299c7c75d113fd3c20941a4c61e4d0" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;.CFInvokeInfo::Action</definition>
+        <argsstring></argsstring>
+        <name>Action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="529" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="529" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1aed71746bbf94f32605bb5a97766d036e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;.CFInvokeInfo::ReplyAction</definition>
+        <argsstring></argsstring>
+        <name>ReplyAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="531" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="531" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a97f925f62bd016af0ac444734cd8f762" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;.CFInvokeInfo::IsOneWay</definition>
+        <argsstring></argsstring>
+        <name>IsOneWay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="533" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="533" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1af3040cdc07e8a8543e5b68ee45302842" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;.CFInvokeInfo::RequestIsWrapped</definition>
+        <argsstring></argsstring>
+        <name>RequestIsWrapped</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="535" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="535" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a23142404e26ba38ecc9f6558daf5a63c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;.CFInvokeInfo::ResponseIsWrapped</definition>
+        <argsstring></argsstring>
+        <name>ResponseIsWrapped</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="537" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a3463682ae4249756e5c609f34143a444" prot="public" static="no" mutable="no">
+        <type>System.Type[]</type>
+        <definition>System.Type [] Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFInvokeInfo.ExtraTypes</definition>
+        <argsstring></argsstring>
+        <name>ExtraTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="539" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="539" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a6d011b34bf29bd53a95caf5060c5ca15" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;.CFInvokeInfo::UseEncoded</definition>
+        <argsstring></argsstring>
+        <name>UseEncoded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="541" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="541" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a58d2142dc6a678edba00f834500dbbe9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFInvokeInfo.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="544" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="543" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a1496abeae2becddd222053ad574a6bc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFInvokeInfo.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="554" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="553" bodyend="563"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a58d2142dc6a678edba00f834500dbbe9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFInvokeInfo.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="544" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="543" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a1496abeae2becddd222053ad574a6bc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFInvokeInfo.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="554" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="553" bodyend="563"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="50">
+        <label>Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFInvokeInfo</label>
+        <link refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info"/>
+        <childnode refid="51" relation="usage">
+          <edgelabel>ExtraTypes</edgelabel>
+        </childnode>
+      </node>
+      <node id="51">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="527" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="526" bodyend="564"/>
+    <listofallmembers>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a43299c7c75d113fd3c20941a4c61e4d0" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFInvokeInfo</scope><name>Action</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a58d2142dc6a678edba00f834500dbbe9" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFInvokeInfo</scope><name>Equals</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a58d2142dc6a678edba00f834500dbbe9" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFInvokeInfo</scope><name>Equals</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a3463682ae4249756e5c609f34143a444" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFInvokeInfo</scope><name>ExtraTypes</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a1496abeae2becddd222053ad574a6bc0" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFInvokeInfo</scope><name>GetHashCode</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a1496abeae2becddd222053ad574a6bc0" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFInvokeInfo</scope><name>GetHashCode</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a97f925f62bd016af0ac444734cd8f762" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFInvokeInfo</scope><name>IsOneWay</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1aed71746bbf94f32605bb5a97766d036e" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFInvokeInfo</scope><name>ReplyAction</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1af3040cdc07e8a8543e5b68ee45302842" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFInvokeInfo</scope><name>RequestIsWrapped</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a23142404e26ba38ecc9f6558daf5a63c" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFInvokeInfo</scope><name>ResponseIsWrapped</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info_1a6d011b34bf29bd53a95caf5060c5ca15" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFInvokeInfo</scope><name>UseEncoded</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

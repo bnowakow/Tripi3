@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="namespace_g_p_s_mobile" kind="namespace">
+    <compoundname>GPSMobile</compoundname>
+    <innerclass refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds" prot="public">GPSMobile::DegreesMinutesSeconds</innerclass>
+    <innerclass refid="class_g_p_s_mobile_1_1_device_state_changed_event_args" prot="public">GPSMobile::DeviceStateChangedEventArgs</innerclass>
+    <innerclass refid="class_g_p_s_mobile_1_1_gps" prot="public">GPSMobile::Gps</innerclass>
+    <innerclass refid="struct_g_p_s_mobile_1_1_file_time" prot="public">GPSMobile::FileTime</innerclass>
+    <innerclass refid="class_g_p_s_mobile_1_1_gps_device_state" prot="public">GPSMobile::GpsDeviceState</innerclass>
+    <innerclass refid="struct_g_p_s_mobile_1_1_system_time" prot="public">GPSMobile::SystemTime</innerclass>
+    <innerclass refid="struct_g_p_s_mobile_1_1_satellite_array" prot="public">GPSMobile::SatelliteArray</innerclass>
+    <innerclass refid="class_g_p_s_mobile_1_1_satellite" prot="public">GPSMobile::Satellite</innerclass>
+    <innerclass refid="class_g_p_s_mobile_1_1_gps_position" prot="public">GPSMobile::GpsPosition</innerclass>
+    <innerclass refid="class_g_p_s_mobile_1_1_location_changed_event_args" prot="public">GPSMobile::LocationChangedEventArgs</innerclass>
+    <innerclass refid="class_g_p_s_mobile_1_1_utils" prot="public">GPSMobile::Utils</innerclass>
+    <innerclass refid="class_g_p_s_mobile_1_1_win32" prot="public">GPSMobile::Win32</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_g_p_s_mobile_1ae663fe5cd23b2506b7c3b2ae9a27ff3a" prot="public" static="no">
+        <name>FixQuality</name>
+        <enumvalue id="namespace_g_p_s_mobile_1ae663fe5cd23b2506b7c3b2ae9a27ff3a" prot="public">
+          <name>Unknown</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_g_p_s_mobile_1ae663fe5cd23b2506b7c3b2ae9a27ff3a" prot="public">
+          <name>Gps</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_g_p_s_mobile_1ae663fe5cd23b2506b7c3b2ae9a27ff3a" prot="public">
+          <name>DGps</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="54" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="53" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_g_p_s_mobile_1a58598d63bc106d5a920b808950b1741d" prot="public" static="no">
+        <name>FixType</name>
+        <enumvalue id="namespace_g_p_s_mobile_1a58598d63bc106d5a920b808950b1741d" prot="public">
+          <name>Unknown</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_g_p_s_mobile_1a58598d63bc106d5a920b808950b1741d" prot="public">
+          <name>XyD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_g_p_s_mobile_1a58598d63bc106d5a920b808950b1741d" prot="public">
+          <name>XyzD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="60" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="59" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_g_p_s_mobile_1a2a96231b4156937f852e4f041797ce49" prot="public" static="no">
+        <name>FixSelection</name>
+        <enumvalue id="namespace_g_p_s_mobile_1a2a96231b4156937f852e4f041797ce49" prot="public">
+          <name>Unknown</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_g_p_s_mobile_1a2a96231b4156937f852e4f041797ce49" prot="public">
+          <name>Auto</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_g_p_s_mobile_1a2a96231b4156937f852e4f041797ce49" prot="public">
+          <name>Manual</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="67" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="66" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_g_p_s_mobile_1a5222dc7b01b80004753523b00c11cf89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void GPSMobile.LocationChangedEventHandler</definition>
+        <argsstring>(object sender, LocationChangedEventArgs args)</argsstring>
+        <name>LocationChangedEventHandler</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_g_p_s_mobile_1_1_location_changed_event_args" kindref="compound">LocationChangedEventArgs</ref></type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="21"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_g_p_s_mobile_1a01eb5ce0968c578918ff473fc689602b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void GPSMobile.DeviceStateChangedEventHandler</definition>
+        <argsstring>(object sender, DeviceStateChangedEventArgs args)</argsstring>
+        <name>DeviceStateChangedEventHandler</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_g_p_s_mobile_1_1_device_state_changed_event_args" kindref="compound">DeviceStateChangedEventArgs</ref></type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GPS.cs" line="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" line="4"/>
+  </compounddef>
+</doxygen>

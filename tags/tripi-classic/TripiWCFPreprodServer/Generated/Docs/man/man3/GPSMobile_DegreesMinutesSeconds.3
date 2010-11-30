@@ -1,0 +1,126 @@
+.TH "GPSMobile::DegreesMinutesSeconds" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+GPSMobile::DegreesMinutesSeconds \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBDegreesMinutesSeconds\fP (double decimalDegrees)"
+.br
+.RI "\fIConstructs a new instance of \fBDegreesMinutesSeconds\fP converting from decimal degrees. \fP"
+.ti -1c
+.RI "\fBDegreesMinutesSeconds\fP (bool isPositive, uint degrees, uint minutes, double seconds)"
+.br
+.RI "\fIConstructs a new instance of \fBDegreesMinutesSeconds\fP. \fP"
+.ti -1c
+.RI "double \fBToDecimalDegrees\fP ()"
+.br
+.RI "\fIConverts the decimal, minutes, seconds coordinate to decimal degrees. \fP"
+.ti -1c
+.RI "override string \fBToString\fP ()"
+.br
+.RI "\fIConverts the instance to a string in format: D M' S". \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "bool \fBIsPositive\fP\fC [get]\fP"
+.br
+.RI "\fIReturns true if the degrees, minutes and seconds refer to a positive value, false otherwise. \fP"
+.ti -1c
+.RI "uint \fBDegrees\fP\fC [get]\fP"
+.br
+.RI "\fIThe degrees unit of the coordinate. \fP"
+.ti -1c
+.RI "uint \fBMinutes\fP\fC [get]\fP"
+.br
+.RI "\fIThe minutes unit of the coordinate. \fP"
+.ti -1c
+.RI "double \fBSeconds\fP\fC [get]\fP"
+.br
+.RI "\fIThe seconds unit of the coordinate. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 5 of file DegreesMinutesSeconds.cs.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "GPSMobile.DegreesMinutesSeconds.DegreesMinutesSeconds (double decimalDegrees)"
+.PP
+Constructs a new instance of \fBDegreesMinutesSeconds\fP converting from decimal degrees. \fBParameters:\fP
+.RS 4
+\fIdecimalDegrees\fP Initial value as decimal degrees
+.RE
+.PP
+
+.PP
+Definition at line 50 of file DegreesMinutesSeconds.cs.
+.SS "GPSMobile.DegreesMinutesSeconds.DegreesMinutesSeconds (bool isPositive, uint degrees, uint minutes, double seconds)"
+.PP
+Constructs a new instance of \fBDegreesMinutesSeconds\fP. \fBParameters:\fP
+.RS 4
+\fIisPositive\fP True if the coordinates are positive coordinate, false if they are negative coordinates.
+.br
+\fIdegrees\fP Degrees unit of the coordinate
+.br
+\fIminutes\fP Minutes unit of the coordinate
+.br
+\fIseconds\fP Seconds unit of the coordinate. This should be a positive value.
+.RE
+.PP
+
+.PP
+Definition at line 70 of file DegreesMinutesSeconds.cs.
+.SH "Member Function Documentation"
+.PP 
+.SS "double GPSMobile.DegreesMinutesSeconds.ToDecimalDegrees ()"
+.PP
+Converts the decimal, minutes, seconds coordinate to decimal degrees. \fBReturns:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+Definition at line 83 of file DegreesMinutesSeconds.cs.
+.SS "override string GPSMobile.DegreesMinutesSeconds.ToString ()"
+.PP
+Converts the instance to a string in format: D M' S". \fBReturns:\fP
+.RS 4
+string representation of degrees, minutes, seconds
+.RE
+.PP
+
+.PP
+Definition at line 94 of file DegreesMinutesSeconds.cs.
+.SH "Property Documentation"
+.PP 
+.SS "uint GPSMobile.DegreesMinutesSeconds.Degrees\fC [get]\fP"
+.PP
+The degrees unit of the coordinate. 
+.PP
+Definition at line 23 of file DegreesMinutesSeconds.cs.
+.SS "bool GPSMobile.DegreesMinutesSeconds.IsPositive\fC [get]\fP"
+.PP
+Returns true if the degrees, minutes and seconds refer to a positive value, false otherwise. 
+.PP
+Definition at line 14 of file DegreesMinutesSeconds.cs.
+.SS "uint GPSMobile.DegreesMinutesSeconds.Minutes\fC [get]\fP"
+.PP
+The minutes unit of the coordinate. 
+.PP
+Definition at line 32 of file DegreesMinutesSeconds.cs.
+.SS "double GPSMobile.DegreesMinutesSeconds.Seconds\fC [get]\fP"
+.PP
+The seconds unit of the coordinate. 
+.PP
+Definition at line 41 of file DegreesMinutesSeconds.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

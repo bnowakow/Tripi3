@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="namespace_microsoft_1_1_tools_1_1_service_model" kind="namespace">
+    <compoundname>Microsoft::Tools::ServiceModel</compoundname>
+    <innerclass refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4" prot="public">Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</innerclass>
+    <innerclass refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_fault_exception" prot="public">Microsoft::Tools::ServiceModel::CFFaultException</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="12"/>
+  </compounddef>
+</doxygen>

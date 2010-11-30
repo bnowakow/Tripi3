@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="dir_cda381318fd23625a2a0236cbdc44e1f" kind="dir">
+    <compoundname>SilverlightShowcase/Service References/</compoundname>
+    <innerdir refid="dir_f7922abb2c37d67af17b6c7fc5f47879">SilverlightShowcase/Service References/SampleWeatherService/</innerdir>
+    <innerdir refid="dir_883c3296779df5223e120c0572e77b45">SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="struct_microsoft_1_1_drawing_1_1_image_info" kind="struct" prot="public">
+    <compoundname>Microsoft::Drawing::ImageInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_image_info_1a806e5d1309208024ffd0f7e3957f012e" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.ImageInfo.GuidPart1</definition>
+        <argsstring></argsstring>
+        <name>GuidPart1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="91" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_image_info_1a679c5ca185c25810cc70376d2fcec9bc" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.ImageInfo.GuidPart2</definition>
+        <argsstring></argsstring>
+        <name>GuidPart2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="92" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_image_info_1af0cb66e5639df388617c85a0764bed3a" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.ImageInfo.GuidPart3</definition>
+        <argsstring></argsstring>
+        <name>GuidPart3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="93" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_image_info_1aface6f0dfa02719d279bc8cc70d38182" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.ImageInfo.GuidPart4</definition>
+        <argsstring></argsstring>
+        <name>GuidPart4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="94" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_image_info_1a02d71f5d6180eeb91ec5a6a1bc0cecfa" prot="public" static="no" mutable="no">
+        <type>PixelFormatID</type>
+        <definition>PixelFormatID Microsoft.Drawing.ImageInfo.pixelFormat</definition>
+        <argsstring></argsstring>
+        <name>pixelFormat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="95" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_image_info_1a0b195854f852f0bd2323130145fee292" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.ImageInfo.Width</definition>
+        <argsstring></argsstring>
+        <name>Width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="96" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_image_info_1aff2754b9f0eefc0408538e9fb127763b" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.ImageInfo.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="97" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_image_info_1aea450e0a15baaac9b0b960f12fef9af8" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.ImageInfo.TileWidth</definition>
+        <argsstring></argsstring>
+        <name>TileWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="98" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_image_info_1ae54f775a880eb4e93f130d415abbc108" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.ImageInfo.TileHeight</definition>
+        <argsstring></argsstring>
+        <name>TileHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="99" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_image_info_1aa09f6e7e4b97565389bbab26825c2263" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Microsoft.Drawing.ImageInfo.Xdpi</definition>
+        <argsstring></argsstring>
+        <name>Xdpi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="100" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_image_info_1ac861df2a61ef089f9634e9ce35a1556b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Microsoft.Drawing.ImageInfo.Ydpi</definition>
+        <argsstring></argsstring>
+        <name>Ydpi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="101" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_image_info_1a31a18ed28faed36fa6906aeb6f4e6456" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.ImageInfo.Flags</definition>
+        <argsstring></argsstring>
+        <name>Flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="102" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="90" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="89" bodyend="103"/>
+    <listofallmembers>
+      <member refid="struct_microsoft_1_1_drawing_1_1_image_info_1a31a18ed28faed36fa6906aeb6f4e6456" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::ImageInfo</scope><name>Flags</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_image_info_1a806e5d1309208024ffd0f7e3957f012e" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::ImageInfo</scope><name>GuidPart1</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_image_info_1a679c5ca185c25810cc70376d2fcec9bc" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::ImageInfo</scope><name>GuidPart2</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_image_info_1af0cb66e5639df388617c85a0764bed3a" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::ImageInfo</scope><name>GuidPart3</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_image_info_1aface6f0dfa02719d279bc8cc70d38182" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::ImageInfo</scope><name>GuidPart4</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_image_info_1aff2754b9f0eefc0408538e9fb127763b" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::ImageInfo</scope><name>Height</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_image_info_1a02d71f5d6180eeb91ec5a6a1bc0cecfa" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::ImageInfo</scope><name>pixelFormat</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_image_info_1ae54f775a880eb4e93f130d415abbc108" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::ImageInfo</scope><name>TileHeight</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_image_info_1aea450e0a15baaac9b0b960f12fef9af8" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::ImageInfo</scope><name>TileWidth</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_image_info_1a0b195854f852f0bd2323130145fee292" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::ImageInfo</scope><name>Width</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_image_info_1aa09f6e7e4b97565389bbab26825c2263" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::ImageInfo</scope><name>Xdpi</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_image_info_1ac861df2a61ef089f9634e9ce35a1556b" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::ImageInfo</scope><name>Ydpi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

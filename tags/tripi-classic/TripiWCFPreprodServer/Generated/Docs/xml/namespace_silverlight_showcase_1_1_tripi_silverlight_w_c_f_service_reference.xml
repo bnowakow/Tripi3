@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="namespace_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference" kind="namespace">
+    <compoundname>SilverlightShowcase::TripiSilverlightWCFServiceReference</compoundname>
+    <innerclass refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_trip" prot="public">SilverlightShowcase::TripiSilverlightWCFServiceReference::Trip</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_position_node" prot="public">SilverlightShowcase::TripiSilverlightWCFServiceReference::PositionNode</innerclass>
+    <innerclass refid="interface_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w_c_f_service" prot="public">SilverlightShowcase::TripiSilverlightWCFServiceReference::TripiSilverlightWCFService</innerclass>
+    <innerclass refid="interface_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w_c_f_service_channel" prot="public">SilverlightShowcase::TripiSilverlightWCFServiceReference::TripiSilverlightWCFServiceChannel</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_create_new_trip_completed_event_args" prot="public">SilverlightShowcase::TripiSilverlightWCFServiceReference::CreateNewTripCompletedEventArgs</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_get_trips_for_user_completed_event_args" prot="public">SilverlightShowcase::TripiSilverlightWCFServiceReference::GetTripsForUserCompletedEventArgs</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_get_position_nodes_for_trip_completed_event_args" prot="public">SilverlightShowcase::TripiSilverlightWCFServiceReference::GetPositionNodesForTripCompletedEventArgs</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference_1_1_tripi_silverlight_w_c_f_service_client" prot="public">SilverlightShowcase::TripiSilverlightWCFServiceReference::TripiSilverlightWCFServiceClient</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/TripiSilverlightWCFServiceReference/Reference.cs" line="14"/>
+  </compounddef>
+</doxygen>
