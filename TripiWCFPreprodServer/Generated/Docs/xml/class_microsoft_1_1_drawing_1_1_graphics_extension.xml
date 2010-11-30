@@ -1,0 +1,886 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_microsoft_1_1_drawing_1_1_graphics_extension" kind="class" prot="public">
+    <compoundname>Microsoft::Drawing::GraphicsExtension</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_graphics_extension_1a9755fe74a595bbd71d2ff172be8aa1ca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.Drawing.GraphicsExtension.DrawAlpha</definition>
+        <argsstring>(this Graphics gx, Bitmap image, byte transparency, int x, int y)</argsstring>
+        <name>DrawAlpha</name>
+        <param>
+          <type>this Graphics</type>
+          <declname>gx</declname>
+        </param>
+        <param>
+          <type>Bitmap</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>transparency</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Draws an image with transparency. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Graphics to drawn on.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Image to draw.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>transparency</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Transparency constant</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X location</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y location</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="27" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="26" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_graphics_extension_1a95631fdb65a87d62a46f1e0207acb53c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.Drawing.GraphicsExtension.DrawImageAlphaChannel</definition>
+        <argsstring>(this Graphics gx, IImage image, int x, int y)</argsstring>
+        <name>DrawImageAlphaChannel</name>
+        <param>
+          <type>this Graphics</type>
+          <declname>gx</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_microsoft_1_1_drawing_1_1_i_image" kindref="compound">IImage</ref></type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="46" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="45" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_graphics_extension_1a80294553f317eb21c8bb0ff727c9dfe4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.Drawing.GraphicsExtension.DrawImageAlphaChannel</definition>
+        <argsstring>(this Graphics gx, IImage image, Rectangle dest)</argsstring>
+        <name>DrawImageAlphaChannel</name>
+        <param>
+          <type>this Graphics</type>
+          <declname>gx</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_microsoft_1_1_drawing_1_1_i_image" kindref="compound">IImage</ref></type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="56" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="55" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_graphics_extension_1a948ac9b9bcc98a716a7760ae3ff2b7dd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.Drawing.GraphicsExtension.DrawGradientRoundedRectangleAlpha</definition>
+        <argsstring>(this Graphics gx, Rectangle rc, Color startColorValue, Color endColorValue, Color borderColor, Size size, byte transparency)</argsstring>
+        <name>DrawGradientRoundedRectangleAlpha</name>
+        <param>
+          <type>this Graphics</type>
+          <declname>gx</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>rc</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>startColorValue</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>endColorValue</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>borderColor</declname>
+        </param>
+        <param>
+          <type>Size</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>transparency</declname>
+        </param>
+        <briefdescription>
+<para>Draws gradient filled rounded rectangle with transparency. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination graphics</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination rectangle</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startColorValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Starting color for gradient</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endColorValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>End color for gradient</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>borderColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The color of the border</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The size of the rounded corners</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>transparency</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Transparency constant</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="74" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="73" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_graphics_extension_1a8168ff28cfbd6cc3eeb1205bea5a73c0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.Drawing.GraphicsExtension.DrawImageTransparent</definition>
+        <argsstring>(this Graphics gx, Image image, Rectangle destRect)</argsstring>
+        <name>DrawImageTransparent</name>
+        <param>
+          <type>this Graphics</type>
+          <declname>gx</declname>
+        </param>
+        <param>
+          <type>Image</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>destRect</declname>
+        </param>
+        <briefdescription>
+<para>Draws the image with transparency. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination graphics</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The image to draw</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destRect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Desctination rectangle</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="135" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="134" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_graphics_extension_1af74b633e157e363f1b8d9271e01abfdb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Bitmap</type>
+        <definition>static Bitmap Microsoft.Drawing.GraphicsExtension.GetGradientRectangle</definition>
+        <argsstring>(Rectangle rc, Color startColorValue, Color endColorValue, FillDirection fillDirection)</argsstring>
+        <name>GetGradientRectangle</name>
+        <param>
+          <type>Rectangle</type>
+          <declname>rc</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>startColorValue</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>endColorValue</declname>
+        </param>
+        <param>
+          <type>FillDirection</type>
+          <declname>fillDirection</declname>
+        </param>
+        <briefdescription>
+<para>Returns the rectangle filled with gradient colors. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination rectangle</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startColorValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Starting color for gradient</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endColorValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>End color for gradient</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fillDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The direction of the gradient</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Image of the rectanle</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="152" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="151" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_graphics_extension_1ae54533416a64bdc6de184b89a1c10707" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.Drawing.GraphicsExtension.FillGradientRectangle</definition>
+        <argsstring>(this Graphics gx, Rectangle rc, Color startColorValue, Color endColorValue, FillDirection fillDirection)</argsstring>
+        <name>FillGradientRectangle</name>
+        <param>
+          <type>this Graphics</type>
+          <declname>gx</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>rc</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>startColorValue</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>endColorValue</declname>
+        </param>
+        <param>
+          <type>FillDirection</type>
+          <declname>fillDirection</declname>
+        </param>
+        <briefdescription>
+<para>Fills the rectagle with gradient colors. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination graphics</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Desctination rectangle</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startColorValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Starting color for gradient</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endColorValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>End color for gradient</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fillDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The direction of the gradient</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="176" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="175" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_graphics_extension_1ad8a86df19eda217d5904ce11dda50945" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.Drawing.GraphicsExtension.DrawGradientRoundedRectangle</definition>
+        <argsstring>(this Graphics gx, Rectangle rc, Color startColorValue, Color endColorValue, Color borderColor, Size size)</argsstring>
+        <name>DrawGradientRoundedRectangle</name>
+        <param>
+          <type>this Graphics</type>
+          <declname>gx</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>rc</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>startColorValue</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>endColorValue</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>borderColor</declname>
+        </param>
+        <param>
+          <type>Size</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Draws gradient filled rounded rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination graphics</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Desctination rectangle</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startColorValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Starting color for gradient</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endColorValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>End color for gradient</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>borderColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The color of the border</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The size of the rounded corners</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="200" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="199" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_graphics_extension_1a6121692c7ab5dfeb3204d1ca5b7331c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Bitmap</type>
+        <definition>static Bitmap Microsoft.Drawing.GraphicsExtension.GetGradiendRoundedRectangle</definition>
+        <argsstring>(Rectangle rc, Color startColorValue, Color endColorValue, Color borderColor, Size size)</argsstring>
+        <name>GetGradiendRoundedRectangle</name>
+        <param>
+          <type>Rectangle</type>
+          <declname>rc</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>startColorValue</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>endColorValue</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>borderColor</declname>
+        </param>
+        <param>
+          <type>Size</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Returns the image of the gradient filled rounded rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Desctination rectangle</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startColorValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Starting color for gradient</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endColorValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>End color for gradient</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>borderColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The color of the border</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The size of the rounded corners</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Bitmap image</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="215" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="214" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_graphics_extension_1ab59d2436083357d396124d03782035c3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Bitmap</type>
+        <definition>static Bitmap Microsoft.Drawing.GraphicsExtension.GradiendRoundedRectangle2</definition>
+        <argsstring>(Rectangle rc, Color startColorValue, Color endColorValue, Color borderColor, Size size)</argsstring>
+        <name>GradiendRoundedRectangle2</name>
+        <param>
+          <type>Rectangle</type>
+          <declname>rc</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>startColorValue</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>endColorValue</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>borderColor</declname>
+        </param>
+        <param>
+          <type>Size</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Returns the image of the gradient filled rounded rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Desctination rectangle</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startColorValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Starting color for gradient</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endColorValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>End color for gradient</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>borderColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The color of the border</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The size of the rounded corners</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Bitmap image</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="255" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="254" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_graphics_extension_1ab75cf94d39875bffba6a46856e137c51" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.Drawing.GraphicsExtension.DrawRoundedRectangle</definition>
+        <argsstring>(this Graphics gx, Color borderColor, Color backColor, Rectangle rc, Size size)</argsstring>
+        <name>DrawRoundedRectangle</name>
+        <param>
+          <type>this Graphics</type>
+          <declname>gx</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>borderColor</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>backColor</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>rc</declname>
+        </param>
+        <param>
+          <type>Size</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Draws rounded rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination graphics</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pen to draw</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>backColor</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rc</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="316" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="315" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_graphics_extension_1a3d924554a25bd4130099249cb8dc57f8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.Drawing.GraphicsExtension.DrawRectandleAlpha</definition>
+        <argsstring>(this Graphics gx, Color borderColor, Color backColor, Rectangle rc, byte transparency)</argsstring>
+        <name>DrawRectandleAlpha</name>
+        <param>
+          <type>this Graphics</type>
+          <declname>gx</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>borderColor</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>backColor</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>rc</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>transparency</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="323" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="322" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_graphics_extension_1ab48a44d1b2f0b086b18d2f3e5a95669e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.Drawing.GraphicsExtension.DrawRoundedRectangleAlpha</definition>
+        <argsstring>(this Graphics gx, Color borderColor, Color backColor, Rectangle rc, Size size, byte transparency)</argsstring>
+        <name>DrawRoundedRectangleAlpha</name>
+        <param>
+          <type>this Graphics</type>
+          <declname>gx</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>borderColor</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>backColor</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>rc</declname>
+        </param>
+        <param>
+          <type>Size</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>transparency</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="343" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="342" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_graphics_extension_1ae74c5ef5ba88ca9497724c0fa424010c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.Drawing.GraphicsExtension.DrawRoundedRect</definition>
+        <argsstring>(Graphics g, Pen p, Color backColor, Rectangle rc, Size size)</argsstring>
+        <name>DrawRoundedRect</name>
+        <param>
+          <type>Graphics</type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>Pen</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>backColor</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>rc</declname>
+        </param>
+        <param>
+          <type>Size</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="396" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="395" bodyend="468"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_graphics_extension_1ae0cec4349f827be1c36d1ae8b5418b5d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.Drawing.GraphicsExtension.CopyGraphics</definition>
+        <argsstring>(Graphics gxSrc, Graphics gxDest, int width, int height)</argsstring>
+        <name>CopyGraphics</name>
+        <param>
+          <type>Graphics</type>
+          <declname>gxSrc</declname>
+        </param>
+        <param>
+          <type>Graphics</type>
+          <declname>gxDest</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="120" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="119" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_graphics_extension_1a5c0342f19d2bc6d0ba5869a4f0b1de82" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>static Color Microsoft.Drawing.GraphicsExtension.GetTransparentColor</definition>
+        <argsstring>(Image image)</argsstring>
+        <name>GetTransparentColor</name>
+        <param>
+          <type>Image</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="186" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="185" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_graphics_extension_1a2c61fb2588212e52b83072be998e2456" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Bitmap</type>
+        <definition>static Bitmap Microsoft.Drawing.GraphicsExtension.ImposeRoundedRectangle</definition>
+        <argsstring>(Rectangle rc, Color borderColor, Size size)</argsstring>
+        <name>ImposeRoundedRectangle</name>
+        <param>
+          <type>Rectangle</type>
+          <declname>rc</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>borderColor</declname>
+        </param>
+        <param>
+          <type>Size</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="296" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="295" bodyend="305"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" line="16" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/GraphicsExtension.cs" bodystart="15" bodyend="471"/>
+    <listofallmembers>
+      <member refid="class_microsoft_1_1_drawing_1_1_graphics_extension_1ae0cec4349f827be1c36d1ae8b5418b5d" prot="private" virt="non-virtual"><scope>Microsoft::Drawing::GraphicsExtension</scope><name>CopyGraphics</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_graphics_extension_1a9755fe74a595bbd71d2ff172be8aa1ca" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::GraphicsExtension</scope><name>DrawAlpha</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_graphics_extension_1ad8a86df19eda217d5904ce11dda50945" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::GraphicsExtension</scope><name>DrawGradientRoundedRectangle</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_graphics_extension_1a948ac9b9bcc98a716a7760ae3ff2b7dd" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::GraphicsExtension</scope><name>DrawGradientRoundedRectangleAlpha</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_graphics_extension_1a95631fdb65a87d62a46f1e0207acb53c" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::GraphicsExtension</scope><name>DrawImageAlphaChannel</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_graphics_extension_1a80294553f317eb21c8bb0ff727c9dfe4" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::GraphicsExtension</scope><name>DrawImageAlphaChannel</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_graphics_extension_1a8168ff28cfbd6cc3eeb1205bea5a73c0" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::GraphicsExtension</scope><name>DrawImageTransparent</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_graphics_extension_1a3d924554a25bd4130099249cb8dc57f8" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::GraphicsExtension</scope><name>DrawRectandleAlpha</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_graphics_extension_1ae74c5ef5ba88ca9497724c0fa424010c" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::GraphicsExtension</scope><name>DrawRoundedRect</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_graphics_extension_1ab75cf94d39875bffba6a46856e137c51" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::GraphicsExtension</scope><name>DrawRoundedRectangle</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_graphics_extension_1ab48a44d1b2f0b086b18d2f3e5a95669e" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::GraphicsExtension</scope><name>DrawRoundedRectangleAlpha</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_graphics_extension_1ae54533416a64bdc6de184b89a1c10707" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::GraphicsExtension</scope><name>FillGradientRectangle</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_graphics_extension_1a6121692c7ab5dfeb3204d1ca5b7331c1" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::GraphicsExtension</scope><name>GetGradiendRoundedRectangle</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_graphics_extension_1af74b633e157e363f1b8d9271e01abfdb" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::GraphicsExtension</scope><name>GetGradientRectangle</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_graphics_extension_1a5c0342f19d2bc6d0ba5869a4f0b1de82" prot="private" virt="non-virtual"><scope>Microsoft::Drawing::GraphicsExtension</scope><name>GetTransparentColor</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_graphics_extension_1ab59d2436083357d396124d03782035c3" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::GraphicsExtension</scope><name>GradiendRoundedRectangle2</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_graphics_extension_1a2c61fb2588212e52b83072be998e2456" prot="private" virt="non-virtual"><scope>Microsoft::Drawing::GraphicsExtension</scope><name>ImposeRoundedRectangle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

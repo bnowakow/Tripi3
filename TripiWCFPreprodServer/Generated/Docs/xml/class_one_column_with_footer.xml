@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_one_column_with_footer" kind="class" prot="public">
+    <compoundname>OneColumnWithFooter</compoundname>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_one_column_with_footer_1abd3528cf77c7dc0c0e1d3282adbed0d5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OneColumnWithFooter.Page_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Page_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/OneColumnWithFooter.Master.cs" line="11" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/OneColumnWithFooter.Master.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/OneColumnWithFooter.Master.cs" line="9" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/OneColumnWithFooter.Master.cs" bodystart="8" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_one_column_with_footer_1abd3528cf77c7dc0c0e1d3282adbed0d5" prot="protected" virt="non-virtual"><scope>OneColumnWithFooter</scope><name>Page_Load</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

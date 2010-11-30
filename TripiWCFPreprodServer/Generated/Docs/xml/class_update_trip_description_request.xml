@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_update_trip_description_request" kind="class" prot="public">
+    <compoundname>UpdateTripDescriptionRequest</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_update_trip_description_request_1a8b6ea12c1258a1aff48c34db4bb6da05" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UpdateTripDescriptionRequest::tripID</definition>
+        <argsstring></argsstring>
+        <name>tripID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="509" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="509" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_update_trip_description_request_1a8f6c6a9797f6bd5826ebc912f3f1d78a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UpdateTripDescriptionRequest::tripDescription</definition>
+        <argsstring></argsstring>
+        <name>tripDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="512" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="512" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_update_trip_description_request_1ad34932e85fdfa5182912f99ccae56406" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UpdateTripDescriptionRequest.UpdateTripDescriptionRequest</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateTripDescriptionRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="515" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="514" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="class_update_trip_description_request_1a12ac8a322b9a1cfe211ad2e535cef1a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UpdateTripDescriptionRequest.UpdateTripDescriptionRequest</definition>
+        <argsstring>(int tripID, string tripDescription)</argsstring>
+        <name>UpdateTripDescriptionRequest</name>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="519" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="518" bodyend="522"/>
+      </memberdef>
+      <memberdef kind="function" id="class_update_trip_description_request_1ad34932e85fdfa5182912f99ccae56406" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UpdateTripDescriptionRequest.UpdateTripDescriptionRequest</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateTripDescriptionRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="515" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="514" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="class_update_trip_description_request_1a12ac8a322b9a1cfe211ad2e535cef1a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UpdateTripDescriptionRequest.UpdateTripDescriptionRequest</definition>
+        <argsstring>(int tripID, string tripDescription)</argsstring>
+        <name>UpdateTripDescriptionRequest</name>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="519" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="518" bodyend="522"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="506" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="505" bodyend="523"/>
+    <listofallmembers>
+      <member refid="class_update_trip_description_request_1a8f6c6a9797f6bd5826ebc912f3f1d78a" prot="public" virt="non-virtual"><scope>UpdateTripDescriptionRequest</scope><name>tripDescription</name></member>
+      <member refid="class_update_trip_description_request_1a8b6ea12c1258a1aff48c34db4bb6da05" prot="public" virt="non-virtual"><scope>UpdateTripDescriptionRequest</scope><name>tripID</name></member>
+      <member refid="class_update_trip_description_request_1ad34932e85fdfa5182912f99ccae56406" prot="public" virt="non-virtual"><scope>UpdateTripDescriptionRequest</scope><name>UpdateTripDescriptionRequest</name></member>
+      <member refid="class_update_trip_description_request_1a12ac8a322b9a1cfe211ad2e535cef1a0" prot="public" virt="non-virtual"><scope>UpdateTripDescriptionRequest</scope><name>UpdateTripDescriptionRequest</name></member>
+      <member refid="class_update_trip_description_request_1ad34932e85fdfa5182912f99ccae56406" prot="public" virt="non-virtual"><scope>UpdateTripDescriptionRequest</scope><name>UpdateTripDescriptionRequest</name></member>
+      <member refid="class_update_trip_description_request_1a12ac8a322b9a1cfe211ad2e535cef1a0" prot="public" virt="non-virtual"><scope>UpdateTripDescriptionRequest</scope><name>UpdateTripDescriptionRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

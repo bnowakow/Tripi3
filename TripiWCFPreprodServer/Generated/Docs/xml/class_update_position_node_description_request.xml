@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_update_position_node_description_request" kind="class" prot="public">
+    <compoundname>UpdatePositionNodeDescriptionRequest</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_update_position_node_description_request_1af0d00f58de4bcd303cfcd41944511fa7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UpdatePositionNodeDescriptionRequest::tripID</definition>
+        <argsstring></argsstring>
+        <name>tripID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="651" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="651" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_update_position_node_description_request_1ab75aabd4597ac0ce6ccfd6f47267a714" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UpdatePositionNodeDescriptionRequest::nodeNumber</definition>
+        <argsstring></argsstring>
+        <name>nodeNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="654" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="654" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_update_position_node_description_request_1a99575267e5dd5518c0e54747b900fe00" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string UpdatePositionNodeDescriptionRequest::nodeDescription</definition>
+        <argsstring></argsstring>
+        <name>nodeDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="657" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="657" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_update_position_node_description_request_1ac3b1549e6b622f334f3efc13b872043c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UpdatePositionNodeDescriptionRequest.UpdatePositionNodeDescriptionRequest</definition>
+        <argsstring>()</argsstring>
+        <name>UpdatePositionNodeDescriptionRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="660" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="659" bodyend="661"/>
+      </memberdef>
+      <memberdef kind="function" id="class_update_position_node_description_request_1a5727aad8adbd42e6a32d6d38c0333098" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UpdatePositionNodeDescriptionRequest.UpdatePositionNodeDescriptionRequest</definition>
+        <argsstring>(int tripID, int nodeNumber, string nodeDescription)</argsstring>
+        <name>UpdatePositionNodeDescriptionRequest</name>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodeNumber</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nodeDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="664" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="663" bodyend="668"/>
+      </memberdef>
+      <memberdef kind="function" id="class_update_position_node_description_request_1ac3b1549e6b622f334f3efc13b872043c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UpdatePositionNodeDescriptionRequest.UpdatePositionNodeDescriptionRequest</definition>
+        <argsstring>()</argsstring>
+        <name>UpdatePositionNodeDescriptionRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="660" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="659" bodyend="661"/>
+      </memberdef>
+      <memberdef kind="function" id="class_update_position_node_description_request_1a5727aad8adbd42e6a32d6d38c0333098" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UpdatePositionNodeDescriptionRequest.UpdatePositionNodeDescriptionRequest</definition>
+        <argsstring>(int tripID, int nodeNumber, string nodeDescription)</argsstring>
+        <name>UpdatePositionNodeDescriptionRequest</name>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodeNumber</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nodeDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="664" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="663" bodyend="668"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="648" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="647" bodyend="669"/>
+    <listofallmembers>
+      <member refid="class_update_position_node_description_request_1a99575267e5dd5518c0e54747b900fe00" prot="public" virt="non-virtual"><scope>UpdatePositionNodeDescriptionRequest</scope><name>nodeDescription</name></member>
+      <member refid="class_update_position_node_description_request_1ab75aabd4597ac0ce6ccfd6f47267a714" prot="public" virt="non-virtual"><scope>UpdatePositionNodeDescriptionRequest</scope><name>nodeNumber</name></member>
+      <member refid="class_update_position_node_description_request_1af0d00f58de4bcd303cfcd41944511fa7" prot="public" virt="non-virtual"><scope>UpdatePositionNodeDescriptionRequest</scope><name>tripID</name></member>
+      <member refid="class_update_position_node_description_request_1ac3b1549e6b622f334f3efc13b872043c" prot="public" virt="non-virtual"><scope>UpdatePositionNodeDescriptionRequest</scope><name>UpdatePositionNodeDescriptionRequest</name></member>
+      <member refid="class_update_position_node_description_request_1a5727aad8adbd42e6a32d6d38c0333098" prot="public" virt="non-virtual"><scope>UpdatePositionNodeDescriptionRequest</scope><name>UpdatePositionNodeDescriptionRequest</name></member>
+      <member refid="class_update_position_node_description_request_1ac3b1549e6b622f334f3efc13b872043c" prot="public" virt="non-virtual"><scope>UpdatePositionNodeDescriptionRequest</scope><name>UpdatePositionNodeDescriptionRequest</name></member>
+      <member refid="class_update_position_node_description_request_1a5727aad8adbd42e6a32d6d38c0333098" prot="public" virt="non-virtual"><scope>UpdatePositionNodeDescriptionRequest</scope><name>UpdatePositionNodeDescriptionRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

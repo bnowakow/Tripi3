@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="dir_5750c75f9281e3c3a199aa8593ba68cf" kind="dir">
+    <compoundname>Tripi/</compoundname>
+    <innerdir refid="dir_761e69411d072597887f5fa8983edd24">Tripi/App_Code/</innerdir>
+    <innerdir refid="dir_10ca86f2878c656ae3e9833efc6b750e">Tripi/Properties/</innerdir>
+    <innerfile refid="_about_8aspx_8cs">About.aspx.cs</innerfile>
+    <innerfile refid="_default_8aspx_8cs">Default.aspx.cs</innerfile>
+    <innerfile refid="_default_8aspx_8designer_8cs">Default.aspx.designer.cs</innerfile>
+    <innerfile refid="_login_8aspx_8cs">Login.aspx.cs</innerfile>
+    <innerfile refid="_one_column_with_footer_8_master_8cs">OneColumnWithFooter.Master.cs</innerfile>
+    <innerfile refid="_proxy_tripi_w_c_f_service_8cs">ProxyTripiWCFService.cs</innerfile>
+    <innerfile refid="_trips_8aspx_8cs">Trips.aspx.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/"/>
+  </compounddef>
+</doxygen>

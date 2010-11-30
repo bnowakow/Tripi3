@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1_tripi_w_c_f_remote_1_1_trip" kind="class" prot="public">
+    <compoundname>Tripi::TripiWCFRemote::Trip</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_trip_1a8fa149e8aa183d0e934abd5a61199680" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Tripi.TripiWCFRemote.Trip.idField</definition>
+        <argsstring></argsstring>
+        <name>idField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="128" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_trip_1a5fb8cc15bfe9cfde9bc95810a571cf3a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Tripi.TripiWCFRemote.Trip.idFieldSpecified</definition>
+        <argsstring></argsstring>
+        <name>idFieldSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="130" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_trip_1a177f1632882db96fa7a0a11d66f2a791" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Tripi.TripiWCFRemote.Trip.usernameField</definition>
+        <argsstring></argsstring>
+        <name>usernameField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="132" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_trip_1af840faab34277484ab4ac506a3f899ac" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Tripi.TripiWCFRemote.Trip.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="142" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_trip_1ac36b3aa1be08ff8f5c1bc1d3f8eae8df" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Tripi.TripiWCFRemote.Trip.IDSpecified</definition>
+        <argsstring></argsstring>
+        <name>IDSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="153" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_1_1_tripi_w_c_f_remote_1_1_trip_1a71c7e08086db890705e559647d3ef31a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Tripi.TripiWCFRemote.Trip.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="164" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="126" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" bodystart="126" bodyend="165"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_trip_1af840faab34277484ab4ac506a3f899ac" prot="public" virt="non-virtual"><scope>Tripi::TripiWCFRemote::Trip</scope><name>ID</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_trip_1a8fa149e8aa183d0e934abd5a61199680" prot="private" virt="non-virtual"><scope>Tripi::TripiWCFRemote::Trip</scope><name>idField</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_trip_1a5fb8cc15bfe9cfde9bc95810a571cf3a" prot="private" virt="non-virtual"><scope>Tripi::TripiWCFRemote::Trip</scope><name>idFieldSpecified</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_trip_1ac36b3aa1be08ff8f5c1bc1d3f8eae8df" prot="public" virt="non-virtual"><scope>Tripi::TripiWCFRemote::Trip</scope><name>IDSpecified</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_trip_1a71c7e08086db890705e559647d3ef31a" prot="public" virt="non-virtual"><scope>Tripi::TripiWCFRemote::Trip</scope><name>Username</name></member>
+      <member refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_trip_1a177f1632882db96fa7a0a11d66f2a791" prot="private" virt="non-virtual"><scope>Tripi::TripiWCFRemote::Trip</scope><name>usernameField</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

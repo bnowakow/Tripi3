@@ -1,0 +1,378 @@
+\hypertarget{interface_i_trip_service}{
+\section{ITripService Interface Reference}
+\label{interface_i_trip_service}\index{ITripService@{ITripService}}
+}
+Inheritance diagram for ITripService::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=11cm]{interface_i_trip_service}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{interface_i_trip_service_accdd4e0d4a074528f564f8966d309fe2}{
+System.IAsyncResult {\bfseries BeginCreateNewTrip} (string username, string tripName, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_accdd4e0d4a074528f564f8966d309fe2}
+
+\item 
+\hypertarget{interface_i_trip_service_a4ab63e3c4e872d664327bb05567a8f00}{
+int {\bfseries EndCreateNewTrip} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a4ab63e3c4e872d664327bb05567a8f00}
+
+\item 
+\hypertarget{interface_i_trip_service_abdab35d0a03c32a7fcdb9b7e21840466}{
+System.IAsyncResult {\bfseries BeginGetTripsForUser} (string username, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_abdab35d0a03c32a7fcdb9b7e21840466}
+
+\item 
+\hypertarget{interface_i_trip_service_ad57b12311e0753b7f3b1c47f2da219eb}{
+\hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip}{TripiWCF.Service.Trip}\mbox{[}$\,$\mbox{]} {\bfseries EndGetTripsForUser} (System.IAsyncResult result)}
+\label{interface_i_trip_service_ad57b12311e0753b7f3b1c47f2da219eb}
+
+\item 
+\hypertarget{interface_i_trip_service_af59f015a6ee2bcdae06759d153a0f87d}{
+System.IAsyncResult {\bfseries BeginGetPositionNodesForTrip} (int tripID, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_af59f015a6ee2bcdae06759d153a0f87d}
+
+\item 
+\hypertarget{interface_i_trip_service_a6f522a89afc016164069f8c983d6b637}{
+\hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{TripiWCF.Service.PositionNode}\mbox{[}$\,$\mbox{]} {\bfseries EndGetPositionNodesForTrip} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a6f522a89afc016164069f8c983d6b637}
+
+\item 
+\hypertarget{interface_i_trip_service_a740f261ae2d3cdb5d57473f05d7403da}{
+System.IAsyncResult {\bfseries BeginAddPositionNode} (\hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{TripiWCF.Service.PositionNode} node, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_a740f261ae2d3cdb5d57473f05d7403da}
+
+\item 
+\hypertarget{interface_i_trip_service_ac8238f88b8fd49bb1b9fb44dc1029c75}{
+void {\bfseries EndAddPositionNode} (System.IAsyncResult result)}
+\label{interface_i_trip_service_ac8238f88b8fd49bb1b9fb44dc1029c75}
+
+\item 
+\hypertarget{interface_i_trip_service_a3cfbf7045ee856c9e0d1753f992cb53f}{
+System.IAsyncResult {\bfseries BeginLoginUser} (string username, string password, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_a3cfbf7045ee856c9e0d1753f992cb53f}
+
+\item 
+\hypertarget{interface_i_trip_service_a21f809101de7e9dada87257f2a8c7e0c}{
+string {\bfseries EndLoginUser} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a21f809101de7e9dada87257f2a8c7e0c}
+
+\item 
+\hypertarget{interface_i_trip_service_ae3fabcd67ada0535675545b896783a1d}{
+System.IAsyncResult {\bfseries BeginCreateNewTrip} (string username, string tripName, string tripDescription, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_ae3fabcd67ada0535675545b896783a1d}
+
+\item 
+\hypertarget{interface_i_trip_service_a4ab63e3c4e872d664327bb05567a8f00}{
+int {\bfseries EndCreateNewTrip} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a4ab63e3c4e872d664327bb05567a8f00}
+
+\item 
+\hypertarget{interface_i_trip_service_ab525f5aa33b4435b09cc95e931f2a31d}{
+System.IAsyncResult {\bfseries BeginGetAllTrips} (System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_ab525f5aa33b4435b09cc95e931f2a31d}
+
+\item 
+\hypertarget{interface_i_trip_service_a9d8cd1ccbde0f4a84bf990c2287ab336}{
+\hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip}{TripiWCF.Service.Trip}\mbox{[}$\,$\mbox{]} {\bfseries EndGetAllTrips} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a9d8cd1ccbde0f4a84bf990c2287ab336}
+
+\item 
+\hypertarget{interface_i_trip_service_abdab35d0a03c32a7fcdb9b7e21840466}{
+System.IAsyncResult {\bfseries BeginGetTripsForUser} (string username, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_abdab35d0a03c32a7fcdb9b7e21840466}
+
+\item 
+\hypertarget{interface_i_trip_service_ad57b12311e0753b7f3b1c47f2da219eb}{
+\hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip}{TripiWCF.Service.Trip}\mbox{[}$\,$\mbox{]} {\bfseries EndGetTripsForUser} (System.IAsyncResult result)}
+\label{interface_i_trip_service_ad57b12311e0753b7f3b1c47f2da219eb}
+
+\item 
+\hypertarget{interface_i_trip_service_a92fb1d528f49e637e6a404ec7067451d}{
+System.IAsyncResult {\bfseries BeginUpdateTripDescription} (int tripID, string tripDescription, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_a92fb1d528f49e637e6a404ec7067451d}
+
+\item 
+\hypertarget{interface_i_trip_service_aeed5f3cb84fc59f5eb538acd6756a526}{
+void {\bfseries EndUpdateTripDescription} (System.IAsyncResult result)}
+\label{interface_i_trip_service_aeed5f3cb84fc59f5eb538acd6756a526}
+
+\item 
+\hypertarget{interface_i_trip_service_a740f261ae2d3cdb5d57473f05d7403da}{
+System.IAsyncResult {\bfseries BeginAddPositionNode} (\hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{TripiWCF.Service.PositionNode} node, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_a740f261ae2d3cdb5d57473f05d7403da}
+
+\item 
+\hypertarget{interface_i_trip_service_a5f76b4a7687512857c9de09ae480d534}{
+int {\bfseries EndAddPositionNode} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a5f76b4a7687512857c9de09ae480d534}
+
+\item 
+\hypertarget{interface_i_trip_service_ab2930b15213c89efc21d149687c5a041}{
+System.IAsyncResult {\bfseries BeginAddManyPositionNodes} (\hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{TripiWCF.Service.PositionNode}\mbox{[}$\,$\mbox{]} nodes, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_ab2930b15213c89efc21d149687c5a041}
+
+\item 
+\hypertarget{interface_i_trip_service_a57e8dd6c318566368660f4ec1d80c06e}{
+void {\bfseries EndAddManyPositionNodes} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a57e8dd6c318566368660f4ec1d80c06e}
+
+\item 
+\hypertarget{interface_i_trip_service_af59f015a6ee2bcdae06759d153a0f87d}{
+System.IAsyncResult {\bfseries BeginGetPositionNodesForTrip} (int tripID, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_af59f015a6ee2bcdae06759d153a0f87d}
+
+\item 
+\hypertarget{interface_i_trip_service_a6f522a89afc016164069f8c983d6b637}{
+\hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{TripiWCF.Service.PositionNode}\mbox{[}$\,$\mbox{]} {\bfseries EndGetPositionNodesForTrip} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a6f522a89afc016164069f8c983d6b637}
+
+\item 
+\hypertarget{interface_i_trip_service_a25bc5f482b3f730ed3dd65962ca45e56}{
+System.IAsyncResult {\bfseries BeginUpdatePositionNodeDescription} (int tripID, int nodeNumber, string nodeDescription, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_a25bc5f482b3f730ed3dd65962ca45e56}
+
+\item 
+\hypertarget{interface_i_trip_service_a56343a5afbaa09e01eb3c01eccc5eee7}{
+void {\bfseries EndUpdatePositionNodeDescription} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a56343a5afbaa09e01eb3c01eccc5eee7}
+
+\item 
+\hypertarget{interface_i_trip_service_accdd4e0d4a074528f564f8966d309fe2}{
+System.IAsyncResult {\bfseries BeginCreateNewTrip} (string username, string tripName, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_accdd4e0d4a074528f564f8966d309fe2}
+
+\item 
+\hypertarget{interface_i_trip_service_a4ab63e3c4e872d664327bb05567a8f00}{
+int {\bfseries EndCreateNewTrip} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a4ab63e3c4e872d664327bb05567a8f00}
+
+\item 
+\hypertarget{interface_i_trip_service_abdab35d0a03c32a7fcdb9b7e21840466}{
+System.IAsyncResult {\bfseries BeginGetTripsForUser} (string username, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_abdab35d0a03c32a7fcdb9b7e21840466}
+
+\item 
+\hypertarget{interface_i_trip_service_ad57b12311e0753b7f3b1c47f2da219eb}{
+\hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip}{TripiWCF.Service.Trip}\mbox{[}$\,$\mbox{]} {\bfseries EndGetTripsForUser} (System.IAsyncResult result)}
+\label{interface_i_trip_service_ad57b12311e0753b7f3b1c47f2da219eb}
+
+\item 
+\hypertarget{interface_i_trip_service_af59f015a6ee2bcdae06759d153a0f87d}{
+System.IAsyncResult {\bfseries BeginGetPositionNodesForTrip} (int tripID, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_af59f015a6ee2bcdae06759d153a0f87d}
+
+\item 
+\hypertarget{interface_i_trip_service_a6f522a89afc016164069f8c983d6b637}{
+\hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{TripiWCF.Service.PositionNode}\mbox{[}$\,$\mbox{]} {\bfseries EndGetPositionNodesForTrip} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a6f522a89afc016164069f8c983d6b637}
+
+\item 
+\hypertarget{interface_i_trip_service_a740f261ae2d3cdb5d57473f05d7403da}{
+System.IAsyncResult {\bfseries BeginAddPositionNode} (\hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{TripiWCF.Service.PositionNode} node, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_a740f261ae2d3cdb5d57473f05d7403da}
+
+\item 
+\hypertarget{interface_i_trip_service_ac8238f88b8fd49bb1b9fb44dc1029c75}{
+void {\bfseries EndAddPositionNode} (System.IAsyncResult result)}
+\label{interface_i_trip_service_ac8238f88b8fd49bb1b9fb44dc1029c75}
+
+\item 
+\hypertarget{interface_i_trip_service_ae7dad8ff13217bc8d97f43db7375c4c2}{
+string {\bfseries LoginUser} (string username, string password)}
+\label{interface_i_trip_service_ae7dad8ff13217bc8d97f43db7375c4c2}
+
+\item 
+\hypertarget{interface_i_trip_service_a6100ef3e23a8398c61e56ab12019bf29}{
+int {\bfseries CreateNewTrip} (string username, string tripName, string tripDescription)}
+\label{interface_i_trip_service_a6100ef3e23a8398c61e56ab12019bf29}
+
+\item 
+\hypertarget{interface_i_trip_service_ac6c4304690c75b8403afc111748cb6c4}{
+\hyperlink{class_trip}{Trip}\mbox{[}$\,$\mbox{]} {\bfseries GetAllTrips} ()}
+\label{interface_i_trip_service_ac6c4304690c75b8403afc111748cb6c4}
+
+\item 
+\hypertarget{interface_i_trip_service_a395882f03013b68ff9c855b6e78cb791}{
+\hyperlink{class_trip}{Trip}\mbox{[}$\,$\mbox{]} {\bfseries GetTripsForUser} (string username)}
+\label{interface_i_trip_service_a395882f03013b68ff9c855b6e78cb791}
+
+\item 
+\hypertarget{interface_i_trip_service_a06b0e6ffa6675f1d7767fa6ac3399eda}{
+void {\bfseries UpdateTripDescription} (int tripID, string tripDescription)}
+\label{interface_i_trip_service_a06b0e6ffa6675f1d7767fa6ac3399eda}
+
+\item 
+\hypertarget{interface_i_trip_service_a1e18a8d9d2427b9794090e666bb549b2}{
+int {\bfseries AddPositionNode} (\hyperlink{class_position_node}{PositionNode} node)}
+\label{interface_i_trip_service_a1e18a8d9d2427b9794090e666bb549b2}
+
+\item 
+\hypertarget{interface_i_trip_service_a989bf5b377fd78dfd00917c9512eabec}{
+void {\bfseries AddManyPositionNodes} (\hyperlink{class_position_node}{PositionNode}\mbox{[}$\,$\mbox{]} nodes)}
+\label{interface_i_trip_service_a989bf5b377fd78dfd00917c9512eabec}
+
+\item 
+\hypertarget{interface_i_trip_service_aa28312fa4e26d384fefa7456ac8d7c59}{
+\hyperlink{class_position_node}{PositionNode}\mbox{[}$\,$\mbox{]} {\bfseries GetPositionNodesForTrip} (int tripID)}
+\label{interface_i_trip_service_aa28312fa4e26d384fefa7456ac8d7c59}
+
+\item 
+\hypertarget{interface_i_trip_service_a040f8ed636dd2f3e4a4fa059cfc9eada}{
+void {\bfseries UpdatePositionNodeDescription} (int tripID, int nodeNumber, string nodeDescription)}
+\label{interface_i_trip_service_a040f8ed636dd2f3e4a4fa059cfc9eada}
+
+\item 
+\hypertarget{interface_i_trip_service_ae7dad8ff13217bc8d97f43db7375c4c2}{
+string {\bfseries LoginUser} (string username, string password)}
+\label{interface_i_trip_service_ae7dad8ff13217bc8d97f43db7375c4c2}
+
+\item 
+\hypertarget{interface_i_trip_service_a6100ef3e23a8398c61e56ab12019bf29}{
+int {\bfseries CreateNewTrip} (string username, string tripName, string tripDescription)}
+\label{interface_i_trip_service_a6100ef3e23a8398c61e56ab12019bf29}
+
+\item 
+\hypertarget{interface_i_trip_service_ac6c4304690c75b8403afc111748cb6c4}{
+\hyperlink{class_trip}{Trip}\mbox{[}$\,$\mbox{]} {\bfseries GetAllTrips} ()}
+\label{interface_i_trip_service_ac6c4304690c75b8403afc111748cb6c4}
+
+\item 
+\hypertarget{interface_i_trip_service_a395882f03013b68ff9c855b6e78cb791}{
+\hyperlink{class_trip}{Trip}\mbox{[}$\,$\mbox{]} {\bfseries GetTripsForUser} (string username)}
+\label{interface_i_trip_service_a395882f03013b68ff9c855b6e78cb791}
+
+\item 
+\hypertarget{interface_i_trip_service_a06b0e6ffa6675f1d7767fa6ac3399eda}{
+void {\bfseries UpdateTripDescription} (int tripID, string tripDescription)}
+\label{interface_i_trip_service_a06b0e6ffa6675f1d7767fa6ac3399eda}
+
+\item 
+\hypertarget{interface_i_trip_service_a1e18a8d9d2427b9794090e666bb549b2}{
+int {\bfseries AddPositionNode} (\hyperlink{class_position_node}{PositionNode} node)}
+\label{interface_i_trip_service_a1e18a8d9d2427b9794090e666bb549b2}
+
+\item 
+\hypertarget{interface_i_trip_service_a989bf5b377fd78dfd00917c9512eabec}{
+void {\bfseries AddManyPositionNodes} (\hyperlink{class_position_node}{PositionNode}\mbox{[}$\,$\mbox{]} nodes)}
+\label{interface_i_trip_service_a989bf5b377fd78dfd00917c9512eabec}
+
+\item 
+\hypertarget{interface_i_trip_service_aa28312fa4e26d384fefa7456ac8d7c59}{
+\hyperlink{class_position_node}{PositionNode}\mbox{[}$\,$\mbox{]} {\bfseries GetPositionNodesForTrip} (int tripID)}
+\label{interface_i_trip_service_aa28312fa4e26d384fefa7456ac8d7c59}
+
+\item 
+\hypertarget{interface_i_trip_service_a040f8ed636dd2f3e4a4fa059cfc9eada}{
+void {\bfseries UpdatePositionNodeDescription} (int tripID, int nodeNumber, string nodeDescription)}
+\label{interface_i_trip_service_a040f8ed636dd2f3e4a4fa059cfc9eada}
+
+\item 
+\hypertarget{interface_i_trip_service_a3cfbf7045ee856c9e0d1753f992cb53f}{
+System.IAsyncResult {\bfseries BeginLoginUser} (string username, string password, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_a3cfbf7045ee856c9e0d1753f992cb53f}
+
+\item 
+\hypertarget{interface_i_trip_service_a21f809101de7e9dada87257f2a8c7e0c}{
+string {\bfseries EndLoginUser} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a21f809101de7e9dada87257f2a8c7e0c}
+
+\item 
+\hypertarget{interface_i_trip_service_ae3fabcd67ada0535675545b896783a1d}{
+System.IAsyncResult {\bfseries BeginCreateNewTrip} (string username, string tripName, string tripDescription, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_ae3fabcd67ada0535675545b896783a1d}
+
+\item 
+\hypertarget{interface_i_trip_service_a4ab63e3c4e872d664327bb05567a8f00}{
+int {\bfseries EndCreateNewTrip} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a4ab63e3c4e872d664327bb05567a8f00}
+
+\item 
+\hypertarget{interface_i_trip_service_ab525f5aa33b4435b09cc95e931f2a31d}{
+System.IAsyncResult {\bfseries BeginGetAllTrips} (System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_ab525f5aa33b4435b09cc95e931f2a31d}
+
+\item 
+\hypertarget{interface_i_trip_service_a9d8cd1ccbde0f4a84bf990c2287ab336}{
+\hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip}{TripiWCF.Service.Trip}\mbox{[}$\,$\mbox{]} {\bfseries EndGetAllTrips} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a9d8cd1ccbde0f4a84bf990c2287ab336}
+
+\item 
+\hypertarget{interface_i_trip_service_abdab35d0a03c32a7fcdb9b7e21840466}{
+System.IAsyncResult {\bfseries BeginGetTripsForUser} (string username, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_abdab35d0a03c32a7fcdb9b7e21840466}
+
+\item 
+\hypertarget{interface_i_trip_service_ad57b12311e0753b7f3b1c47f2da219eb}{
+\hyperlink{class_tripi_w_c_f_1_1_service_1_1_trip}{TripiWCF.Service.Trip}\mbox{[}$\,$\mbox{]} {\bfseries EndGetTripsForUser} (System.IAsyncResult result)}
+\label{interface_i_trip_service_ad57b12311e0753b7f3b1c47f2da219eb}
+
+\item 
+\hypertarget{interface_i_trip_service_a92fb1d528f49e637e6a404ec7067451d}{
+System.IAsyncResult {\bfseries BeginUpdateTripDescription} (int tripID, string tripDescription, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_a92fb1d528f49e637e6a404ec7067451d}
+
+\item 
+\hypertarget{interface_i_trip_service_aeed5f3cb84fc59f5eb538acd6756a526}{
+void {\bfseries EndUpdateTripDescription} (System.IAsyncResult result)}
+\label{interface_i_trip_service_aeed5f3cb84fc59f5eb538acd6756a526}
+
+\item 
+\hypertarget{interface_i_trip_service_a740f261ae2d3cdb5d57473f05d7403da}{
+System.IAsyncResult {\bfseries BeginAddPositionNode} (\hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{TripiWCF.Service.PositionNode} node, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_a740f261ae2d3cdb5d57473f05d7403da}
+
+\item 
+\hypertarget{interface_i_trip_service_a5f76b4a7687512857c9de09ae480d534}{
+int {\bfseries EndAddPositionNode} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a5f76b4a7687512857c9de09ae480d534}
+
+\item 
+\hypertarget{interface_i_trip_service_ab2930b15213c89efc21d149687c5a041}{
+System.IAsyncResult {\bfseries BeginAddManyPositionNodes} (\hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{TripiWCF.Service.PositionNode}\mbox{[}$\,$\mbox{]} nodes, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_ab2930b15213c89efc21d149687c5a041}
+
+\item 
+\hypertarget{interface_i_trip_service_a57e8dd6c318566368660f4ec1d80c06e}{
+void {\bfseries EndAddManyPositionNodes} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a57e8dd6c318566368660f4ec1d80c06e}
+
+\item 
+\hypertarget{interface_i_trip_service_af59f015a6ee2bcdae06759d153a0f87d}{
+System.IAsyncResult {\bfseries BeginGetPositionNodesForTrip} (int tripID, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_af59f015a6ee2bcdae06759d153a0f87d}
+
+\item 
+\hypertarget{interface_i_trip_service_a6f522a89afc016164069f8c983d6b637}{
+\hyperlink{class_tripi_w_c_f_1_1_service_1_1_position_node}{TripiWCF.Service.PositionNode}\mbox{[}$\,$\mbox{]} {\bfseries EndGetPositionNodesForTrip} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a6f522a89afc016164069f8c983d6b637}
+
+\item 
+\hypertarget{interface_i_trip_service_a25bc5f482b3f730ed3dd65962ca45e56}{
+System.IAsyncResult {\bfseries BeginUpdatePositionNodeDescription} (int tripID, int nodeNumber, string nodeDescription, System.AsyncCallback callback, object asyncState)}
+\label{interface_i_trip_service_a25bc5f482b3f730ed3dd65962ca45e56}
+
+\item 
+\hypertarget{interface_i_trip_service_a56343a5afbaa09e01eb3c01eccc5eee7}{
+void {\bfseries EndUpdatePositionNodeDescription} (System.IAsyncResult result)}
+\label{interface_i_trip_service_a56343a5afbaa09e01eb3c01eccc5eee7}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 157 of file TripiWCFService.cs.
+
+The documentation for this interface was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+Install/TripiWCFService.cs\item 
+SilverlightShowcase/TripiServiceClient.cs\item 
+SilverlightShowcase/TripiWCFService.cs\item 
+TripiMobile/wcf/TripiWCFService.cs\item 
+TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs\item 
+TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs\end{DoxyCompactItemize}

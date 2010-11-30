@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_add_position_node_request" kind="class" prot="public">
+    <compoundname>AddPositionNodeRequest</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_add_position_node_request_1a98570a553fd4a773e2992f1b30762b50" prot="public" static="no" mutable="no">
+        <type><ref refid="class_position_node" kindref="compound">PositionNode</ref></type>
+        <definition>PositionNode AddPositionNodeRequest::node</definition>
+        <argsstring></argsstring>
+        <name>node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="543" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="543" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_add_position_node_request_1a4ef6c21f413b19811436cc3cbf503676" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AddPositionNodeRequest.AddPositionNodeRequest</definition>
+        <argsstring>()</argsstring>
+        <name>AddPositionNodeRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="546" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="545" bodyend="547"/>
+      </memberdef>
+      <memberdef kind="function" id="class_add_position_node_request_1aa994980cd595f2e2a87610938ca906dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AddPositionNodeRequest.AddPositionNodeRequest</definition>
+        <argsstring>(PositionNode node)</argsstring>
+        <name>AddPositionNodeRequest</name>
+        <param>
+          <type><ref refid="class_position_node" kindref="compound">PositionNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="550" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="549" bodyend="552"/>
+      </memberdef>
+      <memberdef kind="function" id="class_add_position_node_request_1a4ef6c21f413b19811436cc3cbf503676" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AddPositionNodeRequest.AddPositionNodeRequest</definition>
+        <argsstring>()</argsstring>
+        <name>AddPositionNodeRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="546" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="545" bodyend="547"/>
+      </memberdef>
+      <memberdef kind="function" id="class_add_position_node_request_1aa994980cd595f2e2a87610938ca906dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AddPositionNodeRequest.AddPositionNodeRequest</definition>
+        <argsstring>(PositionNode node)</argsstring>
+        <name>AddPositionNodeRequest</name>
+        <param>
+          <type><ref refid="class_position_node" kindref="compound">PositionNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="550" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="549" bodyend="552"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="13">
+        <label>AddPositionNodeRequest</label>
+        <link refid="class_add_position_node_request"/>
+        <childnode refid="14" relation="usage">
+          <edgelabel>node</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>System</label>
+      </node>
+      <node id="14">
+        <label>PositionNode</label>
+        <link refid="class_position_node"/>
+        <childnode refid="15" relation="usage">
+          <edgelabel>creationTimeField</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="540" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="539" bodyend="553"/>
+    <listofallmembers>
+      <member refid="class_add_position_node_request_1a4ef6c21f413b19811436cc3cbf503676" prot="public" virt="non-virtual"><scope>AddPositionNodeRequest</scope><name>AddPositionNodeRequest</name></member>
+      <member refid="class_add_position_node_request_1aa994980cd595f2e2a87610938ca906dd" prot="public" virt="non-virtual"><scope>AddPositionNodeRequest</scope><name>AddPositionNodeRequest</name></member>
+      <member refid="class_add_position_node_request_1a4ef6c21f413b19811436cc3cbf503676" prot="public" virt="non-virtual"><scope>AddPositionNodeRequest</scope><name>AddPositionNodeRequest</name></member>
+      <member refid="class_add_position_node_request_1aa994980cd595f2e2a87610938ca906dd" prot="public" virt="non-virtual"><scope>AddPositionNodeRequest</scope><name>AddPositionNodeRequest</name></member>
+      <member refid="class_add_position_node_request_1a98570a553fd4a773e2992f1b30762b50" prot="public" virt="non-virtual"><scope>AddPositionNodeRequest</scope><name>node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

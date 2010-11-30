@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="_device_state_changed_event_args_8cs" kind="file">
+    <compoundname>DeviceStateChangedEventArgs.cs</compoundname>
+    <innerclass refid="class_g_p_s_mobile_1_1_device_state_changed_event_args" prot="public">GPSMobile::DeviceStateChangedEventArgs</innerclass>
+    <innernamespace refid="namespace_g_p_s_mobile">GPSMobile</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>Microsoft<sp/>Corporation.<sp/><sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Use<sp/>of<sp/>this<sp/>sample<sp/>source<sp/>code<sp/>is<sp/>subject<sp/>to<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>Microsoft</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>license<sp/>agreement<sp/>under<sp/>which<sp/>you<sp/>licensed<sp/>this<sp/>sample<sp/>source<sp/>code.<sp/>If</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>you<sp/>did<sp/>not<sp/>accept<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>license<sp/>agreement,<sp/>you<sp/>are<sp/>not</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>authorized<sp/>to<sp/>use<sp/>this<sp/>sample<sp/>source<sp/>code.<sp/>For<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>license,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>please<sp/>see<sp/>the<sp/>license<sp/>agreement<sp/>between<sp/>you<sp/>and<sp/>Microsoft<sp/>or,<sp/>if<sp/>applicable,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>see<sp/>the<sp/>LICENSE.RTF<sp/>on<sp/>your<sp/>install<sp/>media<sp/>or<sp/>the<sp/>root<sp/>of<sp/>your<sp/>tools<sp/>installation.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>THE<sp/>SAMPLE<sp/>SOURCE<sp/>CODE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITH<sp/>NO<sp/>WARRANTIES<sp/>OR<sp/>INDEMNITIES.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#region<sp/>Using<sp/>directives</highlight></codeline>
+<codeline lineno="14"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endregion</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">GPSMobile</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24" refid="class_g_p_s_mobile_1_1_device_state_changed_event_args" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_g_p_s_mobile_1_1_device_state_changed_event_args" kindref="compound" tooltip="Event args used for DeviceStateChanged event.">DeviceStateChangedEventArgs</ref>:<sp/>EventArgs</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_g_p_s_mobile_1_1_device_state_changed_event_args" kindref="compound" tooltip="Event args used for DeviceStateChanged event.">DeviceStateChangedEventArgs</ref>(<ref refid="class_g_p_s_mobile_1_1_gps_device_state" kindref="compound" tooltip="GpsDeviceState holds the state of the gps device and the friendly name if the gps...">GpsDeviceState</ref><sp/>deviceState)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.deviceState<sp/>=<sp/>deviceState;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_g_p_s_mobile_1_1_gps_device_state" kindref="compound" tooltip="GpsDeviceState holds the state of the gps device and the friendly name if the gps...">GpsDeviceState</ref><sp/><ref refid="class_g_p_s_mobile_1_1_device_state_changed_event_args_1a968ff2111d16cb1036db641703948cb5" kindref="member" tooltip="Gets the new device state when the GPS reports a new device state.">DeviceState</ref></highlight></codeline>
+<codeline lineno="35" refid="class_g_p_s_mobile_1_1_device_state_changed_event_args_1a968ff2111d16cb1036db641703948cb5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>deviceState;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_g_p_s_mobile_1_1_gps_device_state" kindref="compound" tooltip="GpsDeviceState holds the state of the gps device and the friendly name if the gps...">GpsDeviceState</ref><sp/>deviceState;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DeviceStateChangedEventArgs.cs"/>
+  </compounddef>
+</doxygen>

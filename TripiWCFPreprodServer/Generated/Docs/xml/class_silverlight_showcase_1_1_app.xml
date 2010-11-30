@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_silverlight_showcase_1_1_app" kind="class" prot="public">
+    <compoundname>SilverlightShowcase::App</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_silverlight_showcase_1_1_app_1a114f4698d87c8f556401c8cbea2b6495" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SilverlightShowcase.App._contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/App.g.cs" line="38" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/App.g.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_app_1ace7caad266f551909c140c32fbb3a9c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SilverlightShowcase.App.App</definition>
+        <argsstring>()</argsstring>
+        <name>App</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/App.xaml.cs" line="19" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/App.xaml.cs" bodystart="18" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_app_1a17a466874d874ac98e6e7ac337fa5230" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/App.g.cs" line="44" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/obj/Debug/App.g.cs" bodystart="44" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_app_1a7650aaa1c97c83720a2ea428cbd90ab2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.App.Application_Startup</definition>
+        <argsstring>(object sender, StartupEventArgs e)</argsstring>
+        <name>Application_Startup</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>StartupEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/App.xaml.cs" line="28" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/App.xaml.cs" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_app_1a72d4a871b1fa4d94388b2e018a1106b2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.App.Application_Exit</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Application_Exit</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/App.xaml.cs" line="34" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/App.xaml.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_app_1a19e503d3b8077d8342179e54098c6ef3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.App.Application_UnhandledException</definition>
+        <argsstring>(object sender, ApplicationUnhandledExceptionEventArgs e)</argsstring>
+        <name>Application_UnhandledException</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ApplicationUnhandledExceptionEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/App.xaml.cs" line="38" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/App.xaml.cs" bodystart="37" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_silverlight_showcase_1_1_app_1ab599b908eba5b1d2af59b7d5cb54265c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SilverlightShowcase.App.ReportErrorToDOM</definition>
+        <argsstring>(ApplicationUnhandledExceptionEventArgs e)</argsstring>
+        <name>ReportErrorToDOM</name>
+        <param>
+          <type>ApplicationUnhandledExceptionEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/App.xaml.cs" line="54" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/App.xaml.cs" bodystart="53" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/App.xaml.cs" line="17" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/App.xaml.cs" bodystart="16" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_silverlight_showcase_1_1_app_1a114f4698d87c8f556401c8cbea2b6495" prot="private" virt="non-virtual"><scope>SilverlightShowcase::App</scope><name>_contentLoaded</name></member>
+      <member refid="class_silverlight_showcase_1_1_app_1ace7caad266f551909c140c32fbb3a9c8" prot="public" virt="non-virtual"><scope>SilverlightShowcase::App</scope><name>App</name></member>
+      <member refid="class_silverlight_showcase_1_1_app_1a72d4a871b1fa4d94388b2e018a1106b2" prot="private" virt="non-virtual"><scope>SilverlightShowcase::App</scope><name>Application_Exit</name></member>
+      <member refid="class_silverlight_showcase_1_1_app_1a7650aaa1c97c83720a2ea428cbd90ab2" prot="private" virt="non-virtual"><scope>SilverlightShowcase::App</scope><name>Application_Startup</name></member>
+      <member refid="class_silverlight_showcase_1_1_app_1a19e503d3b8077d8342179e54098c6ef3" prot="private" virt="non-virtual"><scope>SilverlightShowcase::App</scope><name>Application_UnhandledException</name></member>
+      <member refid="class_silverlight_showcase_1_1_app_1a17a466874d874ac98e6e7ac337fa5230" prot="public" virt="non-virtual"><scope>SilverlightShowcase::App</scope><name>InitializeComponent</name></member>
+      <member refid="class_silverlight_showcase_1_1_app_1ab599b908eba5b1d2af59b7d5cb54265c" prot="private" virt="non-virtual"><scope>SilverlightShowcase::App</scope><name>ReportErrorToDOM</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

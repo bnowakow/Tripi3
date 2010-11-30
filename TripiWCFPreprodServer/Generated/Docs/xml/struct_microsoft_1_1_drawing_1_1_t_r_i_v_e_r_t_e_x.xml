@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x" kind="struct" prot="public">
+    <compoundname>Microsoft::Drawing::TRIVERTEX</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x_1ad2febaf56a12d270beb2cc083cbb44a5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Microsoft.Drawing.TRIVERTEX.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" line="17" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x_1a8a22f8d0c6ad9ea23d1b33e6949e16e7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Microsoft.Drawing.TRIVERTEX.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" line="18" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x_1aad264b65f0bf8b6c7fa45317ba1d325b" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort Microsoft.Drawing.TRIVERTEX.Red</definition>
+        <argsstring></argsstring>
+        <name>Red</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" line="19" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x_1afd4d6d37d539af2e94170be69f18e973" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort Microsoft.Drawing.TRIVERTEX.Green</definition>
+        <argsstring></argsstring>
+        <name>Green</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" line="20" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x_1a0fb89b1234df0235d2eda179a371bc29" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort Microsoft.Drawing.TRIVERTEX.Blue</definition>
+        <argsstring></argsstring>
+        <name>Blue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" line="21" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x_1aa2c7ae56e14262cf601c0cd558c4b68c" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort Microsoft.Drawing.TRIVERTEX.Alpha</definition>
+        <argsstring></argsstring>
+        <name>Alpha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" line="22" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x_1adb39edebf08e45b7c1bd32ea77b74277" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Microsoft.Drawing.TRIVERTEX.TRIVERTEX</definition>
+        <argsstring>(int x, int y, Color color)</argsstring>
+        <name>TRIVERTEX</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" line="25" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x_1a923a85e7a7c21ce3193233ed9378863c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Microsoft.Drawing.TRIVERTEX.TRIVERTEX</definition>
+        <argsstring>(int x, int y, ushort red, ushort green, ushort blue, ushort alpha)</argsstring>
+        <name>TRIVERTEX</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>red</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>green</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>blue</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" line="31" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" bodystart="27" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" line="16" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" bodystart="15" bodyend="39"/>
+    <listofallmembers>
+      <member refid="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x_1aa2c7ae56e14262cf601c0cd558c4b68c" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::TRIVERTEX</scope><name>Alpha</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x_1a0fb89b1234df0235d2eda179a371bc29" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::TRIVERTEX</scope><name>Blue</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x_1afd4d6d37d539af2e94170be69f18e973" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::TRIVERTEX</scope><name>Green</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x_1aad264b65f0bf8b6c7fa45317ba1d325b" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::TRIVERTEX</scope><name>Red</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x_1adb39edebf08e45b7c1bd32ea77b74277" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::TRIVERTEX</scope><name>TRIVERTEX</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x_1a923a85e7a7c21ce3193233ed9378863c" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::TRIVERTEX</scope><name>TRIVERTEX</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x_1ad2febaf56a12d270beb2cc083cbb44a5" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::TRIVERTEX</scope><name>x</name></member>
+      <member refid="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x_1a8a22f8d0c6ad9ea23d1b33e6949e16e7" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::TRIVERTEX</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

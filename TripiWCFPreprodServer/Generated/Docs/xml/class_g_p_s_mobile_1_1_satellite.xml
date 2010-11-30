@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_g_p_s_mobile_1_1_satellite" kind="class" prot="public">
+    <compoundname>GPSMobile::Satellite</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_satellite_1ac4c7f99e34415b56a44f701f3001fda6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.Satellite.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="84" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_satellite_1ac5453e5d50644a7bbac5e3492b52cdc5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.Satellite.elevation</definition>
+        <argsstring></argsstring>
+        <name>elevation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="101" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_satellite_1ab483bb61f46515aee385799f118e312c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.Satellite.azimuth</definition>
+        <argsstring></argsstring>
+        <name>azimuth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="118" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_satellite_1a41b6f2afb66f7e0cdf8403bea6eb3937" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.Satellite.signalStrength</definition>
+        <argsstring></argsstring>
+        <name>signalStrength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="135" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_satellite_1a52f3dd8cbcb1ba2f70f6dcbd996246f2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int GPSMobile.Satellite.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+<para>Id of the satellite. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="98" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_satellite_1aa16b85b3ccd0946443f480a2c685d5c0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int GPSMobile.Satellite.Elevation</definition>
+        <argsstring></argsstring>
+        <name>Elevation</name>
+        <briefdescription>
+<para>Elevation of the satellite. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="115" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_satellite_1a3f2fdfad9d611ec2d7808dc489b8463b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int GPSMobile.Satellite.Azimuth</definition>
+        <argsstring></argsstring>
+        <name>Azimuth</name>
+        <briefdescription>
+<para>Azimuth of the satellite. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="132" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_satellite_1a1a2411ab8219133b5979291e50f7de31" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int GPSMobile.Satellite.SignalStrength</definition>
+        <argsstring></argsstring>
+        <name>SignalStrength</name>
+        <briefdescription>
+<para>SignalStrenth of the satellite. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="149" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_satellite_1aa3722bf21344733003684e6ab8e04f7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GPSMobile.Satellite.Satellite</definition>
+        <argsstring>()</argsstring>
+        <name>Satellite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="75" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_satellite_1abe898652ebc8e8988e964400eddea0b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GPSMobile.Satellite.Satellite</definition>
+        <argsstring>(int id, int elevation, int azimuth, int signalStrength)</argsstring>
+        <name>Satellite</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>elevation</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>azimuth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>signalStrength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="77" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="76" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="74" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="73" bodyend="151"/>
+    <listofallmembers>
+      <member refid="class_g_p_s_mobile_1_1_satellite_1ab483bb61f46515aee385799f118e312c" prot="private" virt="non-virtual"><scope>GPSMobile::Satellite</scope><name>azimuth</name></member>
+      <member refid="class_g_p_s_mobile_1_1_satellite_1a3f2fdfad9d611ec2d7808dc489b8463b" prot="public" virt="non-virtual"><scope>GPSMobile::Satellite</scope><name>Azimuth</name></member>
+      <member refid="class_g_p_s_mobile_1_1_satellite_1ac5453e5d50644a7bbac5e3492b52cdc5" prot="private" virt="non-virtual"><scope>GPSMobile::Satellite</scope><name>elevation</name></member>
+      <member refid="class_g_p_s_mobile_1_1_satellite_1aa16b85b3ccd0946443f480a2c685d5c0" prot="public" virt="non-virtual"><scope>GPSMobile::Satellite</scope><name>Elevation</name></member>
+      <member refid="class_g_p_s_mobile_1_1_satellite_1a52f3dd8cbcb1ba2f70f6dcbd996246f2" prot="public" virt="non-virtual"><scope>GPSMobile::Satellite</scope><name>Id</name></member>
+      <member refid="class_g_p_s_mobile_1_1_satellite_1ac4c7f99e34415b56a44f701f3001fda6" prot="private" virt="non-virtual"><scope>GPSMobile::Satellite</scope><name>id</name></member>
+      <member refid="class_g_p_s_mobile_1_1_satellite_1aa3722bf21344733003684e6ab8e04f7a" prot="public" virt="non-virtual"><scope>GPSMobile::Satellite</scope><name>Satellite</name></member>
+      <member refid="class_g_p_s_mobile_1_1_satellite_1abe898652ebc8e8988e964400eddea0b1" prot="public" virt="non-virtual"><scope>GPSMobile::Satellite</scope><name>Satellite</name></member>
+      <member refid="class_g_p_s_mobile_1_1_satellite_1a1a2411ab8219133b5979291e50f7de31" prot="public" virt="non-virtual"><scope>GPSMobile::Satellite</scope><name>SignalStrength</name></member>
+      <member refid="class_g_p_s_mobile_1_1_satellite_1a41b6f2afb66f7e0cdf8403bea6eb3937" prot="private" virt="non-virtual"><scope>GPSMobile::Satellite</scope><name>signalStrength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

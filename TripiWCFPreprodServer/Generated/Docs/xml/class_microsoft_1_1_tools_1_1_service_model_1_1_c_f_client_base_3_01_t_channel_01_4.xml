@@ -1,0 +1,685 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4" kind="class" prot="public">
+    <compoundname>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</compoundname>
+    <innerclass refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer" prot="private">Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</innerclass>
+    <innerclass refid="struct_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_info" prot="protected">Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializerInfo</innerclass>
+    <innerclass refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_invoke_info" prot="protected">Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFInvokeInfo</innerclass>
+    <templateparamlist>
+      <param>
+        <type>TChannel</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1abc9033bc2192aa4d5ced4b334ccabd78" prot="private" static="no" mutable="no">
+        <type>System.ServiceModel.Channels.Binding</type>
+        <definition>System ServiceModel Channels Binding Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;::binding</definition>
+        <argsstring></argsstring>
+        <name>binding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="21" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a6f1195bffa2acdc15d98f1eedceeedb5" prot="private" static="no" mutable="no">
+        <type>System.ServiceModel.Channels.CustomBinding</type>
+        <definition>System ServiceModel Channels CustomBinding Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;::oneWayBinding</definition>
+        <argsstring></argsstring>
+        <name>oneWayBinding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="23" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a63f5c261aa659fecba9a2a5eea031db5" prot="private" static="no" mutable="no">
+        <type>System.ServiceModel.Channels.IChannelFactory&lt; System.ServiceModel.Channels.IRequestChannel &gt;</type>
+        <definition>System ServiceModel Channels IChannelFactory&lt; System.ServiceModel.Channels.IRequestChannel &gt; Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;::_requestChannelFactory</definition>
+        <argsstring></argsstring>
+        <name>_requestChannelFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="25" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1aac60d9e68744fc361ff355d4a508e148" prot="private" static="no" mutable="no">
+        <type>System.ServiceModel.Channels.IChannelFactory&lt; System.ServiceModel.Channels.IOutputChannel &gt;</type>
+        <definition>System ServiceModel Channels IChannelFactory&lt; System.ServiceModel.Channels.IOutputChannel &gt; Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;::_outputChannelFactory</definition>
+        <argsstring></argsstring>
+        <name>_outputChannelFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="27" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a1c4d2b8c646b9578d144d5ea75454941" prot="private" static="no" mutable="no">
+        <type>System.ServiceModel.Description.ClientCredentials</type>
+        <definition>System ServiceModel Description ClientCredentials Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;::_clientCredentials</definition>
+        <argsstring></argsstring>
+        <name>_clientCredentials</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="29" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a3f609b33fd6f05b90566be90ed005afc" prot="private" static="no" mutable="no">
+        <type>System.ServiceModel.EndpointAddress</type>
+        <definition>System ServiceModel EndpointAddress Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;::remoteAddress</definition>
+        <argsstring></argsstring>
+        <name>remoteAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="31" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1af869ed47910bc3a7966702a34c2a3953" prot="private" static="no" mutable="no">
+        <type>System.ServiceModel.Channels.BindingParameterCollection</type>
+        <definition>System ServiceModel Channels BindingParameterCollection Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;::_parameters</definition>
+        <argsstring></argsstring>
+        <name>_parameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="33" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a931d7cea305a4acf0e1da430034cbf32" prot="private" static="no" mutable="no">
+        <type>object</type>
+        <definition>object Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;::requestChannelFactorySyncObject</definition>
+        <argsstring></argsstring>
+        <name>requestChannelFactorySyncObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="35" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a870267f15c051be8491ce2ba52b9206d" prot="private" static="no" mutable="no">
+        <type>object</type>
+        <definition>object Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;::outputChannelFactorySyncObject</definition>
+        <argsstring></argsstring>
+        <name>outputChannelFactorySyncObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="37" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1af14e80d093a5fb8305b68f21e793553a" prot="private" static="no" mutable="no">
+        <type>System.Collections.Generic.Dictionary&lt; CFContractSerializerInfo, System.Runtime.Serialization.XmlObjectSerializer &gt;</type>
+        <definition>System Collections Generic Dictionary&lt; CFContractSerializerInfo, System.Runtime.Serialization.XmlObjectSerializer &gt; Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;::serializers</definition>
+        <argsstring></argsstring>
+        <name>serializers</name>
+        <initializer> new System.Collections.Generic.Dictionary&lt;CFContractSerializerInfo, System.Runtime.Serialization.XmlObjectSerializer&gt;(2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="39" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1abfb105679a39273c455d4fb06761785a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>System.ServiceModel.Description.ClientCredentials</type>
+        <definition>System ServiceModel Description ClientCredentials Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;::ClientCredentials</definition>
+        <argsstring></argsstring>
+        <name>ClientCredentials</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="66" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a92f0d5f2a449ad69e6ef58d480028550" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>System.ServiceModel.Channels.BindingParameterCollection</type>
+        <definition>System ServiceModel Channels BindingParameterCollection Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;::Parameters</definition>
+        <argsstring></argsstring>
+        <name>Parameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="74" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a0dd57e61e8822339da5cfdd192b7fe06" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>System.ServiceModel.Channels.IChannelFactory&lt; System.ServiceModel.Channels.IOutputChannel &gt;</type>
+        <definition>System ServiceModel Channels IChannelFactory&lt; System.ServiceModel.Channels.IOutputChannel &gt; Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;::OutputChannelFactory</definition>
+        <argsstring></argsstring>
+        <name>OutputChannelFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="105" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a92facdd561c29e1c696ad1c9240ee0a4" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>System.ServiceModel.Channels.IChannelFactory&lt; System.ServiceModel.Channels.IRequestChannel &gt;</type>
+        <definition>System ServiceModel Channels IChannelFactory&lt; System.ServiceModel.Channels.IRequestChannel &gt; Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;::RequestChannelFactory</definition>
+        <argsstring></argsstring>
+        <name>RequestChannelFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="132" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a1f6b4ded6e8575102944e7223c0f1954" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFClientBase</definition>
+        <argsstring>(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress)</argsstring>
+        <name>CFClientBase</name>
+        <param>
+          <type>System.ServiceModel.Channels.Binding</type>
+          <declname>binding</declname>
+        </param>
+        <param>
+          <type>System.ServiceModel.EndpointAddress</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="42" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="41" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a1f6b4ded6e8575102944e7223c0f1954" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFClientBase</definition>
+        <argsstring>(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress)</argsstring>
+        <name>CFClientBase</name>
+        <param>
+          <type>System.ServiceModel.Channels.Binding</type>
+          <declname>binding</declname>
+        </param>
+        <param>
+          <type>System.ServiceModel.EndpointAddress</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="42" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="41" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a7f3b40328610c94ee4362b6ad60bf529" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.ApplyProtection</definition>
+        <argsstring>(string action, System.ServiceModel.Security.ScopedMessagePartSpecification parts, bool protection)</argsstring>
+        <name>ApplyProtection</name>
+        <param>
+          <type>string</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>System.ServiceModel.Security.ScopedMessagePartSpecification</type>
+          <declname>parts</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>protection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="135" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="134" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1af7405e7d1167413806058d69432fc807" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.IsSecureMessageBinding</definition>
+        <argsstring>(System.ServiceModel.Channels.Binding binding)</argsstring>
+        <name>IsSecureMessageBinding</name>
+        <param>
+          <type>System.ServiceModel.Channels.Binding</type>
+          <declname>binding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="149" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="148" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a7f3b40328610c94ee4362b6ad60bf529" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.ApplyProtection</definition>
+        <argsstring>(string action, System.ServiceModel.Security.ScopedMessagePartSpecification parts, bool protection)</argsstring>
+        <name>ApplyProtection</name>
+        <param>
+          <type>string</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>System.ServiceModel.Security.ScopedMessagePartSpecification</type>
+          <declname>parts</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>protection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="135" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="134" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1af7405e7d1167413806058d69432fc807" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.IsSecureMessageBinding</definition>
+        <argsstring>(System.ServiceModel.Channels.Binding binding)</argsstring>
+        <name>IsSecureMessageBinding</name>
+        <param>
+          <type>System.ServiceModel.Channels.Binding</type>
+          <declname>binding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="149" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="148" bodyend="159"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a4709b1e8089055ddea64c558f10bf8c8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="162" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="161" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1ab465a8ef81b300a869bd324739e7c39c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TRESPONSE</type>
+        <definition>TRESPONSE Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.Invoke&lt; TREQUEST, TRESPONSE &gt;</definition>
+        <argsstring>(CFInvokeInfo info, TREQUEST request)</argsstring>
+        <name>Invoke&lt; TREQUEST, TRESPONSE &gt;</name>
+        <param>
+          <type>CFInvokeInfo</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>TREQUEST</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a20c0ff7e581bbec6c0c10ae1cd2f37bb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.Invoke&lt; TREQUEST &gt;</definition>
+        <argsstring>(CFInvokeInfo info, TREQUEST request)</argsstring>
+        <name>Invoke&lt; TREQUEST &gt;</name>
+        <param>
+          <type>CFInvokeInfo</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>TREQUEST</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a17e696bc478b5b0105e44acd988ecaf8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>System.Runtime.Serialization.XmlObjectSerializer</type>
+        <definition>virtual System.Runtime.Serialization.XmlObjectSerializer Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.GetContractSerializer</definition>
+        <argsstring>(CFContractSerializerInfo info)</argsstring>
+        <name>GetContractSerializer</name>
+        <param>
+          <type>CFContractSerializerInfo</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="305" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="304" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a4709b1e8089055ddea64c558f10bf8c8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="162" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="161" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1ab465a8ef81b300a869bd324739e7c39c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TRESPONSE</type>
+        <definition>TRESPONSE Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.Invoke&lt; TREQUEST, TRESPONSE &gt;</definition>
+        <argsstring>(CFInvokeInfo info, TREQUEST request)</argsstring>
+        <name>Invoke&lt; TREQUEST, TRESPONSE &gt;</name>
+        <param>
+          <type>CFInvokeInfo</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>TREQUEST</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a20c0ff7e581bbec6c0c10ae1cd2f37bb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.Invoke&lt; TREQUEST &gt;</definition>
+        <argsstring>(CFInvokeInfo info, TREQUEST request)</argsstring>
+        <name>Invoke&lt; TREQUEST &gt;</name>
+        <param>
+          <type>CFInvokeInfo</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>TREQUEST</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a17e696bc478b5b0105e44acd988ecaf8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>System.Runtime.Serialization.XmlObjectSerializer</type>
+        <definition>virtual System.Runtime.Serialization.XmlObjectSerializer Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.GetContractSerializer</definition>
+        <argsstring>(CFContractSerializerInfo info)</argsstring>
+        <name>GetContractSerializer</name>
+        <param>
+          <type>CFContractSerializerInfo</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="305" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="304" bodyend="325"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a8e586357a34a836fabfe0c4ffbc81b0a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.postOneWayMessage</definition>
+        <argsstring>(System.ServiceModel.Channels.Message msg)</argsstring>
+        <name>postOneWayMessage</name>
+        <param>
+          <type>System.ServiceModel.Channels.Message</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="229" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="228" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a1f3e72f84b2572401c6a049f0b267a6f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.ServiceModel.Channels.Message</type>
+        <definition>System.ServiceModel.Channels.Message Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.getReply</definition>
+        <argsstring>(System.ServiceModel.Channels.Message msg)</argsstring>
+        <name>getReply</name>
+        <param>
+          <type>System.ServiceModel.Channels.Message</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="257" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="256" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1ab5e1211f26e66c96c64c846bf7a5c9db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.processReply</definition>
+        <argsstring>(System.ServiceModel.Channels.Message reply)</argsstring>
+        <name>processReply</name>
+        <param>
+          <type>System.ServiceModel.Channels.Message</type>
+          <declname>reply</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="288" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="287" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a5e9018ffd281d87486efecbd6e5352a5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TRESPONSE</type>
+        <definition>TRESPONSE Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.getResult&lt; TRESPONSE &gt;</definition>
+        <argsstring>(System.ServiceModel.Channels.Message reply, CFInvokeInfo info)</argsstring>
+        <name>getResult&lt; TRESPONSE &gt;</name>
+        <param>
+          <type>System.ServiceModel.Channels.Message</type>
+          <declname>reply</declname>
+        </param>
+        <param>
+          <type>CFInvokeInfo</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="329"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a8e586357a34a836fabfe0c4ffbc81b0a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.postOneWayMessage</definition>
+        <argsstring>(System.ServiceModel.Channels.Message msg)</argsstring>
+        <name>postOneWayMessage</name>
+        <param>
+          <type>System.ServiceModel.Channels.Message</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="229" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="228" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a1f3e72f84b2572401c6a049f0b267a6f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.ServiceModel.Channels.Message</type>
+        <definition>System.ServiceModel.Channels.Message Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.getReply</definition>
+        <argsstring>(System.ServiceModel.Channels.Message msg)</argsstring>
+        <name>getReply</name>
+        <param>
+          <type>System.ServiceModel.Channels.Message</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="257" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="256" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1ab5e1211f26e66c96c64c846bf7a5c9db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.processReply</definition>
+        <argsstring>(System.ServiceModel.Channels.Message reply)</argsstring>
+        <name>processReply</name>
+        <param>
+          <type>System.ServiceModel.Channels.Message</type>
+          <declname>reply</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="288" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="287" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a5e9018ffd281d87486efecbd6e5352a5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TRESPONSE</type>
+        <definition>TRESPONSE Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.getResult&lt; TRESPONSE &gt;</definition>
+        <argsstring>(System.ServiceModel.Channels.Message reply, CFInvokeInfo info)</argsstring>
+        <name>getResult&lt; TRESPONSE &gt;</name>
+        <param>
+          <type>System.ServiceModel.Channels.Message</type>
+          <declname>reply</declname>
+        </param>
+        <param>
+          <type>CFInvokeInfo</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="329"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="40">
+        <label>System</label>
+      </node>
+      <node id="39">
+        <label>Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;</label>
+        <link refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4"/>
+        <childnode refid="40" relation="usage">
+          <edgelabel>serializers</edgelabel>
+          <edgelabel>_parameters</edgelabel>
+          <edgelabel>binding</edgelabel>
+          <edgelabel>_clientCredentials</edgelabel>
+          <edgelabel>_requestChannelFactory</edgelabel>
+          <edgelabel>oneWayBinding</edgelabel>
+          <edgelabel>remoteAddress</edgelabel>
+          <edgelabel>_outputChannelFactory</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="19" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="17" bodyend="565"/>
+    <listofallmembers>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a1c4d2b8c646b9578d144d5ea75454941" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>_clientCredentials</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1aac60d9e68744fc361ff355d4a508e148" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>_outputChannelFactory</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1af869ed47910bc3a7966702a34c2a3953" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>_parameters</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a63f5c261aa659fecba9a2a5eea031db5" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>_requestChannelFactory</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a7f3b40328610c94ee4362b6ad60bf529" prot="protected" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>ApplyProtection</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a7f3b40328610c94ee4362b6ad60bf529" prot="protected" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>ApplyProtection</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1abc9033bc2192aa4d5ced4b334ccabd78" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>binding</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a1f6b4ded6e8575102944e7223c0f1954" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>CFClientBase</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a1f6b4ded6e8575102944e7223c0f1954" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>CFClientBase</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1abfb105679a39273c455d4fb06761785a" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>ClientCredentials</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a4709b1e8089055ddea64c558f10bf8c8" prot="protected" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>Close</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a4709b1e8089055ddea64c558f10bf8c8" prot="protected" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>Close</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a17e696bc478b5b0105e44acd988ecaf8" prot="protected" virt="virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>GetContractSerializer</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a17e696bc478b5b0105e44acd988ecaf8" prot="protected" virt="virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>GetContractSerializer</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a1f3e72f84b2572401c6a049f0b267a6f" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>getReply</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a1f3e72f84b2572401c6a049f0b267a6f" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>getReply</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a5e9018ffd281d87486efecbd6e5352a5" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>getResult&lt; TRESPONSE &gt;</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a5e9018ffd281d87486efecbd6e5352a5" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>getResult&lt; TRESPONSE &gt;</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a20c0ff7e581bbec6c0c10ae1cd2f37bb" prot="protected" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>Invoke&lt; TREQUEST &gt;</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a20c0ff7e581bbec6c0c10ae1cd2f37bb" prot="protected" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>Invoke&lt; TREQUEST &gt;</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1ab465a8ef81b300a869bd324739e7c39c" prot="protected" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>Invoke&lt; TREQUEST, TRESPONSE &gt;</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1ab465a8ef81b300a869bd324739e7c39c" prot="protected" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>Invoke&lt; TREQUEST, TRESPONSE &gt;</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1af7405e7d1167413806058d69432fc807" prot="protected" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>IsSecureMessageBinding</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1af7405e7d1167413806058d69432fc807" prot="protected" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>IsSecureMessageBinding</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a6f1195bffa2acdc15d98f1eedceeedb5" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>oneWayBinding</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a0dd57e61e8822339da5cfdd192b7fe06" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>OutputChannelFactory</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a870267f15c051be8491ce2ba52b9206d" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>outputChannelFactorySyncObject</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a92f0d5f2a449ad69e6ef58d480028550" prot="protected" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>Parameters</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a8e586357a34a836fabfe0c4ffbc81b0a" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>postOneWayMessage</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a8e586357a34a836fabfe0c4ffbc81b0a" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>postOneWayMessage</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1ab5e1211f26e66c96c64c846bf7a5c9db" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>processReply</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1ab5e1211f26e66c96c64c846bf7a5c9db" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>processReply</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a3f609b33fd6f05b90566be90ed005afc" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>remoteAddress</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a92facdd561c29e1c696ad1c9240ee0a4" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>RequestChannelFactory</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1a931d7cea305a4acf0e1da430034cbf32" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>requestChannelFactorySyncObject</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1af14e80d093a5fb8305b68f21e793553a" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;</scope><name>serializers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

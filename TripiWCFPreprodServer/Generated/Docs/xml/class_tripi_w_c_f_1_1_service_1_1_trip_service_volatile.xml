@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile" kind="class" prot="public">
+    <compoundname>TripiWCF::Service::TripServiceVolatile</compoundname>
+    <basecompoundref refid="class_tripi_w_c_f_1_1_service_1_1_trip_service" prot="public" virt="non-virtual">TripiWCF.Service.TripService</basecompoundref>
+    <basecompoundref refid="interface_tripi_w_c_f_1_1_service_1_1_i_trip_service" prot="public" virt="non-virtual">TripiWCF.Service.ITripService</basecompoundref>
+    <basecompoundref refid="interface_tripi_w_c_f_1_1_service_1_1_i_cross_domain_policy_responder" prot="public" virt="non-virtual">TripiWCF.Service.ICrossDomainPolicyResponder</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1a232f3be597995d388b663b22ae34cdf5" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_tripi_w_c_f_1_1_service_1_1_trip" kindref="compound">Trip</ref> &gt;</type>
+        <definition>List&lt;Trip&gt; TripiWCF.Service.TripServiceVolatile.Trips</definition>
+        <argsstring></argsstring>
+        <name>Trips</name>
+        <initializer> new List&lt;<ref refid="class_tripi_w_c_f_1_1_service_1_1_trip" kindref="compound">Trip</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1adde26819347b23a1fc68abb1ebc7437f" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_tripi_w_c_f_1_1_service_1_1_position_node" kindref="compound">PositionNode</ref> &gt;</type>
+        <definition>List&lt;PositionNode&gt; TripiWCF.Service.TripServiceVolatile.Nodes</definition>
+        <argsstring></argsstring>
+        <name>Nodes</name>
+        <initializer> new List&lt;<ref refid="class_tripi_w_c_f_1_1_service_1_1_position_node" kindref="compound">PositionNode</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" line="16" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1a1613fc6d838a1b32f07df9ae139f4559" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; string, string &gt;</type>
+        <definition>Dictionary&lt;string, string&gt; TripiWCF.Service.TripServiceVolatile.Users</definition>
+        <argsstring></argsstring>
+        <name>Users</name>
+        <initializer> new Dictionary&lt;string, string&gt;()
+        {
+            {&quot;Aha&quot;, &quot;test&quot;},
+            {&quot;Asia&quot;, &quot;test&quot;},
+            {&quot;Staro&quot;, &quot;ble&quot;},
+            {&quot;echudzin&quot;, &quot;best&quot;}
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" line="23" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1af968ca6fb4f5b447fe6e578b33e4c9e5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int TripiWCF.Service.TripServiceVolatile.TripCount</definition>
+        <argsstring></argsstring>
+        <name>TripCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" line="105" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1a4acd49e612ff64c09b006e5e5e8d9f20" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int TripiWCF.Service.TripServiceVolatile.PositionNodeCount</definition>
+        <argsstring></argsstring>
+        <name>PositionNodeCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" line="113" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1a9a921ea38e203b8510a74fc5c83549ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.Service.TripServiceVolatile.TripServiceVolatile</definition>
+        <argsstring>()</argsstring>
+        <name>TripServiceVolatile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" line="28" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1a479ebeb10c66e04ce7d1566f627c70d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string TripiWCF.Service.TripServiceVolatile.LoginUser</definition>
+        <argsstring>(string username, string password)</argsstring>
+        <name>LoginUser</name>
+        <reimplements refid="interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_1ad23ee6719b3640fd1c990cd9f32acfbe">LoginUser</reimplements>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" line="36" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1aa670b5145f4d5df277066193a7104182" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override List&lt; <ref refid="class_tripi_w_c_f_1_1_service_1_1_trip" kindref="compound">Trip</ref> &gt;</type>
+        <definition>override List&lt;Trip&gt; TripiWCF.Service.TripServiceVolatile.GetAllTrips</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllTrips</name>
+        <reimplements refid="interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_1aa439088421f449f59f727144f01efce0">GetAllTrips</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" line="45" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" bodystart="44" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1a5fea712361d4c38656c2aa4e03d943f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int TripiWCF.Service.TripServiceVolatile.CreateNewTrip</definition>
+        <argsstring>(string username, string tripName, string tripDescription)</argsstring>
+        <name>CreateNewTrip</name>
+        <reimplements refid="interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_1a10edfa62941be7cbb3ccc1421df39b09">CreateNewTrip</reimplements>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" line="52" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" bodystart="51" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1ae9e79423defb2defc9ef5b3d83078c03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override List&lt; <ref refid="class_tripi_w_c_f_1_1_service_1_1_trip" kindref="compound">Trip</ref> &gt;</type>
+        <definition>override List&lt;Trip&gt; TripiWCF.Service.TripServiceVolatile.GetTripsForUser</definition>
+        <argsstring>(string username)</argsstring>
+        <name>GetTripsForUser</name>
+        <reimplements refid="interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_1a375a6a0f21f41ddd27c83c0c03a79123">GetTripsForUser</reimplements>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" line="61" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" bodystart="60" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1ab9084e86f30df85a6be78d7537d8165c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void TripiWCF.Service.TripServiceVolatile.UpdateTripDescription</definition>
+        <argsstring>(int tripID, string tripDescription)</argsstring>
+        <name>UpdateTripDescription</name>
+        <reimplements refid="interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_1a0fdff13a8d29246186a265dfe6ce9495">UpdateTripDescription</reimplements>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" line="69" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1a5c7e50de95f599fe082ca8728ba7658a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int TripiWCF.Service.TripServiceVolatile.AddPositionNode</definition>
+        <argsstring>(PositionNode node)</argsstring>
+        <name>AddPositionNode</name>
+        <reimplements refid="interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_1a76e4011633f1beef608e26242b35ef8a">AddPositionNode</reimplements>
+        <param>
+          <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_position_node" kindref="compound">PositionNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" line="76" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" bodystart="75" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1ac36ba08065bf68d67248557267dcaa16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override List&lt; <ref refid="class_tripi_w_c_f_1_1_service_1_1_position_node" kindref="compound">PositionNode</ref> &gt;</type>
+        <definition>override List&lt;PositionNode&gt; TripiWCF.Service.TripServiceVolatile.GetPositionNodesForTrip</definition>
+        <argsstring>(int tripID)</argsstring>
+        <name>GetPositionNodesForTrip</name>
+        <reimplements refid="interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_1a907409f375103b8de821cdfeea47fb02">GetPositionNodesForTrip</reimplements>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" line="85" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" bodystart="84" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1a49be0719f6791535321af25d4af1ae76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void TripiWCF.Service.TripServiceVolatile.UpdatePositionNodeDescription</definition>
+        <argsstring>(int tripID, int nodeNumber, string nodeDescription)</argsstring>
+        <name>UpdatePositionNodeDescription</name>
+        <reimplements refid="interface_tripi_w_c_f_1_1_service_1_1_i_trip_service_1a84f87626d1d68286d551af0965839f2c">UpdatePositionNodeDescription</reimplements>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodeNumber</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nodeDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" line="93" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" bodystart="92" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="494">
+        <label>TripiWCF.Service.ITripService</label>
+        <link refid="interface_tripi_w_c_f_1_1_service_1_1_i_trip_service"/>
+      </node>
+      <node id="493">
+        <label>TripiWCF.Service.TripService</label>
+        <link refid="class_tripi_w_c_f_1_1_service_1_1_trip_service"/>
+        <childnode refid="494" relation="public-inheritance">
+        </childnode>
+        <childnode refid="495" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="495">
+        <label>TripiWCF.Service.ICrossDomainPolicyResponder</label>
+        <link refid="interface_tripi_w_c_f_1_1_service_1_1_i_cross_domain_policy_responder"/>
+      </node>
+      <node id="492">
+        <label>TripiWCF.Service.TripServiceVolatile</label>
+        <link refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile"/>
+        <childnode refid="493" relation="public-inheritance">
+        </childnode>
+        <childnode refid="494" relation="public-inheritance">
+        </childnode>
+        <childnode refid="495" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="498">
+        <label>TripiWCF.Service.ITripService</label>
+        <link refid="interface_tripi_w_c_f_1_1_service_1_1_i_trip_service"/>
+      </node>
+      <node id="497">
+        <label>TripiWCF.Service.TripService</label>
+        <link refid="class_tripi_w_c_f_1_1_service_1_1_trip_service"/>
+        <childnode refid="498" relation="public-inheritance">
+        </childnode>
+        <childnode refid="499" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="499">
+        <label>TripiWCF.Service.ICrossDomainPolicyResponder</label>
+        <link refid="interface_tripi_w_c_f_1_1_service_1_1_i_cross_domain_policy_responder"/>
+      </node>
+      <node id="496">
+        <label>TripiWCF.Service.TripServiceVolatile</label>
+        <link refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile"/>
+        <childnode refid="497" relation="public-inheritance">
+        </childnode>
+        <childnode refid="498" relation="public-inheritance">
+        </childnode>
+        <childnode refid="499" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" line="13" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFService/TripServiceVolatile.cs" bodystart="12" bodyend="115"/>
+    <listofallmembers>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_1af7fd2655125dfe5873758ca91098c7da" prot="public" virt="virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>AddManyPositionNodes</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1a5c7e50de95f599fe082ca8728ba7658a" prot="public" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>AddPositionNode</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1a5fea712361d4c38656c2aa4e03d943f8" prot="public" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>CreateNewTrip</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_1afdebab617e6e7caaf118bcfb7ce3d7a1" prot="public" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>DatabaseInsert</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_1aa0bc7b737cf91139934f7e69ba01164a" prot="public" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>DatabaseQuery</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1aa670b5145f4d5df277066193a7104182" prot="public" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>GetAllTrips</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_1a07ae9a6e7ef2128f9b81b00760cd6883" prot="public" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>GetFlashPolicy</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1ac36ba08065bf68d67248557267dcaa16" prot="public" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>GetPositionNodesForTrip</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_1a746729f84fa9a52e530789c7997408f5" prot="public" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>GetSilverlightPolicy</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1ae9e79423defb2defc9ef5b3d83078c03" prot="public" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>GetTripsForUser</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1a479ebeb10c66e04ce7d1566f627c70d5" prot="public" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>LoginUser</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1adde26819347b23a1fc68abb1ebc7437f" prot="private" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>Nodes</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_1a518d3c488db62624722c4c94f27394f4" prot="protected" virt="virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>OnDatabaseInsert</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_1ac6c9da0776d2f882f8a834f69dc378e8" prot="protected" virt="virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>OnDatabaseQuery</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1a4acd49e612ff64c09b006e5e5e8d9f20" prot="public" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>PositionNodeCount</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1af968ca6fb4f5b447fe6e578b33e4c9e5" prot="public" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>TripCount</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1a232f3be597995d388b663b22ae34cdf5" prot="private" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>Trips</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1a9a921ea38e203b8510a74fc5c83549ab" prot="public" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>TripServiceVolatile</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1a49be0719f6791535321af25d4af1ae76" prot="public" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>UpdatePositionNodeDescription</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1ab9084e86f30df85a6be78d7537d8165c" prot="public" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>UpdateTripDescription</name></member>
+      <member refid="class_tripi_w_c_f_1_1_service_1_1_trip_service_volatile_1a1613fc6d838a1b32f07df9ae139f4559" prot="private" virt="non-virtual"><scope>TripiWCF::Service::TripServiceVolatile</scope><name>Users</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

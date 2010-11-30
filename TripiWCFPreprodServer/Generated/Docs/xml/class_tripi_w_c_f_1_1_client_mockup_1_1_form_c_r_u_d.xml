@@ -1,0 +1,621 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d" kind="class" prot="public">
+    <compoundname>TripiWCF::ClientMockup::FormCRUD</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a4ec925f0892a21d444c2db3edb14a1a4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_trip_service_client" kindref="compound">Proxy.TripServiceClient</ref></type>
+        <definition>Proxy.TripServiceClient TripiWCF.ClientMockup.FormCRUD.TripiProxyFoxyJazzyClient</definition>
+        <argsstring></argsstring>
+        <name>TripiProxyFoxyJazzyClient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" line="14" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a50b7e95090323d2fbfe0c8e1866662c7" prot="private" static="no" mutable="no">
+        <type>Random</type>
+        <definition>Random TripiWCF.ClientMockup.FormCRUD.Tanarri</definition>
+        <argsstring></argsstring>
+        <name>Tanarri</name>
+        <initializer> new Random()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1acf5e29aaecbabdb15b63304dd75a62e1" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer TripiWCF.ClientMockup.FormCRUD.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer> null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="8" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a44ddfa82ed48fa77c85296cb2dc7a391" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox TripiWCF.ClientMockup.FormCRUD.groupBox1</definition>
+        <argsstring></argsstring>
+        <name>groupBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="269" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a93c3512dea13e64e65219dd6c4dc3aad" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.SplitContainer</type>
+        <definition>System.Windows.Forms.SplitContainer TripiWCF.ClientMockup.FormCRUD.splitContainer1</definition>
+        <argsstring></argsstring>
+        <name>splitContainer1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="270" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1afad80d2011e7b18993ebe30ce29dc3ef" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox TripiWCF.ClientMockup.FormCRUD.groupBox2</definition>
+        <argsstring></argsstring>
+        <name>groupBox2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="271" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1aef74c1e8317e6fcb6201d5799ddba24d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox TripiWCF.ClientMockup.FormCRUD.groupBox3</definition>
+        <argsstring></argsstring>
+        <name>groupBox3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="272" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a03f27db68fb7fbeacf176292950b5474" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TripiWCF.ClientMockup.FormCRUD.buttonConnect</definition>
+        <argsstring></argsstring>
+        <name>buttonConnect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="273" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1acb0cc20395c6f1baac1a5074a1da9a0a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TripiWCF.ClientMockup.FormCRUD.buttonGetNodes</definition>
+        <argsstring></argsstring>
+        <name>buttonGetNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="274" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a4adeb1fbb86b45bbe263be5869c5be41" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TripiWCF.ClientMockup.FormCRUD.buttonGetTrips</definition>
+        <argsstring></argsstring>
+        <name>buttonGetTrips</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="275" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a51970a1d34ce0522c00c8b0a942d9a2c" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TripiWCF.ClientMockup.FormCRUD.buttonCreateTrip</definition>
+        <argsstring></argsstring>
+        <name>buttonCreateTrip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="276" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1ae12e9413cb775f9905cb63981f2ca69b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TripiWCF.ClientMockup.FormCRUD.buttonCreateRandomNode</definition>
+        <argsstring></argsstring>
+        <name>buttonCreateRandomNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="277" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a272615342496a2fa6f97a2ade8b7f639" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TripiWCF.ClientMockup.FormCRUD.buttonCreateAsProphesized</definition>
+        <argsstring></argsstring>
+        <name>buttonCreateAsProphesized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="278" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a7a7c9d2ec542a8351ac029922a6a92ca" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.PropertyGrid</type>
+        <definition>System.Windows.Forms.PropertyGrid TripiWCF.ClientMockup.FormCRUD.propertyGridTrip</definition>
+        <argsstring></argsstring>
+        <name>propertyGridTrip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="279" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a9a5855c19e71dca15e25e61fee89dc7b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.PropertyGrid</type>
+        <definition>System.Windows.Forms.PropertyGrid TripiWCF.ClientMockup.FormCRUD.propertyGridPosition</definition>
+        <argsstring></argsstring>
+        <name>propertyGridPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="280" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1ae21cb84e2520c9856c3044930166f11b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ListBox</type>
+        <definition>System.Windows.Forms.ListBox TripiWCF.ClientMockup.FormCRUD.listBoxTrips</definition>
+        <argsstring></argsstring>
+        <name>listBoxTrips</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="281" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a0e0d0f899a0eb2f5ee7ab6a2defd6d6e" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ListBox</type>
+        <definition>System.Windows.Forms.ListBox TripiWCF.ClientMockup.FormCRUD.listBoxPositions</definition>
+        <argsstring></argsstring>
+        <name>listBoxPositions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="282" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a53ebbe2046a1a43b4cde20180a651258" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ComboBox</type>
+        <definition>System.Windows.Forms.ComboBox TripiWCF.ClientMockup.FormCRUD.comboBoxEndpoint</definition>
+        <argsstring></argsstring>
+        <name>comboBoxEndpoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="283" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1ab55d3ea89ebb9544c3b292b2898c7e60" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button TripiWCF.ClientMockup.FormCRUD.buttonUpdateTripDesc</definition>
+        <argsstring></argsstring>
+        <name>buttonUpdateTripDesc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="284" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1aba22167760813dc39fcf0cca4a50d337" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.ClientMockup.FormCRUD.FormCRUD</definition>
+        <argsstring>()</argsstring>
+        <name>FormCRUD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" line="18" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" bodystart="17" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a97787fee6f3e06855eba83db5a2588c2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.FormCRUD.FormCRUD_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>FormCRUD_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" line="29" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" bodystart="28" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1add9cbaa8a5c37cf7c913b1265fa90ee2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.FormCRUD.buttonConnect_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonConnect_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" line="40" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" bodystart="39" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a0a416761722d51d713a2d5ed8d0d9502" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.FormCRUD.buttonCreateTrip_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonCreateTrip_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" line="54" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" bodystart="53" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a486ba00f8f060170673a78bfad214816" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.FormCRUD.buttonGetTrips_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonGetTrips_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" line="62" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1ab19c3ca4b6e6690bb5e76ec804c1733d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.FormCRUD.buttonGetNodes_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonGetNodes_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" line="69" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" bodystart="68" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1ac9a32db64929cd634649b7cea494d1f4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.FormCRUD.buttonCreateRandomNode_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonCreateRandomNode_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" line="76" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" bodystart="75" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1ad48183da79efd51298b96fc44eaf5294" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.FormCRUD.buttonCreateAsProphesized_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonCreateAsProphesized_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" line="89" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" bodystart="88" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a330d7b07b6dead3e3dd509b630b090c0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.FormCRUD.buttonUpdateTripDesc_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>buttonUpdateTripDesc_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" line="95" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" bodystart="94" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a5aaed1f0a58df85292b4e3f280e68a22" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.FormCRUD.listBoxTrips_SelectedIndexChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>listBoxTrips_SelectedIndexChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" line="102" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1abb5fadb7dbbb1261cc0698a21dbf650b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.FormCRUD.listBoxPositions_SelectedIndexChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>listBoxPositions_SelectedIndexChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" line="107" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1aff2d7ea7fce0bccdb20dea6bf9c33232" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.ClientMockup.FormCRUD.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="30" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="29" bodyend="265"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1af9ac20420ca3ab6c4c5e974b36513914" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void TripiWCF.ClientMockup.FormCRUD.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="88">
+        <label>ITripService</label>
+        <link refid="interface_i_trip_service"/>
+      </node>
+      <node id="87">
+        <label>TripServiceClient</label>
+        <link refid="class_trip_service_client"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+        <childnode refid="89" relation="usage">
+          <edgelabel>onAddPositionNodeCompletedDelegate</edgelabel>
+          <edgelabel>onUpdateTripDescriptionCompletedDelegate</edgelabel>
+          <edgelabel>onOpenCompletedDelegate</edgelabel>
+          <edgelabel>onGetAllTripsCompletedDelegate</edgelabel>
+          <edgelabel>onCloseCompletedDelegate</edgelabel>
+          <edgelabel>onGetTripsForUserCompletedDelegate</edgelabel>
+          <edgelabel>onAddManyPositionNodesCompletedDelegate</edgelabel>
+          <edgelabel>onLoginUserCompletedDelegate</edgelabel>
+          <edgelabel>onCreateNewTripCompletedDelegate</edgelabel>
+          <edgelabel>onUpdatePositionNodeDescriptionCompletedDelegate</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="89">
+        <label>System</label>
+      </node>
+      <node id="86">
+        <label>TripiWCF.ClientMockup.FormCRUD</label>
+        <link refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d"/>
+        <childnode refid="87" relation="usage">
+          <edgelabel>TripiProxyFoxyJazzyClient</edgelabel>
+        </childnode>
+        <childnode refid="89" relation="usage">
+          <edgelabel>buttonGetNodes</edgelabel>
+          <edgelabel>buttonUpdateTripDesc</edgelabel>
+          <edgelabel>comboBoxEndpoint</edgelabel>
+          <edgelabel>buttonCreateAsProphesized</edgelabel>
+          <edgelabel>buttonGetTrips</edgelabel>
+          <edgelabel>groupBox1</edgelabel>
+          <edgelabel>groupBox2</edgelabel>
+          <edgelabel>listBoxTrips</edgelabel>
+          <edgelabel>buttonCreateRandomNode</edgelabel>
+          <edgelabel>groupBox3</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" line="13" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/FormCRUD.cs" bodystart="12" bodyend="110"/>
+    <listofallmembers>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a03f27db68fb7fbeacf176292950b5474" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>buttonConnect</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1add9cbaa8a5c37cf7c913b1265fa90ee2" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>buttonConnect_Click</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a272615342496a2fa6f97a2ade8b7f639" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>buttonCreateAsProphesized</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1ad48183da79efd51298b96fc44eaf5294" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>buttonCreateAsProphesized_Click</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1ae12e9413cb775f9905cb63981f2ca69b" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>buttonCreateRandomNode</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1ac9a32db64929cd634649b7cea494d1f4" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>buttonCreateRandomNode_Click</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a51970a1d34ce0522c00c8b0a942d9a2c" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>buttonCreateTrip</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a0a416761722d51d713a2d5ed8d0d9502" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>buttonCreateTrip_Click</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1acb0cc20395c6f1baac1a5074a1da9a0a" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>buttonGetNodes</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1ab19c3ca4b6e6690bb5e76ec804c1733d" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>buttonGetNodes_Click</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a4adeb1fbb86b45bbe263be5869c5be41" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>buttonGetTrips</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a486ba00f8f060170673a78bfad214816" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>buttonGetTrips_Click</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1ab55d3ea89ebb9544c3b292b2898c7e60" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>buttonUpdateTripDesc</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a330d7b07b6dead3e3dd509b630b090c0" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>buttonUpdateTripDesc_Click</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a53ebbe2046a1a43b4cde20180a651258" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>comboBoxEndpoint</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1acf5e29aaecbabdb15b63304dd75a62e1" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>components</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1af9ac20420ca3ab6c4c5e974b36513914" prot="protected" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>Dispose</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1aba22167760813dc39fcf0cca4a50d337" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>FormCRUD</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a97787fee6f3e06855eba83db5a2588c2" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>FormCRUD_Load</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a44ddfa82ed48fa77c85296cb2dc7a391" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>groupBox1</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1afad80d2011e7b18993ebe30ce29dc3ef" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>groupBox2</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1aef74c1e8317e6fcb6201d5799ddba24d" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>groupBox3</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1aff2d7ea7fce0bccdb20dea6bf9c33232" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>InitializeComponent</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a0e0d0f899a0eb2f5ee7ab6a2defd6d6e" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>listBoxPositions</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1abb5fadb7dbbb1261cc0698a21dbf650b" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>listBoxPositions_SelectedIndexChanged</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1ae21cb84e2520c9856c3044930166f11b" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>listBoxTrips</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a5aaed1f0a58df85292b4e3f280e68a22" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>listBoxTrips_SelectedIndexChanged</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a9a5855c19e71dca15e25e61fee89dc7b" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>propertyGridPosition</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a7a7c9d2ec542a8351ac029922a6a92ca" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>propertyGridTrip</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a93c3512dea13e64e65219dd6c4dc3aad" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>splitContainer1</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a50b7e95090323d2fbfe0c8e1866662c7" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>Tanarri</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_form_c_r_u_d_1a4ec925f0892a21d444c2db3edb14a1a4" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::FormCRUD</scope><name>TripiProxyFoxyJazzyClient</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

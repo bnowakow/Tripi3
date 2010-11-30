@@ -1,0 +1,58 @@
+.TH "Microsoft::Drawing::IImagingFactory" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Microsoft::Drawing::IImagingFactory \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "uint \fBCreateImageFromStream\fP ()"
+.br
+.ti -1c
+.RI "uint \fBCreateImageFromFile\fP (string filename, out \fBIImage\fP image)"
+.br
+.ti -1c
+.RI "uint \fBCreateImageFromBuffer\fP ([MarshalAs(UnmanagedType.LPArray)] byte[] buffer, uint size, BufferDisposalFlag disposalFlag, out \fBIImage\fP image)"
+.br
+.ti -1c
+.RI "uint \fBCreateNewBitmap\fP (uint width, uint height, PixelFormatID pixelFormat, out \fBIBitmapImage\fP bitmap)"
+.br
+.ti -1c
+.RI "uint \fBCreateBitmapFromImage\fP (\fBIImage\fP image, uint width, uint height, PixelFormatID pixelFormat, InterpolationHint hints, out \fBIBitmapImage\fP bitmap)"
+.br
+.ti -1c
+.RI "uint \fBCreateBitmapFromBuffer\fP ()"
+.br
+.ti -1c
+.RI "uint \fBCreateImageDecoder\fP ()"
+.br
+.ti -1c
+.RI "uint \fBCreateImageEncoderToStream\fP ()"
+.br
+.ti -1c
+.RI "uint \fBCreateImageEncoderToFile\fP ()"
+.br
+.ti -1c
+.RI "uint \fBGetInstalledDecoders\fP ()"
+.br
+.ti -1c
+.RI "uint \fBGetInstalledEncoders\fP ()"
+.br
+.ti -1c
+.RI "uint \fBInstallImageCodec\fP ()"
+.br
+.ti -1c
+.RI "uint \fBUninstallImageCodec\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 108 of file IImagingFactory.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

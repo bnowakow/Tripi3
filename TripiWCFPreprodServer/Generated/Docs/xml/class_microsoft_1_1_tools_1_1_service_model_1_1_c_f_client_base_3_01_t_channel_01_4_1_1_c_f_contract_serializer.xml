@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer" kind="class" prot="private">
+    <compoundname>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1ae95673687802446dea5965cd9e52bdc1" prot="private" static="no" mutable="no">
+        <type>CFContractSerializerInfo</type>
+        <definition>CFContractSerializerInfo Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer::info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="351" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a799575403faab8aaf3cb40c75dbf462e" prot="private" static="no" mutable="no">
+        <type>System.Xml.Serialization.XmlSerializer</type>
+        <definition>System Xml Serialization XmlSerializer Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer::serializer</definition>
+        <argsstring></argsstring>
+        <name>serializer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="353" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a2c21e7cf6c7489085322b2b66b57d014" prot="private" static="yes" mutable="no">
+        <type>System.Xml.XmlQualifiedName</type>
+        <definition>static System Xml XmlQualifiedName Microsoft::Tools::ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer::artificialWrapper</definition>
+        <argsstring></argsstring>
+        <name>artificialWrapper</name>
+        <initializer> new System.Xml.XmlQualifiedName(&quot;wrapper&quot;, &quot;&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="355" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1aa04df2543b23c12d8272a6e3702ae093" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer.CFContractSerializer</definition>
+        <argsstring>(CFContractSerializerInfo info)</argsstring>
+        <name>CFContractSerializer</name>
+        <param>
+          <type>CFContractSerializerInfo</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="358" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="357" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a0607ff0d6f366e2586a839ecba916e7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer.IsStartObject</definition>
+        <argsstring>(System.Xml.XmlDictionaryReader reader)</argsstring>
+        <name>IsStartObject</name>
+        <param>
+          <type>System.Xml.XmlDictionaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="408" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="407" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a9d39428c8b32331752fdd6d9b97e56ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override object</type>
+        <definition>override object Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer.ReadObject</definition>
+        <argsstring>(System.Xml.XmlDictionaryReader reader, bool verifyObjectName)</argsstring>
+        <name>ReadObject</name>
+        <param>
+          <type>System.Xml.XmlDictionaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>verifyObjectName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="413" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="412" bodyend="459"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a0d9cc1df1c7c6c0621723c60ed053af5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer.WriteStartObject</definition>
+        <argsstring>(System.Xml.XmlDictionaryWriter writer, object graph)</argsstring>
+        <name>WriteStartObject</name>
+        <param>
+          <type>System.Xml.XmlDictionaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>graph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="462" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="461" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a0eb988c099390244e6872c7882f692ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer.WriteObjectContent</definition>
+        <argsstring>(System.Xml.XmlDictionaryWriter writer, object graph)</argsstring>
+        <name>WriteObjectContent</name>
+        <param>
+          <type>System.Xml.XmlDictionaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>graph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="467" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="466" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a802294463f5646b13c06d2697276c5db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer.WriteEndObject</definition>
+        <argsstring>(System.Xml.XmlDictionaryWriter writer)</argsstring>
+        <name>WriteEndObject</name>
+        <param>
+          <type>System.Xml.XmlDictionaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="472" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="471" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a2281d80be46bf5c07dd63c15b1eddcd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer.WriteObject</definition>
+        <argsstring>(System.Xml.XmlDictionaryWriter writer, object graph)</argsstring>
+        <name>WriteObject</name>
+        <param>
+          <type>System.Xml.XmlDictionaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>graph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="477" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="476" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1aa04df2543b23c12d8272a6e3702ae093" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer.CFContractSerializer</definition>
+        <argsstring>(CFContractSerializerInfo info)</argsstring>
+        <name>CFContractSerializer</name>
+        <param>
+          <type>CFContractSerializerInfo</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="358" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="357" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a0607ff0d6f366e2586a839ecba916e7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer.IsStartObject</definition>
+        <argsstring>(System.Xml.XmlDictionaryReader reader)</argsstring>
+        <name>IsStartObject</name>
+        <param>
+          <type>System.Xml.XmlDictionaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="408" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="407" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a9d39428c8b32331752fdd6d9b97e56ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override object</type>
+        <definition>override object Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer.ReadObject</definition>
+        <argsstring>(System.Xml.XmlDictionaryReader reader, bool verifyObjectName)</argsstring>
+        <name>ReadObject</name>
+        <param>
+          <type>System.Xml.XmlDictionaryReader</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>verifyObjectName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="413" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="412" bodyend="459"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a0d9cc1df1c7c6c0621723c60ed053af5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer.WriteStartObject</definition>
+        <argsstring>(System.Xml.XmlDictionaryWriter writer, object graph)</argsstring>
+        <name>WriteStartObject</name>
+        <param>
+          <type>System.Xml.XmlDictionaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>graph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="462" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="461" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a0eb988c099390244e6872c7882f692ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer.WriteObjectContent</definition>
+        <argsstring>(System.Xml.XmlDictionaryWriter writer, object graph)</argsstring>
+        <name>WriteObjectContent</name>
+        <param>
+          <type>System.Xml.XmlDictionaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>graph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="467" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="466" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a802294463f5646b13c06d2697276c5db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer.WriteEndObject</definition>
+        <argsstring>(System.Xml.XmlDictionaryWriter writer)</argsstring>
+        <name>WriteEndObject</name>
+        <param>
+          <type>System.Xml.XmlDictionaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="472" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="471" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a2281d80be46bf5c07dd63c15b1eddcd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer.WriteObject</definition>
+        <argsstring>(System.Xml.XmlDictionaryWriter writer, object graph)</argsstring>
+        <name>WriteObject</name>
+        <param>
+          <type>System.Xml.XmlDictionaryWriter</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>graph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="477" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="476" bodyend="507"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1ad4060e31e2315ca51fa76f5d6aad969c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer.createSerializer</definition>
+        <argsstring>(System.Xml.XmlQualifiedName wrapper)</argsstring>
+        <name>createSerializer</name>
+        <param>
+          <type>System.Xml.XmlQualifiedName</type>
+          <declname>wrapper</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="368" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="367" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1ad4060e31e2315ca51fa76f5d6aad969c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer.createSerializer</definition>
+        <argsstring>(System.Xml.XmlQualifiedName wrapper)</argsstring>
+        <name>createSerializer</name>
+        <param>
+          <type>System.Xml.XmlQualifiedName</type>
+          <declname>wrapper</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" line="368" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/CFClientBase.cs" bodystart="367" bodyend="405"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="42">
+        <label>Microsoft.Tools.ServiceModel.CFClientBase&lt; TChannel &gt;.CFContractSerializer</label>
+        <childnode refid="43" relation="usage">
+          <edgelabel>artificialWrapper</edgelabel>
+          <edgelabel>serializer</edgelabel>
+        </childnode>
+      </node>
+      <node id="43">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" line="349" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/CFClientBase.cs" bodystart="348" bodyend="508"/>
+    <listofallmembers>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a2c21e7cf6c7489085322b2b66b57d014" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>artificialWrapper</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1aa04df2543b23c12d8272a6e3702ae093" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>CFContractSerializer</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1aa04df2543b23c12d8272a6e3702ae093" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>CFContractSerializer</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1ad4060e31e2315ca51fa76f5d6aad969c" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>createSerializer</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1ad4060e31e2315ca51fa76f5d6aad969c" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>createSerializer</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1ae95673687802446dea5965cd9e52bdc1" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>info</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a0607ff0d6f366e2586a839ecba916e7b" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>IsStartObject</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a0607ff0d6f366e2586a839ecba916e7b" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>IsStartObject</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a9d39428c8b32331752fdd6d9b97e56ec" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>ReadObject</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a9d39428c8b32331752fdd6d9b97e56ec" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>ReadObject</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a799575403faab8aaf3cb40c75dbf462e" prot="private" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>serializer</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a802294463f5646b13c06d2697276c5db" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>WriteEndObject</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a802294463f5646b13c06d2697276c5db" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>WriteEndObject</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a2281d80be46bf5c07dd63c15b1eddcd7" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>WriteObject</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a2281d80be46bf5c07dd63c15b1eddcd7" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>WriteObject</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a0eb988c099390244e6872c7882f692ab" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>WriteObjectContent</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a0eb988c099390244e6872c7882f692ab" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>WriteObjectContent</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a0d9cc1df1c7c6c0621723c60ed053af5" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>WriteStartObject</name></member>
+      <member refid="class_microsoft_1_1_tools_1_1_service_model_1_1_c_f_client_base_3_01_t_channel_01_4_1_1_c_f_contract_serializer_1a0d9cc1df1c7c6c0621723c60ed053af5" prot="public" virt="non-virtual"><scope>Microsoft::Tools::ServiceModel::CFClientBase&lt; TChannel &gt;::CFContractSerializer</scope><name>WriteStartObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

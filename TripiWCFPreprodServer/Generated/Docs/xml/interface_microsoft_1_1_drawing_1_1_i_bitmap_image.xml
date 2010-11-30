@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="interface_microsoft_1_1_drawing_1_1_i_bitmap_image" kind="interface" prot="public">
+    <compoundname>Microsoft::Drawing::IBitmapImage</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_bitmap_image_1a99eb1588cd5f3a07110b172285a51838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IBitmapImage.GetSize</definition>
+        <argsstring>(out Size size)</argsstring>
+        <name>GetSize</name>
+        <param>
+          <type>out Size</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="144"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_bitmap_image_1ae6991045b0fe9f388444992ccdd6f36f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IBitmapImage.GetPixelFormatID</definition>
+        <argsstring>(out PixelFormatID pixelFormat)</argsstring>
+        <name>GetPixelFormatID</name>
+        <param>
+          <type>out PixelFormatID</type>
+          <declname>pixelFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="145"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_bitmap_image_1a43a3763d90bdedf2bb837a6842543ad4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IBitmapImage.LockBits</definition>
+        <argsstring>(ref Rectangle rect, uint flags, PixelFormatID pixelFormat, out BitmapData lockedBitmapData)</argsstring>
+        <name>LockBits</name>
+        <param>
+          <type>ref Rectangle</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>PixelFormatID</type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_microsoft_1_1_drawing_1_1_bitmap_data" kindref="compound">BitmapData</ref></type>
+          <declname>lockedBitmapData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="146"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_bitmap_image_1ab8cf3ae680f1c9c28425359a9f8751a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IBitmapImage.UnlockBits</definition>
+        <argsstring>(ref BitmapData lockedBitmapData)</argsstring>
+        <name>UnlockBits</name>
+        <param>
+          <type>ref <ref refid="struct_microsoft_1_1_drawing_1_1_bitmap_data" kindref="compound">BitmapData</ref></type>
+          <declname>lockedBitmapData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="147"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_bitmap_image_1a637a2107f4f1bc6ec8d12914cbf31926" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IBitmapImage.GetPalette</definition>
+        <argsstring>()</argsstring>
+        <name>GetPalette</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="148"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_bitmap_image_1a12010f240d8fa72f31e807396a460f22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IBitmapImage.SetPalette</definition>
+        <argsstring>()</argsstring>
+        <name>SetPalette</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="149"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="143" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="142" bodyend="150"/>
+    <listofallmembers>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_bitmap_image_1a637a2107f4f1bc6ec8d12914cbf31926" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IBitmapImage</scope><name>GetPalette</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_bitmap_image_1ae6991045b0fe9f388444992ccdd6f36f" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IBitmapImage</scope><name>GetPixelFormatID</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_bitmap_image_1a99eb1588cd5f3a07110b172285a51838" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IBitmapImage</scope><name>GetSize</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_bitmap_image_1a43a3763d90bdedf2bb837a6842543ad4" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IBitmapImage</scope><name>LockBits</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_bitmap_image_1a12010f240d8fa72f31e807396a460f22" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IBitmapImage</scope><name>SetPalette</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_bitmap_image_1ab8cf3ae680f1c9c28425359a9f8751a5" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IBitmapImage</scope><name>UnlockBits</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

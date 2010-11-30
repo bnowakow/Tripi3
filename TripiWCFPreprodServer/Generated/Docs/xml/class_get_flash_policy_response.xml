@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_get_flash_policy_response" kind="class" prot="public">
+    <compoundname>GetFlashPolicyResponse</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_get_flash_policy_response_1ae580b5489fe4c224af94656539be2100" prot="public" static="no" mutable="no">
+        <type>System.IO.Stream</type>
+        <definition>System IO Stream GetFlashPolicyResponse::GetFlashPolicyResult</definition>
+        <argsstring></argsstring>
+        <name>GetFlashPolicyResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="932" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="932" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_get_flash_policy_response_1a5cfebec14d6421196acb9e4f11e920e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetFlashPolicyResponse.GetFlashPolicyResponse</definition>
+        <argsstring>()</argsstring>
+        <name>GetFlashPolicyResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="935" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="934" bodyend="936"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_flash_policy_response_1ab1318d7bc5d5c4360fb06c47c51aef2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetFlashPolicyResponse.GetFlashPolicyResponse</definition>
+        <argsstring>(System.IO.Stream GetFlashPolicyResult)</argsstring>
+        <name>GetFlashPolicyResponse</name>
+        <param>
+          <type>System.IO.Stream</type>
+          <declname>GetFlashPolicyResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="939" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="938" bodyend="941"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_flash_policy_response_1a5cfebec14d6421196acb9e4f11e920e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetFlashPolicyResponse.GetFlashPolicyResponse</definition>
+        <argsstring>()</argsstring>
+        <name>GetFlashPolicyResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="935" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="934" bodyend="936"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_flash_policy_response_1ab1318d7bc5d5c4360fb06c47c51aef2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetFlashPolicyResponse.GetFlashPolicyResponse</definition>
+        <argsstring>(System.IO.Stream GetFlashPolicyResult)</argsstring>
+        <name>GetFlashPolicyResponse</name>
+        <param>
+          <type>System.IO.Stream</type>
+          <declname>GetFlashPolicyResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="939" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="938" bodyend="941"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="119">
+        <label>GetFlashPolicyResponse</label>
+        <link refid="class_get_flash_policy_response"/>
+        <childnode refid="120" relation="usage">
+          <edgelabel>GetFlashPolicyResult</edgelabel>
+        </childnode>
+      </node>
+      <node id="120">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="929" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="928" bodyend="942"/>
+    <listofallmembers>
+      <member refid="class_get_flash_policy_response_1a5cfebec14d6421196acb9e4f11e920e4" prot="public" virt="non-virtual"><scope>GetFlashPolicyResponse</scope><name>GetFlashPolicyResponse</name></member>
+      <member refid="class_get_flash_policy_response_1ab1318d7bc5d5c4360fb06c47c51aef2e" prot="public" virt="non-virtual"><scope>GetFlashPolicyResponse</scope><name>GetFlashPolicyResponse</name></member>
+      <member refid="class_get_flash_policy_response_1a5cfebec14d6421196acb9e4f11e920e4" prot="public" virt="non-virtual"><scope>GetFlashPolicyResponse</scope><name>GetFlashPolicyResponse</name></member>
+      <member refid="class_get_flash_policy_response_1ab1318d7bc5d5c4360fb06c47c51aef2e" prot="public" virt="non-virtual"><scope>GetFlashPolicyResponse</scope><name>GetFlashPolicyResponse</name></member>
+      <member refid="class_get_flash_policy_response_1ae580b5489fe4c224af94656539be2100" prot="public" virt="non-virtual"><scope>GetFlashPolicyResponse</scope><name>GetFlashPolicyResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

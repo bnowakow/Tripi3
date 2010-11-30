@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1_login_form" kind="class" prot="public">
+    <compoundname>Tripi::LoginForm</compoundname>
+    <innerclass refid="struct_tripi_1_1_login_form_1_1_user_credentials" prot="private">Tripi::LoginForm::UserCredentials</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tripi_1_1_login_form_1a1a651f86bcd12a9f5225a604f55d8362" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer Tripi.LoginForm.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer> null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" line="8" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_login_form_1a1393239b2e766ea1b67628cd433c032b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox Tripi.LoginForm.tboxLogin</definition>
+        <argsstring></argsstring>
+        <name>tboxLogin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" line="121" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_login_form_1a89706de5cc4e2e8ccb3e3e2cce8c2056" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox Tripi.LoginForm.tboxPassword</definition>
+        <argsstring></argsstring>
+        <name>tboxPassword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" line="122" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_login_form_1a7a0387b79dadb642f4070870b8f6ec83" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Tripi.LoginForm.labelUser</definition>
+        <argsstring></argsstring>
+        <name>labelUser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" line="123" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_login_form_1a1bb72b50f0a0cc9ea2362569edfd7cbc" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Tripi.LoginForm.labelPassword</definition>
+        <argsstring></argsstring>
+        <name>labelPassword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" line="124" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_login_form_1a3d7d2577b8afff9e3c479bea495f82ee" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Timer</type>
+        <definition>System.Windows.Forms.Timer Tripi.LoginForm.gpsTimer</definition>
+        <argsstring></argsstring>
+        <name>gpsTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" line="125" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_login_form_1a0072ba1dab33b2b20d4061a3cf51ae65" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Tripi.LoginForm.labelTitle</definition>
+        <argsstring></argsstring>
+        <name>labelTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" line="126" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_login_form_1a339252d55ed71415745bb0144c0b4d44" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button Tripi.LoginForm.bttnOk</definition>
+        <argsstring></argsstring>
+        <name>bttnOk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" line="127" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1_login_form_1a6c444389b5cadbe9a17b33538ccac0e2" prot="private" static="no" mutable="no">
+        <type>Microsoft.WindowsCE.Forms.InputPanel</type>
+        <definition>Microsoft.WindowsCE.Forms.InputPanel Tripi.LoginForm.inputPanel</definition>
+        <argsstring></argsstring>
+        <name>inputPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" line="128" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tripi_1_1_login_form_1a06f0dfb641389ba45b50f78ed29f1345" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Tripi.LoginForm.LoginForm</definition>
+        <argsstring>()</argsstring>
+        <name>LoginForm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" line="25" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tripi_1_1_login_form_1a835115ab3d27795cf520443934067f9f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.LoginForm.ExitApplication</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>ExitApplication</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" line="30" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_login_form_1a9648b02b2ee48e94706e08b12e89944e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.LoginForm.ToogleSIP</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>ToogleSIP</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" line="35" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_login_form_1ae3b854821e3910c897a2fe70d9ef0c01" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.LoginForm.LogInClick</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>LogInClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" line="40" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" bodystart="39" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_login_form_1a124bf705fe245fde573d32cb4c4dd7fd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.LoginForm.LoginUser</definition>
+        <argsstring>()</argsstring>
+        <name>LoginUser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" line="54" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" bodystart="53" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_login_form_1a9581adb762f516b0b4f7698d2916d4dc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.LoginForm.LoginFailed</definition>
+        <argsstring>()</argsstring>
+        <name>LoginFailed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" line="67" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" bodystart="66" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_login_form_1a8755684e0ca0f702eae56849ba3d22b5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.LoginForm.CheckUserCredentials</definition>
+        <argsstring>(object param)</argsstring>
+        <name>CheckUserCredentials</name>
+        <param>
+          <type>object</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" line="80" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" bodystart="79" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_login_form_1a7a9b1cdbdc5e7261f3f0070e7d83adca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.LoginForm.FormLoad</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>FormLoad</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" line="90" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" bodystart="89" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1_login_form_1ac98c6b97892e82ac329b0c840074bb40" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.LoginForm.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" line="30" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" bodystart="29" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_tripi_1_1_login_form_1a6b35b9e43ecc0a41a13c50cd888c678e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Tripi.LoginForm.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="319">
+        <label>Tripi.LoginForm</label>
+        <link refid="class_tripi_1_1_login_form"/>
+        <childnode refid="320" relation="usage">
+          <edgelabel>inputPanel</edgelabel>
+        </childnode>
+        <childnode refid="321" relation="usage">
+          <edgelabel>labelUser</edgelabel>
+          <edgelabel>bttnOk</edgelabel>
+          <edgelabel>tboxPassword</edgelabel>
+          <edgelabel>tboxLogin</edgelabel>
+          <edgelabel>components</edgelabel>
+          <edgelabel>labelTitle</edgelabel>
+          <edgelabel>gpsTimer</edgelabel>
+          <edgelabel>labelPassword</edgelabel>
+        </childnode>
+      </node>
+      <node id="321">
+        <label>System</label>
+      </node>
+      <node id="320">
+        <label>Forms</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" line="17" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/LoginForm.cs" bodystart="16" bodyend="97"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1_login_form_1a339252d55ed71415745bb0144c0b4d44" prot="private" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>bttnOk</name></member>
+      <member refid="class_tripi_1_1_login_form_1a8755684e0ca0f702eae56849ba3d22b5" prot="private" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>CheckUserCredentials</name></member>
+      <member refid="class_tripi_1_1_login_form_1a1a651f86bcd12a9f5225a604f55d8362" prot="private" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>components</name></member>
+      <member refid="class_tripi_1_1_login_form_1a6b35b9e43ecc0a41a13c50cd888c678e" prot="protected" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>Dispose</name></member>
+      <member refid="class_tripi_1_1_login_form_1a835115ab3d27795cf520443934067f9f" prot="private" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>ExitApplication</name></member>
+      <member refid="class_tripi_1_1_login_form_1a7a9b1cdbdc5e7261f3f0070e7d83adca" prot="private" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>FormLoad</name></member>
+      <member refid="class_tripi_1_1_login_form_1a3d7d2577b8afff9e3c479bea495f82ee" prot="private" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>gpsTimer</name></member>
+      <member refid="class_tripi_1_1_login_form_1ac98c6b97892e82ac329b0c840074bb40" prot="private" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>InitializeComponent</name></member>
+      <member refid="class_tripi_1_1_login_form_1a6c444389b5cadbe9a17b33538ccac0e2" prot="private" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>inputPanel</name></member>
+      <member refid="class_tripi_1_1_login_form_1a1bb72b50f0a0cc9ea2362569edfd7cbc" prot="private" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>labelPassword</name></member>
+      <member refid="class_tripi_1_1_login_form_1a0072ba1dab33b2b20d4061a3cf51ae65" prot="private" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>labelTitle</name></member>
+      <member refid="class_tripi_1_1_login_form_1a7a0387b79dadb642f4070870b8f6ec83" prot="private" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>labelUser</name></member>
+      <member refid="class_tripi_1_1_login_form_1ae3b854821e3910c897a2fe70d9ef0c01" prot="private" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>LogInClick</name></member>
+      <member refid="class_tripi_1_1_login_form_1a9581adb762f516b0b4f7698d2916d4dc" prot="private" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>LoginFailed</name></member>
+      <member refid="class_tripi_1_1_login_form_1a06f0dfb641389ba45b50f78ed29f1345" prot="public" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>LoginForm</name></member>
+      <member refid="class_tripi_1_1_login_form_1a124bf705fe245fde573d32cb4c4dd7fd" prot="private" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>LoginUser</name></member>
+      <member refid="class_tripi_1_1_login_form_1a1393239b2e766ea1b67628cd433c032b" prot="private" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>tboxLogin</name></member>
+      <member refid="class_tripi_1_1_login_form_1a89706de5cc4e2e8ccb3e3e2cce8c2056" prot="private" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>tboxPassword</name></member>
+      <member refid="class_tripi_1_1_login_form_1a9648b02b2ee48e94706e08b12e89944e" prot="private" virt="non-virtual"><scope>Tripi::LoginForm</scope><name>ToogleSIP</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

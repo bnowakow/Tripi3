@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="struct_g_p_s_mobile_1_1_file_time" kind="struct" prot="public">
+    <compoundname>GPSMobile::FileTime</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_g_p_s_mobile_1_1_file_time_1abb4eeadc6601a6b01ee63a3f2e359a20" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.FileTime.dwLowDateTime</definition>
+        <argsstring></argsstring>
+        <name>dwLowDateTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" line="21" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_g_p_s_mobile_1_1_file_time_1af861bb61f181a64140c88c98334e0624" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GPSMobile.FileTime.dwHighDateTime</definition>
+        <argsstring></argsstring>
+        <name>dwHighDateTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" line="22" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" line="20" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsDeviceState.cs" bodystart="19" bodyend="23"/>
+    <listofallmembers>
+      <member refid="struct_g_p_s_mobile_1_1_file_time_1af861bb61f181a64140c88c98334e0624" prot="public" virt="non-virtual"><scope>GPSMobile::FileTime</scope><name>dwHighDateTime</name></member>
+      <member refid="struct_g_p_s_mobile_1_1_file_time_1abb4eeadc6601a6b01ee63a3f2e359a20" prot="public" virt="non-virtual"><scope>GPSMobile::FileTime</scope><name>dwLowDateTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

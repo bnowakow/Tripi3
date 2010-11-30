@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_get_trips_for_user_response" kind="class" prot="public">
+    <compoundname>GetTripsForUserResponse</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_get_trips_for_user_response_1aa9ec5d7497d5771f17fe6e28a761b692" prot="public" static="no" mutable="no">
+        <type><ref refid="class_trip" kindref="compound">Trip</ref>[]</type>
+        <definition>Trip [] GetTripsForUserResponse.GetTripsForUserResult</definition>
+        <argsstring></argsstring>
+        <name>GetTripsForUserResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="490" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="490" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_get_trips_for_user_response_1a0b76656151415b53986fcb148f676c24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetTripsForUserResponse.GetTripsForUserResponse</definition>
+        <argsstring>()</argsstring>
+        <name>GetTripsForUserResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="493" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="492" bodyend="494"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_trips_for_user_response_1a4ff426717f77a2305a35ba8482822a6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetTripsForUserResponse.GetTripsForUserResponse</definition>
+        <argsstring>(Trip[] GetTripsForUserResult)</argsstring>
+        <name>GetTripsForUserResponse</name>
+        <param>
+          <type><ref refid="class_trip" kindref="compound">Trip</ref>[]</type>
+          <declname>GetTripsForUserResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="497" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="496" bodyend="499"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_trips_for_user_response_1a0b76656151415b53986fcb148f676c24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetTripsForUserResponse.GetTripsForUserResponse</definition>
+        <argsstring>()</argsstring>
+        <name>GetTripsForUserResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="493" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="492" bodyend="494"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_trips_for_user_response_1a4ff426717f77a2305a35ba8482822a6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetTripsForUserResponse.GetTripsForUserResponse</definition>
+        <argsstring>(Trip[] GetTripsForUserResult)</argsstring>
+        <name>GetTripsForUserResponse</name>
+        <param>
+          <type><ref refid="class_trip" kindref="compound">Trip</ref>[]</type>
+          <declname>GetTripsForUserResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="497" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="496" bodyend="499"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="140">
+        <label>GetTripsForUserResponse</label>
+        <link refid="class_get_trips_for_user_response"/>
+        <childnode refid="141" relation="usage">
+          <edgelabel>GetTripsForUserResult</edgelabel>
+        </childnode>
+      </node>
+      <node id="141">
+        <label>Trip</label>
+        <link refid="class_trip"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="486" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="485" bodyend="500"/>
+    <listofallmembers>
+      <member refid="class_get_trips_for_user_response_1a0b76656151415b53986fcb148f676c24" prot="public" virt="non-virtual"><scope>GetTripsForUserResponse</scope><name>GetTripsForUserResponse</name></member>
+      <member refid="class_get_trips_for_user_response_1a4ff426717f77a2305a35ba8482822a6a" prot="public" virt="non-virtual"><scope>GetTripsForUserResponse</scope><name>GetTripsForUserResponse</name></member>
+      <member refid="class_get_trips_for_user_response_1a0b76656151415b53986fcb148f676c24" prot="public" virt="non-virtual"><scope>GetTripsForUserResponse</scope><name>GetTripsForUserResponse</name></member>
+      <member refid="class_get_trips_for_user_response_1a4ff426717f77a2305a35ba8482822a6a" prot="public" virt="non-virtual"><scope>GetTripsForUserResponse</scope><name>GetTripsForUserResponse</name></member>
+      <member refid="class_get_trips_for_user_response_1aa9ec5d7497d5771f17fe6e28a761b692" prot="public" virt="non-virtual"><scope>GetTripsForUserResponse</scope><name>GetTripsForUserResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

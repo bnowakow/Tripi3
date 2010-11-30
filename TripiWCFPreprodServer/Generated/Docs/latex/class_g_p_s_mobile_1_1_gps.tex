@@ -1,0 +1,129 @@
+\hypertarget{class_g_p_s_mobile_1_1_gps}{
+\section{GPSMobile.Gps Class Reference}
+\label{class_g_p_s_mobile_1_1_gps}\index{GPSMobile::Gps@{GPSMobile::Gps}}
+}
+
+
+Summary description for GPS.  
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_g_p_s_mobile_1_1_gps_aa8cd40ebf0327a9735912a27113621f2}{Open} ()
+\begin{DoxyCompactList}\small\item\em Opens the GPS device and prepares to receive data from it. \item\end{DoxyCompactList}\item 
+void \hyperlink{class_g_p_s_mobile_1_1_gps_a5de6d1f72d12b75a4407d200edba2259}{Close} ()
+\begin{DoxyCompactList}\small\item\em Closes the gps device. \item\end{DoxyCompactList}\item 
+\hyperlink{class_g_p_s_mobile_1_1_gps_position}{GpsPosition} \hyperlink{class_g_p_s_mobile_1_1_gps_a649e743e090756fd725666cfc3daf4fa}{GetPosition} ()
+\begin{DoxyCompactList}\small\item\em Get the position reported by the GPS receiver. \item\end{DoxyCompactList}\item 
+\hyperlink{class_g_p_s_mobile_1_1_gps_position}{GpsPosition} \hyperlink{class_g_p_s_mobile_1_1_gps_ac984add12f07f111aa65d115251d9f89}{GetPosition} (TimeSpan maxAge)
+\begin{DoxyCompactList}\small\item\em Get the position reported by the GPS receiver that is no older than the maxAge passed in. \item\end{DoxyCompactList}\item 
+\hyperlink{class_g_p_s_mobile_1_1_gps_device_state}{GpsDeviceState} \hyperlink{class_g_p_s_mobile_1_1_gps_aeff3c031b36f7322c81050480351f667}{GetDeviceState} ()
+\begin{DoxyCompactList}\small\item\em Queries the device state. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+LocationChangedEventHandler \hyperlink{class_g_p_s_mobile_1_1_gps_a47e124eef5d1e94dc800878a046540ae}{LocationChanged}
+\begin{DoxyCompactList}\small\item\em Event that is raised when the GPS locaction data changes. \item\end{DoxyCompactList}\item 
+DeviceStateChangedEventHandler \hyperlink{class_g_p_s_mobile_1_1_gps_a23f86fff99fbb1192ccab1cc17c3354c}{DeviceStateChanged}
+\begin{DoxyCompactList}\small\item\em Event that is raised when the GPS device state changes. \item\end{DoxyCompactList}\item 
+bool \hyperlink{class_g_p_s_mobile_1_1_gps_a3d0d76091c29c1caaa322f8fa90945c0}{Opened}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em True: The GPS device has been opened. False: It has not been opened. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Summary description for GPS. 
+
+Definition at line 27 of file GPS.cs.
+
+\subsection{Member Function Documentation}
+\hypertarget{class_g_p_s_mobile_1_1_gps_a5de6d1f72d12b75a4407d200edba2259}{
+\index{GPSMobile::Gps@{GPSMobile::Gps}!Close@{Close}}
+\index{Close@{Close}!GPSMobile::Gps@{GPSMobile::Gps}}
+\subsubsection[{Close}]{\setlength{\rightskip}{0pt plus 5cm}void GPSMobile.Gps.Close ()}}
+\label{class_g_p_s_mobile_1_1_gps_a5de6d1f72d12b75a4407d200edba2259}
+
+
+Closes the gps device. 
+
+Definition at line 133 of file GPS.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_aeff3c031b36f7322c81050480351f667}{
+\index{GPSMobile::Gps@{GPSMobile::Gps}!GetDeviceState@{GetDeviceState}}
+\index{GetDeviceState@{GetDeviceState}!GPSMobile::Gps@{GPSMobile::Gps}}
+\subsubsection[{GetDeviceState}]{\setlength{\rightskip}{0pt plus 5cm}{\bf GpsDeviceState} GPSMobile.Gps.GetDeviceState ()}}
+\label{class_g_p_s_mobile_1_1_gps_aeff3c031b36f7322c81050480351f667}
+
+
+Queries the device state. \begin{DoxyReturn}{Returns}
+Device state information
+\end{DoxyReturn}
+
+
+Definition at line 234 of file GPS.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_ac984add12f07f111aa65d115251d9f89}{
+\index{GPSMobile::Gps@{GPSMobile::Gps}!GetPosition@{GetPosition}}
+\index{GetPosition@{GetPosition}!GPSMobile::Gps@{GPSMobile::Gps}}
+\subsubsection[{GetPosition}]{\setlength{\rightskip}{0pt plus 5cm}{\bf GpsPosition} GPSMobile.Gps.GetPosition (TimeSpan {\em maxAge})}}
+\label{class_g_p_s_mobile_1_1_gps_ac984add12f07f111aa65d115251d9f89}
+
+
+Get the position reported by the GPS receiver that is no older than the maxAge passed in. 
+\begin{DoxyParams}{Parameters}
+\item[{\em maxAge}]Max age of the gps position data that you want back. If there is no data within the required age, null is returned. if maxAge == TimeSpan.Zero, then the age of the data is ignored\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_g_p_s_mobile_1_1_gps_position}{GpsPosition} class with all the position details
+\end{DoxyReturn}
+
+
+Definition at line 189 of file GPS.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_a649e743e090756fd725666cfc3daf4fa}{
+\index{GPSMobile::Gps@{GPSMobile::Gps}!GetPosition@{GetPosition}}
+\index{GetPosition@{GetPosition}!GPSMobile::Gps@{GPSMobile::Gps}}
+\subsubsection[{GetPosition}]{\setlength{\rightskip}{0pt plus 5cm}{\bf GpsPosition} GPSMobile.Gps.GetPosition ()}}
+\label{class_g_p_s_mobile_1_1_gps_a649e743e090756fd725666cfc3daf4fa}
+
+
+Get the position reported by the GPS receiver. \begin{DoxyReturn}{Returns}
+\hyperlink{class_g_p_s_mobile_1_1_gps_position}{GpsPosition} class with all the position details
+\end{DoxyReturn}
+
+
+Definition at line 175 of file GPS.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_aa8cd40ebf0327a9735912a27113621f2}{
+\index{GPSMobile::Gps@{GPSMobile::Gps}!Open@{Open}}
+\index{Open@{Open}!GPSMobile::Gps@{GPSMobile::Gps}}
+\subsubsection[{Open}]{\setlength{\rightskip}{0pt plus 5cm}void GPSMobile.Gps.Open ()}}
+\label{class_g_p_s_mobile_1_1_gps_aa8cd40ebf0327a9735912a27113621f2}
+
+
+Opens the GPS device and prepares to receive data from it. 
+
+Definition at line 110 of file GPS.cs.
+
+\subsection{Property Documentation}
+\hypertarget{class_g_p_s_mobile_1_1_gps_a23f86fff99fbb1192ccab1cc17c3354c}{
+\index{GPSMobile::Gps@{GPSMobile::Gps}!DeviceStateChanged@{DeviceStateChanged}}
+\index{DeviceStateChanged@{DeviceStateChanged}!GPSMobile::Gps@{GPSMobile::Gps}}
+\subsubsection[{DeviceStateChanged}]{\setlength{\rightskip}{0pt plus 5cm}DeviceStateChangedEventHandler GPSMobile.Gps.DeviceStateChanged\hspace{0.3cm}{\ttfamily  \mbox{[}add, remove\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_a23f86fff99fbb1192ccab1cc17c3354c}
+
+
+Event that is raised when the GPS device state changes. 
+
+Definition at line 75 of file GPS.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_a47e124eef5d1e94dc800878a046540ae}{
+\index{GPSMobile::Gps@{GPSMobile::Gps}!LocationChanged@{LocationChanged}}
+\index{LocationChanged@{LocationChanged}!GPSMobile::Gps@{GPSMobile::Gps}}
+\subsubsection[{LocationChanged}]{\setlength{\rightskip}{0pt plus 5cm}LocationChangedEventHandler GPSMobile.Gps.LocationChanged\hspace{0.3cm}{\ttfamily  \mbox{[}add, remove\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_a47e124eef5d1e94dc800878a046540ae}
+
+
+Event that is raised when the GPS locaction data changes. 
+
+Definition at line 54 of file GPS.cs.\hypertarget{class_g_p_s_mobile_1_1_gps_a3d0d76091c29c1caaa322f8fa90945c0}{
+\index{GPSMobile::Gps@{GPSMobile::Gps}!Opened@{Opened}}
+\index{Opened@{Opened}!GPSMobile::Gps@{GPSMobile::Gps}}
+\subsubsection[{Opened}]{\setlength{\rightskip}{0pt plus 5cm}bool GPSMobile.Gps.Opened\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}}}
+\label{class_g_p_s_mobile_1_1_gps_a3d0d76091c29c1caaa322f8fa90945c0}
+
+
+True: The GPS device has been opened. False: It has not been opened. 
+
+Definition at line 93 of file GPS.cs.
+
+The documentation for this class was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+GPS/GPS.cs\end{DoxyCompactItemize}

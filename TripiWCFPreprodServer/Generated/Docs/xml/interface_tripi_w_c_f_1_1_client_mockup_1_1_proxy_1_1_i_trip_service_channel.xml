@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_channel" kind="interface" prot="public">
+    <compoundname>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</compoundname>
+    <basecompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ITripService</basecompoundref>
+    <basecompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ITripService</basecompoundref>
+    <basecompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ITripService</basecompoundref>
+    <basecompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ITripService</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="286">
+        <label>TripiWCF.ClientMockup.Proxy.ITripServiceChannel</label>
+        <link refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_channel"/>
+        <childnode refid="287" relation="public-inheritance">
+        </childnode>
+        <childnode refid="287" relation="public-inheritance">
+        </childnode>
+        <childnode refid="287" relation="public-inheritance">
+        </childnode>
+        <childnode refid="287" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="287">
+        <label>TripiWCF.ClientMockup.Proxy.ITripService</label>
+        <link refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="288">
+        <label>TripiWCF.ClientMockup.Proxy.ITripServiceChannel</label>
+        <link refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_channel"/>
+        <childnode refid="289" relation="public-inheritance">
+        </childnode>
+        <childnode refid="289" relation="public-inheritance">
+        </childnode>
+        <childnode refid="289" relation="public-inheritance">
+        </childnode>
+        <childnode refid="289" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="289">
+        <label>TripiWCF.ClientMockup.Proxy.ITripService</label>
+        <link refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="204" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="203" bodyend="205"/>
+    <listofallmembers>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1ae49d01ed708a902da84ea3f2709dd171" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>AddManyPositionNodes</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1ae49d01ed708a902da84ea3f2709dd171" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>AddManyPositionNodes</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a27741eac5f6c01d6f17f053b27bd2224" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>AddPositionNode</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a27741eac5f6c01d6f17f053b27bd2224" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>AddPositionNode</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a7a16e71dc67db34b9436119c7203b407" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>AddPositionNode</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a7a16e71dc67db34b9436119c7203b407" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>AddPositionNode</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a5f64f3357b29ee25e2ff400bd1953efb" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>CreateNewTrip</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a5f64f3357b29ee25e2ff400bd1953efb" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>CreateNewTrip</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a992b00d8b51e0509d90ae9dfac7f47d4" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>CreateNewTrip</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a992b00d8b51e0509d90ae9dfac7f47d4" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>CreateNewTrip</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1abc1b1dc6819d30392eaf1652393fba56" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>GetAllTrips</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1abc1b1dc6819d30392eaf1652393fba56" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>GetAllTrips</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1abc1b1dc6819d30392eaf1652393fba56" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>GetAllTrips</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1abc1b1dc6819d30392eaf1652393fba56" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>GetAllTrips</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a94f0b89ebce82a430cac8e5867fe8406" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>GetPositionNodesForTrip</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a94f0b89ebce82a430cac8e5867fe8406" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>GetPositionNodesForTrip</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a94f0b89ebce82a430cac8e5867fe8406" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>GetPositionNodesForTrip</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a94f0b89ebce82a430cac8e5867fe8406" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>GetPositionNodesForTrip</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a73334ca5ba2410491360b8c8f32d720f" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>GetTripsForUser</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a73334ca5ba2410491360b8c8f32d720f" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>GetTripsForUser</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a73334ca5ba2410491360b8c8f32d720f" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>GetTripsForUser</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a73334ca5ba2410491360b8c8f32d720f" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>GetTripsForUser</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a446a7cca0e65b64914da8a5abb56ea9b" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>LoginUser</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a446a7cca0e65b64914da8a5abb56ea9b" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>LoginUser</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a446a7cca0e65b64914da8a5abb56ea9b" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>LoginUser</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a446a7cca0e65b64914da8a5abb56ea9b" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>LoginUser</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1ad7182a47d94448db54ba552032d9c0d7" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>UpdatePositionNodeDescription</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1ad7182a47d94448db54ba552032d9c0d7" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>UpdatePositionNodeDescription</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a71592985f09be23741615f2e81b2cc7c" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>UpdateTripDescription</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_trip_service_1a71592985f09be23741615f2e81b2cc7c" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ITripServiceChannel</scope><name>UpdateTripDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_g_p_s_mobile_1_1_degrees_minutes_seconds" kind="class" prot="public">
+    <compoundname>GPSMobile::DegreesMinutesSeconds</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a06ae9327ab6502aa884f949eb3524d4d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GPSMobile.DegreesMinutesSeconds.isPositive</definition>
+        <argsstring></argsstring>
+        <name>isPositive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" line="8" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a82dbfcab18ea50433dfc6f529575dec8" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint GPSMobile.DegreesMinutesSeconds.degrees</definition>
+        <argsstring></argsstring>
+        <name>degrees</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" line="18" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a1686281899b3dca20cbca1000ecafc73" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint GPSMobile.DegreesMinutesSeconds.minutes</definition>
+        <argsstring></argsstring>
+        <name>minutes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" line="27" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a3db110588b717607cbdf4c5920e9e680" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double GPSMobile.DegreesMinutesSeconds.seconds</definition>
+        <argsstring></argsstring>
+        <name>seconds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" line="36" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a14812fc58ea812f0a28b20447f2e32cc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool GPSMobile.DegreesMinutesSeconds.IsPositive</definition>
+        <argsstring></argsstring>
+        <name>IsPositive</name>
+        <briefdescription>
+<para>Returns true if the degrees, minutes and seconds refer to a positive value, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" line="16" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1ae24ec91d5cae1b7bb197b8a9ce319965" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>uint</type>
+        <definition>uint GPSMobile.DegreesMinutesSeconds.Degrees</definition>
+        <argsstring></argsstring>
+        <name>Degrees</name>
+        <briefdescription>
+<para>The degrees unit of the coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" line="25" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a186a923e69d06147fa4682300c47ae71" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>uint</type>
+        <definition>uint GPSMobile.DegreesMinutesSeconds.Minutes</definition>
+        <argsstring></argsstring>
+        <name>Minutes</name>
+        <briefdescription>
+<para>The minutes unit of the coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" line="34" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1aba3b082a41209eaffe829426d760bc5a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double GPSMobile.DegreesMinutesSeconds.Seconds</definition>
+        <argsstring></argsstring>
+        <name>Seconds</name>
+        <briefdescription>
+<para>The seconds unit of the coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" line="43" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a5a0359c380dd9ab77197dde6b75a062c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GPSMobile.DegreesMinutesSeconds.DegreesMinutesSeconds</definition>
+        <argsstring>(double decimalDegrees)</argsstring>
+        <name>DegreesMinutesSeconds</name>
+        <param>
+          <type>double</type>
+          <declname>decimalDegrees</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a new instance of <ref refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds" kindref="compound">DegreesMinutesSeconds</ref> converting from decimal degrees. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>decimalDegrees</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Initial value as decimal degrees</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" line="51" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" bodystart="50" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a0beba9ff11f3b84a2604a3f78ef6da99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GPSMobile.DegreesMinutesSeconds.DegreesMinutesSeconds</definition>
+        <argsstring>(bool isPositive, uint degrees, uint minutes, double seconds)</argsstring>
+        <name>DegreesMinutesSeconds</name>
+        <param>
+          <type>bool</type>
+          <declname>isPositive</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>degrees</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>minutes</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>seconds</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a new instance of <ref refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds" kindref="compound">DegreesMinutesSeconds</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isPositive</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True if the coordinates are positive coordinate, false if they are negative coordinates.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>degrees</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Degrees unit of the coordinate</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minutes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Minutes unit of the coordinate</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>seconds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Seconds unit of the coordinate. This should be a positive value.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" line="71" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" bodystart="70" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a114de0a66d178c5af760e29119d1c725" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double GPSMobile.DegreesMinutesSeconds.ToDecimalDegrees</definition>
+        <argsstring>()</argsstring>
+        <name>ToDecimalDegrees</name>
+        <briefdescription>
+<para>Converts the decimal, minutes, seconds coordinate to decimal degrees. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" line="84" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" bodystart="83" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a164a4704ff73cbeb937d43aded782c99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GPSMobile.DegreesMinutesSeconds.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+<para>Converts the instance to a string in format: D M&apos; S". </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>string representation of degrees, minutes, seconds</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" line="95" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" bodystart="94" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" line="6" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/DegreesMinutesSeconds.cs" bodystart="5" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a82dbfcab18ea50433dfc6f529575dec8" prot="private" virt="non-virtual"><scope>GPSMobile::DegreesMinutesSeconds</scope><name>degrees</name></member>
+      <member refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1ae24ec91d5cae1b7bb197b8a9ce319965" prot="public" virt="non-virtual"><scope>GPSMobile::DegreesMinutesSeconds</scope><name>Degrees</name></member>
+      <member refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a5a0359c380dd9ab77197dde6b75a062c" prot="public" virt="non-virtual"><scope>GPSMobile::DegreesMinutesSeconds</scope><name>DegreesMinutesSeconds</name></member>
+      <member refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a0beba9ff11f3b84a2604a3f78ef6da99" prot="public" virt="non-virtual"><scope>GPSMobile::DegreesMinutesSeconds</scope><name>DegreesMinutesSeconds</name></member>
+      <member refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a14812fc58ea812f0a28b20447f2e32cc" prot="public" virt="non-virtual"><scope>GPSMobile::DegreesMinutesSeconds</scope><name>IsPositive</name></member>
+      <member refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a06ae9327ab6502aa884f949eb3524d4d" prot="private" virt="non-virtual"><scope>GPSMobile::DegreesMinutesSeconds</scope><name>isPositive</name></member>
+      <member refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a1686281899b3dca20cbca1000ecafc73" prot="private" virt="non-virtual"><scope>GPSMobile::DegreesMinutesSeconds</scope><name>minutes</name></member>
+      <member refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a186a923e69d06147fa4682300c47ae71" prot="public" virt="non-virtual"><scope>GPSMobile::DegreesMinutesSeconds</scope><name>Minutes</name></member>
+      <member refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a3db110588b717607cbdf4c5920e9e680" prot="private" virt="non-virtual"><scope>GPSMobile::DegreesMinutesSeconds</scope><name>seconds</name></member>
+      <member refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1aba3b082a41209eaffe829426d760bc5a" prot="public" virt="non-virtual"><scope>GPSMobile::DegreesMinutesSeconds</scope><name>Seconds</name></member>
+      <member refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a114de0a66d178c5af760e29119d1c725" prot="public" virt="non-virtual"><scope>GPSMobile::DegreesMinutesSeconds</scope><name>ToDecimalDegrees</name></member>
+      <member refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds_1a164a4704ff73cbeb937d43aded782c99" prot="public" virt="non-virtual"><scope>GPSMobile::DegreesMinutesSeconds</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

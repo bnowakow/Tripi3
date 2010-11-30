@@ -1,0 +1,1335 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_trip_service_client_1_1_trip_service_client_channel" kind="class" prot="private">
+    <compoundname>TripServiceClient::TripServiceClientChannel</compoundname>
+    <basecompoundref refid="interface_i_trip_service" prot="public" virt="non-virtual">ITripService</basecompoundref>
+    <basecompoundref refid="interface_i_trip_service" prot="public" virt="non-virtual">ITripService</basecompoundref>
+    <basecompoundref refid="interface_i_trip_service" prot="public" virt="non-virtual">ITripService</basecompoundref>
+    <basecompoundref refid="interface_i_trip_service" prot="public" virt="non-virtual">ITripService</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a9dd9de031b48f78aa1701d861733f842" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripServiceClient.TripServiceClientChannel.TripServiceClientChannel</definition>
+        <argsstring>(System.ServiceModel.ClientBase&lt; ITripService &gt; client)</argsstring>
+        <name>TripServiceClientChannel</name>
+        <param>
+          <type>System.ServiceModel.ClientBase&lt; <ref refid="interface_i_trip_service" kindref="compound">ITripService</ref> &gt;</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="684" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="682" bodyend="685"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1ac033017085bf5a468b7cbfe88bbe9ae4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginCreateNewTrip</definition>
+        <argsstring>(string username, string tripName, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginCreateNewTrip</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripName</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="688" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="687" bodyend="694"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a3cbbbfa16b45cd09c29b30cb876f84a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int TripServiceClient.TripServiceClientChannel.EndCreateNewTrip</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndCreateNewTrip</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="697" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="696" bodyend="701"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a0cf76fc9199502e46ac4db6763e1e0da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginGetTripsForUser</definition>
+        <argsstring>(string username, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetTripsForUser</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="704" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="703" bodyend="709"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a9203913033f7422086376a604412789f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_trip" kindref="compound">TripiWCF.Service.Trip</ref>[]</type>
+        <definition>TripiWCF.Service.Trip [] TripServiceClient.TripServiceClientChannel.EndGetTripsForUser</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetTripsForUser</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="712" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="711" bodyend="716"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1aa5a9c31cb5542b17d8b2918acb21bc73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginGetPositionNodesForTrip</definition>
+        <argsstring>(int tripID, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetPositionNodesForTrip</name>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="719" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="718" bodyend="724"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1ae25dc52018cfdbf0c582977d46eaed11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_position_node" kindref="compound">TripiWCF.Service.PositionNode</ref>[]</type>
+        <definition>TripiWCF.Service.PositionNode [] TripServiceClient.TripServiceClientChannel.EndGetPositionNodesForTrip</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetPositionNodesForTrip</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="727" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="726" bodyend="731"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1abca0849f12500a6d2f5ffdb6aa0f211a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginAddPositionNode</definition>
+        <argsstring>(TripiWCF.Service.PositionNode node, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginAddPositionNode</name>
+        <param>
+          <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_position_node" kindref="compound">TripiWCF.Service.PositionNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="734" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="733" bodyend="739"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1aaed89da858ab03e80aec65019093b012" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripServiceClient.TripServiceClientChannel.EndAddPositionNode</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndAddPositionNode</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="742" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="741" bodyend="745"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a9dd9de031b48f78aa1701d861733f842" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripServiceClient.TripServiceClientChannel.TripServiceClientChannel</definition>
+        <argsstring>(System.ServiceModel.ClientBase&lt; ITripService &gt; client)</argsstring>
+        <name>TripServiceClientChannel</name>
+        <param>
+          <type>System.ServiceModel.ClientBase&lt; <ref refid="interface_i_trip_service" kindref="compound">ITripService</ref> &gt;</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1154" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1152" bodyend="1155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1ad2955e6836f2c4b9e5a1a5a9c828cc02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginLoginUser</definition>
+        <argsstring>(string username, string password, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginLoginUser</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1158" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1157" bodyend="1164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1aba582e0d7420909def455e488dddb9db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string TripServiceClient.TripServiceClientChannel.EndLoginUser</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndLoginUser</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1167" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1166" bodyend="1171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a5d484c3858ff97d5843f977099969b66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginCreateNewTrip</definition>
+        <argsstring>(string username, string tripName, string tripDescription, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginCreateNewTrip</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripDescription</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1174" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1173" bodyend="1181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a3cbbbfa16b45cd09c29b30cb876f84a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int TripServiceClient.TripServiceClientChannel.EndCreateNewTrip</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndCreateNewTrip</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1184" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1183" bodyend="1188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1acdf27494e12635b27d80882be4b4594f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginGetAllTrips</definition>
+        <argsstring>(System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetAllTrips</name>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1191" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1190" bodyend="1195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a62afd53714b36b1c7174b5c60dd95d43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_trip" kindref="compound">TripiWCF.Service.Trip</ref>[]</type>
+        <definition>TripiWCF.Service.Trip [] TripServiceClient.TripServiceClientChannel.EndGetAllTrips</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetAllTrips</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1198" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1197" bodyend="1202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a0cf76fc9199502e46ac4db6763e1e0da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginGetTripsForUser</definition>
+        <argsstring>(string username, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetTripsForUser</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1205" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1204" bodyend="1210"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a9203913033f7422086376a604412789f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_trip" kindref="compound">TripiWCF.Service.Trip</ref>[]</type>
+        <definition>TripiWCF.Service.Trip [] TripServiceClient.TripServiceClientChannel.EndGetTripsForUser</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetTripsForUser</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1213" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1212" bodyend="1217"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a46857f2238c7a200e0cb4d6e8c464f8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginUpdateTripDescription</definition>
+        <argsstring>(int tripID, string tripDescription, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginUpdateTripDescription</name>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripDescription</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1220" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1219" bodyend="1226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a5d78c7aaf264ac96d67acc32a55bf150" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripServiceClient.TripServiceClientChannel.EndUpdateTripDescription</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndUpdateTripDescription</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1229" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1228" bodyend="1232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1abca0849f12500a6d2f5ffdb6aa0f211a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginAddPositionNode</definition>
+        <argsstring>(TripiWCF.Service.PositionNode node, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginAddPositionNode</name>
+        <param>
+          <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_position_node" kindref="compound">TripiWCF.Service.PositionNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1235" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1234" bodyend="1240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a1a7b3a508e49c42beb8777b59eac6b70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int TripServiceClient.TripServiceClientChannel.EndAddPositionNode</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndAddPositionNode</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1243" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1242" bodyend="1247"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a63d6fe7e3eb3055ad0785883f3a68199" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginAddManyPositionNodes</definition>
+        <argsstring>(TripiWCF.Service.PositionNode[] nodes, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginAddManyPositionNodes</name>
+        <param>
+          <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_position_node" kindref="compound">TripiWCF.Service.PositionNode</ref>[]</type>
+          <declname>nodes</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1250" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1249" bodyend="1255"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a0d8a70d07cb575809c977ffa6ec4b748" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripServiceClient.TripServiceClientChannel.EndAddManyPositionNodes</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndAddManyPositionNodes</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1258" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1257" bodyend="1261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1aa5a9c31cb5542b17d8b2918acb21bc73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginGetPositionNodesForTrip</definition>
+        <argsstring>(int tripID, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetPositionNodesForTrip</name>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1264" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1263" bodyend="1269"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1ae25dc52018cfdbf0c582977d46eaed11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_position_node" kindref="compound">TripiWCF.Service.PositionNode</ref>[]</type>
+        <definition>TripiWCF.Service.PositionNode [] TripServiceClient.TripServiceClientChannel.EndGetPositionNodesForTrip</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetPositionNodesForTrip</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1272" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1271" bodyend="1276"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1aaadf30d6cdbe3b9395d0022cc6b4fd83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginUpdatePositionNodeDescription</definition>
+        <argsstring>(int tripID, int nodeNumber, string nodeDescription, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginUpdatePositionNodeDescription</name>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodeNumber</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nodeDescription</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1279" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1278" bodyend="1286"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1ac33446f5d8a1566c696a4ae64830bec1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripServiceClient.TripServiceClientChannel.EndUpdatePositionNodeDescription</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndUpdatePositionNodeDescription</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="1289" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="1288" bodyend="1292"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a9dd9de031b48f78aa1701d861733f842" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripServiceClient.TripServiceClientChannel.TripServiceClientChannel</definition>
+        <argsstring>(System.ServiceModel.ClientBase&lt; ITripService &gt; client)</argsstring>
+        <name>TripServiceClientChannel</name>
+        <param>
+          <type>System.ServiceModel.ClientBase&lt; <ref refid="interface_i_trip_service" kindref="compound">ITripService</ref> &gt;</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" line="684" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" bodystart="682" bodyend="685"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1ac033017085bf5a468b7cbfe88bbe9ae4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginCreateNewTrip</definition>
+        <argsstring>(string username, string tripName, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginCreateNewTrip</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripName</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" line="688" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" bodystart="687" bodyend="694"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a3cbbbfa16b45cd09c29b30cb876f84a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int TripServiceClient.TripServiceClientChannel.EndCreateNewTrip</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndCreateNewTrip</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" line="697" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" bodystart="696" bodyend="701"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a0cf76fc9199502e46ac4db6763e1e0da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginGetTripsForUser</definition>
+        <argsstring>(string username, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetTripsForUser</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" line="704" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" bodystart="703" bodyend="709"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a9203913033f7422086376a604412789f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_trip" kindref="compound">TripiWCF.Service.Trip</ref>[]</type>
+        <definition>TripiWCF.Service.Trip [] TripServiceClient.TripServiceClientChannel.EndGetTripsForUser</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetTripsForUser</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" line="712" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" bodystart="711" bodyend="716"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1aa5a9c31cb5542b17d8b2918acb21bc73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginGetPositionNodesForTrip</definition>
+        <argsstring>(int tripID, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetPositionNodesForTrip</name>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" line="719" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" bodystart="718" bodyend="724"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1ae25dc52018cfdbf0c582977d46eaed11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_position_node" kindref="compound">TripiWCF.Service.PositionNode</ref>[]</type>
+        <definition>TripiWCF.Service.PositionNode [] TripServiceClient.TripServiceClientChannel.EndGetPositionNodesForTrip</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetPositionNodesForTrip</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" line="727" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" bodystart="726" bodyend="731"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1abca0849f12500a6d2f5ffdb6aa0f211a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginAddPositionNode</definition>
+        <argsstring>(TripiWCF.Service.PositionNode node, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginAddPositionNode</name>
+        <param>
+          <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_position_node" kindref="compound">TripiWCF.Service.PositionNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" line="734" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" bodystart="733" bodyend="739"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1aaed89da858ab03e80aec65019093b012" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripServiceClient.TripServiceClientChannel.EndAddPositionNode</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndAddPositionNode</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" line="742" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" bodystart="741" bodyend="745"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a9dd9de031b48f78aa1701d861733f842" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripServiceClient.TripServiceClientChannel.TripServiceClientChannel</definition>
+        <argsstring>(System.ServiceModel.ClientBase&lt; ITripService &gt; client)</argsstring>
+        <name>TripServiceClientChannel</name>
+        <param>
+          <type>System.ServiceModel.ClientBase&lt; <ref refid="interface_i_trip_service" kindref="compound">ITripService</ref> &gt;</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1154" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1152" bodyend="1155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1ad2955e6836f2c4b9e5a1a5a9c828cc02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginLoginUser</definition>
+        <argsstring>(string username, string password, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginLoginUser</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1158" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1157" bodyend="1164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1aba582e0d7420909def455e488dddb9db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string TripServiceClient.TripServiceClientChannel.EndLoginUser</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndLoginUser</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1167" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1166" bodyend="1171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a5d484c3858ff97d5843f977099969b66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginCreateNewTrip</definition>
+        <argsstring>(string username, string tripName, string tripDescription, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginCreateNewTrip</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripDescription</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1174" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1173" bodyend="1181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a3cbbbfa16b45cd09c29b30cb876f84a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int TripServiceClient.TripServiceClientChannel.EndCreateNewTrip</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndCreateNewTrip</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1184" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1183" bodyend="1188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1acdf27494e12635b27d80882be4b4594f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginGetAllTrips</definition>
+        <argsstring>(System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetAllTrips</name>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1191" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1190" bodyend="1195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a62afd53714b36b1c7174b5c60dd95d43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_trip" kindref="compound">TripiWCF.Service.Trip</ref>[]</type>
+        <definition>TripiWCF.Service.Trip [] TripServiceClient.TripServiceClientChannel.EndGetAllTrips</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetAllTrips</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1198" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1197" bodyend="1202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a0cf76fc9199502e46ac4db6763e1e0da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginGetTripsForUser</definition>
+        <argsstring>(string username, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetTripsForUser</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1205" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1204" bodyend="1210"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a9203913033f7422086376a604412789f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_trip" kindref="compound">TripiWCF.Service.Trip</ref>[]</type>
+        <definition>TripiWCF.Service.Trip [] TripServiceClient.TripServiceClientChannel.EndGetTripsForUser</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetTripsForUser</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1213" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1212" bodyend="1217"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a46857f2238c7a200e0cb4d6e8c464f8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginUpdateTripDescription</definition>
+        <argsstring>(int tripID, string tripDescription, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginUpdateTripDescription</name>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tripDescription</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1220" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1219" bodyend="1226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a5d78c7aaf264ac96d67acc32a55bf150" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripServiceClient.TripServiceClientChannel.EndUpdateTripDescription</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndUpdateTripDescription</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1229" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1228" bodyend="1232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1abca0849f12500a6d2f5ffdb6aa0f211a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginAddPositionNode</definition>
+        <argsstring>(TripiWCF.Service.PositionNode node, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginAddPositionNode</name>
+        <param>
+          <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_position_node" kindref="compound">TripiWCF.Service.PositionNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1235" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1234" bodyend="1240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a1a7b3a508e49c42beb8777b59eac6b70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int TripServiceClient.TripServiceClientChannel.EndAddPositionNode</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndAddPositionNode</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1243" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1242" bodyend="1247"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a63d6fe7e3eb3055ad0785883f3a68199" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginAddManyPositionNodes</definition>
+        <argsstring>(TripiWCF.Service.PositionNode[] nodes, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginAddManyPositionNodes</name>
+        <param>
+          <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_position_node" kindref="compound">TripiWCF.Service.PositionNode</ref>[]</type>
+          <declname>nodes</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1250" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1249" bodyend="1255"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1a0d8a70d07cb575809c977ffa6ec4b748" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripServiceClient.TripServiceClientChannel.EndAddManyPositionNodes</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndAddManyPositionNodes</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1258" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1257" bodyend="1261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1aa5a9c31cb5542b17d8b2918acb21bc73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginGetPositionNodesForTrip</definition>
+        <argsstring>(int tripID, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginGetPositionNodesForTrip</name>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1264" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1263" bodyend="1269"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1ae25dc52018cfdbf0c582977d46eaed11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_tripi_w_c_f_1_1_service_1_1_position_node" kindref="compound">TripiWCF.Service.PositionNode</ref>[]</type>
+        <definition>TripiWCF.Service.PositionNode [] TripServiceClient.TripServiceClientChannel.EndGetPositionNodesForTrip</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndGetPositionNodesForTrip</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1272" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1271" bodyend="1276"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1aaadf30d6cdbe3b9395d0022cc6b4fd83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.IAsyncResult</type>
+        <definition>System.IAsyncResult TripServiceClient.TripServiceClientChannel.BeginUpdatePositionNodeDescription</definition>
+        <argsstring>(int tripID, int nodeNumber, string nodeDescription, System.AsyncCallback callback, object asyncState)</argsstring>
+        <name>BeginUpdatePositionNodeDescription</name>
+        <param>
+          <type>int</type>
+          <declname>tripID</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodeNumber</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nodeDescription</declname>
+        </param>
+        <param>
+          <type>System.AsyncCallback</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>asyncState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1279" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1278" bodyend="1286"/>
+      </memberdef>
+      <memberdef kind="function" id="class_trip_service_client_1_1_trip_service_client_channel_1ac33446f5d8a1566c696a4ae64830bec1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripServiceClient.TripServiceClientChannel.EndUpdatePositionNodeDescription</definition>
+        <argsstring>(System.IAsyncResult result)</argsstring>
+        <name>EndUpdatePositionNodeDescription</name>
+        <param>
+          <type>System.IAsyncResult</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="1289" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="1288" bodyend="1292"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="489">
+        <label>ITripService</label>
+        <link refid="interface_i_trip_service"/>
+      </node>
+      <node id="488">
+        <label>TripServiceClient.TripServiceClientChannel</label>
+        <childnode refid="489" relation="public-inheritance">
+        </childnode>
+        <childnode refid="489" relation="public-inheritance">
+        </childnode>
+        <childnode refid="489" relation="public-inheritance">
+        </childnode>
+        <childnode refid="489" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="491">
+        <label>ITripService</label>
+        <link refid="interface_i_trip_service"/>
+      </node>
+      <node id="490">
+        <label>TripServiceClient.TripServiceClientChannel</label>
+        <childnode refid="491" relation="public-inheritance">
+        </childnode>
+        <childnode refid="491" relation="public-inheritance">
+        </childnode>
+        <childnode refid="491" relation="public-inheritance">
+        </childnode>
+        <childnode refid="491" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="680" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="679" bodyend="746"/>
+    <listofallmembers>
+      <member refid="interface_i_trip_service_1a989bf5b377fd78dfd00917c9512eabec" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>AddManyPositionNodes</name></member>
+      <member refid="interface_i_trip_service_1a989bf5b377fd78dfd00917c9512eabec" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>AddManyPositionNodes</name></member>
+      <member refid="interface_i_trip_service_1a1e18a8d9d2427b9794090e666bb549b2" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>AddPositionNode</name></member>
+      <member refid="interface_i_trip_service_1a1e18a8d9d2427b9794090e666bb549b2" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>AddPositionNode</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a63d6fe7e3eb3055ad0785883f3a68199" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginAddManyPositionNodes</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a63d6fe7e3eb3055ad0785883f3a68199" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginAddManyPositionNodes</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1abca0849f12500a6d2f5ffdb6aa0f211a" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginAddPositionNode</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1abca0849f12500a6d2f5ffdb6aa0f211a" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginAddPositionNode</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1abca0849f12500a6d2f5ffdb6aa0f211a" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginAddPositionNode</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1abca0849f12500a6d2f5ffdb6aa0f211a" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginAddPositionNode</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1ac033017085bf5a468b7cbfe88bbe9ae4" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginCreateNewTrip</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a5d484c3858ff97d5843f977099969b66" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginCreateNewTrip</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1ac033017085bf5a468b7cbfe88bbe9ae4" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginCreateNewTrip</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a5d484c3858ff97d5843f977099969b66" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginCreateNewTrip</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1acdf27494e12635b27d80882be4b4594f" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginGetAllTrips</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1acdf27494e12635b27d80882be4b4594f" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginGetAllTrips</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1aa5a9c31cb5542b17d8b2918acb21bc73" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginGetPositionNodesForTrip</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1aa5a9c31cb5542b17d8b2918acb21bc73" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginGetPositionNodesForTrip</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1aa5a9c31cb5542b17d8b2918acb21bc73" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginGetPositionNodesForTrip</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1aa5a9c31cb5542b17d8b2918acb21bc73" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginGetPositionNodesForTrip</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a0cf76fc9199502e46ac4db6763e1e0da" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginGetTripsForUser</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a0cf76fc9199502e46ac4db6763e1e0da" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginGetTripsForUser</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a0cf76fc9199502e46ac4db6763e1e0da" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginGetTripsForUser</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a0cf76fc9199502e46ac4db6763e1e0da" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginGetTripsForUser</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1ad2955e6836f2c4b9e5a1a5a9c828cc02" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginLoginUser</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1ad2955e6836f2c4b9e5a1a5a9c828cc02" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginLoginUser</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1aaadf30d6cdbe3b9395d0022cc6b4fd83" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginUpdatePositionNodeDescription</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1aaadf30d6cdbe3b9395d0022cc6b4fd83" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginUpdatePositionNodeDescription</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a46857f2238c7a200e0cb4d6e8c464f8f" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginUpdateTripDescription</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a46857f2238c7a200e0cb4d6e8c464f8f" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>BeginUpdateTripDescription</name></member>
+      <member refid="interface_i_trip_service_1a6100ef3e23a8398c61e56ab12019bf29" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>CreateNewTrip</name></member>
+      <member refid="interface_i_trip_service_1a6100ef3e23a8398c61e56ab12019bf29" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>CreateNewTrip</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a0d8a70d07cb575809c977ffa6ec4b748" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndAddManyPositionNodes</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a0d8a70d07cb575809c977ffa6ec4b748" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndAddManyPositionNodes</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1aaed89da858ab03e80aec65019093b012" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndAddPositionNode</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a1a7b3a508e49c42beb8777b59eac6b70" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndAddPositionNode</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1aaed89da858ab03e80aec65019093b012" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndAddPositionNode</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a1a7b3a508e49c42beb8777b59eac6b70" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndAddPositionNode</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a3cbbbfa16b45cd09c29b30cb876f84a6" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndCreateNewTrip</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a3cbbbfa16b45cd09c29b30cb876f84a6" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndCreateNewTrip</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a3cbbbfa16b45cd09c29b30cb876f84a6" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndCreateNewTrip</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a3cbbbfa16b45cd09c29b30cb876f84a6" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndCreateNewTrip</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a62afd53714b36b1c7174b5c60dd95d43" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndGetAllTrips</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a62afd53714b36b1c7174b5c60dd95d43" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndGetAllTrips</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1ae25dc52018cfdbf0c582977d46eaed11" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndGetPositionNodesForTrip</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1ae25dc52018cfdbf0c582977d46eaed11" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndGetPositionNodesForTrip</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1ae25dc52018cfdbf0c582977d46eaed11" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndGetPositionNodesForTrip</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1ae25dc52018cfdbf0c582977d46eaed11" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndGetPositionNodesForTrip</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a9203913033f7422086376a604412789f" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndGetTripsForUser</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a9203913033f7422086376a604412789f" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndGetTripsForUser</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a9203913033f7422086376a604412789f" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndGetTripsForUser</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a9203913033f7422086376a604412789f" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndGetTripsForUser</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1aba582e0d7420909def455e488dddb9db" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndLoginUser</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1aba582e0d7420909def455e488dddb9db" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndLoginUser</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1ac33446f5d8a1566c696a4ae64830bec1" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndUpdatePositionNodeDescription</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1ac33446f5d8a1566c696a4ae64830bec1" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndUpdatePositionNodeDescription</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a5d78c7aaf264ac96d67acc32a55bf150" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndUpdateTripDescription</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a5d78c7aaf264ac96d67acc32a55bf150" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>EndUpdateTripDescription</name></member>
+      <member refid="interface_i_trip_service_1ac6c4304690c75b8403afc111748cb6c4" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>GetAllTrips</name></member>
+      <member refid="interface_i_trip_service_1ac6c4304690c75b8403afc111748cb6c4" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>GetAllTrips</name></member>
+      <member refid="interface_i_trip_service_1aa28312fa4e26d384fefa7456ac8d7c59" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>GetPositionNodesForTrip</name></member>
+      <member refid="interface_i_trip_service_1aa28312fa4e26d384fefa7456ac8d7c59" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>GetPositionNodesForTrip</name></member>
+      <member refid="interface_i_trip_service_1a395882f03013b68ff9c855b6e78cb791" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>GetTripsForUser</name></member>
+      <member refid="interface_i_trip_service_1a395882f03013b68ff9c855b6e78cb791" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>GetTripsForUser</name></member>
+      <member refid="interface_i_trip_service_1ae7dad8ff13217bc8d97f43db7375c4c2" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>LoginUser</name></member>
+      <member refid="interface_i_trip_service_1ae7dad8ff13217bc8d97f43db7375c4c2" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>LoginUser</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a9dd9de031b48f78aa1701d861733f842" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>TripServiceClientChannel</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a9dd9de031b48f78aa1701d861733f842" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>TripServiceClientChannel</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a9dd9de031b48f78aa1701d861733f842" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>TripServiceClientChannel</name></member>
+      <member refid="class_trip_service_client_1_1_trip_service_client_channel_1a9dd9de031b48f78aa1701d861733f842" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>TripServiceClientChannel</name></member>
+      <member refid="interface_i_trip_service_1a040f8ed636dd2f3e4a4fa059cfc9eada" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>UpdatePositionNodeDescription</name></member>
+      <member refid="interface_i_trip_service_1a040f8ed636dd2f3e4a4fa059cfc9eada" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>UpdatePositionNodeDescription</name></member>
+      <member refid="interface_i_trip_service_1a06b0e6ffa6675f1d7767fa6ac3399eda" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>UpdateTripDescription</name></member>
+      <member refid="interface_i_trip_service_1a06b0e6ffa6675f1d7767fa6ac3399eda" prot="public" virt="non-virtual"><scope>TripServiceClient::TripServiceClientChannel</scope><name>UpdateTripDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
