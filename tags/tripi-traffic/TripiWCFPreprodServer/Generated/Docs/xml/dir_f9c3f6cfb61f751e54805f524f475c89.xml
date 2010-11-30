@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="dir_f9c3f6cfb61f751e54805f524f475c89" kind="dir">
+    <compoundname>TripiMobile/</compoundname>
+    <innerdir refid="dir_79ea4888cf5ce4df304e5b31bd145733">TripiMobile/components/</innerdir>
+    <innerdir refid="dir_c71d2a860bf1aafea390164c25f545de">TripiMobile/data/</innerdir>
+    <innerdir refid="dir_4e929edb1d184815feebda91725f7794">TripiMobile/gps/</innerdir>
+    <innerdir refid="dir_f74f8f727a966390c379548a0624af06">TripiMobile/Properties/</innerdir>
+    <innerdir refid="dir_6003df999949321f3effd0c69a2a3afc">TripiMobile/wcf/</innerdir>
+    <innerdir refid="dir_e28cc5dbb6fe455e223b973c26680b14">TripiMobile/Web References/</innerdir>
+    <innerfile refid="_continue_trip_form_8cs">ContinueTripForm.cs</innerfile>
+    <innerfile refid="_continue_trip_form_8_designer_8cs">ContinueTripForm.Designer.cs</innerfile>
+    <innerfile refid="_gps_form_8cs">GpsForm.cs</innerfile>
+    <innerfile refid="_gps_form_8_designer_8cs">GpsForm.Designer.cs</innerfile>
+    <innerfile refid="_login_form_8cs">LoginForm.cs</innerfile>
+    <innerfile refid="_login_form_8_designer_8cs">LoginForm.Designer.cs</innerfile>
+    <innerfile refid="_main_form_8cs">MainForm.cs</innerfile>
+    <innerfile refid="_main_form_8_designer_8cs">MainForm.Designer.cs</innerfile>
+    <innerfile refid="_mobile_configuration_8cs">MobileConfiguration.cs</innerfile>
+    <innerfile refid="_new_trip_form_8cs">NewTripForm.cs</innerfile>
+    <innerfile refid="_new_trip_form_8_designer_8cs">NewTripForm.Designer.cs</innerfile>
+    <innerfile refid="_point_form_8cs">PointForm.cs</innerfile>
+    <innerfile refid="_point_form_8_designer_8cs">PointForm.Designer.cs</innerfile>
+    <innerfile refid="_tripi_mobile_2_program_8cs">Program.cs</innerfile>
+    <innerfile refid="_service_manager_8cs">ServiceManager.cs</innerfile>
+    <innerfile refid="_trip_form_8cs">TripForm.cs</innerfile>
+    <innerfile refid="_trip_form_8_designer_8cs">TripForm.Designer.cs</innerfile>
+    <innerfile refid="_trip_spots_form_8cs">TripSpotsForm.cs</innerfile>
+    <innerfile refid="_trip_spots_form_8_designer_8cs">TripSpotsForm.Designer.cs</innerfile>
+    <innerfile refid="_user_8cs">User.cs</innerfile>
+    <innerfile refid="_weather_form_8cs">WeatherForm.cs</innerfile>
+    <innerfile refid="_weather_form_8_designer_8cs">WeatherForm.Designer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/"/>
+  </compounddef>
+</doxygen>

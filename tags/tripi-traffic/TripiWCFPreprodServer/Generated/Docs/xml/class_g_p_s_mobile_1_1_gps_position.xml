@@ -1,0 +1,1128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_g_p_s_mobile_1_1_gps_position" kind="class" prot="public">
+    <compoundname>GPSMobile::GpsPosition</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1aed7599d273bab53468f1d37d1c1e41f9" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_UTC_TIME</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_UTC_TIME</name>
+        <initializer> 0x00000001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="157" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a2438da0d10a54a172114eb9d00ff1c6f" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_LATITUDE</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_LATITUDE</name>
+        <initializer> 0x00000002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="158" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1ae3bdd56bd162a44cf7ba7acacd24d367" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_LONGITUDE</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_LONGITUDE</name>
+        <initializer> 0x00000004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="159" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a0b2ac790cac5998c111f54ef64a3f87b" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_SPEED</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_SPEED</name>
+        <initializer> 0x00000008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="160" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a6dabe52fe62b415c75debd55c2e7d09e" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_HEADING</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_HEADING</name>
+        <initializer> 0x00000010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="161" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a0e5ff4fe3f65303bf3c2532a7330a6fb" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_MAGNETIC_VARIATION</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_MAGNETIC_VARIATION</name>
+        <initializer> 0x00000020</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="162" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a9286842eb1f635bf5a288e20427f98ec" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_ALTITUDE_WRT_SEA_LEVEL</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_ALTITUDE_WRT_SEA_LEVEL</name>
+        <initializer> 0x00000040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="163" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a6e398ec4814e6ec6174b3fccbb0fed8d" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_ALTITUDE_WRT_ELLIPSOID</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_ALTITUDE_WRT_ELLIPSOID</name>
+        <initializer> 0x00000080</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="164" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a0514debef90607bd5edd8ed46e59c8c6" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_POSITION_DILUTION_OF_PRECISION</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_POSITION_DILUTION_OF_PRECISION</name>
+        <initializer> 0x00000100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="165" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1ae9a31553d74ce16f1f1bae11624454c9" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_HORIZONTAL_DILUTION_OF_PRECISION</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_HORIZONTAL_DILUTION_OF_PRECISION</name>
+        <initializer> 0x00000200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="166" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1acaa62cc46171d47dd7cf83373f5cdcd1" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_VERTICAL_DILUTION_OF_PRECISION</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_VERTICAL_DILUTION_OF_PRECISION</name>
+        <initializer> 0x00000400</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="167" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1abb08334511bccaf536903bd5ab1498b8" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_SATELLITE_COUNT</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_SATELLITE_COUNT</name>
+        <initializer> 0x00000800</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="168" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1abfb77b5403677da81f9b65b7bf26baf0" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_SATELLITES_USED_PRNS</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_SATELLITES_USED_PRNS</name>
+        <initializer> 0x00001000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="169" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a548d3e7615c30204e438dbc18931f116" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_SATELLITES_IN_VIEW</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_SATELLITES_IN_VIEW</name>
+        <initializer> 0x00002000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="170" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1abc8ede05ac65051bac90ffa719aa2a29" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_SATELLITES_IN_VIEW_PRNS</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_SATELLITES_IN_VIEW_PRNS</name>
+        <initializer> 0x00004000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="171" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1ab69b6e5e88ccc8abe6f98b6f786754ec" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_SATELLITES_IN_VIEW_ELEVATION</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_SATELLITES_IN_VIEW_ELEVATION</name>
+        <initializer> 0x00008000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="172" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1aeb406834e6a37196a24bc2f240617f47" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_SATELLITES_IN_VIEW_AZIMUTH</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_SATELLITES_IN_VIEW_AZIMUTH</name>
+        <initializer> 0x00010000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="173" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a960d35e4db7a3b489540db7578758371" prot="private" static="yes" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.GPS_VALID_SATELLITES_IN_VIEW_SIGNAL_TO_NOISE_RATIO</definition>
+        <argsstring></argsstring>
+        <name>GPS_VALID_SATELLITES_IN_VIEW_SIGNAL_TO_NOISE_RATIO</name>
+        <initializer> 0x00020000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="174" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1aaf7968c8f1a539d89889a6708031b994" prot="private" static="no" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.dwVersion</definition>
+        <argsstring></argsstring>
+        <name>dwVersion</name>
+        <initializer> 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="177" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1acab9be48529b6a1e6dca522d0c620272" prot="private" static="no" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.dwSize</definition>
+        <argsstring></argsstring>
+        <name>dwSize</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="178" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a67e3a0100d8c68b5a340ba37e08d2a85" prot="private" static="no" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.dwValidFields</definition>
+        <argsstring></argsstring>
+        <name>dwValidFields</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="184" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a4fdff8c0c8bc877a702d8c889d1f6617" prot="private" static="no" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.dwFlags</definition>
+        <argsstring></argsstring>
+        <name>dwFlags</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="187" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a597ed649868a6317db6b5bf0bfeac7e2" prot="private" static="no" mutable="no">
+        <type>internal <ref refid="struct_g_p_s_mobile_1_1_system_time" kindref="compound">SystemTime</ref></type>
+        <definition>internal SystemTime GPSMobile.GpsPosition.stUTCTime</definition>
+        <argsstring></argsstring>
+        <name>stUTCTime</name>
+        <initializer> new <ref refid="struct_g_p_s_mobile_1_1_system_time" kindref="compound">SystemTime</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="190" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1adbe240509e9fa9788b0d35c06a7e1a8d" prot="private" static="no" mutable="no">
+        <type>internal double</type>
+        <definition>internal double GPSMobile.GpsPosition.dblLatitude</definition>
+        <argsstring></argsstring>
+        <name>dblLatitude</name>
+        <initializer> 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="193" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1aacf872cc6298d9830b5debe962eca0ac" prot="private" static="no" mutable="no">
+        <type>internal double</type>
+        <definition>internal double GPSMobile.GpsPosition.dblLongitude</definition>
+        <argsstring></argsstring>
+        <name>dblLongitude</name>
+        <initializer> 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="194" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a38e81149a45c0d6415caffd12b7d6f2e" prot="private" static="no" mutable="no">
+        <type>internal float</type>
+        <definition>internal float GPSMobile.GpsPosition.flSpeed</definition>
+        <argsstring></argsstring>
+        <name>flSpeed</name>
+        <initializer> 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="195" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a8233f853ad04ef43d95e08b02f4808fa" prot="private" static="no" mutable="no">
+        <type>internal float</type>
+        <definition>internal float GPSMobile.GpsPosition.flHeading</definition>
+        <argsstring></argsstring>
+        <name>flHeading</name>
+        <initializer> 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="196" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a34d9dfa59d08fd3138c17532e55a621d" prot="private" static="no" mutable="no">
+        <type>internal double</type>
+        <definition>internal double GPSMobile.GpsPosition.dblMagneticVariation</definition>
+        <argsstring></argsstring>
+        <name>dblMagneticVariation</name>
+        <initializer> 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="197" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a2d3cb8fe717aefe7942f9db6f7d36202" prot="private" static="no" mutable="no">
+        <type>internal float</type>
+        <definition>internal float GPSMobile.GpsPosition.flAltitudeWRTSeaLevel</definition>
+        <argsstring></argsstring>
+        <name>flAltitudeWRTSeaLevel</name>
+        <initializer> 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="198" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a8352ad6205d8f17061d66982c99d212d" prot="private" static="no" mutable="no">
+        <type>internal float</type>
+        <definition>internal float GPSMobile.GpsPosition.flAltitudeWRTEllipsoid</definition>
+        <argsstring></argsstring>
+        <name>flAltitudeWRTEllipsoid</name>
+        <initializer> 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="199" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1ac14920efaf5a97e3209283df520b1d20" prot="private" static="no" mutable="no">
+        <type>internal FixQuality</type>
+        <definition>internal FixQuality GPSMobile.GpsPosition.fixQuality</definition>
+        <argsstring></argsstring>
+        <name>fixQuality</name>
+        <initializer> FixQuality.Unknown</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="203" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1ab8cad06383f696f7de3cbad48fd6a5f0" prot="private" static="no" mutable="no">
+        <type>internal FixType</type>
+        <definition>internal FixType GPSMobile.GpsPosition.fixType</definition>
+        <argsstring></argsstring>
+        <name>fixType</name>
+        <initializer> FixType.Unknown</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="205" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a605610ea1d2f12fb261c5f95fe709698" prot="private" static="no" mutable="no">
+        <type>internal FixSelection</type>
+        <definition>internal FixSelection GPSMobile.GpsPosition.selectionType</definition>
+        <argsstring></argsstring>
+        <name>selectionType</name>
+        <initializer> FixSelection.Unknown</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="207" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a36456f7d7ee55b8ff0c8f50f701538b9" prot="private" static="no" mutable="no">
+        <type>internal float</type>
+        <definition>internal float GPSMobile.GpsPosition.flPositionDilutionOfPrecision</definition>
+        <argsstring></argsstring>
+        <name>flPositionDilutionOfPrecision</name>
+        <initializer> 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="209" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a7cb72b4ca8a43526902cb3c6f1ebb720" prot="private" static="no" mutable="no">
+        <type>internal float</type>
+        <definition>internal float GPSMobile.GpsPosition.flHorizontalDilutionOfPrecision</definition>
+        <argsstring></argsstring>
+        <name>flHorizontalDilutionOfPrecision</name>
+        <initializer> 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="211" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a132478aade1d2a79625bb41b1e22d3f7" prot="private" static="no" mutable="no">
+        <type>internal float</type>
+        <definition>internal float GPSMobile.GpsPosition.flVerticalDilutionOfPrecision</definition>
+        <argsstring></argsstring>
+        <name>flVerticalDilutionOfPrecision</name>
+        <initializer> 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="213" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a2c6b97c8237b3d6b77c3ad3087c3830f" prot="private" static="no" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.dwSatelliteCount</definition>
+        <argsstring></argsstring>
+        <name>dwSatelliteCount</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="217" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a7bd48ef14fca7a12a72c4177cf96ee01" prot="private" static="no" mutable="no">
+        <type>internal <ref refid="struct_g_p_s_mobile_1_1_satellite_array" kindref="compound">SatelliteArray</ref></type>
+        <definition>internal SatelliteArray GPSMobile.GpsPosition.rgdwSatellitesUsedPRNs</definition>
+        <argsstring></argsstring>
+        <name>rgdwSatellitesUsedPRNs</name>
+        <initializer> new <ref refid="struct_g_p_s_mobile_1_1_satellite_array" kindref="compound">SatelliteArray</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="219" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1affc6e6ed9ca3b764de3522c61533a30f" prot="private" static="no" mutable="no">
+        <type>internal int</type>
+        <definition>internal int GPSMobile.GpsPosition.dwSatellitesInView</definition>
+        <argsstring></argsstring>
+        <name>dwSatellitesInView</name>
+        <initializer> 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="221" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1ab222a382a8b887c6e9ffcfd03ac44516" prot="private" static="no" mutable="no">
+        <type>internal <ref refid="struct_g_p_s_mobile_1_1_satellite_array" kindref="compound">SatelliteArray</ref></type>
+        <definition>internal SatelliteArray GPSMobile.GpsPosition.rgdwSatellitesInViewPRNs</definition>
+        <argsstring></argsstring>
+        <name>rgdwSatellitesInViewPRNs</name>
+        <initializer> new <ref refid="struct_g_p_s_mobile_1_1_satellite_array" kindref="compound">SatelliteArray</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="223" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1ac657dc021cd00bac716d8a1778938f34" prot="private" static="no" mutable="no">
+        <type>internal <ref refid="struct_g_p_s_mobile_1_1_satellite_array" kindref="compound">SatelliteArray</ref></type>
+        <definition>internal SatelliteArray GPSMobile.GpsPosition.rgdwSatellitesInViewElevation</definition>
+        <argsstring></argsstring>
+        <name>rgdwSatellitesInViewElevation</name>
+        <initializer> new <ref refid="struct_g_p_s_mobile_1_1_satellite_array" kindref="compound">SatelliteArray</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="225" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1a1460ebeddb5993cb9640a3f1d0319017" prot="private" static="no" mutable="no">
+        <type>internal <ref refid="struct_g_p_s_mobile_1_1_satellite_array" kindref="compound">SatelliteArray</ref></type>
+        <definition>internal SatelliteArray GPSMobile.GpsPosition.rgdwSatellitesInViewAzimuth</definition>
+        <argsstring></argsstring>
+        <name>rgdwSatellitesInViewAzimuth</name>
+        <initializer> new <ref refid="struct_g_p_s_mobile_1_1_satellite_array" kindref="compound">SatelliteArray</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="227" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_p_s_mobile_1_1_gps_position_1aab0bab2f747f0c05c120f1e9d48b1fc2" prot="private" static="no" mutable="no">
+        <type>internal <ref refid="struct_g_p_s_mobile_1_1_satellite_array" kindref="compound">SatelliteArray</ref></type>
+        <definition>internal SatelliteArray GPSMobile.GpsPosition.rgdwSatellitesInViewSignalToNoiseRatio</definition>
+        <argsstring></argsstring>
+        <name>rgdwSatellitesInViewSignalToNoiseRatio</name>
+        <initializer> new <ref refid="struct_g_p_s_mobile_1_1_satellite_array" kindref="compound">SatelliteArray</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="229" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1a53833ea1f1e4c4ad1c6946c26277a817" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>DateTime</type>
+        <definition>DateTime GPSMobile.GpsPosition.Time</definition>
+        <argsstring></argsstring>
+        <name>Time</name>
+        <briefdescription>
+<para>UTC according to GPS clock. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="242" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1a54c9d8150b16e5b0020f137532c63210" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool GPSMobile.GpsPosition.TimeValid</definition>
+        <argsstring></argsstring>
+        <name>TimeValid</name>
+        <briefdescription>
+<para>True if the Time property is valid, false if invalid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="249" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1aba3bb10f98a06a82ac9504e01f9aa4c5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool GPSMobile.GpsPosition.SatellitesInSolutionValid</definition>
+        <argsstring></argsstring>
+        <name>SatellitesInSolutionValid</name>
+        <briefdescription>
+<para>True if the SatellitesInSolution property is valid, false if invalid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="281" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1a6b4baeb146168192eb13fbbad8a1bdf7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool GPSMobile.GpsPosition.SatellitesInViewValid</definition>
+        <argsstring></argsstring>
+        <name>SatellitesInViewValid</name>
+        <briefdescription>
+<para>True if the SatellitesInView property is valid, false if invalid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="313" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1a2b6d5feb969ab18a4a739250c62ffe25" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int GPSMobile.GpsPosition.SatelliteCount</definition>
+        <argsstring></argsstring>
+        <name>SatelliteCount</name>
+        <briefdescription>
+<para>Number of satellites used in solution. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="322" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1af911c9eb00e8dab5c549e53748d3389a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool GPSMobile.GpsPosition.SatelliteCountValid</definition>
+        <argsstring></argsstring>
+        <name>SatelliteCountValid</name>
+        <briefdescription>
+<para>True if the SatelliteCount property is valid, false if invalid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="329" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1af125dc9f8b26690269c08483d1b7ffb0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int GPSMobile.GpsPosition.SatellitesInViewCount</definition>
+        <argsstring></argsstring>
+        <name>SatellitesInViewCount</name>
+        <briefdescription>
+<para>Number of satellites in view. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="337" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1a3a358ef10fea4c956bc5db879a18e89d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool GPSMobile.GpsPosition.SatellitesInViewCountValid</definition>
+        <argsstring></argsstring>
+        <name>SatellitesInViewCountValid</name>
+        <briefdescription>
+<para>True if the SatellitesInViewCount property is valid, false if invalid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="344" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="342" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1aa6394677dc38656297fc26de38da88ee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>float</type>
+        <definition>float GPSMobile.GpsPosition.Speed</definition>
+        <argsstring></argsstring>
+        <name>Speed</name>
+        <briefdescription>
+<para>Speed in knots. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="352" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1a2f8d5434c3526194ee0c1ebd42481f2b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool GPSMobile.GpsPosition.SpeedValid</definition>
+        <argsstring></argsstring>
+        <name>SpeedValid</name>
+        <briefdescription>
+<para>True if the Speed property is valid, false if invalid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="359" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1ad91c88bac71cc38c4a69a3e554abe6e4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>float</type>
+        <definition>float GPSMobile.GpsPosition.EllipsoidAltitude</definition>
+        <argsstring></argsstring>
+        <name>EllipsoidAltitude</name>
+        <briefdescription>
+<para>Altitude with regards to ellipsoid, in meters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="367" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1aed0b8f9f01766832588f42446cef6208" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool GPSMobile.GpsPosition.EllipsoidAltitudeValid</definition>
+        <argsstring></argsstring>
+        <name>EllipsoidAltitudeValid</name>
+        <briefdescription>
+<para>True if the EllipsoidAltitude property is valid, false if invalid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="374" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="372" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1a132616cda8bc6677dc7cdc22bf4a0c79" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>float</type>
+        <definition>float GPSMobile.GpsPosition.SeaLevelAltitude</definition>
+        <argsstring></argsstring>
+        <name>SeaLevelAltitude</name>
+        <briefdescription>
+<para>Altitute with regards to sea level, in meters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="382" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="380" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1aae4f11b97d318dd8d6a67dba91eabb5e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool GPSMobile.GpsPosition.SeaLevelAltitudeValid</definition>
+        <argsstring></argsstring>
+        <name>SeaLevelAltitudeValid</name>
+        <briefdescription>
+<para>True if the SeaLevelAltitude property is valid, false if invalid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="389" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="387" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1a165e63838ebfe0e712c142f7a757dad6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double GPSMobile.GpsPosition.Latitude</definition>
+        <argsstring></argsstring>
+        <name>Latitude</name>
+        <briefdescription>
+<para>Latitude in decimal degrees. North is positive. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="397" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1abb8229583c518e399546f791d221666d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds" kindref="compound">DegreesMinutesSeconds</ref></type>
+        <definition>DegreesMinutesSeconds GPSMobile.GpsPosition.LatitudeInDegreesMinutesSeconds</definition>
+        <argsstring></argsstring>
+        <name>LatitudeInDegreesMinutesSeconds</name>
+        <briefdescription>
+<para>Latitude in degrees, minutes, seconds. North is positive. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="404" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="402" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1ab3d2aa57c9507dffc5c8a03b78fe34e0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool GPSMobile.GpsPosition.LatitudeValid</definition>
+        <argsstring></argsstring>
+        <name>LatitudeValid</name>
+        <briefdescription>
+<para>True if the Latitude property is valid, false if invalid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="412" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="410" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1add38fa11bc9116c7b1fa2e071b967002" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double GPSMobile.GpsPosition.Longitude</definition>
+        <argsstring></argsstring>
+        <name>Longitude</name>
+        <briefdescription>
+<para>Longitude in decimal degrees. East is positive. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="420" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1a04b891a6cc52d96894fb41e03b166b81" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_g_p_s_mobile_1_1_degrees_minutes_seconds" kindref="compound">DegreesMinutesSeconds</ref></type>
+        <definition>DegreesMinutesSeconds GPSMobile.GpsPosition.LongitudeInDegreesMinutesSeconds</definition>
+        <argsstring></argsstring>
+        <name>LongitudeInDegreesMinutesSeconds</name>
+        <briefdescription>
+<para>Longitude in degrees, minutes, seconds. East is positive. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="428" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="426" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1ab6fb3a2e2b2a92c7c10de450ae1a76db" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool GPSMobile.GpsPosition.LongitudeValid</definition>
+        <argsstring></argsstring>
+        <name>LongitudeValid</name>
+        <briefdescription>
+<para>True if the Longitude property is valid, false if invalid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="435" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="433" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1a457add962c7a355c6f72121e274df54b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>float</type>
+        <definition>float GPSMobile.GpsPosition.Heading</definition>
+        <argsstring></argsstring>
+        <name>Heading</name>
+        <briefdescription>
+<para>Degrees heading (course made good). True North=0. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="443" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="441" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1ad0c9ecaf766940f752cb27d2e39218c3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool GPSMobile.GpsPosition.HeadingValid</definition>
+        <argsstring></argsstring>
+        <name>HeadingValid</name>
+        <briefdescription>
+<para>True if the Heading property is valid, false if invalid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="450" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="448" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1ae0acddfcb9ca7605363317986c086d69" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>float</type>
+        <definition>float GPSMobile.GpsPosition.PositionDilutionOfPrecision</definition>
+        <argsstring></argsstring>
+        <name>PositionDilutionOfPrecision</name>
+        <briefdescription>
+<para>Position Dilution Of Precision. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="458" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="456" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1a2d422682471604af4f9839e06b705c1a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool GPSMobile.GpsPosition.PositionDilutionOfPrecisionValid</definition>
+        <argsstring></argsstring>
+        <name>PositionDilutionOfPrecisionValid</name>
+        <briefdescription>
+<para>True if the PositionDilutionOfPrecision property is valid, false if invalid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="465" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1aaff94d337cfdd281fc058b4bc050b437" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>float</type>
+        <definition>float GPSMobile.GpsPosition.HorizontalDilutionOfPrecision</definition>
+        <argsstring></argsstring>
+        <name>HorizontalDilutionOfPrecision</name>
+        <briefdescription>
+<para>Horizontal Dilution Of Precision. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="473" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="471" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1a2cf9490e66f5369dc17f9f7f885e9f3d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool GPSMobile.GpsPosition.HorizontalDilutionOfPrecisionValid</definition>
+        <argsstring></argsstring>
+        <name>HorizontalDilutionOfPrecisionValid</name>
+        <briefdescription>
+<para>True if the HorizontalDilutionOfPrecision property is valid, false if invalid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="480" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="478" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1a5ec365b867e36ff34e3f4f9018f729a3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>float</type>
+        <definition>float GPSMobile.GpsPosition.VerticalDilutionOfPrecision</definition>
+        <argsstring></argsstring>
+        <name>VerticalDilutionOfPrecision</name>
+        <briefdescription>
+<para>Vertical Dilution Of Precision. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="488" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="486" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_g_p_s_mobile_1_1_gps_position_1a78a856cdd3a6a5438ba96e95f52bf2b8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool GPSMobile.GpsPosition.VerticalDilutionOfPrecisionValid</definition>
+        <argsstring></argsstring>
+        <name>VerticalDilutionOfPrecisionValid</name>
+        <briefdescription>
+<para>True if the VerticalDilutionOfPrecision property is valid, false if invalid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="495" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="493" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_position_1a21a9cb2ce45c7b6ce5d39d5e3fb66c35" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>internal</type>
+        <definition>internal GPSMobile.GpsPosition.GpsPosition</definition>
+        <argsstring>()</argsstring>
+        <name>GpsPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="156" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="156" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_position_1a5dbc8646aecb0273e8d0a95046497591" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_g_p_s_mobile_1_1_satellite" kindref="compound">Satellite</ref>[]</type>
+        <definition>Satellite [] GPSMobile.GpsPosition.GetSatellitesInSolution</definition>
+        <argsstring>()</argsstring>
+        <name>GetSatellitesInSolution</name>
+        <briefdescription>
+<para>Satellites used in the solution. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Array of Satellites</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="257" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="256" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_p_s_mobile_1_1_gps_position_1a68e3bfcd6b812463ec2f035ca4e5a32b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_g_p_s_mobile_1_1_satellite" kindref="compound">Satellite</ref>[]</type>
+        <definition>Satellite [] GPSMobile.GpsPosition.GetSatellitesInView</definition>
+        <argsstring>()</argsstring>
+        <name>GetSatellitesInView</name>
+        <briefdescription>
+<para>Satellites in view. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Array of Satellites</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="290" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="289" bodyend="306"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="226">
+        <label>GPSMobile.SystemTime</label>
+        <link refid="struct_g_p_s_mobile_1_1_system_time"/>
+      </node>
+      <node id="227">
+        <label>GPSMobile.SatelliteArray</label>
+        <link refid="struct_g_p_s_mobile_1_1_satellite_array"/>
+      </node>
+      <node id="225">
+        <label>GPSMobile.GpsPosition</label>
+        <link refid="class_g_p_s_mobile_1_1_gps_position"/>
+        <childnode refid="226" relation="usage">
+          <edgelabel>stUTCTime</edgelabel>
+        </childnode>
+        <childnode refid="227" relation="usage">
+          <edgelabel>rgdwSatellitesInViewElevation</edgelabel>
+          <edgelabel>rgdwSatellitesInViewAzimuth</edgelabel>
+          <edgelabel>rgdwSatellitesInViewSignalToNoiseRatio</edgelabel>
+          <edgelabel>rgdwSatellitesInViewPRNs</edgelabel>
+          <edgelabel>rgdwSatellitesUsedPRNs</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" line="155" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/GPS/GpsPosition.cs" bodystart="154" bodyend="496"/>
+    <listofallmembers>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1adbe240509e9fa9788b0d35c06a7e1a8d" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>dblLatitude</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1aacf872cc6298d9830b5debe962eca0ac" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>dblLongitude</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a34d9dfa59d08fd3138c17532e55a621d" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>dblMagneticVariation</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a4fdff8c0c8bc877a702d8c889d1f6617" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>dwFlags</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a2c6b97c8237b3d6b77c3ad3087c3830f" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>dwSatelliteCount</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1affc6e6ed9ca3b764de3522c61533a30f" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>dwSatellitesInView</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1acab9be48529b6a1e6dca522d0c620272" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>dwSize</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a67e3a0100d8c68b5a340ba37e08d2a85" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>dwValidFields</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1aaf7968c8f1a539d89889a6708031b994" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>dwVersion</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1ad91c88bac71cc38c4a69a3e554abe6e4" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>EllipsoidAltitude</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1aed0b8f9f01766832588f42446cef6208" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>EllipsoidAltitudeValid</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1ac14920efaf5a97e3209283df520b1d20" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>fixQuality</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1ab8cad06383f696f7de3cbad48fd6a5f0" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>fixType</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a8352ad6205d8f17061d66982c99d212d" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>flAltitudeWRTEllipsoid</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a2d3cb8fe717aefe7942f9db6f7d36202" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>flAltitudeWRTSeaLevel</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a8233f853ad04ef43d95e08b02f4808fa" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>flHeading</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a7cb72b4ca8a43526902cb3c6f1ebb720" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>flHorizontalDilutionOfPrecision</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a36456f7d7ee55b8ff0c8f50f701538b9" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>flPositionDilutionOfPrecision</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a38e81149a45c0d6415caffd12b7d6f2e" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>flSpeed</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a132478aade1d2a79625bb41b1e22d3f7" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>flVerticalDilutionOfPrecision</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a5dbc8646aecb0273e8d0a95046497591" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GetSatellitesInSolution</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a68e3bfcd6b812463ec2f035ca4e5a32b" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GetSatellitesInView</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a6e398ec4814e6ec6174b3fccbb0fed8d" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_ALTITUDE_WRT_ELLIPSOID</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a9286842eb1f635bf5a288e20427f98ec" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_ALTITUDE_WRT_SEA_LEVEL</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a6dabe52fe62b415c75debd55c2e7d09e" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_HEADING</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1ae9a31553d74ce16f1f1bae11624454c9" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_HORIZONTAL_DILUTION_OF_PRECISION</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a2438da0d10a54a172114eb9d00ff1c6f" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_LATITUDE</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1ae3bdd56bd162a44cf7ba7acacd24d367" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_LONGITUDE</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a0e5ff4fe3f65303bf3c2532a7330a6fb" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_MAGNETIC_VARIATION</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a0514debef90607bd5edd8ed46e59c8c6" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_POSITION_DILUTION_OF_PRECISION</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1abb08334511bccaf536903bd5ab1498b8" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_SATELLITE_COUNT</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a548d3e7615c30204e438dbc18931f116" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_SATELLITES_IN_VIEW</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1aeb406834e6a37196a24bc2f240617f47" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_SATELLITES_IN_VIEW_AZIMUTH</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1ab69b6e5e88ccc8abe6f98b6f786754ec" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_SATELLITES_IN_VIEW_ELEVATION</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1abc8ede05ac65051bac90ffa719aa2a29" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_SATELLITES_IN_VIEW_PRNS</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a960d35e4db7a3b489540db7578758371" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_SATELLITES_IN_VIEW_SIGNAL_TO_NOISE_RATIO</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1abfb77b5403677da81f9b65b7bf26baf0" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_SATELLITES_USED_PRNS</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a0b2ac790cac5998c111f54ef64a3f87b" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_SPEED</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1aed7599d273bab53468f1d37d1c1e41f9" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_UTC_TIME</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1acaa62cc46171d47dd7cf83373f5cdcd1" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GPS_VALID_VERTICAL_DILUTION_OF_PRECISION</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a21a9cb2ce45c7b6ce5d39d5e3fb66c35" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>GpsPosition</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a457add962c7a355c6f72121e274df54b" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>Heading</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1ad0c9ecaf766940f752cb27d2e39218c3" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>HeadingValid</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1aaff94d337cfdd281fc058b4bc050b437" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>HorizontalDilutionOfPrecision</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a2cf9490e66f5369dc17f9f7f885e9f3d" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>HorizontalDilutionOfPrecisionValid</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a165e63838ebfe0e712c142f7a757dad6" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>Latitude</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1abb8229583c518e399546f791d221666d" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>LatitudeInDegreesMinutesSeconds</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1ab3d2aa57c9507dffc5c8a03b78fe34e0" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>LatitudeValid</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1add38fa11bc9116c7b1fa2e071b967002" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>Longitude</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a04b891a6cc52d96894fb41e03b166b81" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>LongitudeInDegreesMinutesSeconds</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1ab6fb3a2e2b2a92c7c10de450ae1a76db" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>LongitudeValid</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1ae0acddfcb9ca7605363317986c086d69" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>PositionDilutionOfPrecision</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a2d422682471604af4f9839e06b705c1a" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>PositionDilutionOfPrecisionValid</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a1460ebeddb5993cb9640a3f1d0319017" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>rgdwSatellitesInViewAzimuth</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1ac657dc021cd00bac716d8a1778938f34" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>rgdwSatellitesInViewElevation</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1ab222a382a8b887c6e9ffcfd03ac44516" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>rgdwSatellitesInViewPRNs</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1aab0bab2f747f0c05c120f1e9d48b1fc2" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>rgdwSatellitesInViewSignalToNoiseRatio</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a7bd48ef14fca7a12a72c4177cf96ee01" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>rgdwSatellitesUsedPRNs</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a2b6d5feb969ab18a4a739250c62ffe25" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>SatelliteCount</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1af911c9eb00e8dab5c549e53748d3389a" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>SatelliteCountValid</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1aba3bb10f98a06a82ac9504e01f9aa4c5" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>SatellitesInSolutionValid</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1af125dc9f8b26690269c08483d1b7ffb0" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>SatellitesInViewCount</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a3a358ef10fea4c956bc5db879a18e89d" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>SatellitesInViewCountValid</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a6b4baeb146168192eb13fbbad8a1bdf7" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>SatellitesInViewValid</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a132616cda8bc6677dc7cdc22bf4a0c79" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>SeaLevelAltitude</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1aae4f11b97d318dd8d6a67dba91eabb5e" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>SeaLevelAltitudeValid</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a605610ea1d2f12fb261c5f95fe709698" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>selectionType</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1aa6394677dc38656297fc26de38da88ee" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>Speed</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a2f8d5434c3526194ee0c1ebd42481f2b" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>SpeedValid</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a597ed649868a6317db6b5bf0bfeac7e2" prot="private" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>stUTCTime</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a53833ea1f1e4c4ad1c6946c26277a817" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>Time</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a54c9d8150b16e5b0020f137532c63210" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>TimeValid</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a5ec365b867e36ff34e3f4f9018f729a3" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>VerticalDilutionOfPrecision</name></member>
+      <member refid="class_g_p_s_mobile_1_1_gps_position_1a78a856cdd3a6a5438ba96e95f52bf2b8" prot="public" virt="non-virtual"><scope>GPSMobile::GpsPosition</scope><name>VerticalDilutionOfPrecisionValid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

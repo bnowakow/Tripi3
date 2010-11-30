@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Nodes>
+  <Position number="0" latitude="47.633629999999989" longitude="-122.18646166666667" tripid="1" speed="0.13026699423789978" time="20041029192046" />
+  <Position number="1" latitude="47.633631666666666" longitude="-122.18645833333333" tripid="1" speed="0.0999390035867691" time="20041029192049" description="Staw" />
+  <Position number="2" latitude="47.633631666666666" longitude="-122.18645333333335" tripid="1" speed="0.014581999741494656" time="20041029192053" />
+  <Position number="3" latitude="47.633628333333341" longitude="-122.18645500000001" tripid="1" speed="0.081600002944469452" time="20041029192055" />
+  <Position number="4" latitude="47.633621666666677" longitude="-122.18645333333335" tripid="1" speed="0.099632002413272858" time="20041029192058" />
+  <Position number="5" latitude="47.633618333333338" longitude="-122.18645333333335" tripid="1" speed="0.076459996402263641" time="20041029192101" description="Babia Gora" />
+  <Position number="6" latitude="47.633614999999992" longitude="-122.18645666666669" tripid="1" speed="0.036253999918699265" time="20041029192104" />
+  <Position number="7" latitude="47.633616666666668" longitude="-122.18646166666667" tripid="1" speed="0.1007080003619194" time="20041029192107" />
+  <Position number="8" latitude="47.633621666666677" longitude="-122.18646500000003" tripid="1" speed="0.0788009986281395" time="20041029192110" />
+  <Position number="9" latitude="47.633626666666665" longitude="-122.18647000000001" tripid="1" speed="0.1386680006980896" time="20041029192113" description="Zakopane" />
+</Nodes>

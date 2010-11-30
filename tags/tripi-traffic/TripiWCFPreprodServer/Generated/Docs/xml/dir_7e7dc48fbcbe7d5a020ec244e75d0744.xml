@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="dir_7e7dc48fbcbe7d5a020ec244e75d0744" kind="dir">
+    <compoundname>TripiWCFPreprodServer/</compoundname>
+    <innerdir refid="dir_75a65fa1ad34fa4ab019c3044bb8711f">TripiWCFPreprodServer/Generated/</innerdir>
+    <innerdir refid="dir_fde24f51d5bd78509333e39a1206877b">TripiWCFPreprodServer/Properties/</innerdir>
+    <innerfile refid="_form_monitor_8cs">FormMonitor.cs</innerfile>
+    <innerfile refid="_form_monitor_8_designer_8cs">FormMonitor.Designer.cs</innerfile>
+    <innerfile refid="_tripi_w_c_f_preprod_server_2_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_login_user_request" kind="class" prot="public">
+    <compoundname>LoginUserRequest</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_login_user_request_1a403c7d4a5e84d93c50307da16a28770e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string LoginUserRequest::username</definition>
+        <argsstring></argsstring>
+        <name>username</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="43" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_login_user_request_1ac6680d41055d9c4cc55ff1b9d8cbf7fa" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string LoginUserRequest::password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="46" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_login_user_request_1a9061919a8aacf22862923cbfb72c423b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LoginUserRequest.LoginUserRequest</definition>
+        <argsstring>()</argsstring>
+        <name>LoginUserRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="49" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="48" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_login_user_request_1a6de0dd38f24a0ecdb1d1f92899dd5bac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LoginUserRequest.LoginUserRequest</definition>
+        <argsstring>(string username, string password)</argsstring>
+        <name>LoginUserRequest</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="53" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="52" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_login_user_request_1a9061919a8aacf22862923cbfb72c423b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LoginUserRequest.LoginUserRequest</definition>
+        <argsstring>()</argsstring>
+        <name>LoginUserRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="49" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="48" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_login_user_request_1a6de0dd38f24a0ecdb1d1f92899dd5bac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LoginUserRequest.LoginUserRequest</definition>
+        <argsstring>(string username, string password)</argsstring>
+        <name>LoginUserRequest</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="53" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="52" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="40" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="39" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_login_user_request_1a9061919a8aacf22862923cbfb72c423b" prot="public" virt="non-virtual"><scope>LoginUserRequest</scope><name>LoginUserRequest</name></member>
+      <member refid="class_login_user_request_1a6de0dd38f24a0ecdb1d1f92899dd5bac" prot="public" virt="non-virtual"><scope>LoginUserRequest</scope><name>LoginUserRequest</name></member>
+      <member refid="class_login_user_request_1a9061919a8aacf22862923cbfb72c423b" prot="public" virt="non-virtual"><scope>LoginUserRequest</scope><name>LoginUserRequest</name></member>
+      <member refid="class_login_user_request_1a6de0dd38f24a0ecdb1d1f92899dd5bac" prot="public" virt="non-virtual"><scope>LoginUserRequest</scope><name>LoginUserRequest</name></member>
+      <member refid="class_login_user_request_1ac6680d41055d9c4cc55ff1b9d8cbf7fa" prot="public" virt="non-virtual"><scope>LoginUserRequest</scope><name>password</name></member>
+      <member refid="class_login_user_request_1a403c7d4a5e84d93c50307da16a28770e" prot="public" virt="non-virtual"><scope>LoginUserRequest</scope><name>username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

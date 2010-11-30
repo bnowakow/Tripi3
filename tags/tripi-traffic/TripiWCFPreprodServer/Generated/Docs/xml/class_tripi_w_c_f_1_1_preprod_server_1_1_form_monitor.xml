@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor" kind="class" prot="public">
+    <compoundname>TripiWCF::PreprodServer::FormMonitor</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1ad8a9fc8640bbad1b83c9b0026946ca23" prot="private" static="no" mutable="no">
+        <type>System.ServiceModel.ServiceHost</type>
+        <definition>System.ServiceModel.ServiceHost TripiWCF.PreprodServer.FormMonitor.TripiHost</definition>
+        <argsstring></argsstring>
+        <name>TripiHost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.cs" line="18" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1a0d8b926fd379723399f1fc2aa5874c99" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer TripiWCF.PreprodServer.FormMonitor.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer> null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.Designer.cs" line="8" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1a4157b81b7a64c591806a4205285c814b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox TripiWCF.PreprodServer.FormMonitor.groupBox1</definition>
+        <argsstring></argsstring>
+        <name>groupBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.Designer.cs" line="117" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.Designer.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1a32ddb20c1bbbc94deffeab69dc098dc0" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox TripiWCF.PreprodServer.FormMonitor.groupBox2</definition>
+        <argsstring></argsstring>
+        <name>groupBox2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.Designer.cs" line="118" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.Designer.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1ab2681185e44f281d60eb67e7b09f7c55" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TripiWCF.PreprodServer.FormMonitor.labelNodes</definition>
+        <argsstring></argsstring>
+        <name>labelNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.Designer.cs" line="119" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.Designer.cs" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1a34b90d6f08c57da511747612acfd277c" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label TripiWCF.PreprodServer.FormMonitor.labelTrips</definition>
+        <argsstring></argsstring>
+        <name>labelTrips</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.Designer.cs" line="120" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.Designer.cs" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1aaa08530c4c7d0dd6e44de5ee99adc3a1" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox TripiWCF.PreprodServer.FormMonitor.textBoxLawg</definition>
+        <argsstring></argsstring>
+        <name>textBoxLawg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.Designer.cs" line="121" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.Designer.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1ab270245549ef766988342b0c18308e4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TripiWCF.PreprodServer.FormMonitor.FormMonitor</definition>
+        <argsstring>()</argsstring>
+        <name>FormMonitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.cs" line="21" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.cs" bodystart="20" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1a9c9af5bf3c0667318391e3e67fb60979" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.PreprodServer.FormMonitor.FormMonitor_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>FormMonitor_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.cs" line="32" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.cs" bodystart="31" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1acdcfc8d61ed9a9046875924deaeb28d4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.PreprodServer.FormMonitor.FormMonitor_FormClosed</definition>
+        <argsstring>(object sender, FormClosedEventArgs e)</argsstring>
+        <name>FormMonitor_FormClosed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>FormClosedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.cs" line="47" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.cs" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1adc3698bb837697387cb0a97e43c5ff19" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.PreprodServer.FormMonitor.RefreshLabels</definition>
+        <argsstring>(int trips, int nodes)</argsstring>
+        <name>RefreshLabels</name>
+        <param>
+          <type>int</type>
+          <declname>trips</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.cs" line="52" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.cs" bodystart="51" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1a20aeec9905fdd771c51f8982ef9bd8b8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.PreprodServer.FormMonitor.Log</definition>
+        <argsstring>(string msg)</argsstring>
+        <name>Log</name>
+        <param>
+          <type>string</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.cs" line="58" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1a5fc8c544acb1ec9ce9c3283aef974faf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TripiWCF.PreprodServer.FormMonitor.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.Designer.cs" line="30" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.Designer.cs" bodystart="29" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1afb7cf1de026e3db34c391dbd18e3d3b1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void TripiWCF.PreprodServer.FormMonitor.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.Designer.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Windows Form which presents basic information about what happens to our self-hosted WCF service. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="91">
+        <label>TripiWCF.PreprodServer.FormMonitor</label>
+        <link refid="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor"/>
+        <childnode refid="92" relation="usage">
+          <edgelabel>labelNodes</edgelabel>
+          <edgelabel>labelTrips</edgelabel>
+          <edgelabel>groupBox1</edgelabel>
+          <edgelabel>groupBox2</edgelabel>
+          <edgelabel>components</edgelabel>
+          <edgelabel>TripiHost</edgelabel>
+          <edgelabel>textBoxLawg</edgelabel>
+        </childnode>
+      </node>
+      <node id="92">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.cs" line="17" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/FormMonitor.cs" bodystart="16" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1a0d8b926fd379723399f1fc2aa5874c99" prot="private" virt="non-virtual"><scope>TripiWCF::PreprodServer::FormMonitor</scope><name>components</name></member>
+      <member refid="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1afb7cf1de026e3db34c391dbd18e3d3b1" prot="protected" virt="non-virtual"><scope>TripiWCF::PreprodServer::FormMonitor</scope><name>Dispose</name></member>
+      <member refid="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1ab270245549ef766988342b0c18308e4c" prot="public" virt="non-virtual"><scope>TripiWCF::PreprodServer::FormMonitor</scope><name>FormMonitor</name></member>
+      <member refid="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1acdcfc8d61ed9a9046875924deaeb28d4" prot="private" virt="non-virtual"><scope>TripiWCF::PreprodServer::FormMonitor</scope><name>FormMonitor_FormClosed</name></member>
+      <member refid="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1a9c9af5bf3c0667318391e3e67fb60979" prot="private" virt="non-virtual"><scope>TripiWCF::PreprodServer::FormMonitor</scope><name>FormMonitor_Load</name></member>
+      <member refid="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1a4157b81b7a64c591806a4205285c814b" prot="private" virt="non-virtual"><scope>TripiWCF::PreprodServer::FormMonitor</scope><name>groupBox1</name></member>
+      <member refid="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1a32ddb20c1bbbc94deffeab69dc098dc0" prot="private" virt="non-virtual"><scope>TripiWCF::PreprodServer::FormMonitor</scope><name>groupBox2</name></member>
+      <member refid="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1a5fc8c544acb1ec9ce9c3283aef974faf" prot="private" virt="non-virtual"><scope>TripiWCF::PreprodServer::FormMonitor</scope><name>InitializeComponent</name></member>
+      <member refid="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1ab2681185e44f281d60eb67e7b09f7c55" prot="private" virt="non-virtual"><scope>TripiWCF::PreprodServer::FormMonitor</scope><name>labelNodes</name></member>
+      <member refid="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1a34b90d6f08c57da511747612acfd277c" prot="private" virt="non-virtual"><scope>TripiWCF::PreprodServer::FormMonitor</scope><name>labelTrips</name></member>
+      <member refid="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1a20aeec9905fdd771c51f8982ef9bd8b8" prot="private" virt="non-virtual"><scope>TripiWCF::PreprodServer::FormMonitor</scope><name>Log</name></member>
+      <member refid="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1adc3698bb837697387cb0a97e43c5ff19" prot="private" virt="non-virtual"><scope>TripiWCF::PreprodServer::FormMonitor</scope><name>RefreshLabels</name></member>
+      <member refid="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1aaa08530c4c7d0dd6e44de5ee99adc3a1" prot="private" virt="non-virtual"><scope>TripiWCF::PreprodServer::FormMonitor</scope><name>textBoxLawg</name></member>
+      <member refid="class_tripi_w_c_f_1_1_preprod_server_1_1_form_monitor_1ad8a9fc8640bbad1b83c9b0026946ca23" prot="private" virt="non-virtual"><scope>TripiWCF::PreprodServer::FormMonitor</scope><name>TripiHost</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

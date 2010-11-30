@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node" kind="class" prot="public">
+    <compoundname>TripiWCF::ClientMockup::Proxy::PositionNode</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a37d0d92b3e29b8168a4138abe6bab39e" prot="private" static="no" mutable="no">
+        <type>System.Runtime.Serialization.ExtensionDataObject</type>
+        <definition>System Runtime Serialization ExtensionDataObject PositionNode::extensionDataField</definition>
+        <argsstring></argsstring>
+        <name>extensionDataField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="88" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1acbac67ee1ac24f1652dd125f9a0b02ec" prot="private" static="no" mutable="no">
+        <type>System.DateTime</type>
+        <definition>System DateTime PositionNode::CreationTimeField</definition>
+        <argsstring></argsstring>
+        <name>CreationTimeField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="90" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a4bc8d2555861092d47e4c564bd35c57e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double PositionNode::LatitudeField</definition>
+        <argsstring></argsstring>
+        <name>LatitudeField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="92" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1abc98a09e69be9a44b20ed6654d01b736" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double PositionNode::LongitudeField</definition>
+        <argsstring></argsstring>
+        <name>LongitudeField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="94" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a4d9459878ba5a752346eeb41c7a151ac" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double PositionNode::SpeedField</definition>
+        <argsstring></argsstring>
+        <name>SpeedField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="96" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1ad6ddbe35bb52845fb49017322af2efc0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PositionNode::TripIDField</definition>
+        <argsstring></argsstring>
+        <name>TripIDField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="98" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a678569752196937ffc49934fbe466085" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PositionNode::DescriptionField</definition>
+        <argsstring></argsstring>
+        <name>DescriptionField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="107" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1af67c625c552642ab1963a051a8c41768" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PositionNode::OrdinalNumberField</definition>
+        <argsstring></argsstring>
+        <name>OrdinalNumberField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="113" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a6387fb9f3cb15addfd974a6bf18dc151" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.Runtime.Serialization.ExtensionDataObject</type>
+        <definition>System Runtime Serialization ExtensionDataObject PositionNode::ExtensionData</definition>
+        <argsstring></argsstring>
+        <name>ExtensionData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="110" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a25e70b5ac7e1562bee46c550b655aca3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System DateTime PositionNode::CreationTime</definition>
+        <argsstring></argsstring>
+        <name>CreationTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="123" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a9ba611f655423cc8bc154842217cf51f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double PositionNode::Latitude</definition>
+        <argsstring></argsstring>
+        <name>Latitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="136" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1adbdb2873251e38496507f5ff1fdd02ef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double PositionNode::Longitude</definition>
+        <argsstring></argsstring>
+        <name>Longitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="149" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1aca550e2dfc8a18a7af3e96dd0c1658e8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double PositionNode::Speed</definition>
+        <argsstring></argsstring>
+        <name>Speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="162" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1ae9f32fe5838c27dfa2facb0cf250af28" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int PositionNode::TripID</definition>
+        <argsstring></argsstring>
+        <name>TripID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="175" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a2de15e5b9d17882dc0c57a73a3e19a03" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string PositionNode::Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="155" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a76bd3433903f76dd48067a1733857c4d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int PositionNode::OrdinalNumber</definition>
+        <argsstring></argsstring>
+        <name>OrdinalNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="194" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1af70761d5eb200ce0f58498a748e180df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string TripiWCF.ClientMockup.Proxy.PositionNode.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ToStrings.cs" line="19" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ToStrings.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="365">
+        <label>System</label>
+      </node>
+      <node id="364">
+        <label>TripiWCF.ClientMockup.Proxy.PositionNode</label>
+        <link refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node"/>
+        <childnode refid="365" relation="usage">
+          <edgelabel>CreationTimeField</edgelabel>
+          <edgelabel>extensionDataField</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="86" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="85" bodyend="176"/>
+    <listofallmembers>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a25e70b5ac7e1562bee46c550b655aca3" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::PositionNode</scope><name>CreationTime</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1acbac67ee1ac24f1652dd125f9a0b02ec" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::PositionNode</scope><name>CreationTimeField</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a2de15e5b9d17882dc0c57a73a3e19a03" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::PositionNode</scope><name>Description</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a678569752196937ffc49934fbe466085" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::PositionNode</scope><name>DescriptionField</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a6387fb9f3cb15addfd974a6bf18dc151" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::PositionNode</scope><name>ExtensionData</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a37d0d92b3e29b8168a4138abe6bab39e" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::PositionNode</scope><name>extensionDataField</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a9ba611f655423cc8bc154842217cf51f" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::PositionNode</scope><name>Latitude</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a4bc8d2555861092d47e4c564bd35c57e" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::PositionNode</scope><name>LatitudeField</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1adbdb2873251e38496507f5ff1fdd02ef" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::PositionNode</scope><name>Longitude</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1abc98a09e69be9a44b20ed6654d01b736" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::PositionNode</scope><name>LongitudeField</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a76bd3433903f76dd48067a1733857c4d" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::PositionNode</scope><name>OrdinalNumber</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1af67c625c552642ab1963a051a8c41768" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::PositionNode</scope><name>OrdinalNumberField</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1aca550e2dfc8a18a7af3e96dd0c1658e8" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::PositionNode</scope><name>Speed</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1a4d9459878ba5a752346eeb41c7a151ac" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::PositionNode</scope><name>SpeedField</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1af70761d5eb200ce0f58498a748e180df" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::PositionNode</scope><name>ToString</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1ae9f32fe5838c27dfa2facb0cf250af28" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::PositionNode</scope><name>TripID</name></member>
+      <member refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_position_node_1ad6ddbe35bb52845fb49017322af2efc0" prot="private" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::PositionNode</scope><name>TripIDField</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

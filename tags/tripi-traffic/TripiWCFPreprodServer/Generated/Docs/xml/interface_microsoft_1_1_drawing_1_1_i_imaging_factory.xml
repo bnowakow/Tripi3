@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="interface_microsoft_1_1_drawing_1_1_i_imaging_factory" kind="interface" prot="public">
+    <compoundname>Microsoft::Drawing::IImagingFactory</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1a698c740d6bb8cbfe69549fff6163b468" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImagingFactory.CreateImageFromStream</definition>
+        <argsstring>()</argsstring>
+        <name>CreateImageFromStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="110"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1a57ac6ef8e863cd8508af1bb312f05217" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImagingFactory.CreateImageFromFile</definition>
+        <argsstring>(string filename, out IImage image)</argsstring>
+        <name>CreateImageFromFile</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>out <ref refid="interface_microsoft_1_1_drawing_1_1_i_image" kindref="compound">IImage</ref></type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="111"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1a62a0aa3b343f7cbd6c8f2661c6fc6e74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImagingFactory.CreateImageFromBuffer</definition>
+        <argsstring>([MarshalAs(UnmanagedType.LPArray)] byte[] buffer, uint size, BufferDisposalFlag disposalFlag, out IImage image)</argsstring>
+        <name>CreateImageFromBuffer</name>
+        <param>
+          <attributes>[MarshalAs(UnmanagedType.LPArray)]</attributes>
+          <type>byte[]</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>BufferDisposalFlag</type>
+          <declname>disposalFlag</declname>
+        </param>
+        <param>
+          <type>out <ref refid="interface_microsoft_1_1_drawing_1_1_i_image" kindref="compound">IImage</ref></type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="113"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1ae761bb7c59448fbc9550ba7514acf9d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImagingFactory.CreateNewBitmap</definition>
+        <argsstring>(uint width, uint height, PixelFormatID pixelFormat, out IBitmapImage bitmap)</argsstring>
+        <name>CreateNewBitmap</name>
+        <param>
+          <type>uint</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>PixelFormatID</type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type>out <ref refid="interface_microsoft_1_1_drawing_1_1_i_bitmap_image" kindref="compound">IBitmapImage</ref></type>
+          <declname>bitmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="114"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1aa2589d1ffef2ebf6e5afd7dff785985a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImagingFactory.CreateBitmapFromImage</definition>
+        <argsstring>(IImage image, uint width, uint height, PixelFormatID pixelFormat, InterpolationHint hints, out IBitmapImage bitmap)</argsstring>
+        <name>CreateBitmapFromImage</name>
+        <param>
+          <type><ref refid="interface_microsoft_1_1_drawing_1_1_i_image" kindref="compound">IImage</ref></type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>PixelFormatID</type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type>InterpolationHint</type>
+          <declname>hints</declname>
+        </param>
+        <param>
+          <type>out <ref refid="interface_microsoft_1_1_drawing_1_1_i_bitmap_image" kindref="compound">IBitmapImage</ref></type>
+          <declname>bitmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="115"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1ac0db9a39776f8fc0fef0c5e1419d5c9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImagingFactory.CreateBitmapFromBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>CreateBitmapFromBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="116"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1a940943445fa70828258115bdb5cc569c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImagingFactory.CreateImageDecoder</definition>
+        <argsstring>()</argsstring>
+        <name>CreateImageDecoder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="117"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1ad3a31e0aa04046aab0c697bacd910fb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImagingFactory.CreateImageEncoderToStream</definition>
+        <argsstring>()</argsstring>
+        <name>CreateImageEncoderToStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="118"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1a651503c7cbc6ddbbcc0b9b83c3c1c9e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImagingFactory.CreateImageEncoderToFile</definition>
+        <argsstring>()</argsstring>
+        <name>CreateImageEncoderToFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="119"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1a72ddaa3c7e580b850d9ab1832e99ac29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImagingFactory.GetInstalledDecoders</definition>
+        <argsstring>()</argsstring>
+        <name>GetInstalledDecoders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="120"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1a7083978f98510dd6b18a98b716e5bb0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImagingFactory.GetInstalledEncoders</definition>
+        <argsstring>()</argsstring>
+        <name>GetInstalledEncoders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="121"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1a59a589d3c7afa529d840fc1cc3ba9c71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImagingFactory.InstallImageCodec</definition>
+        <argsstring>()</argsstring>
+        <name>InstallImageCodec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="122"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1acce030a35eac4814a149547013efe4f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Microsoft.Drawing.IImagingFactory.UninstallImageCodec</definition>
+        <argsstring>()</argsstring>
+        <name>UninstallImageCodec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" line="109" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/IImagingFactory.cs" bodystart="108" bodyend="124"/>
+    <listofallmembers>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1ac0db9a39776f8fc0fef0c5e1419d5c9a" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImagingFactory</scope><name>CreateBitmapFromBuffer</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1aa2589d1ffef2ebf6e5afd7dff785985a" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImagingFactory</scope><name>CreateBitmapFromImage</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1a940943445fa70828258115bdb5cc569c" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImagingFactory</scope><name>CreateImageDecoder</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1a651503c7cbc6ddbbcc0b9b83c3c1c9e2" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImagingFactory</scope><name>CreateImageEncoderToFile</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1ad3a31e0aa04046aab0c697bacd910fb5" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImagingFactory</scope><name>CreateImageEncoderToStream</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1a62a0aa3b343f7cbd6c8f2661c6fc6e74" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImagingFactory</scope><name>CreateImageFromBuffer</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1a57ac6ef8e863cd8508af1bb312f05217" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImagingFactory</scope><name>CreateImageFromFile</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1a698c740d6bb8cbfe69549fff6163b468" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImagingFactory</scope><name>CreateImageFromStream</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1ae761bb7c59448fbc9550ba7514acf9d3" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImagingFactory</scope><name>CreateNewBitmap</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1a72ddaa3c7e580b850d9ab1832e99ac29" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImagingFactory</scope><name>GetInstalledDecoders</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1a7083978f98510dd6b18a98b716e5bb0e" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImagingFactory</scope><name>GetInstalledEncoders</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1a59a589d3c7afa529d840fc1cc3ba9c71" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImagingFactory</scope><name>InstallImageCodec</name></member>
+      <member refid="interface_microsoft_1_1_drawing_1_1_i_imaging_factory_1acce030a35eac4814a149547013efe4f3" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::IImagingFactory</scope><name>UninstallImageCodec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

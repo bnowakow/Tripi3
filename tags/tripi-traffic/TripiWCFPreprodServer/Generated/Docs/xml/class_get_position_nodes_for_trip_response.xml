@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_get_position_nodes_for_trip_response" kind="class" prot="public">
+    <compoundname>GetPositionNodesForTripResponse</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_get_position_nodes_for_trip_response_1ab9b3742d0b25118e56884ca030205e03" prot="public" static="no" mutable="no">
+        <type><ref refid="class_position_node" kindref="compound">PositionNode</ref>[]</type>
+        <definition>PositionNode [] GetPositionNodesForTripResponse.GetPositionNodesForTripResult</definition>
+        <argsstring></argsstring>
+        <name>GetPositionNodesForTripResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="632" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="632" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_get_position_nodes_for_trip_response_1a2070740f92bb746d34848bd474112f13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetPositionNodesForTripResponse.GetPositionNodesForTripResponse</definition>
+        <argsstring>()</argsstring>
+        <name>GetPositionNodesForTripResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="635" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="634" bodyend="636"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_position_nodes_for_trip_response_1abfdebc0b49cd0872c7f426cc8d975064" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetPositionNodesForTripResponse.GetPositionNodesForTripResponse</definition>
+        <argsstring>(PositionNode[] GetPositionNodesForTripResult)</argsstring>
+        <name>GetPositionNodesForTripResponse</name>
+        <param>
+          <type><ref refid="class_position_node" kindref="compound">PositionNode</ref>[]</type>
+          <declname>GetPositionNodesForTripResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="639" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="638" bodyend="641"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_position_nodes_for_trip_response_1a2070740f92bb746d34848bd474112f13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetPositionNodesForTripResponse.GetPositionNodesForTripResponse</definition>
+        <argsstring>()</argsstring>
+        <name>GetPositionNodesForTripResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="635" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="634" bodyend="636"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_position_nodes_for_trip_response_1abfdebc0b49cd0872c7f426cc8d975064" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetPositionNodesForTripResponse.GetPositionNodesForTripResponse</definition>
+        <argsstring>(PositionNode[] GetPositionNodesForTripResult)</argsstring>
+        <name>GetPositionNodesForTripResponse</name>
+        <param>
+          <type><ref refid="class_position_node" kindref="compound">PositionNode</ref>[]</type>
+          <declname>GetPositionNodesForTripResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="639" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="638" bodyend="641"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="128">
+        <label>GetPositionNodesForTripResponse</label>
+        <link refid="class_get_position_nodes_for_trip_response"/>
+        <childnode refid="129" relation="usage">
+          <edgelabel>GetPositionNodesForTripResult</edgelabel>
+        </childnode>
+      </node>
+      <node id="130">
+        <label>System</label>
+      </node>
+      <node id="129">
+        <label>PositionNode</label>
+        <link refid="class_position_node"/>
+        <childnode refid="130" relation="usage">
+          <edgelabel>creationTimeField</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="628" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="627" bodyend="642"/>
+    <listofallmembers>
+      <member refid="class_get_position_nodes_for_trip_response_1a2070740f92bb746d34848bd474112f13" prot="public" virt="non-virtual"><scope>GetPositionNodesForTripResponse</scope><name>GetPositionNodesForTripResponse</name></member>
+      <member refid="class_get_position_nodes_for_trip_response_1abfdebc0b49cd0872c7f426cc8d975064" prot="public" virt="non-virtual"><scope>GetPositionNodesForTripResponse</scope><name>GetPositionNodesForTripResponse</name></member>
+      <member refid="class_get_position_nodes_for_trip_response_1a2070740f92bb746d34848bd474112f13" prot="public" virt="non-virtual"><scope>GetPositionNodesForTripResponse</scope><name>GetPositionNodesForTripResponse</name></member>
+      <member refid="class_get_position_nodes_for_trip_response_1abfdebc0b49cd0872c7f426cc8d975064" prot="public" virt="non-virtual"><scope>GetPositionNodesForTripResponse</scope><name>GetPositionNodesForTripResponse</name></member>
+      <member refid="class_get_position_nodes_for_trip_response_1ab9b3742d0b25118e56884ca030205e03" prot="public" virt="non-virtual"><scope>GetPositionNodesForTripResponse</scope><name>GetPositionNodesForTripResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

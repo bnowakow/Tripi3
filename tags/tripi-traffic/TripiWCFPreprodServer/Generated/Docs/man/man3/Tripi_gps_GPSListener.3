@@ -1,0 +1,68 @@
+.TH "Tripi::gps::GPSListener" 3 "18 Feb 2010" "Version revision 98" "Tripi" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Tripi::gps::GPSListener \- 
+.PP
+Listener class for the location change of the user. Gets the data from the gps. The class implements singleton pattern.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBOpenGPS\fP ()"
+.br
+.RI "\fIOpen a GPS connection. \fP"
+.ti -1c
+.RI "void \fBCloseGPS\fP ()"
+.br
+.RI "\fIClose a GPS connection The connection is closed only if there are no other object subscribed to the event. \fP"
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "static \fBGPSListener\fP \fBGetInstance\fP\fC [get]\fP"
+.br
+.in -1c
+.SS "Events"
+
+.in +1c
+.ti -1c
+.RI "Action< \fBGpsPosition\fP > \fBOnLocationChanged\fP = null"
+.br
+.RI "\fIEvent fires when user location changes. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Listener class for the location change of the user. Gets the data from the gps. The class implements singleton pattern. 
+
+
+.PP
+Definition at line 13 of file GPSListener.cs.
+.SH "Member Function Documentation"
+.PP 
+.SS "void Tripi.gps.GPSListener.CloseGPS ()"
+.PP
+Close a GPS connection The connection is closed only if there are no other object subscribed to the event. 
+.PP
+Definition at line 70 of file GPSListener.cs.
+.SS "void Tripi.gps.GPSListener.OpenGPS ()"
+.PP
+Open a GPS connection. 
+.PP
+Definition at line 45 of file GPSListener.cs.
+.SH "Event Documentation"
+.PP 
+.SS "Action<\fBGpsPosition\fP> Tripi.gps.GPSListener.OnLocationChanged = null"
+.PP
+Event fires when user location changes. 
+.PP
+Definition at line 21 of file GPSListener.cs.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Tripi from the source code.

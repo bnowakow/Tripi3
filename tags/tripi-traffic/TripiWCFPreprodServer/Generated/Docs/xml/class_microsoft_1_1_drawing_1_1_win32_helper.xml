@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_microsoft_1_1_drawing_1_1_win32_helper" kind="class" prot="public">
+    <compoundname>Microsoft::Drawing::Win32Helper</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_microsoft_1_1_drawing_1_1_win32_helper_1a7f507323adb68c831477f76a6ecb0145" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Microsoft.Drawing.Win32Helper.GRADIENT_FILL_RECT_H</definition>
+        <argsstring></argsstring>
+        <name>GRADIENT_FILL_RECT_H</name>
+        <initializer> 0x00000000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" line="63" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_microsoft_1_1_drawing_1_1_win32_helper_1ac72dab25ac8e5b97f679448c0f1f466d" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Microsoft.Drawing.Win32Helper.GRADIENT_FILL_RECT_V</definition>
+        <argsstring></argsstring>
+        <name>GRADIENT_FILL_RECT_V</name>
+        <initializer> 0x00000001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" line="64" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_microsoft_1_1_drawing_1_1_win32_helper_1aedecc71943b7446bb1a8601512cd8351" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Microsoft.Drawing.Win32Helper.GradientFill</definition>
+        <argsstring>(IntPtr hdc, TRIVERTEX[] pVertex, uint dwNumVertex, GRADIENT_RECT[] pMesh, uint dwNumMesh, uint dwMode)</argsstring>
+        <name>GradientFill</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>hdc</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_microsoft_1_1_drawing_1_1_t_r_i_v_e_r_t_e_x" kindref="compound">TRIVERTEX</ref>[]</type>
+          <declname>pVertex</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>dwNumVertex</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_microsoft_1_1_drawing_1_1_g_r_a_d_i_e_n_t___r_e_c_t" kindref="compound">GRADIENT_RECT</ref>[]</type>
+          <declname>pMesh</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>dwNumMesh</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>dwMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" line="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" line="53" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/PlatformAPI/Win32Helper.cs" bodystart="52" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_microsoft_1_1_drawing_1_1_win32_helper_1a7f507323adb68c831477f76a6ecb0145" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::Win32Helper</scope><name>GRADIENT_FILL_RECT_H</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_win32_helper_1ac72dab25ac8e5b97f679448c0f1f466d" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::Win32Helper</scope><name>GRADIENT_FILL_RECT_V</name></member>
+      <member refid="class_microsoft_1_1_drawing_1_1_win32_helper_1aedecc71943b7446bb1a8601512cd8351" prot="public" virt="non-virtual"><scope>Microsoft::Drawing::Win32Helper</scope><name>GradientFill</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

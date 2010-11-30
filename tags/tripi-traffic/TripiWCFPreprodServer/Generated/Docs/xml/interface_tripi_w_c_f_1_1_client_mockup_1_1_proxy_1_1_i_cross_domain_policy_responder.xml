@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder" kind="interface" prot="public">
+    <compoundname>TripiWCF::ClientMockup::Proxy::ICrossDomainPolicyResponder</compoundname>
+    <derivedcompoundref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient</derivedcompoundref>
+    <derivedcompoundref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient</derivedcompoundref>
+    <derivedcompoundref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient</derivedcompoundref>
+    <derivedcompoundref refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient</derivedcompoundref>
+    <derivedcompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_channel" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponderChannel</derivedcompoundref>
+    <derivedcompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_channel" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponderChannel</derivedcompoundref>
+    <derivedcompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_channel" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponderChannel</derivedcompoundref>
+    <derivedcompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_channel" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponderChannel</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_1a1412f9531b7ccfe925d28915757b66df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>System.IO.Stream</type>
+        <definition>System.IO.Stream TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder.GetFlashPolicy</definition>
+        <argsstring>()</argsstring>
+        <name>GetFlashPolicy</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af">GetFlashPolicy</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af">GetFlashPolicy</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af">GetFlashPolicy</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af">GetFlashPolicy</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="273"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_1a1412f9531b7ccfe925d28915757b66df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>System.IO.Stream</type>
+        <definition>System.IO.Stream TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder.GetFlashPolicy</definition>
+        <argsstring>()</argsstring>
+        <name>GetFlashPolicy</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af">GetFlashPolicy</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af">GetFlashPolicy</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af">GetFlashPolicy</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af">GetFlashPolicy</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/ProxyTripiWCFService.cs" line="273"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_1a1412f9531b7ccfe925d28915757b66df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>System.IO.Stream</type>
+        <definition>System.IO.Stream TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder.GetFlashPolicy</definition>
+        <argsstring>()</argsstring>
+        <name>GetFlashPolicy</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af">GetFlashPolicy</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af">GetFlashPolicy</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af">GetFlashPolicy</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af">GetFlashPolicy</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFClientMockup/ProxyTripiWCFService.cs" line="342"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_1a1412f9531b7ccfe925d28915757b66df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>System.IO.Stream</type>
+        <definition>System.IO.Stream TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder.GetFlashPolicy</definition>
+        <argsstring>()</argsstring>
+        <name>GetFlashPolicy</name>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af">GetFlashPolicy</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af">GetFlashPolicy</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af">GetFlashPolicy</reimplementedby>
+        <reimplementedby refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client_1a0246400572a505db33fd2489f6d879af">GetFlashPolicy</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForWindowsClient/ProxyTripiWCFService.cs" line="342"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="242">
+        <label>TripiWCF.ClientMockup.Proxy.CrossDomainPolicyResponderClient</label>
+        <link refid="class_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_cross_domain_policy_responder_client"/>
+        <childnode refid="241" relation="public-inheritance">
+        </childnode>
+        <childnode refid="241" relation="public-inheritance">
+        </childnode>
+        <childnode refid="241" relation="public-inheritance">
+        </childnode>
+        <childnode refid="241" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="243">
+        <label>TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponderChannel</label>
+        <link refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_channel"/>
+        <childnode refid="241" relation="public-inheritance">
+        </childnode>
+        <childnode refid="241" relation="public-inheritance">
+        </childnode>
+        <childnode refid="241" relation="public-inheritance">
+        </childnode>
+        <childnode refid="241" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="241">
+        <label>TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder</label>
+        <link refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="270" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="269" bodyend="274"/>
+    <listofallmembers>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_1a1412f9531b7ccfe925d28915757b66df" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ICrossDomainPolicyResponder</scope><name>GetFlashPolicy</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_1a1412f9531b7ccfe925d28915757b66df" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ICrossDomainPolicyResponder</scope><name>GetFlashPolicy</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_1a1412f9531b7ccfe925d28915757b66df" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ICrossDomainPolicyResponder</scope><name>GetFlashPolicy</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_1a1412f9531b7ccfe925d28915757b66df" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ICrossDomainPolicyResponder</scope><name>GetFlashPolicy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

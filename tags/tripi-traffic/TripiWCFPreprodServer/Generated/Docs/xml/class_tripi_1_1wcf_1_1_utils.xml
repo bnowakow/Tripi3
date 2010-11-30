@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1wcf_1_1_utils" kind="class" prot="public">
+    <compoundname>Tripi::wcf::Utils</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_tripi_1_1wcf_1_1_utils_1aeac8319cbe48291b764ed84d4e5c0f34" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_position_node" kindref="compound">PositionNode</ref></type>
+        <definition>static PositionNode Tripi.wcf.Utils.GetPositionNode</definition>
+        <argsstring>(this GpsPosition position)</argsstring>
+        <name>GetPositionNode</name>
+        <param>
+          <type>this <ref refid="class_g_p_s_mobile_1_1_gps_position" kindref="compound">GpsPosition</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+<para>Converts GpsPosition object to <ref refid="class_position_node" kindref="compound">PositionNode</ref> object. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>position</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/Utils.cs" line="19" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/Utils.cs" bodystart="18" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/Utils.cs" line="10" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/Utils.cs" bodystart="9" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1wcf_1_1_utils_1aeac8319cbe48291b764ed84d4e5c0f34" prot="public" virt="non-virtual"><scope>Tripi::wcf::Utils</scope><name>GetPositionNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_msdn_1_1_u_i_framework_1_1_visual_collection" kind="class" prot="public">
+    <compoundname>Msdn::UIFramework::VisualCollection</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_visual_collection_1acbdd00e885f7d11492d62142bf7f4d5b" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, int &gt;</type>
+        <definition>Dictionary&lt;string, int&gt; Msdn.UIFramework.VisualCollection.nameList</definition>
+        <argsstring></argsstring>
+        <name>nameList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/VisualCollection.cs" line="16" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/VisualCollection.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_msdn_1_1_u_i_framework_1_1_visual_collection_1a543bb7c06d6cb26a77b383a0ec5e9a5f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_msdn_1_1_u_i_framework_1_1_canvas" kindref="compound">Canvas</ref></type>
+        <definition>Canvas Msdn.UIFramework.VisualCollection.canvas</definition>
+        <argsstring></argsstring>
+        <name>canvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/VisualCollection.cs" line="17" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/VisualCollection.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_msdn_1_1_u_i_framework_1_1_visual_collection_1a188ea7dcf58038007618708a00e30e10" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_msdn_1_1_u_i_framework_1_1_u_i_element" kindref="compound">UIElement</ref></type>
+        <definition>UIElement Msdn.UIFramework.VisualCollection.this[string name]</definition>
+        <argsstring>[string name]</argsstring>
+        <name>this</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/VisualCollection.cs" line="61" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/VisualCollection.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_visual_collection_1a799397f41afe9a166e7d230acd3b690b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Msdn.UIFramework.VisualCollection.VisualCollection</definition>
+        <argsstring>()</argsstring>
+        <name>VisualCollection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/VisualCollection.cs" line="20" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/VisualCollection.cs" bodystart="19" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_visual_collection_1a977ddf085c2a76dae56e2f4f40c5bd35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Msdn.UIFramework.VisualCollection.VisualCollection</definition>
+        <argsstring>(Canvas canvas)</argsstring>
+        <name>VisualCollection</name>
+        <param>
+          <type><ref refid="class_msdn_1_1_u_i_framework_1_1_canvas" kindref="compound">Canvas</ref></type>
+          <declname>canvas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/VisualCollection.cs" line="26" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/VisualCollection.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_visual_collection_1a249bf3c146c751ac4b7218b4a8acd507" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T Msdn.UIFramework.VisualCollection.Add&lt; T &gt;</definition>
+        <argsstring>(Func&lt; T &gt; build)</argsstring>
+        <name>Add&lt; T &gt;</name>
+        <param>
+          <type>Func&lt; T &gt;</type>
+          <declname>build</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/VisualCollection.cs" line="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_visual_collection_1ac36bf3c712a033335f00b5f33239f755" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new void</type>
+        <definition>new void Msdn.UIFramework.VisualCollection.Add</definition>
+        <argsstring>(UIElement element)</argsstring>
+        <name>Add</name>
+        <param>
+          <type><ref refid="class_msdn_1_1_u_i_framework_1_1_u_i_element" kindref="compound">UIElement</ref></type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/VisualCollection.cs" line="39" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/VisualCollection.cs" bodystart="38" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_msdn_1_1_u_i_framework_1_1_visual_collection_1a277ef3e0649e9206ab565af740141ce9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Msdn.UIFramework.VisualCollection.element_Invalidate</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>element_Invalidate</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/VisualCollection.cs" line="50" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/VisualCollection.cs" bodystart="49" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="550">
+        <label>Msdn.UIFramework.Canvas</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_canvas"/>
+        <childnode refid="551" relation="public-inheritance">
+        </childnode>
+        <childnode refid="549" relation="usage">
+          <edgelabel>children</edgelabel>
+        </childnode>
+      </node>
+      <node id="551">
+        <label>Msdn.UIFramework.UIElement</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_u_i_element"/>
+        <childnode refid="551" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="549">
+        <label>Msdn.UIFramework.VisualCollection</label>
+        <link refid="class_msdn_1_1_u_i_framework_1_1_visual_collection"/>
+        <childnode refid="550" relation="usage">
+          <edgelabel>canvas</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/VisualCollection.cs" line="15" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/UIFrameworkMobile/VisualCollection.cs" bodystart="14" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_visual_collection_1ac36bf3c712a033335f00b5f33239f755" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::VisualCollection</scope><name>Add</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_visual_collection_1a249bf3c146c751ac4b7218b4a8acd507" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::VisualCollection</scope><name>Add&lt; T &gt;</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_visual_collection_1a543bb7c06d6cb26a77b383a0ec5e9a5f" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::VisualCollection</scope><name>canvas</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_visual_collection_1a277ef3e0649e9206ab565af740141ce9" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::VisualCollection</scope><name>element_Invalidate</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_visual_collection_1acbdd00e885f7d11492d62142bf7f4d5b" prot="private" virt="non-virtual"><scope>Msdn::UIFramework::VisualCollection</scope><name>nameList</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_visual_collection_1a188ea7dcf58038007618708a00e30e10" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::VisualCollection</scope><name>this</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_visual_collection_1a799397f41afe9a166e7d230acd3b690b" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::VisualCollection</scope><name>VisualCollection</name></member>
+      <member refid="class_msdn_1_1_u_i_framework_1_1_visual_collection_1a977ddf085c2a76dae56e2f4f40c5bd35" prot="public" virt="non-virtual"><scope>Msdn::UIFramework::VisualCollection</scope><name>VisualCollection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

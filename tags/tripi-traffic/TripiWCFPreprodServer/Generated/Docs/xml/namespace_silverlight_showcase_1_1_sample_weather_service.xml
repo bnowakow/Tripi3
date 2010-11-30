@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="namespace_silverlight_showcase_1_1_sample_weather_service" kind="namespace">
+    <compoundname>SilverlightShowcase::SampleWeatherService</compoundname>
+    <innerclass refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap" prot="public">SilverlightShowcase::SampleWeatherService::GlobalWeatherSoap</innerclass>
+    <innerclass refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap_channel" prot="public">SilverlightShowcase::SampleWeatherService::GlobalWeatherSoapChannel</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_weather_completed_event_args" prot="public">SilverlightShowcase::SampleWeatherService::GetWeatherCompletedEventArgs</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_cities_by_country_completed_event_args" prot="public">SilverlightShowcase::SampleWeatherService::GetCitiesByCountryCompletedEventArgs</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_soap_client" prot="public">SilverlightShowcase::SampleWeatherService::GlobalWeatherSoapClient</innerclass>
+    <innerclass refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_http_get" prot="public">SilverlightShowcase::SampleWeatherService::GlobalWeatherHttpGet</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_weather_request" prot="public">SilverlightShowcase::SampleWeatherService::GetWeatherRequest</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_weather_response" prot="public">SilverlightShowcase::SampleWeatherService::GetWeatherResponse</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_cities_by_country_request" prot="public">SilverlightShowcase::SampleWeatherService::GetCitiesByCountryRequest</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_cities_by_country_response" prot="public">SilverlightShowcase::SampleWeatherService::GetCitiesByCountryResponse</innerclass>
+    <innerclass refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_http_get_channel" prot="public">SilverlightShowcase::SampleWeatherService::GlobalWeatherHttpGetChannel</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_weather_completed_event_args1" prot="public">SilverlightShowcase::SampleWeatherService::GetWeatherCompletedEventArgs1</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_cities_by_country_completed_event_args1" prot="public">SilverlightShowcase::SampleWeatherService::GetCitiesByCountryCompletedEventArgs1</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_http_get_client" prot="public">SilverlightShowcase::SampleWeatherService::GlobalWeatherHttpGetClient</innerclass>
+    <innerclass refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_http_post" prot="public">SilverlightShowcase::SampleWeatherService::GlobalWeatherHttpPost</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_weather_request1" prot="public">SilverlightShowcase::SampleWeatherService::GetWeatherRequest1</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_weather_response1" prot="public">SilverlightShowcase::SampleWeatherService::GetWeatherResponse1</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_cities_by_country_request1" prot="public">SilverlightShowcase::SampleWeatherService::GetCitiesByCountryRequest1</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_cities_by_country_response1" prot="public">SilverlightShowcase::SampleWeatherService::GetCitiesByCountryResponse1</innerclass>
+    <innerclass refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_http_post_channel" prot="public">SilverlightShowcase::SampleWeatherService::GlobalWeatherHttpPostChannel</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_weather_completed_event_args2" prot="public">SilverlightShowcase::SampleWeatherService::GetWeatherCompletedEventArgs2</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_get_cities_by_country_completed_event_args2" prot="public">SilverlightShowcase::SampleWeatherService::GetCitiesByCountryCompletedEventArgs2</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_http_post_client" prot="public">SilverlightShowcase::SampleWeatherService::GlobalWeatherHttpPostClient</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" line="14"/>
+  </compounddef>
+</doxygen>

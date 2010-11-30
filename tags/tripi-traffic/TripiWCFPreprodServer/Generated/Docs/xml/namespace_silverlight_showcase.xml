@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="namespace_silverlight_showcase" kind="namespace">
+    <compoundname>SilverlightShowcase</compoundname>
+    <innerclass refid="class_silverlight_showcase_1_1_app" prot="public">SilverlightShowcase::App</innerclass>
+    <innerclass refid="class_silverlight_showcase_1_1_main_page" prot="public">SilverlightShowcase::MainPage</innerclass>
+    <innernamespace refid="namespace_silverlight_showcase_1_1_sample_weather_service">SilverlightShowcase::SampleWeatherService</innernamespace>
+    <innernamespace refid="namespace_silverlight_showcase_1_1_tripi_silverlight_w_c_f_service_reference">SilverlightShowcase::TripiSilverlightWCFServiceReference</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/App.xaml.cs" line="15"/>
+  </compounddef>
+</doxygen>

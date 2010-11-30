@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_tripi_1_1data_1_1_data_base" kind="class" prot="public">
+    <compoundname>Tripi::data::DataBase</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_tripi_1_1data_1_1_data_base_1a750b95925bf1d4518d29c737cc6b1ccd" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Tripi.data.DataBase.dbFileName</definition>
+        <argsstring></argsstring>
+        <name>dbFileName</name>
+        <initializer> &quot;tripi.sdf&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="12" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1data_1_1_data_base_1aa90f78006a08d7cf8d54ff7d6939999d" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Tripi.data.DataBase.dbFilePath</definition>
+        <argsstring></argsstring>
+        <name>dbFilePath</name>
+        <initializer> @&quot;/STORAGE CARD/&quot; + dbFileName</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="13" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tripi_1_1data_1_1_data_base_1a996c1707f86824c35561a182d818f628" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Tripi.data.DataBase.connString</definition>
+        <argsstring></argsstring>
+        <name>connString</name>
+        <initializer> &quot;Data Source=\&quot;&quot; + dbFilePath + &quot;\&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="14" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1data_1_1_data_base_1a87ae6ee70a958db3f78d016aa9b39d74" prot="private" static="no" mutable="no">
+        <type>SqlCeConnection</type>
+        <definition>SqlCeConnection Tripi.data.DataBase.myConnection</definition>
+        <argsstring></argsstring>
+        <name>myConnection</name>
+        <initializer> new SqlCeConnection()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="16" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1data_1_1_data_base_1a8240672354f33e3921657faabc282606" prot="private" static="no" mutable="no">
+        <type>SqlCeDataAdapter</type>
+        <definition>SqlCeDataAdapter Tripi.data.DataBase.mySqlDataAdapter</definition>
+        <argsstring></argsstring>
+        <name>mySqlDataAdapter</name>
+        <initializer> new SqlCeDataAdapter()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="17" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1data_1_1_data_base_1a9535c155ecc35e1552a0d4e8dacf6834" prot="private" static="no" mutable="no">
+        <type>DataTable</type>
+        <definition>DataTable Tripi.data.DataBase.myDataTable</definition>
+        <argsstring></argsstring>
+        <name>myDataTable</name>
+        <initializer> new DataTable()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="18" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1data_1_1_data_base_1a5aa21ebd92d35672a0ea51540b40e8b0" prot="private" static="no" mutable="no">
+        <type>StringBuilder</type>
+        <definition>StringBuilder Tripi.data.DataBase.query</definition>
+        <argsstring></argsstring>
+        <name>query</name>
+        <initializer> new StringBuilder()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="19" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1data_1_1_data_base_1a2b4893e295730922a9fe00e82d3feb3d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Tripi.data.DataBase.connected</definition>
+        <argsstring></argsstring>
+        <name>connected</name>
+        <initializer> false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="21" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tripi_1_1data_1_1_data_base_1a8aef538a218ba7035be29d3e9b0d8015" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Tripi.data.DataBase.error</definition>
+        <argsstring></argsstring>
+        <name>error</name>
+        <initializer> &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="22" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_tripi_1_1data_1_1_data_base_1a17ca0d559e0fb1bde201e9e43a336081" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Tripi.data.DataBase.Connected</definition>
+        <argsstring></argsstring>
+        <name>Connected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="153" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_tripi_1_1data_1_1_data_base_1a868ca5d35c304b988dd72b5fb4e3e7df" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Tripi.data.DataBase.ErrorString</definition>
+        <argsstring></argsstring>
+        <name>ErrorString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="158" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tripi_1_1data_1_1_data_base_1a349f6dc672b596982cd3d8335b260427" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Tripi.data.DataBase.DataBase</definition>
+        <argsstring>()</argsstring>
+        <name>DataBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="27" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="26" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1data_1_1_data_base_1ac71158174e46b42b5cc7e2229364ed8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Tripi.data.DataBase.closeDataBase</definition>
+        <argsstring>()</argsstring>
+        <name>closeDataBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="46" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="45" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tripi_1_1data_1_1_data_base_1a2dbe0afe086fd7d8edb7a45738a40a86" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void IDisposable.</type>
+        <definition>void IDisposable. Tripi.data.DataBase.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="52" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1data_1_1_data_base_1a7f69341c8de75b2a65e933d0b21e5134" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DataTable</type>
+        <definition>DataTable Tripi.data.DataBase.select</definition>
+        <argsstring>()</argsstring>
+        <name>select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="60" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="59" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1data_1_1_data_base_1a5db55b792440cf48ca9254981d872591" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Tripi.data.DataBase.insert</definition>
+        <argsstring>()</argsstring>
+        <name>insert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="83" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="82" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1data_1_1_data_base_1a16e2b49130fae72894e817b60aa5f802" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Tripi.data.DataBase.update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="104" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="103" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tripi_1_1data_1_1_data_base_1a8ddbec1306ddd8db6da6dfc8ee4e0713" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Tripi.data.DataBase.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="125" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="124" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" line="11" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/data/DataBase.cs" bodystart="10" bodyend="160"/>
+    <listofallmembers>
+      <member refid="class_tripi_1_1data_1_1_data_base_1ac71158174e46b42b5cc7e2229364ed8d" prot="public" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>closeDataBase</name></member>
+      <member refid="class_tripi_1_1data_1_1_data_base_1a17ca0d559e0fb1bde201e9e43a336081" prot="public" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>Connected</name></member>
+      <member refid="class_tripi_1_1data_1_1_data_base_1a2b4893e295730922a9fe00e82d3feb3d" prot="private" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>connected</name></member>
+      <member refid="class_tripi_1_1data_1_1_data_base_1a996c1707f86824c35561a182d818f628" prot="private" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>connString</name></member>
+      <member refid="class_tripi_1_1data_1_1_data_base_1a349f6dc672b596982cd3d8335b260427" prot="public" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>DataBase</name></member>
+      <member refid="class_tripi_1_1data_1_1_data_base_1a750b95925bf1d4518d29c737cc6b1ccd" prot="private" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>dbFileName</name></member>
+      <member refid="class_tripi_1_1data_1_1_data_base_1aa90f78006a08d7cf8d54ff7d6939999d" prot="private" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>dbFilePath</name></member>
+      <member refid="class_tripi_1_1data_1_1_data_base_1a8ddbec1306ddd8db6da6dfc8ee4e0713" prot="private" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>delete</name></member>
+      <member refid="class_tripi_1_1data_1_1_data_base_1a2dbe0afe086fd7d8edb7a45738a40a86" prot="private" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>Dispose</name></member>
+      <member refid="class_tripi_1_1data_1_1_data_base_1a8aef538a218ba7035be29d3e9b0d8015" prot="private" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>error</name></member>
+      <member refid="class_tripi_1_1data_1_1_data_base_1a868ca5d35c304b988dd72b5fb4e3e7df" prot="public" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>ErrorString</name></member>
+      <member refid="class_tripi_1_1data_1_1_data_base_1a5db55b792440cf48ca9254981d872591" prot="private" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>insert</name></member>
+      <member refid="class_tripi_1_1data_1_1_data_base_1a87ae6ee70a958db3f78d016aa9b39d74" prot="private" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>myConnection</name></member>
+      <member refid="class_tripi_1_1data_1_1_data_base_1a9535c155ecc35e1552a0d4e8dacf6834" prot="private" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>myDataTable</name></member>
+      <member refid="class_tripi_1_1data_1_1_data_base_1a8240672354f33e3921657faabc282606" prot="private" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>mySqlDataAdapter</name></member>
+      <member refid="class_tripi_1_1data_1_1_data_base_1a5aa21ebd92d35672a0ea51540b40e8b0" prot="private" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>query</name></member>
+      <member refid="class_tripi_1_1data_1_1_data_base_1a7f69341c8de75b2a65e933d0b21e5134" prot="private" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>select</name></member>
+      <member refid="class_tripi_1_1data_1_1_data_base_1a16e2b49130fae72894e817b60aa5f802" prot="private" virt="non-virtual"><scope>Tripi::data::DataBase</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

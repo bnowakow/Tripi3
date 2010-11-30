@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_channel" kind="interface" prot="public">
+    <compoundname>TripiWCF::ClientMockup::Proxy::ICrossDomainPolicyResponderChannel</compoundname>
+    <basecompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder</basecompoundref>
+    <basecompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder</basecompoundref>
+    <basecompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder</basecompoundref>
+    <basecompoundref refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder" prot="public" virt="non-virtual">TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="250">
+        <label>TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponderChannel</label>
+        <link refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_channel"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="251">
+        <label>TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder</label>
+        <link refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="252">
+        <label>TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponderChannel</label>
+        <link refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_channel"/>
+        <childnode refid="253" relation="public-inheritance">
+        </childnode>
+        <childnode refid="253" relation="public-inheritance">
+        </childnode>
+        <childnode refid="253" relation="public-inheritance">
+        </childnode>
+        <childnode refid="253" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="253">
+        <label>TripiWCF.ClientMockup.Proxy.ICrossDomainPolicyResponder</label>
+        <link refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" line="278" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Tripi/App_Code/ProxyTripiWCFService.cs" bodystart="277" bodyend="279"/>
+    <listofallmembers>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_1a1412f9531b7ccfe925d28915757b66df" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ICrossDomainPolicyResponderChannel</scope><name>GetFlashPolicy</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_1a1412f9531b7ccfe925d28915757b66df" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ICrossDomainPolicyResponderChannel</scope><name>GetFlashPolicy</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_1a1412f9531b7ccfe925d28915757b66df" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ICrossDomainPolicyResponderChannel</scope><name>GetFlashPolicy</name></member>
+      <member refid="interface_tripi_w_c_f_1_1_client_mockup_1_1_proxy_1_1_i_cross_domain_policy_responder_1a1412f9531b7ccfe925d28915757b66df" prot="public" virt="non-virtual"><scope>TripiWCF::ClientMockup::Proxy::ICrossDomainPolicyResponderChannel</scope><name>GetFlashPolicy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

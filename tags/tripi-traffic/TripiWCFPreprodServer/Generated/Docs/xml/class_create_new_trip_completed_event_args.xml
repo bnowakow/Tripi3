@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_create_new_trip_completed_event_args" kind="class" prot="public">
+    <compoundname>CreateNewTripCompletedEventArgs</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_create_new_trip_completed_event_args_1abadaa48d1bfa6cfef50ef08230bef416" prot="private" static="no" mutable="no">
+        <type>object[]</type>
+        <definition>object [] CreateNewTripCompletedEventArgs.results</definition>
+        <argsstring></argsstring>
+        <name>results</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="191" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_create_new_trip_completed_event_args_1ad5f7452fb442068607efb17ce4e94c9d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int CreateNewTripCompletedEventArgs::Result</definition>
+        <argsstring></argsstring>
+        <name>Result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="206" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_create_new_trip_completed_event_args_1abea0baa788b789c0715bd8e04a875a6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CreateNewTripCompletedEventArgs.CreateNewTripCompletedEventArgs</definition>
+        <argsstring>(object[] results, System.Exception exception, bool cancelled, object userState)</argsstring>
+        <name>CreateNewTripCompletedEventArgs</name>
+        <param>
+          <type>object[]</type>
+          <declname>results</declname>
+        </param>
+        <param>
+          <type>System.Exception</type>
+          <declname>exception</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cancelled</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>userState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="195" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="193" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_create_new_trip_completed_event_args_1abea0baa788b789c0715bd8e04a875a6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CreateNewTripCompletedEventArgs.CreateNewTripCompletedEventArgs</definition>
+        <argsstring>(object[] results, System.Exception exception, bool cancelled, object userState)</argsstring>
+        <name>CreateNewTripCompletedEventArgs</name>
+        <param>
+          <type>object[]</type>
+          <declname>results</declname>
+        </param>
+        <param>
+          <type>System.Exception</type>
+          <declname>exception</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cancelled</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>userState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" line="288" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiServiceClient.cs" bodystart="286" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="class_create_new_trip_completed_event_args_1abea0baa788b789c0715bd8e04a875a6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CreateNewTripCompletedEventArgs.CreateNewTripCompletedEventArgs</definition>
+        <argsstring>(object[] results, System.Exception exception, bool cancelled, object userState)</argsstring>
+        <name>CreateNewTripCompletedEventArgs</name>
+        <param>
+          <type>object[]</type>
+          <declname>results</declname>
+        </param>
+        <param>
+          <type>System.Exception</type>
+          <declname>exception</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cancelled</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>userState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" line="195" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/TripiWCFService.cs" bodystart="193" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_create_new_trip_completed_event_args_1abea0baa788b789c0715bd8e04a875a6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CreateNewTripCompletedEventArgs.CreateNewTripCompletedEventArgs</definition>
+        <argsstring>(object[] results, System.Exception exception, bool cancelled, object userState)</argsstring>
+        <name>CreateNewTripCompletedEventArgs</name>
+        <param>
+          <type>object[]</type>
+          <declname>results</declname>
+        </param>
+        <param>
+          <type>System.Exception</type>
+          <declname>exception</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cancelled</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>userState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" line="288" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForSilverlite/TripiServiceClient.cs" bodystart="286" bodyend="290"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="189" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="188" bodyend="207"/>
+    <listofallmembers>
+      <member refid="class_create_new_trip_completed_event_args_1abea0baa788b789c0715bd8e04a875a6a" prot="public" virt="non-virtual"><scope>CreateNewTripCompletedEventArgs</scope><name>CreateNewTripCompletedEventArgs</name></member>
+      <member refid="class_create_new_trip_completed_event_args_1abea0baa788b789c0715bd8e04a875a6a" prot="public" virt="non-virtual"><scope>CreateNewTripCompletedEventArgs</scope><name>CreateNewTripCompletedEventArgs</name></member>
+      <member refid="class_create_new_trip_completed_event_args_1abea0baa788b789c0715bd8e04a875a6a" prot="public" virt="non-virtual"><scope>CreateNewTripCompletedEventArgs</scope><name>CreateNewTripCompletedEventArgs</name></member>
+      <member refid="class_create_new_trip_completed_event_args_1abea0baa788b789c0715bd8e04a875a6a" prot="public" virt="non-virtual"><scope>CreateNewTripCompletedEventArgs</scope><name>CreateNewTripCompletedEventArgs</name></member>
+      <member refid="class_create_new_trip_completed_event_args_1ad5f7452fb442068607efb17ce4e94c9d" prot="public" virt="non-virtual"><scope>CreateNewTripCompletedEventArgs</scope><name>Result</name></member>
+      <member refid="class_create_new_trip_completed_event_args_1abadaa48d1bfa6cfef50ef08230bef416" prot="private" virt="non-virtual"><scope>CreateNewTripCompletedEventArgs</scope><name>results</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

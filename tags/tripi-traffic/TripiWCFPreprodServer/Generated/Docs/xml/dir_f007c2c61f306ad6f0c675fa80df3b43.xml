@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="dir_f007c2c61f306ad6f0c675fa80df3b43" kind="dir">
+    <compoundname>TripiWCFPreprodServer/Generated/ForMobile/</compoundname>
+    <innerfile refid="_tripi_w_c_f_preprod_server_2_generated_2_for_mobile_2_c_f_client_base_8cs">CFClientBase.cs</innerfile>
+    <innerfile refid="_tripi_w_c_f_preprod_server_2_generated_2_for_mobile_2_tripi_w_c_f_service_8cs">TripiWCFService.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/"/>
+  </compounddef>
+</doxygen>

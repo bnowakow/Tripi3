@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_trip" kind="class" prot="public">
+    <compoundname>Trip</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_trip_1a75b33280b764c46066e2801d002bec11" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Trip::idField</definition>
+        <argsstring></argsstring>
+        <name>idField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="133" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_trip_1a13e1fd889173fca49b9cce5febdd665e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Trip::idFieldSpecified</definition>
+        <argsstring></argsstring>
+        <name>idFieldSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="135" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_trip_1a8e8598de3ce45c8a1622228290f765f6" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Trip::tripDescriptionField</definition>
+        <argsstring></argsstring>
+        <name>tripDescriptionField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="137" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_trip_1af6742fa1f202f324f06968bce5ac2cff" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Trip::tripNameField</definition>
+        <argsstring></argsstring>
+        <name>tripNameField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="139" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_trip_1ac31b61652b0e869a12a657d7b3b43df5" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Trip::usernameField</definition>
+        <argsstring></argsstring>
+        <name>usernameField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="141" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_trip_1abe6972fc612a3749b72c1c12661cc8ad" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Trip::ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="155" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_trip_1a64ada2f526601cd1b34f6d771157f6aa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Trip::IDSpecified</definition>
+        <argsstring></argsstring>
+        <name>IDSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="169" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_trip_1aa475109330f8c1f06f1b923fdeb792d8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Trip::TripDescription</definition>
+        <argsstring></argsstring>
+        <name>TripDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="183" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_trip_1ab3178ccd1a3906add6132cd72668c11e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Trip::TripName</definition>
+        <argsstring></argsstring>
+        <name>TripName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="197" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_trip_1adb6f9c38b858cf4101e9325f08bbd4ec" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Trip::Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="211" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="131" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="130" bodyend="212"/>
+    <listofallmembers>
+      <member refid="class_trip_1abe6972fc612a3749b72c1c12661cc8ad" prot="public" virt="non-virtual"><scope>Trip</scope><name>ID</name></member>
+      <member refid="class_trip_1a75b33280b764c46066e2801d002bec11" prot="private" virt="non-virtual"><scope>Trip</scope><name>idField</name></member>
+      <member refid="class_trip_1a13e1fd889173fca49b9cce5febdd665e" prot="private" virt="non-virtual"><scope>Trip</scope><name>idFieldSpecified</name></member>
+      <member refid="class_trip_1a64ada2f526601cd1b34f6d771157f6aa" prot="public" virt="non-virtual"><scope>Trip</scope><name>IDSpecified</name></member>
+      <member refid="class_trip_1aa475109330f8c1f06f1b923fdeb792d8" prot="public" virt="non-virtual"><scope>Trip</scope><name>TripDescription</name></member>
+      <member refid="class_trip_1a8e8598de3ce45c8a1622228290f765f6" prot="private" virt="non-virtual"><scope>Trip</scope><name>tripDescriptionField</name></member>
+      <member refid="class_trip_1ab3178ccd1a3906add6132cd72668c11e" prot="public" virt="non-virtual"><scope>Trip</scope><name>TripName</name></member>
+      <member refid="class_trip_1af6742fa1f202f324f06968bce5ac2cff" prot="private" virt="non-virtual"><scope>Trip</scope><name>tripNameField</name></member>
+      <member refid="class_trip_1adb6f9c38b858cf4101e9325f08bbd4ec" prot="public" virt="non-virtual"><scope>Trip</scope><name>Username</name></member>
+      <member refid="class_trip_1ac31b61652b0e869a12a657d7b3b43df5" prot="private" virt="non-virtual"><scope>Trip</scope><name>usernameField</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

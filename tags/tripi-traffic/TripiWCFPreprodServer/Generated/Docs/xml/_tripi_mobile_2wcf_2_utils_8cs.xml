@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="_tripi_mobile_2wcf_2_utils_8cs" kind="file">
+    <compoundname>Utils.cs</compoundname>
+    <innerclass refid="class_tripi_1_1wcf_1_1_utils" prot="public">Tripi::wcf::Utils</innerclass>
+    <innernamespace refid="namespace_tripi_1_1wcf">Tripi::wcf</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">﻿using<sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>GPSMobile;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Tripi.wcf</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_g_p_s_mobile_1_1_utils" kindref="compound" tooltip="Summary description for Utils.">Utils</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>EXTENSION_METHODS</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_position_node" kindref="compound">PositionNode</ref><sp/>GetPositionNode(</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/><ref refid="class_g_p_s_mobile_1_1_gps_position" kindref="compound">GpsPosition</ref><sp/>position)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_position_node" kindref="compound">PositionNode</ref><sp/>node<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_position_node" kindref="compound">PositionNode</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node.<ref refid="class_position_node_1ae113cf45f336ffdca466b3b348542b6d" kindref="member">CreationTimeSpecified</ref><sp/>=<sp/>position.<ref refid="class_g_p_s_mobile_1_1_gps_position_1a54c9d8150b16e5b0020f137532c63210" kindref="member" tooltip="True if the Time property is valid, false if invalid.">TimeValid</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(position.<ref refid="class_g_p_s_mobile_1_1_gps_position_1a54c9d8150b16e5b0020f137532c63210" kindref="member" tooltip="True if the Time property is valid, false if invalid.">TimeValid</ref>)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node.<ref refid="class_position_node_1a25e70b5ac7e1562bee46c550b655aca3" kindref="member">CreationTime</ref><sp/>=<sp/>position.<ref refid="class_g_p_s_mobile_1_1_gps_position_1a53833ea1f1e4c4ad1c6946c26277a817" kindref="member" tooltip="UTC according to GPS clock.">Time</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node.<ref refid="class_position_node_1a524fda6032053ecfa81c8098358d14f8" kindref="member">LatitudeSpecified</ref><sp/>=<sp/>position.<ref refid="class_g_p_s_mobile_1_1_gps_position_1ab3d2aa57c9507dffc5c8a03b78fe34e0" kindref="member" tooltip="True if the Latitude property is valid, false if invalid.">LatitudeValid</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(position.<ref refid="class_g_p_s_mobile_1_1_gps_position_1ab3d2aa57c9507dffc5c8a03b78fe34e0" kindref="member" tooltip="True if the Latitude property is valid, false if invalid.">LatitudeValid</ref>)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node.<ref refid="class_position_node_1a9ba611f655423cc8bc154842217cf51f" kindref="member">Latitude</ref><sp/>=<sp/>position.<ref refid="class_g_p_s_mobile_1_1_gps_position_1a165e63838ebfe0e712c142f7a757dad6" kindref="member" tooltip="Latitude in decimal degrees. North is positive.">Latitude</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node.<ref refid="class_position_node_1a030f326d904a5d6f2047c0bb5f88e954" kindref="member">LongitudeSpecified</ref><sp/>=<sp/>position.<ref refid="class_g_p_s_mobile_1_1_gps_position_1ab6fb3a2e2b2a92c7c10de450ae1a76db" kindref="member" tooltip="True if the Longitude property is valid, false if invalid.">LongitudeValid</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(position.<ref refid="class_g_p_s_mobile_1_1_gps_position_1ab6fb3a2e2b2a92c7c10de450ae1a76db" kindref="member" tooltip="True if the Longitude property is valid, false if invalid.">LongitudeValid</ref>)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node.<ref refid="class_position_node_1adbdb2873251e38496507f5ff1fdd02ef" kindref="member">Longitude</ref><sp/>=<sp/>position.<ref refid="class_g_p_s_mobile_1_1_gps_position_1add38fa11bc9116c7b1fa2e071b967002" kindref="member" tooltip="Longitude in decimal degrees. East is positive.">Longitude</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node.<ref refid="class_position_node_1acc7b006dfe669c818c1bc037206b02d2" kindref="member">SpeedSpecified</ref><sp/>=<sp/>position.<ref refid="class_g_p_s_mobile_1_1_gps_position_1a2f8d5434c3526194ee0c1ebd42481f2b" kindref="member" tooltip="True if the Speed property is valid, false if invalid.">SpeedValid</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(position.<ref refid="class_g_p_s_mobile_1_1_gps_position_1a2f8d5434c3526194ee0c1ebd42481f2b" kindref="member" tooltip="True if the Speed property is valid, false if invalid.">SpeedValid</ref>)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node.<ref refid="class_position_node_1aca550e2dfc8a18a7af3e96dd0c1658e8" kindref="member">Speed</ref><sp/>=<sp/>position.<ref refid="class_g_p_s_mobile_1_1_gps_position_1aa6394677dc38656297fc26de38da88ee" kindref="member" tooltip="Speed in knots.">Speed</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>node;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight></codeline>
+<codeline lineno="40"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/Utils.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_http_post_channel" kind="interface" prot="public">
+    <compoundname>SilverlightShowcase::SampleWeatherService::GlobalWeatherHttpPostChannel</compoundname>
+    <basecompoundref refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_http_post" prot="public" virt="non-virtual">SilverlightShowcase.SampleWeatherService.GlobalWeatherHttpPost</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="182">
+        <label>SilverlightShowcase.SampleWeatherService.GlobalWeatherHttpPost</label>
+        <link refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_http_post"/>
+      </node>
+      <node id="181">
+        <label>SilverlightShowcase.SampleWeatherService.GlobalWeatherHttpPostChannel</label>
+        <link refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_http_post_channel"/>
+        <childnode refid="182" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="184">
+        <label>SilverlightShowcase.SampleWeatherService.GlobalWeatherHttpPost</label>
+        <link refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_http_post"/>
+      </node>
+      <node id="183">
+        <label>SilverlightShowcase.SampleWeatherService.GlobalWeatherHttpPostChannel</label>
+        <link refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_http_post_channel"/>
+        <childnode refid="184" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" line="879" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/SilverlightShowcase/Service References/SampleWeatherService/Reference.cs" bodystart="879" bodyend="880"/>
+    <listofallmembers>
+      <member refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_http_post_1a6ce45b4af5e1c97ce42c4b0b251ffb46" prot="public" virt="non-virtual"><scope>SilverlightShowcase::SampleWeatherService::GlobalWeatherHttpPostChannel</scope><name>BeginGetCitiesByCountry</name></member>
+      <member refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_http_post_1a416e459a467662e33c77afc517ea1c66" prot="public" virt="non-virtual"><scope>SilverlightShowcase::SampleWeatherService::GlobalWeatherHttpPostChannel</scope><name>BeginGetWeather</name></member>
+      <member refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_http_post_1afebabda008c6a27ef72be8549de8fc50" prot="public" virt="non-virtual"><scope>SilverlightShowcase::SampleWeatherService::GlobalWeatherHttpPostChannel</scope><name>EndGetCitiesByCountry</name></member>
+      <member refid="interface_silverlight_showcase_1_1_sample_weather_service_1_1_global_weather_http_post_1a45a8e43d6224ed63ba27332454914acd" prot="public" virt="non-virtual"><scope>SilverlightShowcase::SampleWeatherService::GlobalWeatherHttpPostChannel</scope><name>EndGetWeather</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

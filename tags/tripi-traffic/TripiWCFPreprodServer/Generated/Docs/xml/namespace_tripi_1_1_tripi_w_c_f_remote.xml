@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="namespace_tripi_1_1_tripi_w_c_f_remote" kind="namespace">
+    <compoundname>Tripi::TripiWCFRemote</compoundname>
+    <innerclass refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_tripi_silverlight_w_c_f_service" prot="public">Tripi::TripiWCFRemote::TripiSilverlightWCFService</innerclass>
+    <innerclass refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_trip" prot="public">Tripi::TripiWCFRemote::Trip</innerclass>
+    <innerclass refid="class_tripi_1_1_tripi_w_c_f_remote_1_1_position_node" prot="public">Tripi::TripiWCFRemote::PositionNode</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/Web References/TripiWCFRemote/Reference.cs" line="14"/>
+  </compounddef>
+</doxygen>

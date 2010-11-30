@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="class_get_trips_for_user_request" kind="class" prot="public">
+    <compoundname>GetTripsForUserRequest</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_get_trips_for_user_request_1a6083637c6a6bcfc687e13eca2eb462b1" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GetTripsForUserRequest::username</definition>
+        <argsstring></argsstring>
+        <name>username</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="470" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="470" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_get_trips_for_user_request_1ab0d802f89788bc6312ab54dec650ad1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetTripsForUserRequest.GetTripsForUserRequest</definition>
+        <argsstring>()</argsstring>
+        <name>GetTripsForUserRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="473" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="472" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_trips_for_user_request_1a9a34593305594dd377b641823d89df83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetTripsForUserRequest.GetTripsForUserRequest</definition>
+        <argsstring>(string username)</argsstring>
+        <name>GetTripsForUserRequest</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="477" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="476" bodyend="479"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_trips_for_user_request_1ab0d802f89788bc6312ab54dec650ad1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetTripsForUserRequest.GetTripsForUserRequest</definition>
+        <argsstring>()</argsstring>
+        <name>GetTripsForUserRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="473" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="472" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="class_get_trips_for_user_request_1a9a34593305594dd377b641823d89df83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GetTripsForUserRequest.GetTripsForUserRequest</definition>
+        <argsstring>(string username)</argsstring>
+        <name>GetTripsForUserRequest</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" line="477" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiWCFPreprodServer/Generated/ForMobile/TripiWCFService.cs" bodystart="476" bodyend="479"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" line="467" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/TripiMobile/wcf/TripiWCFService.cs" bodystart="466" bodyend="480"/>
+    <listofallmembers>
+      <member refid="class_get_trips_for_user_request_1ab0d802f89788bc6312ab54dec650ad1a" prot="public" virt="non-virtual"><scope>GetTripsForUserRequest</scope><name>GetTripsForUserRequest</name></member>
+      <member refid="class_get_trips_for_user_request_1a9a34593305594dd377b641823d89df83" prot="public" virt="non-virtual"><scope>GetTripsForUserRequest</scope><name>GetTripsForUserRequest</name></member>
+      <member refid="class_get_trips_for_user_request_1ab0d802f89788bc6312ab54dec650ad1a" prot="public" virt="non-virtual"><scope>GetTripsForUserRequest</scope><name>GetTripsForUserRequest</name></member>
+      <member refid="class_get_trips_for_user_request_1a9a34593305594dd377b641823d89df83" prot="public" virt="non-virtual"><scope>GetTripsForUserRequest</scope><name>GetTripsForUserRequest</name></member>
+      <member refid="class_get_trips_for_user_request_1a6083637c6a6bcfc687e13eca2eb462b1" prot="public" virt="non-virtual"><scope>GetTripsForUserRequest</scope><name>username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

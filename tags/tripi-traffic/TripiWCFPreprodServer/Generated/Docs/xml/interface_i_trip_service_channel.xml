@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.2">
+  <compounddef id="interface_i_trip_service_channel" kind="interface" prot="public">
+    <compoundname>ITripServiceChannel</compoundname>
+    <basecompoundref refid="interface_i_trip_service" prot="public" virt="non-virtual">ITripService</basecompoundref>
+    <basecompoundref refid="interface_i_trip_service" prot="public" virt="non-virtual">ITripService</basecompoundref>
+    <basecompoundref refid="interface_i_trip_service" prot="public" virt="non-virtual">ITripService</basecompoundref>
+    <basecompoundref refid="interface_i_trip_service" prot="public" virt="non-virtual">ITripService</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="291">
+        <label>ITripService</label>
+        <link refid="interface_i_trip_service"/>
+      </node>
+      <node id="290">
+        <label>ITripServiceChannel</label>
+        <link refid="interface_i_trip_service_channel"/>
+        <childnode refid="291" relation="public-inheritance">
+        </childnode>
+        <childnode refid="291" relation="public-inheritance">
+        </childnode>
+        <childnode refid="291" relation="public-inheritance">
+        </childnode>
+        <childnode refid="291" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="293">
+        <label>ITripService</label>
+        <link refid="interface_i_trip_service"/>
+      </node>
+      <node id="292">
+        <label>ITripServiceChannel</label>
+        <link refid="interface_i_trip_service_channel"/>
+        <childnode refid="293" relation="public-inheritance">
+        </childnode>
+        <childnode refid="293" relation="public-inheritance">
+        </childnode>
+        <childnode refid="293" relation="public-inheritance">
+        </childnode>
+        <childnode refid="293" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" line="183" bodyfile="C:/Documents and Settings/Administrator/Moje dokumenty/Imagine Cup/Tripi_rev98/Install/TripiWCFService.cs" bodystart="182" bodyend="184"/>
+    <listofallmembers>
+      <member refid="interface_i_trip_service_1a989bf5b377fd78dfd00917c9512eabec" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>AddManyPositionNodes</name></member>
+      <member refid="interface_i_trip_service_1a989bf5b377fd78dfd00917c9512eabec" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>AddManyPositionNodes</name></member>
+      <member refid="interface_i_trip_service_1a1e18a8d9d2427b9794090e666bb549b2" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>AddPositionNode</name></member>
+      <member refid="interface_i_trip_service_1a1e18a8d9d2427b9794090e666bb549b2" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>AddPositionNode</name></member>
+      <member refid="interface_i_trip_service_1ab2930b15213c89efc21d149687c5a041" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginAddManyPositionNodes</name></member>
+      <member refid="interface_i_trip_service_1ab2930b15213c89efc21d149687c5a041" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginAddManyPositionNodes</name></member>
+      <member refid="interface_i_trip_service_1a740f261ae2d3cdb5d57473f05d7403da" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginAddPositionNode</name></member>
+      <member refid="interface_i_trip_service_1a740f261ae2d3cdb5d57473f05d7403da" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginAddPositionNode</name></member>
+      <member refid="interface_i_trip_service_1a740f261ae2d3cdb5d57473f05d7403da" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginAddPositionNode</name></member>
+      <member refid="interface_i_trip_service_1a740f261ae2d3cdb5d57473f05d7403da" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginAddPositionNode</name></member>
+      <member refid="interface_i_trip_service_1accdd4e0d4a074528f564f8966d309fe2" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginCreateNewTrip</name></member>
+      <member refid="interface_i_trip_service_1ae3fabcd67ada0535675545b896783a1d" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginCreateNewTrip</name></member>
+      <member refid="interface_i_trip_service_1accdd4e0d4a074528f564f8966d309fe2" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginCreateNewTrip</name></member>
+      <member refid="interface_i_trip_service_1ae3fabcd67ada0535675545b896783a1d" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginCreateNewTrip</name></member>
+      <member refid="interface_i_trip_service_1ab525f5aa33b4435b09cc95e931f2a31d" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginGetAllTrips</name></member>
+      <member refid="interface_i_trip_service_1ab525f5aa33b4435b09cc95e931f2a31d" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginGetAllTrips</name></member>
+      <member refid="interface_i_trip_service_1af59f015a6ee2bcdae06759d153a0f87d" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginGetPositionNodesForTrip</name></member>
+      <member refid="interface_i_trip_service_1af59f015a6ee2bcdae06759d153a0f87d" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginGetPositionNodesForTrip</name></member>
+      <member refid="interface_i_trip_service_1af59f015a6ee2bcdae06759d153a0f87d" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginGetPositionNodesForTrip</name></member>
+      <member refid="interface_i_trip_service_1af59f015a6ee2bcdae06759d153a0f87d" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginGetPositionNodesForTrip</name></member>
+      <member refid="interface_i_trip_service_1abdab35d0a03c32a7fcdb9b7e21840466" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginGetTripsForUser</name></member>
+      <member refid="interface_i_trip_service_1abdab35d0a03c32a7fcdb9b7e21840466" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginGetTripsForUser</name></member>
+      <member refid="interface_i_trip_service_1abdab35d0a03c32a7fcdb9b7e21840466" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginGetTripsForUser</name></member>
+      <member refid="interface_i_trip_service_1abdab35d0a03c32a7fcdb9b7e21840466" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginGetTripsForUser</name></member>
+      <member refid="interface_i_trip_service_1a3cfbf7045ee856c9e0d1753f992cb53f" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginLoginUser</name></member>
+      <member refid="interface_i_trip_service_1a3cfbf7045ee856c9e0d1753f992cb53f" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginLoginUser</name></member>
+      <member refid="interface_i_trip_service_1a25bc5f482b3f730ed3dd65962ca45e56" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginUpdatePositionNodeDescription</name></member>
+      <member refid="interface_i_trip_service_1a25bc5f482b3f730ed3dd65962ca45e56" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginUpdatePositionNodeDescription</name></member>
+      <member refid="interface_i_trip_service_1a92fb1d528f49e637e6a404ec7067451d" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginUpdateTripDescription</name></member>
+      <member refid="interface_i_trip_service_1a92fb1d528f49e637e6a404ec7067451d" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>BeginUpdateTripDescription</name></member>
+      <member refid="interface_i_trip_service_1a6100ef3e23a8398c61e56ab12019bf29" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>CreateNewTrip</name></member>
+      <member refid="interface_i_trip_service_1a6100ef3e23a8398c61e56ab12019bf29" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>CreateNewTrip</name></member>
+      <member refid="interface_i_trip_service_1a57e8dd6c318566368660f4ec1d80c06e" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndAddManyPositionNodes</name></member>
+      <member refid="interface_i_trip_service_1a57e8dd6c318566368660f4ec1d80c06e" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndAddManyPositionNodes</name></member>
+      <member refid="interface_i_trip_service_1ac8238f88b8fd49bb1b9fb44dc1029c75" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndAddPositionNode</name></member>
+      <member refid="interface_i_trip_service_1a5f76b4a7687512857c9de09ae480d534" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndAddPositionNode</name></member>
+      <member refid="interface_i_trip_service_1ac8238f88b8fd49bb1b9fb44dc1029c75" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndAddPositionNode</name></member>
+      <member refid="interface_i_trip_service_1a5f76b4a7687512857c9de09ae480d534" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndAddPositionNode</name></member>
+      <member refid="interface_i_trip_service_1a4ab63e3c4e872d664327bb05567a8f00" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndCreateNewTrip</name></member>
+      <member refid="interface_i_trip_service_1a4ab63e3c4e872d664327bb05567a8f00" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndCreateNewTrip</name></member>
+      <member refid="interface_i_trip_service_1a4ab63e3c4e872d664327bb05567a8f00" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndCreateNewTrip</name></member>
+      <member refid="interface_i_trip_service_1a4ab63e3c4e872d664327bb05567a8f00" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndCreateNewTrip</name></member>
+      <member refid="interface_i_trip_service_1a9d8cd1ccbde0f4a84bf990c2287ab336" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndGetAllTrips</name></member>
+      <member refid="interface_i_trip_service_1a9d8cd1ccbde0f4a84bf990c2287ab336" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndGetAllTrips</name></member>
+      <member refid="interface_i_trip_service_1a6f522a89afc016164069f8c983d6b637" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndGetPositionNodesForTrip</name></member>
+      <member refid="interface_i_trip_service_1a6f522a89afc016164069f8c983d6b637" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndGetPositionNodesForTrip</name></member>
+      <member refid="interface_i_trip_service_1a6f522a89afc016164069f8c983d6b637" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndGetPositionNodesForTrip</name></member>
+      <member refid="interface_i_trip_service_1a6f522a89afc016164069f8c983d6b637" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndGetPositionNodesForTrip</name></member>
+      <member refid="interface_i_trip_service_1ad57b12311e0753b7f3b1c47f2da219eb" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndGetTripsForUser</name></member>
+      <member refid="interface_i_trip_service_1ad57b12311e0753b7f3b1c47f2da219eb" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndGetTripsForUser</name></member>
+      <member refid="interface_i_trip_service_1ad57b12311e0753b7f3b1c47f2da219eb" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndGetTripsForUser</name></member>
+      <member refid="interface_i_trip_service_1ad57b12311e0753b7f3b1c47f2da219eb" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndGetTripsForUser</name></member>
+      <member refid="interface_i_trip_service_1a21f809101de7e9dada87257f2a8c7e0c" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndLoginUser</name></member>
+      <member refid="interface_i_trip_service_1a21f809101de7e9dada87257f2a8c7e0c" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndLoginUser</name></member>
+      <member refid="interface_i_trip_service_1a56343a5afbaa09e01eb3c01eccc5eee7" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndUpdatePositionNodeDescription</name></member>
+      <member refid="interface_i_trip_service_1a56343a5afbaa09e01eb3c01eccc5eee7" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndUpdatePositionNodeDescription</name></member>
+      <member refid="interface_i_trip_service_1aeed5f3cb84fc59f5eb538acd6756a526" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndUpdateTripDescription</name></member>
+      <member refid="interface_i_trip_service_1aeed5f3cb84fc59f5eb538acd6756a526" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>EndUpdateTripDescription</name></member>
+      <member refid="interface_i_trip_service_1ac6c4304690c75b8403afc111748cb6c4" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>GetAllTrips</name></member>
+      <member refid="interface_i_trip_service_1ac6c4304690c75b8403afc111748cb6c4" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>GetAllTrips</name></member>
+      <member refid="interface_i_trip_service_1aa28312fa4e26d384fefa7456ac8d7c59" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>GetPositionNodesForTrip</name></member>
+      <member refid="interface_i_trip_service_1aa28312fa4e26d384fefa7456ac8d7c59" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>GetPositionNodesForTrip</name></member>
+      <member refid="interface_i_trip_service_1a395882f03013b68ff9c855b6e78cb791" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>GetTripsForUser</name></member>
+      <member refid="interface_i_trip_service_1a395882f03013b68ff9c855b6e78cb791" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>GetTripsForUser</name></member>
+      <member refid="interface_i_trip_service_1ae7dad8ff13217bc8d97f43db7375c4c2" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>LoginUser</name></member>
+      <member refid="interface_i_trip_service_1ae7dad8ff13217bc8d97f43db7375c4c2" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>LoginUser</name></member>
+      <member refid="interface_i_trip_service_1a040f8ed636dd2f3e4a4fa059cfc9eada" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>UpdatePositionNodeDescription</name></member>
+      <member refid="interface_i_trip_service_1a040f8ed636dd2f3e4a4fa059cfc9eada" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>UpdatePositionNodeDescription</name></member>
+      <member refid="interface_i_trip_service_1a06b0e6ffa6675f1d7767fa6ac3399eda" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>UpdateTripDescription</name></member>
+      <member refid="interface_i_trip_service_1a06b0e6ffa6675f1d7767fa6ac3399eda" prot="public" virt="non-virtual"><scope>ITripServiceChannel</scope><name>UpdateTripDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
