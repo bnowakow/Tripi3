@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="SilverlightShowcase.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:m="clr-namespace:Microsoft.Maps.MapControl;assembly=Microsoft.Maps.MapControl"
+    xmlns:data="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data"
+    xmlns:c="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+    >
+	<Grid x:Name="LayoutRoot" Background="Gray">
+
+		<Grid.RowDefinitions>
+			<RowDefinition Height="180" />
+			<RowDefinition Height="*" />
+		</Grid.RowDefinitions>
+
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="300" />
+			<ColumnDefinition Width="*" />
+		</Grid.ColumnDefinitions>
+
+		<StackPanel x:Name="DescriptionStack" Grid.Row="0" Grid.Column="1" Background="Gray">
+
+			<Border x:Name="TripDescription" MaxHeight="140"  VerticalAlignment="Top" HorizontalAlignment="Right" Background="White" Opacity="0.5" CornerRadius="5" Padding="5" Margin="5" >
+				<ScrollViewer x:Name="textScrollView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalScrollBarVisibility="Auto">
+					<TextBlock x:Name="TripDescriptionText" Width="Auto" TextWrapping="Wrap" />
+				</ScrollViewer>
+			</Border>
+
+			<TextBox x:Name="TripDescriptionTextEditor" IsReadOnly="False" TextWrapping="Wrap" Height="100" Visibility="Collapsed"></TextBox>
+
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+				<Button x:Name="TripDescriptionTextSaveButton" Padding="5" Visibility="Collapsed" >
+					<TextBlock>Save</TextBlock>
+				</Button>
+				<Button x:Name="TripDescriptionTextEditButton" Padding="5" Visibility="Collapsed" >
+					<TextBlock>Edit</TextBlock>
+				</Button>
+			</StackPanel>
+
+		</StackPanel>
+
+
+		<data:DataGrid x:Name="TripGrid" AutoGenerateColumns="False" IsReadOnly="True" Grid.Row="0" Grid.Column="0" Margin="5">
+			<data:DataGrid.Columns>
+				<data:DataGridTextColumn Header="Id" Binding="{Binding ID}" />
+				<data:DataGridTextColumn Header="Trip name" Binding="{Binding TripName}" />
+				<data:DataGridTextColumn Header="Author" Binding="{Binding Username}" />
+			</data:DataGrid.Columns>
+
+		</data:DataGrid>
+		<m:Map x:Name="Map" CredentialsProvider="AsYbfxsWZOLK1J1xU5a3R9Hp1t79IGbPWCrpP3S4MHETwW2bQS89YQSa8XgkP9aq" Margin="5" Grid.Row="1" Grid.ColumnSpan="2">
+			<m:Map.Mode>
+				<m:AerialMode Labels="True" FadingLabels="True" />
+			</m:Map.Mode>
+			<Border x:Name="Infobox" Width="100" MaxHeight="150" HorizontalAlignment="Right" Opacity="0.8" Visibility="Collapsed">
+				<StackPanel Orientation="Horizontal">
+
+					<ScrollViewer Background="White" Height="Auto" Width="80" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+						<TextBlock x:Name="InfoboxDescription" FontSize="10" Padding="5" TextWrapping="Wrap"  />
+					</ScrollViewer>
+					<Button Click="CloseInfobox_Click" Tag="Close" Margin="5" Background="Black" HorizontalAlignment="Right" VerticalAlignment="Top">
+						<TextBlock>X</TextBlock>
+					</Button>
+				</StackPanel>
+			</Border>
+			<m:MapLayer x:Name="PinLayer"></m:MapLayer>
+			<m:MapLayer x:Name="MapLayer"></m:MapLayer>
+		</m:Map>
+		<Border x:Name="MapStatus" VerticalAlignment="Top" HorizontalAlignment="Right" Background="White" Opacity="0.7" CornerRadius="5" Padding="10" Visibility="Collapsed" Margin="5" Grid.Row="1" Grid.ColumnSpan="2">
+			<TextBlock x:Name="MapStatusText" />
+		</Border>
+	</Grid>
+</UserControl>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="/Imports">
+      <xsd:import schemaLocation="http://localhost:1094/TripiSilverlightWCFService.svc?xsd=xsd0" />
+      <xsd:import schemaLocation="http://localhost:1094/TripiSilverlightWCFService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:1094/TripiSilverlightWCFService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/TripiWCF.Service" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="TripiSilverlightWCFService_CreateNewTrip_InputMessage">
+    <wsdl:part name="parameters" element="CreateNewTrip" />
+  </wsdl:message>
+  <wsdl:message name="TripiSilverlightWCFService_CreateNewTrip_OutputMessage">
+    <wsdl:part name="parameters" element="CreateNewTripResponse" />
+  </wsdl:message>
+  <wsdl:message name="TripiSilverlightWCFService_GetTripsForUser_InputMessage">
+    <wsdl:part name="parameters" element="GetTripsForUser" />
+  </wsdl:message>
+  <wsdl:message name="TripiSilverlightWCFService_GetTripsForUser_OutputMessage">
+    <wsdl:part name="parameters" element="GetTripsForUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="TripiSilverlightWCFService_GetPositionNodesForTrip_InputMessage">
+    <wsdl:part name="parameters" element="GetPositionNodesForTrip" />
+  </wsdl:message>
+  <wsdl:message name="TripiSilverlightWCFService_GetPositionNodesForTrip_OutputMessage">
+    <wsdl:part name="parameters" element="GetPositionNodesForTripResponse" />
+  </wsdl:message>
+  <wsdl:message name="TripiSilverlightWCFService_AddPositionNode_InputMessage">
+    <wsdl:part name="parameters" element="AddPositionNode" />
+  </wsdl:message>
+  <wsdl:message name="TripiSilverlightWCFService_AddPositionNode_OutputMessage">
+    <wsdl:part name="parameters" element="AddPositionNodeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="TripiSilverlightWCFService">
+    <wsdl:operation name="CreateNewTrip">
+      <wsdl:input wsaw:Action="urn:TripiSilverlightWCFService/CreateNewTrip" message="TripiSilverlightWCFService_CreateNewTrip_InputMessage" />
+      <wsdl:output wsaw:Action="urn:TripiSilverlightWCFService/CreateNewTripResponse" message="TripiSilverlightWCFService_CreateNewTrip_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTripsForUser">
+      <wsdl:input wsaw:Action="urn:TripiSilverlightWCFService/GetTripsForUser" message="TripiSilverlightWCFService_GetTripsForUser_InputMessage" />
+      <wsdl:output wsaw:Action="urn:TripiSilverlightWCFService/GetTripsForUserResponse" message="TripiSilverlightWCFService_GetTripsForUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPositionNodesForTrip">
+      <wsdl:input wsaw:Action="urn:TripiSilverlightWCFService/GetPositionNodesForTrip" message="TripiSilverlightWCFService_GetPositionNodesForTrip_InputMessage" />
+      <wsdl:output wsaw:Action="urn:TripiSilverlightWCFService/GetPositionNodesForTripResponse" message="TripiSilverlightWCFService_GetPositionNodesForTrip_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPositionNode">
+      <wsdl:input wsaw:Action="urn:TripiSilverlightWCFService/AddPositionNode" message="TripiSilverlightWCFService_AddPositionNode_InputMessage" />
+      <wsdl:output wsaw:Action="urn:TripiSilverlightWCFService/AddPositionNodeResponse" message="TripiSilverlightWCFService_AddPositionNode_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>
