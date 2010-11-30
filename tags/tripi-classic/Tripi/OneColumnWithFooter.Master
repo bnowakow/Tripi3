@@ -1,0 +1,157 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="OneColumnWithFooter.master.cs" Inherits="OneColumnWithFooter" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+
+Design by Free CSS Templatess
+
+http://www.freecsstemplates.org
+
+Released for free under a Creative Commons Attribution 2.5 License
+
+
+
+Name       : EarthlingTwo  
+
+Description: A two-column, fixed-width design with dark color scheme.
+
+Version    : 1.0
+
+Released   : 20090918
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head" runat="server">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>
+        <asp:ContentPlaceHolder ID="Title" runat="server">
+            Tripi
+        </asp:ContentPlaceHolder>
+    </title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    <style type="text/css" media="screen">
+        #content
+        {
+            width: auto;
+        }
+    </style>
+
+    <script type="text/javascript" src="Silverlight.js"></script>
+
+    <script type="text/javascript">
+        function onSilverlightError(sender, args) {
+            var appSource = "";
+            if (sender != null && sender != 0) {
+                appSource = sender.getHost().Source;
+            }
+
+            var errorType = args.ErrorType;
+            var iErrorCode = args.ErrorCode;
+
+            if (errorType == "ImageError" || errorType == "MediaError") {
+                return;
+            }
+
+            var errMsg = "Unhandled Error in Silverlight Application " + appSource + "\n";
+
+            errMsg += "Code: " + iErrorCode + "    \n";
+            errMsg += "Category: " + errorType + "       \n";
+            errMsg += "Message: " + args.ErrorMessage + "     \n";
+
+            if (errorType == "ParserError") {
+                errMsg += "File: " + args.xamlFile + "     \n";
+                errMsg += "Line: " + args.lineNumber + "     \n";
+                errMsg += "Position: " + args.charPosition + "     \n";
+            }
+            else if (errorType == "RuntimeError") {
+                if (args.lineNumber != 0) {
+                    errMsg += "Line: " + args.lineNumber + "     \n";
+                    errMsg += "Position: " + args.charPosition + "     \n";
+                }
+                errMsg += "MethodName: " + args.methodName + "     \n";
+            }
+
+            throw new Error(errMsg);
+        }
+    </script>
+
+</head>
+<body>
+    <form id="formBla" runat="server">
+    <div id="wrapper">
+        <div id="header">
+            <div id="logo">
+                <h1>
+                    <a href="#">Tripi</a></h1>
+                <p>
+                    &nbsp;</p>
+                <p>
+                    <asp:LoginView ID="LoginView" runat="server">
+                        <LoggedInTemplate>
+                            User:<asp:LoginName ID="LoginName" runat="server" />
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+                    <asp:LoginStatus ID="LoginStatus" runat="server" LoginText="Log in"
+                    LogoutText="Log out" LogoutAction="Redirect"
+                        LogoutPageUrl="~/Default.aspx" />
+                </p>
+            </div>
+        </div>
+        <!-- end #header -->
+        <div id="menu">
+            <ul>
+                <% if (Page.Request.Path.Contains("Default.aspx")) { %>
+                <li class="current_page_item">
+                <% } else { %>
+                <li>
+                <% } %>
+                <a href="Default.aspx">Home</a></li>
+                                
+                <% if (Page.Request.Path.Contains("Trips.aspx"))
+                   { %>
+                <li class="current_page_item">
+                <% } else { %>
+                <li>
+                <% } %>
+                <a href="Trips.aspx">Trips</a></li>
+                
+                <% if (Page.Request.Path.Contains("About.aspx"))
+                   { %>
+                <li class="current_page_item">
+                <% } else { %>
+                <li>
+                <% } %>
+                <a href="About.aspx">About</a></li>
+            </ul>
+        </div>
+        <!-- end #menu -->
+        <div id="page">
+            <div id="content" style="width: 100%;">
+                <asp:ContentPlaceHolder ID="Content" runat="server">
+                </asp:ContentPlaceHolder>
+                <div style="clear: both;">
+                    &nbsp;</div>
+            </div>
+            <!-- end #content -->
+            <div style="clear: both;">
+                &nbsp;</div>
+        </div>
+        <!-- end #page -->
+    </div>
+    <div id="footer-content">
+        <div class="column1">
+            <h2>
+                &nbsp;</h2>
+        </div>
+    </div>
+    <div id="footer">
+        <p>
+            (c) 2009 Sitename.com. Design by <a href="http://www.nodethirtythree.com">nodethirtythree</a>
+            and <a href="http://www.freecsstemplates.org">Free CSS Templates</a>.</p>
+    </div>
+    <!-- end #footer -->
+    </form>
+</body>
+</html>

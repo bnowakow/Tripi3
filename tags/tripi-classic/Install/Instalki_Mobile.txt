@@ -1,0 +1,6 @@
+Windows Mobile 6 Professional SDK 
+
+http://www.microsoft.com/downloads/details.aspx?familyid=06111A3A-A651-4745-88EF-3D48091A390B&displaylang=en
+
+
+<3 http://stackoverflow.com/questions/1312109/communicationexception-when-calling-a-wcf-from-silverlight
