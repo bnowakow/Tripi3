@@ -1,5 +1,0 @@
-C:\NoBackup\tripi-traffic\TrafficParser\bin\Debug\TrafficParser.exe
-C:\NoBackup\tripi-traffic\TrafficParser\bin\Debug\TrafficParser.pdb
-C:\NoBackup\tripi-traffic\TrafficParser\obj\Debug\ResolveAssemblyReference.cache
-C:\NoBackup\tripi-traffic\TrafficParser\obj\Debug\TrafficParser.exe
-C:\NoBackup\tripi-traffic\TrafficParser\obj\Debug\TrafficParser.pdb

@@ -26,28 +26,28 @@ namespace TrafficLibrary
         public DateTime Date
         {
             get { return date; }
-            private set { date = value; }
+            set { date = value; }
         }
 
         [DataMember]
         public double Latitude
         {
             get { return latitude; }
-            private set { latitude = value; }
+            set { latitude = value; }
         }
 
         [DataMember]
         public double Longitude
         {
             get { return longitude; }
-            private set { longitude = value; }
+            set { longitude = value; }
         }
 
         [DataMember]
         public double Speed
         {
             get { return speed; }
-            private set { speed = value; }
+            set { speed = value; }
         } 
     }
 }
