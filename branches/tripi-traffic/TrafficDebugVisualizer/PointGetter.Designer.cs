@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.groupBoxSettings = new System.Windows.Forms.GroupBox();
+            this.checkBoxShow = new System.Windows.Forms.CheckBox();
             this.buttonGetPoints = new System.Windows.Forms.Button();
             this.textBoxCommand = new System.Windows.Forms.TextBox();
             this.listBoxPoints = new System.Windows.Forms.ListBox();
             this.groupBoxPoints = new System.Windows.Forms.GroupBox();
-            this.checkBoxShow = new System.Windows.Forms.CheckBox();
             this.groupBoxSettings.SuspendLayout();
             this.groupBoxPoints.SuspendLayout();
             this.SuspendLayout();
@@ -50,6 +50,17 @@
             this.groupBoxSettings.TabIndex = 0;
             this.groupBoxSettings.TabStop = false;
             this.groupBoxSettings.Text = "groupBox1";
+            // 
+            // checkBoxShow
+            // 
+            this.checkBoxShow.AutoSize = true;
+            this.checkBoxShow.Location = new System.Drawing.Point(7, 47);
+            this.checkBoxShow.Name = "checkBoxShow";
+            this.checkBoxShow.Size = new System.Drawing.Size(145, 17);
+            this.checkBoxShow.TabIndex = 2;
+            this.checkBoxShow.Text = "Show this group of points";
+            this.checkBoxShow.UseVisualStyleBackColor = true;
+            this.checkBoxShow.CheckedChanged += new System.EventHandler(this.checkBoxShow_CheckedChanged);
             // 
             // buttonGetPoints
             // 
@@ -87,16 +98,6 @@
             this.groupBoxPoints.TabIndex = 1;
             this.groupBoxPoints.TabStop = false;
             this.groupBoxPoints.Text = "groupBox1";
-            // 
-            // checkBoxShow
-            // 
-            this.checkBoxShow.AutoSize = true;
-            this.checkBoxShow.Location = new System.Drawing.Point(7, 47);
-            this.checkBoxShow.Name = "checkBoxShow";
-            this.checkBoxShow.Size = new System.Drawing.Size(145, 17);
-            this.checkBoxShow.TabIndex = 2;
-            this.checkBoxShow.Text = "Show this group of points";
-            this.checkBoxShow.UseVisualStyleBackColor = true;
             // 
             // PointGetter
             // 

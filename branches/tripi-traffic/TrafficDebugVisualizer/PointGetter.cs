@@ -14,6 +14,8 @@ namespace TrafficDebugVisualizer
         public PointGetter()
         {
             InitializeComponent();
+
+            PointBuffer = new List<TrafficLibrary.EstimationPoint>();
         }
 
         public string GroupBoxTitle
@@ -43,15 +45,37 @@ namespace TrafficDebugVisualizer
             }
         }
 
+        public bool ShouldBeDrawn
+        {
+            get
+            {
+                return checkBoxShow.Checked;
+            }
+        }
+
         public Func<string, List<TrafficLibrary.EstimationPoint>> PointGetterMethod;
 
+        public List<TrafficLibrary.EstimationPoint> PointBuffer { get; private set; }
         private void buttonGetPoints_Click(object sender, EventArgs e)
         {
             if (PointGetterMethod != null)
             {
                 listBoxPoints.Items.Clear();
-                listBoxPoints.Items.AddRange(PointGetterMethod(Command).Cast<object>().ToArray());
+                PointBuffer = PointGetterMethod(Command);
+                listBoxPoints.Items.AddRange(PointBuffer.Cast<object>().ToArray());
             }
+        }
+
+        public event Action<List<TrafficLibrary.EstimationPoint>, bool> PointsWanted;
+
+        private void OnPointsWanted()
+        {
+            if (PointsWanted != null) PointsWanted(PointBuffer, checkBoxShow.Checked);
+        }
+
+        private void checkBoxShow_CheckedChanged(object sender, EventArgs e)
+        {
+            OnPointsWanted();
         }
     }
 }
