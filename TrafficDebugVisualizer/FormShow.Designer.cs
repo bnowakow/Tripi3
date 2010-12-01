@@ -88,7 +88,9 @@
             // 
             // pointGetterRaw
             // 
+            this.pointGetterRaw.Command = "";
             this.pointGetterRaw.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pointGetterRaw.GroupBoxTitle = "groupBox1";
             this.pointGetterRaw.Location = new System.Drawing.Point(0, 0);
             this.pointGetterRaw.Name = "pointGetterRaw";
             this.pointGetterRaw.Size = new System.Drawing.Size(451, 346);
@@ -96,7 +98,9 @@
             // 
             // pointGetterEstimated
             // 
+            this.pointGetterEstimated.Command = "";
             this.pointGetterEstimated.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pointGetterEstimated.GroupBoxTitle = "groupBox1";
             this.pointGetterEstimated.Location = new System.Drawing.Point(0, 0);
             this.pointGetterEstimated.Name = "pointGetterEstimated";
             this.pointGetterEstimated.Size = new System.Drawing.Size(451, 321);
@@ -111,6 +115,7 @@
             this.Name = "FormShow";
             this.Text = "Debug preview";
             this.Load += new System.EventHandler(this.FormShow_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.FormShow_Paint);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             this.splitContainer1.ResumeLayout(false);

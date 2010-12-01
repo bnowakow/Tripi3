@@ -48,6 +48,11 @@ namespace TrafficLibrary
         {
             get { return speed; }
             set { speed = value; }
-        } 
+        }
+
+        public override string ToString()
+        {
+            return "({0};{1}) {2} km/h".F(latitude, longitude, speed);
+        }
     }
 }
