@@ -48,5 +48,10 @@ namespace TrafficLibrary
         {
             return System.IO.File.ReadAllText(filename).Split('|').Select(entry => new RawPoint(entry)).ToList();
         }
+
+        internal double GetDistanceFromPoint(double longitude, double latitude)
+        {
+            return Math.Sqrt(Math.Pow(longitude - this.longitude, 2) + Math.Pow(latitude - this.latitude, 2));
+        }
     }
 }
