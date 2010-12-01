@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficParser", "TrafficPar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficLibraryTest", "TrafficLibraryTest\TrafficLibraryTest.csproj", "{334906FF-0403-4A22-9A6A-838FD6A3D6EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficDebugVisualizer", "TrafficDebugVisualizer\TrafficDebugVisualizer.csproj", "{6B882F2D-2553-4838-B7DB-3652A2F80562}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,10 @@ Global
 		{334906FF-0403-4A22-9A6A-838FD6A3D6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{334906FF-0403-4A22-9A6A-838FD6A3D6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{334906FF-0403-4A22-9A6A-838FD6A3D6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B882F2D-2553-4838-B7DB-3652A2F80562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B882F2D-2553-4838-B7DB-3652A2F80562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B882F2D-2553-4838-B7DB-3652A2F80562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B882F2D-2553-4838-B7DB-3652A2F80562}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
