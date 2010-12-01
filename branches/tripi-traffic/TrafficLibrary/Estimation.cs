@@ -23,7 +23,8 @@ namespace TrafficLibrary
 
         private List<RawPoint> LoadRawPoints()
         {
-            return new List<RawPoint>();
+            //return new List<RawPoint>();
+            return StaticUtils.Deserialize<List<RawPoint>>("001.xml");
         }
     }
 }
