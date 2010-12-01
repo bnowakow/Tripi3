@@ -99,5 +99,12 @@ namespace TrafficLibrary
             xs.Serialize(tw, obj);
             tw.Close();
         }
+
+        public static bool CheckTimeDifference(this DateTime firstDate, DateTime secondDate, int timeSpan)
+        {
+            TimeSpan time1 = firstDate.TimeOfDay;
+            TimeSpan time2 = secondDate.TimeOfDay;
+            return Math.Abs((time1 - time2).Minutes) <= timeSpan;
+        }
     }
 }

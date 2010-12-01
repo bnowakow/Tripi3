@@ -9,22 +9,24 @@ namespace TrafficLibrary
     {
         private readonly double distanceTreshold = 0.0001;
         private EstimationStrategy strategy = null;
+        private List<RawPoint> rawPoints = null;
 
-        public Estimation(EstimationStrategy strategy)
+        public Estimation(EstimationStrategy strategy, string pointFileName) : this(strategy, LoadRawPoints(pointFileName)) { }
+
+        public Estimation(EstimationStrategy strategy, List<RawPoint> rawPoints)
         {
             this.strategy = strategy;
+            this.rawPoints = rawPoints;
         }
 
         public EstimationPoint CalculateEstimationPoint(double latitude, double longitude, DateTime date)
         {
-            List<RawPoint> rawPoints = LoadRawPoints();
-            EstimationPoint result = strategy.RunEstimation(latitude, longitude, date, rawPoints);
-            return result;
+            return strategy.RunEstimation(latitude, longitude, date, rawPoints);
         }
 
-        private List<RawPoint> LoadRawPoints()
+        private static List<RawPoint> LoadRawPoints(String fileName)
         {
-            return StaticUtils.Deserialize<List<RawPoint>>("001.xml");
+            return StaticUtils.Deserialize<List<RawPoint>>(fileName);
         }
     }
 }
