@@ -5,44 +5,14 @@ using System.Text;
 
 namespace TrafficLibrary
 {
-    public class RawPoint
+    public class RawPoint : EstimationPoint
     {
-        private DateTime date;
-        private double latitude;
-        private double longitude;
-        private double speed;
-        private String id; 
+        protected String id; 
 
-        public RawPoint(DateTime date, double latitude, double longitude, double speed)
+        public RawPoint(String id, DateTime date, double latitude, double longitude, double speed) 
+            : base(date, latitude, longitude, speed)
         {
-            this.date = date;
-            this.latitude = latitude;
-            this.longitude = longitude;
-            this.speed = speed;
-        }
-
-        public DateTime Date
-        {
-            get { return date; }
-            private set { date = value; }
-        }
-
-        public double Latitude
-        {
-            get { return latitude; }
-            private set { latitude = value; }
-        }
-
-        public double Longitude
-        {
-            get { return longitude; }
-            private set { longitude = value; }
-        }
-
-        public double Speed
-        {
-            get { return speed; }
-            private set { speed = value; }
+            this.id = id;
         }
 
         public String Id
