@@ -34,7 +34,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tripi", "Tripi\", "{6D72C5C
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "50333"
+		VWDPort = "51425"
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficLibrary", "TrafficLibrary\TrafficLibrary.csproj", "{34723F3D-FA80-4E80-BBB6-C2367C301042}"
