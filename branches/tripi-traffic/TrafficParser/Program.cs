@@ -5,6 +5,8 @@ using System.Text;
 
 using System.IO;
 
+using TrafficLibrary;
+
 namespace TrafficParser
 {
     class Program
@@ -15,7 +17,12 @@ namespace TrafficParser
             string folder = Console.ReadLine();
             if (folder.Length == 0) folder = @"..\..\..\Install\iPhone Gps data\raw";
 
-            foreach (string filename in Directory.GetFiles(folder, "*.txt")) Console.WriteLine(filename);
+            foreach (string filename in Directory.GetFiles(folder, "*.txt"))
+            {
+                Console.WriteLine(filename);
+                RawPoint[] rp = RawPoint.Parsed(filename);
+                rp.Serialize(Path.GetFileName(filename).Replace(".txt", ".xml"));
+            }
             Console.ReadLine();
         }
     }
