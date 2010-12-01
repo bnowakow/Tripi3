@@ -13,17 +13,16 @@ namespace TrafficLibrary
         {
             List<RawPoint> rawPoints = LoadRawPoints();
 
-            var pointsSortedByDistance =
-                from point in rawPoints
-                orderby point.GetDistanceFromPoint(longitude, latitude)
-                select point;
+            var pointsSortedByDistance = rawPoints.OrderBy(point => point.GetDistanceFromPoint(longitude, latitude)).Take(5);
+            double avgSpeed = pointsSortedByDistance.Average(point => point.Speed);
+            double avgLatitude = pointsSortedByDistance.Average(point => point.Latitude);
+            double avgLongitude = pointsSortedByDistance.Average(point => point.Longitude);
 
-            return pointsSortedByDistance.First() as EstimationPoint;
+            return new EstimationPoint(date, avgLatitude, avgLongitude, avgSpeed);
         }
 
         private List<RawPoint> LoadRawPoints()
         {
-            //return new List<RawPoint>();
             return StaticUtils.Deserialize<List<RawPoint>>("001.xml");
         }
     }

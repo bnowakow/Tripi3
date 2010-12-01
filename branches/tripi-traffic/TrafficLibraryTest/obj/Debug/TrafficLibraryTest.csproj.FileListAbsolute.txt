@@ -1,0 +1,7 @@
+D:\Users\Asia\Documents\Studia\Wybrane Aplikacje Systemów Geoinformatycznych\NewTripi\TrafficLibraryTest\bin\Debug\TrafficLibraryTest.exe
+D:\Users\Asia\Documents\Studia\Wybrane Aplikacje Systemów Geoinformatycznych\NewTripi\TrafficLibraryTest\bin\Debug\TrafficLibraryTest.pdb
+D:\Users\Asia\Documents\Studia\Wybrane Aplikacje Systemów Geoinformatycznych\NewTripi\TrafficLibraryTest\bin\Debug\TrafficLibrary.dll
+D:\Users\Asia\Documents\Studia\Wybrane Aplikacje Systemów Geoinformatycznych\NewTripi\TrafficLibraryTest\bin\Debug\TrafficLibrary.pdb
+D:\Users\Asia\Documents\Studia\Wybrane Aplikacje Systemów Geoinformatycznych\NewTripi\TrafficLibraryTest\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\Asia\Documents\Studia\Wybrane Aplikacje Systemów Geoinformatycznych\NewTripi\TrafficLibraryTest\obj\Debug\TrafficLibraryTest.exe
+D:\Users\Asia\Documents\Studia\Wybrane Aplikacje Systemów Geoinformatycznych\NewTripi\TrafficLibraryTest\obj\Debug\TrafficLibraryTest.pdb
