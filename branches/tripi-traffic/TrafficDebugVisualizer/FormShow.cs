@@ -20,7 +20,7 @@ namespace TrafficDebugVisualizer
             groupBoxPiniatas.Paint += new PaintEventHandler(groupBoxPiniatas_Paint);
         }
 
-        private Pen WhitePen = new Pen(Color.White, 2);
+        private Pen WhitePen = new Pen(Color.White, 3);
         void groupBoxPiniatas_Paint(object sender, PaintEventArgs e)
         {
             if (pointGetterRaw.ShouldBeDrawn) DrawPoints(e.Graphics, pointGetterRaw.PointBuffer, Pens.Black);
@@ -49,8 +49,8 @@ namespace TrafficDebugVisualizer
         {
             foreach (EstimationPoint ep in points)
             {
-                canvas.FillEllipse(new SolidBrush(Color.FromArgb(Clr(ep.Speed), 0, 255 - Clr(ep.Speed))), ConvertLat(ep.Latitude), ConvertLon(ep.Longitude), 10, 10);
-                canvas.DrawEllipse(circle, ConvertLat(ep.Latitude), ConvertLon(ep.Longitude), 10, 10);
+                canvas.FillEllipse(new SolidBrush(Color.FromArgb(Clr(ep.Speed), 0, 255 - Clr(ep.Speed))), ConvertLat(ep.Latitude), ConvertLon(ep.Longitude), 16, 16);
+                canvas.DrawEllipse(circle, ConvertLat(ep.Latitude), ConvertLon(ep.Longitude), 16, 16);
             }
         }
 

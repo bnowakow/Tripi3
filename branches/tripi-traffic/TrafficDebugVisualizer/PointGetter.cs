@@ -63,6 +63,8 @@ namespace TrafficDebugVisualizer
                 listBoxPoints.Items.Clear();
                 PointBuffer = PointGetterMethod(Command);
                 listBoxPoints.Items.AddRange(PointBuffer.Cast<object>().ToArray());
+
+                OnPointsWanted();
             }
         }
 
