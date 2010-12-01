@@ -115,7 +115,6 @@
             this.Name = "FormShow";
             this.Text = "Debug preview";
             this.Load += new System.EventHandler(this.FormShow_Load);
-            this.Paint += new System.Windows.Forms.PaintEventHandler(this.FormShow_Paint);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             this.splitContainer1.ResumeLayout(false);

@@ -13,9 +13,8 @@ namespace TrafficDebugVisualizer
     {
         public PointGetter()
         {
-            InitializeComponent();
-
             PointBuffer = new List<TrafficLibrary.EstimationPoint>();
+            InitializeComponent();
         }
 
         public string GroupBoxTitle

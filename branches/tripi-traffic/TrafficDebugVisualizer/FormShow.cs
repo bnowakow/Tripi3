@@ -13,18 +13,12 @@ namespace TrafficDebugVisualizer
 {
     public partial class FormShow : Form
     {
+        #region Constructor, initialization, loading
         public FormShow()
         {
             InitializeComponent();
 
             groupBoxPiniatas.Paint += new PaintEventHandler(groupBoxPiniatas_Paint);
-        }
-
-        private Pen WhitePen = new Pen(Color.White, 3);
-        void groupBoxPiniatas_Paint(object sender, PaintEventArgs e)
-        {
-            if (pointGetterRaw.ShouldBeDrawn) DrawPoints(e.Graphics, pointGetterRaw.PointBuffer, Pens.Black);
-            if (pointGetterEstimated.ShouldBeDrawn) DrawPoints(e.Graphics, pointGetterEstimated.PointBuffer, WhitePen);
         }
 
         private void FormShow_Load(object sender, EventArgs e)
@@ -40,26 +34,6 @@ namespace TrafficDebugVisualizer
             pointGetterEstimated.PointsWanted += new Action<List<EstimationPoint>, bool>(pointGetterAny_PointsWanted);
         }
 
-        void pointGetterAny_PointsWanted(List<EstimationPoint> points, bool refresh)
-        {
-            groupBoxPiniatas.Invalidate();
-        }
-
-        void DrawPoints(Graphics canvas, List<EstimationPoint> points, Pen circle)
-        {
-            foreach (EstimationPoint ep in points)
-            {
-                canvas.FillEllipse(new SolidBrush(Color.FromArgb(Clr(ep.Speed), 0, 255 - Clr(ep.Speed))), ConvertLat(ep.Latitude), ConvertLon(ep.Longitude), 16, 16);
-                canvas.DrawEllipse(circle, ConvertLat(ep.Latitude), ConvertLon(ep.Longitude), 16, 16);
-            }
-        }
-
-        private int Clr(double speed)
-        {
-            int clr = 5 * (int)speed;
-            return clr > 255 ? 255 : clr;
-        }
-
         private List<EstimationPoint> GetRawPoints(string filename)
         {
             return StaticUtils.Deserialize<List<RawPoint>>(filename).Cast<EstimationPoint>().ToList();
@@ -72,16 +46,37 @@ namespace TrafficDebugVisualizer
 
             return new List<EstimationPoint>() { ester.CalculateEstimationPoint(double.Parse(splat[0]), double.Parse(splat[1]), DateTime.Parse(splat[2])) };
         }
+        #endregion
 
-        private void FormShow_Paint(object sender, PaintEventArgs e)
+        #region Redrawing (hooks and stuff)
+        private Pen WhitePen = new Pen(Color.White, 3);
+        void groupBoxPiniatas_Paint(object sender, PaintEventArgs e)
         {
-            /*
-            if (pointGetterRaw.ShouldBeDrawn) DrawPoints(e.Graphics, pointGetterRaw.PointBuffer);
-            if (pointGetterEstimated.ShouldBeDrawn) DrawPoints(e.Graphics, pointGetterEstimated.PointBuffer);
+            if (pointGetterRaw.ShouldBeDrawn) DrawPoints(e.Graphics, pointGetterRaw.PointBuffer, Pens.Black);
+            if (pointGetterEstimated.ShouldBeDrawn) DrawPoints(e.Graphics, pointGetterEstimated.PointBuffer, WhitePen);
+        }
 
-            Graphics pg = groupBoxPiniatas.CreateGraphics();
-            if (pointGetterRaw.ShouldBeDrawn) DrawPoints(pg, pointGetterRaw.PointBuffer);
-            if (pointGetterEstimated.ShouldBeDrawn) DrawPoints(pg, pointGetterEstimated.PointBuffer);*/
+        void DrawPoints(Graphics canvas, List<EstimationPoint> points, Pen circle)
+        {
+            foreach (EstimationPoint ep in points)
+            {
+                canvas.FillEllipse(new SolidBrush(Color.FromArgb(Clr(ep.Speed), 0, 255 - Clr(ep.Speed))), ConvertLat(ep.Latitude), ConvertLon(ep.Longitude), 16, 16);
+                if (circle != null) canvas.DrawEllipse(circle, ConvertLat(ep.Latitude), ConvertLon(ep.Longitude), 16, 16);
+                //canvas.DrawEllipse(Pens.Black, ConvertLat(ep.Latitude), ConvertLon(ep.Longitude), 16, 16);
+            }
+        }
+
+        void pointGetterAny_PointsWanted(List<EstimationPoint> points, bool refresh)
+        {
+            groupBoxPiniatas.Invalidate();
+        }
+        #endregion
+
+        #region Drawing - conversions
+        private int Clr(double speed)
+        {
+            int clr = 5 * (int)speed;
+            return clr > 255 ? 255 : clr;
         }
 
         private const float FakeScale = 6000;
@@ -94,5 +89,6 @@ namespace TrafficDebugVisualizer
         {
             return (float)((lon - 18.5) * FakeScale);
         }
+        #endregion
     }
 }
