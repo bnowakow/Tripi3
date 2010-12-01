@@ -44,9 +44,9 @@ namespace TrafficLibrary
             set { id = value; }
         }
 
-        public static RawPoint[] Parsed(string filename)
+        public static List<RawPoint> Parsed(string filename)
         {
-            return System.IO.File.ReadAllText(filename).Split('|').Select(entry => new RawPoint(entry)).ToArray();
+            return System.IO.File.ReadAllText(filename).Split('|').Select(entry => new RawPoint(entry)).ToList();
         }
     }
 }

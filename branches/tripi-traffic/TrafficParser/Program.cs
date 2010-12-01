@@ -20,7 +20,7 @@ namespace TrafficParser
             foreach (string filename in Directory.GetFiles(folder, "*.txt"))
             {
                 Console.WriteLine(filename);
-                RawPoint[] rp = RawPoint.Parsed(filename);
+                List<RawPoint> rp = RawPoint.Parsed(filename);
                 rp.Serialize(Path.GetFileName(filename).Replace(".txt", ".xml"));
             }
             Console.ReadLine();
