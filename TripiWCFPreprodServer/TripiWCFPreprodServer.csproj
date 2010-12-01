@@ -84,6 +84,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TrafficLibrary\TrafficLibrary.csproj">
+      <Project>{34723F3D-FA80-4E80-BBB6-C2367C301042}</Project>
+      <Name>TrafficLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TripiWCFService\TripiWCFService.csproj">
       <Project>{0DCE4B13-DA8C-471F-9974-3B97466424DA}</Project>
       <Name>TripiWCFService</Name>
