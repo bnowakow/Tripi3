@@ -53,6 +53,8 @@
   <ItemGroup>
     <Compile Include="Estimation.cs" />
     <Compile Include="EstimationPoint.cs" />
+    <Compile Include="EstimationStrategy.cs" />
+    <Compile Include="RadialEstimationStrategy.cs" />
     <Compile Include="RawPoint.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StaticUtils.cs" />
