@@ -1,5 +1,0 @@
-C:\NoBackup\tripi-traffic\TrafficLibrary\bin\Debug\TrafficLibrary.dll
-C:\NoBackup\tripi-traffic\TrafficLibrary\bin\Debug\TrafficLibrary.pdb
-C:\NoBackup\tripi-traffic\TrafficLibrary\obj\Debug\ResolveAssemblyReference.cache
-C:\NoBackup\tripi-traffic\TrafficLibrary\obj\Debug\TrafficLibrary.dll
-C:\NoBackup\tripi-traffic\TrafficLibrary\obj\Debug\TrafficLibrary.pdb
