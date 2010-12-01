@@ -13,6 +13,9 @@ namespace TrafficParser
     {
         static void Main(string[] args)
         {
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
+
             Console.WriteLine(@"Enter directory (<Enter> assumes ""..\..\..\Install\iPhone Gps data\raw"")");
             string folder = Console.ReadLine();
             if (folder.Length == 0) folder = @"..\..\..\Install\iPhone Gps data\raw";
