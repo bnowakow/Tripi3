@@ -23,6 +23,8 @@ namespace TrafficParser
                 List<RawPoint> rp = RawPoint.Parsed(filename);
                 rp.Serialize(Path.GetFileName(filename).Replace(".txt", ".xml"));
             }
+
+            Console.WriteLine("Press zany key 2 continue...");
             Console.ReadLine();
         }
     }
