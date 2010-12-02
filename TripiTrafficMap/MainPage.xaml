@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="TripiTrafficMap.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:m="clr-namespace:Microsoft.Maps.MapControl;assembly=Microsoft.Maps.MapControl"
+    xmlns:data="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data"
+    xmlns:c="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+    mc:Ignorable="d"
+    >
+    <Grid x:Name="LayoutRoot" Background="Gray">
+
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="100" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <StackPanel Background="Purple" Grid.Row="1" Grid.Column="0">
+
+            <TextBox Text="{Binding Path=ActualWidth, Mode=TwoWay, ElementName=Map}" />
+            <TextBox Text="{Binding Path=Width, Mode=TwoWay, ElementName=Map}" />
+            <TextBox Text="{Binding Path=ViewportSize.Width, Mode=TwoWay, ElementName=Map}" />
+        </StackPanel>
+
+        <m:Map x:Name="Map" CredentialsProvider="AsYbfxsWZOLK1J1xU5a3R9Hp1t79IGbPWCrpP3S4MHETwW2bQS89YQSa8XgkP9aq" Margin="5" Grid.Row="0" Grid.Column="0">
+        </m:Map>
+    </Grid>
+</UserControl>
