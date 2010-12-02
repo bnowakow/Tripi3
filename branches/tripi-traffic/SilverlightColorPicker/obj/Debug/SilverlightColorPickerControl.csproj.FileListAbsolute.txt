@@ -1,0 +1,9 @@
+C:\Users\bnowakow\Documents\Private\eti\Tripi-traffic\SilverlightColorPicker\Bin\Debug\ColorPicker.dll
+C:\Users\bnowakow\Documents\Private\eti\Tripi-traffic\SilverlightColorPicker\Bin\Debug\ColorPicker.pdb
+C:\Users\bnowakow\Documents\Private\eti\Tripi-traffic\SilverlightColorPicker\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bnowakow\Documents\Private\eti\Tripi-traffic\SilverlightColorPicker\obj\Debug\ColorPicker.g.cs
+C:\Users\bnowakow\Documents\Private\eti\Tripi-traffic\SilverlightColorPicker\obj\Debug\ColorPicker.g.resources
+C:\Users\bnowakow\Documents\Private\eti\Tripi-traffic\SilverlightColorPicker\obj\Debug\ColorPicker.dll
+C:\Users\bnowakow\Documents\Private\eti\Tripi-traffic\SilverlightColorPicker\obj\Debug\ColorPicker.pdb
+C:\Users\bnowakow\Documents\Private\eti\Tripi-traffic\SilverlightColorPicker\obj\Debug\ColorSlider.g.cs
+C:\Users\bnowakow\Documents\Private\eti\Tripi-traffic\SilverlightColorPicker\obj\Debug\VelocityColorPicker.g.cs
