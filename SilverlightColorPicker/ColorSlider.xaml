@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="ColorPicker.ColorSlider"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:selectable="clr-namespace:ColorPickerControl"
+    mc:Ignorable="d" d:DesignHeight="40">
+
+    <Canvas Grid.Row="0" x:Name="Slider" 			
+			Background="transparent" Canvas.Left="0">
+
+        <Rectangle
+				Fill="Transparent" 
+				Height="10" 
+                       
+				 Visibility="Visible" x:Name="clickSelect" Canvas.Top="3.75" Stroke="#FF190000" Width="{Binding ElementName=Slider, Path=ActualWidth}" MouseLeftButtonDown="ClickSelectedMouseDown" />
+
+       <Path Cursor="Hand" x:Name="SliderThumb" 
+				Width="8" Height="10" 
+				Fill="sc#1, 0.548430264, 0.5354195, 0.5354195"
+				Stretch="Fill" Stroke="#FF848484" 
+				Canvas.Left="0" Canvas.Top="3.75"
+				MouseLeftButtonUp="sliderThumb_MouseLeftButtonUp"
+				
+				MouseLeftButtonDown="sliderThumb_MouseLeftButtonDown"
+				Data="F1 M8.7462683,2.9997923 L16.75,10.249 16.75,19.5 C16.75,21.156855 15.406855,22.5 13.75,22.5 L3.5000002,22.5 C1.8431457,22.5 0.5,21.156855 0.5,19.5 L0.5,10.249 8.7462683,2.9997923 z" MouseMove="SliderThumb_MouseMove">
+            <Path.RenderTransform>
+                <RotateTransform Angle="180" CenterY="5" CenterX="5"/>
+            </Path.RenderTransform>
+        </Path>
+
+        <TextBlock x:Name="SliderValue" Width="154" Height="37" Canvas.Top="20" FontFamily="Arial" FontSize="12" Text="TextBlock" TextWrapping="Wrap" Canvas.Left="{Binding ElementName=SliderThumb, Path=Canvas.Left}" />
+
+    </Canvas>
+</UserControl>

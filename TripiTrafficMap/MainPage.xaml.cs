@@ -105,12 +105,17 @@ namespace TripiTrafficMap
                     mapPolyline.Locations.Add(prevLocation);
                     mapPolyline.Locations.Add(location);
                     Map.Children.Add(mapPolyline);
-                    //break;
                 }
                 prevLocation = location;
             }
             
             mapStartPositionAdjuster.SetMapCenterPointAndZoomLevel(pointList);
+        }
+
+        private void ColorPicker_ColorChanged(object sender, ColorPickerControl.ColorChangedEventArgs e)
+        {
+            changeLayout.Background = e.newColor;
+            TmpTextBox.Background = e.newColor;
         }
 
     }

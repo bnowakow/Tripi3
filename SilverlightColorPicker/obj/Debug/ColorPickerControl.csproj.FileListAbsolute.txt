@@ -1,0 +1,7 @@
+C:\Users\bnowakow\Documents\Private\eti\ColorPicker\ColorPicker\Bin\Debug\ColorPicker.dll
+C:\Users\bnowakow\Documents\Private\eti\ColorPicker\ColorPicker\Bin\Debug\ColorPicker.pdb
+C:\Users\bnowakow\Documents\Private\eti\ColorPicker\ColorPicker\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bnowakow\Documents\Private\eti\ColorPicker\ColorPicker\obj\Debug\ColorPicker.g.cs
+C:\Users\bnowakow\Documents\Private\eti\ColorPicker\ColorPicker\obj\Debug\ColorPicker.g.resources
+C:\Users\bnowakow\Documents\Private\eti\ColorPicker\ColorPicker\obj\Debug\ColorPicker.dll
+C:\Users\bnowakow\Documents\Private\eti\ColorPicker\ColorPicker\obj\Debug\ColorPicker.pdb

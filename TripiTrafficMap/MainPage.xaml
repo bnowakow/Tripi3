@@ -6,26 +6,31 @@
     xmlns:m="clr-namespace:Microsoft.Maps.MapControl;assembly=Microsoft.Maps.MapControl"
     xmlns:data="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data"
     xmlns:c="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+    xmlns:cp="clr-namespace:ColorPickerControl;assembly=ColorPicker"
     mc:Ignorable="d"
     >
     <Grid x:Name="LayoutRoot" Background="Gray">
 
         <Grid.RowDefinitions>
             <RowDefinition />
-            <RowDefinition Height="100" />
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
+            <ColumnDefinition Width="300"/>
         </Grid.ColumnDefinitions>
-        <StackPanel Background="Purple" Grid.Row="1" Grid.Column="0">
+        
 
-            <TextBox Text="{Binding Path=ActualWidth, Mode=TwoWay, ElementName=Map}" />
-            <TextBox Text="{Binding Path=Width, Mode=TwoWay, ElementName=Map}" />
-            <TextBox Text="{Binding Path=ViewportSize.Width, Mode=TwoWay, ElementName=Map}" />
-        </StackPanel>
-
-        <m:Map x:Name="Map" CredentialsProvider="AsYbfxsWZOLK1J1xU5a3R9Hp1t79IGbPWCrpP3S4MHETwW2bQS89YQSa8XgkP9aq" Margin="5" Grid.Row="0" Grid.Column="0">
+        <m:Map x:Name="Map" CredentialsProvider="AsYbfxsWZOLK1J1xU5a3R9Hp1t79IGbPWCrpP3S4MHETwW2bQS89YQSa8XgkP9aq" Margin="5" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
         </m:Map>
+        <StackPanel Width="250" Margin="0,5,5,100" Grid.Column="1" HorizontalAlignment="Right">
+            <StackPanel.Background>
+                <SolidColorBrush Color="Black" Opacity="0.5" />
+            </StackPanel.Background>
+            <cp:ColorPicker Name="ColorPicker" ColorChanged="ColorPicker_ColorChanged" />
+            <TextBox x:Name="TmpTextBox"  IsEnabled="False" Background="Red" />
+            <Button x:Name="changeLayout"  Background="Black" Foreground="Red" Content="Hello!" />
+            
+        </StackPanel>
     </Grid>
 </UserControl>
