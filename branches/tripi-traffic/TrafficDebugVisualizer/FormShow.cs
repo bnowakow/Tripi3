@@ -42,7 +42,7 @@ namespace TrafficDebugVisualizer
         private List<EstimationPoint> GetEstimatedPoints(string latLonTime)
         {
             string[] splat = latLonTime.Split(' ');
-            Estimation ester = new Estimation(new RadialEstimationStrategy());
+            Estimation ester = new Estimation(new RadialEstimationStrategy(), "001.xml");
 
             return new List<EstimationPoint>() { ester.CalculateEstimationPoint(double.Parse(splat[0]), double.Parse(splat[1]), DateTime.Parse(splat[2])) };
         }

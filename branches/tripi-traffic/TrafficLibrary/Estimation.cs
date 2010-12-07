@@ -7,7 +7,6 @@ namespace TrafficLibrary
 {
     public class Estimation
     {
-        private readonly double distanceTreshold = 0.0001;
         private EstimationStrategy strategy = null;
         private List<RawPoint> rawPoints = null;
 
