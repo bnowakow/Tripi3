@@ -11,6 +11,8 @@
     <UserControl.Resources>
         <converter:SliderThumbPaddingConverter x:Key="SliderThumbPaddingConverter" />
         <converter:DoubleToInt x:Key="DoubleToInt" />
+        <converter:SliderWidthConverter x:Key="SliderWidthConverter" />
+        
 
         <Style x:Key="SliderThumbStyle" TargetType="Thumb">
             <Setter Property="Background" Value="#FF1F3B53"/>
@@ -152,13 +154,13 @@
 
     <Canvas Grid.Row="0" x:Name="SliderCanvas" 			
 			Background="Transparent" Canvas.Left="0">
-       
+
         <TextBlock x:Name="SliderValue" 
                    Width="154" Height="37" Canvas.Top="0" 
                    FontFamily="Arial" FontSize="12" Foreground="White"
                    Text="{Binding ElementName=Slider, Path=Value, Converter={StaticResource DoubleToInt}}" TextWrapping="Wrap">
-            
-                <multiBiding:BindingUtil.MultiBindings>
+                    
+            <multiBiding:BindingUtil.MultiBindings>
                     <multiBiding:MultiBindings>
                         <multiBiding:MultiBinding TargetProperty="Canvas.Left" Converter="{StaticResource SliderThumbPaddingConverter}" Mode="OneWay">
                              <multiBiding:BindingCollection>
@@ -166,18 +168,39 @@
                                  <Binding Path="Maximum" ElementName="Slider" Mode="OneWay"/>
                                  <Binding Path="Minimum" ElementName="Slider" Mode="OneWay"/>
                                  <Binding Path="ActualWidth" ElementName="Slider" Mode="OneWay"/>
+                                 <Binding Path="Maximum" ElementName="Slider" Mode="OneWay"/>
                              </multiBiding:BindingCollection>
                         </multiBiding:MultiBinding>
                     </multiBiding:MultiBindings>
-                </multiBiding:BindingUtil.MultiBindings>                
-            
+                </multiBiding:BindingUtil.MultiBindings>
+
+
         </TextBlock>
         <!-- TODO fix that WTF width ;x -->
         <Slider x:Name="Slider"
                 Canvas.Left="0" Canvas.Top="12" 
-                Height="23" Width="230" 
+                Height="23"
                 Maximum="100" 
                 Style="{StaticResource MySliderStyle}"
+                >
+
+            <multiBiding:BindingUtil.MultiBindings>
+                <multiBiding:MultiBindings>
+                    <multiBiding:MultiBinding TargetProperty="Width" Converter="{StaticResource SliderWidthConverter}" Mode="OneWay">
+                        <multiBiding:BindingCollection>
+                            <Binding Path="Maximum" ElementName="Slider" Mode="OneWay"/>
+                            <Binding Path="Minimum" ElementName="Slider" Mode="OneWay"/>
+                            <Binding Path="Maximum" ElementName="MaximumSlider" Mode="OneWay"/>
+                            <Binding Path="Width" ElementName="MaximumSlider" Mode="OneWay"/>
+                        </multiBiding:BindingCollection>
+                    </multiBiding:MultiBinding>
+                </multiBiding:MultiBindings>
+            </multiBiding:BindingUtil.MultiBindings>
+
+        </Slider>
+        <Slider x:Name="MaximumSlider"
+                Maximum="100" Width="230"
+                Visibility="Collapsed" 
                 />
 
     </Canvas>

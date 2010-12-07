@@ -16,16 +16,17 @@ namespace ColorPickerControl.Converter
     {
         public double Convert(ColorSlider colorSlider)
         {
-            return (double)this.Convert(new object[] { colorSlider.Value, colorSlider.Maximum, colorSlider.Minimum, colorSlider.SliderWidth }, null, null, null);
+            return (double)this.Convert(new object[] { colorSlider.Value, colorSlider.MaximumValue, colorSlider.Minimum, colorSlider.SliderWidth, colorSlider.Maximum }, null, null, null);
         }
 
         public object Convert(object[] values, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
-            if (values == null || values.Length < 4)
+            int bindingArgumentsNumber = 5;
+            if (values == null || values.Length < bindingArgumentsNumber)
             {
                 return null;
             }
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < bindingArgumentsNumber; i++)
             {
                 if (values[i] == null)
                 {
@@ -40,7 +41,7 @@ namespace ColorPickerControl.Converter
             double maximum = (double)values[1];
             double minumum = (double)values[2];
             double width = (double)values[3];
-            double padding = (value - minumum) / maximum * (width + minumum);
+            double padding = (value - minumum) / (maximum - minumum) * (width);
             return padding;
         }
 
