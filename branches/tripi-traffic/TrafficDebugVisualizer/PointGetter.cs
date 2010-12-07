@@ -21,7 +21,7 @@ namespace TrafficDebugVisualizer
         {
             get
             {
-                return groupBoxSettings.Text;
+                return groupBoxSettings.Text.Replace(" - settings", "");
             }
 
             set
