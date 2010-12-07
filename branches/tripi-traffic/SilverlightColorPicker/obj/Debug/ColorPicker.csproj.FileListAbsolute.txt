@@ -1,3 +1,0 @@
-D:\Matthias\Documents\Visual Studio 2008\Projects\ColorPicker\ColorPicker\obj\Debug\ResolveAssemblyReference.cache
-D:\Matthias\Documents\Visual Studio 2008\Projects\ColorPicker\ColorPicker\obj\Debug\ColorPicker.g.cs
-D:\Matthias\Documents\Visual Studio 2008\Projects\ColorPicker\ColorPicker\obj\Debug\ColorPicker.g.resources

@@ -114,7 +114,6 @@ namespace TripiTrafficMap
 
         private void ColorPicker_ColorChanged(object sender, ColorPickerControl.ColorChangedEventArgs e)
         {
-            changeLayout.Background = e.newColor;
             TmpTextBox.Background = e.newColor;
         }
 

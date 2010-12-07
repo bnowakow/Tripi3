@@ -29,10 +29,8 @@
             </StackPanel.Background>
             <cp:ColorPicker Name="ColorPicker" ColorChanged="ColorPicker_ColorChanged" />
             <cp:VelocityColorPicker Name="VelocityColorPicker" Width="250" Height="100" />
-            <cp:ColorSlider Name="ColorSlider" Height="100" />
             
             <TextBox x:Name="TmpTextBox"  IsEnabled="False" Background="Red" />
-            <Button x:Name="changeLayout"  Background="Black" Foreground="Red" Content="Hello!" />
             
         </StackPanel>
     </Grid>

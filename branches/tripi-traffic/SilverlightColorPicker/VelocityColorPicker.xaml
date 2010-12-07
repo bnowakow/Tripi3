@@ -3,11 +3,11 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:selectable="clr-namespace:ColorPickerControl"
+    xmlns:local="clr-namespace:ColorPickerControl"
     mc:Ignorable="d"
     d:DesignHeight="500" d:DesignWidth="400">
     
-    <Grid x:Name="LayoutRoot" Background="White">
+    <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
             <RowDefinition Height="50"/>
@@ -17,7 +17,7 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <selectable:ColorSlider Grid.Row="0" />
+        <local:ColorMultiSlider />
         <Border Margin="1,1,1,1" 
                         Grid.Row="1" 
                         BorderBrush="#FF262626" 

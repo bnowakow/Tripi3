@@ -3,10 +3,11 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:selectable="clr-namespace:ColorPickerControl"
+    xmlns:local="clr-namespace:ColorPickerControl"
+    xmlns:multiBiding="clr-namespace:SLMultiBinding;assembly=SLMultiBinding"
     
     xmlns:converter="clr-namespace:ColorPickerControl.Converter"
-    mc:Ignorable="d" d:DesignHeight="150">
+    mc:Ignorable="d" d:DesignHeight="50">
     <UserControl.Resources>
         <converter:SliderThumbPaddingConverter x:Key="SliderThumbPaddingConverter" />
         <converter:DoubleToInt x:Key="DoubleToInt" />
@@ -150,26 +151,34 @@
     </UserControl.Resources>
 
     <Canvas Grid.Row="0" x:Name="SliderCanvas" 			
-			Background="transparent" Canvas.Left="0">
-        <Rectangle
-				Fill="Transparent" 
-				Height="10" 
-				Visibility="Visible" x:Name="SliderRectangle" Canvas.Top="3.75" Stroke="#FF190000" Width="{Binding ElementName=SliderCanvas, Path=ActualWidth}" />
-
+			Background="Transparent" Canvas.Left="0">
+       
         <TextBlock x:Name="SliderValue" 
                    Width="154" Height="37" Canvas.Top="0" 
-                   FontFamily="Arial" FontSize="12" 
+                   FontFamily="Arial" FontSize="12" Foreground="White"
                    Text="{Binding ElementName=Slider, Path=Value, Converter={StaticResource DoubleToInt}}" TextWrapping="Wrap">
-            <Canvas.Left>
-                <Binding Path="Value" ElementName="Slider" Converter="{StaticResource SliderThumbPaddingConverter}" Mode="OneWay" />
-            </Canvas.Left>
+            
+                <multiBiding:BindingUtil.MultiBindings>
+                    <multiBiding:MultiBindings>
+                        <multiBiding:MultiBinding TargetProperty="Canvas.Left" Converter="{StaticResource SliderThumbPaddingConverter}" Mode="OneWay">
+                             <multiBiding:BindingCollection>
+                                 <Binding Path="Value" ElementName="Slider" Mode="OneWay"/>
+                                 <Binding Path="Maximum" ElementName="Slider" Mode="OneWay"/>
+                                 <Binding Path="Minimum" ElementName="Slider" Mode="OneWay"/>
+                                 <Binding Path="ActualWidth" ElementName="Slider" Mode="OneWay"/>
+                             </multiBiding:BindingCollection>
+                        </multiBiding:MultiBinding>
+                    </multiBiding:MultiBindings>
+                </multiBiding:BindingUtil.MultiBindings>                
+            
         </TextBlock>
         <!-- TODO fix that WTF width ;x -->
         <Slider x:Name="Slider"
                 Canvas.Left="0" Canvas.Top="12" 
                 Height="23" Width="230" 
                 Maximum="100" 
-                Style="{StaticResource MySliderStyle}"/>
+                Style="{StaticResource MySliderStyle}"
+                />
 
     </Canvas>
 </UserControl>
