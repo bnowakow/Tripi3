@@ -20,12 +20,16 @@ namespace TrafficParser
             string folder = Console.ReadLine();
             if (folder.Length == 0) folder = @"..\..\..\Install\iPhone Gps data\raw";
 
+            List<RawPoint> all = new List<RawPoint>();
             foreach (string filename in Directory.GetFiles(folder, "*.txt"))
             {
                 Console.WriteLine(filename);
                 List<RawPoint> rp = RawPoint.Parsed(filename);
+                all.AddRange(rp);
                 rp.Serialize(Path.GetFileName(filename).Replace(".txt", ".xml"));
             }
+
+            all.Serialize("_all.xml");
 
             Console.WriteLine("Press zany key 2 continue...");
             Console.ReadLine();

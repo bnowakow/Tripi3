@@ -25,13 +25,28 @@ namespace TrafficDebugVisualizer
         {
             pointGetterRaw.GroupBoxTitle = "Raw points";
             pointGetterRaw.PointGetterMethod = GetRawPoints;
-            pointGetterRaw.Command = "001.xml";
+            pointGetterRaw.Command = "_all.xml";
             pointGetterRaw.PointsWanted += new Action<List<EstimationPoint>, bool>(pointGetterAny_PointsWanted);
 
             pointGetterEstimated.GroupBoxTitle = "Estimated points";
             pointGetterEstimated.PointGetterMethod = GetEstimatedPoints;
             pointGetterEstimated.Command = "54.36 18.50 13:37";
             pointGetterEstimated.PointsWanted += new Action<List<EstimationPoint>, bool>(pointGetterAny_PointsWanted);
+
+            pointGetterWCF.PointGetterMethod = GetWcfPoints;
+            pointGetterWCF.PointsWanted += pointGetterAny_PointsWanted;
+        }
+
+        private List<EstimationPoint> GetWcfPoints(string command)
+        {
+            string[] splat = command.Split(' ');
+            WCF.ITrafficService tmp = new WCF.TrafficServiceClient(new Uri(splat[0]));
+
+            //WCF.EstimationPoint result = tmp.GetEstimationPoint(double.Parse(splat[1]), double.Parse(splat[2]), DateTime.Parse(splat[3]));
+
+            EstimationPoint result = ((WCF.TrafficServiceClient)tmp).GetEstimationPoint(splat[1], splat[2], splat[3]);
+            
+            return new List<EstimationPoint>() { result };
         }
 
         private List<EstimationPoint> GetRawPoints(string filename)
@@ -54,6 +69,7 @@ namespace TrafficDebugVisualizer
         {
             if (pointGetterRaw.ShouldBeDrawn) DrawPoints(e.Graphics, pointGetterRaw.PointBuffer, Pens.Black);
             if (pointGetterEstimated.ShouldBeDrawn) DrawPoints(e.Graphics, pointGetterEstimated.PointBuffer, WhitePen);
+            if (pointGetterWCF.ShouldBeDrawn) DrawPoints(e.Graphics, pointGetterWCF.PointBuffer, WhitePen);
         }
 
         void DrawPoints(Graphics canvas, List<EstimationPoint> points, Pen circle)

@@ -7,6 +7,7 @@ using System.IO;
 
 namespace TrafficLibrary
 {
+    [System.ServiceModel.ServiceBehavior(InstanceContextMode=System.ServiceModel.InstanceContextMode.Single)]
     public abstract class TrafficServiceBase : ITrafficService, ICrossDomainPolicyResponder
     {
         public abstract EstimationPoint GetEstimationPoint(double latitude, double longitude, DateTime date);
