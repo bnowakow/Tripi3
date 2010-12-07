@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripiTrafficMap.Web", "Trip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightColorPickerControl", "SilverlightColorPicker\SilverlightColorPickerControl.csproj", "{5D47E946-4752-4CCE-B1A5-47AC4209BEE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLMultiBinding", "SLMultiBinding\SLMultiBinding.csproj", "{F3263D61-4CAF-481F-B811-49DB6E99E406}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{5D47E946-4752-4CCE-B1A5-47AC4209BEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D47E946-4752-4CCE-B1A5-47AC4209BEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D47E946-4752-4CCE-B1A5-47AC4209BEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3263D61-4CAF-481F-B811-49DB6E99E406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3263D61-4CAF-481F-B811-49DB6E99E406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3263D61-4CAF-481F-B811-49DB6E99E406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3263D61-4CAF-481F-B811-49DB6E99E406}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,8 +12,44 @@ using System.Windows.Data;
 
 namespace ColorPickerControl.Converter
 {
-    public class SliderThumbPaddingConverter : IValueConverter
+    public class SliderThumbPaddingConverter : IMultiValueConverter /*, IValueConverter */
     {
+        public double Convert(ColorSlider colorSlider)
+        {
+            return (double)this.Convert(new object[] { colorSlider.Value, colorSlider.Maximum, colorSlider.Minimum, colorSlider.SliderWidth }, null, null, null);
+        }
+
+        public object Convert(object[] values, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+        {
+            if (values == null || values.Length < 4)
+            {
+                return null;
+            }
+            for (int i = 0; i < 4; i++)
+            {
+                if (values[i] == null)
+                {
+                    return null;
+                }
+            }
+            if ((double)values[1] == 0)
+            {
+                return null;
+            }
+            double value = (double)values[0];
+            double maximum = (double)values[1];
+            double minumum = (double)values[2];
+            double width = (double)values[3];
+            double padding = (value - minumum) / maximum * (width + minumum);
+            return padding;
+        }
+
+        object[] IMultiValueConverter.ConvertBack(object value, Type[] targetTypes, object parameter, System.Globalization.CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+
+        /*
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
             double sliderValue = (double)value; //slider.Value
@@ -24,11 +60,11 @@ namespace ColorPickerControl.Converter
             double padding = sliderValue / sliderMaximum * sliderWidth;
             return padding + 2; // Slider.Canvas.left
         }
-
+        
         public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
-            //return 50;
             throw new NotImplementedException();
         }
+         * */
     }
 }
