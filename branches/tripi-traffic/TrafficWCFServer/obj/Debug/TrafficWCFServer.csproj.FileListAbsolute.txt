@@ -1,0 +1,8 @@
+C:\NoBackup\tripi-traffic\TrafficWCFServer\bin\Debug\TrafficWCFServer.exe
+C:\NoBackup\tripi-traffic\TrafficWCFServer\bin\Debug\TrafficWCFServer.pdb
+C:\NoBackup\tripi-traffic\TrafficWCFServer\obj\Debug\ResolveAssemblyReference.cache
+C:\NoBackup\tripi-traffic\TrafficWCFServer\obj\Debug\TrafficWCFServer.FormHousing.resources
+C:\NoBackup\tripi-traffic\TrafficWCFServer\obj\Debug\TrafficWCFServer.Properties.Resources.resources
+C:\NoBackup\tripi-traffic\TrafficWCFServer\obj\Debug\TrafficWCFServer.csproj.GenerateResource.Cache
+C:\NoBackup\tripi-traffic\TrafficWCFServer\obj\Debug\TrafficWCFServer.exe
+C:\NoBackup\tripi-traffic\TrafficWCFServer\obj\Debug\TrafficWCFServer.pdb
