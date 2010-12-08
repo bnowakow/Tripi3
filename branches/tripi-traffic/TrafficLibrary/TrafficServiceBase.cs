@@ -10,6 +10,13 @@ namespace TrafficLibrary
     [System.ServiceModel.ServiceBehavior(InstanceContextMode=System.ServiceModel.InstanceContextMode.Single)]
     public abstract class TrafficServiceBase : ITrafficService, ICrossDomainPolicyResponder
     {
+        public event Action<string> Log;
+
+        protected virtual void OnLog(string message)
+        {
+            if (Log != null) Log(message);
+        }
+
         public abstract EstimationPoint GetEstimationPoint(double latitude, double longitude, DateTime date);
 
         #region ICrossDomainPolicyResponder Members

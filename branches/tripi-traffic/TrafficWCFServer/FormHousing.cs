@@ -20,6 +20,7 @@ namespace TrafficWCFServer
         private void FormHousing_Load(object sender, EventArgs e)
         {
             TrafficService singleton = new TrafficService();
+            singleton.Log += LogToBox;
 
             ServiceServerHelper.StartServiceHost<ITrafficService, ICrossDomainPolicyResponder, TrafficService>(singleton, "Eiskonfekt.svc", "");
             //ServiceServerHelper.StartServiceHost<ICrossDomainPolicyResponder, TrafficService>(singleton, "");
@@ -27,6 +28,10 @@ namespace TrafficWCFServer
             textBoxLog.AppendText("Servin' has start'd...\r\n");
         }
 
-                                                                             
+        private void LogToBox(string message)
+        {
+            if (textBoxLog.InvokeRequired) textBoxLog.Invoke((Action<string>)LogToBox, message);
+            else textBoxLog.AppendText(message + "\r\n");
+        }
     }
 }
