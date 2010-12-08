@@ -15,12 +15,16 @@ using Microsoft.Maps.MapControl;
 using System.Xml;
 using System.Diagnostics;
 using System.Globalization;
+using System.ServiceModel;
+using TrafficLibrary;
 
 namespace TripiTrafficMap
 {
     public partial class MainPage : UserControl
     {
         protected IMapStartPositionAdjuster mapStartPositionAdjuster;
+        protected TrafficServiceClient trafficServiceClient;
+        protected IList<Location> pointList;
 
         public MainPage()
         {
@@ -32,43 +36,47 @@ namespace TripiTrafficMap
         {
             //Map.Width = Application.Current.Host.Content.ActualWidth;
             mapStartPositionAdjuster = new MapStartPositionAdjuster(Map);
+            EndpointAddress endpoint = new EndpointAddress("http://localhost:1337/");
+            trafficServiceClient = new TrafficServiceClient(new BasicHttpBinding(), endpoint);
+            trafficServiceClient.GetEstimationPointCompleted += new EventHandler<GetEstimationPointCompletedEventArgs>(trafficServiceClient_GetEstimationPointCompleted);
             drawTestPolyline();
+        }
+
+        void trafficServiceClient_GetEstimationPointCompleted(object sender, GetEstimationPointCompletedEventArgs e)
+        {
+            //EstimationPoint point
         }
 
         protected IList<Location> getSamplePositionNodeList()
         {
             IList<Location> points = new List<Location>();
-            for (int i = 8; i < 9; i++)
+
+            XmlReader reader = XmlReader.Create(@"TmpXml/_all.xml");
+            while (true)
             {
-                XmlReader reader = XmlReader.Create(@"TmpXml/00" + i + ".xml");
-                while (true)
+                Location point = new Location();
+                reader.ReadToFollowing("Latitude");
+                reader.Read();
+                if (reader.Value == "")
                 {
-                    Location point = new Location();
-                    reader.ReadToFollowing("Latitude");
-                    reader.Read();
-                    if (reader.Value == "")
-                    {
-                        break;
-                    }
-                    point.Latitude = Double.Parse(reader.Value, System.Globalization.NumberStyles.Any, new NumberFormatInfo());
-                    reader.ReadToFollowing("Longitude");
-                    reader.Read();
-                    point.Longitude = Double.Parse(reader.Value, System.Globalization.NumberStyles.Any, new NumberFormatInfo());
-                    reader.ReadToFollowing("Speed");
-                    reader.Read();
-                    point.Altitude = Double.Parse(reader.Value, System.Globalization.NumberStyles.Any, new NumberFormatInfo());
-                    points.Add(point);
+                    break;
                 }
-                reader.Close();
-                break;
+                point.Latitude = Double.Parse(reader.Value, System.Globalization.NumberStyles.Any, new NumberFormatInfo());
+                reader.ReadToFollowing("Longitude");
+                reader.Read();
+                point.Longitude = Double.Parse(reader.Value, System.Globalization.NumberStyles.Any, new NumberFormatInfo());
+                trafficServiceClient.GetEstimationPointAsync(point.Latitude, point.Longitude, DateTime.Parse("13:37"));
+                //points.Add(point);
             }
+            reader.Close();
+
             return points;
         }
 
         private void drawTestPolyline()
         {
-            IList<Location> pointList = this.getSamplePositionNodeList();
-            
+            pointList = this.getSamplePositionNodeList();
+
             Location prevLocation = null;
             foreach (Location location in pointList)
             {
@@ -80,17 +88,17 @@ namespace TripiTrafficMap
 
                     gradientStart.Offset = 0.0;
                     gradientStop.Offset = 0.5;
-                    gradientStart.Color = Color.FromArgb(255, (byte)Math.Round(80 /prevLocation.Altitude * 255, 0), (byte)Math.Round(prevLocation.Altitude /80 * 255, 0), 0);
+                    gradientStart.Color = Color.FromArgb(255, (byte)Math.Round(80 / prevLocation.Altitude * 255, 0), (byte)Math.Round(prevLocation.Altitude / 80 * 255, 0), 0);
                     gradientStop.Color = Color.FromArgb(255, (byte)Math.Round(80 / location.Altitude * 255, 0), (byte)Math.Round(location.Altitude / 80 * 255, 0), 0);
 
-                    linearGradientBrush.StartPoint = new Point((180.0 + prevLocation.Longitude) / (Map.ViewportSize.Width /360.0), (90.0-prevLocation.Latitude) / (Map.ViewportSize.Height / 180.0));
+                    linearGradientBrush.StartPoint = new Point((180.0 + prevLocation.Longitude) / (Map.ViewportSize.Width / 360.0), (90.0 - prevLocation.Latitude) / (Map.ViewportSize.Height / 180.0));
                     linearGradientBrush.EndPoint = new Point((180.0 + location.Longitude) / (Map.ViewportSize.Width / 360.0), (90.0 - location.Latitude) / (Map.ViewportSize.Height / 180.0));
 
                     linearGradientBrush.StartPoint = new Point((180.0 + prevLocation.Longitude) / (360.0), (90.0 - prevLocation.Latitude) / (180.0));
                     linearGradientBrush.EndPoint = new Point((180.0 + location.Longitude) / (360.0), (90.0 - location.Latitude) / (180.0));
 
                     linearGradientBrush.StartPoint = new Point(0, 0);
-                    linearGradientBrush.EndPoint = new Point(1,0);
+                    linearGradientBrush.EndPoint = new Point(1, 0);
 
                     linearGradientBrush.GradientStops = new GradientStopCollection();
 
@@ -108,8 +116,11 @@ namespace TripiTrafficMap
                 }
                 prevLocation = location;
             }
-            
-            mapStartPositionAdjuster.SetMapCenterPointAndZoomLevel(pointList);
+
+            if (pointList.Count > 0)
+            {
+                mapStartPositionAdjuster.SetMapCenterPointAndZoomLevel(pointList);
+            }
         }
 
         private void ColorPicker_ColorChanged(object sender, ColorPickerControl.ColorChangedEventArgs e)
