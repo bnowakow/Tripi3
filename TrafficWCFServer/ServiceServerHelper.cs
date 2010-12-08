@@ -63,7 +63,7 @@ namespace TrafficWCFServer
             sh.Description.Behaviors.Add(beh1);
             //sh.Description.Behaviors.Add(beh2);
             sh.AddServiceEndpoint(typeof(TInterface1), new BasicHttpBinding(), urw1);
-            sh.AddServiceEndpoint(typeof(TInterface2), new WebHttpBinding(), urw2);
+            sh.AddServiceEndpoint(typeof(TInterface2), new WebHttpBinding() { HostNameComparisonMode = HostNameComparisonMode.WeakWildcard }, urw2);
             sh.Open();
             return sh;
         }
