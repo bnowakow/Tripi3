@@ -30,20 +30,20 @@
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBoxPiniatas = new System.Windows.Forms.GroupBox();
-            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
+            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.pointGetterRaw = new TrafficDebugVisualizer.PointGetter();
             this.pointGetterEstimated = new TrafficDebugVisualizer.PointGetter();
             this.pointGetterWCF = new TrafficDebugVisualizer.PointGetter();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            this.splitContainer2.Panel1.SuspendLayout();
-            this.splitContainer2.Panel2.SuspendLayout();
-            this.splitContainer2.SuspendLayout();
             this.splitContainer3.Panel1.SuspendLayout();
             this.splitContainer3.Panel2.SuspendLayout();
             this.splitContainer3.SuspendLayout();
+            this.splitContainer2.Panel1.SuspendLayout();
+            this.splitContainer2.Panel2.SuspendLayout();
+            this.splitContainer2.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -73,24 +73,6 @@
             this.groupBoxPiniatas.TabStop = false;
             this.groupBoxPiniatas.Text = "Piniatas";
             // 
-            // splitContainer2
-            // 
-            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer2.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer2.Name = "splitContainer2";
-            this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer2.Panel1
-            // 
-            this.splitContainer2.Panel1.Controls.Add(this.pointGetterRaw);
-            // 
-            // splitContainer2.Panel2
-            // 
-            this.splitContainer2.Panel2.Controls.Add(this.pointGetterEstimated);
-            this.splitContainer2.Size = new System.Drawing.Size(451, 448);
-            this.splitContainer2.SplitterDistance = 274;
-            this.splitContainer2.TabIndex = 0;
-            // 
             // splitContainer3
             // 
             this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -108,6 +90,24 @@
             this.splitContainer3.Size = new System.Drawing.Size(451, 671);
             this.splitContainer3.SplitterDistance = 448;
             this.splitContainer3.TabIndex = 1;
+            // 
+            // splitContainer2
+            // 
+            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer2.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer2.Name = "splitContainer2";
+            this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer2.Panel1
+            // 
+            this.splitContainer2.Panel1.Controls.Add(this.pointGetterRaw);
+            // 
+            // splitContainer2.Panel2
+            // 
+            this.splitContainer2.Panel2.Controls.Add(this.pointGetterEstimated);
+            this.splitContainer2.Size = new System.Drawing.Size(451, 448);
+            this.splitContainer2.SplitterDistance = 274;
+            this.splitContainer2.TabIndex = 0;
             // 
             // pointGetterRaw
             // 
@@ -131,7 +131,7 @@
             // 
             // pointGetterWCF
             // 
-            this.pointGetterWCF.Command = "http://192.168.1.105:1337/eiskonfekt 54.36 18.50 13:37";
+            this.pointGetterWCF.Command = "http://127.0.0.1:1337/Eiskonfekt.svc 54.36 18.50 13:37";
             this.pointGetterWCF.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pointGetterWCF.GroupBoxTitle = "groupBoxWCF";
             this.pointGetterWCF.Location = new System.Drawing.Point(0, 0);
@@ -151,12 +151,12 @@
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             this.splitContainer1.ResumeLayout(false);
-            this.splitContainer2.Panel1.ResumeLayout(false);
-            this.splitContainer2.Panel2.ResumeLayout(false);
-            this.splitContainer2.ResumeLayout(false);
             this.splitContainer3.Panel1.ResumeLayout(false);
             this.splitContainer3.Panel2.ResumeLayout(false);
             this.splitContainer3.ResumeLayout(false);
+            this.splitContainer2.Panel1.ResumeLayout(false);
+            this.splitContainer2.Panel2.ResumeLayout(false);
+            this.splitContainer2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
