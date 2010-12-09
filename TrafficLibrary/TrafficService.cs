@@ -14,7 +14,7 @@ namespace TrafficLibrary
         public override EstimationPoint GetEstimationPoint(double latitude, double longitude, DateTime date)
         {
             HttpRequestMessageProperty request = System.ServiceModel.OperationContext.Current.IncomingMessageProperties["httpRequest"] as HttpRequestMessageProperty;
-            OnLog(request.Method);
+            OnLog("{0}: ({1};{2}) @ {3}".F(request.Method, latitude, longitude, date));
 
             Estimation estimation = new Estimation(new RadialEstimationStrategy(), rawPointFile);
             EstimationPoint point = estimation.CalculateEstimationPoint(latitude, longitude, date);

@@ -5,6 +5,7 @@ using System.Text;
 
 using System.ServiceModel;
 using System.ServiceModel.Description;
+using System.ServiceModel.Web;
 
 namespace TrafficWCFServer
 {
@@ -45,6 +46,38 @@ namespace TrafficWCFServer
             return sh;
         }
 
+        public static ServiceHost StartWebServiceHost<TInterface, TImplementation>(string addressPart)
+            where TImplementation : TInterface
+        {
+            Uri urw = new Uri(urlAddress + addressPart);
+            ServiceMetadataBehavior beh = new ServiceMetadataBehavior()
+            {
+                HttpGetEnabled = true,
+                HttpGetUrl = urw
+            };
+            WebServiceHost sh = new WebServiceHost(typeof(TImplementation), urw);
+            sh.Description.Behaviors.Add(beh);
+            sh.AddServiceEndpoint(typeof(TInterface), new WebHttpBinding(), urw);
+            sh.Open();
+            return sh;
+        }
+
+        public static ServiceHost StartWebServiceHost<TInterface, TImplementation>(TImplementation singleton, string addressPart)
+            where TImplementation : TInterface
+        {
+            Uri urw = new Uri(urlAddress + addressPart);
+            ServiceMetadataBehavior beh = new ServiceMetadataBehavior()
+            {
+                HttpGetEnabled = true,
+                HttpGetUrl = urw
+            };
+            WebServiceHost sh = new WebServiceHost(singleton, urw);
+            sh.Description.Behaviors.Add(beh);
+            sh.AddServiceEndpoint(typeof(TInterface), new WebHttpBinding(), urw);
+            sh.Open();
+            return sh;
+        }
+
         public static ServiceHost StartServiceHost<TInterface1, TInterface2, TImplementation>(TImplementation singleton, string addressPart1, string addressPart2)
             where TImplementation : TInterface1, TInterface2
         {
@@ -54,18 +87,13 @@ namespace TrafficWCFServer
                 HttpGetEnabled = true,
                 HttpGetUrl = urw
             };
-            /*System.ServiceModel.Description.XmlSerializerOperationBehavior beh2 = new XmlSerializerOperationBehavior()
-            {
-                HttpGetEnabled = true,
-                HttpGetUrl = urw2
-            };*/
+            WebHttpBehavior beh2 = new WebHttpBehavior();
             ServiceHost sh = new ServiceHost(singleton, urw2);
             sh.Description.Behaviors.Add(beh1);
-            //sh.Description.Behaviors.Add(beh2);
             sh.AddServiceEndpoint(typeof(TInterface1), new BasicHttpBinding(), urw1);
-            sh.AddServiceEndpoint(typeof(TInterface2), new WebHttpBinding() { HostNameComparisonMode = HostNameComparisonMode.WeakWildcard }, urw2);
+            sh.AddServiceEndpoint(typeof(TInterface2), new WebHttpBinding(), urw2).Behaviors.Add(beh2);
             sh.Open();
             return sh;
-        }
+        }/* o_0 */
     }
 }
