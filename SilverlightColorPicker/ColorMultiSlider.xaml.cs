@@ -70,7 +70,7 @@ namespace ColorPickerControl
                 {
                     if ((e.NewValue + miniumSliderMargin < sliders[i + 1].Value))
                     {
-                        sliders[i].ValueSlider.Maximum = slider.Maximum = e.NewValue + 1;
+                        sliders[i].ValueSlider.Maximum = e.NewValue + 1;
                         sliders[i].ValueSlider.Value = slider.Value = e.NewValue;
                         sliders[i + 1].ValueSlider.Minimum = e.NewValue + miniumSliderMargin;
                     }
