@@ -187,6 +187,7 @@
                 Canvas.Left="0" Canvas.Top="12" 
                 Height="23"
                 Maximum="{Binding ElementName=maximumSlider, Path=Maximum}"
+                Minimum="{Binding ElementName=maximumSlider, Path=Minimum}"
                 Style="{StaticResource MySliderStyle}"
                 Width="{Binding ElementName=maximumSlider, Path=Width}" 
                 Value="{Binding ElementName=valueSlider, Path=Value, Mode=TwoWay}" 
@@ -196,7 +197,7 @@
 
         </Slider>
         <Slider x:Name="maximumSlider"
-                Maximum="100" Width="230"
+                Minimum="-1" Maximum="101" Width="230"
                 Visibility="Collapsed" 
                 />
         

@@ -22,8 +22,6 @@ namespace ColorPickerControl
         protected IList<ColorSlider> sliders;
         protected double miniumSliderMargin = 4.0;
         protected double initialSliderMargin;
-        protected SliderThumbPaddingConverter sliderThumbPaddingConverter = new SliderThumbPaddingConverter();
-        protected SliderWidthConverter sliderWidthConverter = new SliderWidthConverter();
 
         public ColorMultiSlider()
         {
@@ -38,14 +36,6 @@ namespace ColorPickerControl
         public int findSliderListPosition(Slider slider)
         {
             return (int)slider.Tag;
-            /*for (int i = 0; i < sliders.Count; i++)
-            {
-                if (value == sliders[i].ValueSlider.Value)
-                {
-                    return i;
-                }
-            }
-            return -1;*/
         }
 
         void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
@@ -53,20 +43,14 @@ namespace ColorPickerControl
             Slider slider = (Slider)sender;
             ColorSlider colorSlider = new ColorSlider();
             int i = findSliderListPosition(slider);
-            /*if (i == -1)
-            {
-                return;
-            }*/
-            if (i + 1 < sliders.Count)
+            if (i + 1 < sliders.Count && e.NewValue > e.OldValue)
             {
                 if (e.NewValue + miniumSliderMargin > sliders[i + 1].ValueSlider.Value)
                 {
                     sliders[i].ValueSlider.Value = slider.Value = e.OldValue;
                     return;
                 }
-                //colorSlider.MaximumValue != slider.Maximum &&
-                if (
-                    e.NewValue >= sliders[i].ValueSlider.Maximum - 1)
+                if (e.NewValue >= sliders[i].ValueSlider.Maximum - 1)
                 {
                     if ((e.NewValue + miniumSliderMargin < sliders[i + 1].Value))
                     {
@@ -76,12 +60,22 @@ namespace ColorPickerControl
                     }
                 }
             }
-
-            // maybe != ....
-            if (slider.Value < sliders[i].ValueSlider.Minimum ||
-                slider.Value > sliders[i].ValueSlider.Maximum)
+            if (i > 0 && e.NewValue < e.OldValue)
             {
-                //slider.Value = sliders[i].ValueSlider.Value;
+                if (e.NewValue - miniumSliderMargin < sliders[i - 1].ValueSlider.Value)
+                {
+                    sliders[i].ValueSlider.Value = slider.Value = e.OldValue;
+                    return;
+                }
+                if (e.NewValue <= sliders[i].ValueSlider.Minimum + 1)
+                {
+                    if ((e.NewValue - miniumSliderMargin > sliders[i - 1].Value))
+                    {
+                        sliders[i].ValueSlider.Minimum = e.NewValue - 1;
+                        sliders[i].ValueSlider.Value = slider.Value = e.NewValue;
+                        sliders[i - 1].ValueSlider.Maximum = e.NewValue - miniumSliderMargin;
+                    }
+                }
             }
         }
 
@@ -98,13 +92,20 @@ namespace ColorPickerControl
                 if (i == SliderNumber - 1)
                 {
                     // last one
-                    slider.ValueSlider.Maximum = slider.MaximumValue;
+                    slider.ValueSlider.Maximum = slider.MaximumSlider.Maximum;
                 }
                 else
                 {
                     slider.ValueSlider.Maximum = value + initialSliderMargin - miniumSliderMargin + 1;
                 }
-                slider.ValueSlider.Minimum = value;
+                if (i == 0)
+                {
+                    slider.ValueSlider.Minimum = slider.MaximumSlider.Minimum;
+                }
+                else
+                {
+                    slider.ValueSlider.Minimum = value - 1;
+                }
                 slider.ValueSlider.Value = value;
 
                 slider.SliderValueChanged += new RoutedPropertyChangedEventHandler<double>(Slider_ValueChanged);
