@@ -22,7 +22,6 @@ namespace ColorPickerControl
         protected IList<ColorSlider> sliders;
         protected double miniumSliderMargin = 4.0;
         protected double initialSliderMargin;
-        protected double initialSliderMarginWidth;
         protected SliderThumbPaddingConverter sliderThumbPaddingConverter = new SliderThumbPaddingConverter();
         protected SliderWidthConverter sliderWidthConverter = new SliderWidthConverter();
 
@@ -32,16 +31,12 @@ namespace ColorPickerControl
             int sliderNumber = 4;
             ColorSlider slider = new ColorSlider();
             initialSliderMargin = slider.MaximumValue / sliderNumber;
-            slider.Value = initialSliderMargin;
-            slider.SliderWidth = slider.MaximumWidth;
-            initialSliderMarginWidth = sliderThumbPaddingConverter.Convert(slider);
             sliders = new List<ColorSlider>();
             slider = new ColorSlider();
-            slider.Value = 0;
-            slider.Minimum = 0;
-            slider.Width = initialSliderMarginWidth;
-            slider.Maximum = initialSliderMargin - miniumSliderMargin + 1;
-            slider.SliderWidth = sliderWidthConverter.Convert(slider);
+            slider.ValueSlider.Value = 0;
+            slider.ValueSlider.Minimum = 0;
+            slider.ValueSlider.Maximum = initialSliderMargin - miniumSliderMargin + 1;
+            //slider.ValueSlider.Background = new SolidColorBrush(Color.FromArgb(0, 120, 120, 120));
             slider.SliderValueChanged += new RoutedPropertyChangedEventHandler<double>(Slider_ValueChanged);
             sliders.Add(slider);
             SliderNumber = sliderNumber;
@@ -65,46 +60,50 @@ namespace ColorPickerControl
             Slider slider = (Slider)sender;
             ColorSlider colorSlider = new ColorSlider();
             int i = findSliderListPosition(slider);
-            if (e.NewValue + miniumSliderMargin > sliders[i + 1].Value)
+            if (i + 1 < sliders.Count)
             {
-                sliders[i].Value = e.OldValue;
-                return;
-            }
-            if (colorSlider.MaximumValue != slider.Maximum &&
-                e.NewValue == slider.Maximum)
-            {
-                if (e.NewValue + miniumSliderMargin < sliders[i + 1].Value)
+                if (e.NewValue + miniumSliderMargin > sliders[i + 1].ValueSlider.Value)
                 {
-                    sliders[i].Maximum = e.NewValue + 1;
-                    sliders[i].Value = e.NewValue;
-                    sliders[i + 1].Minimum = e.NewValue + miniumSliderMargin;
+                    sliders[i].ValueSlider.Value = sliders[i + 1].ValueSlider.Value - miniumSliderMargin; //e.OldValue;
+                    return;
+                }
+                if (colorSlider.MaximumValue != slider.Maximum &&
+                    e.NewValue == slider.Maximum)
+                {
+                    if ((e.NewValue + miniumSliderMargin < sliders[i + 1].Value))
+                    {
+                        sliders[i].ValueSlider.Maximum = e.NewValue + 1;
+                        sliders[i].ValueSlider.Value = e.NewValue;
+                        sliders[i + 1].ValueSlider.Minimum = e.NewValue + miniumSliderMargin;
+                    }
                 }
             }
         }
 
-        protected void UpdateSliderNumber() 
+        protected void UpdateSliderNumber()
         {
             for (int i = sliders.Count; i < SliderNumber; i++)
             {
                 ColorSlider slider = new ColorSlider();
-                slider.Value = sliders[i - 1].Value + initialSliderMargin;
-                slider.Minimum = slider.Value;
-                slider.Width = initialSliderMarginWidth;
+                double value = sliders[i - 1].ValueSlider.Value + initialSliderMargin;
                 if (i == SliderNumber - 1)
                 {
                     // last one
-                    slider.Maximum = slider.MaximumValue;
+                    slider.ValueSlider.Maximum = slider.MaximumValue;
                 }
                 else
                 {
-                    slider.Maximum = slider.Value + initialSliderMargin - miniumSliderMargin + 1;
+                    slider.ValueSlider.Maximum = value + initialSliderMargin - miniumSliderMargin + 1;
                 }
+                slider.ValueSlider.Minimum = value;
+                slider.ValueSlider.Value = value;
+                
                 slider.SliderValueChanged += new RoutedPropertyChangedEventHandler<double>(Slider_ValueChanged);
                 sliders.Add(slider);
             }
 
             LayoutRoot.Children.Clear();
-            for (int i = 0; i < SliderNumber    ; i++)
+            for (int i = 0; i < SliderNumber; i++)
             {
                 LayoutRoot.Children.Add(sliders[i]);
             }

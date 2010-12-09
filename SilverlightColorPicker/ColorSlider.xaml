@@ -12,7 +12,8 @@
         <converter:SliderThumbPaddingConverter x:Key="SliderThumbPaddingConverter" />
         <converter:DoubleToInt x:Key="DoubleToInt" />
         <converter:SliderWidthConverter x:Key="SliderWidthConverter" />
-        
+
+        <SolidColorBrush x:Key="sliderThumbColor">sc#1, 0.548430264, 0.5354195, 0.5354195</SolidColorBrush>
 
         <Style x:Key="SliderThumbStyle" TargetType="Thumb">
             <Setter Property="Background" Value="#FF1F3B53"/>
@@ -45,14 +46,17 @@
                                 </VisualStateGroup>
                             </VisualStateManager.VisualStateGroups>
                             <!-- Thumb Border-->
-                            <Path Cursor="Hand" x:Name="SliderThumb" 
+                            <Path Cursor="Hand" x:Name="sliderThumbStyle" 
 				Width="8" Height="10" 
-				Fill="sc#1, 0.548430264, 0.5354195, 0.5354195"
+				Fill="{StaticResource sliderThumbColor}"
 				Stretch="Fill" Stroke="#FF848484" 
 				Canvas.Left="-1" Canvas.Top="37"
 			 	Data="F1 M8.7462683,2.9997923 L16.75,10.249 16.75,19.5 C16.75,21.156855 15.406855,22.5 13.75,22.5 L3.5000002,22.5 C1.8431457,22.5 0.5,21.156855 0.5,19.5 L0.5,10.249 8.7462683,2.9997923 z">
                                 <Path.RenderTransform>
-                                    <RotateTransform Angle="180" CenterY="5" CenterX="5"/>
+                                    <TransformGroup>
+                                        <RotateTransform Angle="180" CenterY="5" CenterX="5"/>
+                                        <ScaleTransform ScaleX="2.0" ScaleY="2.0" />
+                                    </TransformGroup>
                                 </Path.RenderTransform>
                             </Path>
                         </Grid>
@@ -155,6 +159,8 @@
     <Canvas Grid.Row="0" x:Name="SliderCanvas" 			
 			Background="Transparent" Canvas.Left="0">
 
+
+
         <TextBlock x:Name="SliderValue" 
                    Width="154" Height="37" Canvas.Top="0" 
                    FontFamily="Arial" FontSize="12" Foreground="White"
@@ -180,28 +186,23 @@
         <Slider x:Name="Slider"
                 Canvas.Left="0" Canvas.Top="12" 
                 Height="23"
-                Maximum="100" 
+                Maximum="{Binding ElementName=maximumSlider, Path=Maximum}"
                 Style="{StaticResource MySliderStyle}"
+                Width="{Binding ElementName=maximumSlider, Path=Width}" 
+                Value="{Binding ElementName=valueSlider, Path=Value, Mode=TwoWay}" 
                 >
 
-            <multiBiding:BindingUtil.MultiBindings>
-                <multiBiding:MultiBindings>
-                    <multiBiding:MultiBinding TargetProperty="Width" Converter="{StaticResource SliderWidthConverter}" Mode="OneWay">
-                        <multiBiding:BindingCollection>
-                            <Binding Path="Maximum" ElementName="Slider" Mode="OneWay"/>
-                            <Binding Path="Minimum" ElementName="Slider" Mode="OneWay"/>
-                            <Binding Path="Maximum" ElementName="MaximumSlider" Mode="OneWay"/>
-                            <Binding Path="Width" ElementName="MaximumSlider" Mode="OneWay"/>
-                        </multiBiding:BindingCollection>
-                    </multiBiding:MultiBinding>
-                </multiBiding:MultiBindings>
-            </multiBiding:BindingUtil.MultiBindings>
+
 
         </Slider>
-        <Slider x:Name="MaximumSlider"
+        <Slider x:Name="maximumSlider"
                 Maximum="100" Width="230"
                 Visibility="Collapsed" 
                 />
+        
+        <Slider x:Name="valueSlider"
+                
+                Visibility="Collapsed" Background="{Binding Source={StaticResource sliderThumbColor}, Path=Color, Mode=TwoWay}" />
 
     </Canvas>
 </UserControl>
