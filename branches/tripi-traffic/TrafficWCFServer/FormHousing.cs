@@ -22,8 +22,10 @@ namespace TrafficWCFServer
             TrafficService singleton = new TrafficService();
             singleton.Log += LogToBox;
 
-            ServiceServerHelper.StartServiceHost<ITrafficService, ICrossDomainPolicyResponder, TrafficService>(singleton, "Eiskonfekt.svc", "");
-            //ServiceServerHelper.StartServiceHost<ICrossDomainPolicyResponder, TrafficService>(singleton, "");
+            //ServiceServerHelper.StartServiceHost<ITrafficService, ICrossDomainPolicyResponder, TrafficService>(singleton, "Eiskonfekt.svc", "");
+            
+            ServiceServerHelper.StartServiceHost<ITrafficService, TrafficService>(singleton, "Eiskonfekt.svc");
+            ServiceServerHelper.StartWebServiceHost<ICrossDomainPolicyResponder, TrafficService>(singleton, "");
 
             textBoxLog.AppendText("Servin' has start'd...\r\n");
         }
