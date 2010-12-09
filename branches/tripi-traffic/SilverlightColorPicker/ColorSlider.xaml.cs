@@ -26,6 +26,7 @@ namespace ColorPickerControl
         //public SolidColorBrush SliderThumbColor { get { SolidColorBrush col = null; try { col = (SolidColorBrush)this.Resources["sliderThumbColor"]; } catch { } return col; } }
         public SolidColorBrush Color { get; set; }
         public event RoutedPropertyChangedEventHandler<double> SliderValueChanged { add { Slider.ValueChanged += value; } remove { Slider.ValueChanged -= value; } }
+        public event MouseButtonEventHandler SliderClick { add { Slider.MouseLeftButtonDown += value; } remove { Slider.MouseLeftButtonDown -= value; } } 
 
         public ColorSlider()
         {
