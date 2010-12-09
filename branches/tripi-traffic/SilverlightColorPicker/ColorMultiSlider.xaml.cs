@@ -32,27 +32,20 @@ namespace ColorPickerControl
             ColorSlider slider = new ColorSlider();
             initialSliderMargin = slider.MaximumValue / sliderNumber;
             sliders = new List<ColorSlider>();
-            slider = new ColorSlider();
-            slider.ValueSlider.Value = 0;
-            slider.ValueSlider.Minimum = 0;
-            slider.ValueSlider.Maximum = initialSliderMargin - miniumSliderMargin + 1;
-            //slider.ValueSlider.Background = new SolidColorBrush(Color.FromArgb(0, 120, 120, 120));
-            slider.SliderValueChanged += new RoutedPropertyChangedEventHandler<double>(Slider_ValueChanged);
-            sliders.Add(slider);
             SliderNumber = sliderNumber;
         }
 
         public int findSliderListPosition(Slider slider)
         {
-            for (int i = 0; i < sliders.Count; i++)
+            return (int)slider.Tag;
+            /*for (int i = 0; i < sliders.Count; i++)
             {
-                if (slider.Minimum == sliders[i].Minimum &&
-                    slider.Maximum == sliders[i].Maximum)
+                if (value == sliders[i].ValueSlider.Value)
                 {
                     return i;
                 }
             }
-            return 0;
+            return -1;*/
         }
 
         void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
@@ -60,11 +53,15 @@ namespace ColorPickerControl
             Slider slider = (Slider)sender;
             ColorSlider colorSlider = new ColorSlider();
             int i = findSliderListPosition(slider);
+            if (i == -1)
+            {
+                return;
+            }
             if (i + 1 < sliders.Count)
             {
                 if (e.NewValue + miniumSliderMargin > sliders[i + 1].ValueSlider.Value)
                 {
-                    sliders[i].ValueSlider.Value = sliders[i + 1].ValueSlider.Value - miniumSliderMargin; //e.OldValue;
+                    sliders[i].ValueSlider.Value = slider.Value = e.OldValue;
                     return;
                 }
                 if (colorSlider.MaximumValue != slider.Maximum &&
@@ -72,20 +69,31 @@ namespace ColorPickerControl
                 {
                     if ((e.NewValue + miniumSliderMargin < sliders[i + 1].Value))
                     {
-                        sliders[i].ValueSlider.Maximum = e.NewValue + 1;
-                        sliders[i].ValueSlider.Value = e.NewValue;
+                        sliders[i].ValueSlider.Maximum = slider.Maximum = e.NewValue + 1;
+                        sliders[i].ValueSlider.Value = slider.Value = e.NewValue;
                         sliders[i + 1].ValueSlider.Minimum = e.NewValue + miniumSliderMargin;
                     }
                 }
+            }
+
+            // maybe != ....
+            if (slider.Value < sliders[i].ValueSlider.Minimum ||
+                slider.Value > sliders[i].ValueSlider.Maximum)
+            {
+                //slider.Value = sliders[i].ValueSlider.Value;
             }
         }
 
         protected void UpdateSliderNumber()
         {
-            for (int i = sliders.Count; i < SliderNumber; i++)
+            double previousValue = -initialSliderMargin;
+            for (int i = 0; i < SliderNumber; i++)
             {
                 ColorSlider slider = new ColorSlider();
-                double value = sliders[i - 1].ValueSlider.Value + initialSliderMargin;
+                slider.Slider.Tag = i;
+                //slider.ValueSlider.Background = new SolidColorBrush(Color.FromArgb(0, 120, 120, 120));
+                double value = previousValue + initialSliderMargin;
+                previousValue = value;
                 if (i == SliderNumber - 1)
                 {
                     // last one
@@ -97,7 +105,7 @@ namespace ColorPickerControl
                 }
                 slider.ValueSlider.Minimum = value;
                 slider.ValueSlider.Value = value;
-                
+
                 slider.SliderValueChanged += new RoutedPropertyChangedEventHandler<double>(Slider_ValueChanged);
                 sliders.Add(slider);
             }
@@ -110,3 +118,4 @@ namespace ColorPickerControl
         }
     }
 }
+
