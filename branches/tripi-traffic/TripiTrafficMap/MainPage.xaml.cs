@@ -36,7 +36,7 @@ namespace TripiTrafficMap
         {
             //Map.Width = Application.Current.Host.Content.ActualWidth;
             mapStartPositionAdjuster = new MapStartPositionAdjuster(Map);
-            EndpointAddress endpoint = new EndpointAddress("http://localhost:1337/");
+            EndpointAddress endpoint = new EndpointAddress("http://127.0.0.1:1337/Eiskonfekt.svc");
             trafficServiceClient = new TrafficServiceClient(new BasicHttpBinding(), endpoint);
             trafficServiceClient.GetEstimationPointCompleted += new EventHandler<GetEstimationPointCompletedEventArgs>(trafficServiceClient_GetEstimationPointCompleted);
             drawTestPolyline();
@@ -65,8 +65,11 @@ namespace TripiTrafficMap
                 reader.ReadToFollowing("Longitude");
                 reader.Read();
                 point.Longitude = Double.Parse(reader.Value, System.Globalization.NumberStyles.Any, new NumberFormatInfo());
-                trafficServiceClient.GetEstimationPointAsync(point.Latitude, point.Longitude, DateTime.Parse("13:37"));
-                //points.Add(point);
+                reader.ReadToFollowing("Speed");
+                reader.Read();
+                point.Altitude = Double.Parse(reader.Value, System.Globalization.NumberStyles.Any, new NumberFormatInfo());
+                //trafficServiceClient.GetEstimationPointAsync(point.Latitude, point.Longitude, DateTime.Parse("13:37"));
+                points.Add(point);
             }
             reader.Close();
 
