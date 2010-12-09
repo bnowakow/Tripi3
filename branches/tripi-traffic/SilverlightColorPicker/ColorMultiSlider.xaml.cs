@@ -53,10 +53,10 @@ namespace ColorPickerControl
             Slider slider = (Slider)sender;
             ColorSlider colorSlider = new ColorSlider();
             int i = findSliderListPosition(slider);
-            if (i == -1)
+            /*if (i == -1)
             {
                 return;
-            }
+            }*/
             if (i + 1 < sliders.Count)
             {
                 if (e.NewValue + miniumSliderMargin > sliders[i + 1].ValueSlider.Value)
@@ -64,8 +64,9 @@ namespace ColorPickerControl
                     sliders[i].ValueSlider.Value = slider.Value = e.OldValue;
                     return;
                 }
-                if (colorSlider.MaximumValue != slider.Maximum &&
-                    e.NewValue == slider.Maximum)
+                //colorSlider.MaximumValue != slider.Maximum &&
+                if (
+                    e.NewValue >= sliders[i].ValueSlider.Maximum - 1)
                 {
                     if ((e.NewValue + miniumSliderMargin < sliders[i + 1].Value))
                     {
