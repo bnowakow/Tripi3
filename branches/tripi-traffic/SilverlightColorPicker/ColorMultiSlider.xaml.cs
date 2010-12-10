@@ -34,7 +34,7 @@ namespace ColorPickerControl
             InitializeComponent();
             int sliderNumber = 6;
             ColorSlider slider = new ColorSlider();
-            initialSliderMargin = slider.MaximumValue / (sliderNumber - 1);
+            initialSliderMargin = slider.MaximumSlider.Maximum / (sliderNumber - 1);
             sliders = new List<ColorSlider>();
             SliderNumber = sliderNumber;
         }
@@ -63,7 +63,7 @@ namespace ColorPickerControl
                 }
                 if (e.NewValue >= sliders[i].ValueSlider.Maximum - 1)
                 {
-                    if ((e.NewValue + miniumSliderMargin < sliders[i + 1].Value))
+                    if ((e.NewValue + miniumSliderMargin < sliders[i + 1].ValueSlider.Value))
                     {
                         sliders[i].ValueSlider.Maximum = e.NewValue + 1;
                         sliders[i].ValueSlider.Value = slider.Value = e.NewValue;
@@ -83,7 +83,7 @@ namespace ColorPickerControl
                 }
                 if (e.NewValue <= sliders[i].ValueSlider.Minimum + 1)
                 {
-                    if ((e.NewValue - miniumSliderMargin > sliders[i - 1].Value))
+                    if ((e.NewValue - miniumSliderMargin > sliders[i - 1].ValueSlider.Value))
                     {
                         sliders[i].ValueSlider.Minimum = e.NewValue - 1;
                         sliders[i].ValueSlider.Value = slider.Value = e.NewValue;

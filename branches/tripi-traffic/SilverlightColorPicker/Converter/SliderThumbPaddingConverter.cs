@@ -14,11 +14,6 @@ namespace ColorPickerControl.Converter
 {
     public class SliderThumbPaddingConverter : IMultiValueConverter /*, IValueConverter */
     {
-        public double Convert(ColorSlider colorSlider)
-        {
-            return (double)this.Convert(new object[] { colorSlider.Value, colorSlider.MaximumValue, colorSlider.Minimum, colorSlider.SliderWidth, colorSlider.Maximum }, null, null, null);
-        }
-
         public object Convert(object[] values, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
             int bindingArgumentsNumber = 5;
@@ -49,23 +44,5 @@ namespace ColorPickerControl.Converter
         {
             throw new NotImplementedException();
         }
-
-        /*
-        public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
-        {
-            double sliderValue = (double)value; //slider.Value
-            // TODO get them from WTF hell? ;x 
-            // or do multibinding...argh
-            double sliderMaximum = 100;
-            double sliderWidth = 230 * 0.95;
-            double padding = sliderValue / sliderMaximum * sliderWidth;
-            return padding + 2; // Slider.Canvas.left
-        }
-        
-        public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
-        {
-            throw new NotImplementedException();
-        }
-         * */
     }
 }
