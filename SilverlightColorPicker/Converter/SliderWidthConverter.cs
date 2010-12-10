@@ -14,11 +14,6 @@ namespace ColorPickerControl.Converter
 {
     public class SliderWidthConverter : IMultiValueConverter
     {
-        public double Convert(ColorSlider colorSlider)
-        {
-            return (double)this.Convert(new object[] { colorSlider.Maximum, colorSlider.Minimum, colorSlider.MaximumValue, colorSlider.MaximumWidth }, null, null, null);
-        }
-        
         public object Convert(object[] values, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
             int bindingArgumentsNumber = 4;
