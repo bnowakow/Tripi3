@@ -17,24 +17,13 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <local:ColorMultiSlider />
+        <local:ColorMultiSlider x:Name="colorMultiSlider" />
         <Border Margin="1,1,1,1" 
                         Grid.Row="1" 
                         BorderBrush="#FF262626" 
                         BorderThickness="1,1,1,1" 
                         CornerRadius="6,6,6,6" 
-                        x:Name="RainbowBorder">
-            <Border.Background>
-                <LinearGradientBrush EndPoint="0,0" StartPoint="1,0">
-                    <GradientStop Color="#FFFF0000"/>
-                    <GradientStop Color="#FFFFFF00" Offset="0.16666"/>
-                    <GradientStop Color="#FF00FF00" Offset="0.33332"/>
-                    <GradientStop Color="#FF00FFFF" Offset="0.5"/>
-                    <GradientStop Color="#FF0000FF" Offset="0.66666"/>
-                    <GradientStop Color="#FEFF00FF" Offset="0.83333"/>
-                    <GradientStop Color="#FFFF0000" Offset="1"/>
-                </LinearGradientBrush>
-            </Border.Background>
+                        x:Name="gradientBorder">
             <Canvas x:Name="HueCanvas"
                             IsHitTestVisible="False" UseLayoutRounding="False">               
             </Canvas>

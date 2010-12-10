@@ -13,18 +13,21 @@ using ColorPickerControl.Converter;
 
 namespace ColorPickerControl
 {
+    public delegate void MultiSliderValueChangedDelegate(IList<ColorSlider> Sliders);
+
     public partial class ColorMultiSlider : UserControl
     {
 
         public int SliderNumber { get { return sliderNumber; } set { if (value > 0 && value < 10) { sliderNumber = value; UpdateSliderNumber(); } } }
         protected int sliderNumber;
 
-        public IList<ColorSlider> Sliders { get { return Sliders; } }
+        public IList<ColorSlider> Sliders { get { return sliders; } }
         protected IList<ColorSlider> sliders;
         public int ActiveSlider { get { return activeSlider; } }
         protected int activeSlider;
         protected double miniumSliderMargin = 4.0;
         protected double initialSliderMargin;
+        public event MultiSliderValueChangedDelegate OnValueChanged;
 
         public ColorMultiSlider()
         {
@@ -91,6 +94,10 @@ namespace ColorPickerControl
                     }
                 }
             }
+            if (OnValueChanged != null)
+            {
+                OnValueChanged(Sliders);
+            }
         }
 
         protected void UpdateSliderNumber()
@@ -100,7 +107,8 @@ namespace ColorPickerControl
             {
                 ColorSlider slider = new ColorSlider();
                 slider.Slider.Tag = i;
-                //slider.ValueSlider.Background = new SolidColorBrush(Color.FromArgb(0, 120, 120, 120));
+                byte colorValue = (byte)(i * 255 / SliderNumber);
+                slider.Color = Color.FromArgb(255, (byte)(255 - colorValue), (byte)Math.Log10(colorValue), colorValue);
                 double value = previousValue + initialSliderMargin;
                 slider.ValueSlider.Maximum = value + initialSliderMargin - miniumSliderMargin + 1;
                 slider.ValueSlider.Minimum = value - 1;
@@ -134,7 +142,7 @@ namespace ColorPickerControl
             activeSlider = i;
         }
 
-        public void SetColor(SolidColorBrush color) 
+        public void SetColor(Color color) 
         {
             sliders[activeSlider].Color = color;
         }
