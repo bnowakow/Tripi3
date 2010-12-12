@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using GPSMobile;
 
-namespace Tripi.wcf
+namespace Tripi
 {
     static class Utils
     {
