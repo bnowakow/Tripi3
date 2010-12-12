@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.ServiceModel;
+using TrafficLibrary;
 
 namespace TrafficDebugVisualizer.WCF
 {
@@ -15,7 +16,9 @@ namespace TrafficDebugVisualizer.WCF
 
         public TrafficLibrary.EstimationPoint GetEstimationPoint(string lat, string lon, string tiem)
         {
-            EstimationPoint ep = GetEstimationPoint(double.Parse(lat), double.Parse(lon), DateTime.Parse(tiem));
+            TrafficQuery query = new TrafficQuery(0, double.Parse(lat), double.Parse(lon), DateTime.Parse(tiem));
+            TrafficQueryResult result = GetEstimationPoint(query);
+            EstimationPoint ep = result.Point;
             return new TrafficLibrary.EstimationPoint(ep.Date, ep.Latitude, ep.Longitude, ep.Speed);
         }
     }

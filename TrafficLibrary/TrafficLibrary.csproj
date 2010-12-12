@@ -59,6 +59,8 @@
     <Compile Include="EstimationStrategy.cs" />
     <Compile Include="ICrossDomainPolicyResponder.cs" />
     <Compile Include="ITrafficService.cs" />
+    <Compile Include="TrafficQuery.cs" />
+    <Compile Include="TrafficQueryResult.cs" />
     <Compile Include="RadialEstimationStrategy.cs" />
     <Compile Include="RawPoint.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -15,6 +15,138 @@ namespace TrafficDebugVisualizer.WCF
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "3.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="TrafficQuery", Namespace="http://schemas.datacontract.org/2004/07/TrafficLibrary")]
+    public partial class TrafficQuery : object, System.Runtime.Serialization.IExtensibleDataObject
+    {
+        
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        private System.DateTime DateField;
+        
+        private double LatitudeField;
+        
+        private double LongitudeField;
+        
+        private int QueryIdField;
+        
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData
+        {
+            get
+            {
+                return this.extensionDataField;
+            }
+            set
+            {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Date
+        {
+            get
+            {
+                return this.DateField;
+            }
+            set
+            {
+                this.DateField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public double Latitude
+        {
+            get
+            {
+                return this.LatitudeField;
+            }
+            set
+            {
+                this.LatitudeField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public double Longitude
+        {
+            get
+            {
+                return this.LongitudeField;
+            }
+            set
+            {
+                this.LongitudeField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int QueryId
+        {
+            get
+            {
+                return this.QueryIdField;
+            }
+            set
+            {
+                this.QueryIdField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "3.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="TrafficQueryResult", Namespace="http://schemas.datacontract.org/2004/07/TrafficLibrary")]
+    public partial class TrafficQueryResult : object, System.Runtime.Serialization.IExtensibleDataObject
+    {
+        
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        private TrafficDebugVisualizer.WCF.EstimationPoint PointField;
+        
+        private int QueryIdField;
+        
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData
+        {
+            get
+            {
+                return this.extensionDataField;
+            }
+            set
+            {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public TrafficDebugVisualizer.WCF.EstimationPoint Point
+        {
+            get
+            {
+                return this.PointField;
+            }
+            set
+            {
+                this.PointField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int QueryId
+        {
+            get
+            {
+                return this.QueryIdField;
+            }
+            set
+            {
+                this.QueryIdField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "3.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="EstimationPoint", Namespace="http://schemas.datacontract.org/2004/07/TrafficLibrary")]
     public partial class EstimationPoint : object, System.Runtime.Serialization.IExtensibleDataObject
     {
@@ -100,7 +232,7 @@ namespace TrafficDebugVisualizer.WCF
     {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITrafficService/GetEstimationPoint", ReplyAction="http://tempuri.org/ITrafficService/GetEstimationPointResponse")]
-        TrafficDebugVisualizer.WCF.EstimationPoint GetEstimationPoint(double latitude, double longitude, System.DateTime date);
+        TrafficDebugVisualizer.WCF.TrafficQueryResult GetEstimationPoint(TrafficDebugVisualizer.WCF.TrafficQuery query);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
@@ -137,9 +269,9 @@ namespace TrafficDebugVisualizer.WCF
         {
         }
         
-        public TrafficDebugVisualizer.WCF.EstimationPoint GetEstimationPoint(double latitude, double longitude, System.DateTime date)
+        public TrafficDebugVisualizer.WCF.TrafficQueryResult GetEstimationPoint(TrafficDebugVisualizer.WCF.TrafficQuery query)
         {
-            return base.Channel.GetEstimationPoint(latitude, longitude, date);
+            return base.Channel.GetEstimationPoint(query);
         }
     }
     

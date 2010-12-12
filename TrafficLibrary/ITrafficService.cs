@@ -10,6 +10,6 @@ namespace TrafficLibrary
     public interface ITrafficService
     {
         [OperationContract]
-        EstimationPoint GetEstimationPoint(double latitude, double longitude, DateTime date);
+        TrafficQueryResult GetEstimationPoint(TrafficQuery query);
     }
 }

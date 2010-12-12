@@ -16,7 +16,145 @@ namespace TrafficMobile.WCF
     public interface ITrafficService
     {
         
-        TrafficMobile.WCF.EstimationPoint GetEstimationPoint(double latitude, double longitude, System.DateTime date);
+        TrafficMobile.WCF.TrafficQueryResult GetEstimationPoint(TrafficMobile.WCF.TrafficQuery query);
+    }
+    
+    /// <uwagi/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("NetCFSvcUtil", "3.5.0.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/TrafficLibrary")]
+    public partial class TrafficQuery
+    {
+        
+        private System.DateTime dateField;
+        
+        private bool dateFieldSpecified;
+        
+        private double latitudeField;
+        
+        private bool latitudeFieldSpecified;
+        
+        private double longitudeField;
+        
+        private bool longitudeFieldSpecified;
+        
+        private int queryIdField;
+        
+        private bool queryIdFieldSpecified;
+        
+        /// <uwagi/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public System.DateTime Date
+        {
+            get
+            {
+                return this.dateField;
+            }
+            set
+            {
+                this.dateField = value;
+            }
+        }
+        
+        /// <uwagi/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool DateSpecified
+        {
+            get
+            {
+                return this.dateFieldSpecified;
+            }
+            set
+            {
+                this.dateFieldSpecified = value;
+            }
+        }
+        
+        /// <uwagi/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public double Latitude
+        {
+            get
+            {
+                return this.latitudeField;
+            }
+            set
+            {
+                this.latitudeField = value;
+            }
+        }
+        
+        /// <uwagi/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool LatitudeSpecified
+        {
+            get
+            {
+                return this.latitudeFieldSpecified;
+            }
+            set
+            {
+                this.latitudeFieldSpecified = value;
+            }
+        }
+        
+        /// <uwagi/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public double Longitude
+        {
+            get
+            {
+                return this.longitudeField;
+            }
+            set
+            {
+                this.longitudeField = value;
+            }
+        }
+        
+        /// <uwagi/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool LongitudeSpecified
+        {
+            get
+            {
+                return this.longitudeFieldSpecified;
+            }
+            set
+            {
+                this.longitudeFieldSpecified = value;
+            }
+        }
+        
+        /// <uwagi/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public int QueryId
+        {
+            get
+            {
+                return this.queryIdField;
+            }
+            set
+            {
+                this.queryIdField = value;
+            }
+        }
+        
+        /// <uwagi/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool QueryIdSpecified
+        {
+            get
+            {
+                return this.queryIdFieldSpecified;
+            }
+            set
+            {
+                this.queryIdFieldSpecified = value;
+            }
+        }
     }
     
     /// <uwagi/>
@@ -157,30 +295,80 @@ namespace TrafficMobile.WCF
         }
     }
     
+    /// <uwagi/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("NetCFSvcUtil", "3.5.0.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/TrafficLibrary")]
+    public partial class TrafficQueryResult
+    {
+        
+        private EstimationPoint pointField;
+        
+        private int queryIdField;
+        
+        private bool queryIdFieldSpecified;
+        
+        /// <uwagi/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
+        public EstimationPoint Point
+        {
+            get
+            {
+                return this.pointField;
+            }
+            set
+            {
+                this.pointField = value;
+            }
+        }
+        
+        /// <uwagi/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public int QueryId
+        {
+            get
+            {
+                return this.queryIdField;
+            }
+            set
+            {
+                this.queryIdField = value;
+            }
+        }
+        
+        /// <uwagi/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool QueryIdSpecified
+        {
+            get
+            {
+                return this.queryIdFieldSpecified;
+            }
+            set
+            {
+                this.queryIdFieldSpecified = value;
+            }
+        }
+    }
+    
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
     [System.Xml.Serialization.XmlRootAttribute(ElementName="GetEstimationPoint", Namespace="http://tempuri.org/")]
     public partial class GetEstimationPointRequest
     {
         
-        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://tempuri.org/", Order=0)]
-        public double latitude;
-        
-        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://tempuri.org/", Order=1)]
-        public double longitude;
-        
-        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://tempuri.org/", Order=2)]
-        public System.DateTime date;
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Namespace="http://tempuri.org/", Order=0)]
+        public TrafficMobile.WCF.TrafficQuery query;
         
         public GetEstimationPointRequest()
         {
         }
         
-        public GetEstimationPointRequest(double latitude, double longitude, System.DateTime date)
+        public GetEstimationPointRequest(TrafficMobile.WCF.TrafficQuery query)
         {
-            this.latitude = latitude;
-            this.longitude = longitude;
-            this.date = date;
+            this.query = query;
         }
     }
     
@@ -191,13 +379,13 @@ namespace TrafficMobile.WCF
     {
         
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Namespace="http://tempuri.org/", Order=0)]
-        public TrafficMobile.WCF.EstimationPoint GetEstimationPointResult;
+        public TrafficMobile.WCF.TrafficQueryResult GetEstimationPointResult;
         
         public GetEstimationPointResponse()
         {
         }
         
-        public GetEstimationPointResponse(TrafficMobile.WCF.EstimationPoint GetEstimationPointResult)
+        public GetEstimationPointResponse(TrafficMobile.WCF.TrafficQueryResult GetEstimationPointResult)
         {
             this.GetEstimationPointResult = GetEstimationPointResult;
         }
@@ -225,9 +413,9 @@ namespace TrafficMobile.WCF
             return retVal;
         }
         
-        public TrafficMobile.WCF.EstimationPoint GetEstimationPoint(double latitude, double longitude, System.DateTime date)
+        public TrafficMobile.WCF.TrafficQueryResult GetEstimationPoint(TrafficMobile.WCF.TrafficQuery query)
         {
-            GetEstimationPointRequest request = new GetEstimationPointRequest(latitude, longitude, date);
+            GetEstimationPointRequest request = new GetEstimationPointRequest(query);
             GetEstimationPointResponse response = this.GetEstimationPoint(request);
             return response.GetEstimationPointResult;
         }

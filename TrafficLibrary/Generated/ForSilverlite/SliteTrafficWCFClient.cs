@@ -18,6 +18,110 @@ namespace TrafficLibrary
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "3.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="TrafficQuery", Namespace="http://schemas.datacontract.org/2004/07/TrafficLibrary")]
+    public partial class TrafficQuery : object
+    {
+        
+        private System.DateTime DateField;
+        
+        private double LatitudeField;
+        
+        private double LongitudeField;
+        
+        private int QueryIdField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Date
+        {
+            get
+            {
+                return this.DateField;
+            }
+            set
+            {
+                this.DateField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public double Latitude
+        {
+            get
+            {
+                return this.LatitudeField;
+            }
+            set
+            {
+                this.LatitudeField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public double Longitude
+        {
+            get
+            {
+                return this.LongitudeField;
+            }
+            set
+            {
+                this.LongitudeField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int QueryId
+        {
+            get
+            {
+                return this.QueryIdField;
+            }
+            set
+            {
+                this.QueryIdField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "3.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="TrafficQueryResult", Namespace="http://schemas.datacontract.org/2004/07/TrafficLibrary")]
+    public partial class TrafficQueryResult : object
+    {
+        
+        private TrafficLibrary.EstimationPoint PointField;
+        
+        private int QueryIdField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public TrafficLibrary.EstimationPoint Point
+        {
+            get
+            {
+                return this.PointField;
+            }
+            set
+            {
+                this.PointField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int QueryId
+        {
+            get
+            {
+                return this.QueryIdField;
+            }
+            set
+            {
+                this.QueryIdField = value;
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "3.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="EstimationPoint", Namespace="http://schemas.datacontract.org/2004/07/TrafficLibrary")]
     public partial class EstimationPoint : object
     {
@@ -91,9 +195,9 @@ public interface ITrafficService
 {
     
     [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITrafficService/GetEstimationPoint", ReplyAction="http://tempuri.org/ITrafficService/GetEstimationPointResponse")]
-    System.IAsyncResult BeginGetEstimationPoint(double latitude, double longitude, System.DateTime date, System.AsyncCallback callback, object asyncState);
+    System.IAsyncResult BeginGetEstimationPoint(TrafficLibrary.TrafficQuery query, System.AsyncCallback callback, object asyncState);
     
-    TrafficLibrary.EstimationPoint EndGetEstimationPoint(System.IAsyncResult result);
+    TrafficLibrary.TrafficQueryResult EndGetEstimationPoint(System.IAsyncResult result);
 }
 
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]
@@ -114,12 +218,12 @@ public partial class GetEstimationPointCompletedEventArgs : System.ComponentMode
         this.results = results;
     }
     
-    public TrafficLibrary.EstimationPoint Result
+    public TrafficLibrary.TrafficQueryResult Result
     {
         get
         {
             base.RaiseExceptionIfNecessary();
-            return ((TrafficLibrary.EstimationPoint)(this.results[0]));
+            return ((TrafficLibrary.TrafficQueryResult)(this.results[0]));
         }
     }
 }
@@ -207,28 +311,26 @@ public partial class TrafficServiceClient : System.ServiceModel.ClientBase<ITraf
     public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> CloseCompleted;
     
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    System.IAsyncResult ITrafficService.BeginGetEstimationPoint(double latitude, double longitude, System.DateTime date, System.AsyncCallback callback, object asyncState)
+    System.IAsyncResult ITrafficService.BeginGetEstimationPoint(TrafficLibrary.TrafficQuery query, System.AsyncCallback callback, object asyncState)
     {
-        return base.Channel.BeginGetEstimationPoint(latitude, longitude, date, callback, asyncState);
+        return base.Channel.BeginGetEstimationPoint(query, callback, asyncState);
     }
     
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    TrafficLibrary.EstimationPoint ITrafficService.EndGetEstimationPoint(System.IAsyncResult result)
+    TrafficLibrary.TrafficQueryResult ITrafficService.EndGetEstimationPoint(System.IAsyncResult result)
     {
         return base.Channel.EndGetEstimationPoint(result);
     }
     
     private System.IAsyncResult OnBeginGetEstimationPoint(object[] inValues, System.AsyncCallback callback, object asyncState)
     {
-        double latitude = ((double)(inValues[0]));
-        double longitude = ((double)(inValues[1]));
-        System.DateTime date = ((System.DateTime)(inValues[2]));
-        return ((ITrafficService)(this)).BeginGetEstimationPoint(latitude, longitude, date, callback, asyncState);
+        TrafficLibrary.TrafficQuery query = ((TrafficLibrary.TrafficQuery)(inValues[0]));
+        return ((ITrafficService)(this)).BeginGetEstimationPoint(query, callback, asyncState);
     }
     
     private object[] OnEndGetEstimationPoint(System.IAsyncResult result)
     {
-        TrafficLibrary.EstimationPoint retVal = ((ITrafficService)(this)).EndGetEstimationPoint(result);
+        TrafficLibrary.TrafficQueryResult retVal = ((ITrafficService)(this)).EndGetEstimationPoint(result);
         return new object[] {
                 retVal};
     }
@@ -242,12 +344,12 @@ public partial class TrafficServiceClient : System.ServiceModel.ClientBase<ITraf
         }
     }
     
-    public void GetEstimationPointAsync(double latitude, double longitude, System.DateTime date)
+    public void GetEstimationPointAsync(TrafficLibrary.TrafficQuery query)
     {
-        this.GetEstimationPointAsync(latitude, longitude, date, null);
+        this.GetEstimationPointAsync(query, null);
     }
     
-    public void GetEstimationPointAsync(double latitude, double longitude, System.DateTime date, object userState)
+    public void GetEstimationPointAsync(TrafficLibrary.TrafficQuery query, object userState)
     {
         if ((this.onBeginGetEstimationPointDelegate == null))
         {
@@ -262,9 +364,7 @@ public partial class TrafficServiceClient : System.ServiceModel.ClientBase<ITraf
             this.onGetEstimationPointCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnGetEstimationPointCompleted);
         }
         base.InvokeAsync(this.onBeginGetEstimationPointDelegate, new object[] {
-                    latitude,
-                    longitude,
-                    date}, this.onEndGetEstimationPointDelegate, this.onGetEstimationPointCompletedDelegate, userState);
+                    query}, this.onEndGetEstimationPointDelegate, this.onGetEstimationPointCompletedDelegate, userState);
     }
     
     private System.IAsyncResult OnBeginOpen(object[] inValues, System.AsyncCallback callback, object asyncState)
@@ -364,20 +464,18 @@ public partial class TrafficServiceClient : System.ServiceModel.ClientBase<ITraf
         {
         }
         
-        public System.IAsyncResult BeginGetEstimationPoint(double latitude, double longitude, System.DateTime date, System.AsyncCallback callback, object asyncState)
+        public System.IAsyncResult BeginGetEstimationPoint(TrafficLibrary.TrafficQuery query, System.AsyncCallback callback, object asyncState)
         {
-            object[] _args = new object[3];
-            _args[0] = latitude;
-            _args[1] = longitude;
-            _args[2] = date;
+            object[] _args = new object[1];
+            _args[0] = query;
             System.IAsyncResult _result = base.BeginInvoke("GetEstimationPoint", _args, callback, asyncState);
             return _result;
         }
         
-        public TrafficLibrary.EstimationPoint EndGetEstimationPoint(System.IAsyncResult result)
+        public TrafficLibrary.TrafficQueryResult EndGetEstimationPoint(System.IAsyncResult result)
         {
             object[] _args = new object[0];
-            TrafficLibrary.EstimationPoint _result = ((TrafficLibrary.EstimationPoint)(base.EndInvoke("GetEstimationPoint", _args, result)));
+            TrafficLibrary.TrafficQueryResult _result = ((TrafficLibrary.TrafficQueryResult)(base.EndInvoke("GetEstimationPoint", _args, result)));
             return _result;
         }
     }
