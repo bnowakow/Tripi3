@@ -92,6 +92,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="WCF\TrafficQuery.cs" />
     <Compile Include="WCF\TrafficServiceClient.cs" />
     <Compile Include="WCF\WinTrafficWCFClient.cs" />
   </ItemGroup>

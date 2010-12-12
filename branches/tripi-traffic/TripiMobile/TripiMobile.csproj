@@ -69,6 +69,8 @@
     </Compile>
     <Compile Include="data\DataManager.cs" />
     <Compile Include="data\FileManager.cs" />
+    <Compile Include="gps\IMovementProvider.cs" />
+    <Compile Include="gps\OmniaMovementProvider.cs" />
     <Compile Include="TrafficForm.cs">
       <SubType>Form</SubType>
     </Compile>

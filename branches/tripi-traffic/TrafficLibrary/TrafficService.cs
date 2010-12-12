@@ -11,15 +11,17 @@ namespace TrafficLibrary
     {
         private const string rawPointFile = "_all.xml";
 
-        public override EstimationPoint GetEstimationPoint(double latitude, double longitude, DateTime date)
+        public override TrafficQueryResult GetEstimationPoint(TrafficQuery query)
         {
             HttpRequestMessageProperty request = System.ServiceModel.OperationContext.Current.IncomingMessageProperties["httpRequest"] as HttpRequestMessageProperty;
-            OnLog("{0}: ({1};{2}) @ {3}".F(request.Method, latitude, longitude, date));
+            OnLog("{0}: ({1};{2}) @ {3}".F(request.Method, query.Latitude, query.Longitude, query.Date));
 
             Estimation estimation = new Estimation(new RadialEstimationStrategy(), rawPointFile);
-            EstimationPoint point = estimation.CalculateEstimationPoint(latitude, longitude, date);
+            EstimationPoint point = estimation.CalculateEstimationPoint(query.Latitude, query.Longitude, query.Date);
             OnLog(point.ToString());
-            return point;
+
+            TrafficQueryResult result = new TrafficQueryResult(query.QueryId, point);
+            return result;
         }
     }
 }

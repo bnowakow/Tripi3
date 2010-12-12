@@ -17,7 +17,7 @@ namespace TrafficLibrary
             if (Log != null) Log(message);
         }
 
-        public abstract EstimationPoint GetEstimationPoint(double latitude, double longitude, DateTime date);
+        public abstract TrafficQueryResult GetEstimationPoint(TrafficQuery query);
 
         #region ICrossDomainPolicyResponder Members
 
