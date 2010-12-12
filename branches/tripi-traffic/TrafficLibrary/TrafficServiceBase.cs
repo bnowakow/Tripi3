@@ -7,7 +7,7 @@ using System.IO;
 
 namespace TrafficLibrary
 {
-    [System.ServiceModel.ServiceBehavior(InstanceContextMode=System.ServiceModel.InstanceContextMode.Single)]
+    [System.ServiceModel.ServiceBehavior(InstanceContextMode = System.ServiceModel.InstanceContextMode.Single, IncludeExceptionDetailInFaults = true)]
     public abstract class TrafficServiceBase : ITrafficService, ICrossDomainPolicyResponder
     {
         public event Action<string> Log;
