@@ -11,6 +11,7 @@ using System.Windows.Shapes;
 using System.Collections.Generic;
 using Microsoft.Maps.MapControl;
 using TripiTrafficMap.Util.Interface;
+using TripiTrafficMap.TrafficServiceReference;
 
 namespace TripiTrafficMap.Util
 {
@@ -25,7 +26,7 @@ namespace TripiTrafficMap.Util
             this.pixelBorder = pixelBorder;
         }
 
-        public void SetMapCenterPointAndZoomLevel(IList<Location> locations)
+        public void SetMapCenterPointAndZoomLevel(IList<EstimationPoint> locations)
         {
             this.SetMapCenterPointAndZoomLevel(locations, this.map, this.pixelBorder);
         }
@@ -36,7 +37,7 @@ namespace TripiTrafficMap.Util
         /// <param name="locations">List of points which should be visible at the same time</param>
         /// <param name="map">Map which will be customized</param>
         /// <param name="pixelBorder">Margin in pixels around points</param>
-        public void SetMapCenterPointAndZoomLevel(IList<Location> locations, Map map, int pixelBorder)
+        public void SetMapCenterPointAndZoomLevel(IList<EstimationPoint> locations, Map map, int pixelBorder)
         {
             Location center = new Location();
             double zoomLevel = 0.0;

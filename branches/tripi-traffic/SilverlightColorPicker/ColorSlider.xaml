@@ -3,7 +3,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:local="clr-namespace:ColorPickerControl"
     xmlns:multiBiding="clr-namespace:SLMultiBinding;assembly=SLMultiBinding"
     
     xmlns:converter="clr-namespace:ColorPickerControl.Converter"
@@ -11,7 +10,6 @@
     <UserControl.Resources>
         <converter:SliderThumbPaddingConverter x:Key="SliderThumbPaddingConverter" />
         <converter:DoubleToInt x:Key="DoubleToInt" />
-        <converter:SliderWidthConverter x:Key="SliderWidthConverter" />
 
         <SolidColorBrush x:Key="sliderThumbColor">sc#1, 0.548430264, 0.5354195, 0.5354195</SolidColorBrush>
 

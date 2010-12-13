@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e60f2bed-1e12-4123-9163-82da3a517efb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://127.0.0.1:1337/Eiskonfekt.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Eiskonfekt.xsd" MetadataType="Schema" ID="a421f4eb-5a27-462d-b2a7-6dd8b419f552" SourceId="1" SourceUrl="http://127.0.0.1:1337/Eiskonfekt.svc?xsd=xsd2" />
+    <MetadataFile FileName="Eiskonfekt.disco" MetadataType="Disco" ID="9f3b5970-824f-4126-bec8-ab20ac13151f" SourceId="1" SourceUrl="http://127.0.0.1:1337/Eiskonfekt.svc?disco" />
+    <MetadataFile FileName="TrafficService.wsdl" MetadataType="Wsdl" ID="b141556b-65da-4bc4-a0ba-52528576dab1" SourceId="1" SourceUrl="http://127.0.0.1:1337/Eiskonfekt.svc?wsdl" />
+    <MetadataFile FileName="Eiskonfekt1.xsd" MetadataType="Schema" ID="7902dcbd-556d-4a96-a20b-47c1b3111b09" SourceId="1" SourceUrl="http://127.0.0.1:1337/Eiskonfekt.svc?xsd=xsd1" />
+    <MetadataFile FileName="Eiskonfekt2.xsd" MetadataType="Schema" ID="9d8f4769-7307-41bf-9c10-5b160d775bc0" SourceId="1" SourceUrl="http://127.0.0.1:1337/Eiskonfekt.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
