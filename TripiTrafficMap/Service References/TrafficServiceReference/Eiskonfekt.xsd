@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/TrafficLibrary" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/TrafficLibrary" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="TrafficQuery">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Latitude" type="xs:double" />
+      <xs:element minOccurs="0" name="Longitude" type="xs:double" />
+      <xs:element minOccurs="0" name="QueryId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TrafficQuery" nillable="true" type="tns:TrafficQuery" />
+  <xs:complexType name="TrafficQueryResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Point" nillable="true" type="tns:EstimationPoint" />
+      <xs:element minOccurs="0" name="QueryId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TrafficQueryResult" nillable="true" type="tns:TrafficQueryResult" />
+  <xs:complexType name="EstimationPoint">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Latitude" type="xs:double" />
+      <xs:element minOccurs="0" name="Longitude" type="xs:double" />
+      <xs:element minOccurs="0" name="Speed" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EstimationPoint" nillable="true" type="tns:EstimationPoint" />
+</xs:schema>

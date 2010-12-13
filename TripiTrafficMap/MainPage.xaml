@@ -30,7 +30,7 @@
             <cp:ColorPicker Name="ColorPicker" ColorChanged="ColorPicker_ColorChanged" />
             <cp:VelocityColorPicker Name="VelocityColorPicker" Width="250" Height="100" />
             
-            <TextBox x:Name="TmpTextBox"  IsEnabled="False" Background="Red" />
+            <TextBox x:Name="TmpTextBox"  IsEnabled="True" Background="Red" TextWrapping="Wrap" Height="100"/>
             
         </StackPanel>
     </Grid>

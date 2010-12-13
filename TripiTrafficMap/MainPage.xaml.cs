@@ -16,7 +16,8 @@ using System.Xml;
 using System.Diagnostics;
 using System.Globalization;
 using System.ServiceModel;
-using TrafficLibrary;
+using TripiTrafficMap.TrafficServiceReference;
+using TripiTrafficMap.Tracks;
 
 namespace TripiTrafficMap
 {
@@ -24,7 +25,8 @@ namespace TripiTrafficMap
     {
         protected IMapStartPositionAdjuster mapStartPositionAdjuster;
         protected TrafficServiceClient trafficServiceClient;
-        protected IList<Location> pointList;
+        protected IList<EstimationPoint> pointList;
+        protected IList<Track> trackList;
 
         public MainPage()
         {
@@ -34,18 +36,36 @@ namespace TripiTrafficMap
 
         void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
-            //Map.Width = Application.Current.Host.Content.ActualWidth;
             mapStartPositionAdjuster = new MapStartPositionAdjuster(Map);
-            EndpointAddress endpoint = new EndpointAddress("http://127.0.0.1:1337/Eiskonfekt.svc");
-            trafficServiceClient = new TrafficServiceClient(new BasicHttpBinding(), endpoint);
-            trafficServiceClient.GetEstimationPointCompleted += new EventHandler<GetEstimationPointCompletedEventArgs>(trafficServiceClient_GetEstimationPointCompleted);
-            drawTestPolyline();
+            
+            trackList = new List<Track>();
+            String[] trackFilenames = new String[] { "ZaspaPolitechnika.gpx" };
+            for (int i = 0; i < trackFilenames.Length; i++)
+            {
+                trackList.Add(new Track(trackFilenames[i]));
+            }
+            QueryTracksSpeed();
+            //drawTestPolyline();
         }
 
-        void trafficServiceClient_GetEstimationPointCompleted(object sender, GetEstimationPointCompletedEventArgs e)
+        protected void QueryTracksSpeed()
         {
-            //EstimationPoint point
+            // TODO based on zoom level count padding
+            double pointsPadding = 0.001;
+            DateTime time = DateTime.Parse("13:37");
+            foreach (Track track in trackList) 
+            {
+                TrackVelocity trackVelocity = new TrackVelocity(track.getPoints(pointsPadding), time);
+                trackVelocity.QueryTrackVelocityCompleted += new QueryTrackVelocityDelegate(trackVelocity_QueryTrackVelocityCompleted);
+                trackVelocity.QueryTrackVelocity();
+            }
         }
+
+        void trackVelocity_QueryTrackVelocityCompleted(IList<EstimationPoint> velocityPoints)
+        {
+            pointList = velocityPoints;
+            drawTestPolyline();
+        }        
 
         protected IList<Location> getSamplePositionNodeList()
         {
@@ -78,10 +98,11 @@ namespace TripiTrafficMap
 
         private void drawTestPolyline()
         {
-            pointList = this.getSamplePositionNodeList();
+            //pointList = this.getSamplePositionNodeList();
+            //pointList = trackList[0].getPoints(0.0001);
 
-            Location prevLocation = null;
-            foreach (Location location in pointList)
+            EstimationPoint prevLocation = null;
+            foreach (EstimationPoint location in pointList)
             {
                 if (prevLocation != null)
                 {
@@ -91,8 +112,8 @@ namespace TripiTrafficMap
 
                     gradientStart.Offset = 0.0;
                     gradientStop.Offset = 0.5;
-                    gradientStart.Color = Color.FromArgb(255, (byte)Math.Round(80 / prevLocation.Altitude * 255, 0), (byte)Math.Round(prevLocation.Altitude / 80 * 255, 0), 0);
-                    gradientStop.Color = Color.FromArgb(255, (byte)Math.Round(80 / location.Altitude * 255, 0), (byte)Math.Round(location.Altitude / 80 * 255, 0), 0);
+                    gradientStart.Color = Color.FromArgb(255, (byte)Math.Round(80 / prevLocation.Speed * 255, 0), (byte)Math.Round(prevLocation.Speed / 80 * 255, 0), 0);
+                    gradientStop.Color = Color.FromArgb(255, (byte)Math.Round(80 / location.Speed * 255, 0), (byte)Math.Round(location.Speed / 80 * 255, 0), 0);
 
                     linearGradientBrush.StartPoint = new Point((180.0 + prevLocation.Longitude) / (Map.ViewportSize.Width / 360.0), (90.0 - prevLocation.Latitude) / (Map.ViewportSize.Height / 180.0));
                     linearGradientBrush.EndPoint = new Point((180.0 + location.Longitude) / (Map.ViewportSize.Width / 360.0), (90.0 - location.Latitude) / (Map.ViewportSize.Height / 180.0));
@@ -113,8 +134,8 @@ namespace TripiTrafficMap
                     mapPolyline.StrokeThickness = 5;
                     mapPolyline.Opacity = 0.9;
                     mapPolyline.Locations = new LocationCollection();
-                    mapPolyline.Locations.Add(prevLocation);
-                    mapPolyline.Locations.Add(location);
+                    mapPolyline.Locations.Add(new Location(prevLocation.Latitude, prevLocation.Longitude));
+                    mapPolyline.Locations.Add(new Location(location.Latitude, location.Longitude));
                     Map.Children.Add(mapPolyline);
                 }
                 prevLocation = location;

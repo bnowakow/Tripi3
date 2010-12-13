@@ -10,11 +10,12 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using System.Collections.Generic;
 using Microsoft.Maps.MapControl;
+using TripiTrafficMap.TrafficServiceReference;
 
 namespace TripiTrafficMap.Util.Interface
 {
     public interface IMapStartPositionAdjuster
     {
-        void SetMapCenterPointAndZoomLevel(IList<Location> locations);
+        void SetMapCenterPointAndZoomLevel(IList<EstimationPoint> locations);
     }
 }
