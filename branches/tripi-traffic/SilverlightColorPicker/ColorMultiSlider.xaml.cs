@@ -14,6 +14,7 @@ using ColorPickerControl.Converter;
 namespace ColorPickerControl
 {
     public delegate void MultiSliderValueChangedDelegate(IList<ColorSlider> Sliders);
+    public delegate void MultiSliderClickedDelegate(ColorSlider slider);
 
     public partial class ColorMultiSlider : UserControl
     {
@@ -24,10 +25,11 @@ namespace ColorPickerControl
         public IList<ColorSlider> Sliders { get { return sliders; } }
         protected IList<ColorSlider> sliders;
         public int ActiveSlider { get { return activeSlider; } }
-        protected int activeSlider;
+        protected int activeSlider = 0;
         protected double miniumSliderMargin = 4.0;
         protected double initialSliderMargin;
         public event MultiSliderValueChangedDelegate OnValueChanged;
+        public event MultiSliderClickedDelegate OnClicked;
 
         public ColorMultiSlider()
         {
@@ -140,6 +142,10 @@ namespace ColorPickerControl
             Slider slider = (Slider)sender;
             int i = FindSliderListPosition(slider);
             activeSlider = i;
+            if (OnClicked != null)
+            {
+                OnClicked(sliders[i]);
+            }
         }
 
         public void SetColor(Color color) 

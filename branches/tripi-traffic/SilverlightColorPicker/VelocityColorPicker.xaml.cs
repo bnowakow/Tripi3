@@ -18,6 +18,12 @@ namespace ColorPickerControl
         {
             InitializeComponent();
             colorMultiSlider.OnValueChanged += new MultiSliderValueChangedDelegate(colorMultiSlider_OnValueChanged);
+            colorMultiSlider.OnClicked += new MultiSliderClickedDelegate(colorMultiSlider_OnClicked);
+        }
+
+        void colorMultiSlider_OnClicked(ColorSlider slider)
+        {
+            ColorPicker.SelectedColor = new SolidColorBrush(slider.Color);
         }
 
         void colorMultiSlider_OnValueChanged(IList<ColorSlider> sliders)
@@ -32,6 +38,12 @@ namespace ColorPickerControl
                 gradient.GradientStops.Add(gradientStop);
             }
             gradientBorder.Background = gradient;
+        }
+
+        private void ColorPicker_ColorChanged(object sender, ColorPickerControl.ColorChangedEventArgs e)
+        {
+            //TmpTextBox.Background = e.newColor;
+            colorMultiSlider.Sliders[colorMultiSlider.ActiveSlider].Color = e.newColor.Color;
         }
     }
 }

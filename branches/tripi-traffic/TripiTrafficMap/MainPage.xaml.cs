@@ -37,7 +37,7 @@ namespace TripiTrafficMap
         void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
             mapStartPositionAdjuster = new MapStartPositionAdjuster(Map);
-            
+
             trackList = new List<Track>();
             String[] trackFilenames = new String[] { "ZaspaPolitechnika.gpx" };
             for (int i = 0; i < trackFilenames.Length; i++)
@@ -45,15 +45,47 @@ namespace TripiTrafficMap
                 trackList.Add(new Track(trackFilenames[i]));
             }
             QueryTracksSpeed();
-            //drawTestPolyline();
+            Map.LayoutUpdated += new EventHandler(Map_LayoutUpdated);
+        }
+
+        void Map_LayoutUpdated(object sender, EventArgs e)
+        {
+            Map_OnZoomUpdate();
+        }
+
+        protected double previousZoomLevel;
+        void Map_OnZoomUpdateCheck()
+        {
+            if (Math.Abs(previousZoomLevel - Map.ZoomLevel) > 2)
+            {
+                previousZoomLevel = Map.ZoomLevel;
+                Map_OnZoomUpdate();
+            }
+        }
+
+        protected void Map_OnZoomUpdate()
+        {
+            return;
+            QueryTracksSpeed();
+        }
+
+        protected double GetPointsPadding()
+        {
+            return 0.0001;
+            // 25 - 0.0001;
+            // 12 - 0.01
+            double zoom = Map.ZoomLevel < 12 ? 12 : Map.ZoomLevel;
+            double zoomRef1 = 12, zoomRef2 = 25, pointPaddingRef1 = 0.01, pointPaddingRef2 = 0.0001;
+            return (pointPaddingRef2 - pointPaddingRef1) * (zoom - zoomRef1) / (zoomRef2 - zoomRef1) + pointPaddingRef1;
         }
 
         protected void QueryTracksSpeed()
         {
             // TODO based on zoom level count padding
-            double pointsPadding = 0.001;
+            double pointsPadding = GetPointsPadding();
+            // TODO get time from slider
             DateTime time = DateTime.Parse("13:37");
-            foreach (Track track in trackList) 
+            foreach (Track track in trackList)
             {
                 TrackVelocity trackVelocity = new TrackVelocity(track.getPoints(pointsPadding), time);
                 trackVelocity.QueryTrackVelocityCompleted += new QueryTrackVelocityDelegate(trackVelocity_QueryTrackVelocityCompleted);
@@ -65,7 +97,7 @@ namespace TripiTrafficMap
         {
             pointList = velocityPoints;
             drawTestPolyline();
-        }        
+        }
 
         protected IList<Location> getSamplePositionNodeList()
         {
@@ -98,59 +130,58 @@ namespace TripiTrafficMap
 
         private void drawTestPolyline()
         {
-            //pointList = this.getSamplePositionNodeList();
-            //pointList = trackList[0].getPoints(0.0001);
-
-            EstimationPoint prevLocation = null;
-            foreach (EstimationPoint location in pointList)
+            lock (Map)
             {
-                if (prevLocation != null)
+                Map.Children.Clear();
+                EstimationPoint prevLocation = null;
+                foreach (EstimationPoint location in pointList)
                 {
-                    LinearGradientBrush linearGradientBrush = new LinearGradientBrush();
-                    GradientStop gradientStart = new GradientStop();
-                    GradientStop gradientStop = new GradientStop();
+                    if (prevLocation != null)
+                    {
+                        LinearGradientBrush linearGradientBrush = new LinearGradientBrush();
+                        GradientStop gradientStart = new GradientStop();
+                        GradientStop gradientStop = new GradientStop();
 
-                    gradientStart.Offset = 0.0;
-                    gradientStop.Offset = 0.5;
-                    gradientStart.Color = Color.FromArgb(255, (byte)Math.Round(80 / prevLocation.Speed * 255, 0), (byte)Math.Round(prevLocation.Speed / 80 * 255, 0), 0);
-                    gradientStop.Color = Color.FromArgb(255, (byte)Math.Round(80 / location.Speed * 255, 0), (byte)Math.Round(location.Speed / 80 * 255, 0), 0);
+                        gradientStart.Offset = 0.0;
+                        gradientStop.Offset = 0.5;
+                        gradientStart.Color = Color.FromArgb(255, (byte)Math.Round(80 / prevLocation.Speed * 255, 0), (byte)Math.Round(prevLocation.Speed / 80 * 255, 0), 0);
+                        gradientStop.Color = Color.FromArgb(255, (byte)Math.Round(80 / location.Speed * 255, 0), (byte)Math.Round(location.Speed / 80 * 255, 0), 0);
 
-                    linearGradientBrush.StartPoint = new Point((180.0 + prevLocation.Longitude) / (Map.ViewportSize.Width / 360.0), (90.0 - prevLocation.Latitude) / (Map.ViewportSize.Height / 180.0));
-                    linearGradientBrush.EndPoint = new Point((180.0 + location.Longitude) / (Map.ViewportSize.Width / 360.0), (90.0 - location.Latitude) / (Map.ViewportSize.Height / 180.0));
+                        linearGradientBrush.StartPoint = new Point((180.0 + prevLocation.Longitude) / (Map.ViewportSize.Width / 360.0), (90.0 - prevLocation.Latitude) / (Map.ViewportSize.Height / 180.0));
+                        linearGradientBrush.EndPoint = new Point((180.0 + location.Longitude) / (Map.ViewportSize.Width / 360.0), (90.0 - location.Latitude) / (Map.ViewportSize.Height / 180.0));
 
-                    linearGradientBrush.StartPoint = new Point((180.0 + prevLocation.Longitude) / (360.0), (90.0 - prevLocation.Latitude) / (180.0));
-                    linearGradientBrush.EndPoint = new Point((180.0 + location.Longitude) / (360.0), (90.0 - location.Latitude) / (180.0));
+                        linearGradientBrush.StartPoint = new Point((180.0 + prevLocation.Longitude) / (360.0), (90.0 - prevLocation.Latitude) / (180.0));
+                        linearGradientBrush.EndPoint = new Point((180.0 + location.Longitude) / (360.0), (90.0 - location.Latitude) / (180.0));
 
-                    linearGradientBrush.StartPoint = new Point(0, 0);
-                    linearGradientBrush.EndPoint = new Point(1, 0);
+                        linearGradientBrush.StartPoint = new Point(0, 0);
+                        linearGradientBrush.EndPoint = new Point(1, 0);
 
-                    linearGradientBrush.GradientStops = new GradientStopCollection();
+                        linearGradientBrush.GradientStops = new GradientStopCollection();
 
-                    linearGradientBrush.GradientStops.Add(gradientStart);
-                    linearGradientBrush.GradientStops.Add(gradientStop);
+                        linearGradientBrush.GradientStops.Add(gradientStart);
+                        linearGradientBrush.GradientStops.Add(gradientStop);
 
-                    MapPolyline mapPolyline = new MapPolyline();
-                    mapPolyline.Stroke = linearGradientBrush;
-                    mapPolyline.StrokeThickness = 5;
-                    mapPolyline.Opacity = 0.9;
-                    mapPolyline.Locations = new LocationCollection();
-                    mapPolyline.Locations.Add(new Location(prevLocation.Latitude, prevLocation.Longitude));
-                    mapPolyline.Locations.Add(new Location(location.Latitude, location.Longitude));
-                    Map.Children.Add(mapPolyline);
+                        MapPolyline mapPolyline = new MapPolyline();
+                        mapPolyline.Stroke = linearGradientBrush;
+                        mapPolyline.StrokeThickness = 5;
+                        mapPolyline.Opacity = 0.9;
+                        mapPolyline.Locations = new LocationCollection();
+                        mapPolyline.Locations.Add(new Location(prevLocation.Latitude, prevLocation.Longitude));
+                        mapPolyline.Locations.Add(new Location(location.Latitude, location.Longitude));
+                        Map.Children.Add(mapPolyline);
+                    }
+                    prevLocation = location;
                 }
-                prevLocation = location;
-            }
 
-            if (pointList.Count > 0)
-            {
-                mapStartPositionAdjuster.SetMapCenterPointAndZoomLevel(pointList);
+                if (pointList.Count > 0 && !mapPositionInitialized)
+                {
+                    mapPositionInitialized = true;
+                    mapStartPositionAdjuster.SetMapCenterPointAndZoomLevel(pointList);
+                }
             }
         }
-
-        private void ColorPicker_ColorChanged(object sender, ColorPickerControl.ColorChangedEventArgs e)
-        {
-            TmpTextBox.Background = e.newColor;
-        }
+        // TODO fix initial map start position
+        protected bool mapPositionInitialized = false;      
 
     }
 }
