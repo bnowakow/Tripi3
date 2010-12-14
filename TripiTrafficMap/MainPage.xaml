@@ -27,11 +27,9 @@
             <StackPanel.Background>
                 <SolidColorBrush Color="Black" Opacity="0.5" />
             </StackPanel.Background>
-            <cp:ColorPicker Name="ColorPicker" ColorChanged="ColorPicker_ColorChanged" />
-            <cp:VelocityColorPicker Name="VelocityColorPicker" Width="250" Height="100" />
+            <cp:VelocityColorPicker Name="VelocityColorPicker" Width="250" Height="350" />
             
-            <TextBox x:Name="TmpTextBox"  IsEnabled="True" Background="Red" TextWrapping="Wrap" Height="100"/>
-            
+           
         </StackPanel>
     </Grid>
 </UserControl>

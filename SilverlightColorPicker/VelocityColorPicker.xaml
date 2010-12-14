@@ -5,10 +5,11 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:local="clr-namespace:ColorPickerControl"
     mc:Ignorable="d"
-    d:DesignHeight="100" d:DesignWidth="400">
+    d:DesignHeight="350" d:DesignWidth="400">
     
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
+            <RowDefinition Height="250" />
             <RowDefinition Height="40"/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
@@ -17,9 +18,10 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <local:ColorMultiSlider x:Name="colorMultiSlider" />
+        <local:ColorPicker x:Name="ColorPicker" ColorChanged="ColorPicker_ColorChanged" Grid.Row="0"  />
+        <local:ColorMultiSlider x:Name="colorMultiSlider" Grid.Row="1" />
         <Border Margin="1,1,1,1" 
-                        Grid.Row="1" 
+                        Grid.Row="2" 
                         BorderBrush="#FF262626" 
                         BorderThickness="1,1,1,1" 
                         CornerRadius="6,6,6,6" 
