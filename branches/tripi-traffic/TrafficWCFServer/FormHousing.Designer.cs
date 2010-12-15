@@ -83,6 +83,7 @@
             this.textBoxLog.Location = new System.Drawing.Point(3, 16);
             this.textBoxLog.Multiline = true;
             this.textBoxLog.Name = "textBoxLog";
+            this.textBoxLog.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.textBoxLog.Size = new System.Drawing.Size(646, 354);
             this.textBoxLog.TabIndex = 0;
             // 
@@ -92,7 +93,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(652, 594);
             this.Controls.Add(this.splitContainer1);
+            this.Location = new System.Drawing.Point(50, 50);
             this.Name = "FormHousing";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "We be servin\'!";
             this.Load += new System.EventHandler(this.FormHousing_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);

@@ -15,6 +15,7 @@ namespace TrafficWCFServer
         public FormHousing()
         {
             InitializeComponent();
+            inbox = new Queue<string>();
         }
 
         private void FormHousing_Load(object sender, EventArgs e)
@@ -27,13 +28,24 @@ namespace TrafficWCFServer
             ServiceServerHelper.StartServiceHost<ITrafficService, TrafficService>(singleton, "Eiskonfekt.svc");
             ServiceServerHelper.StartWebServiceHost<ICrossDomainPolicyResponder, TrafficService>(singleton, "");
 
-            textBoxLog.AppendText("Servin' has start'd...\r\n");
+            LogToBox("Servin' has start'd...\r\n");
         }
 
+        private Queue<string> inbox;
+        private int totalMessages = 0;
         private void LogToBox(string message)
         {
-            if (textBoxLog.InvokeRequired) textBoxLog.Invoke((Action<string>)LogToBox, message);
-            else textBoxLog.AppendText(message + "\r\n");
+            totalMessages++;
+            if (inbox.Count >= 20) inbox.Dequeue();
+            inbox.Enqueue(message);
+
+            if (textBoxLog.InvokeRequired) textBoxLog.Invoke((Action)FillWithText);
+            else FillWithText();
+        }
+
+        private void FillWithText()
+        {
+            textBoxLog.Text = "messages: {0} visible / {1} total\r\n\r\n{2}".F(inbox.Count, totalMessages, String.Join("\r\n", inbox.ToArray()));
         }
     }
 }
