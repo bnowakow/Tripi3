@@ -145,7 +145,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(997, 671);
             this.Controls.Add(this.splitContainer1);
+            this.Location = new System.Drawing.Point(730, 50);
             this.Name = "FormShow";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Debug preview";
             this.Load += new System.EventHandler(this.FormShow_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
