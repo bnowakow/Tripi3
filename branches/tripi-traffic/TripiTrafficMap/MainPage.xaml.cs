@@ -44,6 +44,7 @@ namespace TripiTrafficMap
             {
                 trackList.Add(new Track(trackFilenames[i]));
             }
+            // TODO tmp
             QueryTracksSpeed();
             Map.LayoutUpdated += new EventHandler(Map_LayoutUpdated);
         }

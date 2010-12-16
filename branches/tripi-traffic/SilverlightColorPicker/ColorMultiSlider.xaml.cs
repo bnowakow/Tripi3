@@ -50,6 +50,10 @@ namespace ColorPickerControl
         {
             Slider slider = (Slider)sender;
             int i = FindSliderListPosition(slider);
+            if (i != activeSlider)
+            {
+                Slider_Click(slider, null);
+            }
             ColorSlider colorSlider = new ColorSlider();
             if (sliders[i].ValueSlider.Minimum == sliders[i].ValueSlider.Maximum)
             {
@@ -104,7 +108,7 @@ namespace ColorPickerControl
 
         protected void UpdateSliderNumber()
         {
-            double previousValue = -initialSliderMargin; 
+            double previousValue = -initialSliderMargin;
             for (int i = 0; i < SliderNumber; i++)
             {
                 ColorSlider slider = new ColorSlider();
@@ -117,12 +121,12 @@ namespace ColorPickerControl
                 if (i == SliderNumber - 1)
                 {
                     // last one
-                    value = slider.ValueSlider.Maximum = slider.ValueSlider.Minimum  = slider.MaximumSlider.Maximum - 1;                    
+                    value = slider.ValueSlider.Maximum = slider.ValueSlider.Minimum = slider.MaximumSlider.Maximum - 1;
                 }
                 if (i == 0)
                 {
                     // first one
-                    value = slider.ValueSlider.Minimum = slider.ValueSlider.Maximum = slider.MaximumSlider.Minimum + 1;                    
+                    value = slider.ValueSlider.Minimum = slider.ValueSlider.Maximum = slider.MaximumSlider.Minimum + 1;
                 }
                 slider.ValueSlider.Value = previousValue = value;
                 slider.SliderValueChanged += new RoutedPropertyChangedEventHandler<double>(Slider_ValueChanged);
@@ -136,7 +140,7 @@ namespace ColorPickerControl
                 LayoutRoot.Children.Add(sliders[i]);
             }
         }
-
+              
         void Slider_Click(object sender, MouseButtonEventArgs e)
         {
             Slider slider = (Slider)sender;
@@ -148,7 +152,7 @@ namespace ColorPickerControl
             }
         }
 
-        public void SetColor(Color color) 
+        public void SetColor(Color color)
         {
             sliders[activeSlider].Color = color;
         }

@@ -42,8 +42,8 @@ namespace ColorPickerControl
 
         private void ColorPicker_ColorChanged(object sender, ColorPickerControl.ColorChangedEventArgs e)
         {
-            //TmpTextBox.Background = e.newColor;
             colorMultiSlider.Sliders[colorMultiSlider.ActiveSlider].Color = e.newColor.Color;
+            colorMultiSlider_OnValueChanged(colorMultiSlider.Sliders);
         }
     }
 }

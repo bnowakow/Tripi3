@@ -20,11 +20,11 @@ namespace ColorPickerControl
         public Color Color { get; set; }
 
         public event RoutedPropertyChangedEventHandler<double> SliderValueChanged { add { Slider.ValueChanged += value; } remove { Slider.ValueChanged -= value; } }
-        public event MouseButtonEventHandler SliderClick { add { Slider.MouseLeftButtonDown += value; } remove { Slider.MouseLeftButtonDown -= value; } }
+        public event MouseButtonEventHandler SliderClick { add { Slider.AddHandler(Slider.MouseLeftButtonDownEvent, value, true); } remove { } }
 
         public ColorSlider()
         {
             InitializeComponent();
-        }        
+        }     
     }
 }
