@@ -47,6 +47,12 @@ namespace TripiTrafficMap
             // TODO tmp
             QueryTracksSpeed();
             Map.LayoutUpdated += new EventHandler(Map_LayoutUpdated);
+            velocityColorPicker.OnColorChange += new ColorPickerControl.VelocityColorPickerColorChangeDelegate(velocityColorPicker_OnColorChange);
+        }
+
+        void velocityColorPicker_OnColorChange()
+        {
+            UpdateVelocityPolyline();
         }
 
         void Map_LayoutUpdated(object sender, EventArgs e)
@@ -97,39 +103,10 @@ namespace TripiTrafficMap
         void trackVelocity_QueryTrackVelocityCompleted(IList<EstimationPoint> velocityPoints)
         {
             pointList = velocityPoints;
-            drawTestPolyline();
+            UpdateVelocityPolyline();
         }
 
-        protected IList<Location> getSamplePositionNodeList()
-        {
-            IList<Location> points = new List<Location>();
-
-            XmlReader reader = XmlReader.Create(@"TmpXml/_all.xml");
-            while (true)
-            {
-                Location point = new Location();
-                reader.ReadToFollowing("Latitude");
-                reader.Read();
-                if (reader.Value == "")
-                {
-                    break;
-                }
-                point.Latitude = Double.Parse(reader.Value, System.Globalization.NumberStyles.Any, new NumberFormatInfo());
-                reader.ReadToFollowing("Longitude");
-                reader.Read();
-                point.Longitude = Double.Parse(reader.Value, System.Globalization.NumberStyles.Any, new NumberFormatInfo());
-                reader.ReadToFollowing("Speed");
-                reader.Read();
-                point.Altitude = Double.Parse(reader.Value, System.Globalization.NumberStyles.Any, new NumberFormatInfo());
-                //trafficServiceClient.GetEstimationPointAsync(point.Latitude, point.Longitude, DateTime.Parse("13:37"));
-                points.Add(point);
-            }
-            reader.Close();
-
-            return points;
-        }
-
-        private void drawTestPolyline()
+        private void UpdateVelocityPolyline()
         {
             lock (Map)
             {
@@ -145,8 +122,11 @@ namespace TripiTrafficMap
 
                         gradientStart.Offset = 0.0;
                         gradientStop.Offset = 0.5;
+                        
                         gradientStart.Color = Color.FromArgb(255, (byte)Math.Round(80 / prevLocation.Speed * 255, 0), (byte)Math.Round(prevLocation.Speed / 80 * 255, 0), 0);
                         gradientStop.Color = Color.FromArgb(255, (byte)Math.Round(80 / location.Speed * 255, 0), (byte)Math.Round(location.Speed / 80 * 255, 0), 0);
+                        gradientStart.Color = velocityColorPicker.getColor(prevLocation.Speed);
+                        gradientStop.Color = velocityColorPicker.getColor(location.Speed);
 
                         linearGradientBrush.StartPoint = new Point((180.0 + prevLocation.Longitude) / (Map.ViewportSize.Width / 360.0), (90.0 - prevLocation.Latitude) / (Map.ViewportSize.Height / 180.0));
                         linearGradientBrush.EndPoint = new Point((180.0 + location.Longitude) / (Map.ViewportSize.Width / 360.0), (90.0 - location.Latitude) / (Map.ViewportSize.Height / 180.0));
@@ -182,7 +162,12 @@ namespace TripiTrafficMap
             }
         }
         // TODO fix initial map start position
-        protected bool mapPositionInitialized = false;      
+        protected bool mapPositionInitialized = false;
+
+        private void updateVelocityPolylineButton_Click(object sender, RoutedEventArgs e)
+        {
+            UpdateVelocityPolyline();
+        }      
 
     }
 }
