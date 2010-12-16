@@ -27,7 +27,8 @@
             <StackPanel.Background>
                 <SolidColorBrush Color="Black" Opacity="0.5" />
             </StackPanel.Background>
-            <cp:VelocityColorPicker Name="VelocityColorPicker" Width="250" Height="350" />
+            <cp:VelocityColorPicker Name="velocityColorPicker" Width="250" Height="350" />
+            <Button x:Name="updateVelocityPolylineButton" Click="updateVelocityPolylineButton_Click" Content="Update velocity polyline" />
             
            
         </StackPanel>
