@@ -25,12 +25,31 @@ namespace TripiTrafficMap
     {
         protected IMapStartPositionAdjuster mapStartPositionAdjuster;
         protected TrafficServiceClient trafficServiceClient;
-        protected IList<EstimationPoint> pointList;
-        protected IList<Track> trackList;
+        
+        //protected IList<EstimationPoint> pointList;
+
+        protected TrackVelocityGroupManager trackVelocityGroupManager;
+        protected IList<TrackVelocityGroup> trackVelocityGroupList;
+        //protected IList<Track> trackList;
 
         public MainPage()
         {
             InitializeComponent();
+            IList<Track> trackList = new List<Track>();
+            String[] trackFilenames = new String[] { "ZaspaPolitechnika.gpx", "SlowackiegoTmp.gpx" };
+            for (int i = 0; i < trackFilenames.Length; i++)
+            {
+                trackList.Add(new Track(trackFilenames[i]));
+            }
+            IList<DateTime> timeList = new List<DateTime>();
+            for (int i = (int)hourSlider.Minimum; i <= (int)hourSlider.Maximum; i++) 
+            {
+               timeList.Add(DateTime.Parse(i + ":00"));
+            }
+            trackVelocityGroupList = new List<TrackVelocityGroup>();
+            trackVelocityGroupManager = new TrackVelocityGroupManager(trackList, timeList);
+            trackVelocityGroupManager.OnVelocityGroupQueryCompleted += new QueryTrackVelocityGroupDelegate(trackVelocityGroupManager_OnVelocityGroupQueryCompleted);
+            hourSliderPreviousValue = (int)hourSlider.Value;
             this.Loaded += new RoutedEventHandler(MainPage_Loaded);
         }
 
@@ -38,12 +57,6 @@ namespace TripiTrafficMap
         {
             mapStartPositionAdjuster = new MapStartPositionAdjuster(Map);
 
-            trackList = new List<Track>();
-            String[] trackFilenames = new String[] { "ZaspaPolitechnika.gpx" };
-            for (int i = 0; i < trackFilenames.Length; i++)
-            {
-                trackList.Add(new Track(trackFilenames[i]));
-            }
             // TODO tmp
             QueryTracksSpeed();
             Map.LayoutUpdated += new EventHandler(Map_LayoutUpdated);
@@ -78,6 +91,7 @@ namespace TripiTrafficMap
 
         protected double GetPointsPadding()
         {
+            return 0.01;
             return 0.0001;
             // 25 - 0.0001;
             // 12 - 0.01
@@ -86,78 +100,101 @@ namespace TripiTrafficMap
             return (pointPaddingRef2 - pointPaddingRef1) * (zoom - zoomRef1) / (zoomRef2 - zoomRef1) + pointPaddingRef1;
         }
 
+        protected DateTime time = DateTime.Parse("15:00");
+            // TODO WTF shoudl work ;x
+            //DateTime.Parse((int)hourSlider.Value + ":00");
         protected void QueryTracksSpeed()
         {
+            if (trackVelocityGroupManager == null)
+            {
+                return;
+            }
             // TODO based on zoom level count padding
             double pointsPadding = GetPointsPadding();
-            // TODO get time from slider
-            DateTime time = DateTime.Parse("13:37");
-            foreach (Track track in trackList)
+            // TODO chekc if points already exists
+            if (GetTracks(pointsPadding, DateTime.Parse((int)hourSlider.Value + ":00")).Count() == 0)
             {
-                TrackVelocity trackVelocity = new TrackVelocity(track.getPoints(pointsPadding), time);
-                trackVelocity.QueryTrackVelocityCompleted += new QueryTrackVelocityDelegate(trackVelocity_QueryTrackVelocityCompleted);
-                trackVelocity.QueryTrackVelocity();
+                trackVelocityGroupManager.AddVelocityGroupQuery(pointsPadding);
             }
         }
 
-        void trackVelocity_QueryTrackVelocityCompleted(IList<EstimationPoint> velocityPoints)
+        void trackVelocityGroupManager_OnVelocityGroupQueryCompleted(IEnumerable<TrackVelocityGroup> trackVelocityGroups)
         {
-            pointList = velocityPoints;
+            // TODO chekc if points already exists
+            foreach (TrackVelocityGroup trackVelocityGroup in trackVelocityGroups)
+            {
+                trackVelocityGroupList.Add(trackVelocityGroup);
+            }
             UpdateVelocityPolyline();
+        }
+
+        private IEnumerable<TrackVelocityGroup> GetTracks(double pointsPadding, DateTime time)
+        {
+            var tracksQuery = from t in trackVelocityGroupList
+                              where t.PointsPadding == pointsPadding
+                              where t.Time == time
+                              select t;
+            return tracksQuery;
         }
 
         private void UpdateVelocityPolyline()
         {
+            if (Map == null)
+            {
+                return;
+            }
             lock (Map)
             {
                 Map.Children.Clear();
-                EstimationPoint prevLocation = null;
-                foreach (EstimationPoint location in pointList)
+                var pointListQuery = from l in GetTracks(GetPointsPadding(), DateTime.Parse((int)hourSlider.Value + ":00"))
+                                     select l.TrackPointList;
+                IList<EstimationPoint> allPoints = new List<EstimationPoint>();
+                foreach (IEnumerable<EstimationPoint> pointList in pointListQuery)
                 {
-                    if (prevLocation != null)
+                    EstimationPoint prevLocation = null;
+                    foreach (EstimationPoint location in pointList)
                     {
-                        LinearGradientBrush linearGradientBrush = new LinearGradientBrush();
-                        GradientStop gradientStart = new GradientStop();
-                        GradientStop gradientStop = new GradientStop();
+                        if (!mapPositionInitialized)
+                        {
+                            allPoints.Add(location);
+                        }
+                        if (prevLocation != null)
+                        {
+                            LinearGradientBrush linearGradientBrush = new LinearGradientBrush();
+                            GradientStop gradientStart = new GradientStop();
+                            GradientStop gradientStop = new GradientStop();
 
-                        gradientStart.Offset = 0.0;
-                        gradientStop.Offset = 0.5;
-                        
-                        gradientStart.Color = Color.FromArgb(255, (byte)Math.Round(80 / prevLocation.Speed * 255, 0), (byte)Math.Round(prevLocation.Speed / 80 * 255, 0), 0);
-                        gradientStop.Color = Color.FromArgb(255, (byte)Math.Round(80 / location.Speed * 255, 0), (byte)Math.Round(location.Speed / 80 * 255, 0), 0);
-                        gradientStart.Color = velocityColorPicker.getColor(prevLocation.Speed);
-                        gradientStop.Color = velocityColorPicker.getColor(location.Speed);
+                            gradientStart.Offset = 0.0;
+                            gradientStop.Offset = 0.5;
 
-                        linearGradientBrush.StartPoint = new Point((180.0 + prevLocation.Longitude) / (Map.ViewportSize.Width / 360.0), (90.0 - prevLocation.Latitude) / (Map.ViewportSize.Height / 180.0));
-                        linearGradientBrush.EndPoint = new Point((180.0 + location.Longitude) / (Map.ViewportSize.Width / 360.0), (90.0 - location.Latitude) / (Map.ViewportSize.Height / 180.0));
+                            gradientStart.Color = velocityColorPicker.getColor(prevLocation.Speed);
+                            gradientStop.Color = velocityColorPicker.getColor(location.Speed);
 
-                        linearGradientBrush.StartPoint = new Point((180.0 + prevLocation.Longitude) / (360.0), (90.0 - prevLocation.Latitude) / (180.0));
-                        linearGradientBrush.EndPoint = new Point((180.0 + location.Longitude) / (360.0), (90.0 - location.Latitude) / (180.0));
+                            linearGradientBrush.StartPoint = new Point(0, 0);
+                            linearGradientBrush.EndPoint = new Point(1, 0);
 
-                        linearGradientBrush.StartPoint = new Point(0, 0);
-                        linearGradientBrush.EndPoint = new Point(1, 0);
+                            linearGradientBrush.GradientStops = new GradientStopCollection();
 
-                        linearGradientBrush.GradientStops = new GradientStopCollection();
+                            linearGradientBrush.GradientStops.Add(gradientStart);
+                            linearGradientBrush.GradientStops.Add(gradientStop);
 
-                        linearGradientBrush.GradientStops.Add(gradientStart);
-                        linearGradientBrush.GradientStops.Add(gradientStop);
-
-                        MapPolyline mapPolyline = new MapPolyline();
-                        mapPolyline.Stroke = linearGradientBrush;
-                        mapPolyline.StrokeThickness = 5;
-                        mapPolyline.Opacity = 0.9;
-                        mapPolyline.Locations = new LocationCollection();
-                        mapPolyline.Locations.Add(new Location(prevLocation.Latitude, prevLocation.Longitude));
-                        mapPolyline.Locations.Add(new Location(location.Latitude, location.Longitude));
-                        Map.Children.Add(mapPolyline);
+                            MapPolyline mapPolyline = new MapPolyline();
+                            mapPolyline.Stroke = linearGradientBrush;
+                            mapPolyline.StrokeThickness = 5;
+                            mapPolyline.Opacity = 0.9;
+                            mapPolyline.Locations = new LocationCollection();
+                            mapPolyline.Locations.Add(new Location(prevLocation.Latitude, prevLocation.Longitude));
+                            mapPolyline.Locations.Add(new Location(location.Latitude, location.Longitude));
+                            Map.Children.Add(mapPolyline);
+                        }
+                        prevLocation = location;
                     }
-                    prevLocation = location;
                 }
 
-                if (pointList.Count > 0 && !mapPositionInitialized)
+                if (allPoints.Count > 0 && !mapPositionInitialized)
                 {
                     mapPositionInitialized = true;
-                    mapStartPositionAdjuster.SetMapCenterPointAndZoomLevel(pointList);
+                    mapStartPositionAdjuster.SetMapCenterPointAndZoomLevel(allPoints);
                 }
             }
         }
@@ -167,7 +204,27 @@ namespace TripiTrafficMap
         private void updateVelocityPolylineButton_Click(object sender, RoutedEventArgs e)
         {
             UpdateVelocityPolyline();
-        }      
+        }
+
+        // TODO WTF shoudl work ;x
+        //DateTime.Parse((int)hourSlider.Value + ":00");
+        int hourSliderPreviousValue;
+        private void hourSlider_ValueChangedCheck(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            Slider slider = (Slider)sender;
+            if ((int)slider.Value != hourSliderPreviousValue)
+            {
+                hourSliderPreviousValue = (int)slider.Value;
+                hourSlider_ValueChanged(slider);
+            }
+        }
+
+        protected void hourSlider_ValueChanged(Slider slider)
+        {
+            // TODO get time from slider
+            time = DateTime.Parse((int)slider.Value + ":00");
+            UpdateVelocityPolyline();
+        }
 
     }
 }

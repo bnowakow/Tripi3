@@ -92,6 +92,8 @@
     </Compile>
     <Compile Include="Tracks\Track.cs" />
     <Compile Include="Tracks\TrackVelocity.cs" />
+    <Compile Include="Tracks\TrackVelocityGroup.cs" />
+    <Compile Include="Tracks\TrackVelocityGroupManager.cs" />
     <Compile Include="Util\Interface\IMapStartPositionAdjuster.cs" />
     <Compile Include="Util\MapStartPositionAdjuster.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -125,6 +127,9 @@
     <None Include="Service References\TrafficServiceReference\TripiTrafficMap.TrafficServiceReference.TrafficQueryResult.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <Content Include="Tracks\SlowackiegoTmp.gpx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\TrafficServiceReference\Eiskonfekt.disco" />

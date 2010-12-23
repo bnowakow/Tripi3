@@ -29,8 +29,8 @@
             </StackPanel.Background>
             <cp:VelocityColorPicker Name="velocityColorPicker" Width="250" Height="350" />
             <Button x:Name="updateVelocityPolylineButton" Click="updateVelocityPolylineButton_Click" Content="Update velocity polyline" />
-            
-           
+            <Slider x:Name="hourSlider" Value="15" Maximum="23" ValueChanged="hourSlider_ValueChangedCheck" />
+            <TextBlock Text="{Binding ElementName=hourSlider, Path=Value}" />
         </StackPanel>
     </Grid>
 </UserControl>
