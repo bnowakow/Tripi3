@@ -92,7 +92,8 @@ namespace TripiTrafficMap
         protected double GetPointsPadding()
         {
             return 0.01;
-            return 0.0001;
+            return 0.001;
+            //return 0.0001;
             // 25 - 0.0001;
             // 12 - 0.01
             double zoom = Map.ZoomLevel < 12 ? 12 : Map.ZoomLevel;
