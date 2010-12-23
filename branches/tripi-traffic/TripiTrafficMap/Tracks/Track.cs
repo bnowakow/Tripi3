@@ -18,10 +18,13 @@ namespace TripiTrafficMap.Tracks
     public class Track
     {
         protected IList<Location> points;
+        public String Name { get { return name; } }
+        protected String name;
 
         public Track(String gpxFilename)
         {
-            XmlReader reader = XmlReader.Create(@"Tracks/" + gpxFilename);
+            name = gpxFilename;
+            XmlReader reader = XmlReader.Create(@"Tracks/" + name);
             points = new List<Location>();
             while (reader.ReadToFollowing("trkpt"))
             {
@@ -33,7 +36,7 @@ namespace TripiTrafficMap.Tracks
             reader.Close();
         }
 
-        public IList<Location> getPoints(double pointsPadding) {
+        public IList<Location> GetPoints(double pointsPadding) {
             if (points.Count == 0)
             {
                 return null;

@@ -16,21 +16,25 @@ using System.Linq;
 
 namespace TripiTrafficMap.Tracks
 {
-    public delegate void QueryTrackVelocityDelegate(IList<EstimationPoint> velocityPoints);
+    public delegate void QueryTrackVelocityDelegate(TrackVelocityGroup trackVelocityGroup);
 
     public class TrackVelocity
     {
         protected TrafficServiceClient trafficServiceClient;
         protected IList<Location> points;
         protected IList<TrafficQueryResult> queryList;
+        public DateTime Time { get { return time; } }
         protected DateTime time;
+        public double PointsPadding { get { return pointsPadding; } }
+        protected double pointsPadding;
 
         public event QueryTrackVelocityDelegate QueryTrackVelocityCompleted;
 
-        public TrackVelocity(IList<Location> points, DateTime time)
+        public TrackVelocity(IList<Location> points, DateTime time, double pointsPadding)
         {
             this.points = points;
             this.time = time;
+            this.pointsPadding = pointsPadding;
             EndpointAddress endpoint = new EndpointAddress("http://127.0.0.1:1337/Eiskonfekt.svc");
             trafficServiceClient = new TrafficServiceClient(new BasicHttpBinding(), endpoint);
             trafficServiceClient.GetEstimationPointCompleted += new EventHandler<GetEstimationPointCompletedEventArgs>(trafficServiceClient_GetEstimationPointCompleted);
@@ -58,7 +62,6 @@ namespace TripiTrafficMap.Tracks
 
         protected void trafficServiceClient_GetEstimationPointCompleted(object sender, GetEstimationPointCompletedEventArgs e)
         {
-            //TmpTextBox.Text += " omg " + e.Result.Point.Speed;
             var trafficQueryResultQuery = from q in queryList
                         where q.QueryId == e.Result.QueryId
                         select q;
@@ -75,7 +78,10 @@ namespace TripiTrafficMap.Tracks
                 {
                     velocityPoints.Add(queryResult.Point);
                 }
-                QueryTrackVelocityCompleted(velocityPoints);
+                if (QueryTrackVelocityCompleted != null)
+                {
+                    QueryTrackVelocityCompleted(new TrackVelocityGroup(velocityPoints, time, pointsPadding));
+                }
             }
         }
 
