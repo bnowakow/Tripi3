@@ -27,14 +27,17 @@ namespace TripiTrafficMap.Tracks
         protected DateTime time;
         public double PointsPadding { get { return pointsPadding; } }
         protected double pointsPadding;
+        public String Name { get { return name; } }
+        protected String name;
 
         public event QueryTrackVelocityDelegate QueryTrackVelocityCompleted;
 
-        public TrackVelocity(IList<Location> points, DateTime time, double pointsPadding)
+        public TrackVelocity(IList<Location> points, DateTime time, double pointsPadding, String name)
         {
             this.points = points;
             this.time = time;
             this.pointsPadding = pointsPadding;
+            this.name = name;
             EndpointAddress endpoint = new EndpointAddress("http://127.0.0.1:1337/Eiskonfekt.svc");
             trafficServiceClient = new TrafficServiceClient(new BasicHttpBinding(), endpoint);
             trafficServiceClient.GetEstimationPointCompleted += new EventHandler<GetEstimationPointCompletedEventArgs>(trafficServiceClient_GetEstimationPointCompleted);
@@ -62,6 +65,10 @@ namespace TripiTrafficMap.Tracks
 
         protected void trafficServiceClient_GetEstimationPointCompleted(object sender, GetEstimationPointCompletedEventArgs e)
         {
+            if (e.Result == null)
+            {
+                return;
+            }
             var trafficQueryResultQuery = from q in queryList
                         where q.QueryId == e.Result.QueryId
                         select q;
@@ -80,7 +87,7 @@ namespace TripiTrafficMap.Tracks
                 }
                 if (QueryTrackVelocityCompleted != null)
                 {
-                    QueryTrackVelocityCompleted(new TrackVelocityGroup(velocityPoints, time, pointsPadding));
+                    QueryTrackVelocityCompleted(new TrackVelocityGroup(velocityPoints, time, pointsPadding, name));
                 }
             }
         }

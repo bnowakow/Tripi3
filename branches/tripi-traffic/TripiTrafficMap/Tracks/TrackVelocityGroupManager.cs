@@ -37,7 +37,7 @@ namespace TripiTrafficMap.Tracks
             {
                 foreach (DateTime time in timeList)
                 {
-                    TrackVelocity trackVelocity = new TrackVelocity(track.GetPoints(pointsPadding), time, pointsPadding);
+                    TrackVelocity trackVelocity = new TrackVelocity(track.GetPoints(pointsPadding), time, pointsPadding, track.Name);
                     trackVelocity.QueryTrackVelocityCompleted += new QueryTrackVelocityDelegate(trackVelocity_QueryTrackVelocityCompleted);
                     trackVelocity.QueryTrackVelocity();
                 }
@@ -49,6 +49,7 @@ namespace TripiTrafficMap.Tracks
             trackVelocityGroupList.Add(trackVelocityGroup);
             var trafficGroupLeftQuery = from t in trackVelocityGroupList
                                         where t.PointsPadding == trackVelocityGroup.PointsPadding
+                                        where t.Name == trackVelocityGroup.Name
                                         select t;
             int count = trafficGroupLeftQuery.Count();
             if (count == timeList.Count)

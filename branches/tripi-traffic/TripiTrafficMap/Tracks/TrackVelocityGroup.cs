@@ -21,12 +21,15 @@ namespace TripiTrafficMap.Tracks
         protected DateTime time;
         public double PointsPadding { get { return pointsPadding; } }
         protected double pointsPadding;
+        public String Name { get { return name; } }
+        protected String name;
 
-        public TrackVelocityGroup(IList<EstimationPoint> trackPointList, DateTime time, double pointsPadding)
+        public TrackVelocityGroup(IList<EstimationPoint> trackPointList, DateTime time, double pointsPadding, String name)
         {
             this.trackPointList = trackPointList;
             this.time = time;
             this.pointsPadding = pointsPadding;
+            this.name = name;
         }
     }
 }

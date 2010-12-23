@@ -110,6 +110,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AppManifest.xml" />
+    <None Include="Service References\TrafficServiceReference\Eiskonfekt.disco" />
+    <None Include="Service References\TrafficServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\TrafficServiceReference\configuration.svcinfo" />
+    <None Include="Service References\TrafficServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="ServiceReferences.ClientConfig" />
+    <Content Include="Tracks\ZaspaPolitechnika.gpx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Tracks\SlowackiegoTmp.gpx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Service References\TrafficServiceReference\Eiskonfekt.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -120,25 +134,11 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\TrafficServiceReference\TrafficService.wsdl" />
-    <Content Include="ServiceReferences.ClientConfig" />
-    <Content Include="Tracks\ZaspaPolitechnika.gpx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <None Include="Service References\TrafficServiceReference\TripiTrafficMap.TrafficServiceReference.TrafficQueryResult.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <Content Include="Tracks\SlowackiegoTmp.gpx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\TrafficServiceReference\Eiskonfekt.disco" />
-    <None Include="Service References\TrafficServiceReference\configuration91.svcinfo" />
-    <None Include="Service References\TrafficServiceReference\configuration.svcinfo" />
-    <None Include="Service References\TrafficServiceReference\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
     <Content Include="TmpXml\001.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
