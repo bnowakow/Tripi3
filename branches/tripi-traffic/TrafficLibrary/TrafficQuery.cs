@@ -9,38 +9,46 @@ namespace TrafficLibrary
     [DataContract]
     public class TrafficQuery
     {
-        private double latitude;
-        private double longitude;
-        private DateTime date;
+        private IList<RawPoint> points;
+        private IList<DateTime> dates;
         private int queryId;
+        protected double pointsPadding;
+        protected String name;
 
-        public TrafficQuery(int queryId, double latitude, double longitude, DateTime date)
+        public TrafficQuery(int queryId, IList<RawPoint> points, IList<DateTime> dates, double pointsPadding, String name)
         {
             this.QueryId = queryId;
-            this.Latitude = latitude;
-            this.Longitude = longitude;
-            this.Date = date;
-        }
-        
-        [DataMember]
-        public double Latitude
-        {
-            get { return latitude; }
-            private set { latitude = value; }
+            this.Points = points;
+            this.Dates = dates;
+            this.PointsPadding = pointsPadding;
+            this.Name = name;
         }
 
         [DataMember]
-        public double Longitude
+        public IList<RawPoint> Points
         {
-            get { return longitude; }
-            private  set { longitude = value; }
+            get { return points; }
+            private set { points = value; }
         }
 
         [DataMember]
-        public DateTime Date
+        public IList<DateTime> Dates
         {
-            get { return date; }
-            private set { date = value; }
+            get { return dates; }
+            private set { dates = value; }
+        }
+
+        [DataMember]
+        public double PointsPadding { 
+            get { return pointsPadding; }
+            private set { pointsPadding = value; }
+        }
+
+
+        [DataMember]
+        public String Name { 
+            get { return name; }
+            private set { name = value; }
         }
 
         [DataMember]

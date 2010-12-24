@@ -4,15 +4,22 @@ using System.Linq;
 using System.Text;
 
 using System.Text.RegularExpressions;
+using System.Runtime.Serialization;
 
 namespace TrafficLibrary
 {
+    [DataContract]
     public class RawPoint : EstimationPoint
     {
         protected String id;
 
         public RawPoint()
             : base(DateTime.Now, 0, 0, 0)
+        {
+        }
+
+        public RawPoint(double latitude, double longitude)
+            : base(DateTime.Now, latitude, longitude, 0)
         {
         }
 
