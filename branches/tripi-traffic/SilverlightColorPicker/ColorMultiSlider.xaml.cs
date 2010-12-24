@@ -18,7 +18,6 @@ namespace ColorPickerControl
 
     public partial class ColorMultiSlider : UserControl
     {
-
         public int SliderNumber { get { return sliderNumber; } set { if (value > 0 && value < 10) { sliderNumber = value; UpdateSliderNumber(); } } }
         protected int sliderNumber;
 
@@ -31,12 +30,28 @@ namespace ColorPickerControl
         public event MultiSliderValueChangedDelegate OnValueChanged;
         public event MultiSliderClickedDelegate OnClicked;
 
+        protected IList<Color> defaultSlidersColor;
+        protected IList<double> defaultSlidersMargin;
+
         public ColorMultiSlider()
         {
             InitializeComponent();
             int sliderNumber = 6;
             ColorSlider slider = new ColorSlider();
             initialSliderMargin = slider.MaximumSlider.Maximum / (sliderNumber - 1);
+            defaultSlidersColor = new List<Color>();
+            defaultSlidersColor.Add(Color.FromArgb(254, 0, 0, 0));
+            defaultSlidersColor.Add(Color.FromArgb(254, 254, 0, 0));
+            defaultSlidersColor.Add(Color.FromArgb(254, 230, 157, 7));
+            defaultSlidersColor.Add(Color.FromArgb(254, 252, 254, 0));
+            defaultSlidersColor.Add(Color.FromArgb(254, 123, 187, 24));
+            defaultSlidersColor.Add(Color.FromArgb(254, 15, 121, 230));
+            defaultSlidersMargin = new List<double>();
+            defaultSlidersMargin.Add(10);
+            defaultSlidersMargin.Add(10);
+            defaultSlidersMargin.Add(10);
+            defaultSlidersMargin.Add(15);
+            defaultSlidersMargin.Add(15);
             sliders = new List<ColorSlider>();
             SliderNumber = sliderNumber;
         }
@@ -108,15 +123,16 @@ namespace ColorPickerControl
 
         protected void UpdateSliderNumber()
         {
-            double previousValue = -initialSliderMargin;
+            double previousValue = defaultSlidersMargin.Count > 0 ? -defaultSlidersMargin[0] : - initialSliderMargin;
             for (int i = 0; i < SliderNumber; i++)
             {
                 ColorSlider slider = new ColorSlider();
                 slider.Slider.Tag = i;
                 byte colorValue = (byte)(i * 255 / SliderNumber);
-                slider.Color = Color.FromArgb(255, (byte)(255 - colorValue), (byte)Math.Log10(colorValue), colorValue);
-                double value = previousValue + initialSliderMargin;
-                slider.ValueSlider.Maximum = value + initialSliderMargin - miniumSliderMargin + 1;
+                slider.Color = i < defaultSlidersColor.Count ? defaultSlidersColor[i] : Color.FromArgb(255, (byte)(255 - colorValue), (byte)Math.Log10(colorValue), colorValue);
+                double margin = i < defaultSlidersMargin.Count ? defaultSlidersMargin[i] : initialSliderMargin;
+                double value = previousValue + margin;
+                slider.ValueSlider.Maximum = value + margin - miniumSliderMargin + 1;
                 slider.ValueSlider.Minimum = value - 1;
                 if (i == SliderNumber - 1)
                 {

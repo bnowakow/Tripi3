@@ -7,8 +7,12 @@
     xmlns:data="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Data"
     xmlns:c="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
     xmlns:cp="clr-namespace:ColorPickerControl;assembly=ColorPicker"
+    xmlns:converter="clr-namespace:ColorPickerControl.Converter;assembly=ColorPicker"
     mc:Ignorable="d"
     >
+    <UserControl.Resources>
+        <converter:DoubleToInt x:Key="DoubleToInt" />
+    </UserControl.Resources>
     <Grid x:Name="LayoutRoot" Background="Gray">
 
         <Grid.RowDefinitions>
@@ -19,7 +23,7 @@
             <ColumnDefinition />
             <ColumnDefinition Width="300"/>
         </Grid.ColumnDefinitions>
-        
+
 
         <m:Map x:Name="Map" CredentialsProvider="AsYbfxsWZOLK1J1xU5a3R9Hp1t79IGbPWCrpP3S4MHETwW2bQS89YQSa8XgkP9aq" Margin="5" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
         </m:Map>
@@ -27,10 +31,11 @@
             <StackPanel.Background>
                 <SolidColorBrush Color="Black" Opacity="0.5" />
             </StackPanel.Background>
-            <cp:VelocityColorPicker Name="velocityColorPicker" Width="250" Height="350" />
+            <cp:VelocityColorPicker Name="velocityColorPicker" Width="250" Height="275" />
             <Button x:Name="updateVelocityPolylineButton" Click="updateVelocityPolylineButton_Click" Content="Update velocity polyline" />
+            
             <Slider x:Name="hourSlider" Value="15" Maximum="23" ValueChanged="hourSlider_ValueChangedCheck" />
-            <TextBlock Text="{Binding ElementName=hourSlider, Path=Value}" />
+            <TextBlock Text="{Binding ElementName=hourSlider, Path=Value, Converter={StaticResource DoubleToInt}}" />
         </StackPanel>
     </Grid>
 </UserControl>
