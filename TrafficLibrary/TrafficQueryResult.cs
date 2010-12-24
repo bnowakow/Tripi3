@@ -10,19 +10,19 @@ namespace TrafficLibrary
     public class TrafficQueryResult
     {
         protected int queryId;
-        protected EstimationPoint point;
+        protected IList<EstimationTrack> tracks;
 
-        public TrafficQueryResult(int queryId, EstimationPoint point)
+        public TrafficQueryResult(int queryId, IList<EstimationTrack> tracks)
         {
             this.QueryId = queryId;
-            this.Point = point;
+            this.Tracks = tracks;
         }
 
         [DataMember]
-        public EstimationPoint Point
+        public IList<EstimationTrack> Tracks
         {
-            get { return point; }
-            private set { point = value; }
+            get { return tracks; }
+            private set { tracks = value; }
         }
 
         [DataMember]
