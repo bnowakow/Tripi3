@@ -12,12 +12,13 @@ using System.Xml;
 using System.Collections.Generic;
 using Microsoft.Maps.MapControl;
 using System.Globalization;
+using TripiTrafficMap.TrafficServiceReference;
 
 namespace TripiTrafficMap.Tracks
 {
     public class Track
     {
-        protected IList<Location> points;
+        protected IList<RawPoint> points;
         public String Name { get { return name; } }
         protected String name;
 
@@ -25,10 +26,10 @@ namespace TripiTrafficMap.Tracks
         {
             name = gpxFilename;
             XmlReader reader = XmlReader.Create(@"Tracks/" + name);
-            points = new List<Location>();
+            points = new List<RawPoint>();
             while (reader.ReadToFollowing("trkpt"))
             {
-                Location point = new Location();
+                RawPoint point = new RawPoint();
                 point.Longitude = Double.Parse(reader.GetAttribute("lon"), System.Globalization.NumberStyles.Any, new NumberFormatInfo());
                 point.Latitude = Double.Parse(reader.GetAttribute("lat"), System.Globalization.NumberStyles.Any, new NumberFormatInfo());
                 points.Add(point);
@@ -36,17 +37,17 @@ namespace TripiTrafficMap.Tracks
             reader.Close();
         }
 
-        public IList<Location> GetPoints(double pointsPadding) {
+        public List<RawPoint> GetPoints(double pointsPadding) {
             if (points.Count == 0)
             {
                 return null;
             }
-            IList<Location> pointsWithPadding = new List<Location>();
+            List<RawPoint> pointsWithPadding = new List<RawPoint>();
             pointsWithPadding.Add(points[0]);
             for (int i = 1; i < points.Count; )
             {
-                Location currentPoint = points[i];
-                Location currentPointWithPadding = pointsWithPadding[pointsWithPadding.Count - 1];
+                RawPoint currentPoint = points[i];
+                RawPoint currentPointWithPadding = pointsWithPadding[pointsWithPadding.Count - 1];
                 double latDiff = currentPoint.Latitude - currentPointWithPadding.Latitude;
                 double lonDiff = currentPoint.Longitude - currentPointWithPadding.Longitude;
                 double latAbsDiff = Math.Abs(latDiff);
@@ -66,7 +67,7 @@ namespace TripiTrafficMap.Tracks
                 {
                     coef = pointsPadding / lonAbsDiff;
                 }
-                Location point = new Location();
+                RawPoint point = new RawPoint();
                 point.Latitude = currentPointWithPadding.Latitude + coef * latDiff;
                 point.Longitude = currentPointWithPadding.Longitude + coef * lonDiff;
                 pointsWithPadding.Add(point);

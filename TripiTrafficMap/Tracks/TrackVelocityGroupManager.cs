@@ -11,56 +11,74 @@ using System.Windows.Shapes;
 using System.Collections.Generic;
 using Microsoft.Maps.MapControl;
 using System.Linq;
+using TripiTrafficMap.TrafficServiceReference;
+using System.ServiceModel;
+using System.Collections;
+using System.Collections.ObjectModel;
 
 namespace TripiTrafficMap.Tracks
 {
-    public delegate void QueryTrackVelocityGroupDelegate(IEnumerable<TrackVelocityGroup> trackVelocityGroups);
+    public delegate void QueryTrackVelocityGroupDelegate(IEnumerable<EstimationTrack> trackVelocityGroups);
 
     public class TrackVelocityGroupManager
     {
-        protected IList<Track> trackList;
-        protected IList<DateTime> timeList;
+        protected List<Track> trackList;
+        protected List<DateTime> timeList;
 
-        protected IList<TrackVelocityGroup> trackVelocityGroupList;
+        protected List<EstimationTrack> trackVelocityGroupList;
+        protected TrafficServiceClient trafficServiceClient;
+        protected int i = 0;
 
         public event QueryTrackVelocityGroupDelegate OnVelocityGroupQueryCompleted;
 
-        public TrackVelocityGroupManager(IList<Track> trackList, IList<DateTime> timeList)
+        public TrackVelocityGroupManager(List<Track> trackList, List<DateTime> timeList)
         {
             this.trackList = trackList;
             this.timeList = timeList;
-            trackVelocityGroupList = new List<TrackVelocityGroup>();
+            trackVelocityGroupList = new List<EstimationTrack>();
+            EndpointAddress endpoint = new EndpointAddress("http://127.0.0.1:1337/Eiskonfekt.svc");
+            BasicHttpBinding binding = new BasicHttpBinding();
+            binding.MaxReceivedMessageSize = 2147483647;
+            binding.MaxBufferSize = 2147483647;
+            trafficServiceClient = new TrafficServiceClient(binding, endpoint);
+            trafficServiceClient.GetEstimationPointCompleted += new EventHandler<GetEstimationPointCompletedEventArgs>(trafficServiceClient_GetEstimationPointCompleted);
         }
 
-        public void AddVelocityGroupQuery(double pointsPadding) {
+        public void AddVelocityGroupQuery(double pointsPadding)
+        {
             foreach (Track track in trackList)
             {
-                foreach (DateTime time in timeList)
-                {
-                    TrackVelocity trackVelocity = new TrackVelocity(track.GetPoints(pointsPadding), time, pointsPadding, track.Name);
-                    trackVelocity.QueryTrackVelocityCompleted += new QueryTrackVelocityDelegate(trackVelocity_QueryTrackVelocityCompleted);
-                    trackVelocity.QueryTrackVelocity();
-                }
+                TrafficQuery trafficQuery = new TrafficQuery();
+                trafficQuery.QueryId = i++;
+                trafficQuery.Points = track.GetPoints(pointsPadding);
+                trafficQuery.Dates = timeList;
+                trafficQuery.PointsPadding = pointsPadding;
+                trafficQuery.Name = track.Name;
+                trafficServiceClient.GetEstimationPointAsync(trafficQuery);
             }
         }
 
-        void trackVelocity_QueryTrackVelocityCompleted(TrackVelocityGroup trackVelocityGroup)
+        void trafficServiceClient_GetEstimationPointCompleted(object sender, GetEstimationPointCompletedEventArgs e)
         {
-            trackVelocityGroupList.Add(trackVelocityGroup);
-            var trafficGroupLeftQuery = from t in trackVelocityGroupList
-                                        where t.PointsPadding == trackVelocityGroup.PointsPadding
-                                        where t.Name == trackVelocityGroup.Name
-                                        select t;
-            int count = trafficGroupLeftQuery.Count();
-            if (count == timeList.Count)
+            foreach (EstimationTrack estimationTrack in e.Result.Tracks)
             {
-                if (OnVelocityGroupQueryCompleted != null)
+                var selectedTrack = from t in trackList
+                                    where t.Name == estimationTrack.Name
+                                    select t;
+                int i = 0;
+                var originalPoints = selectedTrack.First().GetPoints(estimationTrack.PointsPadding);
+                foreach (EstimationPoint estimationPoint in estimationTrack.PointList)
                 {
-                    OnVelocityGroupQueryCompleted(trafficGroupLeftQuery);
+                    estimationPoint.Latitude = originalPoints[i].Latitude;
+                    estimationPoint.Longitude = originalPoints[i].Longitude;
+                    i++;
                 }
             }
-        }
 
-        
+            if (OnVelocityGroupQueryCompleted != null)
+            {
+                OnVelocityGroupQueryCompleted(e.Result.Tracks);
+            }
+        }
     }
 }

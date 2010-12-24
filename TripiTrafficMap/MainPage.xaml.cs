@@ -26,27 +26,27 @@ namespace TripiTrafficMap
         protected IMapStartPositionAdjuster mapStartPositionAdjuster;
         protected TrafficServiceClient trafficServiceClient;
         
-        //protected IList<EstimationPoint> pointList;
+        //protected List<EstimationPoint> pointList;
 
         protected TrackVelocityGroupManager trackVelocityGroupManager;
-        protected IList<TrackVelocityGroup> trackVelocityGroupList;
-        //protected IList<Track> trackList;
+        protected List<EstimationTrack> trackVelocityGroupList;
+        protected List<Track> trackList;
 
         public MainPage()
         {
             InitializeComponent();
-            IList<Track> trackList = new List<Track>();
+            trackList = new List<Track>();
             String[] trackFilenames = new String[] { "ZaspaPolitechnika.gpx", "SlowackiegoTmp.gpx" };
             for (int i = 0; i < trackFilenames.Length; i++)
             {
                 trackList.Add(new Track(trackFilenames[i]));
             }
-            IList<DateTime> timeList = new List<DateTime>();
+            List<DateTime> timeList = new List<DateTime>();
             for (int i = (int)hourSlider.Minimum; i <= (int)hourSlider.Maximum; i++) 
             {
                timeList.Add(DateTime.Parse(i + ":00"));
             }
-            trackVelocityGroupList = new List<TrackVelocityGroup>();
+            trackVelocityGroupList = new List<EstimationTrack>();
             trackVelocityGroupManager = new TrackVelocityGroupManager(trackList, timeList);
             trackVelocityGroupManager.OnVelocityGroupQueryCompleted += new QueryTrackVelocityGroupDelegate(trackVelocityGroupManager_OnVelocityGroupQueryCompleted);
             hourSliderPreviousValue = (int)hourSlider.Value;
@@ -91,13 +91,15 @@ namespace TripiTrafficMap
 
         protected double GetPointsPadding()
         {
-            return 0.01;
-            return 0.001;
+            //return 0.01;
+            //return 0.001;
+            return 0.0007; // max working
+            
             //return 0.0001;
             // 25 - 0.0001;
             // 12 - 0.01
             double zoom = Map.ZoomLevel < 12 ? 12 : Map.ZoomLevel;
-            double zoomRef1 = 12, zoomRef2 = 25, pointPaddingRef1 = 0.01, pointPaddingRef2 = 0.0001;
+            double zoomRef1 = 12, zoomRef2 = 25, pointPaddingRef1 = 0.01, pointPaddingRef2 = 0.0008;
             return (pointPaddingRef2 - pointPaddingRef1) * (zoom - zoomRef1) / (zoomRef2 - zoomRef1) + pointPaddingRef1;
         }
 
@@ -119,17 +121,17 @@ namespace TripiTrafficMap
             }
         }
 
-        void trackVelocityGroupManager_OnVelocityGroupQueryCompleted(IEnumerable<TrackVelocityGroup> trackVelocityGroups)
+        void trackVelocityGroupManager_OnVelocityGroupQueryCompleted(IEnumerable<EstimationTrack> trackVelocityGroups)
         {
             // TODO chekc if points already exists
-            foreach (TrackVelocityGroup trackVelocityGroup in trackVelocityGroups)
+            foreach (EstimationTrack trackVelocityGroup in trackVelocityGroups)
             {
                 trackVelocityGroupList.Add(trackVelocityGroup);
             }
             UpdateVelocityPolyline();
         }
 
-        private IEnumerable<TrackVelocityGroup> GetTracks(double pointsPadding, DateTime time)
+        private IEnumerable<EstimationTrack> GetTracks(double pointsPadding, DateTime time)
         {
             var tracksQuery = from t in trackVelocityGroupList
                               where t.PointsPadding == pointsPadding
@@ -148,8 +150,8 @@ namespace TripiTrafficMap
             {
                 Map.Children.Clear();
                 var pointListQuery = from l in GetTracks(GetPointsPadding(), DateTime.Parse((int)hourSlider.Value + ":00"))
-                                     select l.TrackPointList;
-                IList<EstimationPoint> allPoints = new List<EstimationPoint>();
+                                     select l.PointList;
+                List<EstimationPoint> allPoints = new List<EstimationPoint>();
                 foreach (IEnumerable<EstimationPoint> pointList in pointListQuery)
                 {
                     EstimationPoint prevLocation = null;
@@ -192,7 +194,9 @@ namespace TripiTrafficMap
                     }
                 }
 
-                if (allPoints.Count > 0 && !mapPositionInitialized)
+                var tracksReceivedQuery = from t in trackVelocityGroupList
+                                          select t.Name;
+                if (allPoints.Count > 0 && !mapPositionInitialized && tracksReceivedQuery.Distinct().Count() == trackList.Count)
                 {
                     mapPositionInitialized = true;
                     mapStartPositionAdjuster.SetMapCenterPointAndZoomLevel(allPoints);

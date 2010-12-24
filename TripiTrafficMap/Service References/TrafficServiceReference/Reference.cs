@@ -20,49 +20,64 @@ namespace TripiTrafficMap.TrafficServiceReference {
     [System.Runtime.Serialization.DataContractAttribute(Name="TrafficQuery", Namespace="http://schemas.datacontract.org/2004/07/TrafficLibrary")]
     public partial class TrafficQuery : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private System.DateTime DateField;
+        private System.Collections.Generic.List<System.DateTime> DatesField;
         
-        private double LatitudeField;
+        private string NameField;
         
-        private double LongitudeField;
+        private System.Collections.Generic.List<TripiTrafficMap.TrafficServiceReference.RawPoint> PointsField;
+        
+        private double PointsPaddingField;
         
         private int QueryIdField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.DateTime Date {
+        public System.Collections.Generic.List<System.DateTime> Dates {
             get {
-                return this.DateField;
+                return this.DatesField;
             }
             set {
-                if ((this.DateField.Equals(value) != true)) {
-                    this.DateField = value;
-                    this.RaisePropertyChanged("Date");
+                if ((object.ReferenceEquals(this.DatesField, value) != true)) {
+                    this.DatesField = value;
+                    this.RaisePropertyChanged("Dates");
                 }
             }
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public double Latitude {
+        public string Name {
             get {
-                return this.LatitudeField;
+                return this.NameField;
             }
             set {
-                if ((this.LatitudeField.Equals(value) != true)) {
-                    this.LatitudeField = value;
-                    this.RaisePropertyChanged("Latitude");
+                if ((object.ReferenceEquals(this.NameField, value) != true)) {
+                    this.NameField = value;
+                    this.RaisePropertyChanged("Name");
                 }
             }
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public double Longitude {
+        public System.Collections.Generic.List<TripiTrafficMap.TrafficServiceReference.RawPoint> Points {
             get {
-                return this.LongitudeField;
+                return this.PointsField;
             }
             set {
-                if ((this.LongitudeField.Equals(value) != true)) {
-                    this.LongitudeField = value;
-                    this.RaisePropertyChanged("Longitude");
+                if ((object.ReferenceEquals(this.PointsField, value) != true)) {
+                    this.PointsField = value;
+                    this.RaisePropertyChanged("Points");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public double PointsPadding {
+            get {
+                return this.PointsPaddingField;
+            }
+            set {
+                if ((this.PointsPaddingField.Equals(value) != true)) {
+                    this.PointsPaddingField = value;
+                    this.RaisePropertyChanged("PointsPadding");
                 }
             }
         }
@@ -92,52 +107,14 @@ namespace TripiTrafficMap.TrafficServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="TrafficQueryResult", Namespace="http://schemas.datacontract.org/2004/07/TrafficLibrary")]
-    public partial class TrafficQueryResult : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private TripiTrafficMap.TrafficServiceReference.EstimationPoint PointField;
-        
-        private int QueryIdField;
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public TripiTrafficMap.TrafficServiceReference.EstimationPoint Point {
-            get {
-                return this.PointField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.PointField, value) != true)) {
-                    this.PointField = value;
-                    this.RaisePropertyChanged("Point");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int QueryId {
-            get {
-                return this.QueryIdField;
-            }
-            set {
-                if ((this.QueryIdField.Equals(value) != true)) {
-                    this.QueryIdField = value;
-                    this.RaisePropertyChanged("QueryId");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
+    [System.Runtime.Serialization.DataContractAttribute(Name="RawPoint", Namespace="http://schemas.datacontract.org/2004/07/TrafficLibrary")]
+    public partial class RawPoint : TripiTrafficMap.TrafficServiceReference.EstimationPoint {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="EstimationPoint", Namespace="http://schemas.datacontract.org/2004/07/TrafficLibrary")]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(TripiTrafficMap.TrafficServiceReference.RawPoint))]
     public partial class EstimationPoint : object, System.ComponentModel.INotifyPropertyChanged {
         
         private System.DateTime DateField;
@@ -196,6 +173,126 @@ namespace TripiTrafficMap.TrafficServiceReference {
                 if ((this.SpeedField.Equals(value) != true)) {
                     this.SpeedField = value;
                     this.RaisePropertyChanged("Speed");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="TrafficQueryResult", Namespace="http://schemas.datacontract.org/2004/07/TrafficLibrary")]
+    public partial class TrafficQueryResult : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private int QueryIdField;
+        
+        private System.Collections.Generic.List<TripiTrafficMap.TrafficServiceReference.EstimationTrack> TracksField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int QueryId {
+            get {
+                return this.QueryIdField;
+            }
+            set {
+                if ((this.QueryIdField.Equals(value) != true)) {
+                    this.QueryIdField = value;
+                    this.RaisePropertyChanged("QueryId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Collections.Generic.List<TripiTrafficMap.TrafficServiceReference.EstimationTrack> Tracks {
+            get {
+                return this.TracksField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TracksField, value) != true)) {
+                    this.TracksField = value;
+                    this.RaisePropertyChanged("Tracks");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="EstimationTrack", Namespace="http://schemas.datacontract.org/2004/07/TrafficLibrary")]
+    public partial class EstimationTrack : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string NameField;
+        
+        private System.Collections.Generic.List<TripiTrafficMap.TrafficServiceReference.EstimationPoint> PointListField;
+        
+        private double PointsPaddingField;
+        
+        private System.DateTime TimeField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Name {
+            get {
+                return this.NameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NameField, value) != true)) {
+                    this.NameField = value;
+                    this.RaisePropertyChanged("Name");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Collections.Generic.List<TripiTrafficMap.TrafficServiceReference.EstimationPoint> PointList {
+            get {
+                return this.PointListField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.PointListField, value) != true)) {
+                    this.PointListField = value;
+                    this.RaisePropertyChanged("PointList");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public double PointsPadding {
+            get {
+                return this.PointsPaddingField;
+            }
+            set {
+                if ((this.PointsPaddingField.Equals(value) != true)) {
+                    this.PointsPaddingField = value;
+                    this.RaisePropertyChanged("PointsPadding");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime Time {
+            get {
+                return this.TimeField;
+            }
+            set {
+                if ((this.TimeField.Equals(value) != true)) {
+                    this.TimeField = value;
+                    this.RaisePropertyChanged("Time");
                 }
             }
         }
