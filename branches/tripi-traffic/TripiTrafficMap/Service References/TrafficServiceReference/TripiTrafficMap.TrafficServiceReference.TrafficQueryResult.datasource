@@ -6,5 +6,5 @@
     cause the file to be unrecognizable by the program.
 -->
 <GenericObjectDataSource DisplayName="TrafficQueryResult" Version="1.0" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
-   <TypeInfo>TripiTrafficMap.TrafficServiceReference.TrafficQueryResult</TypeInfo>
+   <TypeInfo>TripiTrafficMap.TrafficServiceReference.TrafficQueryResult, Service References.TrafficServiceReference.Reference.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</TypeInfo>
 </GenericObjectDataSource>

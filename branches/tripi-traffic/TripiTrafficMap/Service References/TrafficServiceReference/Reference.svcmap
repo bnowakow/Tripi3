@@ -9,7 +9,7 @@
     <GenerateMessageContracts>false</GenerateMessageContracts>
     <NamespaceMappings />
     <CollectionMappings>
-      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
     </CollectionMappings>
     <GenerateSerializableTypes>false</GenerateSerializableTypes>
     <Serializer>Auto</Serializer>
@@ -28,6 +28,7 @@
     <MetadataFile FileName="TrafficService.wsdl" MetadataType="Wsdl" ID="b141556b-65da-4bc4-a0ba-52528576dab1" SourceId="1" SourceUrl="http://127.0.0.1:1337/Eiskonfekt.svc?wsdl" />
     <MetadataFile FileName="Eiskonfekt1.xsd" MetadataType="Schema" ID="7902dcbd-556d-4a96-a20b-47c1b3111b09" SourceId="1" SourceUrl="http://127.0.0.1:1337/Eiskonfekt.svc?xsd=xsd1" />
     <MetadataFile FileName="Eiskonfekt2.xsd" MetadataType="Schema" ID="9d8f4769-7307-41bf-9c10-5b160d775bc0" SourceId="1" SourceUrl="http://127.0.0.1:1337/Eiskonfekt.svc?xsd=xsd0" />
+    <MetadataFile FileName="Eiskonfekt31.xsd" MetadataType="Schema" ID="16ae1a1f-1e49-47a1-b4d6-7e6b0848caaa" SourceId="1" SourceUrl="http://127.0.0.1:1337/Eiskonfekt.svc?xsd=xsd3" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

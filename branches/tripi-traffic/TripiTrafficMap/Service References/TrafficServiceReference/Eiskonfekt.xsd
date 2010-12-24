@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/TrafficLibrary" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/TrafficLibrary" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://127.0.0.1:1337/Eiskonfekt.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <xs:complexType name="TrafficQuery">
     <xs:sequence>
-      <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
-      <xs:element minOccurs="0" name="Latitude" type="xs:double" />
-      <xs:element minOccurs="0" name="Longitude" type="xs:double" />
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Dates" nillable="true" type="q1:ArrayOfdateTime" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Points" nillable="true" type="tns:ArrayOfRawPoint" />
+      <xs:element minOccurs="0" name="PointsPadding" type="xs:double" />
       <xs:element minOccurs="0" name="QueryId" type="xs:int" />
     </xs:sequence>
   </xs:complexType>
   <xs:element name="TrafficQuery" nillable="true" type="tns:TrafficQuery" />
-  <xs:complexType name="TrafficQueryResult">
+  <xs:complexType name="ArrayOfRawPoint">
     <xs:sequence>
-      <xs:element minOccurs="0" name="Point" nillable="true" type="tns:EstimationPoint" />
-      <xs:element minOccurs="0" name="QueryId" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RawPoint" nillable="true" type="tns:RawPoint" />
     </xs:sequence>
   </xs:complexType>
-  <xs:element name="TrafficQueryResult" nillable="true" type="tns:TrafficQueryResult" />
+  <xs:element name="ArrayOfRawPoint" nillable="true" type="tns:ArrayOfRawPoint" />
+  <xs:complexType name="RawPoint">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:EstimationPoint">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RawPoint" nillable="true" type="tns:RawPoint" />
   <xs:complexType name="EstimationPoint">
     <xs:sequence>
       <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
@@ -25,4 +34,32 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="EstimationPoint" nillable="true" type="tns:EstimationPoint" />
+  <xs:complexType name="TrafficQueryResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="QueryId" type="xs:int" />
+      <xs:element minOccurs="0" name="Tracks" nillable="true" type="tns:ArrayOfEstimationTrack" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TrafficQueryResult" nillable="true" type="tns:TrafficQueryResult" />
+  <xs:complexType name="ArrayOfEstimationTrack">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EstimationTrack" nillable="true" type="tns:EstimationTrack" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEstimationTrack" nillable="true" type="tns:ArrayOfEstimationTrack" />
+  <xs:complexType name="EstimationTrack">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PointList" nillable="true" type="tns:ArrayOfEstimationPoint" />
+      <xs:element minOccurs="0" name="PointsPadding" type="xs:double" />
+      <xs:element minOccurs="0" name="Time" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EstimationTrack" nillable="true" type="tns:EstimationTrack" />
+  <xs:complexType name="ArrayOfEstimationPoint">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EstimationPoint" nillable="true" type="tns:EstimationPoint" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEstimationPoint" nillable="true" type="tns:ArrayOfEstimationPoint" />
 </xs:schema>

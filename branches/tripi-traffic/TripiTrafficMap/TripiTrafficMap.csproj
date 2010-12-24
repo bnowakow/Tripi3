@@ -91,8 +91,6 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Tracks\Track.cs" />
-    <Compile Include="Tracks\TrackVelocity.cs" />
-    <Compile Include="Tracks\TrackVelocityGroup.cs" />
     <Compile Include="Tracks\TrackVelocityGroupManager.cs" />
     <Compile Include="Util\Interface\IMapStartPositionAdjuster.cs" />
     <Compile Include="Util\MapStartPositionAdjuster.cs" />
@@ -113,6 +111,9 @@
     <None Include="Service References\TrafficServiceReference\Eiskonfekt.disco" />
     <None Include="Service References\TrafficServiceReference\configuration91.svcinfo" />
     <None Include="Service References\TrafficServiceReference\configuration.svcinfo" />
+    <None Include="Service References\TrafficServiceReference\Eiskonfekt31.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\TrafficServiceReference\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
@@ -131,6 +132,9 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\TrafficServiceReference\Eiskonfekt2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TrafficServiceReference\Eiskonfekt3.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\TrafficServiceReference\TrafficService.wsdl" />
