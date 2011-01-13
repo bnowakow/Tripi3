@@ -68,6 +68,7 @@
     <Compile Include="ColorSlider.xaml.cs">
       <DependentUpon>ColorSlider.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Converter\DoubleToHourString.cs" />
     <Compile Include="Converter\SliderWidthConverter.cs" />
     <Compile Include="Converter\DoubleToInt.cs" />
     <Compile Include="Converter\SliderThumbPaddingConverter.cs" />
