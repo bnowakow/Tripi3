@@ -167,15 +167,23 @@ namespace TripiTrafficMap
                             GradientStop gradientStart = new GradientStop();
                             GradientStop gradientStop = new GradientStop();
 
-                            gradientStart.Offset = 0.0;
-                            gradientStop.Offset = 0.5;
+                            gradientStart.Offset = 0;
+                            gradientStop.Offset = 1;
 
-                            gradientStart.Color = velocityColorPicker.getColor(prevLocation.Speed);
-                            gradientStop.Color = velocityColorPicker.getColor(location.Speed);
-
+                            if (prevLocation.Longitude - location.Longitude < 0)
+                            {
+                                gradientStart.Color = velocityColorPicker.getColor(prevLocation.Speed);
+                                gradientStop.Color = velocityColorPicker.getColor(location.Speed);
+                            }
+                            else
+                            {
+                                gradientStart.Color = velocityColorPicker.getColor(location.Speed);
+                                gradientStop.Color = velocityColorPicker.getColor(prevLocation.Speed);
+                            }
+                            
                             linearGradientBrush.StartPoint = new Point(0, 0);
                             linearGradientBrush.EndPoint = new Point(1, 0);
-
+                            
                             linearGradientBrush.GradientStops = new GradientStopCollection();
 
                             linearGradientBrush.GradientStops.Add(gradientStart);
