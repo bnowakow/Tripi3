@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{34723F3D-FA80-4E80-BBB6-C2367C301042}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -57,6 +57,7 @@
     <Compile Include="Estimation.cs" />
     <Compile Include="EstimationPoint.cs" />
     <Compile Include="EstimationStrategy.cs" />
+    <Compile Include="EstimationTrack.cs" />
     <Compile Include="ICrossDomainPolicyResponder.cs" />
     <Compile Include="ITrafficService.cs" />
     <Compile Include="TrafficQuery.cs" />
